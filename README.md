@@ -4,13 +4,19 @@ This website currently aims at storing long-term articles and reports. The offic
 
 This website can be publicly accessed at [serviceinnovationlab.github.io](https://serviceinnovationlab.github.io).
 
+## Building
+
+This website is build with [Jekyll](https://jekyllrb.com).
+
+Please refer to its [documentation](https://jekyllrb.com/docs/quickstart/) to install the gem and build the website locally if you want to test your changes before sharing them.
+
 
 ## Hosting
 
 This website is hosted by [GitHub Pages](https://pages.github.com).
 
 
-## Deployment
+## Deploying
 
 The `master` branch of the [serviceinnovationlab.github.io](https://github.com/serviceinnovationlab/serviceinnovationlab.github.io) is always deployed at `serviceinnovationlab.github.io`.
 

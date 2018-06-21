@@ -1,0 +1,6 @@
+# Jekyll build artifacts
+_site
+.jekyll-metadata
+
+# OS-specific files
+.DS_Store
