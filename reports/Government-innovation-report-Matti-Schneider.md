@@ -3,6 +3,8 @@ title: Matti Schneider’s report
 layout: report
 ---
 
+> _This report can also be downloaded as a [PDF file](../documents/Government-innovation-report-Matti-Schneider.pdf)._
+
 # The Lab
 
 The Government Service Innovation Lab of Aotearoa New Zealand, hosted by the Department of Internal Affairs, is one of these "makers" pockets that found a way in government and bring within it an ability to do disruptive innovation.
@@ -162,6 +164,8 @@ Larger-scale transformation funding would then be most effectively provided to a
 Use it to spearhead, demonstrate, engage, hire. The Lab will never deliver all public digital services, nor should it aim to. But it can be used to show what all agencies should try to emulate. Make it grow and evolve similar initiatives across central and local government, by getting Lab alumni to mentor them. Use the Lab reputation and skills to hire highly skilled digital professionals, and trust the Lab to facilitate their onboarding: it is the only part of government that speaks their language.
 
 ![Better Rules hackathon final presentations, Wellington, 2018](../media/Government-innovation-report-Matti-Schneider/image7.jpeg)
+
+> _This report can also be downloaded as a [PDF file](../documents/Government-innovation-report-Matti-Schneider.pdf)._
 
 
 [^1]: I do not include state-wide digital initiatives in countries such
