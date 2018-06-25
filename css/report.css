@@ -1,0 +1,8 @@
+@import './writ.min.css';
+
+.footnotes {
+	margin-top: 1em;
+	border-top: 1px solid #333;
+	font-size: 90%;
+	color: #222;
+}
