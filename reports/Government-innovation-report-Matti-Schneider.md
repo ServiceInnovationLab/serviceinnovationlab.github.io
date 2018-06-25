@@ -1,4 +1,5 @@
 ---
+title: Matti Schneider’s report
 ---
 
 # The Lab

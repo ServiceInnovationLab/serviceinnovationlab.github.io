@@ -6,3 +6,10 @@ title: LabPlus
 description: Government Service Innovation Lab
 url: https://serviceinnovationlab.github.io
 baseurl: ""
+
+defaults:
+  -
+    scope:
+      path: "" # means “all files”
+    values:
+      layout: default
