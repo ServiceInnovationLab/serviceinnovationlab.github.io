@@ -1,7 +1,9 @@
 ---
-title: Matti Schneider’s report
+title: Aotearoa New Zealand Government Innovation Assets and Risks
 layout: report
 ---
+
+#### As seen by a nomadic public service innovator in 2018
 
 > _This report can also be downloaded as a [PDF file](../documents/Government-innovation-report-Matti-Schneider.pdf)._
 
