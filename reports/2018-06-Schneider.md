@@ -166,6 +166,8 @@ Use it to spearhead, demonstrate, engage, hire. The Lab will never deliver all p
 ![Better Rules hackathon final presentations, Wellington, 2018](../media/Government-innovation-report-Matti-Schneider/image7.jpeg)
 
 > _This report can also be downloaded as a [PDF file](../documents/Government-innovation-report-Matti-Schneider.pdf)._
+>
+> This document is licensed under [Creative Commons Non-derivatives 4.0](https://creativecommons.org/licenses/by-nd/4.0/). You are free to redistribute and share it as long as you attribute it to “Matti Schneider for the New Zealand Government’s Service Innovation Team” and do not alter its contents.
 
 
 [^1]: I do not include state-wide digital initiatives in countries such
