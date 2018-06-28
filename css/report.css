@@ -1,5 +1,12 @@
 @import './writ.min.css';
 
+img + em { /* image legends */
+	display: block;
+	text-align: center;
+	color: #222;
+	font-size: 90%;
+}
+
 .footnotes {
 	margin-top: 1em;
 	border-top: 1px solid #333;
