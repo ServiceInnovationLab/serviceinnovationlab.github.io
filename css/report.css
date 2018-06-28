@@ -1,5 +1,11 @@
 @import './writ.min.css';
 
+.subtitle {
+	display: block;
+	font-size: 150%;
+	text-align: center;
+}
+
 img + em { /* image legends */
 	display: block;
 	text-align: center;
