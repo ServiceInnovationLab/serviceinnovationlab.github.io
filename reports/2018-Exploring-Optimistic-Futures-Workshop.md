@@ -181,7 +181,7 @@ Activities:
 
 Below are the present and future states each group brainstormed. We intentionally looks 50 years out to think about new horizons rather than iterations on the status quo.
 
-## Grow food - nutrition
+## Grow food - nutrition - Group 2
 
 Now:
 
@@ -195,4 +195,31 @@ Now:
 * Disruption to supply chain
 * Tracability of crop lineage and social responsibility
 * Better ways to measure the value of growing food
-* Reflection an
+* Reflection, measurements and iteration on resource usage
+* Empathy on food security and sharing
+* Curiosity on food as medicine and eHealth
+* Understanding how our past shapes our food
+
+## Grow food - nutrition - Group 3
+
+Now:
+
+* Mix of mass and individual production
+* Organics are popular
+* Community gardens and distribution
+* Highly seasonal - problematic
+* Labour intensive - problematic
+* New plant varieties not keeping up with climate change
+* Inefficiencies - waste distribution
+* Competitive global market
+* R&D is great
+* Environmental threats - pesticides, biodiversity, etc
+* Farming is in our kiwi DNA
+* Site prearation and decision making
+* Resourcing - equipment and people
+* Know your market and integrate with environmental factors
+* Supermarkets dominate
+
+2070:
+
+* 
