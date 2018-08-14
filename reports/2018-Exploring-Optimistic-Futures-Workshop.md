@@ -29,6 +29,25 @@ Brought to you by [Victoria University of Wellington](https://www.victoria.ac.nz
 
 This event is part of the Techweek series on Building Government’s Digital Service Innovation Capability. The room was divided into 4 large groups for discussion and exploration.
 
+# Group share and reflection
+
+At the end of the day there was a group share and reflection which had the following insights.
+
+* The initial discussion was not about the tech, it was about the people
+* Of interest – dealing with someone’s intellect after death…and how this could benefit society
+* Huge number of changes noticed with the activity – progressing from person’s exercise to societal benefits
+* How will government incentivise the changes we’ve identified (that need to happen for optimistic future)?
+** More intuitive change, tapping into the psyche of the people
+* Noted we will share outputs from session plus what is happening at MBIE (digital strategy “speed dating” sessions)
+* Starting off with the values was the right type of exercise J
+** Had people think about what we’re trying to achieve/the end goal in mind
+* Next conversations we need to have:
+** Some kind of personal commitment – make it concrete
+** Co-build a public facing repository of the information
+* What caused most discussion:
+** The ethical considerations + having a broader community discussion (beyond government)
+** Where will the conversation take place + how do we bring other voices in?
+ 
 # Activity One - Qualities to thrive as kiwis in 2070
 
 Participants were asked to brainstorm qualities of an optimistic future in which kiwis could thrive and then chose 5 per group they felt were the most important. 
@@ -181,6 +200,30 @@ Activities:
 
 Below are the present and future states each group brainstormed. We intentionally looks 50 years out to think about new horizons rather than iterations on the status quo.
 
+## Have a funeral - Group 1
+
+Now:
+
+* person dies of incurable disease, old age, car accident
+* their passwords and access dies with them
+* paperwork to formalise death - probate, govt processes
+* obiturary in the newspaper
+* funeral happens, people travel to it
+* body is buried or cremated
+* mind is gone
+* mourning - family remembers them through photos, videos, letters, social media?
+* religious and cultural components 
+
+2070:
+
+* less unexpected deaths, so person has time to manage affairs, more euthanasia, plenned funerals
+* bio tracking knows you've died, user-authorised services are notified and person's wishes enacted - still human gatekeeper 
+* funeral - laws prohibiting satellite corpses, energy considered in body removal, homogenised religious/cultural approach?
+* relationship to physical body changes as consciousness is able to be uploaded
+* therapy for mourning
+* An AI likeness lives on
+* The life long learning of the person lives on in IP commons. Can someone else download a consciousness or ideas/knowledge from that person?
+
 ## Grow food - nutrition - Group 2
 
 Now:
@@ -220,6 +263,155 @@ Now:
 * Know your market and integrate with environmental factors
 * Supermarkets dominate
 
+2070 (with qualities):
+
+* NZ developes best protein DNA
+* DNA of cow - headless carcass with no pain (ethics)
+* grow at home - 3D printing, predictive & inspiring, based on individual needs, land gets back to early state and rich biodiversity
+* open sourcing of food production - sharing DNA code, incentivised social schemes & govt policy with different motives and measurements from today
+* All supported by: decisive, courageous, resilient, sustainable, and kind/inclusive values.
+
+## Exercise and healthy living - Group 4
+
+Now:
+
+* decide on exercise
+* find and wear appropriate exercise clothes
+* choose venue
+* plan time
+* find appropriate companions
+* double check motivation
+* book/schedule events
+* transport to and from
+* stretching and exercise
+* review performance
+* procrastinate at any stage
+
 2070:
 
-* 
+* greater access to diverse, affordable and open access options
+* built into daily routine (treadmill desks?), big analytics focus
+* Companions less necessary due to a) corporeal and b) human options
+* Mental health reflection built in (mindfullness)
+* Diary optimisation and automation
+* More bio monitoring to optimise exercise plan according to need
+* Generate power or credits from tasks
+
+# Activity Three - Roles & Requirements
+
+Participants were asked to then reflect on the previous activities and discuss and answer the following questions:
+
+1. What effects could this have at a community or national level e.g. benefits and challenges?
+2. Should government play a role? if so what?
+3. How could technology enable these?
+
+## Group 1 - have a funeral:
+
+1. National and Community level:
+..* Pragmatics sorted control
+..* Will of how your ‘mind’ can be used after your death
+..* How can you participate in society after you die?  E.g. can you vote, give testimony etc.
+..* What are your rights
+..* How does this effect whakapapa? Does your mind get passed down - whole new oral tradition
+..* Can virtual minds aggregate knowledge/take action? E.g. indigenous minds protect against colonialism
+
+2. Role of Government:
+..* Does government ‘own’ its citizens minds after death?
+..* Can a person choose a different nationality after they die?
+..* Protecting a persons rights/privacy after they die
+
+3. How can technology enable:
+..* Safeguards - controlling/choosing how your mind can be used/altered - git control not blockchain
+..* Death bureaucracy automated
+..* Having your own AI avatar as executor
+..* Living on virtually after death
+
+## Group 2 - grow food/nurtrition:
+
+1. Effects on Community/Country:
+..* Sharing economy
+..* Will we be able to “grow” meat?
+..* Nutritional Value
+..* Based on values = optimistic future = no gap
+
+2. Role of Government:
+..* Regulations/framework across/ standards
+..* Research - promote/encourage = partnership with academia
+..* Local government - info on soil, percentage of public land available to grow food?
+
+3. How can technology enable:
+..* Robots
+..* Soilchecking
+..* Fruit salad trees via grafting
+..* Enable traceability 
+..* Water conservation
+..* Meteorological forecasting
+..* Nutritional check
+..* GMO? More nutritional
+..* Harvesting distribution based on need
+
+## Group 3 - grow food/nutrition:
+
+1. Effects on Community/Country:
+..* Position NZ as quality and food experts
+..* Better use of global resources 
+..* Our small population means being able to test and identify benefits quickly 
+..* Better health through personalised food solutions 
+..* Less ethical dilemma over consuming protein 
+..* More options for learning about alternatives 
+..* Equality and no poverty 
+
+2. Role of Government:
+..* Education on how it works 
+..* Regulation of ‘programmable’ food 
+..* Maintain a group of people who are aware of the tech 
+..* Incentivise communities for uptake 
+
+2. How can technology enable:
+..* Sharing IP (open source) 
+
+Benefits: 
+..* History of being a primary provider
+..* Decreasing food scarcity
+
+Challenges:
+..* Identity crisis 
+..* Changing mindsets may take a while to get there 
+..* Socialising change in food production 
+..* Isolation is possible - too much time with nothing meaningful to do 
+..* Reliance on technology 
+
+# Group 4 - do exercise
+
+1. Effects on Community/Country:
+..* More likely to try different things as potential lower risk 
+..* Specialisation in work/activities 
+..* Who will be motivated to fund? Medical insurance, government…
+..* Medical /physical/mental health measurement, monitoring and development - more efficiency and comparatives
+..* Community contribution = credit generation (?) 
+..* Early diagnosis 
+
+2. Role of Government:
+..* Funding 
+..* Enabling and encouraging activities 
+..* Exposure to different roles and activities 
+..* Provides right guidelines to encourage healthier choices + private sector innovation in this area 
+..* Regulation for ethical implications of data use 
+
+3. How can technology enable:
+..* Regular open and VR access 
+..* Regulate or schedule daily routines 
+..* Monitors detect physical level and give optimal preparations
+
+# Key themes of the effects on Society
+
+* Participation in society before and after death
+* Sharing of knowledge and passing down generations 
+* Specialised in what we do and offer
+* Key themes Tech:
+* Traceability and control 
+* Knowledge sharing
+* Key themes Role of Govt: 
+* Encouragement and incentivisation 
+* Measure and evaluate
+* Protect privacy
