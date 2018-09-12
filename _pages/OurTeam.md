@@ -4,14 +4,6 @@ title:  Our Team
 layout: default
 
 ---
-<!--<div class = "container-fluid">
-	<h1>Meet the Team</h1>
-  	<div class = "row" style = "background-color:lightcyan;">
-    <div class = "col-xs-4">1</div>
-    <div class = "col-xs-4">2</div>
-    <div class = "col-xs-4">3</div>  
-	</div>
-</div>-->
 <!--http://nicesnippets.com/snippet/how-to-create-responsive-meet-our-team-page-design-using-bootstrap -->
 <div class="container section-ourTeam">
 	<div class="row">
@@ -90,7 +82,7 @@ layout: default
 			</div>
 		</div>
 	</div>
-		<div class="row">
+	<div class="row">
 		<div class="col-md-4 col-sm-4 col-xs-12">
 			<div class="row section-danger ourTeam-box text-center">
 				<div class="col-md-12 section1">
