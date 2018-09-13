@@ -158,14 +158,14 @@ pre {
 
     margin-right: auto;
     margin-left: auto;
-    padding-right: 80px;
-    padding-left: 80px;
+    padding-right: 60px;
+    padding-left: 60px;
     @extend %clearfix;
 
     @include media-query($on-laptop) {
 
-        padding-right: 80px;
-        padding-left: 80px;
+        padding-right: 60px;
+        padding-left: 60px;
     }
 }
 

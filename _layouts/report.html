@@ -17,28 +17,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="{{ '/css/report.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.scss?v=' | append: site.github.build_revision | relative_url }}">
     {% include head.html %} 
+    {% include header.html %}
   </head>
 
-  <body>
-    {% include header.html %}
-    <header class="page-header" role="banner">
+  <header class="page-header" role="banner">
     <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
     <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-    </header>
+    <!--{% if site.github.is_project_page %}
+      <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a> 
+    {% endif %}-->
+  </header>
 
-    
-    <div class = "centerPageTitle" style = "font-size: 40px; text-align: center;">
-    {{ page.title }}
-    </div>
-    
+  <body>
+
     <main id="content" class="main-content" role="main">
-      
+
       {{ content }}
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> 
+      <script>
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+        } else {
+          document.getElementById("myBtn").style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      } 
+      </script>
 
       <footer class="site-footer">
-      	 {% include footer.html %}
+         {% include footer.html %}
       </footer>
     </main>
   </body>
