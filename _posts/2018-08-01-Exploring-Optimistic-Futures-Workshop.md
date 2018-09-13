@@ -1,17 +1,13 @@
 ---
-
 title: Transitioning to an Optimistic Futures Workshop - 18 May 2018
-
 layout: report
 tag: report
-
 ---
-
-<!--Redirect to current page (so as not to break the current links)
+<!--Redirect to current page (so as not to break the current links) -->
 <script>
   window.location.href = "https://www.digital.govt.nz/blog/using-optimistic-futures-to-inform-your-work-today/"
 </script>
- -->
+
  
 <span class="subtitle">Led by Matthew MacCallum and Ben Briggs, Service Innovation Lab</span>
 

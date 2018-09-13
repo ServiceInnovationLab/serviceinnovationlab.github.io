@@ -1,17 +1,13 @@
 ---
-
 title: The Service Innovation Lab 2017-18 FY Work Program Report
-
 layout: report
 tag: report
-
 ---
-
-<!--Redirect to current page (so as not to break the current links) 
+<!--Redirect to current page (so as not to break the current links)-->
 <script>
   window.location.href = "https://serviceinnovationlab.github.io/reports/201807-2017-18-Lab-Report";
 </script>
--->
+
 
 <span class="subtitle">30 June 2018 by Pia Andrews - Service Innovation Lab Lead</span>
 

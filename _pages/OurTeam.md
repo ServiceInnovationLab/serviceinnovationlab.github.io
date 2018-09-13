@@ -38,7 +38,7 @@ layout: default
 		<div class="col-md-4 col-sm-4 col-xs-12">
 			<div class="row section-info ourTeam-box text-center">
 				<div class="col-md-12 section1">
-					<img src="/demo/meet02.png">
+					<img src="/assets/media/Team/img1.jpg" title="img1" alt = "img1" style = "background-color: black;">
 				</div>
 				<div class="col-md-12 section2">
 					<p>JOHN MEKER</p><br>
@@ -61,7 +61,7 @@ layout: default
 		<div class="col-md-4 col-sm-4 col-xs-12">
 			<div class="row section-danger ourTeam-box text-center">
 				<div class="col-md-12 section1">
-					<img src="/demo/meet03.png">
+					<img src="/assets/media/Team/img1.jpg" title="img1" alt = "img1" style = "background-color: black;">
 				</div>
 				<div class="col-md-12 section2">
 					<p>VIN DEASEL</p><br>
@@ -86,7 +86,7 @@ layout: default
 		<div class="col-md-4 col-sm-4 col-xs-12">
 			<div class="row section-danger ourTeam-box text-center">
 				<div class="col-md-12 section1">
-					<img src="/demo/meet01.png">
+					<img src="/assets/media/Team/img1.jpg" title="img1" alt = "img1" style = "background-color: black;">
 				</div>
 				<div class="col-md-12 section2">
 					<p>LISA MAHETA</p><br>
@@ -109,7 +109,7 @@ layout: default
 		<div class="col-md-4 col-sm-4 col-xs-12">
 			<div class="row section-info ourTeam-box text-center">
 				<div class="col-md-12 section1">
-					<img src="/demo/meet02.png">
+					<img src="/assets/media/Team/img1.jpg" title="img1" alt = "img1" style = "background-color: black;">
 				</div>
 				<div class="col-md-12 section2">
 					<p>JOHN MEKER</p><br>
@@ -132,7 +132,7 @@ layout: default
 		<div class="col-md-4 col-sm-4 col-xs-12">
 			<div class="row section-success ourTeam-box text-center">
 				<div class="col-md-12 section1">
-					<img src="/demo/meet03.png">
+					<img src="/assets/media/Team/img1.jpg" title="img1" alt = "img1" style = "background-color: black;">
 				</div>
 				<div class="col-md-12 section2">
 					<p>VIN DEASEL</p><br>
