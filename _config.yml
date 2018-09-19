@@ -2,10 +2,20 @@
 # If you change this file, please restart the server process.
 
 # Site settings
-title: LabPlus
-description: Government Service Innovation Lab
+title: Service Innovation Lab
+description: 
 url: https://serviceinnovationlab.github.io
 baseurl: ""
+
+google_analytics: [Your Google Analytics tracking ID]
+
+# Build settings
+markdown: kramdown
+
+sass:
+sass_dir: _sass
+
+theme: jekyll-theme-cayman
 
 defaults:
   -
@@ -13,3 +23,7 @@ defaults:
       path: "" # means “all files”
     values:
       layout: default
+
+show_downloads: true
+
+include: ["_pages"]

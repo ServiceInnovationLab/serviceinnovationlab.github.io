@@ -8,7 +8,7 @@ This website can be publicly accessed at [serviceinnovationlab.github.io](https:
 
 ## Building
 
-This website is build with [Jekyll](https://jekyllrb.com).
+This website is built with [Jekyll](https://jekyllrb.com).
 
 Please refer to its [documentation](https://jekyllrb.com/docs/quickstart/) to install the gem and build the website locally if you want to test your changes before sharing them.
 
