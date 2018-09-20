@@ -1,8 +1,8 @@
 ---
 title:  About
 layout: default
-date:   2018-08-30
 ---
+
 # The website of the Service Innovation Lab.
 
 This website currently aims at storing long-term articles and reports. The official blog of the team still lives at [digital.govt.nz/blog](https://www.digital.govt.nz/blog/).

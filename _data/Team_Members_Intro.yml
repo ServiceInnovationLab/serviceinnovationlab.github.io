@@ -1,0 +1,86 @@
+teamMembers:
+  # Ensure no. is consecutive. Copy & paste but un-comment(#).
+  # Remember that in OurTeam.html -> arrayNo = no. -1
+  #- <no.>:
+  #  name:
+  #    jobPosition: 
+  #    briefIntro:
+  - 1:
+    name: Darryl Carpenter
+    jobPosition: Job Position
+    briefIntro: Intro
+  
+  - 2:
+    name: Grant Carpenter
+    jobPosition: Job Position 
+    briefIntro: Intro
+  
+  - 3:
+    name: Nadia Webster
+    jobPosition: 
+    briefIntro: 
+  
+  - 4:
+    name: Karl McDiarmid
+    jobPosition: 
+    briefIntro: 
+  
+  - 5:
+    name: Kirk Mariner
+    jobPosition: 
+    briefIntro: 
+
+  - 6:
+    name: Tiopira Piripi
+    jobPosition: 
+    briefIntro: 
+  
+  - 7:
+    name: Matthew McCallum
+    jobPosition: 
+    briefIntro: 
+  
+  - 8:
+    name: Siobhan McCarthy
+    jobPosition: 
+    briefIntro: 
+  
+  - 9:
+    name: Brenda Wallace
+    jobPosition: 
+    briefIntro: 
+  
+  - 10:
+    name: Michelle Shannon-Smith
+    jobPosition: 
+    briefIntro: 
+
+  - 11:
+    name: Glen Thurston
+    jobPosition: 
+    briefIntro: 
+  
+  - 12:
+    name: Meredith O'Dea
+    jobPosition: 
+    briefIntro: 
+
+  - 13:
+    name: Hazel Bradshaw
+    jobPosition: 
+    briefIntro: 
+  
+  - 14:
+    name: 
+    jobPosition: 
+    briefIntro: 
+
+  - 15:
+    name: 
+    jobPosition: 
+    briefIntro: 
+
+  - 16:
+    name: 
+    jobPosition: 
+    briefIntro:       

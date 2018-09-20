@@ -1,7 +1,6 @@
 ---
 title: Aotearoa New Zealand Government Innovation Assets and Risks
 layout: report
-tag: report
 ---
 <!--Redirect to current page (so as not to break the current links)-->
 <script>

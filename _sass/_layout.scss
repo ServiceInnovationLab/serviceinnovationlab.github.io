@@ -148,8 +148,9 @@ h2.project-tagline
 
 .site-footer-AoG{
     background-color: black;
-    padding: 7px;
+    padding: 10px;
 }
+
 .footer-col-wrapper {
     font-size: 15px;
     color: $grey-color;
@@ -228,13 +229,13 @@ h2.project-tagline
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 #content.main-content
 {
     max-width: 100%;
-    padding: 2rem 2rem;
+    padding: 2rem 4rem;
     margin: 0 auto;
     font-size: 100%;
 }
@@ -293,51 +294,52 @@ body{
     background-color:#f1f1f1;
 }
 
-.ourTeam-heading{
-    /*background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../demo/hands-joined.jpg'); */
-    height:200px;
-    width:100%;
-    background-size:100% 100%;
-    background-repeat:no-repeat;
+.ourTeam-heading {
+    /** To put our background image
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../demo/hands-joined.jpg'); */
+    height: 200px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     background: linear-gradient(rgba(0,0,0,.10)); 
     background-color: black;
 }
 
-.ourTeam-heading h1{
-    color:#fff;
-    padding:70px 0px;
-    font-weight:900;
+.ourTeam-heading h1 {
+    color: #fff;
+    padding: 70px 0px;
+    font-weight: 900;
     z-index: 1;
 }
 
-.ourTeam-box{
+.ourTeam-box {
     border-top: 6px solid #5DDDD3;
     background-color: #FFFFFF;
 }
 
-.section1{
+.section1 {
     padding: 30px 0px 0px 0px;
 }
 
 /*Refer to https://www.w3schools.com/css/css3_images.asp */
-.section1 img{
-    border:5px solid #5DDDD3;
-    padding:5px;
-    border-radius:8px; /* or 50% if want rounded images */
+.section1 img {
+    border: 5px solid #5DDDD3;
+    padding: 5px;
+    border-radius: 8px; /* or 50% if want rounded images */
     height: auto;   /* height:170px; */
     max-width: 100%;    /* width: 170px;*/
 }
 
-.section2 h1{
-    font-size:20px;
-    color:#C1C1C1;
-    margin:0px;
-    border-bottom:2px solid #5DDDD3;
+.section2 h1 {
+    font-size: 20px;
+    color: #C1C1C1;
+    margin: 0px;
+    border-bottom: 2px solid #5DDDD3;
     display: inline-block;
     padding: 10px 0px;
 }
 
-.section2 p{
+.section2 p {
     background-color: #5DDDD3;
     display: inline-block;
     font-weight: bold;
@@ -347,11 +349,11 @@ body{
     margin-top: -20px;    
 }
 
-.section2 span{
+.section2 span {
     color:#979597;
 }
 
-.section2 label{
+.section2 label {
     background-color: #5DDDD3;
     padding: 8px 10px 8px 10px;
     color:#fff;
@@ -360,65 +362,87 @@ body{
     border-radius: 2px;
 }
 
-.section3 p{
+.section3 p {
     padding: 10px 15px 0px 15px;
-    font-size:12px;
-    color:#c3c9c9;
+    font-size: 14px;
+    color: #c3c9c9;
 }
 
-.section4{
-    padding:10px 0px 50px 0px;
+.section4 {
+    padding: 10px 0px 50px 0px;
 }
 
-.section4 i{
-    color:#fff;
-    padding:3px;
+.section4 i {
+    color: #fff;
+    padding: 3px;
     border-radius: 2px; 
     font-size: 12px;
     background-color: #5DDDD3;
     cursor: pointer;
 }
 
-.section-info{
-    border-top:6px solid #90DFAA;
+.section-green {
+    border-top: 6px solid #90DFAA;
 }
 
-.section-danger{
-    border-top:6px solid #FD8469;
+.section-green .section1 img {
+    border: 5px solid #90DFAA;
+    padding: 5px;
 }
 
-.section-info .section1 img{
-    border:5px solid #90DFAA;
-    padding:5px;
-}
-
-.section-info .section2 p{
+.section-green .section2 p {
     background-color: #90DFAA;
-    color:#fff;
+    color: #fff;
 }
 
-.section-danger .section2 p{
-    background-color: #FD8469;
-    color:#fff;
+.section-green .section2 h1 {
+    border-bottom: 2px solid #90DFAA;
 }
 
-.section-danger .section1 img{
-    border:5px solid #FD8469;
-    padding:5px;
-}
-
-.section-info .section4 i{
+.section-green .section4 i {
     background-color: #90DFAA;  
 }
 
-.section-danger .section4 i{
+.section-red {
+    border-top: 6px solid #FD8469;
+}
+
+.section-red .section1 img {
+    border: 5px solid #FD8469;
+    padding: 5px;
+}
+
+.section-red .section2 p {
+    background-color: #FD8469;
+    color: #fff;
+}
+
+.section-red .section2 h1 {
+    border-bottom: 2px solid #FD8469;
+}
+
+.section-red .section4 i {
     background-color: #FD8469;  
 }
 
-.section-info .section2 h1{
-    border-bottom:2px solid #90DFAA;
+.section-yellow {
+    border-top: 6px solid #EFE856;
 }
 
-.section-danger .section2 h1{
-    border-bottom:2px solid #FD8469;
+.section-yellow .section1 img {
+    border: 5px solid #EFE856;
+    padding: 5px;
+}
+
+.section-yellow .section2 p {
+    background-color: #EFE856;
+    color: #fff;
+}
+
+.section-yellow .section2 h1 {
+    border-bottom: 2px solid #EFE856;
+}
+
+.section-yellow .section4 i {
+    background-color: #EFE856;
 }

@@ -1,7 +1,6 @@
 ---
 title: The Service Innovation Lab 2017-18 FY Work Program Report
 layout: report
-tag: report
 ---
 <!--Redirect to current page (so as not to break the current links)-->
 <script>

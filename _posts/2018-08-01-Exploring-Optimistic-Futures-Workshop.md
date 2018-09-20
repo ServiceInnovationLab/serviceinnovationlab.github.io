@@ -1,7 +1,6 @@
 ---
 title: Transitioning to an Optimistic Futures Workshop - 18 May 2018
 layout: report
-tag: report
 ---
 <!--Redirect to current page (so as not to break the current links) -->
 <script>

@@ -133,7 +133,7 @@ code {
     border: 1px solid $grey-color-light;
     border-radius: 3px;
     background-color: #eef;
-    max-width: 50%;
+    /*max-width: 50%;  Can only seem to get the code box to shrink, but background stays long*/
 }
 
 code {
