@@ -1,22 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    {% if site.google_analytics %}
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ site.google_analytics }}');
+      </script>
+    {% endif %}
+    
+    <meta charset="UTF-8">
 
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% seo %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    {% include head.html %} 
+    {% include header.html %}
+  </head>
 
-		{% if page.layout != "default" %}
-			<link rel="stylesheet" type="text/css" href="/css/{{ page.layout }}.css">
-		{% endif %}
-	</head>
-	<body>
-		<header>
-			<h1>{{ page.title }}</h1>
-		</header>
+  <header class="page-header" role="banner">
+    <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+    <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+  </header>
 
-		<main>
-			{{ content }}
-		</main>
-	</body>
+  <body>
+
+    <main id="content" class="main-content" role="main">
+
+      {{ content }}
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> 
+      <script>
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+        } else {
+          document.getElementById("myBtn").style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      } 
+      </script>
+
+      <footer class="site-footer">
+      	 {% include footer.html %}
+      </footer>
+    </main>
+  </body>
 </html>

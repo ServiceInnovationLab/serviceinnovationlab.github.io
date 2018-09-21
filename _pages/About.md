@@ -1,6 +1,9 @@
-[![Waffle.io - Issues in progress](https://badge.waffle.io/ServiceInnovationLab/serviceinnovationlab.github.io.png?label=in%20progress&title=In%20Progress)](http://waffle.io/ServiceInnovationLab/serviceinnovationlab.github.io)
+---
+title:  About
+layout: default
+---
 
-# The website of the LabPlus team
+# The website of the Service Innovation Lab.
 
 This website currently aims at storing long-term articles and reports. The official blog of the team still lives at [digital.govt.nz/blog](https://www.digital.govt.nz/blog/).
 

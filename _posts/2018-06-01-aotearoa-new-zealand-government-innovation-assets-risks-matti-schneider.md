@@ -2,10 +2,15 @@
 title: Aotearoa New Zealand Government Innovation Assets and Risks
 layout: report
 ---
+<!--Redirect to current page (so as not to break the current links)-->
+<script>
+	window.location.href = "https://serviceinnovationlab.github.io/reports/2018-06-aotearoa-new-zealand-government-innovation-assets-risks-matti-schneider";
+</script>
+
 
 <span class="subtitle">as seen by a nomadic public service innovator in 2018</span>
 
-_This report can also be downloaded as a [PDF file](../documents/Government-innovation-report-Matti-Schneider.pdf)._
+_This report can also be downloaded as a [PDF file](/assets/Government-innovation-report-Matti-Schneider.pdf)._
 
 # The Lab
 
@@ -19,7 +24,7 @@ These are not to be confused with other administration modernisation and innovat
 
 As for all of these other international examples, the primary asset of the Lab (if not its entirety) is a very motivated, talented, interdisciplinary and genuine team with a bold and visionary leader. The central role of such servant leaders is to empower their colleagues by acting as a "brick umbrella," protecting them as much as possible from whatever the layers of bureaucracy above throw at them, allowing the positive and rewarding environment in which resilient and adaptable teams thrive. Such units leverage best engineering practices (continuous integration, continuous delivery, cloud hosting…) to ensure reliability and quality despite very constrained resources.
 
-![A gender- and age-diverse group sits in a circle in front of a large screen](../media/Government-innovation-report-Matti-Schneider/image2.jpeg)
+![A gender- and age-diverse group sits in a circle in front of a large screen](/assets/media/Government-innovation-report-Matti-Schneider/image2.jpeg)
 _Lab meeting, DIA, Wellington, 2018_
 
 ### Capability
@@ -40,7 +45,7 @@ The Lab will be unable to scale as such. It already operates over capacity, and 
 
 It is worth noting, however, that it is a recurrent pattern for these very innovative teams to be at first ignored —or even mistreated— by their host agency until their value is impossible to deny. All of these now "famous" labs have their own horror stories of uncertainty and defensive struggles. I explain this by metrics mismatch: since they bring disruptive innovation abilities within government, the bureaucracy is not equipped to measure their effort and impact: there is no massive budget, no 100-pager to read in the cabinet, no 3-year outsourcing contract that are the usual signs of "big things." Working software as the primary measure of progress, while [indisputable](http://agilemanifesto.org/principles.html) for agile practitioners, is invisible for the administration until the value brought is too visible to deny that the problem is in measuring impact, not in having it.
 
-![Two persons work behind a whiteboard where “Service Innovation Lab Refugees” can be read.](../media/Government-innovation-report-Matti-Schneider/image3.jpeg)
+![Two persons work behind a whiteboard where “Service Innovation Lab Refugees” can be read.](/assets/media/Government-innovation-report-Matti-Schneider/image3.jpeg)
 _The temporary Lab office after earthquake-prone offices had to be evacuated, DIA, Wellington, 2018_
 
 I recommend focusing on delivery as the primary strategy, as funding will either be cut entirely at some point or finally recognised as the necessary fuel for a new way to deliver public digital services, and that second option can only happen by demonstrating how cost-effective that way can be by operating in the current constraints.
@@ -100,7 +105,7 @@ All stakeholders of an action, be it standard service delivery or significant pr
 
 > In countries that take a top-down approach to action, operational agents training to follow a process rather than being engaged in it hinder change initiatives.
 
-![A poster on a wall states principles of collaboration for working at the Service Innovation Lab, surrounded by sticky notes.](../media/Government-innovation-report-Matti-Schneider/image4.jpeg)
+![A poster on a wall states principles of collaboration for working at the Service Innovation Lab, surrounded by sticky notes.](/assets/media/Government-innovation-report-Matti-Schneider/image4.jpeg)
 _The Lab front door, Wellington, 2018_
 
 ## Risks
@@ -138,7 +143,7 @@ This starts by ensuring agencies consider software as an asset, not a liability.
 
 > France has for example pioneered the notion of "[public data service](https://translate.google.com/translate?sl=fr&tl=en&js=y&prev=_t&hl=fr&ie=UTF-8&u=https://www.data.gouv.fr/en/reference&edit-text=)," identifying nine datasets as being critical for agencies and companies alike, and enshrining their availability and quality in legislation.
 
-![Wellington railway station](../media/Government-innovation-report-Matti-Schneider/image5.jpeg)
+![Wellington railway station](/assets/media/Government-innovation-report-Matti-Schneider/image5.jpeg)
 _A long-standing piece of infrastructure: the railway station, Wellington, 2018_
 
 
@@ -154,7 +159,7 @@ An important area of focus for the current ICT strategy is rephrasing elements t
 
 Actually, it was yesterday. Platform economics are already ruling the world of knowledge work. New relationships have to be built between government, economy, and society. Every day that passes where the government keeps policing through only regulation and strategies rather than building enabling platforms is more power flowing away to the GAFAMs and a lost opportunity to the people of Aotearoa New Zealand.
 
-![Parliament House with New Zealand flags](../media/Government-innovation-report-Matti-Schneider/image6.jpeg)
+![Parliament House with New Zealand flags](/assets/media/Government-innovation-report-Matti-Schneider/image6.jpeg)
 _Parliament House with national flags, Wellington, 2018_
 
 Such platforms should provide agencies, companies and individuals alike with APIs to interact with public services, interconnecting society components and providing governments with soft yet immediate and measurable power by regulating these platforms.
@@ -169,7 +174,7 @@ Larger-scale transformation funding would then be most effectively provided to a
 
 Use it to spearhead, demonstrate, engage, hire. The Lab will never deliver all public digital services, nor should it aim to. But it can be used to show what all agencies should try to emulate. Make it grow and evolve similar initiatives across central and local government, by getting Lab alumni to mentor them. Use the Lab reputation and skills to hire highly skilled digital professionals, and trust the Lab to facilitate their onboarding: it is the only part of government that speaks their language.
 
-![A group of people stand next to a screen in a colourful environment while an audience takes pictures of them](../media/Government-innovation-report-Matti-Schneider/image7.jpeg)
+![A group of people stand next to a screen in a colourful environment while an audience takes pictures of them](/assets/media/Government-innovation-report-Matti-Schneider/image7.jpeg)
 _Better Rules hackathon final presentations, Wellington, 2018_
 
 This document is licensed under [Creative Commons Non-derivatives 4.0](https://creativecommons.org/licenses/by-nd/4.0/). You are free to redistribute and share it as long as you attribute it to “Matti Schneider for the New Zealand Government’s Service Innovation Team” and do not alter its contents.
