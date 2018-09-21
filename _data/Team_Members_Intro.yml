@@ -21,12 +21,12 @@ teamMembers:
     briefIntro: 
   
   - 4:
-    name: Karl McDiarmid
+    name: Jacob Ong
     jobPosition: 
     briefIntro: 
   
   - 5:
-    name: Kirk Mariner
+    name: Hamish Fraser
     jobPosition: 
     briefIntro: 
 
@@ -51,7 +51,7 @@ teamMembers:
     briefIntro: 
   
   - 10:
-    name: Michelle Shannon-Smith
+    name: Dana Iti
     jobPosition: 
     briefIntro: 
 
@@ -71,16 +71,36 @@ teamMembers:
     briefIntro: 
   
   - 14:
-    name: Dana Iti
+    name: Merridy Marshall
     jobPosition: 
     briefIntro: 
 
   - 15:
-    name: 
+    name:  
     jobPosition: 
     briefIntro: 
 
   - 16:
     name: 
     jobPosition: 
-    briefIntro:       
+    briefIntro:
+  
+  - 17:
+    name: 
+    jobPosition: 
+    briefIntro:   
+  
+  - 18:
+    name: 
+    jobPosition: 
+    briefIntro:   
+
+  - 19:
+    name: 
+    jobPosition: 
+    briefIntro:  
+
+  - 20:
+    name: 
+    jobPosition: 
+    briefIntro:                  
