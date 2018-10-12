@@ -2,11 +2,6 @@
 title: Aotearoa New Zealand Government Innovation Assets and Risks
 layout: report
 ---
-<!--Redirect to current page (so as not to break the current links)-->
-<script>
-	window.location.href = "https://serviceinnovationlab.github.io/reports/2018-06-aotearoa-new-zealand-government-innovation-assets-risks-matti-schneider";
-</script>
-
 
 <span class="subtitle">as seen by a nomadic public service innovator in 2018</span>
 
