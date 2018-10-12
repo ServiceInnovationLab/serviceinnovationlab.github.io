@@ -61,6 +61,7 @@ In addition to the rating process the notice also acts another way to provide in
 
 __The notice of sale and its relation to rating and valuation__
 (also see [Appendix 1](#Go-to-Appendix1) for the key concepts required under legislation and what triggers a change of ownership, and see [Appendix 2 Data Map](#Go-to-Appendix2) for what data is collected at each step in the process)
+
 ![The Rating and Valuation Process!](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS2.png)
 
 
@@ -346,9 +347,9 @@ Rules and data validation flags to help select the correct process to use.
 
 ## Possible solution<a name = "Possible-solution"></a>
 
-The idea behind this possible future state is that much of the data required to action what is currently called the ‘Notice of Sale’ process is captured within the Sales and Purchase Agreement or through the Transfer Instrument (see [Appendix 2 Data Map](#Go-toAppendix2) for what data is collected at each step in the process). There are different triggers for this process (see the [triggers in Appendix 1](#Go-toAppendix1)), which is actually the process of changing the ownership of a rating unit.
+The idea behind this possible future state is that much of the data required to action what is currently called the ‘Notice of Sale’ process is captured within the Sales and Purchase Agreement or through the Transfer Instrument (see [Appendix 2 Data Map](#Go-to-Appendix2) for what data is collected at each step in the process). There are different triggers for this process (see the [triggers in Appendix 1](#Go-to-Appendix1)), which is actually the process of changing the ownership of a rating unit.
 
-Rather than expecting each person in the process chain to perform manual data entry then we could imagine a process where the data is kept as electronic data and systematically pushed through the required states of a workflow. Ideally this would satisfy the legislative requirements (see [Appendix 1 for the key concepts required under legislation](#Go-toAppendix1)) while achieving the goal of improved data quality and improved trust in the process. 
+Rather than expecting each person in the process chain to perform manual data entry then we could imagine a process where the data is kept as electronic data and systematically pushed through the required states of a workflow. Ideally this would satisfy the legislative requirements (see [Appendix 1 for the key concepts required under legislation](#Go-to-Appendix1)) while achieving the goal of improved data quality and improved trust in the process. 
 
 ![The Rating and Valuation Process!](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS19.png)
 
