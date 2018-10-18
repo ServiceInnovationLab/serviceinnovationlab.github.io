@@ -4,8 +4,15 @@ layout: report
 ---
 __Authored by:__ Glen Thurston and Nadia Webster
 
-# Exploring the Notice of Sale process
+# Contents
+1. [In summary](#Go-to-InSummary)
+2. [What is the notice of sale and why is it important?](#Go-to-WhatIsNoticeOfSale)
+3. [Possible solution](#Go-to-PossibleSolution)
+4. [Next Steps](#Go-to-NextSteps)
 
+
+
+# Exploring the Notice of Sale process
 
 Exploring opportunities to improve the notice of sale process as part of the life event of ‘selling and buying a property’
 
@@ -19,7 +26,7 @@ A collaboration between:
 - Whangarei District Council  
 
 
-## In summary
+## In summary<a name = "Go-to-InSummary"></a>
 
 In August 2018, a collaboration led by the all of government Service Innovation Lab with Auckland Council, Land Information New Zealand (Valuer General), Tauranga City Council, Wellington City Council and Whangarei District Council explored the Notice of Sale (the notice) process as part of the ‘selling and buying a property’ life event. 
 
@@ -40,7 +47,7 @@ The design intensive identified the following next steps that are needed to cont
 - The Lab could lead a [discovery](https://www.digital.govt.nz/standards-and-guidance/strategy-and-planning/digital-lifecycle/discovery/) with the support of this group to investigate the preferred data based possible solution in more detail to test its viability, feasibility and desirability. 
 - The Councils collectively or individually could investigate the other two solutions identified; in the intensive; Improve communication between Councils and Solicitors and data validation flags to help select the correct process to use.
 
-## What is the notice of sale and why is it important? 
+## What is the notice of sale and why is it important?<a name = "Go-to-WhatIsNoticeOfSale"></a>
 
 The Notice of Sale (the notice) acts a conduit of sales and/or property owner information in the property transfer process and its a legal requirement that it must be supplied to a Local Authority[^1] (ie Councils) as part of the Local Government (Rating) Act 2002. 
 
@@ -52,9 +59,9 @@ Rates and valuations are linked together and the notice is one of the key inputs
 
 __The rating and valuation process__
 
-![The Rating and Valuation Process!](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS1.png)
+![Valuation cycle & Local Authority actions feeds into the Setting and billing of rates, then to Property Owner](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS1.png)
 
-
+(Flow chart showing that Valuation cycle & Local Authority actions feeds into the Setting and billing of rates, then to Property Owner.)
 
 
 In addition to the rating process the notice also acts another way to provide information that the property title has changed too. 
@@ -62,7 +69,9 @@ In addition to the rating process the notice also acts another way to provide in
 __The notice of sale and its relation to rating and valuation__
 (also see [Appendix 1](#Go-to-Appendix1) for the key concepts required under legislation and what triggers a change of ownership, and see [Appendix 2 Data Map](#Go-to-Appendix2) for what data is collected at each step in the process)
 
-![The Rating and Valuation Process!](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS2.png)
+![Notice of Sale decision tree](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS2.png)
+
+(Notice of Sale decision tree. __Path 1__ - Notice of change of ratepayer and/or their contact details of whole or part of the rating unit; Council finance team accountable fo calculation of rates. This is Audited by DIA; Council valuation team accountable for valuation data being correct. This is audited by LINZ valuer general. They determine structure of data extracts for comparable analysis. __Path 2__ - Notice of change of title (i.e. creation of a new title and cancellation of existing title); Register of Titles; Valuation Service Providers (VSP). They are accountable for the calculation of valuations. Councils are also required to provde the correct data/information to contirbute to the calculation.)
 
 
 The notice must contain these points: 
@@ -85,7 +94,9 @@ From the LINZ Rating Valuation Data set, the following table describes the numbe
 
 __Number of Sales 2014-2017__
 
-![The Rating and Valuation Process!](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS3.png)
+![Table showing the number of sales between 2014 to 2017 with sales totalling to 229,855](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS3.png)
+
+(Table showing the number of sales between 2014 to 2017 with sales totalling to 229,855.)
 
 
 
@@ -145,11 +156,14 @@ __Day 2: Define__ – Assess problems, opportunities and constraints, themes
 
 __Day 3: Ideate__ / Visualize – Scenarios for our audiences and how we might make change 
 
-This is based on the following logic mapping flow model[^2] developed by Dr Hazel Bradshaw from the Service Innovation Lab:
+This is based on the following logic mapping flow model[^2](as shown below) developed by Dr Hazel Bradshaw from the Service Innovation Lab:
 
 [^2]:Bradshaw, H. (2014). The Structural Playability Process (SPP )-An Effective Design Process for Educational Computer Games. chp 3, p60
 
-![The Rating and Valuation Process!](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS4.png)
+![Complex Problem;Overarching Goal;Audience Types;Motivation(Intrinsic & Extrinsic);Problem/Pain Points;Constraints;Emerging Concepts;IDEATE.](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS4.png)
+
+(Logic Mapping Flow diagram. Starts with Complex Problem; Overarching Goal; Audience Types; Motivation(Intrinsic); Motivation (Extrinsic); Problem/Pain Points; Constraints; Emerging Concepts; and lastly IDEATE.)
+
 
 ### The complex problem
 __Buying and selling a property is complicated transaction, it requires information to be exchanged between a number of parties and if errors are made it has consequences for property ratings and valuations. This can lead to stress and have financial implications for the parties particularly the property buyer.__
@@ -210,8 +224,9 @@ Customers were considered to be the the old and new owners of the property, thir
  
 ### Motivation Mapping - Intrinsic and extrinsic 
 
-![The Rating and Valuation Process!](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS5.png)
+![Table showing the Intrinsic & Extrinsic motivations for Primary audiences (Councils & Solicitors) and secondary audiences](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS5.png)
 
+(Table showing the Intrinsic & Extrinsic motivations for Primary audiences (Councils & Solicitors) and Secondary audiences.)
 
 
 
@@ -219,20 +234,27 @@ Customers were considered to be the the old and new owners of the property, thir
 
 To consider the problems the various audiences are having the team were asked to map out the journeys for the solicitors and council teams. Prior to the intensive, a [service blueprint](https://docs.google.com/drawings/d/1_V6L9ibgHlJ8Fyc0Id6uJQlFdc0_XDsV1R5yDxxP81o/edit?usp=sharing) describing the journey from presale triggers to post-sale settlement was created and this was used by the team as a reference for their maps. 
 
-![The Rating and Valuation Process!](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS6.jpg)
+![Flow diagram of Process. Pre-Sale; Sale & Purchase agreement signed; Unconditional; Settlement; & Post-settlement](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS6.jpg)
+
+(Flow diagram of the Notice of Sale Process. Pre-Sale; Sale & Purchase agreement signed; Unconditional; Settlement (can be up to 6 months before Settlement); & Post-settlement.)
 
 [Solicitor journey map](https://drive.google.com/file/d/14wHVvtWVUsMaPOQZZ6hXXLu37Yir56DT/view)
 
 
-![The Rating and Valuation Process!](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS7.png)
+![Post-it notes for Journey Map. Votes on Education/Action Points; & Unreliable Data](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS7.png)
 
-![The Rating and Valuation Process!](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS8.png)
+(Post-it notes for Journey Map. Votes on Education/Action Points; & Unreliable Data.)
 
+![Post-it notes for Journey Map. Votes on Incorrect or Missing Data; Human Error; & Duplicating Information](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS8.png)
+
+(Post-it notes for Journey Map. Votes on Incorrect or Missing Data; Human Error; & Duplicating Information.)
 
 
 [Council journey map](https://drive.google.com/file/d/14wHVvtWVUsMaPOQZZ6hXXLu37Yir56DT/view)
 
-![The Rating and Valuation Process!](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS9.png)
+![Post-it notes for Journey Map. Top votes on Manual processing/checking including multiple handling of the notice](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS9.png)
+
+(Post-it notes for Journey Map. Top votes on Manual processing/checking including multiple handling of the notice.)
 
 
 The journey maps revealed a range of pain points. The pain point themes were:
@@ -265,10 +287,9 @@ As a solicitor, I have a problem with providing accurate and complete informatio
 For each problem statement the team considered if there are any constraints associated with it and how hard it might be to resolve them:
 
 
-![The Rating and Valuation Process!](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS10.png)
+![Table matching Ability to resolve a constraint (Easy; Medium; Hard) with Constraints](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS10.png)
 
-
-
+(Table matching Ability to resolve a constraint (Easy; Medium; Hard) with Constraints.)
 
  
 ### Problem statement two - manual processing
@@ -280,7 +301,9 @@ As a Council administrator, me and my team leaders have a problem with the large
 - work well with solicitors, who through our processing errors will have difficulties with their clients 
 
 
-![The Rating and Valuation Process!](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS11.png)
+![Table matching Ability to resolve a constraint (Easy; Medium; Hard) with Constraints](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS11.png)
+
+(Table matching Ability to resolve a constraint (Easy; Medium; Hard) with Constraints.)
 
 ### Problem statement three - triggers for notice of sale 
  
@@ -289,8 +312,9 @@ As a Solicitor the problem I have is that I don't know all the triggers for the 
 - work with councils and their need for information for rates and valuations, payments and refunds and debt collection.
 
 
-![The Rating and Valuation Process!](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS12.png)
+![Table matching Ability to resolve a constraint (Easy; Medium; Hard) with Constraints](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS12.png)
 
+(Table matching Ability to resolve a constraint (Easy; Medium; Hard) with Constraints.)
 
 The team believe that if these problems were fixed then it could resolve many of the problems described in the other themes. These other themes that resulted from the creation of the problem statements were data input and matching, manual processing and validation, not sending or receiving the notice, the impacts of errors and the impacts to the value of the team and individuals within it. 
 
@@ -299,12 +323,14 @@ The team believe that if these problems were fixed then it could resolve many of
 To explore problems and solutions for these scenario and storyboard techniques were used. The team created a scenario that addresses the audience problem, meets the a clear goal and works within the constraints. A scenario should have an audience, a goal, a set of constraints and a beginning, middle and an end. These were themed and storyboards were created based on the prioritised scenarios.  
 Each person shared their [storyboards](https://drive.google.com/file/d/1n0p7UeOUayG6tX-tSddJavi2JoKMsUql/view) and then team was separated into groups who took the scenarios, identified their common elements and collaborated to create a refined storyboard.   
 
-![The Rating and Valuation Process!](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS13.png)
-![The Rating and Valuation Process!](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS14.png)
+![Team collaborated to create a refined storyboard from the common elements of the scenarios](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS13.png)
+![Team collaborated to create a refined storyboard from the common elements of the scenarios](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS14.png)
+
+(Team collaborated to create a refined storyboard from the common elements of the scenarios.)
 
 __Problem statement one - accurate and complete information__
 
-A range of scenarios were created and many had similar themes. Here are the priorised themes as decided by the group: 
+A range of scenarios were created and many had similar themes. Here are the priorised themes las decided by the group: 
 
 1. Property transfer in a single portal - data validated against authoritative datasets.
 2. Accurate ratepayer contact information - education of ratepayers
@@ -314,8 +340,10 @@ Tied with no votes: Councils validate their databases against authoritative data
 
 Here is the [storyboards](https://drive.google.com/file/d/1wHK0CyhgpjKDqbMnyVFmCID0NsYliwyd/view) for the property transfer in a single portal. 
 
-![The Rating and Valuation Process!](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS15.png)
-![The Rating and Valuation Process!](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS16.png)
+![Storyboard for the Property Transfer made up of post-it notes](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS15.png)
+![Storyboard for the Property Transfer made up of post-it notes](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS16.png)
+
+(Storyboard for the Property Transfer made up of post-it notes.)
 
 This storyboard was ultimately the one selected to [explore further](#Possible-solution) during the rest of the design intensive. 
 
@@ -337,28 +365,28 @@ Here are the [refined storyboards](https://drive.google.com/file/d/1wHK0CyhgpjKD
 
 
 Improve communication between Council and Solicitors - ‘spending time together’ 
- ![The Rating and Valuation Process!](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS17.png)
+ ![Storyboard - Improve communication between Council and Solicitors - ‘spending time together’](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS17.png)
 
 Rules and data validation flags to help select the correct process to use. 
-
-![The Rating and Valuation Process!](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS18.png)
-
+![Rules and data validation flags to help select the correct process to use](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS18.png)
 
 
-## Possible solution<a name = "Possible-solution"></a>
+
+## Possible solution<a name = "Go-to-PossibleSolution"></a>
 
 The idea behind this possible future state is that much of the data required to action what is currently called the ‘Notice of Sale’ process is captured within the Sales and Purchase Agreement or through the Transfer Instrument (see [Appendix 2 Data Map](#Go-to-Appendix2) for what data is collected at each step in the process). There are different triggers for this process (see the [triggers in Appendix 1](#Go-to-Appendix1)), which is actually the process of changing the ownership of a rating unit.
 
 Rather than expecting each person in the process chain to perform manual data entry then we could imagine a process where the data is kept as electronic data and systematically pushed through the required states of a workflow. Ideally this would satisfy the legislative requirements (see [Appendix 1 for the key concepts required under legislation](#Go-to-Appendix1)) while achieving the goal of improved data quality and improved trust in the process. 
 
-![The Rating and Valuation Process!](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS19.png)
+![Flow diagram describing the Change of Ownership of a Rating Unit - Future State version 0.2](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS19.png)
 
+(Flow diagram describing the Change of Ownership of a Rating Unit - Future State version 0.2)
 
 This future state needs deeper investigation to determine its desirability, viability and feasibility, and would necessarily involve a slow transition, including improving data quality within the various databases over time.
 
 A [Minimum Viable Product](https://www.agilealliance.org/glossary/mvp/#q=~(filters~(tags~(~'mvp))~searchTerm~'~sort~false~sortDirection~'asc~page~1)) might involve manual data entry from the Sales and Purchase Agreement into a data integration tool, or an upload of a data extract from a smart form version of the agreement.
 
-## Next Steps
+## Next Steps<a name = "Go-to-NextSteps"></a>
 
 - The group discussed the need for a sponsor(s) to help drive continuing this work. It was agreed that the sponsor could be a person or group of people but they should be at be at an executive leadership level eg a CFO. The group of councils involved with this exploration will need to work together to identify a sponsor(s) and brief them on this work and its importance.   
 - Depending on the priorities for the 2018/19 Service Innovation Lab work programme, the Lab could lead a [discovery](https://www.digital.govt.nz/standards-and-guidance/strategy-and-planning/digital-lifecycle/discovery/) with the support of this group to investigate the possible solution in more detail to test its viability, feasibility and desirability. 
@@ -370,7 +398,9 @@ This diagram maps out the relevant concepts in the legislation relating to Notic
 
 To read the diagram follow the arrows, i.e Ratepayer (Owner and/or Lessee) owns or occupies Rating Unit; Rating Unit created, maintained and held in District Valuation Roll.
 
-![The Rating and Valuation Process!](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS20.png)
+![Diagram of concepts in leglislation relating to the Notice of Sale process](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS20.png)
+
+(Diagram of concepts in leglislation relating to the Notice of Sale process.)
 
 Triggers for notice of change of ownership of a rating unit
 Although commonly referred to as a “notice of sale”, that’s actually a bit of a misnomer as it not just sales that trigger the need for a notice.  Broadly speaking, there are four triggers:
@@ -407,8 +437,11 @@ Additionally, there are a number of less common transactions that could trigger 
 
 ### Appendix 2 <a name = "Go-to-Appendix2"></a>: Notice of Sale Data Map
 This shows what data points are collected through what mechanism at different points in the sale or change of ownership process, and what the data source is and where it goes.
-![The Rating and Valuation Process!](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS21.png)
-![The Rating and Valuation Process!](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS22.png)
-![The Rating and Valuation Process!](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS23.png)
-![The Rating and Valuation Process!](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS24.png)
-![The Rating and Valuation Process!](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS25.png)
+
+![Notice of Sale Data Map](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS21.png)
+![Notice of Sale Data Map](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS22.png)
+![Notice of Sale Data Map](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS23.png)
+![Notice of Sale Data Map](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS24.png)
+![Notice of Sale Data Map](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS25.png)
+
+(Notice of Sale Data Map.)
