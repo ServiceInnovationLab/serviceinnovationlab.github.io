@@ -2,7 +2,7 @@
 title: Rates Rebates (Te Whakamāmā i ngā Reiti)
 layout: report
 ---
-![RR logo](/assets/media/Rates-Rebates/RR1.png)
+![Rates Rebates logo](/assets/media/Rates-Rebates/RR1.png)
 
 __Authored by:__ Siobhan McCarthy and Glen Thurston
 
