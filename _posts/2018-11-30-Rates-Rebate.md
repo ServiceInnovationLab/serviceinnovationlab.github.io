@@ -21,7 +21,7 @@ A collaborative initiative between Department of Internal Affairs and Local Auth
 
 ## Overview<a name = "Go-to-Overview"></a>
 
-['A Rates Rebates’](https://www.govt.nz/browse/housing-and-property/getting-help-with-housing/getting-a-rates-rebate/#who-can-apply) is a subsidy (up to $630) for low-income homeowners on the cost of their residential rates. The subsidy is delivered by Local Councils and is administered by Central Government (specifically the Department of Internal Affairs - DIA).
+[A Rates Rebate](https://www.govt.nz/browse/housing-and-property/getting-help-with-housing/getting-a-rates-rebate/#who-can-apply) is a subsidy (up to $630) for low-income homeowners on the cost of their residential rates. The subsidy is delivered by Local Councils and is administered by Central Government (specifically the Department of Internal Affairs - DIA).
 
 The entitlement value is calculated by the cost of the rates, applicants income, and number of dependants. The maximum subsidy amount is reviewed yearly.
 
