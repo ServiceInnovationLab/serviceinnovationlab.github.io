@@ -1,6 +1,6 @@
 ---
-permalink: /tags/how we work/
+permalink: /tags/expertise/
 redirect_to:
-  - /tags/how-we-work/
+  - /tags/expertise/
 skip_index: true
 ---

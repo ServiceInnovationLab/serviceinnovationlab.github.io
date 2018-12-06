@@ -15,16 +15,11 @@ gridless: true
       <p>Want to see if 18F can help your agency? Email Kenny Daniel on our Agency Partnerships team at <a href="mailto:inquiries18F@gsa.gov?subject=Partnering%20with%2018F&body=What%27s%20your%20name%3F%0A%0AWhat%20agency%20or%20office%20do%20you%20work%20for%3F%0A%0AWhat%27s%20your%20job%20title%20or%20role%3F%0A%0ATell%20us%20a%20little%20about%20the%20problems%20you%27re%20working%20on%2C%20or%20what%20project%20you%27re%20hoping%20to%20work%20on%20with%2018F:%0A%0AIf%20you%27d%20like%20us%20to%20call%20you%2C%20what%27s%20your%20phone%20number%3F%0A">inquiries18F@gsa.gov</a>.</p>
     </li>
     <li class="section-info-list-item">
-      <div class="section-info-header">Looking for a job at 18F?</div>
-      <p>You can see open positions on the <a href="https://join.18f.gov">Join 18F page</a>, or you can email the Talent Team at <a href="mailto:joinTTS@gsa.gov">joinTTS@gsa.gov</a>.</p>
-    </li>
-    <li class="section-info-list-item">
       <div class="section-info-header">Other contacts</div>
       <ul>
-        <li>Media inquiries: <a href="mailto:press@gsa.gov">press@gsa.gov</a></li>
-        <li>General questions: <a href="mailto:18F@gsa.gov">18F@gsa.gov</a></li>
-        <li>Twitter: <a href="https://twitter.com/18F">@18F</a></li>
-        <li>GitHub: <a href="https://github.com/18F">18F</a></li>
+        <li>General questions: <a href="mailto:18F@gsa.gov">SIL</a></li>
+        <li>Twitter: <a href="https://twitter.com/18F">@SIL</a></li>
+        <li>GitHub: <a href="https://github.com/serviceinnovationlab">SIL</a></li>
         <li><a href="{{ site.baseurl }}/feed.xml">RSS Feed</a></li>
       </ul>
     </li>
@@ -37,7 +32,7 @@ gridless: true
 
 Use the button below to email us about the problem you'd like to solve, and we’ll set up a time to talk and answer your questions. As fellow federal employees, we want to make sure you find the team that's best suited to your situation, even if it isn't 18F. After our initial conversations, we'll recommend a path to success, whether it's with 18F, another office in GSA, or a private vendor. Either way, 18F has short, low-cost options to help prepare your team to find the right solution.
 
-To learn more about how we work with agencies, read up on our [past projects]({{ site.baseurl }}/what-we-deliver), explore our [Partnership Principles]({{site.baseurl}}/partnership-principles/), or learn about [how we’re funded]({{ site.baseurl }}/about/#funding-and-agreements).
+To learn more about how we work with agencies, read up on our [past projects]({{ site.baseurl }}/projects), or learn about [how we’re funded]({{ site.baseurl }}/about/#funding-and-agreements).
 
 {% endmarkdown %}
 
@@ -46,26 +41,6 @@ To learn more about how we work with agencies, read up on our [past projects]({{
 
 </div>
 
-<div class="usa-grid usa-grid-line">
+<!--<div class="usa-grid usa-grid-line">
   <hr/>
-</div>
-
-<div class="usa-section usa-grid">
-  <h2>Sign up for the 18F newsletter</h2>
-  <div class="usa-width-one-half">
-    <p>Receive occassional updates about our work and news about the civic tech community.</p>
-  </div>
-  <div class="usa-width-one-half">
-    <form class="newsletter" id="GD-snippet-form" action="https://public.govdelivery.com/accounts/USGSATTS/subscriber/qualify?qsp=USGSATTS_4" accept-charset="UTF-8" method="post" target="_blank">
-      <input name="utf8" type="hidden" value="&#x2713;">
-      <input type="hidden" name="authenticity_token" value="BVsScV3cJRnFoVEu3356C3aW2YOaOpp/VH1/TrYPxME4KWzNT/7ABzgRFh1wpp3UA6+C6PZX4tirvSU4VE5KcQ==">
-      <fieldset>
-        <div class="form-group">
-          <label for="email">Your email address</label>
-          <input type="text" name="email" id="email">
-        </div>
-        <input type="submit" name="commit" value="Sign up" class="form_button">
-      </fieldset>
-    </form>
-  </div>
-</div>
+</div> -->

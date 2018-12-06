@@ -91,8 +91,8 @@ that matches the list defined in a given project's frontmatter
 
 Example:
 ```bash
-{{ 'how-we-work' | has_link }}
-> #how-we-work
+{{ 'expertise' | has_link }}
+> #expertise
 ```
 
 
@@ -115,12 +115,12 @@ Example:
 ```bash
 {% capture raw_content %}
 {% raw %}
-{{ 'how-we-work' | has_link }}
+{{ 'expertise' | has_link }}
 {% endraw %}
 {% endcapture %}
 
 {{ raw_content | liquify }}
-> '#how-we-work'
+> '#expertise'
 ```
 
 

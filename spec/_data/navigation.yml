@@ -7,18 +7,18 @@ assigned:
         in_drawer: false
         in_footer: false
     -
-        text: What we deliver
-        href: pages/what-we-deliver.md
+        text: Projects
+        href: pages/projects.md
         colllections: ['projects']
-        permalink: /what-we-deliver/
+        permalink: /projects/
         in_menu: true
         in_drawer: true
         in_footer: true
         children:
     -
-        text: How we work
-        href: pages/how-we-work.md
-        permalink: /how-we-work/
+        text: Expertise
+        href: pages/expertise.md
+        permalink: /expertise/
         in_menu: true
         in_drawer: true
         in_footer: false
@@ -51,7 +51,7 @@ assigned:
                         in_subnav: true
                     -
                         text: '2. How we work'
-                        permalink: /contact/partnership-playbook/how-we-work/
+                        permalink: /contact/partnership-playbook/expertise/
                         collections: ['contact']
                         in_menu: false
                         in_drawer: false

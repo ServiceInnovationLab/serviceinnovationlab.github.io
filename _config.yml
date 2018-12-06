@@ -50,10 +50,10 @@ collections:
     permalink: /press/:name/
   products_projects:
     output: true
-    permalink: /what-we-deliver/:path/
+    permalink: /projects/:path/
   services_projects:
     output: true
-    permalink: /what-we-deliver/:path/
+    permalink: /projects/:path/
   contact:
     output: false
     permalink: /contact/:path/

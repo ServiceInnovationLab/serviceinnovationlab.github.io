@@ -97,16 +97,16 @@ Post previews are generated dynamically throughout the site. Each preview requir
 #### Pull quotes with and without a team image:
 <section class="usa-grid-full">
   <div class="pquote">
-    {{ "shawn" | team_photo }}
+    {{ "jacob-ong" | team_photo }}
     <blockquote>
   “I wanted a new challenge, and I wanted to learn from some of the best
-  minds in design and technology.” - {{ "shawn" | team_link }}
+  minds in design and technology.” - {{ "jacob-ong" | team_link }}
     </blockquote>
   </div>
   <div class="pquote">
-  {{ "laura-gerhardt" | team_photo }}
+  {{ "jacob-ong" | team_photo }}
     <blockquote>
-      “To work on how technology could improve government service delivery in a deeper way than just as a communications platform.” - {{ "laura-gerhardt" | team_link }}
+      “To work on how technology could improve government service delivery in a deeper way than just as a communications platform.” - {{ "jacob-ong" | team_link }}
     </blockquote>
   </div>
 </section>

@@ -1,12 +1,14 @@
 navbar:
-- text: What we deliver
-  permalink: /what-we-deliver/
-  multiple_permalinks:
-    - /what-we-deliver/:path/
-- text: How we work
-  permalink: /how-we-work/
 - text: About
   permalink: /about/
+- text: Expertise
+  permalink: /expertise/
+- text: Projects
+  permalink: /projects/
+  multiple_permalinks:
+    - /projects/:path/
+- text: Products
+  permalink: /products/
 - text: Blog
   permalink: /blog/
   multiple_permalinks:
@@ -17,39 +19,41 @@ navbar:
   permalink: /contact/
 
 drawer:
-  - text: What we deliver
-    permalink: /what-we-deliver/
-    multiple_permalinks:
-    - /what-we-deliver/:path/
-  - text: How we work
-    permalink: /how-we-work/
-  - text: About
-    permalink: /about/
-  - text: Blog
-    permalink: /blog/
-    multiple_permalinks:
-      - /blog/:path/
-      - /tags/:path/
-      - /author/:path/
-  - text: Contact
-    permalink: /contact/
+- text: About
+  permalink: /about/
+- text: Expertise
+  permalink: /expertise/
+- text: Projects
+  permalink: /projects/
+  multiple_permalinks:
+    - /projects/:path/
+- text: Products
+  permalink: /products/
+- text: Blog
+  permalink: /blog/
+  multiple_permalinks:
+    - /blog/:path/
+    - /tags/:path/
+    - /author/:path/
+- text: Contact
+  permalink: /contact/
 
 footer:
-  - text: What we deliver
-    permalink: /what-we-deliver/
-    multiple_permalinks:
-    - /what-we-deliver/:path/
-  - text: About
-    permalink: /about/
-  - text: Partnership Principles
-    permalink: /partnership-principles/
-  - text: Join 18F
-    permalink: /join/
-  - text: Blog
-    permalink: /blog/
-    multiple_permalinks:
-      - /blog/:path/
-      - /tags/:path/
-      - /author/:path/
-  - text: Contact
-    permalink: /contact/
+- text: About
+  permalink: /about/
+- text: Expertise
+  permalink: /expertise/
+- text: Projects
+  permalink: /projects/
+  multiple_permalinks:
+    - /projects/:path/
+- text: Products
+  permalink: /products/
+- text: Blog
+  permalink: /blog/
+  multiple_permalinks:
+    - /blog/:path/
+    - /tags/:path/
+    - /author/:path/
+- text: Contact
+  permalink: /contact/
