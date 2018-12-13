@@ -6,21 +6,13 @@ banner_cta: true
 content_focus: false
 lead: Together, we create a unified team by pairing our technical expertise with your program knowledge.
 ---
+<!-- <div class="hww-intro" markdown="1"></div> -->
 
-<div class="hww-intro" markdown="1">
-### 18F partners with civilian and military federal agencies to help you build or buy exceptional digital services.
-
-18F works with partners that have federal funding, and, as a cost recoverable office, we’re required to charge for our work. 18F also offers procurement services to state and local governments with access to federal funds. 
-</div>
-
----
-
-{% capture pa-1 %}
-## Path Analysis:
-### Asking the right questions, solving the right problems.
+{% capture dev-1 %}
+### Developers
 {: .expertise-subheading}
 
-Each Path Analysis is customized to the needs of an agency, with the goal of moving you from identifying a problem to working on a solution. With a Path Analysis, we’ll develop an action-oriented analysis of routes to pursue, places to narrow the project's scope, and the best ways to deliver value to your users. 
+Product development using test driven development approaches and open source wherever possible.
 {% endcapture %}
 
 <div class="usa-grid-full usa-section">
@@ -38,31 +30,18 @@ Each Path Analysis is customized to the needs of an agency, with the goal of mov
         </div>
         <span>8-10 weeks</span>
       </ol>
-      <ol>
-        <div class="graphic-list-img">
-          <img src="{{ site.baseurl }}/assets/img/price-tag.svg" alt="">
-        </div>
-        <span>Typically $195,000</span>
-      </ol>
-      <ol>
-        <div class="graphic-list-img">
-          <img src="{{ site.baseurl }}/assets/img/arrow-right-dashed.svg" alt="">
-        </div>
-        <span>1 path analysis per project</span>
-      </ol>
     </ul>
   </div>
   <div class="usa-width-two-thirds" markdown="1">
-    {{ pa-1 }}
+    {{ dev-1 }}
   </div>
 </div>
 
-{% capture ei-1 %}
-## Experiment & Iterate:
-### Exploring user-centered solutions.
+{% capture sd-1 %}
+### Service Design
 {: .expertise-subheading}
 
-Once your team has completed a Path Analysis, we can experiment and iterate on a solution to your problem. An 18F team will work shoulder-to-shoulder with your team to explore the challenges your users face and develop solutions to those problems. Experiment & Iterate phases can focus on building a working product, preparing a procurement package, or training your team to take over development. This model allows you to stay in control of your budget and remain flexible.
+We partner with users and experts to identify their needs and find ways to effectively integrate and digitise services that work for them.
 {% endcapture %}
 
 <div class="usa-grid-full">
@@ -80,17 +59,65 @@ Once your team has completed a Path Analysis, we can experiment and iterate on a
         </div>
         <span>12 weeks</span>
       </ol>
+    </ul>
+  </div>
+  <div class="usa-width-two-thirds" markdown="1">
+   {{ sd-1 }}
+  </div>
+</div>
+
+{% capture et-1 %}
+### Emerging Tech
+{: .expertise-subheading}
+
+Strategies for adopting and leveraging the best of technologies including insights on emerging technology and how to plan for its impact on society and systems. Prototyping and demonstrations with our Virtual Reality Suite.
+
+(perspective, implementation, planning for, prototyping) (examples [1](https://www.pwc.co.nz/services/consulting/management-consulting/technology-consulting.html), [2](https://www.pwc.com/us/en/services/consulting/technology/emerging-technology.html), [3](https://home.kpmg.com/ru/en/home/services/advisory/risk-consulting/emerging-technologies-in-risk-consulting.html))
+{% endcapture %}
+
+<div class="usa-grid-full usa-section">
+  <div class="usa-width-one-third">
+    <ul class="graphic-list">
       <ol>
         <div class="graphic-list-img">
-          <img src="{{ site.baseurl }}/assets/img/price-tag.svg" alt="">
+          <img src="{{ site.baseurl }}/assets/img/team-sm.svg" alt="">
         </div>
-        <span>Typically $630,000 - $750,000</span>
+        <span>2-3 person team</span>
       </ol>
       <ol>
         <div class="graphic-list-img">
-          <img src="{{ site.baseurl }}/assets/img/rotate-clockwise.svg" alt="">
+          <img src="{{ site.baseurl }}/assets/img/calendar.svg" alt="">
         </div>
-        <span>Flexible number of phases based on project needs</span>
+        <span>8-10 weeks</span>
+      </ol>
+    </ul>
+  </div>
+  <div class="usa-width-two-thirds" markdown="1">
+    {{ et-1 }}
+  </div>
+</div>
+
+{% capture ei-1 %}
+### Champion others/ Empowering Innovation
+{: .expertise-subheading}
+
+We facilitate workshops, partnerships and hands on training to grow your capability to innovate using the design and development approaches we use at the lab.
+{% endcapture %}
+
+<div class="usa-grid-full">
+  <div class="usa-width-one-third">
+    <ul class="graphic-list">
+      <ol>
+        <div class="graphic-list-img">
+          <img src="{{ site.baseurl }}/assets/img/team-lg.svg" alt="">
+        </div>
+        <span>4-6 person team</span>
+      </ol>
+      <ol>
+        <div class="graphic-list-img">
+          <img src="{{ site.baseurl }}/assets/img/calendar.svg" alt="">
+        </div>
+        <span>12 weeks</span>
       </ol>
     </ul>
   </div>

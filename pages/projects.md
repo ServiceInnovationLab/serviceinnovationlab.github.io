@@ -7,15 +7,21 @@ content_wide: true
 content_focus: false
 redirect_from:
   - /consulting/
-  - /what-we-deliver/military-onesource/
 banner_cta: true
 gridless: true
 ---
+<style>
+h2 {
+  color:#2337CE;
+}
+</style>
+
+<section class="usa-section background-gray">
 <div class="usa-grid">
   <section class="usa-section">
     <div class="usa-width-two-thirds">
-      <h3> Projects </h3>
-      <p>We are federal employees that partner with other federal agencies to build, buy, and share digital services. With help from 18F, agencies have moved paper processes online, increased data access, saved millions on cloud hosting, and implemented new acquisition techniques. Here are a few examples:</p>
+      <h2> Projects </h2>
+      <p>As part of identifying opportunities for integrated services and the reusable reusable components needed to support them we’ve been involved in a range of initiatives over the last year. Here’s a list of some notable ones and we’ve also added reports that describe each initiative in more detail <a href = "/blog/index.html">here</a>.</p>
     </div>
   </section>
 </div>
@@ -40,3 +46,4 @@ gridless: true
     </div>
   </section>
 </div>
+</section>

@@ -1,89 +1,98 @@
 ---
 permalink: /
-layout: default
+layout: home
 title: Home
-redirect_from: /dashboard/
-redirect_from: /developer/
 ---
-<!-- Banner image -->
-<section class="background-dark">
-  <section class="hero hero-primary">
-    <div class="usa-grid">
-      <div class="hero-callout hero-callout-primary background-dark usa-width-one-third usa-width-tablet">
-        <h2>Service Innovation Lab</h2>
-        <a href="{{ site.baseurl }}/contact/" tabindex="-1"><button class="usa-button usa-button-big usa-button-secondary">Get in touch</button></a>
-      </div>
+<style>
+.btnToTools {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.btnToTools {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.btnToTools:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.homepage .home-intro .full-height, .homepage .home-mindset .full-height {
+    height: 100vh;
+}
+element {
+}
+section.home-intro .wrapper {
+    z-index: 100;
+}
+.wrapper.wrapper-960 {
+    max-width: 960px;
+}
+.wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.full-height {
+    height: 90vh;
+    position: relative;
+}
+.wrapper {
+    position: relative;
+    max-width: 1080px;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+* {
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+section.home-intro .verticaly-aligned {
+    width: 50%;
+}
+.verticaly-aligned {
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    width: 100%;
+    height:100%
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.blueText {
+    margin-top: 0;
+    font-size: 5rem;
+    text-transform: lowercase;
+    color: #fff;
+}
+</style>
+
+<section class="intro home-intro photo-bg blue-bg js-page-intro">
+  <div class="wrapper wrapper-960 full-height"><body background = "/assets/img/homepagebg_blue.png"></body>
+    <div class="verticaly-aligned">
+      <p class = "blueText">Welcome to the Service Innovation Lab</p>
+      <a class="btnToTools" href="{{ site.baseurl }}/tools">Toolkit</a>
     </div>
-  </section>
-</section>
-
-<!-- Testimonial section
-<section class="usa-section usa-grid">
-  <section class="pad-right-left">
-    <div class="home-testimonial">
-    We engaged with 18F, and it was a game-changer for us. They came in and helped the IT team and business owners get involved in the agile development process. It changed our whole methodology.
-      <span>- Alec Palmer, FEC’s Chief Information Officer</span>
-    </div>
-  </section>
-</section>
--->
-
-<section class="usa-section usa-grid">
-  <h2>We support your mission</h2>
-  <section>
-    <section class="usa-width-one-half usa-width-short-one">
-      <h3 class="p-line-height p-normal pad-bottom-mobile">As an office within the General Services Administration, we know how to work with government. Partner with 18F to deliver projects that fulfill federal rules, stay within budget, and provide excellent value to the public.</h3>
-    </section>
-    <aside class="usa-width-one-half usa-width-shift-one">
-      <h4 class="break-bottom-small">Partner with 18F to:</h4>
-      <div class="icon-list">
-        <figure class="icon-list-image">{% include svg/icons/monitor.svg %}</figure>
-        <div class="icon-list-text">
-          <p class="p-bold">Improve public-facing services like websites or applications</p>
-        </div>
-      </div>
-      <div class="icon-list">
-        <figure class="icon-list-image">{% include svg/icons/gavel.svg %}</figure>
-        <div class="icon-list-text">
-          <p class="p-bold">Implement new laws or requirements while introducing new techniques to your agency</p>
-        </div>
-      </div>
-      <div class="icon-list">
-        <figure class="icon-list-image">{% include svg/icons/folderwithclock.svg %}</figure>
-        <div class="icon-list-text">
-          <p class="p-bold">Digitize and streamline internal systems to save time and increase accuracy</p>
-        </div>
-      </div>
-    </aside>
-  </section>
-</section>
-
-<section class="usa-section background-gray">
-  <section class="usa-grid">
-    <h2>Featured projects</h2>
-    {% include card-project.html
-       project='fec-gov'
-    %}
-    {% include card-project.html
-       project='treasury-data-act'
-    %}
-
-    {% include card-project.html
-       project='calc'
-    %}
-  </section>
-</section>
-
-<section class="usa-grid usa-section posts_feature">
-  <h2><a href="{{ site.baseurl }}/blog/">Recent blog posts</a></h2>
-  <ul>
-    {% for post in site.posts limit:3 %}
-      {% include post.html
-         post_date=post.date
-         post_title=post.title
-         post_excerpt=post.excerpt
-         post_url=post.url
-      %}
-    {% endfor %}
-  </ul>
+    </body>
+  </div>
 </section>

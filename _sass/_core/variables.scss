@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 // Typography
 $h1-font-size:       3.8rem;
 $h2-font-size:       3.4rem;
@@ -17,14 +18,14 @@ $banner-line-height: 1.4;
 $icon-small:         1rem;
 $icon:               1.3rem;
 
-$font-sans:          'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+$font-sans:          'Noto Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 $font-monospace:     Consolas, Monaco, "Andale Mono", monospace;
 
 
 // Color
 $color-light:        #b3efff; // $color-light / $color-secondary-light
 $color-bright:       #00cfff; // $color-bright / $color-secondary
-$color-medium:       #046b99; // $color-medium / $color-primary
+$color-medium:       #2337CE;//#046b99; // $color-medium / $color-primary
 $color-dark:         #1C304A; // $color-dark / $color-primary-dark
 $color-base:         #1F2E4A;
 $color-black:        #000000;
@@ -34,7 +35,7 @@ $color-bright-hover: #00A7CE;
 $color-medium-hover: #00547A;
 
 $color-gray-lightest: #f1f1f1; // Adding bc used in our $border-light in this file.
-$color-gray-hover:    #fafafa;
+$color-gray-hover:    #fafafa; // Button hover
 $color-gray-divider:  #bbbbbb;
 
 // Spacing

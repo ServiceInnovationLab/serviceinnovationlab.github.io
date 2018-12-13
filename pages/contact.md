@@ -3,7 +3,6 @@ title: Contact
 permalink: /contact/
 layout: primary
 content_wide: true
-image: /assets/img/page-feature/join.jpg
 redirect_from: /hire/
 gridless: true
 ---
@@ -11,17 +10,19 @@ gridless: true
 <aside class="usa-section usa-grid-reversed-right usa-width-one-third section-info section-info-gray">
   <ul>
     <li class="section-info-list-item">
-      <div class="section-info-header">Have a project in mind?</div>
-      <p>Want to see if 18F can help your agency? Email Kenny Daniel on our Agency Partnerships team at <a href="mailto:inquiries18F@gsa.gov?subject=Partnering%20with%2018F&body=What%27s%20your%20name%3F%0A%0AWhat%20agency%20or%20office%20do%20you%20work%20for%3F%0A%0AWhat%27s%20your%20job%20title%20or%20role%3F%0A%0ATell%20us%20a%20little%20about%20the%20problems%20you%27re%20working%20on%2C%20or%20what%20project%20you%27re%20hoping%20to%20work%20on%20with%2018F:%0A%0AIf%20you%27d%20like%20us%20to%20call%20you%2C%20what%27s%20your%20phone%20number%3F%0A">inquiries18F@gsa.gov</a>.</p>
+      <div class="section-info-header">Physical Address</div>
+      <p>Service Innovation Lab, Level 4, 191 Thorndon Quay, Wellington, New Zealand</p>
     </li>
     <li class="section-info-list-item">
-      <div class="section-info-header">Other contacts</div>
+      <div class="section-info-header">Transport Info</div>
       <ul>
-        <li>General questions: <a href="mailto:18F@gsa.gov">SIL</a></li>
-        <li>Twitter: <a href="https://twitter.com/18F">@SIL</a></li>
-        <li>GitHub: <a href="https://github.com/serviceinnovationlab">SIL</a></li>
-        <li><a href="{{ site.baseurl }}/feed.xml">RSS Feed</a></li>
+        <li>Bus stop 5022 or 5494 Buses: 1,19e, 24, 26, 52, 56, 57, 58, 60e, 83</li>
+        <li>Parking along Thorndon Quay</li>
       </ul>
+    </li>
+    <li class="section-info-list-item">
+      <div class="section-info-header"></div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2998.7063472052146!2d174.77947971542227!3d-41.271729279274886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d38ae250dadc591%3A0xb2e04dde972138ea!2s191+Thorndon+Quay%2C+Pipitea%2C+Wellington+6011!5e0!3m2!1sen!2snz!4v1544731549207"  frameborder="1" style="border:0" allowfullscreen></iframe>
     </li>
   </ul>
 </aside>
@@ -30,13 +31,13 @@ gridless: true
 
 ### Let’s work together to improve the user experience of government.
 
-Use the button below to email us about the problem you'd like to solve, and we’ll set up a time to talk and answer your questions. As fellow federal employees, we want to make sure you find the team that's best suited to your situation, even if it isn't 18F. After our initial conversations, we'll recommend a path to success, whether it's with 18F, another office in GSA, or a private vendor. Either way, 18F has short, low-cost options to help prepare your team to find the right solution.
-
-To learn more about how we work with agencies, read up on our [past projects]({{ site.baseurl }}/projects), or learn about [how we’re funded]({{ site.baseurl }}/about/#funding-and-agreements).
+To find out more information about our work you can contact us at ServiceInnovationLab@dia.govt.nz & you can subscribe to our mailing list at XXX
 
 {% endmarkdown %}
 
-<a class="usa-button usa-button-marginless" href="mailto:inquiries18F@gsa.gov?subject=Partnering%20with%2018F&body=What%27s%20your%20name%3F%0A%0AWhat%20agency%20or%20office%20do%20you%20work%20for%3F%0A%0AWhat%27s%20your%20job%20title%20or%20role%3F%0A%0ATell%20us%20a%20little%20about%20the%20problems%20you%27re%20working%20on%2C%20or%20what%20project%20you%27re%20hoping%20to%20work%20on%20with%2018F:%0A%0AIf%20you%27d%20like%20us%20to%20call%20you%2C%20what%27s%20your%20phone%20number%3F%0A">Email us</a>
+<a class="usa-button usa-button-marginless" href="mailto:ServiceInnovationLab@dia.govt.nz?subject=Partnering%20with%The%Service%Innovation%Lab">Email Us</a>
+<img src = "/assets/img/191ThorndonQuay.png" style = "padding-top:50px">
+
 </div>
 
 </div>

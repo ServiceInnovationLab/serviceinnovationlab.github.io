@@ -17,5 +17,3 @@ project_url: "[SmartStart](https://smartstart.services.govt.nz/)"
 quote:
 ---
 Smart Start ...
-
-

@@ -1,6 +1,6 @@
 ---
-title: Products
-permalink: /products/
+title: Tools
+permalink: /tools/
 layout: primary
 lead: Websites, applications, and strategies that help agencies provide excellent value to the public.
 content_wide: true
@@ -11,10 +11,17 @@ redirect_from:
 banner_cta: true
 gridless: true
 ---
+<style>
+h2 {
+  color:#2337CE;
+}
+</style>
+
+<section class="usa-section background-gray">
 <div class="usa-grid">
   <section class="usa-section">
     <div class="usa-width-two-thirds">
-    <h3> Products </h3>
+    <h2> Tools </h2>
      <p>In addition to 18F’s custom services, we also operate products that you can use to reduce costs and improve the security and usability of your services.</p>
    </div>
  </section>
@@ -40,3 +47,4 @@ gridless: true
     </div>
   </section>
 </div>
+</section>

@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <!--[if lt IE 9]><html class="lt-ie9"><![endif]-->
 <!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+<style>
+
+</style>
 
   {% include head.html %}
 
@@ -8,7 +11,27 @@
   {% if page.header_border == true or layout.header_border == true %}header_border{% endif %} {% if page.path contains '_posts' %}single-post{% endif %}">
 
     {% unless layout.title == '18F UI Styleguide' %}
-      {% include header.html %}
+    <a class="skipnav" href="#main-content">Skip to main content</a>
+    <header role="banner" style="background-color:lightblue">
+      <div class="site-navbar usa-grid">
+          <button class="menu-btn">Menu</button>
+          <a class="site-logo media_link" href="{{ site.baseurl }}/">
+          <img src="{{ site.baseurl }}/assets/img/logo SIL2_dec14_white.png" alt="SIL logo" style = "height:45px; width:100px;"
+            {% if page.url == '/' %}
+              aria-hidden="true"
+            {% endif %}
+          ></a>
+            {% if page.url == '/' %}
+              <h1 class="usa-sr-only">18F</h1>
+            {% else %}
+              <span class="usa-sr-only">18F</span>
+            {% endif %}
+          <nav role="navigation">
+            {% include navigation.html navbar=true %}
+          </nav>
+        </div>
+      </header>
+    <div class="overlay"></div>
     {% endunless %}
 
     <div class="main-content {% if layout.title == '18F UI Styleguide' %}styleguide-main-content{% endif %}" id="main-content">
