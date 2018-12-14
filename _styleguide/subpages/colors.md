@@ -47,7 +47,7 @@ permalink: /styleguide/colors/
     </div>
     <div class="color-box-group">
       <div class="color-box cb-gray"></div>
-      <strong>$color-gray</strong> | #5b616b
+      <strong>$color-medium</strong> | #2337CE
     </div>
     <div class="color-box-group">
       <div class="color-box cb-gray-lightest"></div>
