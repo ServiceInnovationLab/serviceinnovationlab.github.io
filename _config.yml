@@ -1,16 +1,15 @@
 # Site settings
-title: "18F: Digital service delivery"
-description: "18F builds effective, user-centric digital services focused on the interaction between government and the people and businesses it serves."
+title: "Service Innovation Lab"
+description: "The Service Innovation Lab is a cross agency collaborative."
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: pretty
-url: "https://18f.gsa.gov" # the base hostname & protocol for your sites
-federalist_url: "https://federalist.18f.gov"
+url: "https://serviceinnovationlab.github.io/" # the base hostname & protocol for your sites
 localhost: "localhost:4000"
 env: "production"
 logo: /assets/img/logos/18F-Logo-Bright-S.png
 tag_dir: tags
-github_repo: https://github.com/18F/18f.gsa.gov/blob/master
-
+github_repo: https://github.com/ServiceInnovationLab/serviceinnovationlab.github.io
+background-image: url('')
 related_posts: 3
 
 
@@ -18,8 +17,8 @@ analytics:
   google:
     code: 'UA-48605964-1' # Change this to your GSA analytics code
   dap:
-    agency: GSA    # Change this to your agency
-    subagency: 18F # Change this to your agency
+    agency: SIL    # Change this to your agency
+    subagency: SIL # Change this to your agency
 
 # blog archive at /blog
 paginate: 5
@@ -142,9 +141,8 @@ footer:
   image: /assets/img/logos/18F-Logo-M.png
   email:
   twitter:
-    - 18f
-    - usgsa
-  text: This site was built using <a href="https://federalist.18f.gov/" target="_blank">Federalist, from 18F</a>. # Change to a tag line for your agency
+    - SIL
+  text: This site was built using . # Change to a tag line for your agency
 
 # Build settings
 markdown: kramdown

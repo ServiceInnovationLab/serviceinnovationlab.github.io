@@ -2,6 +2,12 @@
 <!--[if lt IE 9]><html class="lt-ie9"><![endif]-->
 <!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
 <style>
+#main-content {
+  background-image: url("{{ site.baseurl }}/assets/img/homepagebg_blue.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
 </style>
 
@@ -16,7 +22,7 @@
       <div class="site-navbar usa-grid">
           <button class="menu-btn">Menu</button>
           <a class="site-logo media_link" href="{{ site.baseurl }}/">
-          <img src="{{ site.baseurl }}/assets/img/logo SIL2_dec14_white.png" alt="SIL logo" style = "height:45px; width:125px;"
+          <img src="{{ site.baseurl }}/assets/img/SIL-Logo-Animation_white.gif" alt="SIL logo" style = "height:50px; width:125px;"
             {% if page.url == '/' %}
               aria-hidden="true"
             {% endif %}
@@ -53,4 +59,5 @@
     {% jekyll_pages_api_search_load %}
 
   </body>
+
 </html>
