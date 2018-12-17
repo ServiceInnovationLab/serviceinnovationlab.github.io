@@ -65,22 +65,20 @@ width: 200px;
   </body>
   <section class="blog-footer usa-section background-dark">
       <div class="usa-grid">
-        <img id = "govt_logo" class="usa-width-one-fourth" src = "{{ site.baseurl }}/assets/img/footer-logo-govt.png">
-      </div>
-      </div>
-      <div class="usa-grid">
           <div class="usa-width-one-fourth">
-            <p class = "copyright" style = "font-size: 1.5rem">Crown Copyright 2018</p>
+            <img id="govt_logo" src="{{ site.baseurl }}/assets/img/footer-logo-govt.png">
+            <p class="copyright" style="font-size: 1.5rem">Crown Copyright 2018</p>
           </div>
-          <div class="usa-width-one-fourth">
+
+          <div class="usa-width-three-fourths creative-commons">
               <a href="https://creativecommons.org/licenses/by/4.0/">
-                <img src="{{ site.baseurl }}/assets/img/cc_icons.png" alt="Creative Commons 4.0 International Licence" width="85" height="40">
+                <img src="{{ site.baseurl }}/assets/img/cc_icons.png" alt="Creative Commons 4.0 International Licence" width="85" height="40"></a>
+                <span class="licence">Unless indicated otherwise, all content on 
+                  <span property="http://purl.org/dc/terms/title">Govt.nz</span> is licensed for re-use under a <a href="https://creativecommons.org/licenses/by/4.0/" rel="external" class="external">Creative
+                  Commons 4.0 International Licence&nbsp;<i class="fa fa-external-link"></i><span class="external-text" title="External site link">(external site link)</span></a></span>
               </a>
-            </div>
-            <div class = "usa-width-three-fourths">
-                <p style = "font-size: 1.5rem" class ="licence">Unless indicated otherwise, all content on <span property="http://purl.org/dc/terms/title">Govt.nz</span> is licensed for re-use under a <a href="https://creativecommons.org/licenses/by/4.0/" rel="external" class="external">Creative
-                Commons 4.0 International Licence&nbsp;<i class="fa fa-external-link"></i><span class="external-text" title="External site link">(external site link)</span></a></p>
-            </div>
+          </div>
+
       </div>
   </section>
 </html>
