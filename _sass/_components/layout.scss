@@ -111,6 +111,9 @@
     @include padding($section-margins null);
   }
 
+  padding-top: 0.5rem;
+  padding-bottom: 4.5rem;
+
   .page-lead {
     margin-top: 0;
   }

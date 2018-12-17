@@ -31,11 +31,11 @@ gridless: true
 
 ### Let’s work together to improve the user experience of government.
 
-To find out more information about our work you can contact us at ServiceInnovationLab@dia.govt.nz & you can subscribe to our mailing list at XXX
+To find out more information about our work you can contact us at ServiceInnovationLab@dia.govt.nz.
 
 {% endmarkdown %}
 
-<a class="usa-button usa-button-marginless" href="mailto:ServiceInnovationLab@dia.govt.nz?subject=Partnering%20with%The%Service%Innovation%Lab">Email Us</a>
+<a class="usa-button usa-button-marginless" href="mailto:ServiceInnovationLab@dia.govt.nz?">Email Us</a> <!--subject=Partnering with The Service Innovation Lab-->
 <img src = "/assets/img/191ThorndonQuay.png" style = "padding-top:50px">
 
 </div>

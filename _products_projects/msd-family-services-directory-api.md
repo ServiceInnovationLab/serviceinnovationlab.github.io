@@ -2,7 +2,7 @@
 agency: Ministry of Social Development
 title: Family Services Directory API
 subtitle: Making Family Services Directory provider and service data publicly available through and automatically generated machine discoverable APIs
-permalink: /tools/victim-of-crime
+permalink:
 excerpt: Making Family Services Directory provider and service data publicly available through and automatically generated machine discoverable APIs
 image: /assets/img/projects/
 image_accessibility: 

@@ -11,8 +11,8 @@ subnav_items:
     permalink: /about/#approach
   - text: History
     permalink: /about/#history
-  - text: Principles and values
-    permalink: /about/#principles-and-values
+  # - text: Principles and values
+  #   permalink: /about/#principles-and-values
 ---
 
 ## Purpose
@@ -74,7 +74,7 @@ February 2016 The Service Innovation Lab (the Lab) was founded with support from
 Today the lab is working with multiple agencies on delivering the work programme and commitments to initiatives such as the Digital Nations with funding till June 2019.
 
 -----
-
+<!-- 
 ## Principles and values
 __Our principles:__
 - Uniting to meet user needs
@@ -88,5 +88,4 @@ __Our principles:__
 - Acting as a catalyst for change by empowering others
 
 __Our team values:__
-Transparency, integrity, being evidence-based, humility, openness, empathy, celebrating success, sharing failure, embracing complexity, empowering others and harnessing creativity.
----
+Transparency, integrity, being evidence-based, humility, openness, empathy, celebrating success, sharing failure, embracing complexity, empowering others and harnessing creativity. -->

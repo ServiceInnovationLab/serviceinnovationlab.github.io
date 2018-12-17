@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <!--[if lt IE 9]><html class="lt-ie9"><![endif]-->
 <!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+<head>
+<link rel="stylesheet" href="/assets/css/main.css">
+</head>
 <style>
 #main-content {
   background-image: url("{{ site.baseurl }}/assets/img/homepagebg_blue.png");
@@ -26,11 +29,11 @@ width: 200px;
       <div class="site-navbar usa-grid">
           <button class="menu-btn">Menu</button>
           <a class="site-logo media_link" href="{{ site.baseurl }}/">
-          <img src="{{ site.baseurl }}/assets/img/SIL-Logo-Animation_white.gif" alt="SIL logo" style = "height: 55px; width:125px";
+          <img src="{{ site.baseurl }}/assets/img/SIL-Logo-Animation_white.gif" alt="SIL logo" style = "height: 55px; width:175px";
             {% if page.url == '/' %}
               aria-hidden="true"
             {% endif %}
-          ></a>
+          ></a><span style="float:left;padding-top:22px;position:absolute;font-weight:bold;font-family:'Noto Sans'">Beta</span>
             {% if page.url == '/' %}
               <h1 class="usa-sr-only">18F</h1>
             {% else %}
@@ -67,7 +70,7 @@ width: 200px;
       <div class="usa-grid">
           <div class="usa-width-one-fourth">
             <img id="govt_logo" src="{{ site.baseurl }}/assets/img/footer-logo-govt.png">
-            <p class="copyright" style="font-size: 1.5rem">Crown Copyright 2018</p>
+            <p class="copyright" style="font-size: 1.5rem; margin-top: 0; margin-bottom: 1rem;">Crown Copyright 2018</p>
           </div>
 
           <div class="usa-width-three-fourths creative-commons">
@@ -75,10 +78,9 @@ width: 200px;
                 <img src="{{ site.baseurl }}/assets/img/cc_icons.png" alt="Creative Commons 4.0 International Licence" width="85" height="40"></a>
                 <span class="licence">Unless indicated otherwise, all content on 
                   <span property="http://purl.org/dc/terms/title">Govt.nz</span> is licensed for re-use under a <a href="https://creativecommons.org/licenses/by/4.0/" rel="external" class="external">Creative
-                  Commons 4.0 International Licence&nbsp;<i class="fa fa-external-link"></i><span class="external-text" title="External site link">(external site link)</span></a></span>
+                  Commons 4.0 International Licence.</a></span>
               </a>
           </div>
-
       </div>
   </section>
 </html>

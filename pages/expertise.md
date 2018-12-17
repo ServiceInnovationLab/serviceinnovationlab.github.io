@@ -20,15 +20,9 @@ Product development using test driven development approaches and open source whe
     <ul class="graphic-list">
       <ol>
         <div class="graphic-list-img">
-          <img src="{{ site.baseurl }}/assets/img/team-sm.svg" alt="">
+          <img src="{{ site.baseurl }}/assets/img/expertise/dev.png" alt="Developers">
         </div>
-        <span>2-3 person team</span>
-      </ol>
-      <ol>
-        <div class="graphic-list-img">
-          <img src="{{ site.baseurl }}/assets/img/calendar.svg" alt="">
-        </div>
-        <span>8-10 weeks</span>
+        <!-- <span>8-10 weeks</span> -->
       </ol>
     </ul>
   </div>
@@ -49,15 +43,9 @@ We partner with users and experts to identify their needs and find ways to effec
     <ul class="graphic-list">
       <ol>
         <div class="graphic-list-img">
-          <img src="{{ site.baseurl }}/assets/img/team-lg.svg" alt="">
+          <img src="{{ site.baseurl }}/assets/img/expertise/serviceDesign.png" alt="Service Design">
         </div>
-        <span>4-6 person team</span>
-      </ol>
-      <ol>
-        <div class="graphic-list-img">
-          <img src="{{ site.baseurl }}/assets/img/calendar.svg" alt="">
-        </div>
-        <span>12 weeks</span>
+        <!-- <span>4-6 person team</span> -->
       </ol>
     </ul>
   </div>
@@ -80,15 +68,9 @@ Strategies for adopting and leveraging the best of technologies including insigh
     <ul class="graphic-list">
       <ol>
         <div class="graphic-list-img">
-          <img src="{{ site.baseurl }}/assets/img/team-sm.svg" alt="">
+          <img src="{{ site.baseurl }}/assets/img/expertise/emergingTech.png" alt="Emerging Technology">
         </div>
-        <span>2-3 person team</span>
-      </ol>
-      <ol>
-        <div class="graphic-list-img">
-          <img src="{{ site.baseurl }}/assets/img/calendar.svg" alt="">
-        </div>
-        <span>8-10 weeks</span>
+        <!-- <span>2-3 person team</span> -->
       </ol>
     </ul>
   </div>
@@ -109,15 +91,9 @@ We facilitate workshops, partnerships and hands on training to grow your capabil
     <ul class="graphic-list">
       <ol>
         <div class="graphic-list-img">
-          <img src="{{ site.baseurl }}/assets/img/team-lg.svg" alt="">
+          <img src="{{ site.baseurl }}/assets/img/expertise/innovation.png" alt="Innovation">
         </div>
-        <span>4-6 person team</span>
-      </ol>
-      <ol>
-        <div class="graphic-list-img">
-          <img src="{{ site.baseurl }}/assets/img/calendar.svg" alt="">
-        </div>
-        <span>12 weeks</span>
+        <!-- <span>4-6 person team</span> -->
       </ol>
     </ul>
   </div>
