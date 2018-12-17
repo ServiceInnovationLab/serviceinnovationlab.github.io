@@ -21,13 +21,12 @@ header[role=banner] {
       a {
         @include padding(2.3rem 2rem);
 
-        color: $color-gray;
+        color: $color-black;
         font-weight: $font-bold;
         text-decoration: none;
 
         &:hover,
         &:focus {
-          background-color: $color-gray-hover;
           color: $color-black;
         }
 

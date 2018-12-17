@@ -9,6 +9,9 @@
   background-position: center;
 }
 
+#govt_logo{
+
+}
 </style>
 
   {% include head.html %}
@@ -18,11 +21,11 @@
 
     {% unless layout.title == '18F UI Styleguide' %}
     <a class="skipnav" href="#main-content">Skip to main content</a>
-    <header role="banner" style="background-color:#2337CE">
+    <header role="banner" style="background-color:#576af8 ">
       <div class="site-navbar usa-grid">
           <button class="menu-btn">Menu</button>
           <a class="site-logo media_link" href="{{ site.baseurl }}/">
-          <img src="{{ site.baseurl }}/assets/img/SIL-Logo-Animation_white.gif" alt="SIL logo" style = "height:50px; width:125px;"
+          <img src="{{ site.baseurl }}/assets/img/SIL-Logo-Animation_white.gif" alt="SIL logo" style = "height:55px; width:125px;"
             {% if page.url == '/' %}
               aria-hidden="true"
             {% endif %}
@@ -59,5 +62,20 @@
     {% jekyll_pages_api_search_load %}
 
   </body>
-
+  <section class="blog-footer usa-section background-dark">
+      <div class="usa-grid">
+        <img id = "govt_logo" class="usa-width-one-fourth" src = "{{ site.baseurl }}/assets/img/footer-logo-govt.png" width = "200" height="50"></h2>
+        <p class = "copyright">Crown Copyright 2018</p>
+        <div class="usa-width-one-fourth">
+          
+        </div>
+      </div>
+      <div class="usa-grid">
+        <div class="usa-width-one-fourth">
+				  <a href="https://creativecommons.org/licenses/by/4.0/">
+					  <img src="themes/dia-theme/images/cc_icons.png" alt="Creative Commons 4.0 International Licence" width="85" height="40">
+				  </a>
+        </div>
+      </div>
+  </section>
 </html>

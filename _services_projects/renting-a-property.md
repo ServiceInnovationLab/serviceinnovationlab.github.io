@@ -5,10 +5,10 @@ subtitle: Research into the relationship dynamics of renting a property and ways
 permalink: /projects/renting-a-property/
 redirect_from: /projects/renting-a-property/
 excerpt: Research into the relationship dynamics of renting a property and ways they impact the renting experience and can make it better.
-image: /assets/img/home/hero-fec.png
-image_accessibility: Screenshot of the FEC data explorer with stylized magnifying glass.
+image: /assets/img/projects/renting-a-property.png
+image_accessibility: 
 project_weight: 12
-tag: fec.gov
+tag: Renting a Property
 expiration_date:
 github_repo:
     - "[](https://github.com/ServiceInnovationLab/)"

@@ -18,12 +18,9 @@ h2 {
 
 <section class="usa-section background-gray">
 <div class="usa-grid">
-  <section class="usa-section">
     <div class="usa-width-two-thirds">
       <h2> Projects </h2>
-      <p>As part of identifying opportunities for integrated services and the reusable reusable components needed to support them we’ve been involved in a range of initiatives over the last year. Here’s a list of some notable ones and we’ve also added reports that describe each initiative in more detail <a href = "/blog/index.html">here</a>.</p>
     </div>
-  </section>
 </div>
 
 <div class="usa-grid">

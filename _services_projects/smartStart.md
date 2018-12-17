@@ -5,10 +5,10 @@ subtitle: SmartStart provides step-by-step information and support to help you a
 permalink: /projects/smartStart/
 redirect_from: /projects/smartStart/
 excerpt: SmartStart provides step-by-step information and support to help you access the right services for you and your baby.
-image: /assets/img/home/hero-fec.png
-image_accessibility: Screenshot of the FEC data explorer with stylized magnifying glass.
+image: 
+image_accessibility: 
 project_weight: 12
-tag: fec.gov
+tag: SmartStart
 expiration_date:
 github_repo:
     - "[SmartStart-frontend](https://github.com/ServiceInnovationLab/smartstart-frontend)"

@@ -19,12 +19,9 @@ h2 {
 
 <section class="usa-section background-gray">
 <div class="usa-grid">
-  <section class="usa-section">
     <div class="usa-width-two-thirds">
     <h2> Tools </h2>
-     <p>In addition to 18F’s custom services, we also operate products that you can use to reduce costs and improve the security and usability of your services.</p>
    </div>
- </section>
 </div>
 
 <div class="usa-grid">
@@ -33,7 +30,7 @@ h2 {
       <div class="usa-flex usa-flex-wrap">
         {% assign projects_list = site | find_collection: 'products_projects' | weighted_sort: 'project_weight', 'title' %}
         {% for project in projects_list %}
-          {% include card.html
+          {% include card_tools.html
            image_src=project.image
            image_alt=project.image_accessibility
            image_icon=project.image_icon

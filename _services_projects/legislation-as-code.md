@@ -5,10 +5,10 @@ subtitle: Exploring the benefits of legislation that is both human and machine r
 permalink: /projects/legislation-as-code/
 redirect_from: /projects/legislation-as-code/
 excerpt: 
-image: /assets/img/home/hero-fec.png
-image_accessibility: Screenshot of the FEC data explorer with stylized magnifying glass.
+image: /assets/img/projects/legislation-as-code.png
+image_accessibility: 
 project_weight: 12
-tag: fec.gov
+tag: Legislation as Code
 expiration_date:
 github_repo:
     - "[Legislation as Code](https://github.com/ServiceInnovationLab/Piccolo)"
