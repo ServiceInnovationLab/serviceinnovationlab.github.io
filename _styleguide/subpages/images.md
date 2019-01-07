@@ -79,9 +79,6 @@ The prefered method for adding SVGs on [18f.gsa.gov](https://18f.gsa.gov) is as 
 This is a list of all of the SVGs that are available as includes (in the `_includes` directory). All icons are set to their default sizes.
 
 {% capture catalog_codeblock %}{% raw %}
-**svg/18f-pride.svg:**
-{% include svg/18f-pride.svg %}
-
 **svg/icons/agile-icon.svg:**
 {% include svg/icons/agile-icon.svg %}
 

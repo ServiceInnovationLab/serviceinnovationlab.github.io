@@ -5,11 +5,7 @@ authors:
 - pia-andrews
 tags:
 - open source
-excerpt: "Working in the open is a key component of building trust
-between governments and vendor partners. Read about how the State of
-Alaska is using openness and code sharing to foster greater trust
-between government project teams and vendor teams as part of a large
-legacy system overhaul."
+excerpt: ""
 ---
 
 <span class="subtitle">30 June 2018 by Pia Andrews - Service Innovation Lab Lead</span>
