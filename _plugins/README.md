@@ -1,6 +1,6 @@
 #Plugins!
 
-The 18F site uses a variety of custom plugins to modify how the site is rendered.
+The SIL site uses a variety of custom plugins to modify how the site is rendered.
 
 * [Filters](#filters)
   * [team_photo](#team_photo)
@@ -26,7 +26,7 @@ Example usage:
 Yields:
 
 ```html
-<img class="img-circle team-img bio-clip" src="/assets/img/team/brian.jpg" alt="18F team member Brian Hedberg">
+<img class="img-circle team-img bio-clip" src="/assets/img/team/brian.jpg" alt="SIL team member Brian Hedberg">
 ```
 
 ### lookup
@@ -50,8 +50,6 @@ Example usage:
 
 ### embed
 **Creates an iframe with the specified link. Lives in [embed.rb](embed.rb)**
-
-*This is being deprecated* It still works, but the preferable usage is [here](https://github.com/18F/jekyll-oembed#usage), for the `jekyll_oembed` gem.
 
 Example usage:
 

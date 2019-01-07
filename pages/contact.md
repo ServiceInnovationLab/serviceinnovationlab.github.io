@@ -3,7 +3,6 @@ title: Contact
 permalink: /contact/
 layout: primary
 content_wide: true
-redirect_from: /hire/
 gridless: true
 ---
 <div class="usa-grid usa-grid-reversed">

@@ -69,14 +69,14 @@ header_border: true
 
         {% if page.project_url %}
         <li class="section-info-list-item">
-          <div class="section-info-header">See our work</div>
+          <div class="section-info-header">Reports</div>
           <div>{{ page.project_url | markdownify }}</div>
         </li>
         {% endif %}
 
         {% if page.github_repo %}
         <li class="section-info-list-item">
-          <div class="section-info-header">See the code on GitHub</div>
+          <div class="section-info-header">GitHub</div>
             <ul class="{% unless page.github_repo.size > 1 %}usa-unstyled-list{% endunless %}">
             {% for repo in page.github_repo %}
               <li>{{ repo | markdownify }}</a></li>

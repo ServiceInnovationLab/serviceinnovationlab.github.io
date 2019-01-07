@@ -4,7 +4,7 @@
     <div class="usa-grid">
       <header>
         {% if page.full_name %}
-          <h1 class="section-heading section-heading-alt">Blog posts by {{ page.full_name }}{% if page.alumni %} <span>(18F alumni)</span>{% endif %}{% if page.guest %} <span>(guest author)</span>{% endif %}:</h1>
+          <h1 class="section-heading section-heading-alt">Blog posts by {{ page.full_name }}:</h1>
             {% endif %}
       </header>
     </div>
@@ -18,9 +18,9 @@
         {% endif %}
       ></a><span style="float:left;padding-top:22px;position:absolute;font-weight:bold;font-family:'Noto Sans'">Beta</span>
         {% if page.url == '/' %}
-          <h1 class="usa-sr-only">18F</h1>
+          <h1 class="usa-sr-only">Service Innovation Lab</h1>
         {% else %}
-          <span class="usa-sr-only">18F</span>
+          <span class="usa-sr-only">Service Innovation Lab</span>
         {% endif %}
       <nav role="navigation">
         {% include navigation.html navbar=true %}

@@ -1,15 +1,15 @@
 ---
-name: burt
-first_name: Burt
-last_name: Reynolds
-full_name: Burt Reynolds
-role: Executive Director
-city: Washington
-state: D.C.
+name: 
+first_name: 
+last_name: 
+full_name: 
+role: 
+city: 
+state: 
 github: 
 twitter: 
-team: 18F
-redirect_from: "/team/burt/"
+team: 
+redirect_from: "/team/PERSON/"
 alumni: true
 published: true
 ---

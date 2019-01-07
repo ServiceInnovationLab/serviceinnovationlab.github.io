@@ -60,7 +60,6 @@ We partner with users and experts to identify their needs and find ways to effec
 
 Strategies for adopting and leveraging the best of technologies including insights on emerging technology and how to plan for its impact on society and systems. Prototyping and demonstrations with our Virtual Reality Suite.
 
-(perspective, implementation, planning for, prototyping) (examples [1](https://www.pwc.co.nz/services/consulting/management-consulting/technology-consulting.html), [2](https://www.pwc.com/us/en/services/consulting/technology/emerging-technology.html), [3](https://home.kpmg.com/ru/en/home/services/advisory/risk-consulting/emerging-technologies-in-risk-consulting.html))
 {% endcapture %}
 
 <div class="usa-grid-full usa-section">

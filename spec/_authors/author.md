@@ -1,15 +1,15 @@
 ---
-name: aaron
-first_name: Aaron
-last_name: Snow
-full_name: Aaron Snow
-role: Executive Director
-city: Washington
-state: D.C.
+name: 
+first_name: 
+last_name: 
+full_name: 
+role: 
+city: 
+state: 
 github: 
 twitter: 
-team: 18F
-redirect_from: "/team/aaron/"
+team: 
+redirect_from: "/team/PERSON/"
 alumni: true
 published: true
 ---

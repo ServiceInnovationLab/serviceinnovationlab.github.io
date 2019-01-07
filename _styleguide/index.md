@@ -1,10 +1,10 @@
 ---
-title: 18F UI style guide
+title: SIL UI style guide
 permalink: /styleguide/
 subpage: Overview
 ---
 
-### This is the user interface (UI) style guide for [18f.gsa.gov](18f.gsa.gov).
+### This is the user interface (UI) style guide for [The Service Innovation Lab](18f.gsa.gov).
 
 The site uses a custom set of styles that inherit from the [U.S. Web Design System](https://designsystem.digital.gov/) and [18F brand](https://pages.18f.gov/brand) guidelines to create style that is professional, unique, and informative. The guide has a two-fold purpose:
 

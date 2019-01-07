@@ -23,7 +23,7 @@ width: 200px;
   <body class="{% if page.type == "tag"%}tag-{% endif %}page-{{ page.title | slugify }}
   {% if page.header_border == true or layout.header_border == true %}header_border{% endif %} {% if page.path contains '_posts' %}single-post{% endif %}">
 
-    {% unless layout.title == '18F UI Styleguide' %}
+    {% unless layout.title == 'SIL UI Styleguide' %}
     <a class="skipnav" href="#main-content">Skip to main content</a>
     <header role="banner" style="background-color:#465faa"> <!--#425eb2#425eb2-->
       <div class="site-navbar usa-grid">
@@ -33,11 +33,11 @@ width: 200px;
             {% if page.url == '/' %}
               aria-hidden="true"
             {% endif %}
-          ></a><span style="float:left;padding-top:22px;position:absolute;font-weight:bold;font-family:'Noto Sans'">Beta</span>
+          ></a><span style="float:left;padding-top:22px;position:absolute;font-weight:bold;font-family:'Noto Sans';color:white">Beta</span>
             {% if page.url == '/' %}
-              <h1 class="usa-sr-only">18F</h1>
+              <h1 class="usa-sr-only">SIL</h1>
             {% else %}
-              <span class="usa-sr-only">18F</span>
+              <span class="usa-sr-only">SIL</span>
             {% endif %}
           <nav role="navigation">
             {% include navigation.html navbar=true %}
@@ -47,11 +47,11 @@ width: 200px;
     <div class="overlay"></div>
     {% endunless %}
 
-    <div class="main-content {% if layout.title == '18F UI Styleguide' %}styleguide-main-content{% endif %}" id="main-content">
+    <div class="main-content {% if layout.title == 'SIL UI Styleguide' %}styleguide-main-content{% endif %}" id="main-content">
       {{ content }}
     </div>
 
-    {% unless layout.title == '18F UI Styleguide' %}
+    {% unless layout.title == 'SIL UI Styleguide' %}
       {% include navigation.html drawer=true %}
 
       <!-- <footer role="contentinfo">
