@@ -9,7 +9,7 @@ image_accessibility:
 image_icon: 
 tag: Family Services Directory API
 expiration_date:
-github_repo:
+github_repo: https://github.com/ServiceInnovationLab/FamilyServiceDirectorySearchinator
 project_url: "[]()"
 learn_more:
 resources:

@@ -9,7 +9,7 @@ image_accessibility:
 image_icon: 
 tag: Open Fisca
 expiration_date:
-github_repo:
+github_repo: https://github.com/ServiceInnovationLab/openfisca-aotearoa
 project_url: "[]()"
 learn_more:
 resources:

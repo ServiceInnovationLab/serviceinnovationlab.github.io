@@ -9,7 +9,7 @@ image_accessibility:
 image_icon: 
 tag: API
 expiration_date:
-github_repo:
+github_repo: 
 project_url: "[]()"
 resources:
 quote:

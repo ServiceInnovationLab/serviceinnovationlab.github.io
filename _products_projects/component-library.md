@@ -9,7 +9,7 @@ image_accessibility:
 image_icon: 
 tag: Component Library
 expiration_date:
-github_repo:
+github_repo: https://github.com/ServiceInnovationLab/component-library
 project_url: "[]()"
 learn_more:
 resources:
