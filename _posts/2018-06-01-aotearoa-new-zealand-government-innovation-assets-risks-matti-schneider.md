@@ -2,7 +2,7 @@
 title: Aotearoa New Zealand Government Innovation Assets and Risks
 date: 2018-06-01
 authors:
-- matti schneider
+- matti-schneider
 tags:
 - open source
 excerpt: ""

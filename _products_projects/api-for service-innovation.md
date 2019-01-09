@@ -11,7 +11,6 @@ tag: API
 expiration_date:
 github_repo:
 project_url: "[]()"
-link: www.google.co.nz
 resources:
 quote:
 ---

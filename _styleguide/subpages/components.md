@@ -1,5 +1,5 @@
 ---
-title: 18F UI style guide
+title: SIL UI style guide
 subpage: Components
 permalink: /styleguide/components/
 parent_permalink: /styleguide/
@@ -38,9 +38,7 @@ subnav_items:
 
 {% include details-code.html
    title='buttons'
-   description='Our button styles closely resemble those defined by the U.S. Web Design System. We have overriden them in places to more closely align the look and feel with the 18F Brand.'
-   scss_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_components/buttons.scss'
-   uswds_ref='https://github.com/18F/18f.gsa.gov/blob/master/_sass/_libs/wds/stylesheets/elements/_buttons.scss'
+   description='Our button styles are.'
    content=styleguide_buttons
 %}
 
@@ -92,15 +90,12 @@ For more on includes, check out the [Jekyll documentation](https://jekyllrb.com/
 
 ### Project cards
 
-The card component is used as a preview for project pages, but could be adapted to meet additional needs if necessary. The design is unique to [18f.gsa.gov](https://18f.gsa.gov), but leans heavily on the stylistic foundation of the U.S. Web Design System and 18F Brand guidelines.
-
+The card component is used as a preview for project pages, but could be adapted to meet additional needs if necessary.
 
 {% capture styleguide_card %}{% raw %}
 <div class="usa-grid-full">
   <section class="usa-flex usa-flex-wrap">
-    {% include card-project.html project='fec-gov' %}
-    {% include card-project.html project='hhs-states' %}
-    {% include card-project.html project='dhs-myuscis' %}
+    {% include card-project.html project='open-fisca-aotearoa' %}
   </section>
 </div>
 {% endraw %}{% endcapture %}
@@ -160,7 +155,7 @@ The sticky subnavigation is a pattern that is used frequently throughout the sit
 #### How to use
 
 1. Add the classes `sticky` and `sticky-subnav` to the element that you want to be sticky.
-2. Make sure that [sticky.js]({{ site.baseurl }}/assets/js/sticky.js) is included in the page. If you are working on the 18F site, it is included on every page by default.
+2. Make sure that [sticky.js]({{ site.baseurl }}/assets/js/sticky.js) is included in the page. If you are working on the SIL site, it is included on every page by default.
 3. Make sure that the element that is receiving `position: sticky` is a child of an element with a greater height. If it is not, it will never appear to be stuck.
 
 #### Use of the Design System

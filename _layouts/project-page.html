@@ -13,7 +13,7 @@ header_border: true
 
 <section class="page-tag-results">
 
-  <section class="background-dark">
+  <section class="background-gray">
     <div class="usa-grid-full usa-flex">
       <div class="usa-grid {% if page.image %}usa-width-one-half{% else %}usa-width-one-whole{% endif %} hero-callout-full hero-callout-no_button">
         {% if page.agency %}
@@ -42,7 +42,8 @@ header_border: true
     {% assign any_clients = page.product_clients.size > 0 %}
 
     {% if page.agency or
-          page.project_url or
+          page.report or
+          page.media or
           page.github_repo or
           any_clients or
           page.start_date or
@@ -67,10 +68,17 @@ header_border: true
         </li>
         {% endif %}
 
-        {% if page.project_url %}
+        {% if page.report %}
         <li class="section-info-list-item">
           <div class="section-info-header">Reports</div>
-          <div>{{ page.project_url | markdownify }}</div>
+          <div>{{ page.report | markdownify }}</div>
+        </li>
+        {% endif %}
+
+        {% if page.media %}
+        <li class="section-info-list-item">
+          <div class="section-info-header">Media</div>
+          <div>{{ page.media | markdownify }}</div>
         </li>
         {% endif %}
 
@@ -134,7 +142,7 @@ header_border: true
     <div class="usa-grid usa-width-two-thirds">
       <section class="usa-section page-tag-results-content">
         <div class="small-caps small-caps-no-margin">Background</div>
-        <h3>{{ page.subtitle }}</h3>
+        {{ page.subtitle }}
         {{ content }}
       </section>
     </div>

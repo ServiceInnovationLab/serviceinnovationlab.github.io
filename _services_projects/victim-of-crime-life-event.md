@@ -14,4 +14,5 @@ github_repo:
     - "[](https://github.com/ServiceInnovationLab/)"
 project_url: "[]()"
 quote:
+media: 
 ---

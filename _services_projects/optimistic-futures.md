@@ -1,5 +1,5 @@
 ---
-agency: 
+agency: Service Innovation Lab
 title: Optimistic Futures
 subtitle: Speculating how government, public institutions and society could be resilient and prosperous in the future.
 permalink: /projects/optimistic-futures/
@@ -14,4 +14,5 @@ github_repo:
     - "[](https://github.com/ServiceInnovationLab/)"
 project_url: "[]()"
 quote:
+media: 
 ---
