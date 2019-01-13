@@ -30,12 +30,12 @@ For e.g. 'http://blahblah.us1.list-manage.com/subscribe/post-json?u=5afsdhfuhdsi
 
     $.ajaxChimp = {
         responses: {
-            'We have sent you a confirmation email'                                             : 0,
-            'Please enter a value'                                                              : 1,
-            'An email address must contain a single @'                                          : 2,
-            'The domain portion of the email address is invalid (the portion after the @: )'    : 3,
-            'The username portion of the email address is invalid (the portion before the @: )' : 4,
-            'This email address looks fake or invalid. Please enter a real email address'       : 5
+            'We have sent you a confirmation email': 0,
+            'Please enter a value': 1,
+            'An email address must contain a single @': 2,
+            'The domain portion of the email address is invalid (the portion after the @: )': 3,
+            'The username portion of the email address is invalid (the portion before the @: )': 4,
+            'This email address looks fake or invalid. Please enter a real email address': 5
         },
         translations: {
             'en': null
@@ -46,7 +46,7 @@ For e.g. 'http://blahblah.us1.list-manage.com/subscribe/post-json?u=5afsdhfuhdsi
     };
 
     $.fn.ajaxChimp = function (options) {
-        $(this).each(function(i, elem) {
+        $(this).each(function (i, elem) {
             var form = $(elem);
             var email = form.find('input[type=email]');
             var label = form.find('label[for=' + email.attr('id') + ']');
@@ -129,7 +129,7 @@ For e.g. 'http://blahblah.us1.list-manage.com/subscribe/post-json?u=5afsdhfuhdsi
 
                 // Translate and display submit message
                 var submitMsg = 'Submitting...';
-                if(
+                if (
                     settings.language !== 'en'
                     && $.ajaxChimp.translations
                     && $.ajaxChimp.translations[settings.language]

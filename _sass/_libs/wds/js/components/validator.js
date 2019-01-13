@@ -1,5 +1,5 @@
 
-var $ = require( 'jquery' );
+var $ = require('jquery');
 
 module.exports = function ($el) {
   var data = $el.data(),
@@ -9,11 +9,11 @@ module.exports = function ($el) {
     $validatorCheckbox,
     $checkList = $(data.validationElement);
 
-  function validate () {
+  function validate() {
     for (key in data) {
       if (key.startsWith('validate')) {
-        validatorName = key.split('validate')[ 1 ];
-        validatorPattern = new RegExp(data[ key ]);
+        validatorName = key.split('validate')[1];
+        validatorPattern = new RegExp(data[key]);
         $validatorCheckbox = $checkList.find('[data-validator=' +
             validatorName.toLowerCase() + ']');
 
