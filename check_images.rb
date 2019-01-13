@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Find this on Github here: https://gist.github.com/gemfarmer/f3f2e35663b96cd3fa8d90b49e6216a0
 require 'colorator' # Comment this out to run the script without colorator
 

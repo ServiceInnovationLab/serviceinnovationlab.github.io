@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'etc'
 
 # We want our Docker process to use the same uid as the owner of the
