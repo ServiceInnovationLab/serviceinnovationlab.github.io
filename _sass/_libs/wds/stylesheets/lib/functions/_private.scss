@@ -20,10 +20,8 @@
 
 // Contains display value
 @function contains-display-value($query) {
-  @return belongs-to(table, $query)
-       or belongs-to(block, $query)
-       or belongs-to(inline-block, $query)
-       or belongs-to(inline, $query);
+  @return belongs-to(table, $query) or belongs-to(block, $query) or
+    belongs-to(inline-block, $query) or belongs-to(inline, $query);
 }
 
 // Parses the first argument of span-columns()
@@ -63,7 +61,7 @@
 
   $values: ($transparent 0, $color 0);
 
-  @for $i from 1 to $grid-columns*2 {
+  @for $i from 1 to $grid-columns * 2 {
     @if is-even($i) {
       $values: append($values, $transparent $column-offset, comma);
       $values: append($values, $color $column-offset, comma);

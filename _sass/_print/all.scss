@@ -16,7 +16,7 @@
 
   a::after {
     font-size: 1rem !important;
-    content: ' (' attr(href) ') ';
+    content: " (" attr(href) ") ";
   }
 
   .usa-grid.content-focus {
@@ -24,10 +24,8 @@
     padding-right: 0 !important;
   }
 
-  @import 'what-we-deliver';
-  @import 'how-we-work';
-  @import 'contact';
-  @import 'blog';
+  @import "what-we-deliver";
+  @import "how-we-work";
+  @import "contact";
+  @import "blog";
 }
-
-

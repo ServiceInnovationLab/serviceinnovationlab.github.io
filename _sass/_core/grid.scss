@@ -1,6 +1,5 @@
 .usa-grid-full .usa-width-one-third,
 .usa-grid .usa-width-one-third {
-
   @include media($small-screen) {
     @include span-columns(12);
 
@@ -18,7 +17,6 @@
   }
 
   &.usa-width-tablet {
-
     @include span-columns(12);
 
     @include media($tablet-screen) {
@@ -33,7 +31,6 @@
 
 .usa-grid-full .usa-width-two-thirds,
 .usa-grid .usa-width-two-thirds {
-
   @include media($small-screen) {
     @include span-columns(12);
 
@@ -51,7 +48,6 @@
   }
 
   &.usa-width-tablet {
-
     @include span-columns(12);
 
     @include media($tablet-screen) {
@@ -84,4 +80,3 @@
     }
   }
 }
-
