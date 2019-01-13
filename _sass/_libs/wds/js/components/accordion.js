@@ -8,7 +8,7 @@ var $ = require('jquery');
  *
  * @param {jQuery} el A jQuery html element to turn into an accordion.
  */
-function Accordion ($el) {
+function Accordion($el) {
   var self = this;
   this.$root = $el;
 
