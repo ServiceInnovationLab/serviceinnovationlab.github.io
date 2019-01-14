@@ -64,6 +64,11 @@ defaults:
     layout: primary
  -
   scope:
+    path: "_authors"
+  values:
+    layout: default-profile
+ -
+  scope:
     path: "_contact"
   values:
     layout: primary

@@ -221,7 +221,7 @@ author_data.all_authors
 ```
 
 #### `published_authors`
-Returns an Array of all the authors who have published blog posts on [18f.gsa.gov](https://18f.gsa.gov).
+Returns an Array of all the authors who have published blog posts on [SIL](https://serviceinnovationlab.github.io).
 
 ```ruby
 author_data.published_authors

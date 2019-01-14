@@ -9,7 +9,8 @@ image_accessibility:
 image_icon: 
 tag: RapuTure
 expiration_date:
-github_repo: https://github.com/ServiceInnovationLab/RapuTure
+redirect_to:
+  - https://github.com/ServiceInnovationLab/RapuTure
 project_url: "[www.rules.nz](www.rules.nz)"
 resources:
 quote:

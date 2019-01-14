@@ -82,7 +82,6 @@ For more on includes, check out the [Jekyll documentation](https://jekyllrb.com/
    title='breadcrumb'
    lang='markdown'
    description=breadcrumb_description
-   include_ref='https://github.com/18F/18f.gsa.gov/blob/master/_includes/breadcrumb.html'
    content=styleguide_breadcrumb
 %}
 
@@ -160,9 +159,9 @@ The sticky subnavigation is a pattern that is used frequently throughout the sit
 
 #### Use of the Design System
 
-There are a few classes that we are using for the sticky subnavigation on the 18F site:
+There are a few classes that we are using for the sticky subnavigation on the SIL site:
 
-* The `usa-sidenav-list` class, in conjunction with the `usa-current` class. This is mostly taken wholesale from the Design System, but does contain slight overrides to better fit with the 18F Brand.
+* The `usa-sidenav-list` class, in conjunction with the `usa-current` class. This is mostly taken wholesale from the Design System, but does contain slight overrides to better fit with the SIL Brand.
 * The `usa-accordion` class and accompanying accordion styles. We have added to this set of styles with a `nav-accordion` class that more accurately reflects the look and feel of the site.
 * The `usa-width-one-third` grid class to define the width of our navigaton field. This isn't necessary, but is a convention throughout the site.
 
@@ -189,12 +188,12 @@ To add items to the subnavigation define the subnavigation items directly within
 
 ### Testimonials and fun facts
 
-Testimonials and fun facts are used throughout the site to highlight the impact 18F has made with our partner agencies. You can find the styling used on the home page, how we work, and various project pages. 
+Testimonials and fun facts are used throughout the site to highlight the impact SIL has made with our partner agencies. You can find the styling used on the home page, how we work, and various project pages. 
 
 {% capture testimonial_codeblock %}{% raw %}
 
 <div class="testimonial-blockquote">
-  18F has helped us [build something] that lead to [improved thing] resulting in [impact] within our agency.
+  SIL has helped us [build something] that lead to [improved thing] resulting in [impact] within our agency.
     <span>- [name], [position], [agency]</span>
 </div>
 

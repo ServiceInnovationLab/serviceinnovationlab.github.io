@@ -10,7 +10,6 @@ image_accessibility:
 tag: Tertiary Life Event
 expiration_date:
 github_repo:
-    - "[](https://github.com/ServiceInnovationLab/)"
 project_url: "[]()"
 quote:
 media: 
