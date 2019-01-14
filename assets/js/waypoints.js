@@ -5,21 +5,21 @@ $(function () {
   }
 
   var $navItems = $('.nav-subnav a')
-    .filter( ".usa-sidenav-list > li > a" );
+    .filter(".usa-sidenav-list > li > a");
 
   var $window = $(window);
-  var anchors = $.map($navItems, function(item) {
+  var anchors = $.map($navItems, function (item) {
     return item.getAttribute('href')
       .replace(window.location.pathname, '');
   });
 
-  anchors = anchors.filter(function(anchor) {
+  anchors = anchors.filter(function (anchor) {
     return anchor[0] === '#';
   });
 
   var $anchors = $(anchors.join(','));
   $anchors
-    .waypoint(function(direction) {
+    .waypoint(function (direction) {
       $navItems
         .removeClass('usa-current', direction === 'down');
       if ($window.scrollTop() !== 0) {
@@ -27,24 +27,24 @@ $(function () {
           .addClass('usa-current', direction === 'down');
       }
     }, {
-      offset: function() {
+      offset: function () {
         return $(this).height();
       }
     })
-    .waypoint(function(direction) {
+    .waypoint(function (direction) {
       $navItems.removeClass('usa-current', direction === 'up');
       if ($window.scrollTop() !== 0) {
         getRelatedNavigation(this)
           .addClass('usa-current', direction === 'up');
       }
     }, {
-      offset: function() {
+      offset: function () {
         return -$(this).height();
       }
     });
 
   // Subnav click to top
-  $('.nav-accordion-button-desktop').on('click', function() {
+  $('.nav-accordion-button-desktop').on('click', function () {
     $window.scrollTop(0, 0);
   });
 });
