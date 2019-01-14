@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/ServiceInnovationLab/serviceinnovationlab.github.io.svg?branch=dev)](https://travis-ci.org/ServiceInnovationLab/serviceinnovationlab.github.io)
 [![Maintainability](https://api.codeclimate.com/v1/badges/05a76407322970819c76/maintainability)](https://codeclimate.com/github/ServiceInnovationLab/serviceinnovationlab.github.io/maintainability)
 
 ## Installation
