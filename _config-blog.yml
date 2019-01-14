@@ -14,9 +14,6 @@ exclude:
 - circle.yml
 - config_blog.rb
 - CONTRIBUTING.md
-- docker-compose.yml
-- docker_entrypoint.rb
-- Dockerfile
 - examples/
 - favicon.ico
 - feed*
