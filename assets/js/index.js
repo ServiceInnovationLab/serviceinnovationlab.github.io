@@ -1,7 +1,7 @@
 /* eslint-env jquery */
-$(function (){
+$(function () {
   // Onclick window location handler
-  $('.card-link').on('click', function(e) {
+  $('.card-link').on('click', function (e) {
     var url = $(this).data().href;
     if (e.shiftKey || e.ctrlKey || e.metaKey) {
       window.open(url, '_blank');
@@ -50,7 +50,7 @@ $(function (){
     callback: callbackFunction
   });
 
-  function callbackFunction (resp) {
+  function callbackFunction(resp) {
     if (resp.result === 'success') {
       newsletterForm.response();
     }
@@ -60,7 +60,7 @@ $(function (){
     newsletterForm.reset();
   });
 
-  $('.search-interface').on("submit", function(){
+  $('.search-interface').on("submit", function () {
     $("#search-loading").show();
   })
 });
