@@ -11,7 +11,6 @@ project_weight: 12
 tag: Renting a Property
 expiration_date:
 github_repo:
-    - "[](https://github.com/ServiceInnovationLab/)"
 project_url: "[]()"
 quote:
 media: 

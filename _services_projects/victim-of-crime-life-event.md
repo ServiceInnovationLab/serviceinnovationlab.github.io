@@ -11,7 +11,6 @@ project_weight: 12
 tag: Victim of Crime
 expiration_date:
 github_repo:
-    - "[](https://github.com/ServiceInnovationLab/)"
 project_url: "[]()"
 quote:
 media: 
