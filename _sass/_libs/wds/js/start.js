@@ -18,10 +18,10 @@ $(function () {
     enhancedAttr = 'data-enhanced',
     initSelector = '[data-" + componentName + "]:not([" + enhancedAttr + "])';
 
-  $.fn[ componentName ] = function (){
-    return this.each(function (){
+  $.fn[componentName] = function () {
+    return this.each(function () {
       var polite = new Politespace(this);
-      if(polite.type === 'number') {
+      if (polite.type === 'number') {
         polite.createProxy();
       }
 
@@ -77,11 +77,11 @@ $(function () {
   $(window).resize(footerAccordion);
 
   // Fixing skip nav focus behavior in chrome
-  $('.skipnav').click(function (){
+  $('.skipnav').click(function () {
     $('#main-content').attr('tabindex', '0');
   });
 
-  $('#main-content').blur(function (){
+  $('#main-content').blur(function () {
     $(this).attr('tabindex', '-1');
   });
 

@@ -36,7 +36,7 @@ var toggleFormInput = function ($el, showText, hideText) {
  * @param  {String} selectors Space separated list of ids of fields to be masked
  * @return {String}           Comma separated list of selectors
  */
-function getSelectors (selectors) {
+function getSelectors(selectors) {
   var selectorsList = selectors.split(' ');
 
   return selectorsList.map(function (selector) {
