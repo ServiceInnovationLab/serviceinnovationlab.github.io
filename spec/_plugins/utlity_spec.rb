@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative '../../_plugins/utility'
 
 RSpec.describe Jekyll::Utility do

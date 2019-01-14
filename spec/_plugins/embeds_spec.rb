@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative '../../_plugins/embeds'
 
 RSpec.describe Jekyll::EmbedFilter do

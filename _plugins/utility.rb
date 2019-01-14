@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Jekyll
   module Utility
     attr_reader :match

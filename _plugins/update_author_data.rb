@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Updates author data on the site
 # Detects if authors have published posts
 # And renders a page for them accordingly
