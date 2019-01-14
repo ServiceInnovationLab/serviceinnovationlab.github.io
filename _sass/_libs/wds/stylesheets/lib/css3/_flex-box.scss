@@ -16,30 +16,30 @@
 }
 
 @mixin box-orient($orient: inline-axis) {
-// horizontal|vertical|inline-axis|block-axis|inherit
+  // horizontal|vertical|inline-axis|block-axis|inherit
   @include prefixer(box-orient, $orient, webkit moz spec);
 }
 
 @mixin box-pack($pack: start) {
-// start|end|center|justify
+  // start|end|center|justify
   @include prefixer(box-pack, $pack, webkit moz spec);
   -ms-flex-pack: $pack; // IE 10
 }
 
 @mixin box-align($align: stretch) {
-// start|end|center|baseline|stretch
+  // start|end|center|baseline|stretch
   @include prefixer(box-align, $align, webkit moz spec);
   -ms-flex-align: $align; // IE 10
 }
 
 @mixin box-direction($direction: normal) {
-// normal|reverse|inherit
+  // normal|reverse|inherit
   @include prefixer(box-direction, $direction, webkit moz spec);
   -ms-flex-direction: $direction; // IE 10
 }
 
 @mixin box-lines($lines: single) {
-// single|multiple
+  // single|multiple
   @include prefixer(box-lines, $lines, webkit moz spec);
 }
 
@@ -64,7 +64,7 @@
 // 2011 - display (flexbox | inline-flexbox)
 // 2012 - display (flex | inline-flex)
 @mixin display($value) {
-// flex | inline-flex
+  // flex | inline-flex
   @if $value == "flex" {
     // 2009
     display: -webkit-box;
@@ -94,7 +94,6 @@
 // 2011 - flex (decimal | width decimal)
 // 2012 - flex (integer integer width)
 @mixin flex($value) {
-
   // Grab flex-grow for older browsers.
   $flex-grow: nth($value, 1);
 
@@ -110,7 +109,6 @@
 // 2011 - flex-direction (row | row-reverse | column | column-reverse)
 // 2012 - flex-direction (row | row-reverse | column | column-reverse)
 @mixin flex-direction($value: row) {
-
   // Alt values.
   $value-2009: $value;
   $value-2011: $value;
@@ -200,7 +198,6 @@
 // 2011 - flex-pack (start | end | center | justify)
 // 2012 - justify-content (flex-start | flex-end | center | space-between | space-around)
 @mixin justify-content($value: flex-start) {
-
   // Alt values.
   $alt-value: $value;
   @if $value == "flex-start" {
@@ -227,7 +224,6 @@
 // 2011 - flex-align (start | end | center | baseline | stretch)
 // 2012 - align-items (flex-start | flex-end | center | baseline | stretch)
 @mixin align-items($value: stretch) {
-
   $alt-value: $value;
 
   @if $value == "flex-start" {
@@ -249,7 +245,6 @@
 // 2011 - flex-item-align (auto | start | end | center | baseline | stretch)
 // 2012 - align-self (auto | flex-start | flex-end | center | baseline | stretch)
 @mixin align-self($value: auto) {
-
   $value-2011: $value;
   @if $value == "flex-start" {
     $value-2011: start;
@@ -267,7 +262,6 @@
 // 2011 - flex-line-pack (start | end | center | justify | distribute | stretch)
 // 2012 - align-content (flex-start | flex-end | center | space-between | space-around | stretch)
 @mixin align-content($value: stretch) {
-
   $value-2011: $value;
   @if $value == "flex-start" {
     $value-2011: start;

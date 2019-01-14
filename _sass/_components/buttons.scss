@@ -4,10 +4,10 @@
 .usa-button,
 .usa-button:visited,
 button,
-[type='button'],
-[type='submit'],
-[type='reset'],
-[type='image'] {
+[type="button"],
+[type="submit"],
+[type="reset"],
+[type="image"] {
   background-color: $color-medium;
   font-family: $font-sans;
   width: auto;
@@ -39,16 +39,16 @@ button,
 
 @mixin display-icon($icon, $direction, $size) {
   &:#{$direction} {
-    background-image: url('../img/#{$icon}.png');
-    background-image: url('../img/#{$icon}.svg');
+    background-image: url("../img/#{$icon}.png");
+    background-image: url("../img/#{$icon}.svg");
     background-size: 100%;
-    content: '';
+    content: "";
     display: inline-block;
     height: $size;
     margin-bottom: -1px;
     width: $size;
 
-    @if $direction == 'after' {
+    @if $direction == "after" {
       margin-left: 4px;
     } @else {
       margin-right: 4px;
@@ -56,8 +56,8 @@ button,
   }
 
   &:hover::#{$direction} {
-    background-image: url('../img/#{$icon}-hover.png');
-    background-image: url('../img/#{$icon}-hover.svg');
+    background-image: url("../img/#{$icon}-hover.png");
+    background-image: url("../img/#{$icon}-hover.svg");
   }
 
   &:visited {
@@ -69,14 +69,14 @@ button,
   }
 }
 
-@mixin display-arrow($direction: 'right', $color: $color-medium) {
+@mixin display-arrow($direction: "right", $color: $color-medium) {
   svg {
     display: inline-block;
     height: 1.2rem;
     margin-bottom: -1px;
     width: 1.2rem;
 
-    @if $direction == 'right' {
+    @if $direction == "right" {
       margin-left: 4px;
     } @else {
       margin-right: 4px;
@@ -113,8 +113,8 @@ button,
   }
 }
 
-@include link-arrows('left');
-@include link-arrows('right');
+@include link-arrows("left");
+@include link-arrows("right");
 
 .social_icon-twitter {
   @include display-icon(global/social-icons/twitter, before, 1.4rem);
@@ -159,9 +159,9 @@ button,
   .usa-button:visited,
   .usa-button-primary:visited,
   button,
-  [type='button'],
-  [type='submit'],
-  [type='reset'] {
+  [type="button"],
+  [type="submit"],
+  [type="reset"] {
     background-color: $color-bright;
   }
 

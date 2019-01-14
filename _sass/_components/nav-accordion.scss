@@ -4,7 +4,6 @@
   border-bottom: 1px solid $color-gray-lighter;
 
   .usa-sidenav-list {
-
     ul {
       list-style-type: none;
       margin: 0;
@@ -24,21 +23,21 @@
       border-radius: 0;
       text-align: left;
 
-      &[aria-expanded=true],
-      &[aria-expanded=false] {
+      &[aria-expanded="true"],
+      &[aria-expanded="false"] {
         background-repeat: no-repeat;
         background-position: right 0 center;
         background-size: 1rem;
       }
 
-      &[aria-expanded=true] {
-        background-image: url('../img/global/minus-alt.png');
-        background-image: url('../img/global/minus-alt.svg');
+      &[aria-expanded="true"] {
+        background-image: url("../img/global/minus-alt.png");
+        background-image: url("../img/global/minus-alt.svg");
       }
 
-      &[aria-expanded=false] {
-        background-image: url('../img/global/plus-alt.png');
-        background-image: url('../img/global/plus-alt.svg');
+      &[aria-expanded="false"] {
+        background-image: url("../img/global/plus-alt.png");
+        background-image: url("../img/global/plus-alt.svg");
       }
 
       &:hover,
@@ -115,7 +114,6 @@
   margin-left: auto;
   text-align: center;
   width: $hit-area;
-
 
   &:active,
   &:hover,

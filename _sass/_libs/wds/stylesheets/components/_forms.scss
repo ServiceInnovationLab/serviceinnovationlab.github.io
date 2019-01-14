@@ -146,10 +146,10 @@ input {
     text-indent: -2em;
 
     &::before {
-      content: ' ';
+      content: " ";
       display: inline-block;
-      height: .8em;
-      margin-right: .2em;
+      height: 0.8em;
+      margin-right: 0.2em;
       width: 1.8em;
     }
   }
@@ -157,8 +157,8 @@ input {
 
 .usa-checklist-checked {
   &::before {
-    background-image: url('../img/correct9.png');
-    background-image: url('../img/correct9.svg');
+    background-image: url("../img/correct9.png");
+    background-image: url("../img/correct9.svg");
     background-position: 100%;
     background-repeat: no-repeat;
     background-size: 100%;

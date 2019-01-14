@@ -2,7 +2,7 @@
 // ==========================
 
 .hero {
-  background-image: url('../img/page-feature/hire-us.jpg');
+  background-image: url("../img/page-feature/hire-us.jpg");
   background-position: center;
   background-size: cover;
   padding: 0;
@@ -16,7 +16,7 @@
   background-image: none;
 
   @include media($tablet-screen) {
-    background-image: url('../img/page-feature/hire-us.jpg');
+    background-image: url("../img/page-feature/hire-us.jpg");
   }
 }
 
@@ -64,7 +64,7 @@
 
   &::before {
     background-color: $color-dark;
-    content: '';
+    content: "";
     display: block;
     height: 100%;
     position: absolute;
