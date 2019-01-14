@@ -1,0 +1,34 @@
+engines:
+  eslint:
+    enabled: true
+    checks:
+      no-var:
+        enabled: false
+      require-jsdoc:
+        enabled: false
+  rubocop:
+    enabled: true
+    channel: rubocop-0-60
+  scss-lint:
+    enabled: true
+  shellcheck:
+    enabled: true
+  bundler-audit:
+    enabled: true
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - ruby
+      - javascript
+  fixme:
+    enabled: true
+ratings:
+  paths:
+  - "**.rb"
+  - "**.js"
+  - "**.sass"
+  - "**.haml"
+  - "**.css"
+  - "**.scss"
+  - Gemfile.lock
