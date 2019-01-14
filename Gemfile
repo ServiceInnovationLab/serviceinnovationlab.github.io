@@ -4,7 +4,7 @@ ruby '2.5.3'
 
 gem 'accesslint-ci', '0.2.8'
 gem 'html-proofer', '~> 3.6.0'
-gem "jekyll", ">= 3.6.3"
+gem 'jekyll', '>= 3.6.3'
 gem 'jemoji'
 gem 'parallel'
 
@@ -16,9 +16,9 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
   gem 'jekyll_frontmatter_tests', '~> 0.1.0'
+  gem 'jekyll_oembed'
   gem 'jekyll_pages_api'
   gem 'jekyll_pages_api_search', '~> 0.4.5'
-  gem 'jekyll_oembed'
 end
 
 group :development do
