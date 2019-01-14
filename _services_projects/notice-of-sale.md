@@ -11,8 +11,8 @@ project_weight: 12
 tag: Notice of Sale
 expiration_date:
 github_repo:
-    - "[](https://github.com/ServiceInnovationLab/)"
 project_url: "[]()"
 quote:
 media: 
+report: "[Notice of Sale](/2018/10/12/Exploring-the-Notice-of-Sale-process/)"
 ---

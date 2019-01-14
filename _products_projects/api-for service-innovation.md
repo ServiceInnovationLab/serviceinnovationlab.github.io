@@ -9,7 +9,7 @@ image_accessibility:
 image_icon: 
 tag: API
 expiration_date:
-github_repo: 
+redirect_to: https://www.data.govt.nz/
 project_url: "[]()"
 resources:
 quote:

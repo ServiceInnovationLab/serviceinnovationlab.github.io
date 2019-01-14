@@ -11,8 +11,8 @@ project_weight: 12
 tag: Optimistic Futures
 expiration_date:
 github_repo:
-    - "[](https://github.com/ServiceInnovationLab/)"
 project_url: "[]()"
 quote:
 media: 
+report: "[Optimistic Futures](/2018/08/01/Exploring-Optimistic-Futures-Workshop/)"
 ---

@@ -34,7 +34,7 @@ Intro sentences or paragraphs about project.
 
 === Testimonial or fun fact ===
 <div class="testimonial-blockquote">
-  18F has helped us [something built] that lead to [insert impact]
+  SIL has helped us [something built] that lead to [insert impact]
     <span>- [name], [position], [agency]</span>
 </div>
 

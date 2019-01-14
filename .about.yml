@@ -2,10 +2,10 @@
 # .about.yml project metadata
 #
 # Short name that acts as the project identifier (required)
-name: 18f-site
+name: SIL-site
 
 # Full proper name of the project (required)
-full_name: "18f.gsa.gov"
+full_name: "Service Innovation Lab"
 
 # The type of content in the repo
 # values: app, docs, policy
@@ -28,7 +28,7 @@ status: active
 
 # Description of the project
 description: |
-  The official website of 18F.
+  The official website of SIL.
 
 # Should be 'true' if the project has a continuous build (required)
 # values: true, false
@@ -78,9 +78,9 @@ stack:
 #     name: Name of the license from the Software Package Data Exchange (SPDX): https://spdx.org/licenses/
 #     url: URL for the text of the license
 licenses:
-  18f-site:
+  SIL-site:
     name: CC0-1.0
-    url: https://github.com/18F/18f.gsa.gov/blob/staging/LICENSE.md
+    url: https://github.com/ServiceInnovationLab/serviceinnovationlab.github.io/LICENSE.md
 
 # Blogs or websites associated with project development
 #blog:
@@ -91,9 +91,9 @@ licenses:
 # - url: URL for the link
 #   text: Anchor text for the link
 links:
-- url: https://18f.gsa.gov/
-  text: The official website of 18F
+- url: https://serviceinnovationlab.github.io
+  text: The official website of SIL
 
 # Email addresses of points-of-contact
 contact:
-- gregory.boone@gsa.gov
+- ServiceInnovationLab@dia.govt.nz

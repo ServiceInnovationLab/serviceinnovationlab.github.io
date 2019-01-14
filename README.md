@@ -1,6 +1,3 @@
-[![CircleCI](https://circleci.com/gh/18F/18f.gsa.gov.svg?style=svg)](https://circleci.com/gh/18F/18f.gsa.gov)
-[![Known Vulnerabilities](https://snyk.io/test/github/18F/18f.gsa.gov/badge.svg)](https://snyk.io/test/github/18F/18f.gsa.gov)
-
 ## Installation
 
 Run each of the following steps to get the site up and running.

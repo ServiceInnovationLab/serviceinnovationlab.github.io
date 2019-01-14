@@ -14,4 +14,6 @@ project_url: "[]()"
 learn_more:
 resources:
 quote:
+redirect_to:
+  - https://github.com/ServiceInnovationLab/FamilyServiceDirectorySearchinator
 ---
