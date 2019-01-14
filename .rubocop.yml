@@ -6,6 +6,7 @@
 
 AllCops:
   Include:
+    - '**/*/*.rb'
     - '**/Gemfile'
     - '**/Rakefile'
   Exclude:
