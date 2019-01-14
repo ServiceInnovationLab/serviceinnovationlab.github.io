@@ -5,4 +5,5 @@ cache:
 script:
 - bundle install
 - bundle exec jekyll test
+- bundle exec jekyll build
 # - bundle exec rubocop
