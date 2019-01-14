@@ -16,10 +16,9 @@
 
 .sticky::before,
 .sticky::after {
-  content: '';
+  content: "";
   display: table;
 }
-
 
 .sticky-subnav {
   ul {
