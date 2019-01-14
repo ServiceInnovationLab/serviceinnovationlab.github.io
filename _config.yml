@@ -144,7 +144,7 @@ exclude:
 - vendor
 
 # jekyll plugins
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-archives
   - jekyll-redirect-from
