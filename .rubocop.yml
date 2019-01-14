@@ -12,6 +12,7 @@ AllCops:
     - 'bin/**/*'
     - 'db/schema.rb'
     - '_site/**/*'
+    - 'vendor/**/*'
   UseCache: true
 
 Metrics/AbcSize:
