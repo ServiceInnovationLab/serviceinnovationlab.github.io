@@ -163,8 +163,7 @@
     letter-spacing: 0.5px;
   }
 
-  a
-   {
+  a {
     color: $color-bright;
 
     &:hover {
@@ -199,14 +198,14 @@
 
 // boone did this, we should do it the right way eventually
 .background-dark .usa-button.usa-button-secondary:hover {
-   color: $color-black;
+  color: $color-black;
 }
 
 // end of stuff boone did
 
 .header_border,
 .single-post {
-  header[role=banner] {
+  header[role="banner"] {
     border-bottom: 1px solid $color-gray-lighter;
   }
 }

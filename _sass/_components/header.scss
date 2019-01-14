@@ -8,7 +8,7 @@
   display: block;
 }
 
-header[role=banner] {
+header[role="banner"] {
   ul {
     @include unstyled-list;
 
@@ -45,7 +45,7 @@ header[role=banner] {
               padding-bottom: 1.3rem; // Current nav link border highlight fix for Firefox
             }
 
-            @media screen and (-webkit-min-device-pixel-ratio:0) {
+            @media screen and (-webkit-min-device-pixel-ratio: 0) {
               padding-bottom: 1.45rem; // Current nav link border highlight fix for Safari
             }
           }
@@ -54,7 +54,7 @@ header[role=banner] {
     }
   }
 
-  nav[role=navigation] {
+  nav[role="navigation"] {
     @include margin(2.15rem null);
     display: none;
     float: right;

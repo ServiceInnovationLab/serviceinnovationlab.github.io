@@ -3,7 +3,7 @@
 $sliding-panel-width: 26rem;
 
 .nav-mobile {
-  @include padding (2rem);
+  @include padding(2rem);
   @include position(fixed, 0 0 0 auto);
   @include size($sliding-panel-width 100%);
   @include transform(translateX($sliding-panel-width));
@@ -26,7 +26,6 @@ $sliding-panel-width: 26rem;
 }
 
 .nav-mobile {
-
   @include media($medium-screen + $nav-width-extra) {
     display: none;
   }

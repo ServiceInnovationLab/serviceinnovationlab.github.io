@@ -39,7 +39,6 @@
     padding-right: 0;
   }
 
-
   @include media($medium-screen) {
     $icon-padding: 6%;
     padding-right: $icon-padding;
@@ -84,6 +83,6 @@
 // Blog section
 // boone did this, we should do it the right way some day
 section.posts_feature h2 a {
-  color: #1F2E4A;
+  color: #1f2e4a;
   text-decoration: none;
 }

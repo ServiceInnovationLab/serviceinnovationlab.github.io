@@ -9,6 +9,7 @@ module Jekyll
     # Returns [<Post>]
     def related_posts(me, posts)
       return [] unless posts.docs.size > 1
+
       highest_freq = @tag_freq.values.max
       related_scores = Hash.new(0)
 
@@ -31,6 +32,7 @@ module Jekyll
         end
 
         next unless @use_authors
+
         post.data['authors'].each do |author|
           if me.data['authors'].include?(author) && post != me
             cat_freq = @tag_freq[author]
@@ -83,6 +85,7 @@ module Jekyll
 
     def generate(site)
       return unless site.config['related_posts']
+
       n_posts = site.config['related_posts']
 
       create_presets(site)

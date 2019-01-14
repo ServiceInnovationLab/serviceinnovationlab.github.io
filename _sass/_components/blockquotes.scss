@@ -85,7 +85,7 @@ p ~ .pquote:not(.pquote-single) {
   background: $color-gray-lightest;
 
   ::before {
-    content: '\201C';
+    content: "\201C";
     color: $color-medium;
     font-size: 4em;
     position: absolute;
@@ -94,7 +94,7 @@ p ~ .pquote:not(.pquote-single) {
   }
 
   ::after {
-    content: '';
+    content: "";
   }
 
   span {
@@ -104,7 +104,6 @@ p ~ .pquote:not(.pquote-single) {
     font-weight: bold;
     margin-top: 1em;
   }
-
 }
 
 // Does not have the quote mark, use for facts and other information to highlight
@@ -136,7 +135,7 @@ p ~ .pquote:not(.pquote-single) {
   position: relative;
 
   ::before {
-    content: '\201C';
+    content: "\201C";
     color: $color-medium;
     font-size: 5em;
     position: absolute;
@@ -145,7 +144,7 @@ p ~ .pquote:not(.pquote-single) {
   }
 
   ::after {
-    content: '';
+    content: "";
   }
 
   span {
@@ -156,5 +155,4 @@ p ~ .pquote:not(.pquote-single) {
     font-weight: bold;
     margin-top: 1em;
   }
-
 }
