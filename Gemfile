@@ -29,6 +29,7 @@ group :development do
   gem 'rack-jekyll'
   gem 'rb-readline'
   gem 'rspec'
+  gem 'rubocop'
   gem 'selenium-webdriver'
 end
 
