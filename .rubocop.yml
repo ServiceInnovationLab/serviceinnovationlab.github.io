@@ -204,10 +204,7 @@ Style/TrailingCommaInArguments:
   # If `consistent_comma`, the cop requires a comma after the last argument,
   # for all parenthesized method calls with arguments.
   EnforcedStyleForMultiline: no_comma
-  SupportedStyles:
-    - comma
-    - consistent_comma
-    - no_comma
+
 
 Style/TrailingCommaInArrayLiteral:
   # If `comma`, the cop requires a comma after the last item in an array or
