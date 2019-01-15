@@ -1,0 +1,61 @@
+@media print {
+  nav,
+  input,
+  .post-feature_image,
+  .page-projects .usa-section.background-medium,
+  .page-about-SIL .usa-section.background-medium,
+  .menu-btn,
+  .link-arrow-right svg,
+  .link-arrow-left svg {
+    display: none !important; }
+
+  img {
+    max-width: 500px !important; }
+
+  a::after {
+    font-size: 1rem !important;
+    content: " (" attr(href) ") "; }
+
+  .usa-grid.content-focus {
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
+
+  .card-image-bg {
+    display: none !important; }
+
+  .card-banner {
+    padding: 0 !important; }
+
+  .card-cta {
+    margin: 0; }
+
+  .card-description {
+    margin-top: 0 !important; }
+
+  .card-link {
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -ms-box-shadow: none !important;
+    -o-box-shadow: none !important;
+    box-shadow: none !important; }
+
+  .list-columns .usa-width-one-third {
+    width: 100% !important; }
+
+  .list-images,
+  .list-images-item {
+    display: block !important; }
+
+  .card-link-tagline > * {
+    margin: 0 !important; }
+
+  .graphic-list-link {
+    margin: 0 !important; }
+    .graphic-list-link img {
+      display: none !important; }
+
+  .section-newsletter {
+    display: none !important; }
+
+  .blog-search {
+    display: none !important; } }
