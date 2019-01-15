@@ -9,7 +9,7 @@
 
 Any dev can propose a code change (a PR).
 
-Propose the PR github, as a proposed change into the `dev` branch. See "Branch Naming" later in this document.
+Propose the PR using github, as a proposed change into the `dev` branch. See "Branch Naming" later in this document.
 
 A PR description must include what has changed, but also why it needs to change. (a business or user need).
 
