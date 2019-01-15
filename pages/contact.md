@@ -26,11 +26,11 @@ gridless: true
   </ul>
 </aside>
 <div class="usa-section usa-width-two-thirds">
+<<<<<<< HEAD
 
 <h3>Let’s work together to improve the user experience of government.</h3>
 
 <p>To find out more information about our work you can contact us at ServiceInnovationLab@dia.govt.nz.</p>
-
 
 <a class="usa-button usa-button-marginless" href="mailto:ServiceInnovationLab@dia.govt.nz?">Email Us</a> <!--subject=Partnering with The Service Innovation Lab-->
 <img src = "/assets/img/191ThorndonQuay.png" style = "padding-top:50px;padding-bottom:11px">
