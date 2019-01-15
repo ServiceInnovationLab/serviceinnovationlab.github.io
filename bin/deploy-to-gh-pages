@@ -6,7 +6,7 @@ set -e
 DIST_FOLDER='_site'
 PUBLISH_BRANCH='gh-pages'
 REMOTE='origin'
-GIT_USER=`git config user.name`
+GIT_USER=$(git config user.name)
 
 if [ -z "$1" ]
 then
