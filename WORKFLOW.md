@@ -1,6 +1,6 @@
 # Pull Request Workflow
 
-`dev` is our main branch. Propose PRS into here
+`dev` is our main branch. Propose PRS into here.
 
 `gh-pages` is where our built jekyll html is.
 
@@ -21,7 +21,7 @@ If there is an associated Trello story, or github issue (waffle), provide some d
 
 ## PR Feedback / Reviews
 
-As a team, we attempt to give at least one comment/feedback on each PR. This normalises asking questions. It should be unusual for a PR to have zero feedback. Feedback should be about something that couple be better. "I love this" isn't enough.
+As a team, we attempt to give at least one comment/feedback on each PR. This normalises asking questions. It should be unusual for a PR to have zero feedback. Feedback should be about something that "could be better". "I love this" isn't enough.
 
 Feedback is given in a form of "Have you considered..." or otherwise doesn’t assume the author didn’t already attempt your alternative approach. "Do it this other way" is not feedback.
 
@@ -31,9 +31,9 @@ As a reviewer, you can approve a PR using the "Approve" option on github. Reques
 
 ## Quality
 
-Code needs to pass code linters (we use codeclimate)
+Code needs to pass code linters (we use codeclimate).
 
-Markup generated for webpages must pass accessibility checkers
+Markup generated for webpages must pass accessibility checkers.
 
 ## Merging
 
@@ -63,7 +63,7 @@ Really bad commit messages
 
 ## Branch Naming
 
-Branch naming in a consistent manner is good for keeping things tidy, and add context to any commit messages for commits against the branch. Branch names should be descriptive and their meanings clear. Additionally, branch names can contain `/` characters, so a good way to keep types of branches seperate is to "namespace" them - for example, any branches whose main purpose is to add a new feature to the application should have the prefix "feature". Branches for fixing bugs should be prefixed with "bugfix", while a branch for something urgent that is going to go to production asap should be prefixed with "hotfix".
+Branch naming in a consistent manner is good for keeping things tidy and add context to any commit messages for commits against the branch. Branch names should be descriptive and their meanings clear. Additionally, branch names can contain `/` characters, so a good way to keep types of branches seperate is to "namespace" them - for example, any branches whose main purpose is to add a new feature to the application should have the prefix "feature". Branches for fixing bugs should be prefixed with "bugfix", while a branch for something urgent that is going to go to production asap should be prefixed with "hotfix".
 
 Here are some examples:
 
@@ -75,4 +75,4 @@ hotfix/offline-jobs-errors
 
 ## Deploying
 
-Use `bin/deploy-to-gh-pages` to manually deploy. (automation coming soon). This builds from origin/dev and deploys to origin/gh-pages
+Use `bin/deploy-to-gh-pages` to manually deploy. (automation coming soon). This builds from origin/dev and deploys to `origin/gh-pages`.
