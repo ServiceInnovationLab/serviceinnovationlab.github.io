@@ -26,7 +26,6 @@ gridless: true
   </ul>
 </aside>
 <div class="usa-section usa-width-two-thirds">
-<<<<<<< HEAD
 
 <h3>Let’s work together to improve the user experience of government.</h3>
 
