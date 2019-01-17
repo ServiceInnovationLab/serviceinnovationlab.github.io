@@ -33,7 +33,7 @@ gridless: true
 
 
 <a class="usa-button usa-button-marginless" href="mailto:ServiceInnovationLab@dia.govt.nz?">Email Us</a> <!--subject=Partnering with The Service Innovation Lab-->
-<img src = "/assets/img/191ThorndonQuay.png" style = "padding-top:55px">
+<img src="/assets/img/191ThorndonQuay.png" alt="Image of the entrance to the SIL building" style="padding-top:55px">
 
 </div>
 
