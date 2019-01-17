@@ -13,6 +13,6 @@ expiration_date:
 github_repo:
 project_url: "[]()"
 quote:
-media: 
+media: "[Optimistic Futures](https://www.optimisticfutures.nz/)"
 report: "[Optimistic Futures](/2018/08/01/Exploring-Optimistic-Futures-Workshop/)"
 ---

@@ -8,17 +8,12 @@ tags:
 - open source
 excerpt: ""
 ---
-<!--Redirect to current page (so as not to break the current links) -->
-<script>
-  window.location.href = "https://www.digital.govt.nz/blog/using-optimistic-futures-to-inform-your-work-today/"
-</script>
 
- 
 <span class="subtitle">Led by Matthew MacCallum and Ben Briggs, Service Innovation Lab</span>
 
 The following is content generated in the Transitioning to an Optimistic Future event held as part of Tech Week 2018. Duration 3 hours.
 
-# Overview
+## Overview
 
 The event was designed to build on the concepts and discussions had as part of the Digital Seven Nations and Optimistic Futures Event. In particular we wanted to focus on the human aspect of transition and what would be required of New Zealanders in the future. The topics of discussion were chosen as they we all universally understood human features and common daily activities. This created a level foundation to debate from as opposed to getting caught up in complex technologies and paradigms that could distract and exclude. The role of technology was tightly framed as an enabler and second to behaviour, attributes and activity.  
 
@@ -37,7 +32,7 @@ Brought to you by [Victoria University of Wellington](https://www.victoria.ac.nz
 
 This event is part of the Techweek series on Building Government’s Digital Service Innovation Capability. The room was divided into 4 large groups for discussion and exploration.
 
-# Group share and reflection
+## Group share and reflection
 
 At the end of the day there was a group share and reflection which had the following insights.
 
@@ -56,7 +51,7 @@ At the end of the day there was a group share and reflection which had the follo
 ** The ethical considerations + having a broader community discussion (beyond government)
 ** Where will the conversation take place + how do we bring other voices in?
  
-# Activity One - Qualities to thrive as kiwis in 2070
+## Activity One - Qualities to thrive as kiwis in 2070
 
 Participants were asked to brainstorm qualities of an optimistic future in which kiwis could thrive and then chose 5 per group they felt were the most important. 
 
@@ -115,48 +110,48 @@ The cumulatirve top 5 prioritised qualities list from each group were (number of
 
 Full Definitions of prioritised qualities: 
 
-Group 1 
+__Group 1 Def__
 
 1. Empathy/sympathy/self awareness - understanding yourself, others and the impacts/consequences of your actions
 
-* Important because:
-** We are seeing the dehumanisation of people in our current systems. Our optimistic future is truly human centred
-** Mātauranga Māori instead of economic outcomes, we measure social and environmental ones
-** We want a trust based society, not blockchain one
-** Rehumanise the workforce
+    _Important because:_
+    * We are seeing the dehumanisation of people in our current systems. Our optimistic future is truly human centred
+    * Mātauranga Māori instead of economic outcomes, we measure social and environmental ones
+    * We want a trust based society, not blockchain one
+    * Rehumanise the workforce
 
 2. Creativity - expression, problem solving, making an intuitive leap, to make an idea tangible. 
 
-* Important because:
-** It will enable us to have a viable empowered future
-** Without creativity there is no progress
-** Forward momentum and flow
-** We can’t understand or express the art of the possible 
-** Learned helplessness and inability to envisage better systems 
-** Creativity makes people unique 
+    _Important because:_
+    * It will enable us to have a viable empowered future
+    * Without creativity there is no progress
+    * Forward momentum and flow
+    * We can’t understand or express the art of the possible 
+    * Learned helplessness and inability to envisage better systems 
+    * Creativity makes people unique 
 
 3. Curiosity and love of learning - desire to explore, understand the world around you
 
-* Important because:
-** In a changing world, a love of learning will enable us to advance and embrace change with joy. 
-** Change as an opportunity not a threat
-** The world will only become more complex 
-** Love of Learning as a platform for your ability and confidence to respond to complexity 
+    _Important because:_
+    * In a changing world, a love of learning will enable us to advance and embrace change with joy. 
+    * Change as an opportunity not a threat
+    * The world will only become more complex 
+    * Love of Learning as a platform for your ability and confidence to respond to complexity 
 
 4. Critical thinking - ability to discern truth, deconstruct content to value, truth and facts, ability to contextualise information - natural motivations, values etc
 
-* Important because:
-** Deception will become grander and more complex (especially technological ability to fabricate falsehood)
-** Value truth over a good story
+    _Important because:_
+    * Deception will become grander and more complex (especially technological ability to fabricate falsehood)
+    * Value truth over a good story
 
 5. Maker Skills - the skills and perspective that assumes you can form the world around you, you are not bound by the tools you have, you build what you need and are empowered to do so
 
-* Important because:
-** We have the tech to create anything - enables us to build bespoke solutions for what we need
-** Don’t have to be passive consumers
-** Empowered to be critical creative and make things
+    _Important because:_
+    * We have the tech to create anything - enables us to build bespoke solutions for what we need
+    * Don’t have to be passive consumers
+    * Empowered to be critical creative and make things
 
-Group 2 Defs:
+__Group 2 Defs:__
 
 1. Trust - don't fear interactions, know/respect boundaries and rules, vulnerability, it’s reflective/2-way, honesty, accountability - implied or explicit, foundation of the relationship, being treated as a human being
 2. Diversity - wanting to scan all options and ways of doing things, sense of self is valued, open ears, allowance for differences, ability to express views, how to channel power through process, inclusion, learning from others, rights, “recognising the power of paradigm”, respect for people, ability to participate, social norms
@@ -164,7 +159,7 @@ Group 2 Defs:
 4. Curiosity - opportunity to learn, improve, contribute, at the top of the hierarchy of needs, in the boundaries of what’s acceptable, ethics, different power structures, may be self-disruptive, it’s good but can be dangerous.
 5. Reflection - share failures, transparency, look in the mirror, meditative, requires space and time, truth - don’t erase the facts, fits with work/life balance, understanding our past and learning from it, take pause and reflect integrate inputs
 
-Group 3 Defs;
+__Group 3 Defs:__
 
 1. Courageous - Be brave about change, be willing to be the first to act.
 2. Resilient - Internal strength and ability to push through adversity with optimism and adaptability
@@ -172,7 +167,7 @@ Group 3 Defs;
 4. Sustainable - Consider long term impact and understand we’re living from finite resources 
 5. Decisive - To make decisions and act with confidence, with timeliness and being aware of trade offs. Clarity of thought, long term thinking. Being more comfortable with failure. 
 
-Group 4 Defs:
+__Group 4 Defs:__
 
 1. Resourceful - Curiosity, innovative adaptive and critically engaged
 2. Ethical - Empathetic, considerate, equitable
@@ -180,19 +175,19 @@ Group 4 Defs:
 4. Diverse - Open, tolerant, values driven, respectful of difference
 5. Environmentally Responsive - Improvement driven, technologically fluent, climate disruption, responsive
 
-* Important because: 
-** Innovate or Die
-** Subjugation aint cool
-** Without progress and the confidence to take risks only stagnation results
-** Acceptance of diversity underpins respect
-** Survival!
-** Empathy - How does it work through technology? It’s a very human characteristic 
+    _Important because:_
+    * Innovate or Die
+    * Subjugation aint cool
+    * Without progress and the confidence to take risks only stagnation results
+    * Acceptance of diversity underpins respect
+    * Survival!
+    * Empathy - How does it work through technology? It’s a very human characteristic 
 
-# Activity Two - Performing actions today vs 2070
+## Activity Two - Performing actions today vs 2070
 
 Participants were asked to choose one of the following activities and explore the process both today and in 2070 and how their qualities from Activity One might impact how they are performed. 
 
-Activities:
+__Activities:__
 
 * Start a business
 * Get a health check
@@ -208,9 +203,9 @@ Activities:
 
 Below are the present and future states each group brainstormed. We intentionally looks 50 years out to think about new horizons rather than iterations on the status quo.
 
-## Have a funeral - Group 1
+### Have a funeral - Group 1
 
-Now:
+__Now:__
 
 * person dies of incurable disease, old age, car accident
 * their passwords and access dies with them
@@ -222,7 +217,7 @@ Now:
 * mourning - family remembers them through photos, videos, letters, social media?
 * religious and cultural components 
 
-2070:
+__2070:__
 
 * less unexpected deaths, so person has time to manage affairs, more euthanasia, plenned funerals
 * bio tracking knows you've died, user-authorised services are notified and person's wishes enacted - still human gatekeeper 
@@ -232,15 +227,15 @@ Now:
 * An AI likeness lives on
 * The life long learning of the person lives on in IP commons. Can someone else download a consciousness or ideas/knowledge from that person?
 
-## Grow food - nutrition - Group 2
+### Grow food - nutrition - Group 2
 
-Now:
+__Now:__
 
 * Plan (space, season, crops, compliance)
 * Prepare (dig, single vs family vs commercial consumption, water requirements, pest control, fencing, composting/supplements)
 * Plants, maintain, harvest and back to planning with some automation employed for larger operations.
 
-2070:
+__2070:__
 
 * Vertical, shared and more diversity in crops and methods
 * Disruption to supply chain
@@ -251,9 +246,9 @@ Now:
 * Curiosity on food as medicine and eHealth
 * Understanding how our past shapes our food
 
-## Grow food - nutrition - Group 3
+### Grow food - nutrition - Group 3
 
-Now:
+__Now:__
 
 * Mix of mass and individual production
 * Organics are popular
@@ -271,7 +266,7 @@ Now:
 * Know your market and integrate with environmental factors
 * Supermarkets dominate
 
-2070 (with qualities):
+__2070 (with qualities):__
 
 * NZ developes best protein DNA
 * DNA of cow - headless carcass with no pain (ethics)
@@ -279,9 +274,9 @@ Now:
 * open sourcing of food production - sharing DNA code, incentivised social schemes & govt policy with different motives and measurements from today
 * All supported by: decisive, courageous, resilient, sustainable, and kind/inclusive values.
 
-## Exercise and healthy living - Group 4
+### Exercise and healthy living - Group 4
 
-Now:
+__Now:__
 
 * decide on exercise
 * find and wear appropriate exercise clothes
@@ -295,7 +290,7 @@ Now:
 * review performance
 * procrastinate at any stage
 
-2070:
+__2070:__
 
 * greater access to diverse, affordable and open access options
 * built into daily routine (treadmill desks?), big analytics focus
@@ -305,113 +300,113 @@ Now:
 * More bio monitoring to optimise exercise plan according to need
 * Generate power or credits from tasks
 
-# Activity Three - Roles & Requirements
+## Activity Three - Roles & Requirements
 
-Participants were asked to then reflect on the previous activities and discuss and answer the following questions:
+__Participants were asked to then reflect on the previous activities and discuss and answer the following questions:__
 
 1. What effects could this have at a community or national level e.g. benefits and challenges?
 2. Should government play a role? if so what?
 3. How could technology enable these?
 
-## Group 1 - have a funeral:
+### Group 1 - have a funeral:
 
 1. National and Community level:
-..* Pragmatics sorted control
-..* Will of how your ‘mind’ can be used after your death
-..* How can you participate in society after you die?  E.g. can you vote, give testimony etc.
-..* What are your rights
-..* How does this effect whakapapa? Does your mind get passed down - whole new oral tradition
-..* Can virtual minds aggregate knowledge/take action? E.g. indigenous minds protect against colonialism
+    * Pragmatics sorted control
+    * Will of how your ‘mind’ can be used after your death
+    * How can you participate in society after you die?  E.g. can you vote, give testimony etc.
+    * What are your rights
+    * How does this effect whakapapa? Does your mind get passed down - whole new oral tradition
+    * Can virtual minds aggregate knowledge/take action? E.g. indigenous minds protect against colonialism
 
 2. Role of Government:
-..* Does government ‘own’ its citizens minds after death?
-..* Can a person choose a different nationality after they die?
-..* Protecting a persons rights/privacy after they die
+    * Does government ‘own’ its citizens minds after death?
+    * Can a person choose a different nationality after they die?
+    * Protecting a persons rights/privacy after they die
 
 3. How can technology enable:
-..* Safeguards - controlling/choosing how your mind can be used/altered - git control not blockchain
-..* Death bureaucracy automated
-..* Having your own AI avatar as executor
-..* Living on virtually after death
+    * Safeguards - controlling/choosing how your mind can be used/altered - git control not blockchain
+    * Death bureaucracy automated
+    * Having your own AI avatar as executor
+    * Living on virtually after death
 
-## Group 2 - grow food/nurtrition:
+### Group 2 - grow food/nurtrition:
 
 1. Effects on Community/Country:
-..* Sharing economy
-..* Will we be able to “grow” meat?
-..* Nutritional Value
-..* Based on values = optimistic future = no gap
+    * Sharing economy
+    * Will we be able to “grow” meat?
+    * Nutritional Value
+    * Based on values = optimistic future = no gap
 
 2. Role of Government:
-..* Regulations/framework across/ standards
-..* Research - promote/encourage = partnership with academia
-..* Local government - info on soil, percentage of public land available to grow food?
+    * Regulations/framework across/ standards
+    * Research - promote/encourage = partnership with academia
+    * Local government - info on soil, percentage of public land available to grow food?
 
 3. How can technology enable:
-..* Robots
-..* Soilchecking
-..* Fruit salad trees via grafting
-..* Enable traceability 
-..* Water conservation
-..* Meteorological forecasting
-..* Nutritional check
-..* GMO? More nutritional
-..* Harvesting distribution based on need
+    * Robots
+    * Soilchecking
+    * Fruit salad trees via grafting
+    * Enable traceability 
+    * Water conservation
+    * Meteorological forecasting
+    * Nutritional check
+    * GMO? More nutritional
+    * Harvesting distribution based on need
 
-## Group 3 - grow food/nutrition:
+### Group 3 - grow food/nutrition:
 
 1. Effects on Community/Country:
-..* Position NZ as quality and food experts
-..* Better use of global resources 
-..* Our small population means being able to test and identify benefits quickly 
-..* Better health through personalised food solutions 
-..* Less ethical dilemma over consuming protein 
-..* More options for learning about alternatives 
-..* Equality and no poverty 
+    * Position NZ as quality and food experts
+    * Better use of global resources 
+    * Our small population means being able to test and identify benefits quickly 
+    * Better health through personalised food solutions 
+    * Less ethical dilemma over consuming protein 
+    * More options for learning about alternatives 
+    * Equality and no poverty 
 
 2. Role of Government:
-..* Education on how it works 
-..* Regulation of ‘programmable’ food 
-..* Maintain a group of people who are aware of the tech 
-..* Incentivise communities for uptake 
+    * Education on how it works 
+    * Regulation of ‘programmable’ food 
+    * Maintain a group of people who are aware of the tech 
+    * Incentivise communities for uptake 
 
 2. How can technology enable:
-..* Sharing IP (open source) 
+    * Sharing IP (open source) 
 
-Benefits: 
-..* History of being a primary provider
-..* Decreasing food scarcity
+    __Benefits: __
+    * History of being a primary provider
+    * Decreasing food scarcity
 
-Challenges:
-..* Identity crisis 
-..* Changing mindsets may take a while to get there 
-..* Socialising change in food production 
-..* Isolation is possible - too much time with nothing meaningful to do 
-..* Reliance on technology 
+    __Challenges:__
+    * Identity crisis 
+    * Changing mindsets may take a while to get there 
+    * Socialising change in food production 
+    * Isolation is possible - too much time with nothing meaningful to do 
+    * Reliance on technology 
 
-# Group 4 - do exercise
+### Group 4 - do exercise
 
 1. Effects on Community/Country:
-..* More likely to try different things as potential lower risk 
-..* Specialisation in work/activities 
-..* Who will be motivated to fund? Medical insurance, government…
-..* Medical /physical/mental health measurement, monitoring and development - more efficiency and comparatives
-..* Community contribution = credit generation (?) 
-..* Early diagnosis 
+    * More likely to try different things as potential lower risk 
+    * Specialisation in work/activities 
+    * Who will be motivated to fund? Medical insurance, government…
+    * Medical /physical/mental health measurement, monitoring and development - more efficiency and comparatives
+    * Community contribution = credit generation (?) 
+    * Early diagnosis 
 
 2. Role of Government:
-..* Funding 
-..* Enabling and encouraging activities 
-..* Exposure to different roles and activities 
-..* Provides right guidelines to encourage healthier choices + private sector innovation in this area 
-..* Regulation for ethical implications of data use 
+    * Funding 
+    * Enabling and encouraging activities 
+    * Exposure to different roles and activities 
+    * Provides right guidelines to encourage healthier choices + private sector innovation in this area 
+    * Regulation for ethical implications of data use 
 
 3. How can technology enable:
-..* Regular open and VR access 
-..* Regulate or schedule daily routines 
-..* Monitors detect physical level and give optimal preparations
+    * Regular open and VR access 
+    * Regulate or schedule daily routines 
+    * Monitors detect physical level and give optimal preparations
 
-# Key themes of the effects on Society
+## Key themes of the effects on Society
 
 * Participation in society before and after death
 * Sharing of knowledge and passing down generations 
