@@ -15,7 +15,7 @@ RSpec.describe Jekyll::TeamFilter do
   it 'returns an image given a name that is an author and has an image' do
     actual = @team_filter.team_photo('aaron')
     expected = "<img class='img-circle team-img bio-clip'"\
-      " src='#{@baseurl}/assets/img/team/aaron.jpg' alt='18F team member Aaron Snow'>"
+      " src='#{@baseurl}/assets/img/team/aaron.jpg' alt='SIL team member Aaron Snow'>"
 
     expect(expected).to eq actual
   end
@@ -23,7 +23,7 @@ RSpec.describe Jekyll::TeamFilter do
   it 'returns an image given a name that is an author and does not have an image' do
     actual = @team_filter.team_photo('alan')
     expected = "<img class='img-circle team-img bio-clip' "\
-        "src='#{@baseurl}/assets/img/logos/18F-Logo-M.png' alt='18F logo'>"
+        "src='#{@baseurl}/assets/img/SIL-Logo-Animation.gif' alt='SIL logo'>"
 
     expect(expected).to eq actual
   end
@@ -31,7 +31,7 @@ RSpec.describe Jekyll::TeamFilter do
   it 'returns an image given a name that is not an author and does not have an image' do
     actual = @team_filter.team_photo('invalid-name')
     expected = "<img class='img-circle team-img bio-clip' "\
-        "src='#{@baseurl}/assets/img/logos/18F-Logo-M.png' alt='18F logo'>"
+        "src='#{@baseurl}/assets/img/SIL-Logo-Animation.gif' alt='SIL logo'>"
 
     expect(expected).to eq actual
   end

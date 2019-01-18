@@ -1,10 +1,10 @@
 ---
-title: 18F UI style guide
+title: SIL UI style guide
 subpage: For developers
 permalink: /styleguide/for-developers/
 ---
 
-[18f.gsa.gov](https://18f.gsa.gov), and many 18F websites deployed to [Federalist](https://federalist.fr.cloud.gov) use [Jekyll](https://jekyllrb.com/) to build static, maintainable websites.
+[The Service Innovation Lab](http://serviceinnovationlab.github.io/) use [Jekyll](https://jekyllrb.com/) to build static, maintainable websites.
 
 One of the core features of Jekyll is the [Liquid](https://shopify.github.io/liquid/) templating language, which has a series of [filters](https://shopify.github.io/liquid/filters/round/) and [tags](https://shopify.github.io/liquid/tags/iteration/) that allow developers programmatically generate content.
 
@@ -13,7 +13,7 @@ Jekyll and Liquid do quite a bit, but sometimes they aren't enough for a project
 ---
 ### Plugin gems
 
-18f.gsa.gov is using several Ruby gems plugins:
+SIL is using several Ruby gems plugins:
 
 Plugin gem | Description
 --- | ---
@@ -31,7 +31,7 @@ Plugin gem | Description
 ---
 
 ### Custom plugins
-18f.gsa.gov uses many [custom plugins]({{ github_url_master }}/_plugins) for more specific site needs:
+SIL uses many [custom plugins]({{ github_url_master }}/_plugins) for more specific site needs:
 
 Custom plugin name | Description
 --- | ---
@@ -42,5 +42,5 @@ Custom plugin name | Description
 [liquify.rb]({{ github_url_master }}/_plugins#liquify) | liquid parser.
 [markdown.rb]({{ github_url_master }}/_plugins#markdown-rendering) | markdown parser.
 [matching_posts.rb]({{ github_url_master }}/_plugins#match_posts) | creates a `match_posts` filter that creates a list of posts belonging to a specific author.
-[team.rb]({{ github_url_master }}/_plugins#team_photo) | creates a `team_photo` filter that matches an author to their provided team photo. [More documentation]({{ site.baseurl }}/styleguide/images/#adding-a-photo-of-an-18f-team-member).
+[team.rb]({{ github_url_master }}/_plugins#team_photo) | creates a `team_photo` filter that matches an author to their provided team photo. [More documentation]({{ site.baseurl }}/styleguide/images/#adding-a-photo-of-a-SIL-team-member).
 [utility.rb]({{ github_url_master }}/_plugins#filters) | A list of Liquid filters that can be used for a variety of purposes: `clip_char`, `hash_link`, `matches_url`, `debug`, `find_collection`, `where_obj`, `in_groups`, and `weighted_sort`.
