@@ -39,15 +39,11 @@ header_border: true
   </section>
 
   <div class="usa-grid-full usa-grid-reversed">
-    {% assign any_clients = page.product_clients.size > 0 %}
 
     {% if page.agency or
           page.report or
           page.media or
           page.github_repo or
-          any_clients or
-          page.start_date or
-          page.expiration_date or
           page.resources
     %}
     <aside class="usa-grid usa-section usa-grid-reversed-right usa-width-one-third section-info section-info-gray">
@@ -93,31 +89,6 @@ header_border: true
         </li>
         {% endif %}
 
-        {% if any_clients %}
-        <li class="section-info-list-item">
-          <div class="section-info-header">Agency partners</div>
-          <ul class="{% unless page.product_clients.size > 1 %}usa-unstyled-list{% endunless %}">
-          {% for client in page.product_clients %}
-            <li>{{ client }}</li>
-          {% endfor %}
-          </ul>
-        </li>
-        {% endif %}
-
-        {% if page.start_date or page.expiration_date %}
-        <li class="section-info-list-item">
-          <div class="section-info-header">When</div>
-          <div>
-          {% if page.start_date and page.expiration_date %}
-            {{ page.start_date }} – {{ page.expiration_date }}
-          {% elsif page.start_date and !page.expiration_date %}
-            Starts {{ page.start_date }}
-          {% elsif !page.start_date and page.expiration_date %}
-            Ends {{ page.expiration_date }}
-          {% endif %}
-          </div>
-        </li>
-        {% endif %}
 
         {% if page.resources.size > 0 %}
         <li class="section-info-list-item">

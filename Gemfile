@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.5.3'
 
 gem 'accesslint-ci', '0.3.6'
-gem 'html-proofer', '~> 3.6.0'
+gem 'html-proofer', '~> 3.10.1'
 gem 'jekyll', '>= 3.6.3'
 gem 'jemoji'
 gem 'parallel'
@@ -34,6 +34,6 @@ group :development do
 end
 
 group :test do
-  gem 'codeclimate-test-reporter', '~> 1.0.0'
+  gem 'codeclimate-test-reporter', '~> 1.0.9'
   gem 'simplecov'
 end
