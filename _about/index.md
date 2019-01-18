@@ -45,6 +45,7 @@ All the initiatives we work on are service delivery focused. They either help pe
 
 __Basically it’s about ensuring people’s government experiences are easy, equitable and empathetic. Whether directly or through their own trusted channel or service provider.__
 
+##### [The Service Innovation Lab 2017-18 FY Work Program Report](/2018/07/01/Lab-Report/)
 -----
 
 ## Approach
