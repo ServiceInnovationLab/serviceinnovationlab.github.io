@@ -1,4 +1,3 @@
-
 var $ = require('jquery');
 
 /**
@@ -13,7 +12,7 @@ function Accordion($el) {
   this.$root = $el;
 
   // delegate click events on each <button>
-  this.$root.on('click', 'button', function (ev) {
+  this.$root.on('click', 'button', function(ev) {
     var $button = $(this);
     var expanded = $button.attr('aria-expanded') === 'true';
     ev.preventDefault();
@@ -35,7 +34,7 @@ function Accordion($el) {
  * @param {String} selector
  * @return {jQuery}
  */
-Accordion.prototype.$ = function (selector) {
+Accordion.prototype.$ = function(selector) {
   return this.$root.find(selector);
 };
 
@@ -43,7 +42,7 @@ Accordion.prototype.$ = function (selector) {
  * @param {jQuery} button
  * @return {Accordion}
  */
-Accordion.prototype.hide = function ($button) {
+Accordion.prototype.hide = function($button) {
   var selector = $button.attr('aria-controls'),
     $content = this.$('#' + selector);
 
@@ -56,7 +55,7 @@ Accordion.prototype.hide = function ($button) {
  * @param {jQuery} button
  * @return {Accordion}
  */
-Accordion.prototype.show = function ($button) {
+Accordion.prototype.show = function($button) {
   var selector = $button.attr('aria-controls'),
     $content = this.$('#' + selector);
 
@@ -68,9 +67,9 @@ Accordion.prototype.show = function ($button) {
 /**
  * @return {Accordion}
  */
-Accordion.prototype.hideAll = function () {
+Accordion.prototype.hideAll = function() {
   var self = this;
-  this.$('ul > li > button, .usa-accordion-button').each(function () {
+  this.$('ul > li > button, .usa-accordion-button').each(function() {
     self.hide($(this));
   });
   return this;

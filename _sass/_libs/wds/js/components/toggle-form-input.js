@@ -11,25 +11,27 @@ var toggleFieldMask = require('./toggle-field-mask.js');
  * @param  {String} hideText   Button text show when field is unmasked
  * @return {}
  */
-var toggleFormInput = function ($el, showText, hideText) {
+var toggleFormInput = function($el, showText, hideText) {
   var defaultSelectors = $el.attr('aria-controls');
 
   if (!defaultSelectors || defaultSelectors.trim().length === 0) {
-    throw new Error('Did you forget to define selectors in the aria-controls attribute? Check element ' + $el.attr('class'));
+    throw new Error(
+      'Did you forget to define selectors in the aria-controls attribute? Check element ' +
+        $el.attr('class'),
+    );
   }
 
   var fieldSelector = getSelectors(defaultSelectors);
   var $fields = $el.parents('form').find(fieldSelector);
   var showing = false;
 
-  $el.on('click', function (ev) {
+  $el.on('click', function(ev) {
     ev.preventDefault();
     toggleFieldMask($fields, showing);
     $el.text(showing ? showText : hideText);
     showing = !showing;
   });
 };
-
 
 /**
  * Helper function to turn a string of ids into valid selectors
@@ -39,9 +41,11 @@ var toggleFormInput = function ($el, showText, hideText) {
 function getSelectors(selectors) {
   var selectorsList = selectors.split(' ');
 
-  return selectorsList.map(function (selector) {
-    return '#' + selector;
-  }).join(', ');
+  return selectorsList
+    .map(function(selector) {
+      return '#' + selector;
+    })
+    .join(', ');
 }
 
 module.exports = toggleFormInput;
