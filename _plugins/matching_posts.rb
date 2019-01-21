@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Jekyll
   module MatchingPosts
     # Helper method to match apost property with its equivalent

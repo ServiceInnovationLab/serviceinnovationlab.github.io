@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative '../../_plugins/team'
 
 RSpec.describe Jekyll::TeamFilter do
