@@ -81,7 +81,7 @@
 }
 
 .hero-callout-alt_color {
-  color: $color-bright;
+  color: $color-inverse;
   display: block;
 }
 
@@ -91,4 +91,5 @@
 
 .hero-callout-title-secondary {
   margin-top: $spacer-margins;
+  color: $color-inverse;
 }
