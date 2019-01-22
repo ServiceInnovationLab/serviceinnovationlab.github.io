@@ -3,6 +3,7 @@
   padding-right: 20px;
   height: 90vh;
   position: relative;
+
   @media (min-width: 1024px) {
     width: 100%;
     padding: 0 3rem;
@@ -10,6 +11,7 @@
 
   > div {
     padding-top: 30%;
+    
     @media (min-width: 1024px) {
       width: 100%;
       padding-left: 10%;
