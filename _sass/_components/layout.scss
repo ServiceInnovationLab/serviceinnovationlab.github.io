@@ -272,3 +272,15 @@
     margin-top: 55px;
   }
 }
+
+// In hww-primary.html & primary.html
+.page-title {
+  color: $color-medium;
+  font-size: 3.4rem;
+  font-weight: 700;
+}
+
+// In primary.html
+.page-about section > section {
+  padding-top: 0.9375rem;
+} 
