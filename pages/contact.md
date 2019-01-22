@@ -31,7 +31,7 @@ gridless: true
 
 <p>To find out more information about our work you can contact us at ServiceInnovationLab@dia.govt.nz.</p>
 
-<a class="usa-button usa-button-marginless" href="mailto:ServiceInnovationLab@dia.govt.nz?">Email Us</a> <!--subject=Partnering with The Service Innovation Lab-->
+<a class="btn btn-secondary" role="button" href="mailto:ServiceInnovationLab@dia.govt.nz?">Email Us</a> <!--subject=Partnering with The Service Innovation Lab-->
 <img src="/assets/img/191ThorndonQuay.png" alt="Image of the entrance to the SIL building">
 
 </div>

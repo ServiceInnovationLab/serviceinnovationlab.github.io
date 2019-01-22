@@ -1,191 +1,42 @@
-// Buttons
-// ==========================
-
-.usa-button,
-.usa-button:visited,
-button,
-[type="button"],
-[type="submit"],
-[type="reset"],
-[type="image"] {
-  background-color: $color-medium;
+.btn {
+  border: 1px solid $color-inverse;
+  color: $color-inverse;
+  background-color: transparent;
   font-family: $font-sans;
-  width: auto;
-
+  text-decoration: none;
+  padding: 1rem 2.25rem;
+  border-radius: 0;
+  
   &:hover {
-    background-color: $color-medium-hover;
-    color: #2337ce;
+    background: $color-inverse;
+    color: $color-medium;
+    border: 1px solid $color-inverse;
   }
 
-  &.usa-button-secondary,
-  &.usa-button-secondary:visited {
-    background-color: $color-bright;
-    color: $color-black;
+  &-lg {
+    color: inherit;
+    font-size: 5rem;
+  }
+
+  &-primary {
+    border: 1px solid $color-inverse;
+    color: $color-inverse;
 
     &:hover {
-      background-color: $color-bright-hover;
-    }
-  }
-}
-
-.usa-button-marginless {
-  margin: 11px;
-}
-
-%link-arrow {
-  font-weight: $font-bold;
-  font-size: $small-font-size;
-  text-decoration: none;
-}
-
-@mixin display-icon($icon, $direction, $size) {
-  &:#{$direction} {
-    background-image: url("../img/#{$icon}.png");
-    background-image: url("../img/#{$icon}.svg");
-    background-size: 100%;
-    content: "";
-    display: inline-block;
-    height: $size;
-    margin-bottom: -1px;
-    width: $size;
-
-    @if $direction == "after" {
-      margin-left: 4px;
-    } @else {
-      margin-right: 4px;
+      background: $color-inverse;
+      color: $color-medium !important;
+      border: 1px solid $color-inverse;
     }
   }
 
-  &:hover::#{$direction} {
-    background-image: url("../img/#{$icon}-hover.png");
-    background-image: url("../img/#{$icon}-hover.svg");
-  }
+  &-secondary {
+    border: 1px solid $color-medium;
+    color: $color-medium;
 
-  &:visited {
-    color: $color-bright;
-  }
-
-  &:hover {
-    color: $color-medium-hover;
-  }
-}
-
-@mixin display-arrow($direction: "right", $color: $color-medium) {
-  svg {
-    display: inline-block;
-    height: 1.2rem;
-    margin-bottom: -1px;
-    width: 1.2rem;
-
-    @if $direction == "right" {
-      margin-left: 4px;
-    } @else {
-      margin-right: 4px;
-    }
-  }
-
-  path {
-    fill: $color;
-  }
-
-  &:visited path {
-    fill: $color-visited;
-  }
-
-  &:hover path {
-    fill: $color-medium-hover;
-  }
-}
-
-@mixin link-arrows($direction) {
-  .link-arrow-#{$direction} {
-    @include display-arrow("#{$direction}");
-    @extend %link-arrow;
-  }
-
-  a {
-    &:visited .link-arrow-#{$direction} {
-      @include display-arrow($direction, $color-visited);
-    }
-
-    &:hover .link-arrow-#{$direction} {
-      @include display-arrow($direction, $color-medium-hover);
-    }
-  }
-}
-
-@include link-arrows("left");
-@include link-arrows("right");
-
-.social_icon-twitter {
-  @include display-icon(global/social-icons/twitter, before, 1.4rem);
-}
-
-.social_icon-rss {
-  @include display-icon(global/social-icons/rss, before, 1.4rem);
-}
-
-.social_icon-newsletter {
-  @include display-icon(global/social-icons/envelope, before, 1.4rem);
-}
-
-.link-rss {
-  @include display-icon(global/rss, after, $h6-font-size);
-  float: right;
-  font-size: $h5-font-size;
-
-  &:visited {
-    color: $color-bright;
-  }
-}
-
-.back-blog {
-  display: inline-block;
-  font-size: $h6-font-size;
-  margin-top: $section-margins;
-
-  @include media($medium-screen + 200px) {
-    margin-top: 0.7rem;
-    position: absolute;
-  }
-
-  &:hover {
-    color: $color-dark;
-  }
-}
-
-.background-dark {
-  .usa-button,
-  .usa-button-primary,
-  .usa-button:visited,
-  .usa-button-primary:visited,
-  button,
-  [type="button"],
-  [type="submit"],
-  [type="reset"] {
-    background-color: $color-bright;
-  }
-
-  .usa-button-secondary {
-    &.usa-button:hover,
-    &.usa-button-hover {
-      background-color: $color-bright-hover;
-    }
-
-    &.usa-button:active,
-    &.usa-button-active {
-      background-color: $color-medium;
-    }
-
-    &.usa-button:focus,
-    &.usa-button-focus {
-      background-color: $color-medium-hover;
-    }
-
-    &.usa-button:disabled,
-    &.usa-button-disabled {
-      background-color: $color-gray-lighter;
-      color: $color-gray-dark;
+    &:hover {
+      background: $color-medium;
+      color: $color-inverse;
+      border: 1px solid $color-medium;
     }
   }
 }
