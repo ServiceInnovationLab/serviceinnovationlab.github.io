@@ -13,4 +13,6 @@ redirect_to: https://www.data.govt.nz/
 project_url: "[]()"
 resources:
 quote:
+external_url: http://www.data.govt.nz
+external_link_title: www.data.govt.nz
 ---
