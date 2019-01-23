@@ -14,14 +14,18 @@
 
     @media (min-width: 1024px) {
       width: 100%;
-      padding-left: 10%;
+      padding-left: 5%;
     }
   }
 
   .heading {
     margin-top: 0;
-    font-size: 5rem;
+    font-size: 3.75rem;
     color: $color-inverse;
-    margin-bottom: 1.75rem;
+    margin-bottom: 2.75rem;
+
+    @media (min-width:1024px) {
+      font-size: 6rem;
+    }
   }
 }
