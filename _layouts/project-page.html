@@ -13,7 +13,7 @@ header_border: true
 
 <section class="page-tag-results">
 
-  <section class="background-gray">
+  <section class="background-medium">
     <div class="usa-grid-full usa-flex">
       <div class="usa-grid {% if page.image %}usa-width-one-half{% else %}usa-width-one-whole{% endif %} hero-callout-full hero-callout-no_button">
         {% if page.agency %}
@@ -26,7 +26,7 @@ header_border: true
         </h1>
       </div>
       {% if page.image %}
-        <div class="usa-width-one-half hero"
+        <div class="usa-width-one-half template-banner"
           style="background-image: url({{ site.baseurl }}{{ page.image }});"
           role="img"
           title="{{ page.image_accessibility }}">

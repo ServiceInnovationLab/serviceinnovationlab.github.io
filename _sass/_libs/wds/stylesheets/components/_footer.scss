@@ -8,6 +8,19 @@
     position: absolute;
     left: 100px;
   }
+
+  .licence {
+    a {
+      color: $color-inverse;
+    }
+
+    svg {
+      fill: $color-inverse;
+      position: relative;
+      top: 0.3rem;
+      left: 0.5rem;
+    }
+  }
 }
 
 // .usa-footer {

@@ -15,4 +15,6 @@ resources:
 quote:
 redirect_to:
   - https://github.com/ServiceInnovationLab/component-library
+external_url: https://github.com/ServiceInnovationLab/component-library
+external_link_title: GitHub
 ---
