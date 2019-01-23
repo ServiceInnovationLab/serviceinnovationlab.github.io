@@ -4,7 +4,7 @@
   background-color: transparent;
   font-family: $font-sans;
   text-decoration: none;
-  padding: 1rem 2.25rem;
+  padding: 1rem 4.25rem;
   border-radius: 0;
 
   &:hover {
@@ -15,7 +15,11 @@
 
   &-lg {
     color: inherit;
-    font-size: 5rem;
+    font-size: 3.5rem;
+
+    @media (min-width:1024px) {
+      font-size: 5rem;
+    }
   }
 
   &-primary {
