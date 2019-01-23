@@ -14,4 +14,6 @@ redirect_to:
 project_url: "[www.rules.nz](www.rules.nz)"
 resources:
 quote:
+external_url: https://github.com/ServiceInnovationLab/RapuTure
+external_link_title: GitHub
 ---
