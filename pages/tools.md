@@ -38,6 +38,8 @@ h2 {
            tagline=project.title
            description=project.excerpt
            link=project.permalink
+           external_url=project.external_url
+           external_link_title=project.external_link_title
           %}
         {% endfor %}
       </div>

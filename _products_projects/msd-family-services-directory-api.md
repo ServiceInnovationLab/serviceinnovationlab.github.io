@@ -16,4 +16,6 @@ resources:
 quote:
 redirect_to:
   - https://github.com/ServiceInnovationLab/FamilyServiceDirectorySearchinator
+external_url: https://github.com/ServiceInnovationLab/FamilyServiceDirectorySearchinator
+external_link_title: GitHub
 ---
