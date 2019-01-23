@@ -11,17 +11,17 @@ header_border: true
   parent_title='Projects'
 %}
 
-<section class="page-tag-results">
+<section class="page-tag-results project">
 
   <section class="background-medium">
-    <div class="usa-grid-full usa-flex">
+    <div class="usa-grid-full usa-flex banner">
       <div class="usa-grid {% if page.image %}usa-width-one-half{% else %}usa-width-one-whole{% endif %} hero-callout-full hero-callout-no_button">
         {% if page.agency %}
-          <h1 class="h3">
-          <span class="hero-callout-alt_color">{{ page.agency }}</span>
+          <h1 class="h3 lead">
+          <span>{{ page.agency }}</span>
           </h1>
         {% endif %}
-        <h1 class="hero-callout-title-secondary">
+        <h1 class="page-title">
           {{ page.title }}
         </h1>
       </div>
