@@ -1,4 +1,6 @@
 {% assign card_link = include.link | prepend: site.baseurl %}
+{% assign external_link = include.external_url | prepend: site.baseurl %}
+{% assign external_link_title = include.external_link_title | prepend: site.baseurl %}
 
 {% assign columns = include.columns | default: 3 %}
 
@@ -34,8 +36,8 @@
     </div>
     
     <!--Read more section & right arrow-->
-    <a href="{{ card_link }}" class="card-cta link-arrow-right" tabindex="0">
-      Read more
+    <a href="{{ external_link }}" class="card-cta link link-arrow-right" tabindex="0">
+      {{ external_link_title }}
       <span class="usa-sr-only">about {{ include.tagline }}</span>
       {% include svg/icons/external-link-icon.svg %}
     </a>

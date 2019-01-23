@@ -14,4 +14,6 @@ project_url: "[]()"
 learn_more:
 resources:
 quote:
+external_url: https://github.com/ServiceInnovationLab/openfisca-aotearoa
+external_link_title: GitHub
 ---
