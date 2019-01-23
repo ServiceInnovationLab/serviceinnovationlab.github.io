@@ -82,18 +82,17 @@ header[role="banner"] {
     padding-top: 42px;
     position: absolute;
     font-weight: bold;
-    font-family: 'Noto Sans';
+    font-family: "Noto Sans";
 
-    @media (min-width:320px) and (max-width:374px) {
+    @media (min-width: 320px) and (max-width: 374px) {
       right: 85px;
       top: -31px;
     }
 
-    @media (min-width:1024px) {
+    @media (min-width: 1024px) {
       padding-left: 2rem;
       padding-top: 42px;
     }
-
   }
 }
 // scss-lint:disable PropertyCount
