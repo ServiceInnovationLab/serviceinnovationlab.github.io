@@ -59,8 +59,6 @@ Our approach aims to reduce risk and increase the impact of innovation across go
 
 There are two ways to work with us - in partnership with the lab team to help deliver the work programme or by using the collaborative and workshop spaces.   
 
-In depth version with visuals (examples [https://inwithforward.com/approach/](https://inwithforward.com/approach/))
-
 -----
 
 ## History
