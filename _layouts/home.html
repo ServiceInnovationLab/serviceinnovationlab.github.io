@@ -64,6 +64,14 @@ width: 200px;
     {% endunless %}
 
     {% include javascript.html %}
+    <script type="text/javascript">
+      // We listen to the resize event
+      window.addEventListener('resize', () => {
+        // We execute the same script as before
+        let vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+      });
+    </script>
     {% jekyll_pages_api_search_load %}
     {% include page-footer.html %}
   </body>
