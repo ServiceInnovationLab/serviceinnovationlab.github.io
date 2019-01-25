@@ -3,6 +3,7 @@
 <!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
 <head>
 <link rel="stylesheet" href="/assets/css/main.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <style>
 #main-content {
@@ -176,11 +177,10 @@ width: 200px;
       </header>
     <div class="overlay"></div>
 
-
     <div class="main-content " id="main-content">
       <section class="usa-grid-full usa-flex">
   <div class="hero">
-    <div>
+    <div class="vertical">
       <h1 class="heading">Welcome to<br />The Service Innovation Lab</h1>
       <a class="btn btn-primary btn-lg" role="button" href="/tools">Toolkit</a>
     </div>
@@ -281,7 +281,6 @@ width: 200px;
 
 
 
-
   <nav class="usa-accordion footer-mobile">
   <ul class="usa-sidenav-list">
     <li>
@@ -336,6 +335,14 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   ga('send', 'pageview');
 </script>
 
+    <script type="text/javascript">
+      // We listen to the resize event
+      window.addEventListener('resize', () => {
+        // We execute the same script as before
+        let vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+      });
+    </script>
     <script src="/assets/js/search-constants.js"></script>
 <script async src="/assets/js/search-bundle.js"></script>
     <section class="blog-footer usa-section background-medium">
