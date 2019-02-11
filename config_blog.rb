@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # script to update the blog build config
 require 'yaml'
 
