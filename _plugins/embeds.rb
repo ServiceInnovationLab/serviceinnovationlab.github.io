@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Jekyll
   module EmbedFilter
     # Pass a url like {{ "https://youtube-nocookie.com/blahblahblah/" | embed: "some title" }}
