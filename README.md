@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/ServiceInnovationLab/serviceinnovationlab.github.io.svg?branch=dev)](https://travis-ci.org/ServiceInnovationLab/serviceinnovationlab.github.io)
 [![Maintainability](https://api.codeclimate.com/v1/badges/05a76407322970819c76/maintainability)](https://codeclimate.com/github/ServiceInnovationLab/serviceinnovationlab.github.io/maintainability)
+[![Waffle.io - Issues in progress](https://badge.waffle.io/ServiceInnovationLab/serviceinnovationlab.github.io.png?label=in%20progress&title=In%20Progress)](http://waffle.io/ServiceInnovationLab/serviceinnovationlab.github.io)
 
 ## Installation
 
