@@ -14,5 +14,5 @@ github_repo:
     - "[Legislation as Code](https://github.com/ServiceInnovationLab/Piccolo)"
 report: "[]()"
 quote:
-media: 
+media: "[Embracing Innovation in Government - Global Trends 2019](https://trends.oecd-opsi.org/)"
 ---
