@@ -6,7 +6,7 @@ RSpec.describe Jekyll::Utility do
   class UtilityClass
   end
 
-  before(:each) do
+  before do
     @utility_class = UtilityClass.new
     @utility_class.extend(Jekyll::Utility)
 

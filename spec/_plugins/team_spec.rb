@@ -6,7 +6,7 @@ RSpec.describe Jekyll::TeamFilter do
   class TeamFilterClass
   end
 
-  before(:each) do
+  before do
     @team_filter = TeamFilterClass.new
     @team_filter.extend(Jekyll::TeamFilter)
     @baseurl = Jekyll.sites[0].config['baseurl']
