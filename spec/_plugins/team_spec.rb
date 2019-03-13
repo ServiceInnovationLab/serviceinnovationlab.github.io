@@ -8,7 +8,7 @@ RSpec.describe Jekyll::TeamFilter do
 
   before do
     @team_filter = TeamFilterClass.new
-    @team_filter.extend(Jekyll::TeamFilter)
+    @team_filter.extend(described_class)
     @baseurl = Jekyll.sites[0].config['baseurl']
   end
 

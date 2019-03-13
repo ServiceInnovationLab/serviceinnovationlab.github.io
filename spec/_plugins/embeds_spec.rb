@@ -8,7 +8,7 @@ RSpec.describe Jekyll::EmbedFilter do
 
   before do
     @embed_filter = EmbedFilterClass.new
-    @embed_filter.extend(Jekyll::EmbedFilter)
+    @embed_filter.extend(described_class)
   end
   it 'takes returns an embed given one variable' do
     actual = @embed_filter.embed('/url/')
