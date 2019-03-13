@@ -33,7 +33,8 @@ ratings:
   - "**.scss"
   - Gemfile.lock
 exclude_patterns:
-- "assets/js/sticky.js"
+- "_sass/_libs/wds/js/vendor/*"
 - "assets/js/jekyll-pages-api-search.js"
 - "assets/js/jquery.ajaxchimp.min.js"
-- "_sass/_libs/wds/js/vendor/*"
+- "assets/js/jquery.min.js "
+- "assets/js/sticky.js"
