@@ -140,9 +140,9 @@ For e.g. 'http://blahblah.us1.list-manage.com/subscribe/post-json?u=5afsdhfuhdsi
           settings.language !== 'en' &&
           $.ajaxChimp.translations &&
           $.ajaxChimp.translations[settings.language] &&
-          $.ajaxChimp.translations[settings.language]['submit']
+          $.ajaxChimp.translations[settings.language].submit
         ) {
-          submitMsg = $.ajaxChimp.translations[settings.language]['submit'];
+          submitMsg = $.ajaxChimp.translations[settings.language].submit;
         }
         label.html(submitMsg).show(2000);
 
