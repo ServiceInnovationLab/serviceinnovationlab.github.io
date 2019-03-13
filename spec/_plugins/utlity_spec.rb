@@ -8,7 +8,7 @@ RSpec.describe Jekyll::Utility do
 
   before(:each) do
     @utility_class = UtilityClass.new
-    @utility_class.extend(Jekyll::Utility)
+    @utility_class.extend(described_class)
 
     @nav_items = YAML.safe_load(File.read(File.join(Dir.pwd, 'spec/_data/navigation.yml')))['assigned']
 
