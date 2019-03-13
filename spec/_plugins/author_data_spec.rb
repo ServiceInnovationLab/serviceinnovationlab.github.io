@@ -6,7 +6,7 @@ RSpec.describe SiteData::AuthorData do
   before(:each) do
     root = File.dirname(File.dirname(__FILE__))
 
-    @author_data = SiteData::AuthorData.new(root)
+    @author_data = described_class.new(root)
     @published_authors = @author_data.published_authors
     @unpublished_authors = @author_data.unpublished_authors
     @all_authors = @author_data.all_authors
