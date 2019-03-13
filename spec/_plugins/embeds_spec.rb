@@ -6,7 +6,7 @@ RSpec.describe Jekyll::EmbedFilter do
   class EmbedFilterClass
   end
 
-  before(:each) do
+  before do
     @embed_filter = EmbedFilterClass.new
     @embed_filter.extend(described_class)
   end
