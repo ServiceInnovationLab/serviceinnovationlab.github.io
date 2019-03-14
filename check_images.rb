@@ -78,7 +78,6 @@ if remove_all
   # puts "deleting contents of removable_images.yml"
   File.open(removable_images_file, 'w').close
 else
-
   removable_images_file = File.join(full_path, 'removable_images.yml')
   removable_images = if File.exist?(removable_images_file)
                        File.open(removable_images_file, 'r+')

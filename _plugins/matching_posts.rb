@@ -7,7 +7,7 @@ module Jekyll
     def map_post_to_page(property)
       post_map = {
         authors: 'name',
-        tags: 'tags'
+        tags: 'tags',
       }
       post_map[property.to_sym]
     end
