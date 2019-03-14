@@ -30,10 +30,7 @@
       }
       req.open('GET', url, true);
       req.onreadystatechange = function() {
-        if (
-          req.readyState !== 4 ||
-          (req.status !== 200 && req.status !== 304)
-        ) {
+        if (req.readyState !== 4 || (req.status !== 200 && req.status !== 304)) {
           return;
         }
         callback(req.responseText);
@@ -56,14 +53,11 @@
     findStyles: /@media *([^\{]+)\{([\S\s]+?)$/,
     only: /(only\s+)?([a-zA-Z]+)\s?/,
     minw: /\([\s]*min\-width\s*:[\s]*([\s]*[0-9\.]+)(px|em)[\s]*\)/,
-    maxw: /\([\s]*max\-width\s*:[\s]*([\s]*[0-9\.]+)(px|em)[\s]*\)/,
+    maxw: /\([\s]*max\-width\s*:[\s]*([\s]*[0-9\.]+)(px|em)[\s]*\)/
   };
 
   // expose media query support flag for external use
-  respond.mediaQueriesSupported =
-    w.matchMedia &&
-    w.matchMedia('only all') !== null &&
-    w.matchMedia('only all').matches;
+  respond.mediaQueriesSupported = w.matchMedia && w.matchMedia('only all') !== null && w.matchMedia('only all').matches;
 
   // if media queries are supported, exit here
   if (respond.mediaQueriesSupported) {
@@ -135,10 +129,7 @@
     applyMedia = function(fromResize) {
       var name = 'clientWidth',
         docElemProp = docElem[name],
-        currWidth =
-          (doc.compatMode === 'CSS1Compat' && docElemProp) ||
-          doc.body[name] ||
-          docElemProp,
+        currWidth = (doc.compatMode === 'CSS1Compat' && docElemProp) || doc.body[name] || docElemProp,
         styleBlocks = {},
         lastLink = links[links.length - 1],
         now = new Date().getTime();
@@ -162,22 +153,16 @@
             em = 'em';
 
           if (!!min) {
-            min =
-              parseFloat(min) *
-              (min.indexOf(em) > -1 ? eminpx || getEmValue() : 1);
+            min = parseFloat(min) * (min.indexOf(em) > -1 ? eminpx || getEmValue() : 1);
           }
           if (!!max) {
-            max =
-              parseFloat(max) *
-              (max.indexOf(em) > -1 ? eminpx || getEmValue() : 1);
+            max = parseFloat(max) * (max.indexOf(em) > -1 ? eminpx || getEmValue() : 1);
           }
 
           // if there's no media query at all (the () part), or min or max is not null, and if either is present, they're true
           if (
             !thisstyle.hasquery ||
-            ((!minnull || !maxnull) &&
-              (minnull || currWidth >= min) &&
-              (maxnull || currWidth <= max))
+            ((!minnull || !maxnull) && (minnull || currWidth >= min) && (maxnull || currWidth <= max))
           ) {
             if (!styleBlocks[thisstyle.media]) {
               styleBlocks[thisstyle.media] = [];
@@ -223,9 +208,7 @@
     },
     // find media blocks in css text, convert to style blocks
     translate = function(styles, href, media) {
-      var qs = styles
-          .replace(respond.regex.keyframes, '')
-          .match(respond.regex.media),
+      var qs = styles.replace(respond.regex.keyframes, '').match(respond.regex.media),
         ql = (qs && qs.length) || 0;
 
       // try to get CSS path
@@ -269,17 +252,11 @@
         for (var j = 0; j < eql; j++) {
           thisq = eachq[j];
           mediastyles.push({
-            media:
-              (thisq.split('(')[0].match(respond.regex.only) && RegExp.$2) ||
-              'all',
+            media: (thisq.split('(')[0].match(respond.regex.only) && RegExp.$2) || 'all',
             rules: rules.length - 1,
             hasquery: thisq.indexOf('(') > -1,
-            minw:
-              thisq.match(respond.regex.minw) &&
-              parseFloat(RegExp.$1) + (RegExp.$2 || ''),
-            maxw:
-              thisq.match(respond.regex.maxw) &&
-              parseFloat(RegExp.$1) + (RegExp.$2 || ''),
+            minw: thisq.match(respond.regex.minw) && parseFloat(RegExp.$1) + (RegExp.$2 || ''),
+            maxw: thisq.match(respond.regex.maxw) && parseFloat(RegExp.$1) + (RegExp.$2 || '')
           });
         }
       }
@@ -329,7 +306,7 @@
               }
               requestQueue.push({
                 href: href,
-                media: media,
+                media: media
               });
             }
           }

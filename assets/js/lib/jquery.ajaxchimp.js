@@ -35,14 +35,14 @@ For e.g. 'http://blahblah.us1.list-manage.com/subscribe/post-json?u=5afsdhfuhdsi
       'An email address must contain a single @': 2,
       'The domain portion of the email address is invalid (the portion after the @: )': 3,
       'The username portion of the email address is invalid (the portion before the @: )': 4,
-      'This email address looks fake or invalid. Please enter a real email address': 5,
+      'This email address looks fake or invalid. Please enter a real email address': 5
     },
     translations: {
-      en: null,
+      en: null
     },
     init: function(selector, options) {
       $(selector).ajaxChimp(options);
-    },
+    }
   };
 
   $.fn.ajaxChimp = function(options) {
@@ -54,9 +54,9 @@ For e.g. 'http://blahblah.us1.list-manage.com/subscribe/post-json?u=5afsdhfuhdsi
       var settings = $.extend(
         {
           url: form.attr('action'),
-          language: 'en',
+          language: 'en'
         },
-        options,
+        options
       );
 
       var url = settings.url.replace('/post?', '/post-json?').concat('&c=?');
@@ -101,14 +101,9 @@ For e.g. 'http://blahblah.us1.list-manage.com/subscribe/post-json?u=5afsdhfuhdsi
             $.ajaxChimp.responses[msg] !== undefined &&
             $.ajaxChimp.translations &&
             $.ajaxChimp.translations[settings.language] &&
-            $.ajaxChimp.translations[settings.language][
-              $.ajaxChimp.responses[msg]
-            ]
+            $.ajaxChimp.translations[settings.language][$.ajaxChimp.responses[msg]]
           ) {
-            msg =
-              $.ajaxChimp.translations[settings.language][
-                $.ajaxChimp.responses[msg]
-              ];
+            msg = $.ajaxChimp.translations[settings.language][$.ajaxChimp.responses[msg]];
           }
           label.html(msg);
 
@@ -131,7 +126,7 @@ For e.g. 'http://blahblah.us1.list-manage.com/subscribe/post-json?u=5afsdhfuhdsi
           dataType: 'jsonp',
           error: function(resp, text) {
             console.log('mailchimp ajax submit error: ' + text);
-          },
+          }
         });
 
         // Translate and display submit message

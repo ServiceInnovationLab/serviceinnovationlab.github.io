@@ -8,8 +8,7 @@ var toggleFormInput = require('./components/toggle-form-input');
 // README: This is necessary because politespace doesn't properly export anything
 // in its package.json. TODO: Let's open a PR related to this so we can fix it in Politespace.js
 //
-var Politespace = require('../../node_modules/politespace/src/politespace')
-  .Politespace;
+var Politespace = require('../../node_modules/politespace/src/politespace').Politespace;
 
 $(function() {
   // jQuery Plugin
@@ -63,16 +62,13 @@ $(function() {
 
       $('.usa-footer-big nav .usa-footer-primary-link').unbind('click');
 
-      $('.usa-footer-big nav .usa-footer-primary-link').bind(
-        'click',
-        function() {
-          $(this)
-            .parent()
-            .removeClass('hidden')
-            .siblings()
-            .addClass('hidden');
-        },
-      );
+      $('.usa-footer-big nav .usa-footer-primary-link').bind('click', function() {
+        $(this)
+          .parent()
+          .removeClass('hidden')
+          .siblings()
+          .addClass('hidden');
+      });
     } else {
       $('.usa-footer-big nav ul').removeClass('hidden');
 
@@ -97,9 +93,7 @@ $(function() {
   var $formInput = $('.usa-show_multipassword');
   var $validator = $('.js-validate_password');
 
-  $showPassword.length &&
-    toggleFormInput($showPassword, 'Show Password', 'Hide Password');
-  $formInput.length &&
-    toggleFormInput($formInput, 'Show my typing', 'Hide my typing');
+  $showPassword.length && toggleFormInput($showPassword, 'Show Password', 'Hide Password');
+  $formInput.length && toggleFormInput($formInput, 'Show my typing', 'Hide my typing');
   $validator.length && validator($validator);
 });

@@ -21,33 +21,27 @@ $(function() {
       function(direction) {
         $navItems.removeClass('usa-current', direction === 'down');
         if ($window.scrollTop() !== 0) {
-          getRelatedNavigation(this).addClass(
-            'usa-current',
-            direction === 'down',
-          );
+          getRelatedNavigation(this).addClass('usa-current', direction === 'down');
         }
       },
       {
         offset: function() {
           return $(this).height();
-        },
-      },
+        }
+      }
     )
     .waypoint(
       function(direction) {
         $navItems.removeClass('usa-current', direction === 'up');
         if ($window.scrollTop() !== 0) {
-          getRelatedNavigation(this).addClass(
-            'usa-current',
-            direction === 'up',
-          );
+          getRelatedNavigation(this).addClass('usa-current', direction === 'up');
         }
       },
       {
         offset: function() {
           return -$(this).height();
-        },
-      },
+        }
+      }
     );
 
   // Subnav click to top

@@ -16,8 +16,7 @@ var toggleFormInput = function($el, showText, hideText) {
 
   if (!defaultSelectors || defaultSelectors.trim().length === 0) {
     throw new Error(
-      'Did you forget to define selectors in the aria-controls attribute? Check element ' +
-        $el.attr('class'),
+      'Did you forget to define selectors in the aria-controls attribute? Check element ' + $el.attr('class')
     );
   }
 
