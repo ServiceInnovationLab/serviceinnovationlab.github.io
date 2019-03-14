@@ -130,4 +130,5 @@ class Array
     end
   end
 end
+
 Liquid::Template.register_filter(Jekyll::Utility)
