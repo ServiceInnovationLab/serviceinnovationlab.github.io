@@ -35,6 +35,5 @@ ratings:
 exclude_patterns:
 - "_sass/_libs/wds/js/vendor/*"
 - "assets/js/jekyll-pages-api-search.js"
-- "assets/js/jquery.ajaxchimp.min.js"
 - "assets/js/jquery.min.js"
 - "assets/js/sticky.js"
