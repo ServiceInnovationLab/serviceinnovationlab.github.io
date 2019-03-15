@@ -51,11 +51,7 @@ $(function() {
       $newsletterEmail.focus();
     },
   };
-
-  $form.ajaxChimp({
-    callback: callbackFunction,
-  });
-
+  
   function callbackFunction(resp) {
     if (resp.result === 'success') {
       newsletterForm.response();
