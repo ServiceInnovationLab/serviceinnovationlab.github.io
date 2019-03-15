@@ -3,7 +3,7 @@
 require_relative '../../_plugins/author_data'
 
 RSpec.describe SiteData::AuthorData do
-  before(:each) do
+  before do
     root = File.dirname(File.dirname(__FILE__))
 
     @author_data = described_class.new(root)
