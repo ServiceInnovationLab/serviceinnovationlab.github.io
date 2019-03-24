@@ -7,6 +7,7 @@ gem 'html-proofer', '~> 3.10.2'
 gem 'jekyll', '>= 3.6.3'
 gem 'jemoji'
 gem 'parallel'
+gem 'jekyll-watch', '~>2.2.0'
 
 group :jekyll_plugins do
   gem 'jekyll-archives', git: 'https://github.com/jekyll/jekyll-archives.git', ref: '112c508'
