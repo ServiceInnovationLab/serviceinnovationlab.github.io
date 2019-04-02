@@ -1,11 +1,3 @@
-GIT
-  remote: https://github.com/jekyll/jekyll-archives.git
-  revision: 112c508031acf3cf1d9024b005f99b2752133769
-  ref: 112c508
-  specs:
-    jekyll-archives (2.1.0)
-      jekyll (>= 2.4)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -22,7 +14,7 @@ GEM
     archive-zip (0.12.0)
       io-like (~> 0.3.0)
     ast (2.4.0)
-    capybara (3.15.0)
+    capybara (3.16.0)
       addressable
       mini_mime (>= 0.1.3)
       nokogiri (~> 1.8)
@@ -87,6 +79,8 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
+    jekyll-archives (2.2.1)
+      jekyll (>= 3.6, < 5.0)
     jekyll-feed (0.12.1)
       jekyll (>= 3.7, < 5.0)
     jekyll-paginate (1.1.0)
@@ -131,9 +125,9 @@ GEM
     mini_portile2 (2.4.0)
     minitest (5.11.3)
     netrc (0.11.0)
-    nokogiri (1.10.1)
+    nokogiri (1.10.2)
       mini_portile2 (~> 2.4.0)
-    parallel (1.14.0)
+    parallel (1.16.2)
     parser (2.6.2.0)
       ast (~> 2.4.0)
     pathutil (0.16.2)
@@ -225,7 +219,7 @@ DEPENDENCIES
   colorize
   html-proofer (~> 3.10.2)
   jekyll (>= 3.6.3)
-  jekyll-archives!
+  jekyll-archives
   jekyll-feed
   jekyll-paginate
   jekyll-redirect-from

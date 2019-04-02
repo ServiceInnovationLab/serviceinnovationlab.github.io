@@ -10,7 +10,7 @@ gem 'jemoji'
 gem 'parallel'
 
 group :jekyll_plugins do
-  gem 'jekyll-archives', git: 'https://github.com/jekyll/jekyll-archives.git', ref: '112c508'
+  gem 'jekyll-archives'
   gem 'jekyll-feed'
   gem 'jekyll-paginate'
   gem 'jekyll-redirect-from'
