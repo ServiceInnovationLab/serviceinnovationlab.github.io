@@ -1,4 +1,4 @@
-#Plugins!
+# Plugins!
 
 The SIL site uses a variety of custom plugins to modify how the site is rendered.
 
@@ -14,7 +14,7 @@ The SIL site uses a variety of custom plugins to modify how the site is rendered
 
 ## Filters
 
-### Team_Photo
+### team_photo
 
 **Accepts the author's name as the first argument. Lives in [team.rb](team.rb)**
 
@@ -30,7 +30,7 @@ Yields:
 <img class="img-circle team-img bio-clip" src="/assets/img/team/brian.jpg" alt="SIL team member Brian Hedberg">
 ```
 
-### Lookup
+### lookup
 
 **That takes an author slug as `input` and extracts from the dataset in the first arg the value of the key in the second arg for `input`. Lives in [author.rb](author.rb)**
 
@@ -46,7 +46,7 @@ Example usage:
   {{ "boone" | lookup:"authors, full_name" }}
 ```
 
-### Team_Link
+### team_Link
 
 **Will look for an entry in the authors data file named "boone" and return a link labeled Greg Boone and linked to his author page. Lives in [author.rb](author.rb)**
 
@@ -71,7 +71,7 @@ Returns:
           allowfullscreen></iframe>
     </div>
 
-#### Match_Posts
+#### match_posts
 
 **Finds posts that match a pages' property. If the property is not specified, it defaults to `tags`.**
 
@@ -86,7 +86,7 @@ Example matching authors
 Will look for all the posts on the entire site and return a list of posts that have any properties
 that matches the list defined in a given project's frontmatter
 
-### Hash_Link
+### hash_link
 
 **Returns a hashed version of a given link. Lives in [utility.md](utility.md).**
 
@@ -96,7 +96,7 @@ Example:
 > #expertise
 ```
 
-### Matches_url
+### matches_url
 
 **Determines if the current page url (`page_url`) exactly matches a given `url`. Lives in [utility.md](utility.md).**
 
@@ -109,7 +109,7 @@ Example:
 > true
 ```
 
-### Liquify
+### liquify
 
 **A liquid parser that will take raw content as an argument and return a liquid parsed version of that content.**
 
@@ -125,7 +125,7 @@ Example:
 > '#expertise'
 ```
 
-### Debug
+### debug
 
 **Debugging tool to pull up a erb shell at a given point in the liquid markup.**
 
