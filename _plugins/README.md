@@ -14,7 +14,8 @@ The SIL site uses a variety of custom plugins to modify how the site is rendered
 
 ## Filters
 
-### team_photo
+### Team_Photo
+
 **Accepts the author's name as the first argument. Lives in [team.rb](team.rb)**
 
 Example usage:
@@ -29,7 +30,8 @@ Yields:
 <img class="img-circle team-img bio-clip" src="/assets/img/team/brian.jpg" alt="SIL team member Brian Hedberg">
 ```
 
-### lookup
+### Lookup
+
 **That takes an author slug as `input` and extracts from the dataset in the first arg the value of the key in the second arg for `input`. Lives in [author.rb](author.rb)**
 
 Takes two arguments, `input` and `args`
@@ -44,47 +46,48 @@ Example usage:
   {{ "boone" | lookup:"authors, full_name" }}
 ```
 
-### team_link
+### Team_Link
+
 **Will look for an entry in the authors data file named "boone" and return a link labeled Greg Boone and linked to his author page. Lives in [author.rb](author.rb)**
 
+### Embed
 
-### embed
 **Creates an iframe with the specified link. Lives in [embed.rb](embed.rb)**
 
 Example usage:
 
-```liquid
-  {{ "https://youtube-nocookie.com/blahblahblah/" | embed: "some title" }}
-```
+Liquid
+
+    {{ "https://youtube-nocookie.com/blahblahblah/" | embed: "some title" }}
 
 Returns:
 
-```<div class='embed-container'>
-  <iframe src='https://youtube-nocookie.com/blahblahblah/'
+    <div class='embed-container'>
+      <iframe src='https://youtube-nocookie.com/blahblahblah/'
           title='some title'
           width='560'
           height='315'
           frameborder='0'
           allowfullscreen></iframe>
-</div>```
+    </div>
 
-#### match_posts
+#### Match_Posts
+
 **Finds posts that match a pages' property. If the property is not specified, it defaults to `tags`.**
 
 Example:
-```
-{{ page | match_posts }}
-```
+
+    {{ page | match_posts }}
 
 Example matching authors
-```
-{{ page | match_posts: 'authors' }}
-```
+
+    {{ page | match_posts: 'authors' }}
 
 Will look for all the posts on the entire site and return a list of posts that have any properties
 that matches the list defined in a given project's frontmatter
 
-### hash_link
+### Hash_Link
+
 **Returns a hashed version of a given link. Lives in [utility.md](utility.md).**
 
 Example:
@@ -93,8 +96,8 @@ Example:
 > #expertise
 ```
 
+### Matches_url
 
-### matches_url
 **Determines if the current page url (`page_url`) exactly matches a given `url`. Lives in [utility.md](utility.md).**
 
 Example:
@@ -106,8 +109,9 @@ Example:
 > true
 ```
 
-### liquify
-** A liquid parser that will take raw content as an argument and return a liquid parsed version of that content.**
+### Liquify
+
+**A liquid parser that will take raw content as an argument and return a liquid parsed version of that content.**
 
 Example:
 ```bash
@@ -121,8 +125,8 @@ Example:
 > '#expertise'
 ```
 
+### Debug
 
-### debug
 **Debugging tool to pull up a erb shell at a given point in the liquid markup.**
 
 Example:
@@ -131,14 +135,13 @@ Example:
 
 ```
 
-## Markdown rendering
+## Markdown Rendering
 
 ### [markdown.rb](markdown.rb)
 
 This file allows us to render blocks of markdown outside of the normal render cycle.
 
 Example usage:
-
 
 ```markdown
 {% markdown %}
@@ -169,7 +172,6 @@ Example within a table:
 </table>
 ```
 
-
 ## Classes and Modules
 
 ### SiteData
@@ -185,6 +187,7 @@ It is used to access data pertaining to certain authors. It is _sometimes_ prefe
 AuthorData has a few methods, `update`, `fetch`, `exists?`, `all_authors`, `published_authors`, and `unpublished_authors`.
 
 #### `update`
+
 Used to update an author's file. If I wanted to update the file `brian.md` to `published: true`, for instance, I could do as follows:
 
 ```ruby
@@ -193,6 +196,7 @@ author_data.update('brian.md', 'published', true)
 ```
 
 #### `fetch`
+
 Can be used to find an attribute associated with an author. If I wanted to confirm that the `published` attribute was changed, I could do as follows:
 
 ```ruby
@@ -201,6 +205,7 @@ author_data.fetch('brian', 'published')
 ```
 
 #### `exists?`
+
 Returns a Boolean and can be used to verify that an author has a file to update or fetch:
 
     def exists?(name)
@@ -213,6 +218,7 @@ author_data.exists? 'brian'
 ```
 
 #### `all_authors`
+
 Returns an Array of all the authors who exist on the site.
 
 ```ruby
@@ -221,6 +227,7 @@ author_data.all_authors
 ```
 
 #### `published_authors`
+
 Returns an Array of all the authors who have published blog posts on [SIL](https://serviceinnovationlab.github.io).
 
 ```ruby
@@ -229,6 +236,7 @@ author_data.published_authors
 ```
 
 #### `all_authors`
+
 returns an Array of all the authors who exist on the site, but have not published any blog posts.
 
 ```ruby
