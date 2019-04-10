@@ -4,7 +4,6 @@
 
 `gh-pages` is where our built jekyll html is.
 
-
 ## Pull Requests
 
 Any dev can propose a code change (a PR).
@@ -50,12 +49,15 @@ Press the "Delete Branch" on github after merging. This keeps the repo tidy.
 Commit messages should describe the reason for the changes being commited, so that anyone viewing the commit can know what has changed and why.
 
 Good messages:
+
 * Updating travis config to include dependency installation
 
 Bad messages
+
 * Updating travis
 
 Really bad commit messages
+
 * fixing stuff so it works
 * please let it work this time
 * commit
@@ -67,11 +69,9 @@ Branch naming in a consistent manner is good for keeping things tidy and add con
 
 Here are some examples:
 
-```
-feature/automated-dishwasher-emptying
-bugfix/ui-disabled-for-anon-users
-hotfix/offline-jobs-errors
-```
+    feature/automated-dishwasher-emptying
+    bugfix/ui-disabled-for-anon-users
+    hotfix/offline-jobs-errors
 
 ## Deploying
 
