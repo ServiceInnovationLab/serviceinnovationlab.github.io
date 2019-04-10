@@ -15,7 +15,8 @@
          class="card-image-bg {% unless include.image_src %} card-image-svg {% endunless %}"
          {% if include.image_src %}
          style="background-image: url({{ site.baseurl }}{{ include.image_src }});"{% endif %}>
-      {% unless include.image_src %}
+        <p tabindex="8" class="aria-hidden">{{ include.image_alt }}</p>
+         {% unless include.image_src %}
         {% if include.image_icon %}
           {% include svg/icons/{{ include.image_icon }} %}
         {% else %}
