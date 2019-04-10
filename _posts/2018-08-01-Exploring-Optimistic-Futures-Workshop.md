@@ -50,7 +50,7 @@ At the end of the day there was a group share and reflection which had the follo
 * What caused most discussion:
 ** The ethical considerations + having a broader community discussion (beyond government)
 ** Where will the conversation take place + how do we bring other voices in?
- 
+
 ## Activity One - Qualities to thrive as kiwis in 2070
 
 Participants were asked to brainstorm qualities of an optimistic future in which kiwis could thrive and then chose 5 per group they felt were the most important. 
@@ -58,7 +58,7 @@ Participants were asked to brainstorm qualities of an optimistic future in which
 ![A word cloud of popular terms from the report, details below](/assets/media/2017-18-Lab-Report/Transitioning-to-optimistic-futures.PNG)
 _Word cloud of the key concepts from the workshop content_
 
-The qualities identified (to reflect the word cloud above) are below. 
+The qualities identified (to reflect the word cloud above) are below.
 
 Qualities reflected in all four groups:
 
@@ -67,14 +67,14 @@ Qualities reflected in all four groups:
 
 Qualities reflected in three groups:
 
-* Adaptive 
+* Adaptive
 * Collaborative
 * Confident
 * Creative
 
 Qualities reflected in two groups:
 
-* Bi-Cultural 
+* Bi-Cultural
 * Compassionate - (Love, Mercy)
 * Critically engages/thinking
 * Empowered
@@ -87,7 +87,7 @@ Qualities reflected in two groups:
 Finally, qualities reflected in one group included; Absentable, Abundance, Active, Agile, Ambitious, Appreciative, Audacity, Authenticity, Aware, Big picture thinker, Capability or automation, Capacity, Caring, Challenging, Considerate, Connected (place, people, history, whakapapa, turangawaewae), Courageous, Decisive, Diversity, Ethical, Explorative, Flexible, Generosity, Good natured, Honest, Hopeful, Hypocracy, Imaginative, Inclusive, Initiative, Innovative, Kind, Leadership, Love of learning, Loving, Maker skills, Mobility, Multicultural, Neighbourly, No structural inequality, Patience, Positive, Proactive, Productive, Proud, Reflect, Resourceful, 
 Respectful, Responsible, Risk tolerant, Savvy, Self awareness, Smart, Social, Supportive, Sustainable, Survival Skills, Tolerant, Truthful, Values Driven, Visionary, Work/life Balance (2)
 
-The cumulatirve top 5 prioritised qualities list from each group were (number of groups): 
+The cumulatirve top 5 prioritised qualities list from each group were (number of groups):
 
 * Empathy/sympathy/self awareness (3)
 * Diversity (2)
@@ -215,12 +215,12 @@ __Now:__
 * body is buried or cremated
 * mind is gone
 * mourning - family remembers them through photos, videos, letters, social media?
-* religious and cultural components 
+* religious and cultural components
 
 __2070:__
 
 * less unexpected deaths, so person has time to manage affairs, more euthanasia, plenned funerals
-* bio tracking knows you've died, user-authorised services are notified and person's wishes enacted - still human gatekeeper 
+* bio tracking knows you've died, user-authorised services are notified and person's wishes enacted - still human gatekeeper
 * funeral - laws prohibiting satellite corpses, energy considered in body removal, homogenised religious/cultural approach?
 * relationship to physical body changes as consciousness is able to be uploaded
 * therapy for mourning
@@ -362,59 +362,59 @@ __Participants were asked to then reflect on the previous activities and discuss
     * Better health through personalised food solutions 
     * Less ethical dilemma over consuming protein 
     * More options for learning about alternatives 
-    * Equality and no poverty 
+    * Equality and no poverty
 
 2. Role of Government:
-    * Education on how it works 
-    * Regulation of ‘programmable’ food 
-    * Maintain a group of people who are aware of the tech 
-    * Incentivise communities for uptake 
+    * Education on how it works
+    * Regulation of ‘programmable’ food
+    * Maintain a group of people who are aware of the tech
+    * Incentivise communities for uptake
 
 2. How can technology enable:
-    * Sharing IP (open source) 
+    * Sharing IP (open source)
 
     __Benefits: __
     * History of being a primary provider
     * Decreasing food scarcity
 
     __Challenges:__
-    * Identity crisis 
-    * Changing mindsets may take a while to get there 
-    * Socialising change in food production 
-    * Isolation is possible - too much time with nothing meaningful to do 
-    * Reliance on technology 
+    * Identity crisis
+    * Changing mindsets may take a while to get there
+    * Socialising change in food production
+    * Isolation is possible - too much time with nothing meaningful to do
+    * Reliance on technology
 
 ### Group 4 - do exercise
 
 1. Effects on Community/Country:
-    * More likely to try different things as potential lower risk 
-    * Specialisation in work/activities 
+    * More likely to try different things as potential lower risk
+    * Specialisation in work/activities
     * Who will be motivated to fund? Medical insurance, government…
     * Medical /physical/mental health measurement, monitoring and development - more efficiency and comparatives
-    * Community contribution = credit generation (?) 
-    * Early diagnosis 
+    * Community contribution = credit generation (?)
+    * Early diagnosis
 
 2. Role of Government:
-    * Funding 
-    * Enabling and encouraging activities 
-    * Exposure to different roles and activities 
-    * Provides right guidelines to encourage healthier choices + private sector innovation in this area 
-    * Regulation for ethical implications of data use 
+    * Funding
+    * Enabling and encouraging activities
+    * Exposure to different roles and activities
+    * Provides right guidelines to encourage healthier choices + private sector innovation in this area
+    * Regulation for ethical implications of data use
 
 3. How can technology enable:
-    * Regular open and VR access 
-    * Regulate or schedule daily routines 
+    * Regular open and VR access
+    * Regulate or schedule daily routines
     * Monitors detect physical level and give optimal preparations
 
 ## Key themes of the effects on Society
 
 * Participation in society before and after death
-* Sharing of knowledge and passing down generations 
+* Sharing of knowledge and passing down generations
 * Specialised in what we do and offer
 * Key themes Tech:
-* Traceability and control 
+* Traceability and control
 * Knowledge sharing
-* Key themes Role of Govt: 
-* Encouragement and incentivisation 
+* Key themes Role of Govt:
+* Encouragement and incentivisation
 * Measure and evaluate
 * Protect privacy
