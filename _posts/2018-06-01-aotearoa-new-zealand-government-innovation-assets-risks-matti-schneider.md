@@ -58,7 +58,6 @@ The current Lab scope seems too broad to be sustainable regarding both resources
 
 Leaders that can engage makers must be visionary, which means that they sometimes can think too far ahead and overlook the burden of maintenance, prioritising investment over working budget. However, switching back to a managerial, accountant mindset is not the appropriate answer as it would very quickly disengage the team. I recommend to raise awareness of available resources, actual political engagements and associated funding streams, and to encourage and empower the team to take responsibility for their load from this information. Such a practice can limit scope creep while yielding the most innovation and fostering productivity.
 
-
 # Aotearoa New Zealand government innovation landscape
 
 The Lab operates in a broader government innovation ecosystem. Beyond organisations, this section also takes an anthropological lens to characterise the inherent strengths and weaknesses of the cultural environment in which agencies operate.
@@ -145,7 +144,6 @@ This starts by ensuring agencies consider software as an asset, not a liability.
 
 ![Wellington railway station](/assets/media/Government-innovation-report-Matti-Schneider/image5.jpeg)
 _A long-standing piece of infrastructure: the railway station, Wellington, 2018_
-
 
 # ICT strategy recommendations
 
