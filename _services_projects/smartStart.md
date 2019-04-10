@@ -6,7 +6,7 @@ permalink: /projects/smartStart/
 redirect_from: /projects/smartStart/
 excerpt: SmartStart provides step-by-step information and support to help you access the right services for you and your baby.
 image: /assets/img/projects/smartStart.png
-image_accessibility: 
+image_accessibility: Two images of an iPhone displaying different views of SmartStart's website.
 project_weight: 12
 tag: SmartStart
 expiration_date:
