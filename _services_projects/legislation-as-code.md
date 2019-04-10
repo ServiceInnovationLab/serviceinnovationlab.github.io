@@ -6,7 +6,7 @@ permalink: /projects/legislation-as-code/
 redirect_from: /projects/legislation-as-code/
 excerpt: Exploring the benefits of legislation that is both human and machine readable and what it might take to transition.
 image: /assets/img/projects/legislation-as-code.png
-image_accessibility: Image of OpenFisca & how it calculates an output using rules & formulas.
+image_accessibility: OpenFisca helps combine legislation with formulas and transforms rules into code.
 project_weight: 12
 tag: Legislation as Code
 expiration_date:
