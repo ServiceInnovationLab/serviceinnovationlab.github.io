@@ -19,7 +19,7 @@ h2 {
 <section class="usa-section background-gray">
 <div class="usa-grid">
     <div class="usa-width-two-thirds">
-      <h2> Projects </h2>
+      <h2 tabindex="0"> Projects </h2>
     </div>
 </div>
 
