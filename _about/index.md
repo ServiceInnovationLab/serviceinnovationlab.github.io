@@ -80,4 +80,18 @@ February 2016 The Service Innovation Lab (the Lab) was founded with support from
 
 Today the lab is working with multiple agencies on delivering the work programme and commitments to initiatives such as the Digital Nations with funding till June 2019.
 
+<!-- <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1npJSrI3KXYP22voM2u6c_Ia8ereLl7swaSGyIAoTK2c&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe> -->
+
+<a
+class="iframe-lightbox-link"
+href="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1npJSrI3KXYP22voM2u6c_Ia8ereLl7swaSGyIAoTK2c&font=Default&lang=en&initial_zoom=2&height=850">SoundCloud</a>
+
+<script>
+  document.addEventListener('DOMContentLoaded', (event) => {
+    [].forEach.call(document.getElementsByClassName("iframe-lightbox-link"), function(el) {
+      console.log('test');
+      el.lightbox = new IframeLightbox(el);
+    });
+  })
+</script>
 -----
