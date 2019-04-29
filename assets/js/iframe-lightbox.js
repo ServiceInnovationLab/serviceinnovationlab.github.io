@@ -1,4 +1,4 @@
-/*!
+/*
  * @see {@link https://github.com/englishextra/iframe-lightbox}
  * modified Simple lightbox effect in pure JS
  * @see {@link https://github.com/squeral/lightbox}
@@ -9,7 +9,7 @@
  * passes jshint
  */
 
-/*jshint -W014 */
+// jshint -W014
 (function(root, document) {
 	"use strict";
 
