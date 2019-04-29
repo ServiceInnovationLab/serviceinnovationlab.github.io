@@ -1,9 +1,10 @@
-/*!
- * modified Simple lightbox effect in pure JS
- * @see {@link https://github.com/squeral/lightbox}
- * @see {@link https://github.com/squeral/lightbox/blob/master/lightbox.js}
- * passes jshint
- */
+/*
+	modified Simple lightbox effect in pure JS
+ 	@see {@link https://github.com/squeral/lightbox}
+  @see {@link https://github.com/squeral/lightbox/blob/master/lightbox.js}
+  passes jshint
+*/
+
 .iframe-lightbox,
 .iframe-lightbox .backdrop {
 	width: 100%;
@@ -18,10 +19,10 @@
 	opacity: 0;
 	-webkit-transition: opacity 0.2s ease;
 	transition: opacity 0.2s ease;
-	/*!
-	 * @see {@link https://github.com/englishextra/iframe-lightbox/issues/10}
-	 * @see {@link https://github.com/englishextra/iframe-lightbox/issues/14}
-	 */
+	/*
+		@see {@link https://github.com/englishextra/iframe-lightbox/issues/10}
+	  @see {@link https://github.com/englishextra/iframe-lightbox/issues/14}
+	*/
 	z-index: 999999;
 }
 
