@@ -1,10 +1,9 @@
-/*
+/* 
 	modified Simple lightbox effect in pure JS
  	@see {@link https://github.com/squeral/lightbox}
   @see {@link https://github.com/squeral/lightbox/blob/master/lightbox.js}
   passes jshint
 */
-
 .iframe-lightbox,
 .iframe-lightbox .backdrop {
 	width: 100%;
@@ -19,7 +18,7 @@
 	opacity: 0;
 	-webkit-transition: opacity 0.2s ease;
 	transition: opacity 0.2s ease;
-	/*
+	/* 
 		@see {@link https://github.com/englishextra/iframe-lightbox/issues/10}
 	  @see {@link https://github.com/englishextra/iframe-lightbox/issues/14}
 	*/
@@ -56,10 +55,10 @@
 	height: 100%;
 }
 
-/*!
+/* 
  * another pure css spinner
  * @see {@link https://epic-spinners.epicmax.co/}
- */
+*/
 .iframe-lightbox .content > .body .half-circle-spinner,
 .iframe-lightbox .content > .body .half-circle-spinner * {
 	-webkit-box-sizing: border-box;
@@ -134,10 +133,10 @@
 	border: 0;
 	-webkit-box-shadow: 0.267rem 0.267rem 0.267rem 0 rgba(3, 3, 3, 0.3);
 	box-shadow: 0.267rem 0.267rem 0.267rem 0 rgba(3, 3, 3, 0.3);
-	/*!
+	/* 
 	 * in js: iframe onload="this.style.opacity=1;" style="opacity:0;border:none;"
-	 */
-	/* opacity: 0; */
+	*/
+	// opacity: 0;
 	-webkit-transition: opacity 0.2s ease;
 	transition: opacity 0.2s ease;
 }
@@ -158,10 +157,10 @@
 	height: 1.5em;
 }
 
-/*!
+/* 
  * pure css version
  * @see {@link https://codepen.io/brissmyr/pen/egidw}
- */
+*/
 .iframe-lightbox .btn-close:before,
 .iframe-lightbox .btn-close:after {
 	content: " ";
@@ -182,9 +181,9 @@
 	transform: rotate(-45deg);
 }
 
-/*!
+/* 
  * @see {@link https://github.com/englishextra/iframe-lightbox/issues/12}
- */
+*/
 .iframe-lightbox--open {
 	overflow: hidden;
 	-webkit-overflow-scrolling: touch;
