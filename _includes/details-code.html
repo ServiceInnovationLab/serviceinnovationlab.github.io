@@ -13,24 +13,24 @@
 {% endif %}
 
 
-  <ul class="usa-accordion styleguide-details">
+  <ul class="nz-accordion styleguide-details">
     {% if include.content %}
     <li>
-      <button class="usa-accordion-button" aria-controls="{{ include.title | slugify }}">
+      <button class="nz-accordion-button" aria-controls="{{ include.title | slugify }}">
         {{ include.text | default: 'Code' }}
       </button>
-      <div id="{{ include.title | slugify }}" class="usa-accordion-content styleguide-border">
+      <div id="{{ include.title | slugify }}" class="nz-accordion-content styleguide-border">
         {{ code | markdownify }}
       </div>
     </li>
     {% endif %}
     {% if include.include_ref or include.uswds_ref or include.scss_ref or include.other_ref or include.description or include.image %}
     <li>
-      <button class="usa-accordion-button"
+      <button class="nz-accordion-button"
         aria-expanded="true" aria-controls="{{ include.title | slugify | append: '-details' }}">
         Documentation
       </button>
-      <div id="{{ include.title | slugify  | append: '-details' }}" class="usa-accordion-content styleguide-border">
+      <div id="{{ include.title | slugify  | append: '-details' }}" class="nz-accordion-content styleguide-border">
         {% if include.description %}
           <p>{{ include.description | markdownify }}</p>
         {% endif %}
@@ -52,7 +52,7 @@
           </ul>
         {% endif %}
         {% if include.image %}
-        <img class="usa-width-one-third"
+        <img class="nz-width-one-third"
              src="{{ site.baseurl }}/{{ include.image }}" {% if include.image_alt %}alt="{{ include.image_alt }}"{% endif %} />
         {% endif %}
       </div>

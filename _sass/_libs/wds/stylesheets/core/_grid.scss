@@ -1,26 +1,26 @@
-.usa-grid,
-.usa-grid-full {
+.nz-grid,
+.nz-grid-full {
   @include outer-container();
   max-width: $site-max-width;
 
   @include media($medium) {
-    .usa-width-one-whole {
+    .nz-width-one-whole {
       @include span-columns(6);
     }
 
-    .usa-width-one-half {
+    .nz-width-one-half {
       @include span-columns(3);
     }
 
-    .usa-width-one-third {
+    .nz-width-one-third {
       @include span-columns(2);
     }
 
-    .usa-width-two-thirds {
+    .nz-width-two-thirds {
       @include span-columns(4);
     }
 
-    .usa-width-one-fourth {
+    .nz-width-one-fourth {
       @include span-columns(3);
 
       &:nth-child(2n) {
@@ -28,11 +28,11 @@
       }
     }
 
-    .usa-width-three-fourths {
+    .nz-width-three-fourths {
       @include span-columns(6);
     }
 
-    .usa-width-one-sixth {
+    .nz-width-one-sixth {
       @include span-columns(2);
 
       &:nth-child(3n) {
@@ -40,11 +40,11 @@
       }
     }
 
-    .usa-width-five-sixths {
+    .nz-width-five-sixths {
       @include span-columns(4);
     }
 
-    .usa-width-one-twelfth {
+    .nz-width-one-twelfth {
       @include span-columns(2);
 
       &:nth-child(3n) {
@@ -54,23 +54,23 @@
   }
 
   @include media($large) {
-    .usa-width-one-whole {
+    .nz-width-one-whole {
       @include span-columns(12);
     }
 
-    .usa-width-one-half {
+    .nz-width-one-half {
       @include span-columns(6);
     }
 
-    .usa-width-one-third {
+    .nz-width-one-third {
       @include span-columns(4);
     }
 
-    .usa-width-two-thirds {
+    .nz-width-two-thirds {
       @include span-columns(8);
     }
 
-    .usa-width-one-fourth {
+    .nz-width-one-fourth {
       @include span-columns(3);
 
       &:nth-child(2n) {
@@ -82,11 +82,11 @@
       }
     }
 
-    .usa-width-three-fourths {
+    .nz-width-three-fourths {
       @include span-columns(9);
     }
 
-    .usa-width-one-sixth {
+    .nz-width-one-sixth {
       @include span-columns(2);
 
       &:nth-child(3n) {
@@ -98,11 +98,11 @@
       }
     }
 
-    .usa-width-five-sixths {
+    .nz-width-five-sixths {
       @include span-columns(10);
     }
 
-    .usa-width-one-twelfth {
+    .nz-width-one-twelfth {
       @include span-columns(1);
 
       &:nth-child(3n) {
@@ -118,12 +118,12 @@
   // Specificies end of a row.
   // Required if grid-box contains multiple rows.
   // Required if browser does not support :last-child
-  .usa-end-row {
+  .nz-end-row {
     @include omega();
   }
 }
 
-.usa-grid {
+.nz-grid {
   @include padding(null $site-margins-mobile);
 
   @include media($medium-screen) {
@@ -131,6 +131,6 @@
   }
 }
 
-.usa-grid-full {
+.nz-grid-full {
   padding: 0;
 }
