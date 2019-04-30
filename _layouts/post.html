@@ -4,11 +4,11 @@ layout: default
 
 {% include feature-image.html %}
 
-<div class="usa-grid">
+<div class="nz-grid">
 
   <a class="back-blog link-arrow-left" href="{{ site.baseurl }}/blog/">
     {% include svg/icons/arrow-left.svg %}
-    <span class="usa-sr-only">Back to</span>
+    <span class="nz-sr-only">Back to</span>
     Reports
   </a>
   <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
@@ -20,7 +20,7 @@ layout: default
       </p>
       <span class="post-tags" itemprop="keywords">
         {% for tag in page.tags %}
-          <a class="usa-label" href="{{ site.baseurl }}/{{ site.tag_dir }}/{{ tag | slugify }}/">{{ tag }}
+          <a class="nz-label" href="{{ site.baseurl }}/{{ site.tag_dir }}/{{ tag | slugify }}/">{{ tag }}
           </a>
         {% endfor %}
       </span>
@@ -38,8 +38,8 @@ layout: default
 </div>
 
 {% if page.previous or page.next %}
-  <section class="post-pagination usa-grid">
-    <div class="usa-width-one-half">
+  <section class="post-pagination nz-grid">
+    <div class="nz-width-one-half">
       {% if page.previous %}
         <a href="{{ site.baseurl }}{{ page.previous.url }}">
           <span class="link-arrow-left">
@@ -50,7 +50,7 @@ layout: default
         </a>
       {% endif %}
     </div>
-    <div class="usa-width-one-half">
+    <div class="nz-width-one-half">
       {% if page.next %}
           <a href="{{ site.baseurl }}{{ page.next.url }}">
             <span class="link-arrow-right">

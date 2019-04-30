@@ -1,10 +1,10 @@
-<section class="usa-grid usa-section posts_feature">
+<section class="nz-grid nz-section posts_feature">
   {% if site.related_posts.size > 0 %}
     <h2>Related posts</h2>
   {% endif %}
   <ul>
   {% for post in page.related_posts %}
-    <li class="usa-width-one-third">
+    <li class="nz-width-one-third">
       <article>
         <p class="post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
         <h3 class="posts_feature-heading">
@@ -18,13 +18,13 @@
         <p>
           <a class="link-arrow-right post-link-continue_reading" href="{{ post.url | prepend: site.baseurl }}">
             Continue reading
-            <span class="usa-sr-only">about {{ post.title }}</span>
+            <span class="nz-sr-only">about {{ post.title }}</span>
             {% include svg/icons/arrow-right.svg %}
           </a>
         </p>
         <span class="post-tags" itemprop="keywords">
           {% for tag in post.tags %}
-            <a class="usa-label" href="{{ site.baseurl }}/{{ site.tag_dir }}/{{ tag | slugify }}/">{{ tag }}
+            <a class="nz-label" href="{{ site.baseurl }}/{{ site.tag_dir }}/{{ tag | slugify }}/">{{ tag }}
             </a>
           {% endfor %}
         </span>

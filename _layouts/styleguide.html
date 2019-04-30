@@ -88,7 +88,7 @@ nav_items:
 {% assign dead_end_link = page.permalink | prepend: site.baseurl %}
 {% assign github_url_master = "https://github.com/ServiceInnovationLab/serviceinnovationlab.github.io" %}
 
-<section class="background-gray usa-section styleguide-header-wrapper">
+<section class="background-gray nz-section styleguide-header-wrapper">
   <a href="{{ site.baseurl }}/styleguide/">
     <img class="styleguide-logo" src="{{ site.baseurl }}/assets/img/SIL-Logo-Animation.gif" alt="SIL logo" />
     <h1 class="h2" id="{{ page.title | slugify }}">{{ page.title }}</h1>
@@ -103,7 +103,7 @@ nav_items:
     {% include navigation/drawer.html nav_items=layout.nav_items nav_class_suffix='-styleguide' %}
   </aside>
 
-  <section class="styleguide-content usa-content">
+  <section class="styleguide-content nz-content">
     {% if page.subpage %}<h2>{{ page.subpage }}</h2>{% endif %}
     {{ content }}
   </section>

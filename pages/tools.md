@@ -17,17 +17,17 @@ h2 {
 }
 </style>
 
-<section class="usa-section background-gray">
-<div class="usa-grid">
-    <div class="usa-width-two-thirds">
+<section class="nz-section background-gray">
+<div class="nz-grid">
+    <div class="nz-width-two-thirds">
     <h2> Tools </h2>
    </div>
 </div>
 
-<div class="usa-grid">
-  <section class="usa-section">
-    <div class="usa-section-bottom">
-      <div class="usa-flex usa-flex-wrap">
+<div class="nz-grid">
+  <section class="nz-section">
+    <div class="nz-section-bottom">
+      <div class="nz-flex nz-flex-wrap">
         {% assign projects_list = site | find_collection: 'products_projects' | weighted_sort: 'project_weight', 'title' %}
         {% for project in projects_list %}
           {% include card_tools.html

@@ -14,25 +14,25 @@ subnav_items:
 
 {% capture styleguide_buttons %}
 #### Style on white
-<section class="usa-grid">
-  <button class="usa-button">Normal</button>
-  <button class="usa-button-hover">Hover</button>
-  <button class="usa-button-active">Active</button>
-  <button class="usa-button-focus">Focus</button>
-  <button class="usa-button-disabled">Disabled</button>
+<section class="nz-grid">
+  <button class="nz-button">Normal</button>
+  <button class="nz-button-hover">Hover</button>
+  <button class="nz-button-active">Active</button>
+  <button class="nz-button-focus">Focus</button>
+  <button class="nz-button-disabled">Disabled</button>
 </section>
 
 #### Style on dark
-<section class="background-dark usa-grid">
-  <button class="usa-button usa-button-secondary">Normal</button>
-  <button class="usa-button-hover usa-button-secondary">Hover</button>
-  <button class="usa-button-active usa-button-secondary">Active</button>
-  <button class="usa-button-focus usa-button-secondary">Focus</button>
-  <button class="usa-button-disabled usa-button-secondary">Disabled</button>
+<section class="background-dark nz-grid">
+  <button class="nz-button nz-button-secondary">Normal</button>
+  <button class="nz-button-hover nz-button-secondary">Hover</button>
+  <button class="nz-button-active nz-button-secondary">Active</button>
+  <button class="nz-button-focus nz-button-secondary">Focus</button>
+  <button class="nz-button-disabled nz-button-secondary">Disabled</button>
 </section>
 
 #### Using anchor tags instead of buttons
-<a class="usa-button usa-button-secondary" href="{{ dead_end_link }}">Normal</a>
+<a class="nz-button nz-button-secondary" href="{{ dead_end_link }}">Normal</a>
 {% endcapture %}
 
 
@@ -92,8 +92,8 @@ For more on includes, check out the [Jekyll documentation](https://jekyllrb.com/
 The card component is used as a preview for project pages, but could be adapted to meet additional needs if necessary.
 
 {% capture styleguide_card %}{% raw %}
-<div class="usa-grid-full">
-  <section class="usa-flex usa-flex-wrap">
+<div class="nz-grid-full">
+  <section class="nz-flex nz-flex-wrap">
     {% include card-project.html project='open-fisca-aotearoa' %}
   </section>
 </div>
@@ -134,11 +134,11 @@ The sticky subnavigation is a pattern that is used frequently throughout the sit
 ---
 
 {% capture sticky_codeblock %}{% raw %}
-<div class="usa-grid-full">
-  <aside class="usa-width-one-third sticky sticky-subnav sticky-subnav-styleguide">
+<div class="nz-grid-full">
+  <aside class="nz-width-one-third sticky sticky-subnav sticky-subnav-styleguide">
     {% include navigation.html subnav=true %}
   </aside>
-  <section class="usa-width-two-thirds">
+  <section class="nz-width-two-thirds">
     <h3 id="heading-one">Heading one</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     <h3 id="heading-two">Heading two</h3>
@@ -161,9 +161,9 @@ The sticky subnavigation is a pattern that is used frequently throughout the sit
 
 There are a few classes that we are using for the sticky subnavigation on the SIL site:
 
-* The `usa-sidenav-list` class, in conjunction with the `usa-current` class. This is mostly taken wholesale from the Design System, but does contain slight overrides to better fit with the SIL Brand.
-* The `usa-accordion` class and accompanying accordion styles. We have added to this set of styles with a `nav-accordion` class that more accurately reflects the look and feel of the site.
-* The `usa-width-one-third` grid class to define the width of our navigaton field. This isn't necessary, but is a convention throughout the site.
+* The `nz-sidenav-list` class, in conjunction with the `nz-current` class. This is mostly taken wholesale from the Design System, but does contain slight overrides to better fit with the SIL Brand.
+* The `nz-accordion` class and accompanying accordion styles. We have added to this set of styles with a `nav-accordion` class that more accurately reflects the look and feel of the site.
+* The `nz-width-one-third` grid class to define the width of our navigaton field. This isn't necessary, but is a convention throughout the site.
 
 #### What to add where
 To add items to the subnavigation define the subnavigation items directly within page [frontmatter](https://jekyllrb.com/docs/frontmatter/), as a set of `nav_items`:
