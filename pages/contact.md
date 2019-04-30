@@ -23,6 +23,10 @@ gridless: true
       <div class="section-info-header"></div>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2998.7063472052146!2d174.77947971542227!3d-41.271729279274886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d38ae250dadc591%3A0xb2e04dde972138ea!2s191+Thorndon+Quay%2C+Pipitea%2C+Wellington+6011!5e0!3m2!1sen!2snz!4v1544731549207"  frameborder="1" allowfullscreen></iframe>
     </li>
+    <li class="section-info-list-item">
+      <!--https://developer.twitter.com/en/docs/twitter-for-websites/timelines/overview.html-->
+        <a class="twitter-timeline" href="https://twitter.com/jekyllrb?ref_src=twsrc%5Etfw" data-height="300"  data-aria-polite="assertive">Tweets by jekyllrb</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </li>
   </ul>
 </aside>
 <div class="usa-section usa-width-two-thirds contact-section">

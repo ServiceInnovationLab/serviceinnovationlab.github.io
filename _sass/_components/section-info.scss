@@ -62,6 +62,7 @@
   .section-info-list-item {
     padding-bottom: $site-margins;
     padding-right: $site-margins;
+    padding-left: 2rem;
 
     @include media($medium-screen) {
       background-color: $color-white;
