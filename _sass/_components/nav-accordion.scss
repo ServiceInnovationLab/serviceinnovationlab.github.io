@@ -3,7 +3,7 @@
   background-color: $color-white;
   border-bottom: 1px solid $color-gray-lighter;
 
-  .usa-sidenav-list {
+  .nz-sidenav-list {
     ul {
       list-style-type: none;
       margin: 0;
@@ -58,7 +58,7 @@
         color: $color-dark;
       }
 
-      &.usa-current {
+      &.nz-current {
         border-left: $border-accent;
         color: $color-dark;
         padding-left: ($paragraph-margins * 1.75) - 1rem;
@@ -66,11 +66,11 @@
     }
   }
 
-  .usa-sidenav-sub_list {
+  .nz-sidenav-sub_list {
     a {
       padding-left: 3.8rem;
 
-      &.usa-current {
+      &.nz-current {
         border-left: 0;
         color: $color-primary;
         font-weight: $font-bold;

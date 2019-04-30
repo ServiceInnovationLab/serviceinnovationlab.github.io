@@ -1,10 +1,10 @@
 // Header
 // ==========================
-.usa-disclaimer {
+.nz-disclaimer {
   border-bottom: 1px solid $color-white;
   font-size: 1.1rem;
 }
-.usa-disclaimer-official {
+.nz-disclaimer-official {
   display: block;
 }
 
@@ -34,7 +34,7 @@ header[role="banner"] {
           background-color: $color-gray-lightest;
         }
 
-        &.usa-current {
+        &.nz-current {
           color: $color-black;
 
           span {

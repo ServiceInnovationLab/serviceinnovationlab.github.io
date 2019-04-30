@@ -1,4 +1,4 @@
-.usa-disclaimer {
+.nz-disclaimer {
   background-color: $color-gray-lightest;
   font-size: 1.2rem;
   height: 2.3rem;
@@ -8,7 +8,7 @@
   }
 }
 
-.usa-disclaimer-official {
+.nz-disclaimer-official {
   display: inline-block;
 
   p {
@@ -30,7 +30,7 @@
 
 // This hides the stage note (i.e. alpha, beta, etc) of the disclaimer for
 // anything smaller than large screen sizes
-.usa-disclaimer-stage {
+.nz-disclaimer-stage {
   @include margin(2px null);
   display: none;
   float: right;

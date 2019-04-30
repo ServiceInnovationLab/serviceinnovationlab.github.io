@@ -23,5 +23,5 @@ If you are updating or adding a new project page, go to [Layouts]({{ site.baseur
 While te SIL relies heavily on the NZ Government designs/styles, there are several instances where we have overridden styles with our own set of custom stylesheets. This is primarily to align ourselves more directly with the SIL brand set of fonts, colors, and logos. Additional overrides were made to create custom layouts or components to address user needs that are specific to the marketing of the SIL brand.
 
 <a href="{{ site.baseurl }}/styleguide/layouts/">
-  <button class="usa-button">Explore style guide</button>
+  <button class="nz-button">Explore style guide</button>
 </a>

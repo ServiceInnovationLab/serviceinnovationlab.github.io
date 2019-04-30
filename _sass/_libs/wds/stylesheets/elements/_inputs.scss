@@ -48,16 +48,16 @@ select {
   width: 100%;
 
   &:focus,
-  &.usa-input-focus {
+  &.nz-input-focus {
     box-shadow: $focus-shadow;
   }
 
-  &.usa-input-success {
+  &.nz-input-success {
     border: 3px solid $color-green-light;
   }
 }
 
-.usa-input-error {
+.nz-input-error {
   border-left: 4px solid $color-secondary-dark;
   margin-top: 3rem;
   padding-bottom: 0.8rem;
@@ -79,23 +79,23 @@ select {
     margin-top: 0;
   }
 
-  .usa-input-inline {
+  .nz-input-inline {
     border: $input-border-width solid $color-gray;
     width: inherit;
   }
 
-  .usa-input-inline-error {
+  .nz-input-inline-error {
     border: 3px solid $color-secondary-dark;
   }
 }
 
-.usa-input-error-label {
+.nz-input-error-label {
   display: block;
   font-size: $base-font-size;
   font-weight: $font-bold;
 }
 
-.usa-input-error-message {
+.nz-input-error-message {
   color: $color-secondary-dark;
   display: block;
   font-size: $base-font-size;
@@ -131,7 +131,7 @@ legend {
   font-weight: $font-bold;
 }
 
-.usa-fieldset-inputs {
+.nz-fieldset-inputs {
   label {
     margin-top: 0;
   }
@@ -139,7 +139,7 @@ legend {
 
 // Hint text
 
-.usa-form-hint {
+.nz-form-hint {
   color: $color-gray-medium;
   font-family: $font-sans;
   margin-bottom: 0;
@@ -322,7 +322,7 @@ input[type="range"]:focus::-ms-thumb {
 
 // Memorable dates
 
-.usa-date-of-birth {
+.nz-date-of-birth {
   label {
     margin-top: 0;
   }
@@ -339,15 +339,15 @@ input[type="range"]:focus::-ms-thumb {
   }
 }
 
-.usa-form-group-day,
-.usa-form-group-month,
-.usa-form-group-year {
+.nz-form-group-day,
+.nz-form-group-month,
+.nz-form-group-year {
   clear: none;
   float: left;
   margin-right: 1.5rem;
   width: 5rem;
 }
 
-.usa-form-group-year {
+.nz-form-group-year {
   width: 7rem;
 }

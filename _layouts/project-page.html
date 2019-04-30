@@ -14,8 +14,8 @@ header_border: true
 <section class="page-tag-results project">
 
   <section class="background-medium">
-    <div class="usa-grid-full usa-flex banner">
-      <div class="usa-grid {% if page.image %}usa-width-one-half{% else %}usa-width-one-whole{% endif %} hero-callout-full hero-callout-no_button">
+    <div class="nz-grid-full nz-flex banner">
+      <div class="nz-grid {% if page.image %}nz-width-one-half{% else %}nz-width-one-whole{% endif %} hero-callout-full hero-callout-no_button">
         {% if page.agency %}
           <h1 class="h3 lead">
           <span>{{ page.agency }}</span>
@@ -26,7 +26,7 @@ header_border: true
         </h1>
       </div>
       {% if page.image %}
-        <div class="usa-width-one-half template-banner"
+        <div class="nz-width-one-half template-banner"
           style="background-image: url({{ site.baseurl }}{{ page.image }});"
           role="img"
           title="{{ page.image_accessibility }}">
@@ -38,7 +38,7 @@ header_border: true
     </div>
   </section>
 
-  <div class="usa-grid-full usa-grid-reversed">
+  <div class="nz-grid-full nz-grid-reversed">
 
     {% if page.agency or
           page.report or
@@ -46,7 +46,7 @@ header_border: true
           page.github_repo or
           page.resources
     %}
-    <aside class="usa-grid usa-section usa-grid-reversed-right usa-width-one-third section-info section-info-gray">
+    <aside class="nz-grid nz-section nz-grid-reversed-right nz-width-one-third section-info section-info-gray">
       <ul>
         {% if page.quote %}
           <blockquote>
@@ -81,7 +81,7 @@ header_border: true
         {% if page.github_repo %}
         <li class="section-info-list-item">
           <div class="section-info-header">GitHub</div>
-            <ul class="{% unless page.github_repo.size > 1 %}usa-unstyled-list{% endunless %}">
+            <ul class="{% unless page.github_repo.size > 1 %}nz-unstyled-list{% endunless %}">
             {% for repo in page.github_repo %}
               <li>{{ repo | markdownify }}</a></li>
             {% endfor %}
@@ -93,7 +93,7 @@ header_border: true
         {% if page.resources.size > 0 %}
         <li class="section-info-list-item">
           <div class="section-info-header">Resources</div>
-          <ul class="{% unless page.resources.size > 1 %}usa-unstyled-list{% endunless %}">
+          <ul class="{% unless page.resources.size > 1 %}nz-unstyled-list{% endunless %}">
             {% for resource in page.resources %}
               <li>{{ resource | markdownify }}</li>
             {% endfor %}
@@ -102,7 +102,7 @@ header_border: true
 
         {% if page.learn_more %}
           <li class="section-info-list-item">
-            <a class="usa-button" href="{{ page.learn_more }}">Learn more</a>
+            <a class="nz-button" href="{{ page.learn_more }}">Learn more</a>
           </li>
         {% endif %}
       </ul>
@@ -110,8 +110,8 @@ header_border: true
     </aside>
     {% endif %}
 
-    <div class="usa-grid usa-width-two-thirds">
-      <section class="usa-section page-tag-results-content">
+    <div class="nz-grid nz-width-two-thirds">
+      <section class="nz-section page-tag-results-content">
         <div class="small-caps small-caps-no-margin">Background</div>
         {{ page.subtitle }}
         {{ content }}
@@ -120,9 +120,9 @@ header_border: true
   </div>
   {% if matching_posts.size > 0 %}
   <div class="background-gray">
-    <div class="usa-section post-border">
-      <section class="usa-grid posts_feature">
-        <div class="{% if matching_posts.size > 3 %}usa-flex usa-flex-pull-right usa-flex-baseline usa-spacer{% endif %}">
+    <div class="nz-section post-border">
+      <section class="nz-grid posts_feature">
+        <div class="{% if matching_posts.size > 3 %}nz-flex nz-flex-pull-right nz-flex-baseline nz-spacer{% endif %}">
           <h2>Related blog posts</h2>
           {% if matching_posts.size > 3 %}
             <a class="link-arrow-right" href="{{ site.baseurl }}/tags/{{ page.tag | slugify }}/">See all posts about this project{% include svg/icons/arrow-right.svg %}</a>
