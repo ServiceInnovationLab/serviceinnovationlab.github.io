@@ -53,17 +53,17 @@ $(function() {
     $('[data-' + componentName + ']').politespace();
   });
 
-  $('.usa-accordion,.usa-accordion-bordered').each(function() {
+  $('.nz-accordion,.nz-accordion-bordered').each(function() {
     new Accordion($(this));
   });
 
   var footerAccordion = function() {
     if (window.innerWidth < 600) {
-      $('.usa-footer-big nav ul').addClass('hidden');
+      $('.nz-footer-big nav ul').addClass('hidden');
 
-      $('.usa-footer-big nav .usa-footer-primary-link').unbind('click');
+      $('.nz-footer-big nav .nz-footer-primary-link').unbind('click');
 
-      $('.usa-footer-big nav .usa-footer-primary-link').bind(
+      $('.nz-footer-big nav .nz-footer-primary-link').bind(
         'click',
         function() {
           $(this)
@@ -74,9 +74,9 @@ $(function() {
         },
       );
     } else {
-      $('.usa-footer-big nav ul').removeClass('hidden');
+      $('.nz-footer-big nav ul').removeClass('hidden');
 
-      $('.usa-footer-big nav .usa-footer-primary-link').unbind('click');
+      $('.nz-footer-big nav .nz-footer-primary-link').unbind('click');
     }
   };
 
@@ -93,8 +93,8 @@ $(function() {
     $(this).attr('tabindex', '-1');
   });
 
-  var $showPassword = $('.usa-show_password');
-  var $formInput = $('.usa-show_multipassword');
+  var $showPassword = $('.nz-show_password');
+  var $formInput = $('.nz-show_multipassword');
   var $validator = $('.js-validate_password');
 
   $showPassword.length &&

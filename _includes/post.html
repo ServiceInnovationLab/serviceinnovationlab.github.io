@@ -4,7 +4,7 @@
 {% assign post_url = include.url | default: post.url %}
 {% assign hide_date = include.hide_date | default: false %}
 
-<li class="post usa-width-one-third usa-width-tablet">
+<li class="post nz-width-one-third nz-width-tablet">
   <article>
     {% if hide_date == true %}
       <p class="post-date">{{ post_date | date: "%B %-d, %Y" }}</p>
@@ -16,7 +16,7 @@
     <p>
       <a class="link-arrow-right post-link-continue_reading" href="{{ post_url | prepend: site.baseurl }}">
         Read more
-        <span class="usa-sr-only">about {{ post_title }}</span>
+        <span class="nz-sr-only">about {{ post_title }}</span>
         {% include svg/icons/arrow-right.svg %}
       </a>
     </p>

@@ -1,4 +1,4 @@
-<ul class="usa-accordion">
+<ul class="nz-accordion">
   {% for item in include.nav_items %}
     <li>
       {% if item.permalink %}
@@ -13,7 +13,7 @@
         {% assign is_matching = page.url | matches_url: item.permalink %}
       {% endif %}
   
-      <a href="{{ item_link }}" {% if is_matching %}class="usa-current"{% endif %}><span>{{ item.text }}</span></a>
+      <a href="{{ item_link }}" {% if is_matching %}class="nz-current"{% endif %}><span>{{ item.text }}</span></a>
     </li>
   {% endfor %}
   </ul>

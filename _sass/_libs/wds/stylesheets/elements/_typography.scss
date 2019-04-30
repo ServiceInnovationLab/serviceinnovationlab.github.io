@@ -51,11 +51,11 @@ a {
 // [href^="http:"]:not([href*="my-domain.com"])
 // [href^="https:"]:not([href*="my-domain.com"])
 
-.usa-external_link {
+.nz-external_link {
   @include external-link(external-link, external-link-hover);
 }
 
-.usa-external_link-alt {
+.nz-external_link-alt {
   @include external-link(external-link-alt, external-link-alt-hover);
 }
 
@@ -146,17 +146,17 @@ dfn {
 
 // Custom typography
 
-.usa-content {
-  p:not(.usa-font-lead) {
+.nz-content {
+  p:not(.nz-font-lead) {
     max-width: $text-max-width;
   }
 }
 
-.usa-content-list {
+.nz-content-list {
   max-width: $text-max-width;
 }
 
-.usa-sans {
+.nz-sans {
   p,
   a,
   li,
@@ -170,7 +170,7 @@ dfn {
   }
 }
 
-.usa-serif {
+.nz-serif {
   p,
   a,
   li,
@@ -179,7 +179,7 @@ dfn {
   }
 }
 
-.usa-display {
+.nz-display {
   @include h3();
   margin-bottom: 0;
 
@@ -192,18 +192,18 @@ dfn {
   }
 }
 
-.usa-font-lead {
+.nz-font-lead {
   font-family: $font-serif;
   font-size: $lead-font-size;
   line-height: $lead-line-height;
   max-width: $lead-max-width;
 }
 
-.usa-image-block {
+.nz-image-block {
   position: relative;
 }
 
-.usa-image-text-block {
+.nz-image-text-block {
   color: $color-white;
   left: 0;
   margin-left: 8%;
@@ -211,15 +211,15 @@ dfn {
   top: 0;
 }
 
-.usa-image-text {
+.nz-image-text {
   margin-top: 0;
 }
 
-.usa-drop_text {
+.nz-drop_text {
   margin-bottom: 0;
 }
 
-.usa-background-dark {
+.nz-background-dark {
   background-color: $color-gray-dark;
 
   p,
@@ -236,7 +236,7 @@ dfn {
   }
 }
 
-.usa-text-small {
+.nz-text-small {
   font-size: $h6-font-size;
   margin-top: 0;
 }
