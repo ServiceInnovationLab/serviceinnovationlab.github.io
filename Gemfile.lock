@@ -92,6 +92,7 @@ GEM
       jekyll (~> 3.3)
     jekyll-sitemap (1.3.1)
       jekyll (>= 3.7, < 5.0)
+    jekyll-twitter-plugin (2.0.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     jekyll_frontmatter_tests (0.1.0)
@@ -226,6 +227,7 @@ DEPENDENCIES
   jekyll-redirect-from
   jekyll-seo-tag
   jekyll-sitemap
+  jekyll-twitter-plugin
   jekyll-watch (~> 2.2.0)
   jekyll_frontmatter_tests (~> 0.1.0)
   jekyll_oembed
