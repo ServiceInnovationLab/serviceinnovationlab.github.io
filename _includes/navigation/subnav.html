@@ -1,14 +1,14 @@
 {% assign subnav_items = include.subnav_items | default: page.subnav_items %}
 
 {% if subnav_items %}
-<nav class="nav-accordion nav-subnav usa-accordion" role="navigation">
+<nav class="nav-accordion nav-subnav nz-accordion" role="navigation">
   {% assign title_slug = page.title | slugify %}
-  <button class="usa-accordion-button nav-accordion-button nav-accordion-button-desktop"><h3 class="page-title">{{ page.subnav_title | default: page.title }}</h3></button>
-  <button class="usa-accordion-button usa-accordion-button-chevron nav-accordion-button nav-accordion-button-mobile"
+  <button class="nz-accordion-button nav-accordion-button nav-accordion-button-desktop"><h3 class="page-title">{{ page.subnav_title | default: page.title }}</h3></button>
+  <button class="nz-accordion-button nz-accordion-button-chevron nav-accordion-button nav-accordion-button-mobile"
                 aria-expanded="false"
                 aria-controls="{{ title_slug }}">{{ page.subnav_title | default: page.title }}</button>
 
-  <ul id="{{ title_slug }}" class="usa-sidenav-list usa-accordion" aria-hidden="true">
+  <ul id="{{ title_slug }}" class="nz-sidenav-list nz-accordion" aria-hidden="true">
   {% for item in subnav_items %}
     <li>
       {% if item.permalink %}
@@ -26,7 +26,7 @@
 
       {% assign is_matching = page.url | matches_url: item.permalink %}
 
-      <a class="subnav-anchor" href="{{ item_link }}" {% if is_matching %}class="usa-current"{% endif %}>{{ item.text }}</a>
+      <a class="subnav-anchor" href="{{ item_link }}" {% if is_matching %}class="nz-current"{% endif %}>{{ item.text }}</a>
     </li>
   {% endfor %}
   </ul>

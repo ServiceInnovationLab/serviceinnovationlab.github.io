@@ -1,5 +1,5 @@
-.usa-grid-full .usa-width-one-third,
-.usa-grid .usa-width-one-third {
+.nz-grid-full .nz-width-one-third,
+.nz-grid .nz-width-one-third {
   @include media($small-screen) {
     @include span-columns(12);
 
@@ -16,7 +16,7 @@
     }
   }
 
-  &.usa-width-tablet {
+  &.nz-width-tablet {
     @include span-columns(12);
 
     @include media($tablet-screen) {
@@ -29,8 +29,8 @@
   }
 }
 
-.usa-grid-full .usa-width-two-thirds,
-.usa-grid .usa-width-two-thirds {
+.nz-grid-full .nz-width-two-thirds,
+.nz-grid .nz-width-two-thirds {
   @include media($small-screen) {
     @include span-columns(12);
 
@@ -47,7 +47,7 @@
     }
   }
 
-  &.usa-width-tablet {
+  &.nz-width-tablet {
     @include span-columns(12);
 
     @include media($tablet-screen) {
@@ -60,21 +60,21 @@
   }
 }
 
-.usa-grid .usa-width-one-half.usa-width-short-one {
+.nz-grid .nz-width-one-half.nz-width-short-one {
   @include media($medium-screen) {
     @include span-columns(5);
   }
 }
 
-.usa-grid .usa-width-one-half.usa-width-shift-one {
+.nz-grid .nz-width-one-half.nz-width-shift-one {
   @include media($medium-screen) {
     @include shift(1);
   }
 }
 
-.usa-grid-reversed {
+.nz-grid-reversed {
   @include media($medium-screen) {
-    .usa-grid-reversed-right {
+    .nz-grid-reversed-right {
       @include omega();
       float: right;
     }

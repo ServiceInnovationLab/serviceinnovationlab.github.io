@@ -2,17 +2,17 @@
 // ==========================
 
 // Remove top margins from first item and bottom margins from last item
-.usa-section,
-.usa-grid,
-.usa-width-one-whole,
-.usa-width-one-half,
-.usa-width-one-third,
-.usa-width-two-thirds,
-.usa-width-one-fourth,
-.usa-width-three-fourths,
-.usa-width-one-sixth,
-.usa-width-five-sixths,
-.usa-width-one-twelfth {
+.nz-section,
+.nz-grid,
+.nz-width-one-whole,
+.nz-width-one-half,
+.nz-width-one-third,
+.nz-width-two-thirds,
+.nz-width-one-fourth,
+.nz-width-three-fourths,
+.nz-width-one-sixth,
+.nz-width-five-sixths,
+.nz-width-one-twelfth {
   h1,
   h2,
   h3,
@@ -30,25 +30,25 @@
   }
 }
 
-.usa-grid-line {
+.nz-grid-line {
   height: 1px;
 }
 
-.usa-grid-line-hww {
+.nz-grid-line-hww {
   border-top: 0.5rem solid;
   border-color: $color-medium;
   margin-top: $section-margins;
 }
 
-.usa-flex-baseline {
+.nz-flex-baseline {
   align-items: baseline;
 }
 
-.usa-flex-end {
+.nz-flex-end {
   align-items: flex-end;
 }
 
-.usa-spacer {
+.nz-spacer {
   margin-bottom: $site-margins;
 
   > * {
@@ -56,7 +56,7 @@
   }
 }
 
-.usa-flex-pull-right {
+.nz-flex-pull-right {
   > *:first-child {
     flex-grow: 1;
   }
@@ -68,24 +68,24 @@
   }
 }
 
-.usa-flex-always {
+.nz-flex-always {
   display: flex;
 }
 
 @include media($medium-screen) {
-  .usa-flex {
+  .nz-flex {
     display: flex;
   }
 
-  .usa-flex-wrap {
+  .nz-flex-wrap {
     flex-wrap: wrap;
   }
 
-  .usa-flex-vertically-top {
+  .nz-flex-vertically-top {
     margin-bottom: $section-margins;
   }
 
-  .usa-flex-pull-right {
+  .nz-flex-pull-right {
     > *:last-child {
       float: right;
       margin-left: $site-margins;
@@ -93,18 +93,18 @@
     }
   }
 
-  .usa-flex-vertically-top {
+  .nz-flex-vertically-top {
     align-self: flex-start;
     flex-direction: column;
   }
 
-  .usa-flex-vertically-bottom {
+  .nz-flex-vertically-bottom {
     align-self: flex-end;
     flex-direction: column;
   }
 }
 
-.usa-section {
+.nz-section {
   @include padding($site-margins null);
 
   @include media($medium-screen) {
@@ -119,7 +119,7 @@
   }
 }
 
-.usa-section-bottom {
+.nz-section-bottom {
   @include padding(null null $site-margins null);
 
   @include media($medium-screen) {
@@ -171,7 +171,7 @@
     }
   }
 
-  .usa-search.usa-search-small [type="submit"] {
+  .nz-search.nz-search-small [type="submit"] {
     background-image: url("../img/global/search-dark.png");
     background-image: url("../img/global/search-dark.svg");
   }
@@ -197,7 +197,7 @@
 }
 
 // boone did this, we should do it the right way eventually
-.background-dark .usa-button.usa-button-secondary:hover {
+.background-dark .nz-button.nz-button-secondary:hover {
   color: $color-black;
 }
 
@@ -249,7 +249,7 @@
   max-width: 64.063rem; // 8 column width at full screen
 }
 
-.usa-grid {
+.nz-grid {
   &.content-focus {
     max-width: 70.563rem; // 64.063rem + 6rem (site margins)
   }
@@ -259,7 +259,7 @@
   max-width: $site-max-width;
 }
 
-.usa-content {
+.nz-content {
   blockquote,
   ol,
   ul {

@@ -5,8 +5,8 @@ layout: primary
 content_wide: true
 gridless: true
 ---
-<div class="usa-grid usa-grid-reversed">
-<aside class="usa-section usa-grid-reversed-right usa-width-one-third section-info section-info-gray">
+<div class="nz-grid nz-grid-reversed">
+<aside class="nz-section nz-grid-reversed-right nz-width-one-third section-info section-info-gray">
   <ul>
     <li class="section-info-list-item">
       <div class="section-info-header">Physical Address</div>
@@ -29,7 +29,7 @@ gridless: true
     </li>
   </ul>
 </aside>
-<div class="usa-section usa-width-two-thirds contact-section">
+<div class="nz-section nz-width-two-thirds contact-section">
 
 <h3>Let’s work together to improve the user experience of government.</h3>
 
@@ -42,6 +42,6 @@ gridless: true
 
 </div>
 
-<!--<div class="usa-grid usa-grid-line">
+<!--<div class="nz-grid nz-grid-line">
   <hr/>
 </div> -->

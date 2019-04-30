@@ -6,8 +6,8 @@ blog_tagline: Service Innovation Lab
 footer_text: Work with us to plan successful projects, choose better vendors, build custom software, or learn how to work in new ways.
 ---
 
-<!-- <section class="usa-section background-dark section-intro">
-  <div class="usa-grid">
+<!-- <section class="nz-section background-dark section-intro">
+  <div class="nz-grid">
     <div class="section-intro-header">
       <h1 class="section-heading section-heading-alt">{{ page.title }}</h1>
       <h2>{{ page.blog_tagline }}</h2>
@@ -15,8 +15,8 @@ footer_text: Work with us to plan successful projects, choose better vendors, bu
   </div>
 </section> -->
 
-<section class="usa-grid">
-  <div class="usa-width-three-fourths content-focus page-tag-results">
+<section class="nz-grid">
+  <div class="nz-width-three-fourths content-focus page-tag-results">
     {%
       include tag-results.html
       posts=paginator.posts
@@ -25,15 +25,15 @@ footer_text: Work with us to plan successful projects, choose better vendors, bu
     %}
   </div>
   <!--
-  <aside class="sidebar usa-width-one-third">
+  <aside class="sidebar nz-width-one-third">
     <!-- Still need to sort search functionality
     <div class="blog-search">
-      <form class="usa-search usa-search-small" action="{{ site.baseurl }}/search/">
+      <form class="nz-search nz-search-small" action="{{ site.baseurl }}/search/">
         <div role="search">
           <label for="search-field-small">Search</label>
           <input id="search-field-small" type="search" name="q">
           <button type="submit">
-            <span class="usa-sr-only">Search</span>
+            <span class="nz-sr-only">Search</span>
           </button>
         </div>
       </form>
@@ -82,7 +82,7 @@ footer_text: Work with us to plan successful projects, choose better vendors, bu
 </section>
 
 <!-- Pagination links -->
-<section class="pagination usa-grid content-focus">
+<section class="pagination nz-grid content-focus">
   <div>
     {% if paginator.previous_page %}
       <a class="link-arrow-left" href="{{ site.baseurl }}{{ paginator.previous_page_path }}/">
@@ -105,11 +105,11 @@ footer_text: Work with us to plan successful projects, choose better vendors, bu
     {% endif %}
   </div>
 </section>
-<!-- <section class="blog-footer usa-section background-dark">
-  <div class="usa-grid">
-    <h2 class="usa-width-three-fourths">{{ page.footer_text }}</h2>
-    <div class="usa-width-one-fourth">
-      <a class="usa-button usa-button-secondary" href="/contact/">Get in touch</a>
+<!-- <section class="blog-footer nz-section background-dark">
+  <div class="nz-grid">
+    <h2 class="nz-width-three-fourths">{{ page.footer_text }}</h2>
+    <div class="nz-width-one-fourth">
+      <a class="nz-button nz-button-secondary" href="/contact/">Get in touch</a>
     </div>
   </div>
 </section> -->
