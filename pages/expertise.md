@@ -15,8 +15,8 @@ lead: Together, we create a unified team by pairing our technical expertise with
 Product development using test driven development approaches and open source wherever possible.
 {% endcapture %}
 
-<div class="usa-grid-full usa-section">
-  <div class="usa-width-one-third">
+<div class="nz-grid-full nz-section">
+  <div class="nz-width-one-third">
     <ul class="graphic-list">
       <ol>
         <div class="graphic-list-img">
@@ -26,7 +26,7 @@ Product development using test driven development approaches and open source whe
       </ol>
     </ul>
   </div>
-  <div class="usa-width-two-thirds" markdown="1">
+  <div class="nz-width-two-thirds" markdown="1">
     {{ dev-1 }}
   </div>
 </div>
@@ -38,8 +38,8 @@ Product development using test driven development approaches and open source whe
 We partner with users and experts to identify their needs and find ways to effectively integrate and digitise services that work for them.
 {% endcapture %}
 
-<div class="usa-grid-full">
-  <div class="usa-width-one-third">
+<div class="nz-grid-full">
+  <div class="nz-width-one-third">
     <ul class="graphic-list">
       <ol>
         <div class="graphic-list-img">
@@ -49,7 +49,7 @@ We partner with users and experts to identify their needs and find ways to effec
       </ol>
     </ul>
   </div>
-  <div class="usa-width-two-thirds" markdown="1">
+  <div class="nz-width-two-thirds" markdown="1">
    {{ sd-1 }}
   </div>
 </div>
@@ -62,8 +62,8 @@ Strategies for adopting and leveraging the best of technologies including insigh
 
 {% endcapture %}
 
-<div class="usa-grid-full usa-section">
-  <div class="usa-width-one-third">
+<div class="nz-grid-full nz-section">
+  <div class="nz-width-one-third">
     <ul class="graphic-list">
       <ol>
         <div class="graphic-list-img">
@@ -73,7 +73,7 @@ Strategies for adopting and leveraging the best of technologies including insigh
       </ol>
     </ul>
   </div>
-  <div class="usa-width-two-thirds" markdown="1">
+  <div class="nz-width-two-thirds" markdown="1">
     {{ et-1 }}
   </div>
 </div>
@@ -85,8 +85,8 @@ Strategies for adopting and leveraging the best of technologies including insigh
 We facilitate workshops, partnerships and hands on training to grow your capability to innovate using the design and development approaches we use at the lab.
 {% endcapture %}
 
-<div class="usa-grid-full">
-  <div class="usa-width-one-third">
+<div class="nz-grid-full">
+  <div class="nz-width-one-third">
     <ul class="graphic-list">
       <ol>
         <div class="graphic-list-img">
@@ -96,7 +96,7 @@ We facilitate workshops, partnerships and hands on training to grow your capabil
       </ol>
     </ul>
   </div>
-  <div class="usa-width-two-thirds" markdown="1">
+  <div class="nz-width-two-thirds" markdown="1">
    {{ ei-1 }}
   </div>
 </div>

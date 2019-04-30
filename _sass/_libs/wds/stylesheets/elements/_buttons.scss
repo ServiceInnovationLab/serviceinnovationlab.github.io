@@ -5,10 +5,10 @@ $button-stroke: inset 0 0 0 2px;
 // Buttons
 
 // scss-lint:disable PropertyCount
-.usa-button,
-.usa-button-primary,
-.usa-button:visited,
-.usa-button-primary:visited,
+.nz-button,
+.nz-button-primary,
+.nz-button:visited,
+.nz-button-primary:visited,
 button,
 [type="button"],
 [type="submit"],
@@ -38,7 +38,7 @@ button,
   }
 
   &:hover,
-  &.usa-button-hover {
+  &.nz-button-hover {
     background-color: $color-primary-darker;
     border-bottom: 0;
     color: $color-white;
@@ -46,106 +46,106 @@ button,
   }
 
   &:focus,
-  &.usa-button-focus {
+  &.nz-button-focus {
     box-shadow: $focus-shadow;
   }
 
   &:active,
-  &.usa-button-active {
+  &.nz-button-active {
     background-color: $color-primary-darkest;
   }
 
-  &.usa-button-primary-alt {
+  &.nz-button-primary-alt {
     background-color: $color-primary-alt;
     color: $color-base;
 
     &:hover,
-    &.usa-button-hover {
+    &.nz-button-hover {
       background-color: $color-primary-alt-dark;
     }
 
     &:active,
-    &.usa-button-active {
+    &.nz-button-active {
       background-color: $color-primary-alt-darkest;
       color: $color-white;
     }
   }
 
-  &.usa-button-secondary {
+  &.nz-button-secondary {
     background-color: $color-secondary;
 
     &:hover,
-    &.usa-button-hover {
+    &.nz-button-hover {
       background-color: $color-secondary-dark;
     }
 
     &:active,
-    &.usa-button-active {
+    &.nz-button-active {
       background-color: $color-secondary-darkest;
     }
   }
 
-  &.usa-button-gray {
+  &.nz-button-gray {
     background-color: $color-gray;
 
     &:hover,
-    &.usa-button-hover {
+    &.nz-button-hover {
       background-color: $color-gray-dark;
     }
 
     &:active,
-    &.usa-button-active {
+    &.nz-button-active {
       background-color: $color-base;
     }
   }
 
-  &.usa-button-outline {
+  &.nz-button-outline {
     background-color: $color-white;
     box-shadow: $button-stroke $color-primary;
     color: $color-primary;
 
     &:hover,
-    &.usa-button-hover {
+    &.nz-button-hover {
       box-shadow: $button-stroke $color-primary-darker;
       color: $color-primary-darker;
     }
 
     &:active,
-    &.usa-button-active {
+    &.nz-button-active {
       box-shadow: $button-stroke $color-primary-darkest;
       color: $color-primary-darkest;
     }
 
     &:focus,
-    &.usa-button-focus {
+    &.nz-button-focus {
       box-shadow: $button-stroke $color-primary-darkest, $focus-shadow;
     }
   }
 
-  &.usa-button-outline-inverse {
+  &.nz-button-outline-inverse {
     background: transparent;
     box-shadow: $button-stroke $color-white;
     color: $color-white;
 
     &:hover,
-    &.usa-button-hover {
+    &.nz-button-hover {
       box-shadow: $button-stroke $color-gray-lighter;
       color: $color-gray-lighter;
     }
 
     &:active,
-    &.usa-button-active {
+    &.nz-button-active {
       box-shadow: $button-stroke $color-gray-light;
       color: $color-gray-lighter;
     }
 
     &:focus,
-    &.usa-button-focus {
+    &.nz-button-focus {
       box-shadow: $button-stroke $color-gray-light, $focus-shadow;
     }
   }
 
-  &.usa-button-big {
+  &.nz-button-big {
     font-size: 1.9rem;
     padding: 1.5rem 3rem;
   }
@@ -153,15 +153,15 @@ button,
 // scss-lint:enable PropertyCount
 
 [type="submit"]:disabled,
-.usa-button-disabled {
+.nz-button-disabled {
   background-color: $color-gray-lighter;
   color: $color-gray-dark;
   pointer-events: none;
 
   &:hover,
-  &.usa-button-hover,
+  &.nz-button-hover,
   &:active,
-  &.usa-button-active,
+  &.nz-button-active,
   &:focus {
     background-color: $color-gray-lighter;
     border: 0;
@@ -185,6 +185,6 @@ button,
   }
 }
 
-.usa-button-unstyled {
+.nz-button-unstyled {
   @include button-unstyled;
 }

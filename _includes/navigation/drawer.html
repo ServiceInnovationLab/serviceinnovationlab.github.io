@@ -6,7 +6,7 @@
     {% include svg/icons/close.svg %}
   </button>
 
-  <ul class="usa-sidenav-list">
+  <ul class="nz-sidenav-list">
   {% for item in include.nav_items %}
     <li>
     {% if item.permalink %}
@@ -21,9 +21,9 @@
       {% assign is_matching = page.url | matches_url: item.permalink %}
     {% endif %}
 
-    <a href="{{ item_link }}" {% if is_matching %}class="usa-current"{% endif %}>{{ item.text }}</a>
+    <a href="{{ item_link }}" {% if is_matching %}class="nz-current"{% endif %}>{{ item.text }}</a>
     {% if item.children and is_matching %}
-      <ul class="usa-sidenav-sub_list">
+      <ul class="nz-sidenav-sub_list">
       {% for sub_item in item.children %}
         <li>
           {% if sub_item.permalink %}

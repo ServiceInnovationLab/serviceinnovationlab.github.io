@@ -18,9 +18,9 @@ module.exports = function($el) {
         );
 
         if (!validatorPattern.test($el.val())) {
-          $validatorCheckbox.toggleClass('usa-checklist-checked', false);
+          $validatorCheckbox.toggleClass('nz-checklist-checked', false);
         } else {
-          $validatorCheckbox.toggleClass('usa-checklist-checked', true);
+          $validatorCheckbox.toggleClass('nz-checklist-checked', true);
         }
       }
     }

@@ -5,12 +5,12 @@
 {% assign columns = include.columns | default: 3 %}
 
 {% if columns == 2 %}
-  {% assign wds_grid_class = 'usa-width-one-half' %}
+  {% assign wds_grid_class = 'nz-width-one-half' %}
 {% else %}
-  {% assign wds_grid_class = 'usa-width-one-third' %}
+  {% assign wds_grid_class = 'nz-width-one-third' %}
 {% endif %}
 
-<article class="card {{ wds_grid_class }} usa-width-tablet">
+<article class="card {{ wds_grid_class }} nz-width-tablet">
   <div class="card-link" data-href="{{ card_link }}" tabindex="-1">
     <!-- <div role="img"
          title="{{ include.image_alt }}"
@@ -38,7 +38,7 @@
     <!--Read more section & right arrow-->
     <a href="{{ external_link }}" class="card-cta link link-arrow-right" tabindex="0">
       {{ external_link_title }}
-      <span class="usa-sr-only">about {{ include.tagline }}</span>
+      <span class="nz-sr-only">about {{ include.tagline }}</span>
       {% include svg/icons/external-link-icon.svg %}
     </a>
   </div>
