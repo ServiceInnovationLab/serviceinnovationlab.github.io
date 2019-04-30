@@ -156,6 +156,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-twitter-plugin
   - jekyll_pages_api_search
   - jekyll_oembed
 
