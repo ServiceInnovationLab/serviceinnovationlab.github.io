@@ -18,7 +18,7 @@ We do not work alone. All work has at least two developers involved in any chang
 
 Any dev can propose a code change (a PR).
 
-Propose the PR on GitHub, as a proposed change to the `develop` branch. See "[Branch Naming](#BranchNaming)" later in this document.
+Propose the PR on GitHub, as a proposed change to the `dev` branch. See "[Branch Naming](#BranchNaming)" later in this document.
 
 A PR description must include what has changed, but also why it needs to change. (a business or user need).
 
@@ -42,7 +42,7 @@ As a reviewer, you can approve a PR using the "Approve" option on Github. Reques
 
 PR branches need to be "up to date", and continuous integration via Travis-ci must run and pass before merging. New code must have tests, and minimum code coverage levels need to be met and maintained.
 
-Merges into the `develop` branch need only one approval to merge but give all active team members reasonable chance to review unless the change is trivial.
+Merges into the `dev` branch need only one approval to merge but give all active team members reasonable chance to review unless the change is trivial.
 
 The dev who proposed the PR presses the merge button on a PR once all the above passes & it is approved. That dev is responsible for merging in a way that does not "break the build" or cause unplanned outages.
 
@@ -81,6 +81,6 @@ Here are some examples:
 
 Our code deploys automatically after a git merge into special branches.
 
-`develop` branch deploys to staging.
+`dev` branch deploys to staging.
 
 `master` branch deploys to production.
