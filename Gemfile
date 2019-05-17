@@ -32,6 +32,7 @@ group :development do
   gem 'rspec'
   gem 'rubocop'
   gem 'selenium-webdriver'
+  gem 'rubocop-performance'
 end
 
 group :test do
