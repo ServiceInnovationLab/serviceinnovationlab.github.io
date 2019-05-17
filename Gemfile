@@ -31,8 +31,8 @@ group :development do
   gem 'rb-readline'
   gem 'rspec'
   gem 'rubocop'
-  gem 'selenium-webdriver'
   gem 'rubocop-performance'
+  gem 'selenium-webdriver'
 end
 
 group :test do
