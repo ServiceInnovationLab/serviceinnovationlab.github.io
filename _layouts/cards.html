@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <h1 class="text-primary mt-5 mb-5 pt-4">{{page.title}}</h1>
+      </div>
+    </div>
+
+    {% assign rows = site[page.data].size | divided_by: 3.0 | ceil %}
+    {% for i in (1..rows) %}
+      {% assign offset = forloop.index0 | times: 3 %}
+        <div class="row">
+          {% for data in site[page.data] limit:3 offset:offset %}
+            <div class="col-lg-4 d-flex align-items-stretch mt-1 mb-4">
+              <div class="card shadow-sm rounded-0">
+                {% if data.img %}<img class="img-fluid" src="/images/{{data.img}}" alt="Image of {{data.title}}"/>{% endif %}
+                <div class="card-body d-flex flex-column">
+                  <p class="small text-uppercase">{{data.partner}}</p>
+                  <a href="{{data.permalink}}" class="text-decoration-none stretched-link mb-3">
+                    <h2 class="card-title text-primary">{{data.title}}</h2>
+                  </a>
+                  <p class="card-text pb-3">{{data.descr}}</p>
+                  {% if data.button %}<a href="#" class="mt-auto pb-1">Read more</a>{% endif %}
+                </div>
+              </div>
+            </div>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
+

@@ -1,30 +1,26 @@
-<a class="skipnav" href="#main-content">Skip to main content</a>
-<header role="banner">
-  <!-- <section class="background-dark nz-section section-intro">
-    <div class="nz-grid">
-      <header>
-        {% if page.full_name %}
-          <h1 class="section-heading section-heading-alt">Blog posts by {{ page.full_name }}:</h1>
-            {% endif %}
-      </header>
-    </div>
-  </section> -->
-  <div class="site-navbar nz-grid">
-      <button class="menu-btn">Menu</button>
-      <a class="site-logo media_link" href="{{ site.baseurl }}/">
-        <img src="{{ site.baseurl }}/assets/img/SIL-Logo-Animation.gif" alt="SIL logo" style = "height:55px; width:217px;"
-        {% if page.url == '/' %}
-          aria-hidden="true"
-        {% endif %}
-      ></a><span class="beta">Beta</span>
-        {% if page.url == '/' %}
-          <h1 class="nz-sr-only">Service Innovation Lab</h1>
-        {% else %}
-          <span class="nz-sr-only">Service Innovation Lab</span>
-        {% endif %}
-      <nav role="navigation">
-        {% include navigation.html navbar=true %}
-      </nav>
-    </div>
-  </header>
-<div class="overlay"></div>
+<div class="header pt-2 pb-2">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light p-0">
+      <a href="/" class="position-relative logo">
+        <img src="/images/logo.gif" alt="Service Innovation Lab" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="navbarNavDropdown" class="navbar-collapse collapse">
+        <ul class="navbar-nav mr-auto">
+        </ul>
+        <ul class="navbar-nav">
+          {% for item in site.data.navigation %}
+          <li class="nav-item pt-2 pl-2 pr-2">
+            <a href="{{item.href}}" class="mr-3 ml-3 inline-block text-decoration-none text-body {% if page.title == item.title%}active{% endif %}">{{item.title}}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </nav>
+  </div>
+</div>
+
+<div class="{% if page.theme %}{{page.theme}}{% endif %} pb-5">

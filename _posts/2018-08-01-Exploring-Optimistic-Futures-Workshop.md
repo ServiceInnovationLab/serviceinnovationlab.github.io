@@ -1,15 +1,19 @@
 ---
-title: Transitioning to an Optimistic Futures Workshop - 18 May 2018
+title: Transitioning to an Optimistic Futures Workshop
 date: 2018-08-01
 authors:
 - matthew-mccallum
+led_by:
+- matthew-mccallum
+- ben-briggs
+- the-service-innovation-lab
 tags:
 - lessons learned
 - open source
 excerpt: ""
+layout: blog
+breadcrumb: reports
 ---
-
-<span class="subtitle">Led by Matthew MacCallum and Ben Briggs, Service Innovation Lab</span>
 
 The following is content generated in the Transitioning to an Optimistic Future event held as part of Tech Week 2018. Duration 3 hours.
 
@@ -55,7 +59,7 @@ At the end of the day there was a group share and reflection which had the follo
 
 Participants were asked to brainstorm qualities of an optimistic future in which kiwis could thrive and then chose 5 per group they felt were the most important. 
 
-![A word cloud of popular terms from the report, details below](/assets/media/2017-18-Lab-Report/Transitioning-to-optimistic-futures.PNG)
+![A word cloud of popular terms from the report, details below](/images/media/Transitioning-to-optimistic-futures/Transitioning-to-optimistic-futures.PNG)
 _Word cloud of the key concepts from the workshop content_
 
 The qualities identified (to reflect the word cloud above) are below.

@@ -1,0 +1,21 @@
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb p-0 m-0">
+    {% if page.breadcrumb == 'reports'%}
+    <li class="breadcrumb-item p-0">
+        <i class="fa fa-chevron-left mr-3" style="font-size: 14px; color: #333;" aria-hidden="true"></i>
+        <a href="/blog/">Reports</a>
+      </li>
+    {% else %}
+    <li class="breadcrumb-item p-0">
+      <a href="/" class="mr-3">Home</a>
+      <i class="fa fa-chevron-right" style="font-size: 14px; color: #333;" aria-hidden="true"></i>
+    </li>
+    <li class="breadcrumb-item p-0">
+      <a href="/{{ include.title | downcase }}/" class="mr-3">{{include.title}}</a>
+      <i class="fa fa-chevron-right ml-0" style="font-size: 14px; color: #333;" aria-hidden="true"></i>
+    </li>
+    <li class="breadcrumb-item active" aria-current="page">{%if p.title %}{{p.title}}{%else%}{{page.title}}{% endif %}</li>
+    {% endif %}
+  </ol>
+</nav>

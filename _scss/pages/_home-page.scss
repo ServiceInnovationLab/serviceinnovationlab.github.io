@@ -1,0 +1,22 @@
+.home-banner {
+  color: var(--white);
+  padding-top: 10%;
+
+  h1 {
+    font-size: 4.125rem !important
+  }
+
+  a {
+    margin-top: 15px;
+    border: 2px solid var(--white);
+    color: white;
+    padding: 7px 25px;
+    font-size: 24px;
+
+    &:hover {
+      background: var(--primary);
+      color: var(--white);
+      border-color: var(--primary);
+    }
+  }
+}

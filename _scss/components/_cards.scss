@@ -1,0 +1,11 @@
+.card {
+  h2 {
+    font-size: 1.6rem;
+  }
+}
+
+.shadow-sm {
+  &:hover {
+    box-shadow: none !important;
+  }
+}

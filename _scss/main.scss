@@ -1,0 +1,46 @@
+/* Bootstrap */
+$theme-colors: (
+  "primary": #223cc6,
+  "secondary": #f1f1f1
+);
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+h1 {
+  font-size: 2.125rem !important;
+  margin: 4rem 0 4rem 0 !important;
+}
+/* Font Awesome */
+$fa-font-path: "../fonts/FontAwesome";
+@import "../node_modules/font-awesome/scss/font-awesome";
+
+/* Mixins */
+@import "mixins/rem";
+@import "mixins/transitions";
+
+/* Global */
+@import "base/global";
+
+/* Page */
+@import "pages/home-page";
+@import "pages/blog-post";
+
+/* Layout */
+@import "layout/topbar";
+@import "layout/header";
+@import "layout/page";
+@import "layout/page-banner";
+@import "layout/footer";
+
+/* Components */
+@import "components/navbar";
+@import "components/buttons";
+@import "components/left_nav";
+@import "components/cards";
+@import "components/banner";
+
+/* Typography */
+@import "typography/headings";
+
+

@@ -6,9 +6,11 @@ authors:
 tags:
 - open source
 excerpt: ""
+layout: blog
+breadcrumb: reports
 ---
 
-<span class="subtitle">30 June 2018 by Pia Andrews - Service Innovation Lab Lead</span>
+__Authored by:__ Pia Andrews
 
 _The Service Innovation Lab is a venue and capability delivery engine for the [Service Innovation Work Programme](https://www.digital.govt.nz/digital-government/5-focus-areas-for-digital-change/service-innovation-work-programme/). The Lab work is overseen by a cross agendy governance group, the [Service Innovation Working Group](https://www.digital.govt.nz/digital-government/leadership-and-governance/digital-government-partnership/service-innovation-group-terms-of-reference/) with support from the Service Innovation Reference Group (which enables operational collaboration and leadership. Please also find [an accessible mindmap of Lab deliverables](https://coggle.it/diagram/W1FpoafTAgZC4csx/t/service-innovation-lab) and [the draft Lab Lean Canvas](https://docs.google.com/spreadsheets/d/13BI9Z8MwD2w6tZ2GhcA-UXdFDeJmLgOulpl47SCCt00/edit?usp=sharing)._
 

@@ -1,0 +1,21 @@
+---
+layout: plain
+---
+<div class="border-top pt-3">
+  {% include breadcrumbs.html title="Authors" %}
+  <div class="typography border-top mt-3 pt-5">
+    <h2 class="mb-3">{{ page.full_name }}</h2>
+    <div>
+      <ul class="pl-0 list-unstyled">
+      {% for p in site.posts %}
+        {% for a in p.authors %}
+          {% if a == page.name %}
+            <li class="ml-0"><a href="{{p.url}}">{{p.title}}</a></li>
+          {% endif %}
+        {% endfor %}
+
+      {% endfor %}
+    </ul>
+    </div>
+  </div>
+</div>

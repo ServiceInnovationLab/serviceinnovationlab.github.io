@@ -1,71 +1,16 @@
-<!DOCTYPE html>
-<!--[if lt IE 9]><html class="lt-ie9"><![endif]-->
-<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
-<head>
-<link rel="stylesheet" href="/assets/css/main.css">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<style>
-#main-content {
-  background-image: url("{{ site.baseurl }}/assets/img/homepagebg_blue.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
+---
+layout: default
+---
 
-#govt_logo{
-height: 55px;
-width: 200px;
-}
-</style>
-
-  {% include head.html %}
-
-  <body class="{% if page.type == "tag"%}tag-{% endif %}page-{{ page.title | slugify }}
-  {% if page.header_border == true or layout.header_border == true %}header_border{% endif %} {% if page.path contains '_posts' %}single-post{% endif %}">
-
-    {% unless layout.title == 'SIL UI Styleguide' %}
-    <a class="skipnav" href="#main-content">Skip to main content</a>
-    <header role="banner"> <!--#425eb2#425eb2-->
-      <div class="site-navbar nz-grid">
-          <button class="menu-btn">Menu</button>
-          <a class="site-logo media_link" href="{{ site.baseurl }}/">
-          <img src="{{ site.baseurl }}/assets/img/SIL-Logo-Animation.gif" alt="SIL logo" style = "height: 55px; width:217px";
-            {% if page.url == '/' %}
-              aria-hidden="true"
-            {% endif %}
-          ></a><span class="beta"">Beta</span>
-            {% if page.url == '/' %}
-              <h1 class="nz-sr-only">SIL</h1>
-            {% else %}
-              <span class="nz-sr-only">SIL</span>
-            {% endif %}
-          <nav role="navigation">
-            {% include navigation.html navbar=true %}
-          </nav>
-        </div>
-      </header>
-    <div class="overlay"></div>
-    {% endunless %}
-
-    <div class="main-content {% if layout.title == 'SIL UI Styleguide' %}styleguide-main-content{% endif %}" id="main-content">
-      {{ content }}
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="home-banner">
+        <h1 class="mb-2">Welcome to <br>The Service Innovation Lab</h1>
+        <a href="/tools/" class="btn btn--primary btn--lg">Toolkit</a>
+      </div>
     </div>
+  </div>
+</div>
+</div>
 
-    {% unless layout.title == 'SIL UI Styleguide' %}
-      {% include navigation.html drawer=true %}
-    {% endunless %}
-
-    {% include javascript.html %}
-    <script type="text/javascript">
-      // We listen to the resize event
-      window.addEventListener('resize', () => {
-        // We execute the same script as before
-        let vh = window.innerHeight * 0.01;
-        document.documentElement.style.setProperty('--vh', `${vh}px`);
-      });
-    </script>
-    {% jekyll_pages_api_search_load %}
-    {% include page-footer.html %}
-  </body>
-</html>

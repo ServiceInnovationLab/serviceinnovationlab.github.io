@@ -1,0 +1,15 @@
+- name:  Developers
+  descr: Product development using test driven development approaches and open source wherever possible.
+  img:   developers
+
+- name:  Service Design
+  descr: We partner with users and experts to identify their needs and find ways to effectively integrate and digitise services that work for them.
+  img:   service-design
+
+- name:  Emerging Tech
+  descr: Strategies for adopting and leveraging the best of technologies including insights on emerging technology and how to plan for its impact on society and systems. Prototyping and demonstrations with our Virtual Reality Suite.
+  img:   emerging-tech
+
+- name:  Champion others / Empowering Innovation
+  descr: We facilitate workshops, partnerships and hands on training to grow your capability to innovate using the design and development approaches we use at the lab.
+  img:   champion-others

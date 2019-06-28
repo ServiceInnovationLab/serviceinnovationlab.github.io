@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<div class="border-top pt-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-md">
+        {% include breadcrumbs.html %}
+      </div>
+    </div>
+  </div>
+  <div class="pt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          {% include left_nav.html %}
+        </div>
+        <div class="col-md-9">
+          <div class="typography">
+            <h1 class="mb-1">{{page.title}}</h1>
+            <p class="small uppercase">{{page.date | date: "%d %B %Y"}}</p>
+            {% if page.led_by %}
+            {% assign index = 0 %}
+            <p class="small uppercase">
+              <strong>Led by:</strong>
+            {% for person in page.led_by %}
+              {% assign index = index | plus: 1 %}
+              {% assign words = person | replace: "-", " " | split: ' ' %}
+              {% capture person_title %}{% for word in words %} {{ word | capitalize }}{% endfor %}{% endcapture %}
+              {% assign second_to_last_person = page.led_by.size | minus: 1 %}
+
+            {%if page.led_by.size == index%}and {%endif%}{{person_title}}{% if page.led_by.size > 1 %}{% if index != second_to_last_person%}{% if page.led_by.size != index %},{% endif %}{% endif %}{% endif %}
+            {% endfor %}
+            </p>
+            {% endif %}
+            {{content | markdownify}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

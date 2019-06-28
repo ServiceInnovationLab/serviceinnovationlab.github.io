@@ -1,0 +1,34 @@
+
+.nav-item a {
+  font-size: 15px;
+}
+
+
+.navbar-nav {
+
+  li {
+    line-height: 50px;
+
+    a {
+      display: inline-block;
+      height: inherit;
+    }
+
+    .active {
+      border-bottom: 9px solid var(--primary);
+    }
+  }
+}
+
+.breadcrumb {
+  background: none;
+
+  .breadcrumb-item {
+
+    a { text-decoration: none; }
+
+    &:before {
+      content: ""
+    }
+  }
+}

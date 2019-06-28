@@ -1,0 +1,40 @@
+/* Footer */
+
+footer {
+  padding-top: 30px;
+  color: #fff;
+  font-size: 15px;
+  flex-shrink: 0;
+  -webkit-font-smoothing: antialiased;
+
+  a {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+
+    &:hover {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+
+  .second-col {
+    img {
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.page-content {
+  flex: 1 0 auto;
+  background: #fff;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+
+
+
+

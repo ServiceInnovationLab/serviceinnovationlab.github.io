@@ -1,0 +1,34 @@
+.body-bg {
+  background-image: url('../../images/home_bg.png');
+  background-color: rgba(34, 60, 198, .95);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  height: 50vw;
+}
+
+.header {
+  background: #fff;
+}
+
+.navbar {
+  padding: .5rem 0;
+}
+
+.logo {
+  img {
+    height: 55px;
+    width:217px;
+  }
+
+  &::after {
+    color: var(--dark);
+    content: "Beta";
+    display: block;
+    font-family: "Noto Sans";
+    position: absolute;
+    right: -55px;
+    top: 31px;
+  }
+}

@@ -7,14 +7,16 @@ authors:
 tags:
 - rates rebates
 excerpt: ""
+layout: blog
+breadcrumb: reports
 ---
-![RR logo](/assets/media/Rates-Rebates/RR1.png)
+![RR logo](/images/media/Rates-Rebates/RR1.png)
 
 __Authored by:__ Siobhan McCarthy and Glen Thurston
 
 # Contents
 
-1. [Overview](#Go-to-Overview)
+<!-- 1. [Overview](#Go-to-Overview)
 2. [Background](#Go-to-Background)
 3. [The Discovery](#Go-to-The-Discovery)
 4. [The Alpha](#Go-to-The-Alpha)
@@ -22,7 +24,7 @@ __Authored by:__ Siobhan McCarthy and Glen Thurston
 6. [Next Steps](#Go-to-Next-Steps)
 7. [Appendix One - Service Blueprints](#Go-to-Appendix1)
 8. [Appendix Two - Trend Analysis](#Go-to-Appendix2)
-9. [Appendix Three - Comparison between the web app & current paper application](#Go-to-Appendix3)
+9. [Appendix Three - Comparison between the web app & current paper application](#Go-to-Appendix3) -->
 
 A collaborative initiative between Department of Internal Affairs and Local Authorities supported by the Service Innovation Lab
 
@@ -152,7 +154,7 @@ The team identified the following focus points for the three week sprint.
 ### Service blueprint
 
 Service Map The Rates Rebates Process touches many agencies. We mapped the journey to see touch points for rebates customers, front stage (agency work visible to the rebate customer), and backstage (agency work not visible to the rebate customer). It showed a very complex picture with a lot of pain across users, Councils and Central government agencies. Considering this entitlement is a maximum of $610 per year, it requires a lot of cost and time from all participants in the process to administer.
-![Service Blueprint](/assets/media/Rates-Rebates/RR2.png)
+![Service Blueprint](/images/media/Rates-Rebates/RR2.png)
 
 To view the journey in more detail, please use this link: [https://docs.google.com/drawings/d/1G3cs66o7u-xwJWr2FT46cd5UivJ-HojpcS3I-Q5bSOY/edit?usp=sharing](https://docs.google.com/drawings/d/1G3cs66o7u-xwJWr2FT46cd5UivJ-HojpcS3I-Q5bSOY/edit?usp=sharing)
 
@@ -164,19 +166,19 @@ We created the following personas based on the customer groups identified to com
 
 Hannah lives in Southland, looking after her three kids and doing some freelance work in her spare time. She is very capable, but going into town can be a bother – she borrows a car from her neighbour and it’s not always available. Because she lives rurally, she likes to do more things online. She’s short on time and money is always tight. She has found out about the Rates Rebates and wants to get it – but she’s also short on time and not sure if the bother is worth it.
 
-![Working Mother](/assets/media/Rates-Rebates/RR3.png)
+![Working Mother](/images/media/Rates-Rebates/RR3.png)
 
 ### Superannuant
 
 Jennifer is a retiree living in a block of flats in Wellington city. She doesn’t drive anymore, but manages to get around fine on public transport. She thinks of herself as pretty independent, but sometimes she needs to help with her finances and paperwork – she’s not as good at reading the fine print anymore. She uses an iPad to look at FaceBook and the news – but doesn’t do much else online and doesn’t like the idea of her personal details being somewhere out there. She’s a repeat applicant for the Rates Rebates, and considers it a nice bonus.
 
-![Superannuant](/assets/media/Rates-Rebates/RR4.png)
+![Superannuant](/images/media/Rates-Rebates/RR4.png)
 
 ### Supported Living dependant
 
 George lives in a suburb in Tauranga. He suffers from a physical disability, and depends heavily on his support person for any physical activity. Money is tight and he budgets carefully – allocating all of the money that comes in. When there is a delay, it’s a real issue. He has lots of interaction with government to claim various benefits and he is comfortable with doing things online - but he doesn't have his own computer. 
 
-![Supported Living Dependant](/assets/media/Rates-Rebates/RR5.png)
+![Supported Living Dependant](/images/media/Rates-Rebates/RR5.png)
 
 ## Week 3 - Concept development and testing
 
@@ -184,19 +186,19 @@ We tested 3 concepts, hypothetical ways the process of rebates might work, based
 
 We spoke to 17 ratepayers that covered different demographics to map their experience and pain points. A large portion of them were women and retired, building on previous research from Internal Affairs.
 
-![Assisted automation opt-in](/assets/media/Rates-Rebates/RR6.png)
+![Assisted automation opt-in](/images/media/Rates-Rebates/RR6.png)
 
 ### Option 1 - Assisted automation opt-in
 
 There were varied reactions to this option. Some said they saw issues with it being online, mentioning they know a lot of people in their circles who get rebates and do not have computers or feel comfortable using them. Others liked this but often said they preferred option 3 after they had seen all options. Some suggested that they liked the idea of the service being provided by phone, and suggested that there may be a way for them to make a verbal declaration in place of Statutory Declaration.
 
-![Automatically apply rebate](/assets/media/Rates-Rebates/RR7.png)
+![Automatically apply rebate](/images/media/Rates-Rebates/RR7.png)
 
 ### Option 2 - Automatically apply rebate
 
 This option was usually popular, until option 3 was shown and then they decided that this was something they did not actually want. As they were unsure what this would mean if the information was wrong or felt uncomfortable for the govt to be talking about them and deciding things without their knowledge. Many felt that this option was a bit “big brother.”
 
-![Auto populate data](/assets/media/Rates-Rebates/RR8.png)
+![Auto populate data](/images/media/Rates-Rebates/RR8.png)
 
 ### Option 3 - Auto populate data
 
@@ -251,7 +253,7 @@ We looked into how data was being submitted by ratepayers in their paper applica
 
 ### Making it easy
 
-<img src = "/assets/media/Rates-Rebates/RR9.png" width = "425px" align = "right">To make it easy we built a web application (web app) for the ratepayer applicants to use as the basis of the alpha. Applicants can learn if they were eligible for a Rates Rebate in the current year by entering their address. We created a widget where the applicant only types their address, which is auto-completed for them, and their Rates appear - it uses publicly available data which we obtained in collaboration with the Tauranga City Council. Once the applicant enters their income and number of dependants, they get an indication of their Rates Rebate. If they provide accurate information, they will get an accurate calculation - it’s all in one place,  the user interface design guides people through the process giving them the information needed to help them make a decision whether its worthwhile for them to apply or not.
+<img src = "/images/media/Rates-Rebates/RR9.png" width = "425px" align = "right">To make it easy we built a web application (web app) for the ratepayer applicants to use as the basis of the alpha. Applicants can learn if they were eligible for a Rates Rebate in the current year by entering their address. We created a widget where the applicant only types their address, which is auto-completed for them, and their Rates appear - it uses publicly available data which we obtained in collaboration with the Tauranga City Council. Once the applicant enters their income and number of dependants, they get an indication of their Rates Rebate. If they provide accurate information, they will get an accurate calculation - it’s all in one place,  the user interface design guides people through the process giving them the information needed to help them make a decision whether its worthwhile for them to apply or not.
 
 If the applicant calculated they are eligible and chooses to apply, they are then presented with more information to ensure they understand the definitions of income and dependants. We were able to eliminate the need for paper in this process.
 
@@ -265,7 +267,7 @@ Our research told us people applying for the rates rebate often don’t know how
 
 We also found that there was some embarrassment about income and about asking for any form of help which was a barrier to applying, so we designed an anonymous calculation step at the beginning of the service so people don’t have to go through a full application before they find out if they are eligible for anything (which is the current process). We found users that had gone through days of effort to apply, only to discover they were entitled to 30 cents.
 
-![User journey for pilot digital application](/assets/media/Rates-Rebates/RR10.png)
+![User journey for pilot digital application](/images/media/Rates-Rebates/RR10.png)
 (Above: an example of the user journey when using the pilot digital application)
 
 ### User Interface/User Experience development
@@ -446,20 +448,20 @@ If the alpha is developed further to production we recommend exploring these are
 
 __DIA Rates rebates completed forms processing: Current state__
 This blueprint helped us to see where manual handling was in place once forms were sent to DIA, and where opportunities for cost/time saving through digitisation could be found.
-![Current state](/assets/media/Rates-Rebates/RR11.png)
+![Current state](/images/media/Rates-Rebates/RR11.png)
 
 __Rates rebates Alpha Blueprint__
 This blueprint shows how the Rates Rebates pilot in Tauranga service structured, and helps show what needed to be built and what existing systems could be used without changes required.
-![Alpha blueprint](/assets/media/Rates-Rebates/RR12.png)
+![Alpha blueprint](/images/media/Rates-Rebates/RR12.png)
 
 __Future State Blueprint__
 This blueprint shows a potential future where information sharing between agencies is used to provide proactive delivery of the rebates entitlement.
-![Future state blueprint](/assets/media/Rates-Rebates/RR13.png)
+![Future state blueprint](/images/media/Rates-Rebates/RR13.png)
 
 ## Appendix Two - Trends analysis<a name = "Go-to-Appendix2"></a>
 
 The following charts describe the number of claims made for the last three years and the timings of when the applications are made to the Councils. The majority of applications are made in August each year and to mitigate the high workload on existing council staff, temporary staff are brought in to help process these. DIA audit these applications and their busy time falls between Aug and Oct when they verify the claims.
-![Volume by claimed, refused, cancelled per year](/assets/media/Rates-Rebates/RR14.png)
+![Volume by claimed, refused, cancelled per year](/images/media/Rates-Rebates/RR14.png)
 
 Reasons why claims are refused and cancelled include:
 
@@ -470,7 +472,7 @@ Reasons why claims are refused and cancelled include:
 
 There is anecdotal evidence from this study most are due to misunderstandings of the form and the application process.
 
-![Tauranga Ciy Council Applications processed per month & year](/assets/media/Rates-Rebates/RR15.png)
+![Tauranga Ciy Council Applications processed per month & year](/images/media/Rates-Rebates/RR15.png)
 
 __Dropping number of rebates claimed each year__
 The number of Rates Rebates claimed each year has been dropping. This is a well known trend and is mostly due to the income threshold not keeping in pace with the rise in superannuation payments year to year, leading to those on the couples super especially, gradually dropping out of eligibility. There are some other factors that are potentially affecting this, including rates of homeownership and other factors.
@@ -484,11 +486,11 @@ The number of Rates Rebates claimed each year has been dropping. This is a well 
 
 - __Cost of housing increasing__
     Stats NZ data shows an upwards trend in the cost of housing since 2007. There has been an 8.0 percent increase in the weekly cost of housing from 2014/2014 to 2015/2016. Stats NZ say that this increase was mostly due to households spending more on mortgage payments (up 12.8 percent) and property rates (up 9.6 percent). In comparison, renting costs over the same period increased by 1.8 percent[^6].
-![Housing costs as a percentage of total household income](/assets/media/Rates-Rebates/RR16.png)
+![Housing costs as a percentage of total household income](/images/media/Rates-Rebates/RR16.png)
 
 [^6]:Household expenditure statistics: Year ended June 2016 – corrected, Stats NZ https://www.stats.govt.nz/information-releases/household-expenditure-statistics-year-ended-june-2016
 
-![Average weekly household expenditure](/assets/media/Rates-Rebates/RR17.png)
+![Average weekly household expenditure](/images/media/Rates-Rebates/RR17.png)
 - __New Zealand’s access to the internet__
     Internet NZ reports that approximately connection[^7]. This has an impact on people’s ability to find out about their entitlements with most service providers moving to digital channels. It also put more emphasis on designing for mobile as this will be the preferred channel that people will access internet in the future. Continuing development of the rates rebate alpha will need to keep in mind both of these points.
 
@@ -500,10 +502,10 @@ Here is a physical comparison of the web app vs the current paper application.
 
 __The length of the web app process__
 
-![The length of the web app process](/assets/media/Rates-Rebates/RR18.png)
+![The length of the web app process](/images/media/Rates-Rebates/RR18.png)
 
 __The current 4 page paper form__
-![Page 1](/assets/media/Rates-Rebates/RR19.png)
-![Page 2](/assets/media/Rates-Rebates/RR20.png)
-![Page 3](/assets/media/Rates-Rebates/RR21.png)
-![Page 4](/assets/media/Rates-Rebates/RR22.png)
+![Page 1](/images/media/Rates-Rebates/RR19.png)
+![Page 2](/images/media/Rates-Rebates/RR20.png)
+![Page 3](/images/media/Rates-Rebates/RR21.png)
+![Page 4](/images/media/Rates-Rebates/RR22.png)

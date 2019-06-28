@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<div class="border-top pt-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        {% include breadcrumbs.html title="Team" %}
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <h1>{{page.title}}</h1>
+    </div>
+  </div>
+  {%if page.visible %}
+  <div class="row">
+    <div class="col-sm-9">
+      {{content | markdownify}}
+    </div>
+    {% if page.img %}
+      <div class="col-sm-3">
+        <img src="/images/{{page.img}}" alt="Image of {{page.title}}">
+      </div>
+    {% endif %}
+  </div>
+  {%endif%}
+</div>
