@@ -50,6 +50,9 @@ collections:
   styleguide:
     output: true
     permalink: /styleguide/:path/
+  devPeerReviewWorkflow:
+    output: true
+    permalink: /devPeerReviewWorkflow/:path/
 
 defaults:
  -
@@ -98,6 +101,12 @@ defaults:
   values:
     layout: styleguide
     include_subnav: true
+
+ -
+  scope:
+    path: "devPeerReviewWorkflow"
+  values:
+    layout: primary
 
 frontmatter_tests:
   path: "tests/schema"
