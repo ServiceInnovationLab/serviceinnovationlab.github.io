@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.5.3'
+ruby '2.6.3'
 
 gem 'accesslint-ci', '0.3.6'
 gem 'html-proofer', '~> 3.10.2'
