@@ -3,7 +3,6 @@ language: ruby
 # cache:
 #   bundler: true
 script:
-- gem install -v 1.17.3 bundler --no-rdoc --no-ri
 - bundle install
 - bundle exec jekyll test
 - bundle exec jekyll build
