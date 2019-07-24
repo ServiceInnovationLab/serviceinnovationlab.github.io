@@ -47,10 +47,10 @@ echo
 echo "Removing existing ${PUBLISH_BRANCH} branch on remote ${REMOTE}"
 git push "${REMOTE}" ":${PUBLISH_BRANCH}"
 
-echo
-echo "Moving ${DIST_FOLDER} files to / in branch ${PUBLISH_BRANCH}"
-git subtree push --prefix "${DIST_FOLDER}" "${REMOTE}" "${PUBLISH_BRANCH}"
+# echo
+# echo "Moving ${DIST_FOLDER} files to / in branch ${PUBLISH_BRANCH}"
+# git subtree push --prefix "${DIST_FOLDER}" "${REMOTE}" "${PUBLISH_BRANCH}"
 
-echo
-echo "Returning to dev branch"
-git checkout dev
+# echo
+# echo "Returning to dev branch"
+# git checkout dev
