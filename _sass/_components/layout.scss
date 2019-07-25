@@ -129,6 +129,9 @@
 
 .background-gray {
   background-color: $color-gray-lightest;
+  h2 {
+    color: $color-bright;
+  }
 }
 
 .background-medium {
@@ -151,7 +154,7 @@
   h5,
   h6,
   p {
-    color: $color-white;
+    color: $color-bright;
   }
 
   .section-heading {

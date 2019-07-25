@@ -10,11 +10,6 @@ redirect_from:
 banner_cta: true
 gridless: true
 ---
-<style>
-h2 {
-  color:#2337CE;
-}
-</style>
 
 <section class="nz-section background-gray">
 <div class="nz-grid">
