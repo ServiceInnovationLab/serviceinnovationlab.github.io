@@ -30,6 +30,13 @@ layout: primary
 
 2. **To Add your details:** Ensure that you are on the **dev** branch, then _navigate to_ **_data/team.yml**.
 
-- _Click on_ the pencil icon (Edit), follow the format (as above) & enter your details.
+- _Click on_ the pencil icon (Edit), follow the format (as below) & enter your details.
+
+```yaml
+- full_name:
+  image: /assets/img/
+  role:
+```
+
 - Once done, _scroll to_ the bottom of the page; _enter_ a **Commit message** & a **Description (optional)** for your changes.
 - _Select_ the **Radio Button** corresponding to the text "Create a new branch for this commit and start a pull request.". You should then see a box appear. _Type in_ a name for the branch which you are creating, then _click on_ the **Propose file change** button.
