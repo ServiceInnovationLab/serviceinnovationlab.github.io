@@ -1,0 +1,22 @@
+---
+layout: default
+permalink: /team/
+---
+
+<div class="nz-grid">
+  <section class="nz-section">
+    <div class="nz-flex nz-flex-wrap">
+      {% for member in site.data.team %}
+      <ul class="team-list">
+        <ol>
+          <div class="team-list-img" role="group">
+            <img src="{{ member.image }}" alt="Photo of {{ member.full_name }}">
+          </div>
+          <p><b>Name:</b> {{ member.full_name }}</p>
+          <p><b>Handle:</b> {{ member.name }}</p>
+        </ol>
+      </ul>
+      {% endfor %}
+    </div>
+  </section>
+</div>
