@@ -7,7 +7,6 @@ content_wide: true
 content_focus: false
 redirect_from:
   - /consulting/
-  - /what-we-deliver/military-onesource/
 banner_cta: true
 gridless: true
 ---
