@@ -23,7 +23,7 @@ jobs:
           command: yamllint .
   accessibility:
     docker:
-      - image: circleci/ruby:2.6.3-node
+      - image: circleci/ruby:2.6.3-node-browsers
     steps:
       - checkout
       - run: sudo npm install -g pa11y
