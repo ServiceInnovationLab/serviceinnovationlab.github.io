@@ -3,9 +3,7 @@ version: 2
 jobs:
   test:
     docker:
-      - image: circleci/ruby:2.3-node
-    environment:
-      ACCESSLINT_MASTER_BRANCH: dev
+      - image: circleci/ruby:2.6.3-node
     steps:
       - checkout
       - run:
@@ -17,7 +15,6 @@ jobs:
       - run: bundle exec rspec
   percy:
     docker:
-      # Make sure your image has both `node` and is able to launch a browser
       - image: circleci/ruby:2.6.3-node-browsers
     steps:
       - checkout
@@ -32,7 +29,7 @@ jobs:
           command: npx percy snapshot _site
   build:
     docker:
-      - image: circleci/ruby:2.3-node
+      - image: circleci/ruby:2.6.3-node
     steps:
       - checkout
       - run:
