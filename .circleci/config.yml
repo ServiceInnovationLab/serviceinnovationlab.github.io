@@ -59,12 +59,10 @@ jobs:
       - run:
           name: Install dependencies
           command: bundle install
-      - run:
-          name: Creating deploy branch
-          command: git checkout -b deploy-$CIRCLE_BUILD_NUM
-      - run:
-          name: "Building jekyll site"
-          command: bundle exec jekyll build
+      # - run:
+      #     name: Creating deploy branch
+      #     command: git checkout -b deploy-$CIRCLE_BUILD_NUM
+      - run: ./bin/deploy-to-gh-pages $CIRCLE_BUILD_NUM
 # **Navigate back to dev & DELETE any local gh-pages branch:**
 # **Still on dev branch, run script:**
 #    ./gh-pages...<no.> script
@@ -90,7 +88,7 @@ workflows:
   visual:
     jobs:
       - percy
-  building:
+  build_and_deploy:
     jobs:
       - test
       - build
