@@ -74,12 +74,16 @@ jobs:
 
 workflows:
   version: 2
-  commit:
+  linting:
     jobs:
       - yamllint
+  visual:
+    jobs:
+      - percy
+  building:
+    jobs:
       - test
       - build
-      - percy
       - deploy:
           requires:
             - build
