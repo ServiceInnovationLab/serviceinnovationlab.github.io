@@ -44,21 +44,9 @@ workflows:
   version: 2
   commit:
     jobs:
-      - test:
-        branches:
-          ignore:
-            - gh-pages
-            - master
-      - build:
-        branches:
-          ignore:
-            - gh-pages
-            - master
-      - percy:
-        branches:
-          ignore:
-            - gh-pages
-            - master
+      - test
+      - build
+      - percy
       - deploy:
           requires:
             - test
