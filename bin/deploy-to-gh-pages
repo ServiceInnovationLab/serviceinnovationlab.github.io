@@ -45,10 +45,10 @@ git push "${REMOTE}" "${RELEASE}" --force > /dev/null
 ## Can't force push this, so we delete the branch then push newly made one.
 echo
 echo "Removing existing ${PUBLISH_BRANCH} branch on remote ${REMOTE}"
-git push "${REMOTE}" ":${PUBLISH_BRANCH}"
+# git push "${REMOTE}" ":${PUBLISH_BRANCH}"
 
-# echo
-# echo "Moving ${DIST_FOLDER} files to / in branch ${PUBLISH_BRANCH}"
+echo
+echo "Moving ${DIST_FOLDER} files to / in branch ${PUBLISH_BRANCH}"
 # git subtree push --prefix "${DIST_FOLDER}" "${REMOTE}" "${PUBLISH_BRANCH}"
 
 # echo
