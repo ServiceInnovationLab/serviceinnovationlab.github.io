@@ -9,9 +9,6 @@ jobs:
       - run:
           name: Install dependencies
           command: bundle install
-      # - run: npm run test
-      # - run: npm run htmlproofer
-      # - run: bundle exec rspec
       - run: bundle exec jekyll test
   percy:
     docker:
