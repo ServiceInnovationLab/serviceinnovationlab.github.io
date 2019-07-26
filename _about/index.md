@@ -3,7 +3,6 @@ title: About
 permalink: /about/
 layout: primary
 lead: Service Innovation Lab
-banner_cta: true
 subnav_items:
   - text: Purpose
     permalink: /about/#purpose
@@ -11,8 +10,6 @@ subnav_items:
     permalink: /about/#approach
   - text: History
     permalink: /about/#history
-  # - text: Principles and values
-  #   permalink: /about/#principles-and-values
 ---
 
 ## Purpose
