@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+set -euv
 
 # based on https://gist.github.com/cobyism/4730490
 
