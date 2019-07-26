@@ -1,3 +1,4 @@
+---
 version: 2
 jobs:
   test:
@@ -7,28 +8,48 @@ jobs:
       ACCESSLINT_MASTER_BRANCH: dev
     steps:
       - checkout
-      - run: bundle install
+      - run:
+          name: Install dependencies
+          command: bundle install
       - run: npm install
       - run: npm run test
       - run: npm run htmlproofer
       - run: bundle exec rspec
+  percy:
+    docker:
+      # Make sure your image has both `node` and is able to launch a browser
+      - image: circleci/ruby:2.6.3-node-browsers
+    steps:
+      - checkout
+      - run:
+          name: Install dependencies
+          command: bundle install
+      - run:
+          name: Build the static site
+          command: bundle exec jekyll build
+      - run:
+          name: Visual Tests
+          command: npx percy snapshot _site
   build:
     docker:
       - image: circleci/ruby:2.3-node
     steps:
       - checkout
-      - run: bundle install
+      - run:
+          name: Install dependencies
+          command: bundle install
       - run: npm install
       - run: bundle exec jekyll build
-      # - run: ./serve-accesslint && bundle exec accesslint-ci scan http://localhost:4000/site
 workflows:
   version: 2
   commit:
     jobs:
       - test
+      - percy
+      - build
       - deploy:
           requires:
             - test
           filters:
             branches:
-              only: circleci-deploy # TODO change to dev
+              only: circleci-deploy
