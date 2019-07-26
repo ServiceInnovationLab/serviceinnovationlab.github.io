@@ -36,6 +36,33 @@ jobs:
           name: Install dependencies
           command: bundle install
       - run: bundle exec jekyll build
+  deploy:
+    docker:
+      - image: circleci/ruby:2.6.3-node
+      - checkout
+      - run:
+          name: Install dependencies
+          command: bundle install
+      - run:
+          name: Creating deploy branch
+          command: git checkout -b deploy-$CIRCLE_BUILD_NUM
+      - run:
+          name: "Building jekyll site"
+          command: bundle exec jekyll build
+      # **Navigate back to dev & DELETE any local gh-pages branch:**
+      # **Still on dev branch, run script:**
+      #    ./gh-pages...<no.> script
+      # **To get the updates changes on your local machine:**
+      #    git fetch
+      #    git checkout gh-pages
+      # **Checkout the newly created deploy branch:**
+      #    git checkout deploy/<n>
+      # **While on deploy branch, merge gh-pages into deploy branch:**
+      #    git merge gh-pages
+      # **Push remote's changes to merge with deploy branch on GitHub & create PR to Master:**
+      #    git push origin gh-pages
+      # **Once approved, merge PR to Master & the new changes should be pushed LIVE!!!**
+
 workflows:
   version: 2
   commit:
