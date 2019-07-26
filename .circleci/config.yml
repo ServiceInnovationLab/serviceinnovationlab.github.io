@@ -22,6 +22,8 @@ jobs:
           name: Yaml linter
           command: yamllint .
   access:
+    docker:
+      - image: circleci/ruby:2.6.3-node
     steps:
       - checkout
       - run: npm install -g pa11y
