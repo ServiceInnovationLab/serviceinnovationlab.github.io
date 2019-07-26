@@ -45,18 +45,16 @@ workflows:
   commit:
     jobs:
       - test:
+        branches:
+          ignore:
+            - gh-pages
+            - master
       - build:
         branches:
           ignore:
             - gh-pages
             - master
       - percy:
-        - build:
-          branches:
-            ignore:
-              - gh-pages
-              - master
-      - build:
         branches:
           ignore:
             - gh-pages
