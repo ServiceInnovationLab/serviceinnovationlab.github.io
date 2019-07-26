@@ -36,6 +36,7 @@ jobs:
   deploy:
     docker:
       - image: circleci/ruby:2.6.3-node
+    steps:
       - checkout
       - run:
           name: Install dependencies
