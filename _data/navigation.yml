@@ -9,14 +9,10 @@ navbar:
     - /projects/:path/
 - text: Tools
   permalink: /tools/
+- text: Team
+  permalink: /team/
 - text: Contact
   permalink: /contact/
-
-sublinks:
-- text: One
-  permalink: /one/
-- text: Two
-  permalink: /two/
   
 drawer:
 - text: About
@@ -29,5 +25,7 @@ drawer:
     - /projects/:path/
 - text: Tools
   permalink: /tools/
+- text: Team
+  permalink: /team/
 - text: Contact
   permalink: /contact/
