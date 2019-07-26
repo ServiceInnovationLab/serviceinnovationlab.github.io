@@ -10,12 +10,17 @@ jobs:
           name: Install dependencies
           command: bundle install
       - run: bundle exec jekyll test
-  lint:
+  yamllint:
     docker:
-      - image: circleci/ruby:2.6.3-node
+      - image: circleci/python:3.7.2
     steps:
       - checkout
-      - run: yamllint .
+      - run:
+          name: Install yamllint
+          command: sudo pip install --upgrade yamllint
+      - run:
+          name: Yaml linter
+          command: yamllint .
   percy:
     docker:
       - image: circleci/ruby:2.6.3-node-browsers
@@ -71,7 +76,7 @@ workflows:
   version: 2
   commit:
     jobs:
-      - lint
+      - yamllint
       - test
       - build
       - percy
