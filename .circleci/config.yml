@@ -46,6 +46,7 @@ workflows:
       - percy
       - deploy:
           requires:
+            - build
             - test
           filters:
             branches:
