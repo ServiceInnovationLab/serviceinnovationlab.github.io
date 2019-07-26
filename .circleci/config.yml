@@ -26,6 +26,7 @@ jobs:
       - image: circleci/ruby:2.6.3-node-browsers
     steps:
       - checkout
+      - run: export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=1
       - run: sudo npm install -g pa11y
       - run: bundle install
       - run: bundle exec jekyll build
