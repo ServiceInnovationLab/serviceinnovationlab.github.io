@@ -21,7 +21,7 @@ jobs:
       - run:
           name: Yaml linter
           command: yamllint .
-  access:
+  accessibility:
     docker:
       - image: circleci/ruby:2.6.3-node
     steps:
@@ -81,9 +81,9 @@ jobs:
 
 workflows:
   version: 2
-  access:
+  accessibility:
     jobs:
-      - access
+      - accessibility
   linting:
     jobs:
       - yamllint
