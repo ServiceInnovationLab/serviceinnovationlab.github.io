@@ -6,9 +6,9 @@ published: Boolean
 config:
   path: _authors
   ignore:
-  - README.md
-  - ..
-  - .
-  - .DS_Store
+    - README.md
+    - ..
+    - .
+    - .DS_Store
   optional: ['last_name', 'team']
 ---

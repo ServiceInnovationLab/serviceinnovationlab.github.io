@@ -11,9 +11,9 @@ excerpt: "String"
 config:
   path: _posts
   ignore:
-  - README.md
-  - ..
-  - .
-  - .DS_Store
+    - README.md
+    - ..
+    - .
+    - .DS_Store
   optional: ['tumblr_url', 'layout', 'date', 'image', 'image_alt', 'image_figcaption']
 ---
