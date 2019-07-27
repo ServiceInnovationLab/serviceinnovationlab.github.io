@@ -7,8 +7,8 @@ team:
 config:
   path: spec/_test_collection
   ignore:
-  - ..
-  - .
-  - .DS_Store
+    - ..
+    - .
+    - .DS_Store
   optional: ['team']
 ---
