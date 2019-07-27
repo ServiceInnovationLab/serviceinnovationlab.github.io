@@ -89,9 +89,6 @@ jobs:
       - run:
           name: Install dependencies
           command: bundle check --path vendor/bundle || bundle install --deployment
-      # - run:
-      #     name: Creating deploy branch
-      #     command: git checkout -b deploy-$CIRCLE_BUILD_NUM
       - run: ./bin/deploy-to-gh-pages $CIRCLE_BUILD_NUM
 # **Navigate back to dev & DELETE any local gh-pages branch:**
 # **Still on dev branch, run script:**
