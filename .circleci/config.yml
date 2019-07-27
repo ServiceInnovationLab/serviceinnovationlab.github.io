@@ -59,11 +59,14 @@ jobs:
       - image: circleci/ruby:2.6.3-node
     steps:
       - checkout
+      - add_ssh_keys:
+          fingerprints:
+            - "57:d9:4d:8a:b2:8a:0a:99:55:49:98:66:23:5a:e0:cd"
+      - run: git config --global user.email "labplus@dia.govt.nz"
+      - run: git config --global user.name "Lab Plus"
       - run:
           name: Install dependencies
           command: bundle install
-      - run: git config --global user.email "labplus@dia.govt.nz"
-      - run: git config --global user.name "Lab Plus"
       # - run:
       #     name: Creating deploy branch
       #     command: git checkout -b deploy-$CIRCLE_BUILD_NUM
