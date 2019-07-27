@@ -86,7 +86,7 @@ jobs:
             - v1-dependencies-{{ checksum "Gemfile.lock" }}
       - add_ssh_keys:
           fingerprints:
-            - "4a:f7:16:9a:df:7f:b2:f2:15:65:9b:d3:24:99:98:fc"
+            - "20:b3:97:25:f5:d4:14:f8:bb:40:cc:70:a8:5c:ba:7a"
       - run: git config --global user.email "labplus@dia.govt.nz"
       - run: git config --global user.name "Lab Plus"
       - run:
