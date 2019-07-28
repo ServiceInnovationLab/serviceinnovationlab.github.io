@@ -79,6 +79,10 @@ jobs:
   deploy:
     docker:
       - image: circleci/ruby:2.6.3-node
+    environment:
+      DIST_FOLDER: '_site'
+      PUBLISH_BRANCH: 'gh-pages'
+      REMOTE: origin
     steps:
       - checkout
       - restore_cache:
@@ -87,13 +91,31 @@ jobs:
       - add_ssh_keys:
           fingerprints:
             - "0a:ae:09:0f:16:52:4d:70:20:38:5b:2b:7c:ec:94:82"
+
       - run: git config --global user.email "labplus@dia.govt.nz"
       - run: git config --global user.name "Lab Plus"
       - run:
           name: Install dependencies
           command: >
             bundle check --path vendor/bundle || bundle install --deployment
-      - run: ./bin/deploy-to-gh-pages $CIRCLE_BUILD_NUM
+      - run:
+        name: Building static site
+        command: bundle exec jekyll build
+
+      # - run: ./bin/deploy-to-gh-pages $CIRCLE_BUILD_NUM
+      - run:
+          name: setting release number
+          command: export RELEASE="release-${CIRCLE_BUILD_NUM}"
+      - run:
+          name: setting git user for deployment
+          command: GIT_USER=$(git config user.name)
+      - run:
+        name: Creating branch
+        command: git checkout -b "${RELEASE}" > /dev/null
+      - run:
+        name: Committing _site into branch ${RELEASE}
+        comand: git add --force _site && git commit "${DIST_FOLDER}" -m "Build $CIRCLE_BUILD_NUM of ${DIST_FOLDER} by ${GIT_USER}" > /dev/null
+
 
 workflows:
   version: 2
