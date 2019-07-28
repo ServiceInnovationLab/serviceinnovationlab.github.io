@@ -119,13 +119,13 @@ jobs:
 
 workflows:
   version: 2
-  # visual:
-  #   jobs:
   build_and_deploy:
     jobs:
       - yamllint
       - build
-      - accessibility
+      - accessibility:
+          requires:
+            - build
       - test
       - deploy:
           requires:
