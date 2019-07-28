@@ -15,5 +15,11 @@ config:
     - ..
     - .
     - .DS_Store
-  optional: ['tumblr_url', 'layout', 'date', 'image', 'image_alt', 'image_figcaption']
+  optional:
+    - tumblr_url
+    - layout
+    - date
+    - image
+    - image_alt
+    - image_figcaption
 ---

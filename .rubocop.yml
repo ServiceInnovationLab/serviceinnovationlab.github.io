@@ -22,7 +22,7 @@ Metrics/AbcSize:
   Enabled: true
   Max: 15
   Exclude:
-  - spec/**/*
+    - spec/**/*
 
 Metrics/ClassLength:
   Description: Avoid classes longer than 100 lines of code.
@@ -30,7 +30,7 @@ Metrics/ClassLength:
   CountComments: false
   Max: 100
   Exclude:
-  - spec/**/*
+    - spec/**/*
 
 Metrics/LineLength:
   Description: Limit lines to 80 characters.
@@ -39,8 +39,8 @@ Metrics/LineLength:
   Max: 100
   AllowURI: true
   URISchemes:
-  - http
-  - https
+    - http
+    - https
 
 Metrics/MethodLength:
   Description: Avoid methods longer than 10 lines of code.
@@ -49,8 +49,8 @@ Metrics/MethodLength:
   CountComments: false
   Max: 10
   Exclude:
-  - 'db/migrate/*'
-  - spec/**/*
+    - 'db/migrate/*'
+    - spec/**/*
 
 Metrics/ModuleLength:
   CountComments: false
@@ -58,7 +58,7 @@ Metrics/ModuleLength:
   Description: Avoid modules longer than 100 lines of code.
   Enabled: true
   Exclude:
-  - spec/**/*
+    - spec/**/*
 
 Rails/TimeZone:
   # The value `strict` means that `Time` should be used with `zone`.
@@ -100,8 +100,8 @@ Style/AndOr:
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#no-and-or-or
   EnforcedStyle: conditionals
   SupportedStyles:
-  - always
-  - conditionals
+    - always
+    - conditionals
 
 Style/Documentation:
   Description: Document classes and non-namespace modules.
@@ -115,8 +115,8 @@ Layout/DotPosition:
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#consistent-multi-line-chains
   EnforcedStyle: trailing
   SupportedStyles:
-  - leading
-  - trailing
+    - leading
+    - trailing
 
 # Warn on empty else statements
 # empty - warn only on empty else
@@ -147,9 +147,6 @@ Style/IfUnlessModifier:
   Description: Favor modifier if/unless usage when you have a single-line body.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#if-as-a-modifier
   Enabled: true
-
-Metrics/LineLength:
-  Max: 100
 
 # Checks the indentation of the first element in an array literal.
 Layout/IndentArray:
@@ -196,8 +193,8 @@ Style/StringLiterals:
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#consistent-string-literals
   EnforcedStyle: single_quotes
   SupportedStyles:
-  - single_quotes
-  - double_quotes
+    - single_quotes
+    - double_quotes
   ConsistentQuotesInMultiline: true
 
 Style/TrailingCommaInArguments:
