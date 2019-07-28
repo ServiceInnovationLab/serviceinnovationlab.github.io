@@ -42,10 +42,10 @@ jobs:
       - restore_cache:
           keys:
             - v1-dependencies-{{ checksum "Gemfile.lock" }}
-      - run: sudo npm install -g pa11y
+      - run: sudo npm install -g pa11y-ci
       - run: bundle install
       - run: bundle exec jekyll build
-      - run: pa11y ./_site/
+      - run: pa11y-ci ./_site/
   # percy:
   #   docker:
   #     - image: circleci/ruby:2.6.3-node-browsers
