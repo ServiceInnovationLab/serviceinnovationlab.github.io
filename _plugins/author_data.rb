@@ -8,7 +8,7 @@ module SiteData
 
     def initialize(test_path = nil)
       @test_path = test_path
-      @basepath = @test_path ? @test_path : Dir.pwd
+      @basepath = @test_path || Dir.pwd
 
       @path = File.join(@basepath, '_authors')
       cwd = File.dirname(__FILE__)
