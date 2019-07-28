@@ -35,12 +35,13 @@ jobs:
   accessibility:
     docker:
       - image: circleci/ruby:2.6.3-node-browsers
+    environment:
+      PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 1
     steps:
       - checkout
       - restore_cache:
           keys:
             - v1-dependencies-{{ checksum "Gemfile.lock" }}
-      - run: export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=1
       - run: sudo npm install -g pa11y
       - run: bundle install
       - run: bundle exec jekyll build
