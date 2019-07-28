@@ -73,7 +73,11 @@ module Jekyll
         # puts "L 143 author.rb: No such author: #{input} in #{@page_path}"
         author_data = SiteData::AuthorData.new
         full_name = author_data.fetch(input, 'full_name')
-        full_name || puts "author.rb#team_link: No such author: #{input} in #{@page_path}".red
+        if full_name
+          full_name
+        else
+          puts "author.rb#team_link: No such author: #{input} in #{@page_path}".red
+        end
       else
         name = authors[index].data['name'].downcase
         url = "#{site_url}/author/#{name}"
