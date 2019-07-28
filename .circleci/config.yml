@@ -125,12 +125,8 @@ workflows:
     jobs:
       - yamllint
       - build
-      - accessibility:
-          requires: build
-      # - percy:
-      #     requires: build
-      - test:
-          requires: build
+      - accessibility
+      - test
       - deploy:
           requires:
             - build
