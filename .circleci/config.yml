@@ -114,7 +114,9 @@ jobs:
       - run:
           name: Committing _site into branch ${RELEASE}
           command: git add --force _site && git commit "${DIST_FOLDER}" -m "Build $CIRCLE_BUILD_NUM of ${DIST_FOLDER} by ${GIT_USER}" > /dev/null
-
+      - run:
+          name: Pushing a copy of ${RELEASE} branch to remote ${REMOTE}
+          command: git push "${REMOTE}" "${RELEASE}" --force
 
 workflows:
   version: 2
