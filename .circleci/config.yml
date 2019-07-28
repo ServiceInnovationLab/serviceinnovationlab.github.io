@@ -94,37 +94,21 @@ jobs:
           command: >
             bundle check --path vendor/bundle || bundle install --deployment
       - run: ./bin/deploy-to-gh-pages $CIRCLE_BUILD_NUM
-# **Navigate back to dev & DELETE any local gh-pages branch:**
-# **Still on dev branch, run script:**
-#    ./gh-pages...<no.> script
-# **To get the updates changes on your local machine:**
-#    git fetch
-#    git checkout gh-pages
-# **Checkout the newly created deploy branch:**
-#    git checkout deploy/<n>
-# **While on deploy branch, merge gh-pages into deploy branch:**
-#    git merge gh-pages
-# **Push remote's changes to merge with deploy branch on GitHub
-#  & create PR to Master:**
-#    git push origin gh-pages
-# **Once approved, merge PR to Master & the new changes should
-#  be pushed LIVE!!!**
 
 workflows:
   version: 2
-  accessibility:
-    jobs:
-      - accessibility
-  linting:
-    jobs:
-      - yamllint
   # visual:
   #   jobs:
-  #     - percy
   build_and_deploy:
     jobs:
-      - test
+      - yamllint
       - build
+      - accessibility:
+          requires: build
+      # - percy:
+      #     requires: build
+      - test:
+          requires: build
       - deploy:
           requires:
             - build
