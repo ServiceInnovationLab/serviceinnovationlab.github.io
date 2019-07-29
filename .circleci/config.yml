@@ -91,6 +91,10 @@ jobs:
       - restore_cache:
           keys:
             - v1-dependencies-{{ checksum "Gemfile.lock" }}
+      - run:
+          name: Install dependencies
+          command: >
+            bundle check --path vendor/bundle || bundle install --deployment
       - add_ssh_keys:
           fingerprints:
             - "eb:35:35:3f:6f:f5:45:2e:e3:16:15:33:02:02:81:ea"
