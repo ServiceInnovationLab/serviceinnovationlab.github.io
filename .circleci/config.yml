@@ -151,5 +151,4 @@ workflows:
           filters:
             branches:
               only:
-                - circleci-deploy
                 - dev
