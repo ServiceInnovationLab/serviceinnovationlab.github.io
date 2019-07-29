@@ -1,4 +1,4 @@
-extends: relaxed
+extends: default
 
 ignore: |
   vendor/bundle
