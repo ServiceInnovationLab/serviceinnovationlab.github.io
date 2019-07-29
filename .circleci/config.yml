@@ -42,7 +42,8 @@ jobs:
       - restore_cache:
           keys:
             - v1-dependencies-{{ checksum "Gemfile.lock" }}
-      - run: sudo npm install -g pa11y-ci
+      - run: sudo npm install -g pa11y-ci --unsafe-perm=true --allow-root
+
       - run: bundle install
       - run: bundle exec jekyll build
       - run: pa11y-ci ./_site/
