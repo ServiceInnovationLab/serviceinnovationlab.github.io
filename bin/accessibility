@@ -2,12 +2,12 @@
 
 bundle exec jekyll build
 
-# set -euv
+set -euv
 
 FILES=`find "./_site" | grep html`
 
 for file in $FILES
 do
   echo "============== checking $file"
-  pa11y-ci $file
+  pa11y-ci $file || exit 1
 done
