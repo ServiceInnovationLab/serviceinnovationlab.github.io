@@ -111,6 +111,8 @@ jobs:
             git checkout -b "${RELEASE_BRANCH}"
             git add --force _site && git commit "${DIST_FOLDER}" -m "Build $CIRCLE_BUILD_NUM of ${DIST_FOLDER} by ${GIT_USER}"
             git push "${REMOTE}" "${RELEASE_BRANCH}" --force
+            git push "${REMOTE}" ":${PUBLISH_BRANCH}"
+            git subtree push --prefix "${DIST_FOLDER}" "${REMOTE}" "${PUBLISH_BRANCH}"
 
 workflows:
   version: 2
