@@ -13,4 +13,3 @@ redirect_from: "/team/PERSON/"
 alumni: true
 published: true
 ---
-
