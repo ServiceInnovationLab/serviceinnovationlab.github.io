@@ -120,11 +120,26 @@ workflows:
   build_and_deploy:
     jobs:
       - yamllint
+          filters:
+            branches:
+              ignore:
+                - master
+                - gh-pages
       - build
+          filters:
+            branches:
+              ignore:
+                - master
+                - gh-pages
       # - accessibility:
       #     requires:
       #       - build
       - test
+          filters:
+            branches:
+              ignore:
+                - master
+                - gh-pages
       # - percy
       #     requires:
       #       - build
