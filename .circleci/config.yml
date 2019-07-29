@@ -39,6 +39,7 @@ jobs:
   #     - restore_cache:
   #         keys:
   #           - v1-dependencies-{{ checksum "Gemfile.lock" }}
+  #         - v1-site-build-{{ git rev-parse HEAD }}
   #     - run: sudo npm install -g pa11y-ci --unsafe-perm=true --allow-root
 
   #     - run: bundle install
@@ -53,15 +54,8 @@ jobs:
             - v1-dependencies-{{ checksum "Gemfile.lock" }}
             - v1-site-build-{{ git rev-parse HEAD }}
       - run:
-          name: Install dependencies
-          command: >
-            bundle check --path vendor/bundle || bundle install --deployment
-      - run:
-          name: Build the static site
-          command: bundle exec jekyll build
-      - run:
           name: Visual Tests
-          command: npx percy snapshot _site
+          command: npx percy snapshot ./_site
   build:
     docker:
       - image: circleci/ruby:2.6.3-node
