@@ -93,9 +93,6 @@ jobs:
           fingerprints:
             - "eb:35:35:3f:6f:f5:45:2e:e3:16:15:33:02:02:81:ea"
       - run:
-          name: Install dependencies
-          command: bundle check --path vendor/bundle || bundle install --deployment
-      - run:
           name: Building static site
           command: bundle exec jekyll build
 
