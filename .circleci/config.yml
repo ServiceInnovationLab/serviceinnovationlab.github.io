@@ -119,13 +119,13 @@ workflows:
   version: 2
   build_and_deploy:
     jobs:
-      - yamllint
+      - yamllint:
           filters:
             branches:
               ignore:
                 - master
                 - gh-pages
-      - build
+      - build:
           filters:
             branches:
               ignore:
@@ -134,7 +134,7 @@ workflows:
       # - accessibility:
       #     requires:
       #       - build
-      - test
+      - test:
           filters:
             branches:
               ignore:
