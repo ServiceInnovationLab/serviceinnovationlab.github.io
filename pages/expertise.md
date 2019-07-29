@@ -2,7 +2,6 @@
 title: Expertise
 permalink: /expertise/
 layout: hww-primary
-banner_cta: true
 content_focus: false
 lead: Together, we create a unified team by pairing our technical expertise with your program knowledge.
 ---
