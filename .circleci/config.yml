@@ -129,4 +129,6 @@ workflows:
             - test
           filters:
             branches:
-              only: circleci-deploy
+              only:
+                - circleci-deploy
+                - dev
