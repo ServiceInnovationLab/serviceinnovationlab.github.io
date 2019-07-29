@@ -14,10 +14,7 @@ jobs:
           command: >
             bundle check --path vendor/bundle || bundle install --deployment
       - run: bundle exec jekyll test
-      - save_cache:
-          key: v1-dependencies-{{ checksum "Gemfile.lock" }}
-          paths:
-            - vendor/bundle
+
   yamllint:
     docker:
       - image: circleci/python:3.7.2
@@ -54,6 +51,7 @@ jobs:
       - restore_cache:
           keys:
             - v1-dependencies-{{ checksum "Gemfile.lock" }}
+            - v1-site-build-{{ git rev-parse HEAD }}
       - run:
           name: Install dependencies
           command: >
@@ -76,7 +74,17 @@ jobs:
           name: Install dependencies
           command: >
             bundle check --path vendor/bundle || bundle install --deployment
-      - run: bundle exec jekyll build
+      - run:
+          name: Build site
+          command: bundle exec jekyll build
+      - save_cache:
+          key: v1-dependencies-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
+      - save_cache:
+          key: v1-site-build-{{ git rev-parse HEAD }}
+          paths:
+            - _site
   deploy:
     docker:
       - image: circleci/ruby:2.6.3-node
