@@ -32,20 +32,20 @@ jobs:
       - run:
           name: Yaml linter
           command: yamllint .
-  accessibility:
-    docker:
-      - image: circleci/ruby:2.6.3-node-browsers
-    environment:
-      PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 1
-    steps:
-      - checkout
-      - restore_cache:
-          keys:
-            - v1-dependencies-{{ checksum "Gemfile.lock" }}
-      - run: sudo npm install -g pa11y-ci --unsafe-perm=true --allow-root
+  # accessibility:
+  #   docker:
+  #     - image: circleci/ruby:2.6.3-node-browsers
+  #   environment:
+  #     PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 1
+  #   steps:
+  #     - checkout
+  #     - restore_cache:
+  #         keys:
+  #           - v1-dependencies-{{ checksum "Gemfile.lock" }}
+  #     - run: sudo npm install -g pa11y-ci --unsafe-perm=true --allow-root
 
-      - run: bundle install
-      - run: ./bin/accessibility
+  #     - run: bundle install
+  #     - run: ./bin/accessibility
   # percy:
   #   docker:
   #     - image: circleci/ruby:2.6.3-node-browsers
@@ -119,9 +119,9 @@ workflows:
     jobs:
       - yamllint
       - build
-      - accessibility:
-          requires:
-            - build
+      # - accessibility:
+      #     requires:
+      #       - build
       - test
       - deploy:
           requires:
