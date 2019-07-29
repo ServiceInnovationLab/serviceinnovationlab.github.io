@@ -44,18 +44,18 @@ jobs:
 
   #     - run: bundle install
   #     - run: ./bin/accessibility
-  percy:
-    docker:
-      - image: circleci/ruby:2.6.3-node-browsers
-    steps:
-      - checkout
-      - restore_cache:
-          keys:
-            - v1-dependencies-{{ checksum "Gemfile.lock" }}
-            - v1-site-build-{{ git rev-parse HEAD }}
-      - run:
-          name: Visual Tests
-          command: npx percy snapshot ./_site
+  # percy:
+  #   docker:
+  #     - image: circleci/ruby:2.6.3-node-browsers
+  #   steps:
+  #     - checkout
+  #     - restore_cache:
+  #         keys:
+  #           - v1-dependencies-{{ checksum "Gemfile.lock" }}
+  #           - v1-site-build-{{ git rev-parse HEAD }}
+  #     - run:
+  #         name: Visual Tests
+  #         command: npx percy snapshot ./_site
   build:
     docker:
       - image: circleci/ruby:2.6.3-node
@@ -121,14 +121,14 @@ workflows:
       #     requires:
       #       - build
       - test
-      - percy
-          requires:
-            - build
+      # - percy
+      #     requires:
+      #       - build
       - deploy:
           requires:
             - build
             - test
-            - percy
+            # - percy
           filters:
             branches:
               only:
