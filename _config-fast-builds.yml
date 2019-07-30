@@ -29,7 +29,6 @@ exclude:
   - favicon.ico
   - feed*
   - Gemfile*
-  - humans.txt
   - ISSUE_TEMPLATE.md
   - killport
   - LICENSE.md
