@@ -5,6 +5,6 @@ last_name: Wallace
 full_name: Brenda Wallace
 role: Technology Lead
 image: 
-status: active
+active: true
 # published: true
 ---

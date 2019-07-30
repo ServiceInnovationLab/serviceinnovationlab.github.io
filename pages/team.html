@@ -23,7 +23,7 @@ permalink: /team/
 
         <!-- {% assign teamMember = site | find_collection: 'authors' | where: 'slug', include.author | first %} -->
         {% for teamMember in site.authors %}
-          {% if teamMember.status == 'active' %}
+          {% if teamMember.active ==  true %}
           <article class="card {{ wds_grid_class }} nz-width-tablet">
             <div class="card-link" data-href="{{ card_link }}" tabindex="0">
               <div class="card-banner">

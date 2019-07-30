@@ -5,6 +5,6 @@ last_name: Ong
 full_name: Jacob Ong
 role: Developer
 image: 
-status: active
+active: true
 # published: true
 ---
