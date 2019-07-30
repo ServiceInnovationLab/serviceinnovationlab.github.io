@@ -41,7 +41,6 @@ exclude:
   - search-index*
   - sitemap.xml
   - spec/
-  - system-security-plan.yml
   - tests/
   - tests/schema/tags.yml
   - tmp/

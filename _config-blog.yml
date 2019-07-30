@@ -29,7 +29,6 @@ exclude:
   - robots.txt
   - search-index*
   - spec/
-  - system-security-plan.yml
   - tests/
   - tests/schema/tags.yml
   - tmp/

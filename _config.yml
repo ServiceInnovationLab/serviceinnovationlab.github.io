@@ -141,7 +141,6 @@ exclude:
   - PULL_REQUEST_TEMPLATE.md
   - README.md
   - spec/
-  - system-security-plan.yml
   - tests/
   - tests/schema/tags.yml
   - tmp/
