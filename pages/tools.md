@@ -5,10 +5,6 @@ layout: primary
 lead: Websites, applications, and strategies that help agencies provide excellent value to the public.
 content_wide: true
 content_focus: false
-redirect_from:
-  - /consulting/
-  - /what-we-deliver/military-onesource/
-banner_cta: true
 gridless: true
 ---
 <style>
