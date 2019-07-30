@@ -84,7 +84,7 @@ jobs:
       - image: circleci/ruby:2.6.3-node
     environment:
       DIST_FOLDER: '_site'
-      PUBLISH_BRANCH: 'gh-pages'
+      PUBLISH_BRANCH: 'master'
       REMOTE: origin
     steps:
       - checkout
