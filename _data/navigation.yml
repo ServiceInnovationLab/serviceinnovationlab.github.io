@@ -1,32 +1,32 @@
 ---
 navbar:
-- text: About
-  permalink: /about/
-- text: Expertise
-  permalink: /expertise/
-- text: Projects
-  permalink: /projects/
-  multiple_permalinks:
-    - /projects/:path/
-- text: Tools
-  permalink: /tools/
-- text: Team
-  permalink: /team/
-- text: Contact
-  permalink: /contact/
-  
+  - text: About
+    permalink: /about/
+	- text: Expertise
+  	permalink: /expertise/
+	- text: Projects
+  	permalink: /projects/
+  	multiple_permalinks:
+    	- /projects/:path/
+	- text: Tools
+  	permalink: /tools/
+	- text: Team
+  	permalink: /team/
+	- text: Contact
+  	permalink: /contact/
+
 drawer:
-- text: About
-  permalink: /about/
-- text: Expertise
-  permalink: /expertise/
-- text: Projects
-  permalink: /projects/
-  multiple_permalinks:
-    - /projects/:path/
-- text: Tools
-  permalink: /tools/
-- text: Team
-  permalink: /team/
-- text: Contact
-  permalink: /contact/
+	- text: About
+  	permalink: /about/
+	- text: Expertise
+  	permalink: /expertise/
+	- text: Projects
+  	permalink: /projects/
+  	multiple_permalinks:
+	    - /projects/:path/
+	- text: Tools
+	  permalink: /tools/
+	- text: Team
+	  permalink: /team/
+	- text: Contact
+	  permalink: /contact/
