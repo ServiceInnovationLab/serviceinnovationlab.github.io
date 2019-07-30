@@ -30,7 +30,7 @@ layout: primary
 - _Select_ the **Radio Button** corresponding to the text "Create a new branch for this commit and start a pull request.". You should then see a box appear. _Type in_ a name for the branch which you are creating, then _click on_ the **Propose file change** button.
 - You should then be re-directed to another page entitled **Open a pull request** & the name for the branch that you created should appear in the **Title textfield**. _Enter_ a comment in the **textfield** describing what changes you have made.
 - On the right-hand side, you should _see_ **Reviewers**. _Click on_ the **cog** & _select_ someone from the list that could approve the changes. Once done, _find_ the **Create pull request button** (green button) & _click it).
-- Your Pull Request (PR) should be "sent" to the reviewer(s) that you have chosen to review & once it's approved you should see your changes on the Live site.
+- Your Pull Request (PR) should be "sent" to the reviewer(s) that you have chosen to review & once it's approved you should see your changes on the Live site. **Note:** It is good practice to have at least 2 people to review your PR.
 
 ___
 2. **To Add your details:** Ensure that you are on the **dev** branch, then _navigate to_ **_authors**.
@@ -55,4 +55,4 @@ status: active
 - _Select_ the **Radio Button** corresponding to the text "Create a new branch for this commit and start a pull request.". You should then see a box appear. _Type in_ a name for the branch which you are creating, then _click on_ the **Propose file change** button.
 - You should then be re-directed to another page entitled **Open a pull request** & the name for the branch that you created should appear in the **Title textfield**. _Enter_ a comment in the **textfield** describing what changes you have made.
 - On the right-hand side, you should _see_ **Reviewers**. _Click on_ the **cog** & _select_ someone from the list that could approve the changes. Once done, _find_ the **Create pull request button** (green button) & _click it).
-- Your Pull Request (PR) should be "sent" to the reviewer(s) that you have chosen to review & once it's approved you should see your changes on the Live site.
+- Your Pull Request (PR) should be "sent" to the reviewer(s) that you have chosen to review & once it's approved you should see your changes on the Live site. **Note:** It is good practice to have at least 2 people to review your PR.
