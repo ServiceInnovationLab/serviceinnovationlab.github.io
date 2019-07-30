@@ -23,7 +23,7 @@ drawer:
   - text: Projects
     permalink: /projects/
     multiple_permalinks:
-    - /projects/:path/
+      - /projects/:path/
   - text: Tools
     permalink: /tools/
   - text: Team
