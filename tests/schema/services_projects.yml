@@ -7,10 +7,10 @@ permalink: String
 config:
   path: _services_projects
   ignore:
-  - README.md
-  - ..
-  - .
-  - .DS_Store
+    - README.md
+    - ..
+    - .
+    - .DS_Store
   optional:
     - agency
     - image

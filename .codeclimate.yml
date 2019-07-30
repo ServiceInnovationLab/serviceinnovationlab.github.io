@@ -1,3 +1,4 @@
+---
 engines:
   eslint:
     enabled: true
@@ -19,21 +20,21 @@ engines:
     enabled: true
     config:
       languages:
-      - ruby
-      - javascript
+        - ruby
+        - javascript
   fixme:
     enabled: true
 ratings:
   paths:
-  - "**.rb"
-  - "**.js"
-  - "**.sass"
-  - "**.haml"
-  - "**.css"
-  - "**.scss"
-  - Gemfile.lock
+    - "**.rb"
+    - "**.js"
+    - "**.sass"
+    - "**.haml"
+    - "**.css"
+    - "**.scss"
+    - Gemfile.lock
 exclude_patterns:
-- "_sass/_libs/wds/js/vendor/*"
-- "assets/js/jekyll-pages-api-search.js"
-- "assets/js/jquery.min.js"
-- "assets/js/sticky.js"
+  - "_sass/_libs/wds/js/vendor/*"
+  - "assets/js/jekyll-pages-api-search.js"
+  - "assets/js/jquery.min.js"
+  - "assets/js/sticky.js"

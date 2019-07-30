@@ -1,20 +1,154 @@
+---
 version: 2
 jobs:
-  build:
+  test:
     docker:
-      - image: circleci/ruby:2.3-node
-    environment:
-      ACCESSLINT_MASTER_BRANCH: dev
+      - image: circleci/ruby:2.6.3-node
     steps:
       - checkout
-      - run: bundle install
-      - run: npm install
-      - run: npm run test
-      - run: npm run htmlproofer
-      - run: bundle exec rspec
-      # - run: ./serve-accesslint && bundle exec accesslint-ci scan http://localhost:4000/site
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "Gemfile.lock" }}
+      - run:
+          name: Install dependencies
+          command: >
+            bundle check --path vendor/bundle || bundle install --deployment
+      - run: bundle exec jekyll test
+
+  yamllint:
+    docker:
+      - image: circleci/python:3.7.2
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "Gemfile.lock" }}
+      - run:
+          name: Install yamllint
+          command: sudo pip install --upgrade yamllint
+      - run:
+          name: Yaml linter
+          command: yamllint .
+  # accessibility:
+  #   docker:
+  #     - image: circleci/ruby:2.6.3-node-browsers
+  #   environment:
+  #     PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 1
+  #   steps:
+  #     - checkout
+  #     - restore_cache:
+  #         keys:
+  #           - v1-dependencies-{{ checksum "Gemfile.lock" }}
+  #         - v1-site-build-{{ git rev-parse HEAD }}
+  #     - run: sudo npm install -g pa11y-ci --unsafe-perm=true --allow-root
+
+  #     - run: bundle install
+  #     - run: ./bin/accessibility
+  # percy:
+  #   docker:
+  #     - image: circleci/ruby:2.6.3-node-browsers
+  #   steps:
+  #     - checkout
+  #     - restore_cache:
+  #         keys:
+  #           - v1-dependencies-{{ checksum "Gemfile.lock" }}
+  #           - v1-site-build-{{ git rev-parse HEAD }}
+  #     - run:
+  #         name: Visual Tests
+  #         command: npx percy snapshot ./_site
+  build:
+    docker:
+      - image: circleci/ruby:2.6.3-node
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "Gemfile.lock" }}
+      - run:
+          name: Install dependencies
+          command: >
+            bundle check --path vendor/bundle || bundle install --deployment
+      - run:
+          name: Build site
+          command: bundle exec jekyll build
+      - save_cache:
+          key: v1-dependencies-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
+      - save_cache:
+          key: v1-site-build-{{ git rev-parse HEAD }}
+          paths:
+            - _site
+  deploy:
+    docker:
+      - image: circleci/ruby:2.6.3-node
+    environment:
+      DIST_FOLDER: '_site'
+      PUBLISH_BRANCH: 'gh-pages'
+      REMOTE: origin
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "Gemfile.lock" }}
+      - run:
+          name: Install dependencies
+          command: >
+            bundle check --path vendor/bundle || bundle install --deployment
+      - add_ssh_keys:
+          fingerprints:
+            - "eb:35:35:3f:6f:f5:45:2e:e3:16:15:33:02:02:81:ea"
+      - run:
+          name: Building static site
+          command: bundle exec jekyll build
+
+      - run:
+          name: Create release branch
+          command: |
+            git config --global user.email "labplus@dia.govt.nz"
+            git config --global user.name "Lab Plus"
+            export RELEASE_BRANCH="release-${CIRCLE_BUILD_NUM}"
+            export GIT_USER=$(git config user.name)
+            git checkout -b "${RELEASE_BRANCH}"
+            git add --force _site && git commit "${DIST_FOLDER}" -m "Build $CIRCLE_BUILD_NUM of ${DIST_FOLDER} by ${GIT_USER}"
+            git push "${REMOTE}" "${RELEASE_BRANCH}"
+            git push "${REMOTE}" ":${PUBLISH_BRANCH}"
+            git subtree push --prefix "${DIST_FOLDER}" "${REMOTE}" "${PUBLISH_BRANCH}"
+
 workflows:
   version: 2
-  commit:
+  build_and_deploy:
     jobs:
-      - build
+      - yamllint:
+          filters:
+            branches:
+              ignore:
+                - master
+                - gh-pages
+      - build:
+          filters:
+            branches:
+              ignore:
+                - master
+                - gh-pages
+      # - accessibility:
+      #     requires:
+      #       - build
+      - test:
+          filters:
+            branches:
+              ignore:
+                - master
+                - gh-pages
+      # - percy
+      #     requires:
+      #       - build
+      - deploy:
+          requires:
+            - build
+            - test
+            # - percy
+          filters:
+            branches:
+              only:
+                - dev
