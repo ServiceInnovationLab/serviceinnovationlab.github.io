@@ -18,7 +18,6 @@ exclude:
   - favicon.ico
   - feed*
   - Gemfile*
-  - humans.txt
   - ISSUE_TEMPLATE.md
   - killport
   - LICENSE.md
@@ -30,7 +29,6 @@ exclude:
   - robots.txt
   - search-index*
   - spec/
-  - system-security-plan.yml
   - tests/
   - tests/schema/tags.yml
   - tmp/
