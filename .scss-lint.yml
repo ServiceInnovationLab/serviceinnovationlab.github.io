@@ -1,3 +1,4 @@
+---
 linters:
   BangFormat:
     enabled: true
@@ -60,7 +61,7 @@ linters:
   NameFormat:
     enabled: true
     allow_leading_underscore: true
-    convention: hyphenated_lowercase # or 'camel_case', or 'snake_case', or a regex pattern
+    convention: hyphenated_lowercase  # or 'camel_case', or 'snake_case', or a regex pattern
   NestingDepth:
     enabled: true
     max_depth: 4
@@ -90,7 +91,7 @@ linters:
     max_depth: 2
     severity: warning
   SelectorFormat:
-    enabled: false # strict_BEM doesn't seem to be supported by Hound
+    enabled: false  # strict_BEM doesn't seem to be supported by Hound
     convention: strict_BEM
   Shorthand:
     enabled: true

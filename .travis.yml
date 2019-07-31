@@ -1,9 +1,0 @@
-sudo: required
-language: ruby
-# cache:
-#   bundler: true
-script:
-- bundle install
-- bundle exec jekyll test
-- bundle exec jekyll build
-# - bundle exec rubocop

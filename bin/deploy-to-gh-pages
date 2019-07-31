@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+set -euv
 
 # based on https://gist.github.com/cobyism/4730490
 
@@ -38,6 +38,9 @@ echo
 echo "Committing _site into branch ${RELEASE}"
 git add --force _site && git commit "${DIST_FOLDER}" -m "Build $1 of ${DIST_FOLDER} by ${GIT_USER}" > /dev/null
 
+git remote show origin
+git fetch
+
 echo
 echo "Pushing a copy of ${RELEASE} branch to remote ${REMOTE}"
 git push "${REMOTE}" "${RELEASE}" --force > /dev/null
@@ -45,12 +48,12 @@ git push "${REMOTE}" "${RELEASE}" --force > /dev/null
 ## Can't force push this, so we delete the branch then push newly made one.
 echo
 echo "Removing existing ${PUBLISH_BRANCH} branch on remote ${REMOTE}"
-git push "${REMOTE}" ":${PUBLISH_BRANCH}"
+# git push "${REMOTE}" ":${PUBLISH_BRANCH}"
 
 echo
 echo "Moving ${DIST_FOLDER} files to / in branch ${PUBLISH_BRANCH}"
-git subtree push --prefix "${DIST_FOLDER}" "${REMOTE}" "${PUBLISH_BRANCH}"
+# git subtree push --prefix "${DIST_FOLDER}" "${REMOTE}" "${PUBLISH_BRANCH}"
 
-echo
-echo "Returning to dev branch"
-git checkout dev
+# echo
+# echo "Returning to dev branch"
+# git checkout dev
