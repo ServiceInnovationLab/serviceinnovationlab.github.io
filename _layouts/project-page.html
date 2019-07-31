@@ -5,14 +5,12 @@ header_border: true
 
 {% assign matching_posts = page | match_posts | sort:'date' | reverse %}
 
-
 {% include breadcrumb.html
   parent_permalink='/projects/'
   parent_title='Projects'
 %}
 
 <section class="page-tag-results project">
-
   <section class="background-medium">
     <div class="nz-grid-full nz-flex banner">
       <div class="nz-grid {% if page.image %}nz-width-one-half{% else %}nz-width-one-whole{% endif %} hero-callout-full hero-callout-no_button">
@@ -88,7 +86,6 @@ header_border: true
             </ul>
         </li>
         {% endif %}
-
 
         {% if page.resources.size > 0 %}
         <li class="section-info-list-item">

@@ -23,7 +23,6 @@ width: 200px;
 
   <body class="{% if page.type == "tag"%}tag-{% endif %}page-{{ page.title | slugify }}
   {% if page.header_border == true or layout.header_border == true %}header_border{% endif %} {% if page.path contains '_posts' %}single-post{% endif %}">
-
     {% unless layout.title == 'SIL UI Styleguide' %}
     <a class="skipnav" href="#main-content">Skip to main content</a>
     <header role="banner"> <!--#425eb2#425eb2-->
