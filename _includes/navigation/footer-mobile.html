@@ -5,16 +5,16 @@
         Site menu
       </button>
       <ul id="amendment-1" class="nz-accordion-content nz-sidenav-sub_list">
-      {% for item in include.nav_items %}
-        <li>
-          {% if item.permalink %}
-            {% assign item_link = item.permalink | prepend: site.baseurl %}
-          {% else %}
-            {% assign item_link = item.text | slugify | hash_link | prepend: site.baseurl %}
-          {% endif %}
-          <a href="{{ item_link }}">{{ item.text }}</a>
-        </li>
-      {% endfor %}
+        {% for item in include.nav_items %}
+          <li>
+            {% if item.permalink %}
+              {% assign item_link = item.permalink | prepend: site.baseurl %}
+            {% else %}
+              {% assign item_link = item.text | slugify | hash_link | prepend: site.baseurl %}
+            {% endif %}
+            <a href="{{ item_link }}">{{ item.text }}</a>
+          </li>
+        {% endfor %}
       </ul>
     </li>
   </ul>

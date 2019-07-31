@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 {% assign matching_posts = page | match_posts:'authors' | sort:'date' | reverse %}
 
 <section class="background-gray nz-section section-intro">
