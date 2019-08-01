@@ -79,9 +79,6 @@ jobs:
       - image: circleci/python:3.7.2
     steps:
       - checkout
-      - restore_cache:
-          keys:
-            - v1-ruby-deps-{{ checksum "Gemfile.lock" }}
       - run:
           name: Install yamllint
           command: sudo pip install --upgrade yamllint
