@@ -1,0 +1,30 @@
+{
+  "name": "serviceinnovationlab.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "tests"
+  },
+  "dependencies": {
+    "markdownlint": "^0.15.0"
+  },
+  "devDependencies": {
+    "markdownlint-cli": "^0.17.0",
+    "pa11y-ci": "^2.3.0"
+  },
+  "scripts": {
+    "test-pa11y": "./bin/accessibility",
+    "test-markdown": "./bin/markdown"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ServiceInnovationLab/serviceinnovationlab.github.io.git"
+  },
+  "author": "",
+  "license": "see LICENCE.md",
+  "bugs": {
+    "url": "https://github.com/ServiceInnovationLab/serviceinnovationlab.github.io/issues"
+  },
+  "homepage": "https://github.com/ServiceInnovationLab/serviceinnovationlab.github.io#readme"
+}

@@ -9,5 +9,5 @@ FILES=$(find "./_site" | grep html)
 for file in $FILES
 do
   echo "============== checking $file"
-  pa11y-ci "$file" || exit 1
+  ./node_modules/.bin/pa11y-ci "$file" || exit 1
 done
