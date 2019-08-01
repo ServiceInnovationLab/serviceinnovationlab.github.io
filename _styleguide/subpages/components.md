@@ -13,7 +13,9 @@ subnav_items:
 ### Buttons
 
 {% capture styleguide_buttons %}
+
 #### Style on white
+
 <section class="nz-grid">
   <button class="nz-button">Normal</button>
   <button class="nz-button-hover">Hover</button>
@@ -23,6 +25,7 @@ subnav_items:
 </section>
 
 #### Style on dark
+
 <section class="background-dark nz-grid">
   <button class="nz-button nz-button-secondary">Normal</button>
   <button class="nz-button-hover nz-button-secondary">Hover</button>
@@ -32,9 +35,9 @@ subnav_items:
 </section>
 
 #### Using anchor tags instead of buttons
+
 <a class="nz-button nz-button-secondary" href="{{ dead_end_link }}">Normal</a>
 {% endcapture %}
-
 
 {% include details-code.html
    title='buttons'
@@ -49,7 +52,9 @@ subnav_items:
 The site breadcrumb can be used to establish a sense of place within the site. It is only included in the `primary` layout by default, but can be added to any layout or custom page as needed.
 
 {% capture styleguide_breadcrumb %}{% raw %}
+
 #### Specifying all attributes
+
 {% include breadcrumb.html
   parent_permalink=page.parent_permalink
   parent_title=page.title
@@ -57,6 +62,7 @@ The site breadcrumb can be used to establish a sense of place within the site. I
   background_class='background-gray'
 %}
 #### Specifying only needed attributes
+
 `parent_permalink` is set as a page attribute in this example, so it doesn't need to be directly included.
 {% include breadcrumb.html
   parent_title=page.title
@@ -67,6 +73,7 @@ The site breadcrumb can be used to establish a sense of place within the site. I
 
 {% capture breadcrumb_description %}
 The breadcrumb include requires a few attributes to make it appear properly. They can be directly included in the include as variables or text, or left empty if those attributes are defined on the page itself.
+
 * `parent_title`: Title of the parent page as it should appear on the breadcrumb link
 * `parent_permalink`: This is the link that the parent page goes to
 * `page_title`: Title of the page as it should appear on the breadcrumb
@@ -99,11 +106,11 @@ The card component is used as a preview for project pages, but could be adapted 
 </div>
 {% endraw %}{% endcapture %}
 
-
 {% capture card_description %}
 To use cards, reference the file path slug in the `projects directory`. Use another project as a template to fill in all of the necessary fields.
 
 Each project card has a number of properties. The only required properties are:
+
 * `image_src`: the project `image` field, and is the image portion of the card
 * `image_alt`: the project `image_accessibility` field. Will be used to set the `alt` attribute on the provided image
 * `agency`: the project `agency` field. This will be the uppercase text
@@ -122,7 +129,6 @@ Each project card has a number of properties. The only required properties are:
 
 ### Sticky subnavigation
 
-
 The sticky subnavigation is a pattern that is used frequently throughout the site to make larger bodies of content easier to navigate. The [About page]({{ site.baseurl }}/about/) is good example of the sticky subnavigation in the live site.
 
 #### What is it?
@@ -140,11 +146,9 @@ The sticky subnavigation is a pattern that is used frequently throughout the sit
   </aside>
   <section class="nz-width-two-thirds">
     <h3 id="heading-one">Heading one</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     <h3 id="heading-two">Heading two</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
   </section>
 </div>
 {% endraw %}{% endcapture %}
@@ -166,7 +170,9 @@ There are a few classes that we are using for the sticky subnavigation on the SI
 * The `nz-width-one-third` grid class to define the width of our navigaton field. This isn't necessary, but is a convention throughout the site.
 
 #### What to add where
+
 To add items to the subnavigation define the subnavigation items directly within page [frontmatter](https://jekyllrb.com/docs/frontmatter/), as a set of `nav_items`:
+  
   ```yml
   subnav_items:
     - text: Heading one
@@ -174,6 +180,7 @@ To add items to the subnavigation define the subnavigation items directly within
     - text: Heading two
       permalink: /styleguide/sticky-subnavigation/#heading-two
   ```
+
 {% endcapture %}
 
 {% include details-code.html
@@ -183,12 +190,11 @@ To add items to the subnavigation define the subnavigation items directly within
    description=sticky_description
 %}
 
-
 ---
 
 ### Testimonials and fun facts
 
-Testimonials and fun facts are used throughout the site to highlight the impact SIL has made with our partner agencies. You can find the styling used on the home page, how we work, and various project pages. 
+Testimonials and fun facts are used throughout the site to highlight the impact SIL has made with our partner agencies. You can find the styling used on the home page, how we work, and various project pages.
 
 {% capture testimonial_codeblock %}{% raw %}
 
@@ -205,10 +211,10 @@ Testimonials and fun facts are used throughout the site to highlight the impact 
 
 {% capture testimonial_description %}
 
-#### How to use
+#### How to use?
 
-- For a testimonial: Add the class `testimonial-blockquote` to the element (ex. `div`) that holds the quote. This will place the large quote mark before the content. Place the name, position, and agency within the `<span>` tag. This bolds, adds color, and removes italics to the text. 
-- For a fun fact: Add the class `funfact-blockquote` to the element (ex. `div`) that holds the information. This has similar styling to a testimonial but adjusted for just text. 
+* For a testimonial: Add the class `testimonial-blockquote` to the element (ex. `div`) that holds the quote. This will place the large quote mark before the content. Place the name, position, and agency within the `<span>` tag. This bolds, adds color, and removes italics to the text.
+* For a fun fact: Add the class `funfact-blockquote` to the element (ex. `div`) that holds the information. This has similar styling to a testimonial but adjusted for just text.
 
 {% endcapture %}
 

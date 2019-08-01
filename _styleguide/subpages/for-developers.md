@@ -11,6 +11,7 @@ One of the core features of Jekyll is the [Liquid](https://shopify.github.io/liq
 Jekyll and Liquid do quite a bit, but sometimes they aren't enough for a project's specific needs. When the built-in functionality that Jekyll provides isn't enough, it is possible to build or borrow [plugins](https://jekyllrb.com/docs/plugins) to extend Jekyll.
 
 ---
+
 ### Plugin gems
 
 SIL is using several Ruby gems plugins:
@@ -31,6 +32,7 @@ Plugin gem | Description
 ---
 
 ### Custom plugins
+
 SIL uses many [custom plugins]({{ github_url_master }}/_plugins) for more specific site needs:
 
 Custom plugin name | Description

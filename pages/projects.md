@@ -8,6 +8,12 @@ content_focus: false
 gridless: true
 ---
 
+<style>
+h2 {
+  color:#2337CE;
+}
+</style>
+
 <section class="nz-section background-gray">
 <div class="nz-grid">
     <div class="nz-width-two-thirds">
