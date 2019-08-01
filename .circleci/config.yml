@@ -94,9 +94,10 @@ jobs:
       - restore_cache:
           keys:
             - v1-site-build-{{ .Revision }}
-      # - run: sudo npm install -g pa11y-ci --unsafe-perm=true --allow-root
+            - v1-nodejs-deps-{{ checksum "package-lock.json" }}
       # - run: ./bin/accessibility
-      - run: npx pa11y-ci _site/*.html
+      - run: npm install
+      - run: rpm run test-pa11y
   # percy:
   #   docker:
   #     - image: circleci/ruby:2.6.3-node-browsers
