@@ -12,7 +12,7 @@ excerpt: ""
 
 __Authored by:__ Siobhan McCarthy and Glen Thurston
 
-# Contents
+## Contents
 
 1. [Overview](#Go-to-Overview)
 2. [Background](#Go-to-Background)
@@ -36,11 +36,11 @@ The Service Innovation Working Group (SIWG) within the Digital Government Partne
 
 This collaborative initiative was between DIA as the lead agency (ie business owner) and Local Authorities (ie Councils) supported by the Service Innovation Lab (the Lab) in the delivery of the work through the [Discovery](https://www.ict.govt.nz/guidance-and-resources/accelerate/discovery/) and [Alpha](https://www.ict.govt.nz/guidance-and-resources/accelerate/alpha/) phases.
 
-Through a phase of work called a ‘discovery’ the Rates Rebates service was mapped and reviewed, internal and external stakeholders were interviewed, and potential methods of service delivery were explored. 
+Through a phase of work called a ‘discovery’ the Rates Rebates service was mapped and reviewed, internal and external stakeholders were interviewed, and potential methods of service delivery were explored.
 
 The discovery revealed many opportunities at the system level to improve the experience for both the people applying for their entitlement and people delivering the service. [A minimum viable product](https://en.wikipedia.org/wiki/Minimum_viable_product) (MVP) was designed and developed between March—May 2018 and an online service for rebate applications was trialled in Tauranga from 21 May—30 September 2018 with Tauranga City Council. This phase of work was called an ‘alpha’.
 
-The alpha was focused on testing system changes. Tauranga City Council, Auckland Council was involved with assisting with the design and test of the alpha and numerous councils have been watching progress closely. 
+The alpha was focused on testing system changes. Tauranga City Council, Auckland Council was involved with assisting with the design and test of the alpha and numerous councils have been watching progress closely.
 
 Both the discovery and the alpha identified that there is desirability to progress the alpha service to full production from both an applicant and local councils perspective and the Lab is currently supporting DIA to explore how to transition the alpha to a [Beta](https://www.ict.govt.nz/guidance-and-resources/accelerate/beta/) (ie first live production).
 
@@ -48,7 +48,7 @@ This report incompasses all the work the collaborative team (ie DIA, local autho
 
 ## Background<a name = "Go-to-Background"></a>
 
-### Why was this brought to the Service Innovation Lab?
+### Why was this brought to the Service Innovation Lab
 
 The Rates Rebates entitlement was identified as a proactive entitlement for the Service Innovation Lab to explore by the Service Innovation Working Group.
 
@@ -60,7 +60,7 @@ __Discovery Phase__
 Department of Internal Affairs, Tauranga City Council, Auckland Council, Wellington City Council, Ministry of Social Development, Inland Revenue, Assurity,  Service Innovation Lab.
 
 __Alpha Phase__
-Tauranga City Council, Department of Internal Affairs, Auckland Council, Service Innovation Lab, 
+Tauranga City Council, Department of Internal Affairs, Auckland Council, Service Innovation Lab,
 
 ### The entitlement in numbers<a name = "Go-to-Numbers"></a>
 
@@ -79,7 +79,7 @@ There is not enough data available at this time for us to know:
 How many choose to apply or not.
 
 | Rating year | Maximum rebate | Rebates granted | Value (inc GST) | Average Rebate | Full (maximum) rebates granted | Average rebate granted < maximum |
-| --- | --- | --- | --- | --- | --- |  --- | 
+| --- | --- | --- | --- | --- | --- |  --- |
 | 2010-11 |  $570 | 112,181 | $59,131,590 | $527.11 | 91,941 | $332.27 |
 | 2011-12 | $580 | 115,187 | $62,340,668 | $541.21 | 95,988 | $347.29 |
 | 2012-13 | $590 | 111,021 | $60,231,307 | $542.52 | 90,857 | $328.59 |
@@ -91,7 +91,7 @@ How many choose to apply or not.
 
 ### Rebate amendment<a name = "Go-to-Amendment"></a>
 
-In February 2018 the Rates Rebate Amendment Act 2018 was passed that grants those who live in retirement villages eligibility to receive Rates Rebates, expanding the number of eligible by approximately 25,000. 
+In February 2018 the Rates Rebate Amendment Act 2018 was passed that grants those who live in retirement villages eligibility to receive Rates Rebates, expanding the number of eligible by approximately 25,000.
 
 Data from last year suggests 36,618 people currently live in retirement villages, these are comprised of 28,168 units. Some of these units were already eligible to apply under the old legislation if they were rated separately and in the name of the resident. We don’t have numbers for this but it’s a minority of units, most units are newly covered by the recent legislation.
 
@@ -112,7 +112,7 @@ DIA administer the rebate, are responsible for the paper forms, which they deliv
 
 During the discovery and the alpha phases we explored all aspects of the rates rebate experience from the perspectives of the users or applicants who apply for their entitlement and the people who are involved in the system of facilitating, checking and approving the applications.
 
-__Applicants__
+#### Applicants
 
 - __The complexity of application__ creates a poor customer experience
 - __Lack of awareness of rebate entitlement__ for potential applicants and in social security support systems
@@ -120,10 +120,12 @@ __Applicants__
 The current system is estimated to cost $1m in citizen time alone[^2].
 
 [^2]:Based on Treasury CBAx Cost Benefit Analysis calculator
-- __Issues affecting mobility and access__
-Due to many applicants being over 65 and/or with disabilities, the impact of the requirement of Statutory Declaration in front of a witness impacts accessibility for the core customer group. 
 
-__System__
+- __Issues affecting mobility and access__
+Due to many applicants being over 65 and/or with disabilities, the impact of the requirement of Statutory Declaration in front of a witness impacts accessibility for the core customer group.
+
+#### System
+
 - The process is very __manual__ and involves __costly double handling__. Applicants must fill in the same information and apply every year even when their information does not change.
 - Preventable __cost of implementation to councils__ and wait times for payments back to councils from DIA
 - __Prescriptive legislation__ preventing an end-to-end digital experience
@@ -139,6 +141,7 @@ The discovery sprint included service designers, user researchers and subject ma
 ### Focus points
 
 The team identified the following focus points for the three week sprint.
+
 - __Understand​ ​and​ ​Complement​__ - Previous Rates Rebates insights focused on the process from an applicant perspective, our team will collect and analyse insight from multiple perspectives including Central and Local Government agencies. We are also looking for additional applicant types that have not been spoken to before and understand the size and demographics of the eligibility groups.
 
 - __Local​ ​and​ ​Global​ ​Picture__​ - We are exploring the local and global community and identifying similar concepts, prototypes and entitlement models that we can factor into our concept development.
@@ -174,7 +177,7 @@ Jennifer is a retiree living in a block of flats in Wellington city. She doesn�
 
 ### Supported Living dependant
 
-George lives in a suburb in Tauranga. He suffers from a physical disability, and depends heavily on his support person for any physical activity. Money is tight and he budgets carefully – allocating all of the money that comes in. When there is a delay, it’s a real issue. He has lots of interaction with government to claim various benefits and he is comfortable with doing things online - but he doesn't have his own computer. 
+George lives in a suburb in Tauranga. He suffers from a physical disability, and depends heavily on his support person for any physical activity. Money is tight and he budgets carefully – allocating all of the money that comes in. When there is a delay, it’s a real issue. He has lots of interaction with government to claim various benefits and he is comfortable with doing things online - but he doesn't have his own computer.
 
 ![Supported Living Dependant](/assets/media/Rates-Rebates/RR5.png)
 
@@ -206,7 +209,7 @@ Option 3 was the most popular. People were usually most comfortable with this op
 
 ### The Future of the Rates Rebates Service
 
-In the [Discovery phase](https://www.digital.govt.nz/blog/labplus-rates-rebates-discovery-report/) there were a number of opportunities identified for service improvement. We also identified barriers from the prescriptive legislation, an Act written in 1973, that impacts what is possible for digital service delivery in 2018. 
+In the [Discovery phase](https://www.digital.govt.nz/blog/labplus-rates-rebates-discovery-report/) there were a number of opportunities identified for service improvement. We also identified barriers from the prescriptive legislation, an Act written in 1973, that impacts what is possible for digital service delivery in 2018.
 
 Of the three concepts tested, based on data sharing between agencies to help make the process easier and efficient, option 3 (auto-populate data) was the most popular. People were most comfortable with this option as they felt that it still let them have control, while also making the complex process less work. There are some issues with the legislation around the witnessing of forms, this could prove to be a barrier to this option being easily implemented.
 
@@ -281,16 +284,16 @@ Feedback on the prototypes was very positive. There were many iterations of lang
 > “I didn’t know government things could be like this”
 >   <ol>- User testing</ol>
 
-> “I’m partially blind, so if things are on a computer I can zoom in and read them” 
+> “I’m partially blind, so if things are on a computer I can zoom in and read them”
 >    <ol>- First applicant on Tauranga pilot</ol>
 
-> “That was easy, wasn’t it!” 
+> “That was easy, wasn’t it!”
 >    <ol>- Pilot applicant</ol>
 
 > “I would do it online next time”
 >   <ol>- Pilot applicant</ol>
 
-> “That was easier than I thought!” 
+> “That was easier than I thought!”
 >   <ol>- Pilot applicant </ol>
 
 ### Opportunities for digitising the application
@@ -309,26 +312,26 @@ The application process was entirely digital[^3] and removed the need for paper,
 
 [Appendix 3](#Go-to-Appendix3) shows a physical comparison of the web app vs the current paper application.
 
-# Insights from discovery and alpha <a name = "Go-to-Insights-Discovery-Alpha"></a>
+## Insights from discovery and alpha <a name = "Go-to-Insights-Discovery-Alpha"></a>
 
-## Applicants insights
+### Applicants insights
 
-### Customer segmentation
+#### Customer segmentation
 
 The majority of current applicants are retired, around 80% of applicants receive New Zealand Superannuation. There is a misconception that Rates Rebates require you to be on NZ Superannuation to be eligible.
 
 Supported Living payment recipients and solo parents are another significant demographic of applicants, although more research is needed to confirm demographics due to the lack of information collected on applicants.
 
-### Lack of awareness
+#### Lack of awareness
 
 We believe that there are many ratepayers who are eligible but do not know about the entitlement. Council rebates and contact centre staff are worried that __there are a lot of people out there that need a rebate, but do not know about it__.
 
-Our research showed that many people __find out about the entitlement via word of mouth__. – almost by accident, rather than from direct messaging from Local or Central Government. 
+Our research showed that many people __find out about the entitlement via word of mouth__. – almost by accident, rather than from direct messaging from Local or Central Government.
 Examples from our research include one ratepayer who had experienced a change in their financial situation after being diagnosed with a serious illness, who was informed about the entitlement from a friend who had learnt about Rates Rebates from the doctor.
 
 When rates are not paid, this is a __trigger for the Council to proactively reach out__ to applicants about applying for a rebate. This can often be the way a ratepayer finds out that Rates Rebates exist and that they are entitled to one.
 
-### Complexity
+#### Complexity
 
 Customers do not find completing the application easy or enjoyable. Collating their information and obtaining evidence from other agencies have been identified as a pain point.
 
@@ -341,7 +344,7 @@ Comments from citizens interviewed include:
 
 > “People won’t take the money if the value of the trade is too low” [e.g. time, giving up their personal information]
 
-### Accessibility
+#### Accessibility
 
 Both council staff and ratepayers commented that at peak application time, the service centres become very busy with rebate applicants and described scenes where the lines were long, with many in the lines being elderly and council staff bringing out chairs for those who struggle to stand for too long.
 
@@ -352,7 +355,7 @@ The __requirement and logistics of needing to have the application witnessed__ i
 There is also a user perception that there needs to be options for service delivery other than Digital - __“What if they don’t have a computer?”__
 Applicants asked: __“Why can't you just do it over the phone?”__
 
-### Cultural expectations
+#### Cultural expectations
 
 A common perception from successful applicants was that __there are a lot of people worse off than them__ who are more deserving to get a rebate.
 
@@ -369,21 +372,21 @@ Quotes from applicants interviewed include:
 
 > “It’s embarrassing having to ask [for a rebate] but you are entitled”
 
-### Trust in digital and government
+#### Trust in digital and government
 
 A single poor experience with computers or automated systems can colour how much trust a customer has around automation. Many ratepayers we interviewed mentioned either themselves or someone they know who’d had a bad experience such as either being scammed or having had a poor customer experience with a company with an online component.
 
 Customers often find __correspondence from government threatening__ when it’s addressed to them as an individual.  This can lead to communications about entitlements either being missed or misunderstood, as citizens feel that they will not be contacted by the government unless there is a problem.
 
-## System and process insights
+### System and process insights
 
-### Inefficient process
+#### Inefficient process
 
 The process is very manual and involves __costly double handling__. Applicants must fill in the same information and apply every year even when their information does not change. Applicants often submit incomplete and incorrect forms which compounds problems further.
 
 __Ratepayers find the application confusing__, leading to forms often completed wrongly , or required fields left blank. If this happens, the applicant must be contacted and then the application re-submitted, __delaying when the rebate can be granted__ which is often at a time when it’s needed most. This results in more double handling.
 
-### Cost to council
+#### Cost to council
 
 Councils can be left waiting for DIA payments to come through after they have discounted customers rates. Many councils are also unhappy with the cost of implementing the facilitating and checking of an entitlement application which cost them staff that could be better used in more high value contacts with their ratepayers.
 
@@ -399,11 +402,11 @@ The council representatives __knowledge and willingness to help__ make the diffe
 
 > “Wouldn’t it be great to not need a 50 page handbook” Council staff on understanding Rates Rebate Act (1973) and DIA rules
 
-### Inconsistent messaging from councils
+#### Inconsistent messaging from councils
 
 There are __inconsistencies across councils on implementation__, e.g. when applicants are asked to provide proof, and what information that they give to customers. We mapped information provided on council websites about Rates Rebates and found a large variation in amount and types of information to inform ratepayers about rebates.
 
-### Prescriptive legislation
+#### Prescriptive legislation
 
 The legislation is very prescriptive, making it impossible to create an end-to-end digital service. This is impacting the customer experience. The requirement for a statutory declaration has been identified as a key issue.
 
@@ -420,7 +423,7 @@ Next steps will consist of:
 - Recommendation and decision by DIA to stop or commit to a roadmap for delivery that could include engaging with more Councils, more user testing and research, more development or full development.
 
 DIA as custodian of the Rates Rebates will ultimately make a decision based on the work done and their own priorities on whether or not to continue the development to full production.
-  
+
 The New Zealand Society of Local Government Managers (SOLGM) has made a submission for the Local Government Regulatory Systems Amendment Bill, to better support online applications for rates rebate by removing the requirement for an officer of the council (or anyone) to witness the statutory declaration. This would make the implementation of a truly online application process possible.
 
 The alpha identified in practice how the statutory declaration is out of step with digital service delivery. This issue is being referred to the required Policy teams to investigate if statutory declarations could be replaced for other services as well as the Rates Rebates.
@@ -431,7 +434,7 @@ If the alpha is developed further to production we recommend exploring these are
 
 - Work with Inland Revenue and Ministry of Social Development to allow for __consented income testing__ to make it easier for applicants to prove their income.
 
-- Work with other agencies such as Ministry of Social Development to __integrate the rates rebate application into applications for other services__, such as applying for Jobseekers, Supported Living, NZ Superannuation etc. 
+- Work with other agencies such as Ministry of Social Development to __integrate the rates rebate application into applications for other services__, such as applying for Jobseekers, Supported Living, NZ Superannuation etc.
 
 - __Consistent messaging across agencies__ - After discovering the inconsistent messages about rebates across councils and agencies, there is potential for work to improve consistency across councils on messaging regarding Rates Rebates. We mapped the information across councils with large variations found:
 [https://docs.google.com/spreadsheets/d/1uHktpWj03FKFX0F0Hn7GK9pg1sMxBKaaPfjA8Gd_ra8/edit#gid=0](https://docs.google.com/spreadsheets/d/1uHktpWj03FKFX0F0Hn7GK9pg1sMxBKaaPfjA8Gd_ra8/edit#gid=0)
@@ -463,7 +466,7 @@ The following charts describe the number of claims made for the last three years
 
 Reasons why claims are refused and cancelled include:
 
-- The applicant earned more income than 
+- The applicant earned more income than
 - The application was incorrectly completed
 - The applicant didn’t live at the location advised
 - The applicant had an undeclared partner
@@ -478,17 +481,18 @@ The number of Rates Rebates claimed each year has been dropping. This is a well 
 - __Home Ownership rates lowest in 66 years__
     In 2017 homeownership rates in New Zealand were at the lowest they had been for 66 years at 63.2 percent of people today live in a home they owned, the lowest rate of ownership since the 1951 Census with rates recorded at 61.2 percent[^5].
 - __Awareness of Rates Rebates__
-    There is anecdotal evidence that suggests that awareness of the entitlement is low. Due to current measurement practices we don’t know how many people are eligible and what are the reasons that they don’t apply (eg they choose not to, the application process is seen as complicated and confusing). The later point is consistent problem with most government services or any services for that matter - why does someone not use your service? To answer this question for Rates Rebates would require data analysis and user research. 
+    There is anecdotal evidence that suggests that awareness of the entitlement is low. Due to current measurement practices we don’t know how many people are eligible and what are the reasons that they don’t apply (eg they choose not to, the application process is seen as complicated and confusing). The later point is consistent problem with most government services or any services for that matter - why does someone not use your service? To answer this question for Rates Rebates would require data analysis and user research.
 
-[^5]:Home ownership rates lowest in 66 years according to Statistics NZ - New Zealand Herald https://www.nzherald.co.nz/business/news/article.cfm?c_id=3&objectid=11779664
+[^5]:Home ownership rates lowest in 66 years according to Statistics NZ - New Zealand Herald <https://www.nzherald.co.nz/business/news/article.cfm?c_id=3&objectid=11779664>
 
 - __Cost of housing increasing__
     Stats NZ data shows an upwards trend in the cost of housing since 2007. There has been an 8.0 percent increase in the weekly cost of housing from 2014/2014 to 2015/2016. Stats NZ say that this increase was mostly due to households spending more on mortgage payments (up 12.8 percent) and property rates (up 9.6 percent). In comparison, renting costs over the same period increased by 1.8 percent[^6].
 ![Housing costs as a percentage of total household income](/assets/media/Rates-Rebates/RR16.png)
 
-[^6]:Household expenditure statistics: Year ended June 2016 – corrected, Stats NZ https://www.stats.govt.nz/information-releases/household-expenditure-statistics-year-ended-june-2016
+[^6]:Household expenditure statistics: Year ended June 2016 – corrected, Stats NZ <https://www.stats.govt.nz/information-releases/household-expenditure-statistics-year-ended-june-2016>
 
 ![Average weekly household expenditure](/assets/media/Rates-Rebates/RR17.png)
+
 - __New Zealand’s access to the internet__
     Internet NZ reports that approximately connection[^7]. This has an impact on people’s ability to find out about their entitlements with most service providers moving to digital channels. It also put more emphasis on designing for mobile as this will be the preferred channel that people will access internet in the future. Continuing development of the rates rebate alpha will need to keep in mind both of these points.
 
@@ -498,11 +502,12 @@ The number of Rates Rebates claimed each year has been dropping. This is a well 
 
 Here is a physical comparison of the web app vs the current paper application.
 
-__The length of the web app process__
+### The length of the web app process
 
 ![The length of the web app process](/assets/media/Rates-Rebates/RR18.png)
 
-__The current 4 page paper form__
+### The current 4 page paper form
+
 ![Page 1](/assets/media/Rates-Rebates/RR19.png)
 ![Page 2](/assets/media/Rates-Rebates/RR20.png)
 ![Page 3](/assets/media/Rates-Rebates/RR21.png)
