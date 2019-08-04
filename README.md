@@ -51,5 +51,5 @@ ___
 - _Click on_ the PR that you have been selected to review.
 - To _review_ the changes, _click on_ the **Files changed** tab (located under the title of the PR).
 - Once done, _click on_ the green **Add your review** button (within the yellow banner at the top of the page). You should then be re-directed to a page & a "pop-up" box will appear.
-- _Fill in_ your comments for the PR & _select_ the appropriate **Radio button** (ie. **Comment**; **Approve**; or **Request Changes**). **See:** [Dev Peer Review Workflow](serviceinnovationlab.github.io/devPeerReviewWorkflow/) _PR Feedback/Reviews_ & _Commit Messages_ sections for help.
+- _Fill in_ your comments for the PR & _select_ the appropriate **Radio button** (ie. **Comment**; **Approve**; or **Request Changes**). **See:** [Dev Peer Review Workflow](https://serviceinnovationlab.github.io/devPeerReviewWorkflow/) _PR Feedback/Reviews_ & _Commit Messages_ sections for help.
 - Once done, _click on_ the green **Submit review** button. And that's it, you have made your review!
