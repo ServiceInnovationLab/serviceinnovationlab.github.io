@@ -8,7 +8,7 @@ Run each of the following steps to get the site up and running.
 1. `git clone https://github.com/ServiceInnovationLab/serviceinnovationlab.github.io.git`
 2. `cd serviceinnovationlab.github.io`
 3. `bundle install`
-4. `bundle exec jekyll server --watch`
+4. `bundle exec jekyll serve --watch`
 
 You should be able to see the site at: http://127.0.0.1:4000/
 
