@@ -69,7 +69,6 @@ Rates and valuations are linked together and the notice is one of the key inputs
 
 (Flow chart showing that Valuation cycle & Local Authority actions feeds into the Setting and billing of rates, then to Property Owner.)
 
-
 In addition to the rating process the notice also acts another way to provide information that the property title has changed too.
 
 ### The notice of sale and its relation to rating and valuation
@@ -178,11 +177,11 @@ __Buying and selling a property is complicated transaction, it requires informat
 
 The team considered this complex problem and were asked to consider the life event in the context of the notice of sale. Here are the themes the team identified:
 
-_Target theme - Automation_
+#### Target theme - Automation
 
 The theme selected as a focus point was Automation. The team would like to automate as much of the current manual process as possible to improve the quality of submissions. They’d like to get rid of the term “notice of sale” from their vocabulary to allow time to focus on more important or higher value interactions with ratepayers and clients. They’s like to to see data entered once and transmitted electronically to all the stakeholders involved in the process (preferably from a single place). It was noted that automation should not be at the expense of verification, accuracy and completion.
 
-_Other themes in order of importance to the team_
+### Other themes in order of importance to the team
 
 __Single source of truth.__ There is no current single source of authoritative data for the notice of sale that anyone can draw from eg no one reference number that follows a ownership transfer for parties to use. Team were quite fixed on this as a solution.
 
@@ -196,7 +195,7 @@ __Improved customer experience.__ The team are passionate about making life bett
 
 __Data transmission.__ The notice needs to be sent to many parties, how could this be made easier? How do we make it more user friendly for solicitors to provide information?
 
-### Goal setting  - What are the end goals?
+### Goal setting  - What are the end goals
 
 The team considered the goals associated with the complex problem statement - why is a goal important for this work? what does it look like?
 
