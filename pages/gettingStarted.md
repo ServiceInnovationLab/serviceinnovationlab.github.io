@@ -33,7 +33,8 @@ layout: primary
 - Your Pull Request (PR) should be "sent" to the reviewer(s) that you have chosen to review & once it's approved you should see your changes on the Live site. **Note:** It is good practice to have at least 2 people to review your PR.
 
 ___
-2. **To Add your details:** Ensure that you are on the **dev** branch, then _navigate to_ **_authors**.
+
+1. **To Add your details:** Ensure that you are on the **dev** branch, then _navigate to_ **_authors**.
 
 - _Click on_ the **Create new file** button. In the **textfield** which appears, _type in_ your name in this format (in lowercase) `firstName-lastName.md` (eg. jacob-ong.md). Then proceed to _fill in_ your details following this format (shown below):
 
