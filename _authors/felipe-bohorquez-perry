@@ -5,6 +5,6 @@ last_name: Bohorquez-Perry
 full_name: Felipe Bohorquez-Perry
 role: Scrum Master
 image: "assets/img/team/Felipe-BP2.jpg"
-status: active
+active: true
 # published: true
 ---
