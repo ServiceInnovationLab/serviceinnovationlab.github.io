@@ -53,3 +53,76 @@ ___
 - Once done, _click on_ the green **Add your review** button (within the yellow banner at the top of the page). You should then be re-directed to a page & a "pop-up" box will appear.
 - _Fill in_ your comments for the PR & _select_ the appropriate **Radio button** (ie. **Comment**; **Approve**; or **Request Changes**). **See:** [Dev Peer Review Workflow](https://serviceinnovationlab.github.io/devPeerReviewWorkflow/) _PR Feedback/Reviews_ & _Commit Messages_ sections for help.
 - Once done, _click on_ the green **Submit review** button. And that's it, you have made your review!
+
+___
+
+## Skeleton templates for pages
+**Note:** These are just an example. Please refer to the ones already created if unsure.
+
+### Team page
+
+```yaml
+---
+name: jacob-ong
+first_name: Jacob
+last_name: Ong
+full_name: Jacob Ong
+role: Developer
+image:
+active: true
+# published: false (Delete the # if the team member becomes a publisher)
+---
+```
+
+### Pages
+
+```yaml
+---
+title: New Page
+permalink: /newPage/ # In camelCase
+layout: primary
+lead: This is a new page.
+---
+```
+
+## Projects/tools
+
+(_Feel free to delete the ones you do not use_)
+
+```yaml
+---
+agency: SIL
+title: New Project
+subtitle: Creating a new project.
+permalink: /projects/new-project/
+redirect_from:
+excerpt: Information for creating a new project.
+image: /assets/img/projects/new-project.png
+image_accessibility: New project skeleton.
+image_icon:
+tag: SIL, New Project
+expiration_date: YYYY-MM-DD
+media:
+redirect_to: https://www.serviceinnovationlab.github.io/
+project_url: "[New Project](https://www.serviceinnovationlab.github.io/projects/new-project/)"
+resources:
+quote:
+external_url: https://github.com/ServiceInnovationLab/
+external_link_title: Github
+---
+```
+
+## Blog posts
+
+```yaml
+---
+title: Blog Post
+date: YYYY-MM-DD
+authors:
+- jacob-ong
+tags:
+- blog post
+- open source
+excerpt: ""
+---
+```
