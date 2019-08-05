@@ -95,9 +95,8 @@ jobs:
           keys:
             - v1-site-build-{{ .Revision }}
             - v1-nodejs-deps-{{ checksum "package-lock.json" }}
-      # - run: ./bin/accessibility
       - run: npm install
-      - run: rpm run test-pa11y
+      - run: rpm run test-accessibility
   # percy:
   #   docker:
   #     - image: circleci/ruby:2.6.3-node-browsers

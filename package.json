@@ -14,7 +14,7 @@
     "pa11y-ci": "^2.3.0"
   },
   "scripts": {
-    "test-pa11y": "./bin/accessibility",
+    "test-accessibility": "./bin/accessibility",
     "test-markdown": "./bin/markdown"
   },
   "repository": {
