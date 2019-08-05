@@ -13,7 +13,7 @@ Run each of the following steps to get the site up and running.
 3. `bundle install`
 4. `bundle exec jekyll serve --watch`
 
-You should be able to see the site at: http://127.0.0.1:4000/
+You should be able to see the site at: <http://127.0.0.1:4000/>
 
 ## Instructions for Adding Content
 
@@ -32,7 +32,7 @@ You should be able to see the site at: http://127.0.0.1:4000/
 
     **OR**
 
-2. **To Add content:** Ensure that you are on the **dev** branch, then _navigate to_ the appropriate part of the site that you want to add your content to. (ie. **_products_projects** for _Reusable Components_; **_services_projects** for _Stuff that we've done_; **pages** for _New pages_; & **_posts** for _Blog posts_)
+1. **To Add content:** Ensure that you are on the **dev** branch, then _navigate to_ the appropriate part of the site that you want to add your content to. (ie. **_products_projects** for _Reusable Components_; **_services_projects** for _Stuff that we've done_; **pages** for _New pages_; & **_posts** for _Blog posts_)
 
 - _Click on_ the **Create new file** button. In the **textfield** which appears, _type in_ the name of your file in this format (in lower case) (eg. `lower-case.md`) **EXCEPT** for **Blog posts** where the format should be (eg. `YYYY-MM-DD-this-is-a-blog-post.md`). Then proceed to _add_ your content.
 **Note:** Refer to an existing file to see the how the format should be.
@@ -60,6 +60,7 @@ ___
 ___
 
 ## Skeleton templates for pages
+
 **Note:** These are just an example. Please refer to the ones already created if unsure.
 
 ### Team page
