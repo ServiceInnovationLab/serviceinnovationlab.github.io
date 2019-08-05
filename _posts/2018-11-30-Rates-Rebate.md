@@ -130,7 +130,7 @@ Due to many applicants being over 65 and/or with disabilities, the impact of the
 - Preventable __cost of implementation to councils__ and wait times for payments back to councils from DIA
 - __Prescriptive legislation__ preventing an end-to-end digital experience
 
-## The discovery<a name = "Go-to-Discovery"></a>
+## The discovery<a name = "Go-to-The-Discovery"></a>
 
 In​ ​September​ 2017 ​the ​team​ ​kicked​ ​off​ ​a​ ​three-week​ ​discovery​ ​sprint,​ ​exploring​ ​how​ ​subsidies​ ​are provided​ ​to​ ​New​ ​Zealanders​ ​and​ ​what​ ​ ​that​ ​could look​ ​like​ ​in​ ​the​ ​future,​ ​with​ ​a​ ​focus​ ​on​ ​Rates Rebates.​ ​Rates​ ​Rebates​ ​are​ ​an​ ​entitlement​ ​that​ ​has​ ​been​ ​identified​ ​as​ ​a​ ​key​ ​pain​ ​point​ ​for​ ​applicants (low-income​ ​property​ ​owners​ ​for​ ​primary​ ​residences),​ ​as​ ​well​ ​as​ ​for​ ​Local​ ​and​ ​Central​ ​Government.
 
