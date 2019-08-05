@@ -14,7 +14,7 @@ layout: primary
 - _Click on_ **Sign up** (& follow the steps). **Note:** _Choose_ the Free Subscription
 - Remember to _verify_ your email address (in order to start using GitHub's features).
 
-### Step up 2FA
+### Set up 2FA
 
 - Go to **Settings** -> **Security** -> _scroll to_ **Two-factor authentication** & _choose_ the appropriate method for you (& follow the steps).
 - Once done, _contact_ one of the Github repository admins & they will add you to become a member of the repo.
