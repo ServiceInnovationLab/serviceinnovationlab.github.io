@@ -100,7 +100,6 @@ excerpt: Information for creating a new project.
 image: /assets/img/projects/new-project.png
 image_accessibility: New project skeleton.
 image_icon:
-tag: SIL, New Project
 expiration_date: YYYY-MM-DD
 media:
 redirect_to: https://www.serviceinnovationlab.github.io/
