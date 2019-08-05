@@ -1,0 +1,43 @@
+---
+title: Team
+layout: default
+permalink: /team/
+---
+
+<section class="nz-section background-gray">
+  <div class="nz-grid">
+    <div class="nz-width-two-thirds">
+      <h2> Team Members</h2>
+      <p><a href="{{site.baseurl}}/gettingStarted/"><b>Getting Started</a></b></p>
+    </div>
+  </div>
+  <div class="nz-grid">
+    <section class="nz-section">
+      <div class="nz-flex nz-flex-wrap">
+        {% assign columns = include.columns | default: 3 %}
+        {% if columns == 2 %}
+          {% assign wds_grid_class = 'nz-width-one-half' %}
+        {% else %}
+          {% assign wds_grid_class = 'nz-width-one-third' %}
+        {% endif %}
+
+        <!-- {% assign teamMember = site | find_collection: 'authors' | where: 'slug', include.author | first %} -->
+        {% for teamMember in site.authors %}
+          {% if teamMember.active ==  true %}
+          <article class="card {{ wds_grid_class }} nz-width-tablet">
+            <div class="card-link" data-href="{{ card_link }}" tabindex="0">
+              <div class="card-banner">
+                  <div class="team-list-img" role="group">
+                    <img src="{{ teamMember.image }}" alt="Photo of {{ teamMember.full_name }}">
+                  </div>
+                <h3 class="member-tag"><b><a href="/author/{{ teamMember.name }}">{{ teamMember.full_name }}</a></b></h3>
+                <p class="member-description"><b>Role:</b> {{ teamMember.role }}</p>
+              </div>
+            </div>
+          </article>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </section>
+  </div>
+</section>
