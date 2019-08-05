@@ -3,5 +3,6 @@
   "MD033": false,
   "MD028": false,
   "MD026": ".,;:!",
-  "MD013": false
+  "MD024": false,
+  "MD013": false, //Duplicate headers
 }
