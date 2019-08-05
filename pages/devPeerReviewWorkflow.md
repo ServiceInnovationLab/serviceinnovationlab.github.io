@@ -52,7 +52,7 @@ Merges into the `dev` branch need only one approval to merge but give all active
 
 The dev who proposed the PR presses the merge button on a PR once all the above passes & it is approved. That dev is responsible for merging in a way that does not "break the build" or cause unplanned outages.
 
-Press the "Delete Branch" on Github after merging. This keeps the repo tidy. Should now be automated by the **always-be-closing** bot.
+The branch should be deleted automatically (by the **always-be-closing** bot) after merging. This keeps the repo tidy.
 
 ## Commit Messages
 
