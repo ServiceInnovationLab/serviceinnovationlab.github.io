@@ -149,6 +149,14 @@ h2 {
   text-transform: uppercase;
 }
 
+@mixin medium-caps {
+  color: $color-medium;
+  font-size: $base-font-size;
+  font-weight: $font-bold;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
 hr {
   background-color: $color-gray-lighter;
   border: 0;

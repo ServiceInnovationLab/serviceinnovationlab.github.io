@@ -6,5 +6,8 @@ full_name:
 role:
 github:
 twitter:
-published: true
+team:
+redirect_from: "/team/PERSON/"
+alumni: true
+# published: true
 ---

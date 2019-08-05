@@ -84,14 +84,28 @@ $card-image-height: 200px;
   float: left;
 }
 
+.team-list-img {
+  text-align: center;
+}
+
 .card-description {
   color: initial;
   font-size: 1.7rem;
 }
 
+.member-description {
+  text-align: center;
+}
+
 .card-tag {
   @include small-caps;
   color: $color-gray-dark;
+}
+
+.member-tag {
+  @include medium-caps;
+  color: $color-medium;
+  text-align: center;
 }
 
 .card-image-bg {
