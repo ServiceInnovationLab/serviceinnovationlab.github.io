@@ -6,5 +6,4 @@ full_name: Meredith O'Dea
 role: 
 image: "/assets/img/team/meredith-odea.jpg"
 active: true
-# published: true
 ---
