@@ -97,18 +97,18 @@ jobs:
             - v1-nodejs-deps-{{ checksum "package-lock.json" }}
       - run: npm install
       - run: npm run test-accessibility
-  # percy:
-  #   docker:
-  #     - image: circleci/ruby:2.6.3-node-browsers
-  #   steps:
-  #     - checkout
-  #     - restore_cache:
-  #         keys:
-  #           - v1-ruby-deps-{{ checksum "Gemfile.lock" }}
-  #           - v1-site-build-{{ .Revision }}
-  #     - run:
-  #         name: Visual Tests
-  #         command: npx percy snapshot ./_site
+  percy:
+    docker:
+      - image: circleci/ruby:2.6.3-node-browsers
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - v1-ruby-deps-{{ checksum "Gemfile.lock" }}
+            - v1-site-build-{{ .Revision }}
+      - run:
+          name: Visual Tests
+          command: ./node_modules/.bin/percy snapshot ./_site/author
   deploy:
     docker:
       - image: circleci/ruby:2.6.3-node
@@ -168,8 +168,11 @@ workflows:
       - markdownlint:
           requires:
             - nodejsdeps
-
       - accessibility:
+          requires:
+            - build
+            - nodejsdeps
+      - percy:
           requires:
             - build
             - nodejsdeps
