@@ -1,5 +1,5 @@
 {
-  "standard": "WCAG2AAA",
+  "standard": "WCAG21",
   "level": "error",
   "defaults": {
     "timeout": 20000,
