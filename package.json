@@ -17,7 +17,7 @@
   "scripts": {
     "test-accessibility": "./bin/accessibility",
     "test-markdown": "./bin/markdown",
-    "percy": "./node_modules/.bin/percy snapshot ./_site/"
+    "percy": "./node_modules/.bin/percy snapshot ./_site/author"
   },
   "repository": {
     "type": "git",
