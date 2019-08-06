@@ -2,11 +2,11 @@
 agency: Service Innovation Lab
 title: RapuTure
 subtitle: Explore how coded rules from our legislation as code work connect with each other at www.rules.nz
-permalink: 
+permalink:
 excerpt: Explore how coded rules from our legislation as code work connect with each other at www.rules.nz
 image: /assets/img/projects/
-image_accessibility: 
-image_icon: 
+image_accessibility:
+image_icon:
 tag: RapuTure
 expiration_date:
 redirect_to:

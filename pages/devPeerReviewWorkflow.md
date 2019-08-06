@@ -4,8 +4,6 @@ permalink: /devPeerReviewWorkflow/
 layout: primary
 ---
 
-# Dev Peer Review Workflow
-
 ## Pull Request Workflow
 
 Our code is written by humans. This will remain true until the robotic apocalypse finally occurs. Humans learn. Humans make mistakes. This peer-review based workflow is used by our team to foster a welcoming environment where we all are lifelong learners, and we support each other as a team to do the best we can, which includes not making mistakes.
