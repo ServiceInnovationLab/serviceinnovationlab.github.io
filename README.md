@@ -129,3 +129,11 @@ tags:
 excerpt: ""
 ---
 ```
+
+## Tests
+
+This is the standard we need to meet on the toolkit:  [New Zealand GovernmentNew Zealand Government - Web Accessibility Standard 1.1](https://www.digital.govt.nz/standards-and-guidance/nz-government-web-standards/web-accessibility-standard-1-1/)
+
+We used automated testing to detect some in-accessible content. These tests are gatekeepers. When the content added doesn't comply, the PR will have a failed test. This can be frustrating at first, but compliance is necesary and becomes easier with practise.
+
+The tests will not catch every accessiblitiy problem.  We still should spend time checking the toolkit, and generally keeping proficient accesibility standards.
