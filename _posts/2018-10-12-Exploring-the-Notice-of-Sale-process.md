@@ -30,7 +30,7 @@ A collaboration between:
 - Wellington City Council
 - Whangarei District Council
 
-## In summary<a name = "Go-to-InSummary"></a>
+## In summary<a name="Go-to-InSummary"></a>
 
 In August 2018, a collaboration led by the all of government Service Innovation Lab with Auckland Council, Land Information New Zealand (Valuer General), Tauranga City Council, Wellington City Council and Whangarei District Council explored the Notice of Sale (the notice) process as part of the ‘selling and buying a property’ life event.
 
@@ -53,7 +53,7 @@ The design intensive identified the following next steps that are needed to cont
 - The Lab could lead a [discovery](https://www.digital.govt.nz/standards-and-guidance/strategy-and-planning/digital-lifecycle/discovery/) with the support of this group to investigate the preferred data based possible solution in more detail to test its viability, feasibility and desirability.
 - The Councils collectively or individually could investigate the other two solutions identified; in the intensive; Improve communication between Councils and Solicitors and data validation flags to help select the correct process to use.
 
-## What is the notice of sale and why is it important?<a name = "Go-to-WhatIsNoticeOfSale"></a>
+## What is the notice of sale and why is it important?<a name="Go-to-WhatIsNoticeOfSale"></a>
 
 The Notice of Sale (the notice) acts a conduit of sales and/or property owner information in the property transfer process and its a legal requirement that it must be supplied to a Local Authority[^1] (ie Councils) as part of the Local Government (Rating) Act 2002.
 
@@ -346,7 +346,7 @@ Here is the [storyboards](https://drive.google.com/file/d/1wHK0CyhgpjKDqbMnyVFmC
 
 (Storyboard for the Property Transfer made up of post-it notes.)
 
-This storyboard was ultimately the one selected to [explore further](#Possible-solution) during the rest of the design intensive.
+This storyboard was ultimately the one selected to [explore further](#Go-to-PossibleSolution) during the rest of the design intensive.
 
 #### Problem statement two - manual processing
 
@@ -369,7 +369,7 @@ Improve communication between Council and Solicitors - ‘spending time together
 Rules and data validation flags to help select the correct process to use.
 ![Rules and data validation flags to help select the correct process to use](/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS18.png)
 
-## Possible solution<a name = "Go-to-PossibleSolution"></a>
+## Possible solution<a name="Go-to-PossibleSolution"></a>
 
 The idea behind this possible future state is that much of the data required to action what is currently called the ‘Notice of Sale’ process is captured within the Sales and Purchase Agreement or through the Transfer Instrument (see [Appendix 2 Data Map](#Go-to-Appendix2) for what data is collected at each step in the process). There are different triggers for this process (see the [triggers in Appendix 1](#Go-to-Appendix1)), which is actually the process of changing the ownership of a rating unit.
 
@@ -383,13 +383,13 @@ This future state needs deeper investigation to determine its desirability, viab
 
 A [Minimum Viable Product](https://www.agilealliance.org/glossary/mvp/#q=~(filters~(tags~(~'mvp))~searchTerm~'~sort~false~sortDirection~'asc~page~1)) might involve manual data entry from the Sales and Purchase Agreement into a data integration tool, or an upload of a data extract from a smart form version of the agreement.
 
-## Next Steps<a name = "Go-to-NextSteps"></a>
+## Next Steps<a name="Go-to-NextSteps"></a>
 
 - The group discussed the need for a sponsor(s) to help drive continuing this work. It was agreed that the sponsor could be a person or group of people but they should be at be at an executive leadership level eg a CFO. The group of councils involved with this exploration will need to work together to identify a sponsor(s) and brief them on this work and its importance.
 - Depending on the priorities for the 2018/19 Service Innovation Lab work programme, the Lab could lead a [discovery](https://www.digital.govt.nz/standards-and-guidance/strategy-and-planning/digital-lifecycle/discovery/) with the support of this group to investigate the possible solution in more detail to test its viability, feasibility and desirability.
 - The Councils collectively or individually could investigate the other two opportunities identified in the intensive; Improve communication between Councils and Solicitors - spending time together and Rules and data validation flags to help select the correct process to use. The team believed that these ideas could be something that could be done within each Council and trialling the approach with local law firms and conveyancers. This is being currently being explored further collective team.
 
-### Appendix 1 <a name = "Go-to-Appendix1"></a>: Notice of Sale Context Diagram
+### Appendix 1 <a name="Go-to-Appendix1"></a>: Notice of Sale Context Diagram
 
 This diagram maps out the relevant concepts in the legislation relating to Notice of Sale to help with understanding the current legislative requirements.
 
@@ -432,7 +432,7 @@ Additionally, there are a number of less common transactions that could trigger 
 3. An application under section 99A of the Land Transfer Act 1952 to record a statutory vesting (instrument quick code A99A); and
 4. An application to transfer land as a result of the Health Sector (Transfers) Act 1993 (instrument quick code A9).
 
-### Appendix 2 <a name = "Go-to-Appendix2"></a>: Notice of Sale Data Map
+### Appendix 2 <a name="Go-to-Appendix2"></a>: Notice of Sale Data Map
 
 This shows what data points are collected through what mechanism at different points in the sale or change of ownership process, and what the data source is and where it goes.
 
