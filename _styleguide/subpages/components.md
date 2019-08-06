@@ -40,7 +40,7 @@ subnav_items:
 {% endcapture %}
 
 {% include details-code.html
-   title='buttons'
+   title='buttons styles'
    description='Our button styles are.'
    content=styleguide_buttons
 %}
