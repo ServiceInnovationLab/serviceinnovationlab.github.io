@@ -2,7 +2,11 @@
 
 set -euv
 
-FILES=$(find "./_site" | grep html)
+
+# We skip this because it's a redirect, to a site that doesn't pass
+SKIP="projects/msd-family-services-directory-api/index.html"
+
+FILES=$(find "./_site" | grep html | grep -v "$SKIP")
 
 for file in $FILES
 do
