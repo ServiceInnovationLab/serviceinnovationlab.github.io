@@ -51,7 +51,7 @@ $(function() {
       $newsletterEmail.focus();
     },
   };
-  
+
   function callbackFunction(resp) {
     if (resp.result === 'success') {
       newsletterForm.response();

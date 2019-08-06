@@ -2,11 +2,11 @@
 agency: Service Innovation Lab
 title: Component Library
 subtitle: Resource of common application components for developers
-permalink: 
+permalink:
 excerpt: Resource of common application components for developers
 image: /assets/img/projects/
-image_accessibility: 
-image_icon: 
+image_accessibility:
+image_icon:
 tag: Component Library
 expiration_date:
 project_url: "[]()"

@@ -2,11 +2,11 @@
 agency: Service Innovation Lab
 title: Open Fisca Aotearoa
 subtitle: Resource of machine readable New Zealand legislation coded by the lab and partners
-permalink: 
+permalink:
 excerpt: Resource of machine readable New Zealand legislation coded by the lab and partners
 image: /assets/img/projects/
-image_accessibility: 
-image_icon: 
+image_accessibility:
+image_icon:
 tag: Open Fisca
 expiration_date:
 redirect_to: https://github.com/ServiceInnovationLab/openfisca-aotearoa
