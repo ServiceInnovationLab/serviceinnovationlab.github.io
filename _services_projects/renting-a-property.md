@@ -1,7 +1,7 @@
 ---
 agency: Ministry of Business, Innovation and Employment
 title: Renting a Property
-subtitle: Research into the relationship dynamics of renting a property and ways they impact the renting experience and can make it better.  
+subtitle: Research into the relationship dynamics of renting a property and ways they impact the renting experience and can make it better.
 permalink: /projects/renting-a-property/
 redirect_from: /projects/renting-a-property/
 excerpt: Research into the relationship dynamics of renting a property and ways they impact the renting experience and can make it better.
@@ -13,5 +13,5 @@ expiration_date:
 github_repo:
 project_url: "[]()"
 quote:
-media: 
+media:
 ---

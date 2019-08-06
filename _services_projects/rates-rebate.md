@@ -15,6 +15,6 @@ github_repo:
     - "[Rates Rebate-backend](https://github.com/ServiceInnovationLab/pancake-backend)"
 project_url: "[Rates Rebate]()"
 quote:
-media: 
+media:
 report: "[Rates Rebate](/2018/11/30/Rates-Rebate/)"
 ---
