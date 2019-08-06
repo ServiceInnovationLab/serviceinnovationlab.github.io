@@ -109,7 +109,7 @@ jobs:
       - run: npm install
       - run:
           name: Visual Tests
-          command: ./node_modules/.bin/percy snapshot ./_site/author ./_site/about ./_site/contact _site/devPeerReviewWorkflow/ _site/expertise
+          command: npm run percy
   deploy:
     docker:
       - image: circleci/ruby:2.6.3-node
