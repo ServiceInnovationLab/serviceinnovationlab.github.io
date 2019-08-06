@@ -5,7 +5,7 @@ set -euv
 BUILD_FOLDER="./_site"
 
 # We skip these because it's a redirect, to a site that doesn't pass
-SKIP="(projects\/msd-family-services-directory-api\/index.html|projects\/open-fisca-aotearoa\/index.html|projects\/api-for-service-innovation\/index.html)"
+SKIP="(projects\/msd-family-services-directory-api\/index.html|projects/rapuTure\/index.html|projects\/open-fisca-aotearoa\/index.html|projects\/api-for-service-innovation\/index.html)"
 
 FILES=$(find "$BUILD_FOLDER" | grep html | grep -E -v "$SKIP")
 
