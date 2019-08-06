@@ -104,8 +104,9 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-            - v1-ruby-deps-{{ checksum "Gemfile.lock" }}
             - v1-site-build-{{ .Revision }}
+            - v1-nodejs-deps-{{ checksum "package-lock.json" }}
+      - run: npm install
       - run:
           name: Visual Tests
           command: ./node_modules/.bin/percy snapshot ./_site/author
