@@ -13,5 +13,5 @@ expiration_date:
 github_repo:
 project_url: "[]()"
 quote:
-media: 
+media:
 ---
