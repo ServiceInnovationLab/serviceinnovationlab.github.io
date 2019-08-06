@@ -1,4 +1,4 @@
 #!/bin/bash
 set -euv
 
-./node_modules/.bin/percy snapshot _site/ -s "*.html,_authors/*.html"
+./node_modules/.bin/percy snapshot _site/ -s "*.html,*/*.html"
