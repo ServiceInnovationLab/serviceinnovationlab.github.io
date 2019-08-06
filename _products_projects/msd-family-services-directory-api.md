@@ -5,8 +5,8 @@ subtitle: Making Family Services Directory provider and service data publicly av
 permalink:
 excerpt: Making Family Services Directory provider and service data publicly available through and automatically generated machine discoverable APIs
 image: /assets/img/projects/
-image_accessibility: 
-image_icon: 
+image_accessibility:
+image_icon:
 tag: Family Services Directory API
 expiration_date:
 github_repo: https://github.com/ServiceInnovationLab/FamilyServiceDirectorySearchinator
