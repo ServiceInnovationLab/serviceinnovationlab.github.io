@@ -28,10 +28,9 @@ The Service Innovation Lab is a credit to the Service Innovation Reference and W
 
 These were all the SIRG/SIWG agreed deliverables from the 12 months work program with status and links where relevant.
 
+#### Deliverables from July 2017 to 31 Dec 2017
+
 <table class="tg">
-  <tr>
-    <th class="tg-baqh" colspan="2">Deliverables from July 2017 to 31 Dec 2017</th>
-  </tr>
   <tr>
     <th class="tg-baqh">Initiative</th>
     <th class="tg-baqh">Deliverable</th>
@@ -98,10 +97,9 @@ Links: The <a href="https://github.com/ServiceInnovationLab/common-data-model">C
   </tr>
 </table>
 
+#### Deliverables from January to 30 June 2018
+
 <table class="tg">
-  <tr>
-    <th class="tg-baqh" colspan="2">Deliverables from January to 30 June 2018</th>
-  </tr>
   <tr>
     <th class="tg-baqh">Initiative</th>
     <th class="tg-baqh">Deliverable</th>
