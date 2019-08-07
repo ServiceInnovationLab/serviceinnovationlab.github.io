@@ -1,11 +1,10 @@
-
 ---
 title: Testing our Toolkit
 date: 2019-07-31
 authors:
-- brenda-wallace
+  - brenda-wallace
 tags:
-- tech
+  - tech
 excerpt: ""
 ---
 
