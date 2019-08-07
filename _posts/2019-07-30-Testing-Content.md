@@ -45,3 +45,7 @@ The accessibility check uses a tool called pa11y-ci to check we adhere to WCAG21
 ## Conclusions
 
 Automated tests catch common mistakes quickly, and more thoroughly than our manual testing. A linter can give quick feedback on proposed changes before the author asks another team member for their peer review. With automated content testing, we can get better quality markup on our toolkit pages, and with a quicker publishing turnaround.
+
+On a pull request the checks look like this:
+
+![github screen shot, showing passing, failing, and pending checks](/assets/media/pull_request.png)
