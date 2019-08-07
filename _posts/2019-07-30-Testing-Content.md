@@ -19,12 +19,12 @@ Content and other changes are proposed by team members using the pull requests o
 
 ### Our Tests
 
-We use a continuous integration service called CircleCI to run our tests. CircleCI is an open-source tool and is available to us for free because our projects are also Open Source (as per NZGOAL).
+We use a continuous integration service called [CircleCI](https://circleci.com/) to run our tests. CircleCI is an open-source tool and is available to us for free because our projects are also Open Source (as per [NZGOAL](https://www.data.govt.nz/manage-data/policies/nzgoal/nzgoal-se/)).
 
 #### yamllint
 
 YAML is a standard format for configuration files (and also the name of Brenda's cat). Jekyll uses YAML, so we use a linter to inspect our files.
-`yamllint` is a python tool available on pip. It catches any strange/incorrect indenting with better and more helpful errors messages than the tool that reads those YAML.
+[`yamllint`](https://yamllint.readthedocs.io/en/stable/) is a [python tool available on pip](https://pypi.org/project/yamllint/). It catches any strange/incorrect indenting with better and more helpful errors messages than the tool that reads those YAML.
 
 #### build
 
@@ -32,15 +32,15 @@ CI builds the static content on every pull request to ensure that once your chan
 
 ### markdownlint
 
-A linter that checks you have followed our style guide for markdown files. The linter catches when you're using __bold__ instead of headers. It fails your pull request if you don't put descriptions on images if it's not clear which are the header cells on a table, and if your header nesting doesn't make sense in a tree structure.
+[`markdownlint`](https://github.com/markdownlint/markdownlint) is a linter that checks you have followed our style guide for markdown files. The linter catches when you're using __bold__ instead of headers. It fails your pull request if you don't put descriptions on images if it's not clear which are the header cells on a table, and if your header nesting doesn't make sense in a tree structure.
 
 ### percy
 
-Percy is a service that takes screenshots of every page and compares them to the previous screenshot. If there are differences (i.e. you've modified a page on the toolkit) you'll need to go to Percy and then view and approve the changes. If you've broken the display on a page, you'll see it in the screenshots (and of course if you've broken a page, don't approve it!)
+[Percy](https://percy.io) is a service that takes screenshots of every page and compares them to the previous screenshot. If there are differences (i.e. you've modified a page on the toolkit) you'll need to go to Percy and then view and approve the changes. If you've broken the display on a page, you'll see it in the screenshots (and of course if you've broken a page, don't approve it!)
 
 ### accessibility
 
-The accessibility check uses a tool called pa11y-ci to check we adhere to WCAG21 standard. The [New Zealand Government - Web Accessibility Standard 1.1](https://www.digital.govt.nz/standards-and-guidance/nz-government-web-standards/web-accessibility-standard-1-1/) is based on WCAG21. This linter is configured by a file named `.pa11yci.json`.
+The accessibility check uses a tool called [pa11y-ci](https://github.com/pa11y/pa11y-ci) to check we adhere to WCAG21 standard. The [New Zealand Government - Web Accessibility Standard 1.1](https://www.digital.govt.nz/standards-and-guidance/nz-government-web-standards/web-accessibility-standard-1-1/) is based on WCAG21. This linter is configured by a file named `.pa11yci.json`.
 
 ## Conclusions
 
