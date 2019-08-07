@@ -13,13 +13,13 @@ excerpt: ""
 
 This toolkit is built using an open-source tool called Jekyll. We write content in markdown format, which is then parsed by Jekyll which produces a static HTML website that we host on Github pages.
 
-Content and other changes are proposed by team members using the pull requests on Github. There are a bunch of automated tests the proposed change must satisfy to be accepted (as well as manual testing). The automated tests are fast and means the pull request is in good shape by the time a team member begins their peer review. The tests catch many of our mistakes, as well as being an easy way to learn about standards we adhere.
+Content and other changes are proposed by team members using the pull requests on Github. There are a bunch of automated tests the proposed change must satisfy to be accepted (as well as manual testing). The automated tests are fast and means the pull request is in good shape by the time a team member begins their peer review. The tests catch many of our mistakes, as well as being an easy way to learn about content standards.
 
 ![Flow diagram of our tests](/assets/media/testing.png)
 
 ### Our Tests
 
-We use a continuous integration service called CircleCI to run out tests. CircleCI is an open-source tool and is available to us for free because our projects are also Open Source (as per NZGOAL).
+We use a continuous integration service called CircleCI to run our tests. CircleCI is an open-source tool and is available to us for free because our projects are also Open Source (as per NZGOAL).
 
 #### yamllint
 
