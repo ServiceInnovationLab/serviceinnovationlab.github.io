@@ -26,7 +26,9 @@ _For a step-to-step guide on how to [set-up](https://help.github.com/en/articles
 
 ---
 
-## Adding your profile to the team page
+[Glossary of GitHub terms used](https://help.github.com/en/articles/github-glossary)
+
+## Adding your picture & profile to the team page
 
 ### Adding a Photo
 
