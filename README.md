@@ -96,19 +96,17 @@ agency: SIL
 title: New Project
 subtitle: Creating a new project.
 permalink: /projects/new-project/
-redirect_from:
 excerpt: Information for creating a new project.
 image: /assets/img/projects/new-project.png
-image_accessibility: New project skeleton.
-image_icon:
+image_accessibility: New project.
 expiration_date: YYYY-MM-DD
-media:
 redirect_to: https://www.serviceinnovationlab.github.io/
 project_url: "[New Project](https://www.serviceinnovationlab.github.io/projects/new-project/)"
-resources:
-quote:
 external_url: https://github.com/ServiceInnovationLab/
 external_link_title: Github
+media:
+resources:
+quote:
 ---
 ```
 
