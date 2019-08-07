@@ -122,17 +122,17 @@ external_link_title: Github
 title: Blog Post
 date: YYYY-MM-DD
 authors:
-- jacob-ong
+  - jacob-ong
 tags:
-- blog post
-- open source
+  - blog post
+  - open source
 excerpt: ""
 ---
 ```
 
 ## Accessiblity Tests
 
-We must meet the [New Zealand GovernmentNew Zealand Government - Web Accessibility Standard 1.1](https://www.digital.govt.nz/standards-and-guidance/nz-government-web-standards/web-accessibility-standard-1-1/) on this toolkit.
+We must meet the [New Zealand Government - Web Accessibility Standard 1.1](https://www.digital.govt.nz/standards-and-guidance/nz-government-web-standards/web-accessibility-standard-1-1/) on this toolkit.
 
 We used automated testing to detect some in-accessible content. These tests are gatekeepers. When the content added doesn't comply, the PR will have a failed test. Receiving automated messages that your work didn't pass can be frustrating at first, but compliance is necessary and becomes easier with practice.
 
