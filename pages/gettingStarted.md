@@ -31,10 +31,12 @@ _For a step-to-step guide on how to [set-up](https://help.github.com/en/articles
 ### Adding a Photo
 
 - _Navigate to_ the [Toolkit](https://github.com/ServiceInnovationLab/serviceinnovationlab.github.io)'s repository.
-- Ensure that you are on the **dev** branch ![Dev branch](/assets/img/screenshot-instructions/dev-branch.png) , then _navigate to_ **assets/img/team**. _Click on_ **assets** -> **img** -> **team**. ![Folder path image](/assets/img/screenshot-instructions/folder-path.png)
+- Ensure that you are on the **dev** branch ![Dev branch](/assets/img/screenshot-instructions/dev-branch.png) , then _navigate to_ **assets/img/team**.
+_Click on_ **assets** -> **img** -> **team**. ![Folder path image](/assets/img/screenshot-instructions/folder-path.png)
 
 - **Note:** Before adding your picture, you'll need to have it saved locally on your machine as `firstname-lastname` (please ensure that your picture is in jpg format).
-- _Click on_ **Upload files** ![Upload files](/assets/img/screenshot-instructions/upload-files.png)**Note:** Currently, the _Edge_ web browser on DIA devices are not able to upload files. ![Choose files](/assets/img/screenshot-instructions/choose-files.png)
+- _Click on_ **Upload files**![Upload files](/assets/img/screenshot-instructions/upload-files.png)**Note:** Currently, the _Edge_ web browser on DIA devices are not able to upload files.
+![Choose files](/assets/img/screenshot-instructions/choose-files.png)
 - _Scroll to_ the bottom of the page.
 ![Commit new file section](/assets/img/screenshot-instructions/commit-new-file.png)
 - _Enter_ a **Commit message** (compulsory) saying what you did (eg. Added a profile picture for Jacob) & a further extended **Description** (optional) for your changes.
