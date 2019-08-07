@@ -22,7 +22,7 @@ _For a step-to-step guide on how to [set-up](https://help.github.com/en/articles
 - _Click on_ ![2FA](/assets/img/screenshot-instructions/2fa.png)
 - _Download_ & _save_ your recovery codes so that you can recover your account if you lose your 2FA credentials.
 - You'll then be re-directed to the next page where depending on the authentication method you have chosen you'll either need to fill in your mobile number (for sms) **OR** needing to scan the QR code (for app). Either way, once you receive the code after following the steps, enter it in the section (as shown below) & _click_ **Enable** when done:![Enable 2FA](/assets/img/screenshot-instructions/enable-2fa.png)
-- Once done, _contact_ one of the `Service Innovation Lab's` repository admins (ie. `Brenda` or `Jacob`) & they will add you to become a member of the repository. Only when you are approved as a member, then can you add content to the repository. When approved, _go to_ your email and accept the invite.
+- _Contact_ one of the `Service Innovation Lab's` repository admins (ie. `Brenda` or `Jacob`) & they will add you to become a member of the repository. You'll be sent an email when approved. _Go to_ your email and accept the invite so that you can add to the repository.
 
 ---
 
@@ -31,15 +31,14 @@ _For a step-to-step guide on how to [set-up](https://help.github.com/en/articles
 ### Adding a Photo
 
 - _Navigate to_ the [Toolkit](https://github.com/ServiceInnovationLab/serviceinnovationlab.github.io)'s repository.
-- Ensure that you are on the **dev** branch ![Dev branch](/assets/img/screenshot-instructions/dev-branch.png) , then _navigate to_ **assets/img/team**. _Click on_ **assets** -> **img** -> **team**. ![Assets folder image](/assets/img/screenshot-instructions/assets-folder.png) **->** ![Image folder image](/assets/img/screenshot-instructions/image-folder.png) **->** ![Team folder image](/assets/img/screenshot-instructions/team-folder.png)
+- Ensure that you are on the **dev** branch ![Dev branch](/assets/img/screenshot-instructions/dev-branch.png) , then _navigate to_ **assets/img/team**. _Click on_ **assets** -> **img** -> **team**. ![Folder path image](/assets/img/screenshot-instructions/folder-path.png)
 
 - **Note:** Before adding your picture, you'll need to have it saved locally on your machine as `firstname-lastname` (please ensure that your picture is in jpg format).
-- _Click on_ **Upload files** ![Upload files](/assets/img/screenshot-instructions/upload-files.png) & choose your preferred method. **Note:** Currently, the _Edge_ web browser on DIA devices are not able to upload files. Make sure you use _Firefox_ or _Chrome_ instead. ![Choose files](/assets/img/screenshot-instructions/choose-files.png)
-- Once done, _scroll to_ the bottom of the page.
+- _Click on_ **Upload files** ![Upload files](/assets/img/screenshot-instructions/upload-files.png)**Note:** Currently, the _Edge_ web browser on DIA devices are not able to upload files. ![Choose files](/assets/img/screenshot-instructions/choose-files.png)
+- _Scroll to_ the bottom of the page.
 ![Commit new file section](/assets/img/screenshot-instructions/commit-new-file.png)
-- _Enter_ a **Commit message** (compulsory) saying what you did (eg. Added a profile picture for Jacob) & a further extended **Description (optional)** for your changes.
-- The **Radio Button** corresponding to the text "Create a new branch for this commit and start a pull request." should already be _selected_.
-- Below that,_type in_ a meaningful name (eg. `added-profile-image-jacob`) for the branch which you are creating. **Note:** Branch names should be in lowercase & a hyphen should be used instead of spaces.
+- _Enter_ a **Commit message** (compulsory) saying what you did (eg. Added a profile picture for Jacob) & a further extended **Description** (optional) for your changes.
+- Below that, _type in_ a meaningful name (eg. `added-profile-image-jacob`) for the branch which you are creating. **Note:** Branch names should be in lowercase & a hyphen should be used instead of spaces.
 - _Click on_ the **Commit new file** button.
 - You should then be re-directed to another page entitled **Open a pull request**.
 - **See** [Creating a Pull Request](#PR).
@@ -65,9 +64,9 @@ active: true
 ---
 ```
 
-- Once done, _scroll to_ the bottom of the page; _enter_ a **Commit message** (compulsory) saying what you did (eg. Added team profile for Jacob) & a further extended **Description (optional)** for your changes.
-- The **Radio Button** corresponding to the text "Create a new branch for this commit and start a pull request." should already be _selected_.
-- Below that,_Type in_ a meaningful name (eg. `adding-team-profile-jacob`) for the branch which you are creating. **Note:** Branch names should be in lowercase & a hyphen should be used instead of spaces.
+- _Scroll to_ the bottom of the page.![Commit new file section](/assets/img/screenshot-instructions/commit-new-file.png)
+- _Enter_ a **Commit message** (compulsory) saying what you did (eg. Added team profile for Jacob) & a further extended **Description** (optional) for your changes.
+- Below that, _type in_ a meaningful name (eg. `adding-team-profile-jacob`) for the branch which you are creating. **Note:** Branch names should be in lowercase & a hyphen should be used instead of spaces.
 - _Click on_ the **Commit new file** button.
 - You should then be re-directed to another page entitled **Open a pull request**.
 - **See** [Creating a Pull Request](#PR).
