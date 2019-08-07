@@ -15,13 +15,15 @@ This toolkit is built using an open-source tool called Jekyll. We write content 
 
 Content and other changes are proposed by team members using the pull requests on Github. There are a bunch of automated tests the proposed change must satisfy to be accepted (as well as manual testing). The automated tests are fast and means the pull request is in good shape by the time a team member begins their peer review. The tests catch many of our mistakes, as well as being an easy way to learn about standards we adhere.
 
+![Flow diagrame of our tests](/assets/media/testing.png)
+
 ### Our Tests
 
 We use a continuous integration service called CircleCI to run out tests. CircleCI is an open-source tool and is available to us for free because our projects are also Open Source (as per NZGOAL).
 
 #### yamllint
 
-YAML is a standard format for configuration files (and also the name of Brenda's cat). Jekyll uses YAML, so we use a linter to inspect our files. 
+YAML is a standard format for configuration files (and also the name of Brenda's cat). Jekyll uses YAML, so we use a linter to inspect our files.
 `yamllint` is a python tool available on pip. It catches any strange/incorrect indenting with better and more helpful errors messages than the tool that reads those YAML.
 
 #### build
