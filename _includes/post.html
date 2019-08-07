@@ -3,14 +3,13 @@
 {% assign post_excerpt = include.excerpt | default: post.excerpt %}
 {% assign post_url = include.url | default: post.url %}
 {% assign hide_date = include.hide_date | default: false %}
-
 <li class="post nz-width-one-third nz-width-tablet">
   <article>
     {% if hide_date == true %}
       <p class="post-date">{{ post_date | date: "%B %-d, %Y" }}</p>
-    {% endif %}  
+    {% endif %}
     <h3 class="h4 posts_feature-heading">
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post_title }}</a>
+    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post_title }}</a>
     </h3>
     <p class="post-excerpt">{{ post_excerpt }}</p>
     <p>

@@ -1,3 +1,6 @@
+# Tool Kit
+
+[![Build Status](https://travis-ci.org/ServiceInnovationLab/serviceinnovationlab.github.io.svg?branch=dev)](https://travis-ci.org/ServiceInnovationLab/serviceinnovationlab.github.io)
 [![Maintainability](https://api.codeclimate.com/v1/badges/05a76407322970819c76/maintainability)](https://codeclimate.com/github/ServiceInnovationLab/serviceinnovationlab.github.io/maintainability)
 [Project Board](https://github.com/orgs/ServiceInnovationLab/projects/2)
 
@@ -10,7 +13,7 @@ Run each of the following steps to get the site up and running.
 3. `bundle install`
 4. `bundle exec jekyll serve --watch`
 
-You should be able to see the site at: http://127.0.0.1:4000/
+You should be able to see the site at: <http://127.0.0.1:4000/>
 
 ## Instructions for Adding Content
 
@@ -29,7 +32,7 @@ You should be able to see the site at: http://127.0.0.1:4000/
 
     **OR**
 
-2. **To Add content:** Ensure that you are on the **dev** branch, then _navigate to_ the appropriate part of the site that you want to add your content to. (ie. **_products_projects** for _Reusable Components_; **_services_projects** for _Stuff that we've done_; **pages** for _New pages_; & **_posts** for _Blog posts_)
+1. **To Add content:** Ensure that you are on the **dev** branch, then _navigate to_ the appropriate part of the site that you want to add your content to. (ie. **_products_projects** for _Reusable Components_; **_services_projects** for _Stuff that we've done_; **pages** for _New pages_; & **_posts** for _Blog posts_)
 
 - _Click on_ the **Create new file** button. In the **textfield** which appears, _type in_ the name of your file in this format (in lower case) (eg. `lower-case.md`) **EXCEPT** for **Blog posts** where the format should be (eg. `YYYY-MM-DD-this-is-a-blog-post.md`). Then proceed to _add_ your content.
 **Note:** Refer to an existing file to see the how the format should be.
@@ -124,3 +127,11 @@ tags:
 excerpt: ""
 ---
 ```
+
+## Accessiblity Tests
+
+We must meet the [New Zealand GovernmentNew Zealand Government - Web Accessibility Standard 1.1](https://www.digital.govt.nz/standards-and-guidance/nz-government-web-standards/web-accessibility-standard-1-1/) on this toolkit.
+
+We used automated testing to detect some in-accessible content. These tests are gatekeepers. When the content added doesn't comply, the PR will have a failed test. Receiving automated messages that your work didn't pass can be frustrating at first, but compliance is necessary and becomes easier with practice.
+
+The tests will not catch every accessibility problem.  We still should spend time checking the toolkit, and generally keeping proficient accessibility standards.
