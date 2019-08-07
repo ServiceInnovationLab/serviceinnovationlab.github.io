@@ -46,7 +46,7 @@ _For a step-to-step guide on how to [set-up](https://help.github.com/en/articles
 
 ---
 
-### Creating your Team Profile <a href="TeamProfile"></a>
+### Creating your Team Profile <a name="TeamProfile"></a>
 
 - _Navigate_ back to the [Toolkit](https://github.com/ServiceInnovationLab/serviceinnovationlab.github.io)'s repository.
 - Ensure that you are on the **dev** branch, then _navigate to_ **_authors**.
