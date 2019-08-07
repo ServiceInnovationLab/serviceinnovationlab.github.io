@@ -1,4 +1,4 @@
-# Plugins!
+# Plugins
 
 The SIL site uses a variety of custom plugins to modify how the site is rendered.
 
@@ -58,18 +58,20 @@ Example usage:
 
 Liquid
 
-    {{ "https://youtube-nocookie.com/blahblahblah/" | embed: "some title" }}
+```liquid
+  {{ "https://youtube-nocookie.com/blahblahblah/" | embed: "some title" }}
+```
 
 Returns:
 
-    <div class='embed-container'>
-      <iframe src='https://youtube-nocookie.com/blahblahblah/'
-          title='some title'
-          width='560'
-          height='315'
-          frameborder='0'
-          allowfullscreen></iframe>
-    </div>
+  <div class='embed-container'>
+    <iframe src='https://youtube-nocookie.com/blahblahblah/'
+        title='some title'
+        width='560'
+        height='315'
+        frameborder='0'
+        allowfullscreen></iframe>
+  </div>
 
 #### match_posts
 
@@ -77,11 +79,15 @@ Returns:
 
 Example:
 
-    {{ page | match_posts }}
+```liquid
+  {{ page | match_posts }}
+```
 
 Example matching authors
 
-    {{ page | match_posts: 'authors' }}
+```liquid
+  {{ page | match_posts: 'authors' }}
+```
 
 Will look for all the posts on the entire site and return a list of posts that have any properties
 that matches the list defined in a given project's frontmatter
@@ -91,6 +97,7 @@ that matches the list defined in a given project's frontmatter
 **Returns a hashed version of a given link. Lives in [utility.md](utility.md).**
 
 Example:
+
 ```bash
 {{ 'expertise' | has_link }}
 > #expertise
@@ -101,6 +108,7 @@ Example:
 **Determines if the current page url (`page_url`) exactly matches a given `url`. Lives in [utility.md](utility.md).**
 
 Example:
+
 ```bash
 {{ '/contact/partnership-playbook/' | matches_url: '/contact/' }}
 > nil
@@ -114,6 +122,7 @@ Example:
 **A liquid parser that will take raw content as an argument and return a liquid parsed version of that content.**
 
 Example:
+
 ```bash
 {% capture raw_content %}
 {% raw %}
@@ -130,6 +139,7 @@ Example:
 **Debugging tool to pull up a erb shell at a given point in the liquid markup.**
 
 Example:
+
 ```bash
 {{ variable | debug }}
 
@@ -208,9 +218,11 @@ author_data.fetch('brian', 'published')
 
 Returns a Boolean and can be used to verify that an author has a file to update or fetch:
 
+```ruby
     def exists?(name)
       File.exist? "#{@path}/#{name}.md"
     end
+```
 
 ```ruby
 author_data.exists? 'brian'
@@ -226,7 +238,7 @@ author_data.all_authors
 >> [..., ...]
 ```
 
-#### `published_authors`
+#### published_authors
 
 Returns an Array of all the authors who have published blog posts on [SIL](https://serviceinnovationlab.github.io).
 
@@ -235,7 +247,7 @@ author_data.published_authors
 >> [..., ...]
 ```
 
-#### `all_authors`
+#### all_authors
 
 returns an Array of all the authors who exist on the site, but have not published any blog posts.
 
