@@ -58,6 +58,17 @@
   }
 }
 
+pre {
+  background-color: #f9f9f9;
+  span {
+    background-color: #fafafa;
+  }
+}
+
+.highlight .c1 {
+  color: #747463;
+}
+
 .sidebar-heading-topic {
   margin-top: 2.3rem;
 }
@@ -73,6 +84,7 @@
   }
 
   .copyright {
+    color: #feffff;
     font-size: 1.5rem;
     margin-top: 0;
     margin-bottom: 2rem !important;
