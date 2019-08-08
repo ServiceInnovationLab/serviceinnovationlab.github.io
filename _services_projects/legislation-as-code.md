@@ -16,3 +16,7 @@ report: ""
 quote:
 media: "[Embracing Innovation in Government - Global Trends 2019](https://trends.oecd-opsi.org/)"
 ---
+
+Conference talk at Pycon 2019 in Sydney Australia. Brenda Wallace describes Legislation as code
+
+{{ "https://www.youtube.com/embed/_IUOgen7VjI" | embed: "Conference talk at Pycon 2019 in Sydney Australia. Brenda Wallace describes   Legislation as code" }}
