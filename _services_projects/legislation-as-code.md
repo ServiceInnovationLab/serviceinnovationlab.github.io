@@ -19,6 +19,8 @@ media: "[Embracing Innovation in Government - Global Trends 2019](https://trends
 
 ## Work to date
 
+Our rules can be viewed at <https://rules.nz>
+
 ## Birth of a Child (or welcoming a child into your whanau)
 Encoding entitlements related to the birth of a child (or welcoming a child into your whanau) into re-usable open legislation as code. This component was then used within [Smart Start - financial help](https://smartstart.services.govt.nz/financial-help).
 
