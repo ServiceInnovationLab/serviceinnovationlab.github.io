@@ -59,7 +59,7 @@ A complex forumla from within the Citizenship Act, used to calculated if applica
 Experiment understanding clauses of the Accident Compensation Act, where descretion is applied, and if these can be encoded. The sections related to Loss of Potential Earnings, and Rehabilitation were encoded into Open Fisca.
 
 
-## Conference talk at Pycon 2019 in Sydney Australia.
+## Conference talk at Pycon 2019 in Sydney Australia
 
 Brenda Wallace describes Legislation as code.
 
