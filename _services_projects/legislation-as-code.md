@@ -64,4 +64,3 @@ Experiment understanding clauses of the Accident Compensation Act, where descret
 Brenda Wallace describes Legislation as code.
 
 {{ "https://www.youtube.com/embed/_IUOgen7VjI" | embed: "Conference talk at Pycon 2019 in Sydney Australia. Brenda Wallace describes   Legislation as code" }}
-
