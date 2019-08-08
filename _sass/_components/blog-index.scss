@@ -59,15 +59,16 @@
 }
 
 .highlight {
-  background-color: #f9f9f9;
+  background-color: $color-gray-lightest;
 
   span,
   code {
-    background-color: #fafafa;
+    background-color: $color-super-light;
   }
+
   .c1,
   .gu {
-    color: #747463;
+    color: $color-dark;
   }
 }
 
@@ -87,7 +88,7 @@
   }
 
   .copyright {
-    color: #feffff;
+    color: $color-lightest;
     font-size: 1.5rem;
     margin-top: 0;
     margin-bottom: 2rem !important;
