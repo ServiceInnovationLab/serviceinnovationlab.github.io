@@ -58,16 +58,17 @@
   }
 }
 
-pre {
+.highlight {
   background-color: #f9f9f9;
-  span {
+
+  span, code {
     background-color: #fafafa;
+  }
+  .c1 , .gu{
+    color: #747463;
   }
 }
 
-.highlight .c1 {
-  color: #747463;
-}
 
 .sidebar-heading-topic {
   margin-top: 2.3rem;
