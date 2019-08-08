@@ -21,7 +21,8 @@ media: "[Embracing Innovation in Government - Global Trends 2019](https://trends
 
 Our rules can be viewed at <https://rules.nz>
 
-## Birth of a Child (or welcoming a child into your whanau)
+### Birth of a Child (or welcoming a child into your whanau)
+
 Encoding entitlements related to the birth of a child (or welcoming a child into your whanau) into re-usable open legislation as code. This component was then used within [Smart Start - financial help](https://smartstart.services.govt.nz/financial-help).
 
 #### Child related entitlements encoded
@@ -49,17 +50,18 @@ Income Tax Act 2007
 Parental Leave and Employment Protection Act 1987
 * Paid Parental Leave
 
-## Citizenship by Grant
+### Citizenship by Grant
 
 A complex forumla from within the Citizenship Act, used to calculated if applicant has been in the country enough days to satisfy a clause. This was encoded into Open Fisca, along with some related sections of Immigration Act.
 
-## Accident Compensation
+### Accident Compensation
 
 Experiment understanding clauses of the Accident Compensation Act, where descretion is applied, and if these can be encoded. The sections related to Loss of Potential Earnings, and Rehabilitation were encoded into Open Fisca.
 
 
 ## Conference talk at Pycon 2019 in Sydney Australia.
 
-Brenda Wallace describes Legislation as code
+Brenda Wallace describes Legislation as code.
 
 {{ "https://www.youtube.com/embed/_IUOgen7VjI" | embed: "Conference talk at Pycon 2019 in Sydney Australia. Brenda Wallace describes   Legislation as code" }}
+
