@@ -1,7 +1,7 @@
 ---
 name: team-profile
-first-name: Team
-last-name: Profile
-full-name: Team Profile
+first_name: Team
+last_name: Profile
+full_name: Team Profile
 active: false
 ---
