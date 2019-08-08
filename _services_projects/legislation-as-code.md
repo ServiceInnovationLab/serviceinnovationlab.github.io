@@ -28,6 +28,7 @@ Encoding entitlements related to the birth of a child (or welcoming a child into
 #### Child related entitlements encoded
 
 Social Security Act 2018
+
 * Accommodation Supplement
 * Childcare Subsidy
 * Child Disability Allowance
@@ -41,13 +42,16 @@ Social Security Act 2018
 * Young Parent Payment
 
 New Zealand Superannuation and Retirement Income Act 2001
+
 * Superannuation
 
 Income Tax Act 2007
+
 * Working for Families (various)
 * Best Start
 
 Parental Leave and Employment Protection Act 1987
+
 * Paid Parental Leave
 
 ### Citizenship by Grant
@@ -57,7 +61,6 @@ A complex forumla from within the Citizenship Act, used to calculated if applica
 ### Accident Compensation
 
 Experiment understanding clauses of the Accident Compensation Act, where descretion is applied, and if these can be encoded. The sections related to Loss of Potential Earnings, and Rehabilitation were encoded into Open Fisca.
-
 
 ## Conference talk at Pycon 2019 in Sydney Australia
 
