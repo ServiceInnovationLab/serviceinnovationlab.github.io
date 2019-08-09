@@ -1,12 +1,4 @@
-{% if site.baseurl | blank %}
-  {% assign siteurl = site.url %}
-{% else %}
-  {% assign siteurl = site.federalist_url %}
-{% endif %}
-
-<!-- site.url: {{ site.url }} -->
-<!-- site.baseurl: {{ site.baseurl }} -->
-<!-- siteurl: {{ siteurl }} -->
+{% include base.html %}
 
 <!-- Basic Page Needs
 ================================================== -->
@@ -86,8 +78,7 @@
   <script src="{{ site.baseurl }}/assets/js/vendor/respond.js"></script>
   <script src="{{ site.baseurl }}/assets/js/vendor/selectivizr-min.js"></script>
 <![endif]-->
-
 <!-- CSS
 =================================================== -->
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}" media="all" />
-  <link rel="stylesheet" href="{{ "/assets/css/print.css" | prepend: site.baseurl }}" media="print" />
+  <link rel="stylesheet" href="{{base}}/assets/css/main.css" media="all" />
+  <link rel="stylesheet" href="{{base}}/assets/css/print.css" media="print" />
