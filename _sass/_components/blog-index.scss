@@ -58,6 +58,21 @@
   }
 }
 
+.highlight {
+  background-color: $color-gray-lightest;
+
+  span,
+  code {
+    background-color: $color-super-light;
+  }
+
+  .c1,
+  .gu {
+    color: $color-dark;
+  }
+}
+
+
 .sidebar-heading-topic {
   margin-top: 2.3rem;
 }
@@ -73,6 +88,7 @@
   }
 
   .copyright {
+    color: $color-lightest;
     font-size: 1.5rem;
     margin-top: 0;
     margin-bottom: 2rem !important;
