@@ -33,13 +33,14 @@ _For a step-to-step guide on how to [set-up](https://help.github.com/en/articles
 
 ### Adding a Photo
 
-- _Navigate to_ the [Toolkit](https://github.com/ServiceInnovationLab/serviceinnovationlab.github.io)'s repository. _Scroll down_ the repository list & _click on_ `serviceinnovationlab.github.io`.
+- _Navigate to_ the [Toolkit](https://github.com/ServiceInnovationLab/serviceinnovationlab.github.io)'s repository. (_Open_ the link in a new tab/window)
+- _Scroll down_ the repository list & _click on_ `serviceinnovationlab.github.io`.
 - Ensure that you are on the **dev** branch ![Dev branch](/assets/img/screenshot-instructions/dev-branch.png) , then _navigate to_ **assets/img/team**.
 _Click on_ **assets**->**img**->**team**.![Folder path image](/assets/img/screenshot-instructions/folder-path.png)
 
 **Note:** Before adding your picture, you'll need to have it saved locally on your machine as `firstname-lastname` (please ensure that your picture is in jpg format).
 
-- _Click on_ **Upload files**![Upload files](/assets/img/screenshot-instructions/upload-files.png)**Note:** Currently, the _Edge_ web browser on DIA devices are not able to upload files. ![Choose files](/assets/img/screenshot-instructions/choose-files.png)
+- _Click on_ **Upload files**![Upload files](/assets/img/screenshot-instructions/upload-files.png) **Note:** Currently, the _Edge_ web browser on DIA devices are not able to upload files. ![Choose files](/assets/img/screenshot-instructions/choose-files.png)
 - _Scroll to_ the bottom of the page.
 - _Enter_ a **Commit message** (compulsory) briefly saying what you did (eg. Added a profile picture for Jacob).![Commit message](/assets/img/screenshot-instructions/commit-message.png)
 - _Enter_ a further extended **Description** (optional) for your changes. ![Description message](/assets/img/screenshot-instructions/description-message.png)
@@ -53,7 +54,7 @@ _Click on_ **assets**->**img**->**team**.![Folder path image](/assets/img/screen
 
 ### Creating your Team Profile <a name="TeamProfile"></a>
 
-- _Navigate_ back to the [Toolkit](https://github.com/ServiceInnovationLab/serviceinnovationlab.github.io)'s repository.
+- _Navigate_ back to the [Toolkit](https://github.com/ServiceInnovationLab/serviceinnovationlab.github.io)'s repository. (_Open_ the link in a new tab/window)
 - Ensure that you are on the **dev** branch, then _navigate to_ **_authors**.
 - _Click on_ the **Create new file** button. In the **textfield** which appears (at top of page beside the file path breadcrumb), _type in_ your name in this format `firstname-lastname.md` (eg. jacob-ong.md). **Note:** File names should be in lowercase & a hyphen should be used instead of spaces.
 - _Copy_ the below code & _paste_ it in the textfield in your file (_change the details to yours_):
@@ -99,12 +100,13 @@ If you navigate away from that page & would later like to track your PR's status
 
 Example of an **unsuccessful check:**
 ![Unsuccessful checks](/assets/img/screenshot-instructions/unsuccessful-checks.png)
+
 Example of a **successful check:**
 ![Successful checks](/assets/img/screenshot-instructions/successful-checks.png)
 **2.** The reviewers' approval.
 ![Approved PR](/assets/img/screenshot-instructions/reviewer-approval.png)
 
-When Steps 1 & 2 have passed, you should see something similar to this:
+When Steps **1** & **2** have passed, you should see something similar to this:
 ![Approved PR](/assets/img/screenshot-instructions/approved-pr.png)
 
 **Note:** The person creating the PR has the responsibility of:
@@ -113,7 +115,7 @@ When Steps 1 & 2 have passed, you should see something similar to this:
 - Fixing any changes to be made before approval;
 - And _clicking on_ ![Merge PR button](/assets/img/screenshot-instructions/merge-pr.png) & ensuring that no errors occur (eg. warning message, etc...)
 
-If something does "break" & you're unsure of how to fix it, _contact_ either `Brenda` or `Jacob` & they should be able to help you out.
+If something does "break"/error occurs & you're unsure of how to fix it, _contact_ either `Brenda` or `Jacob` & they should be able to help you out.
 
 ---
 
