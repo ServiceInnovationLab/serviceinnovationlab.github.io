@@ -5,19 +5,19 @@
     </a>
   </div>
   <div class="footer-links-wrapper">
-  <div class="footer-links">
-    <ul>
-    {% for item in include.nav_items %}
-      <li>
-        {% if item.permalink %}
-          {% assign item_link = item.permalink | prepend: site.baseurl %}
-        {% else %}
-          {% assign item_link = item.text | slugify | hash_link | prepend: site.baseurl %}
-        {% endif %}
-        <a href="{{ item_link }}">{{ item.text }}</a>
-      </li>
-    {% endfor %}
-    </ul>
-  </div>
+    <div class="footer-links">
+      <ul>
+        {% for item in include.nav_items %}
+          <li>
+            {% if item.permalink %}
+              {% assign item_link = item.permalink | prepend: site.baseurl %}
+            {% else %}
+              {% assign item_link = item.text | slugify | hash_link | prepend: site.baseurl %}
+            {% endif %}
+            <a href="{{ item_link }}">{{ item.text }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 </nav>

@@ -1,0 +1,9 @@
+{
+  "standard": "WCAG21",
+  "level": "error",
+  "defaults": {
+    "timeout": 20000,
+    "wait": 2000,
+    "ignore": []
+  }
+}

@@ -1,8 +1,9 @@
 ---
 name: String
 first_name: String
+last_name: String
 full_name: String
-published: Boolean
+active: Boolean
 config:
   path: _authors
   ignore:
@@ -10,5 +11,5 @@ config:
     - ..
     - .
     - .DS_Store
-  optional: ['last_name', 'team']
+  optional: ['last_name']
 ---

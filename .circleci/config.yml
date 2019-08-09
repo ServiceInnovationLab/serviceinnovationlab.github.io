@@ -1,61 +1,36 @@
 ---
 version: 2
 jobs:
-  test:
+  nodejsdeps:
     docker:
       - image: circleci/ruby:2.6.3-node
     steps:
       - checkout
       - restore_cache:
           keys:
-            - v1-dependencies-{{ checksum "Gemfile.lock" }}
+            - v1-nodejs-deps-{{ checksum "package-lock.json" }}
       - run:
-          name: Install dependencies
-          command: >
-            bundle check --path vendor/bundle || bundle install --deployment
-      - run: bundle exec jekyll test
-
-  yamllint:
+          name: Install nodejs dependencies
+          command: npm install
+      - save_cache:
+          key: v1-nodejs-deps-{{ checksum "package-lock.json" }}
+          paths:
+            - node_modules
+  rubydeps:
     docker:
-      - image: circleci/python:3.7.2
+      - image: circleci/ruby:2.6.3-node
     steps:
       - checkout
       - restore_cache:
           keys:
-            - v1-dependencies-{{ checksum "Gemfile.lock" }}
+            - v1-ruby-deps-{{ checksum "Gemfile.lock" }}
       - run:
-          name: Install yamllint
-          command: sudo pip install --upgrade yamllint
-      - run:
-          name: Yaml linter
-          command: yamllint .
-  # accessibility:
-  #   docker:
-  #     - image: circleci/ruby:2.6.3-node-browsers
-  #   environment:
-  #     PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 1
-  #   steps:
-  #     - checkout
-  #     - restore_cache:
-  #         keys:
-  #           - v1-dependencies-{{ checksum "Gemfile.lock" }}
-  #         - v1-site-build-{{ git rev-parse HEAD }}
-  #     - run: sudo npm install -g pa11y-ci --unsafe-perm=true --allow-root
-
-  #     - run: bundle install
-  #     - run: ./bin/accessibility
-  # percy:
-  #   docker:
-  #     - image: circleci/ruby:2.6.3-node-browsers
-  #   steps:
-  #     - checkout
-  #     - restore_cache:
-  #         keys:
-  #           - v1-dependencies-{{ checksum "Gemfile.lock" }}
-  #           - v1-site-build-{{ git rev-parse HEAD }}
-  #     - run:
-  #         name: Visual Tests
-  #         command: npx percy snapshot ./_site
+          name: Install dependencies
+          command: bundle check --path vendor/bundle || bundle install --deployment
+      - save_cache:
+          key: v1-ruby-deps-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
   build:
     docker:
       - image: circleci/ruby:2.6.3-node
@@ -63,38 +38,97 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-            - v1-dependencies-{{ checksum "Gemfile.lock" }}
+            - v1-ruby-deps-{{ checksum "Gemfile.lock" }}
       - run:
           name: Install dependencies
-          command: >
-            bundle check --path vendor/bundle || bundle install --deployment
+          command: bundle check --path vendor/bundle || bundle install --deployment
       - run:
           name: Build site
           command: bundle exec jekyll build
       - save_cache:
-          key: v1-dependencies-{{ checksum "Gemfile.lock" }}
-          paths:
-            - vendor/bundle
-      - save_cache:
-          key: v1-site-build-{{ git rev-parse HEAD }}
+          key: v1-site-build-{{ .Revision }}
           paths:
             - _site
+
+  test:
+    docker:
+      - image: circleci/ruby:2.6.3-node
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - v1-ruby-deps-{{ checksum "Gemfile.lock" }}
+      - run:
+          name: Install dependencies
+          command: bundle check --path vendor/bundle || bundle install --deployment
+      - run: bundle exec jekyll test
+
+
+  markdownlint:
+    docker:
+      - image: circleci/ruby:2.6.3-node
+    steps:
+      - checkout
+      - run: npm install
+      - run:
+          name: markdown lint
+          command: npm run test-markdown
+
+  yamllint:
+    docker:
+      - image: circleci/python:3.7.2
+    steps:
+      - checkout
+      - run:
+          name: Install yamllint
+          command: sudo pip install --upgrade yamllint
+      - run:
+          name: Yaml linter
+          command: yamllint .
+
+  accessibility:
+    docker:
+      - image: circleci/ruby:2.6.3-node-browsers
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - v1-site-build-{{ .Revision }}
+            - v1-nodejs-deps-{{ checksum "package-lock.json" }}
+      - run: npm install
+      - run: npm run test-accessibility
+  percy:
+    docker:
+      - image: circleci/ruby:2.6.3-node-browsers
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - v1-site-build-{{ .Revision }}
+            - v1-nodejs-deps-{{ checksum "package-lock.json" }}
+      - run: npm install
+      - run:
+          name: Visual Tests
+          command: npm run percy
   deploy:
     docker:
       - image: circleci/ruby:2.6.3-node
     environment:
       DIST_FOLDER: '_site'
-      PUBLISH_BRANCH: 'gh-pages'
+      PUBLISH_BRANCH: 'master'
       REMOTE: origin
     steps:
       - checkout
       - restore_cache:
           keys:
-            - v1-dependencies-{{ checksum "Gemfile.lock" }}
+            - v1-ruby-deps-{{ checksum "Gemfile.lock" }}
+            - v1-site-build-{{ .Revision }}
       - run:
           name: Install dependencies
-          command: >
-            bundle check --path vendor/bundle || bundle install --deployment
+          command: bundle check --path vendor/bundle || bundle install --deployment
+      - run:
+          name: Install dependencies
+          command: bundle check --path vendor/bundle || bundle install --deployment
       - add_ssh_keys:
           fingerprints:
             - "eb:35:35:3f:6f:f5:45:2e:e3:16:15:33:02:02:81:ea"
@@ -107,11 +141,12 @@ jobs:
           command: |
             git config --global user.email "labplus@dia.govt.nz"
             git config --global user.name "Lab Plus"
-            export RELEASE_BRANCH="release-${CIRCLE_BUILD_NUM}"
+            export RELEASE_TAG="release-${CIRCLE_BUILD_NUM}"
             export GIT_USER=$(git config user.name)
-            git checkout -b "${RELEASE_BRANCH}"
+            git checkout -b tmp"
             git add --force _site && git commit "${DIST_FOLDER}" -m "Build $CIRCLE_BUILD_NUM of ${DIST_FOLDER} by ${GIT_USER}"
-            git push "${REMOTE}" "${RELEASE_BRANCH}"
+            git tag "${RELEASE_TAG}"
+            git push "${REMOTE}" "${RELEASE_TAG}"
             git push "${REMOTE}" ":${PUBLISH_BRANCH}"
             git subtree push --prefix "${DIST_FOLDER}" "${REMOTE}" "${PUBLISH_BRANCH}"
 
@@ -119,35 +154,37 @@ workflows:
   version: 2
   build_and_deploy:
     jobs:
-      - yamllint:
-          filters:
-            branches:
-              ignore:
-                - master
-                - gh-pages
+      - nodejsdeps
+      - rubydeps
+      - yamllint
       - build:
+          requires:
+            - rubydeps
           filters:
             branches:
               ignore:
                 - master
                 - gh-pages
-      # - accessibility:
-      #     requires:
-      #       - build
-      - test:
-          filters:
-            branches:
-              ignore:
-                - master
-                - gh-pages
-      # - percy
-      #     requires:
-      #       - build
-      - deploy:
+
+      - markdownlint:
+          requires:
+            - nodejsdeps
+      - accessibility:
           requires:
             - build
+            - nodejsdeps
+      - percy:
+          requires:
+            - build
+            - nodejsdeps
+      - test:
+          requires:
+            - rubydeps
+      - deploy:
+          requires:
+            - rubydeps
+            - build
             - test
-            # - percy
           filters:
             branches:
               only:
