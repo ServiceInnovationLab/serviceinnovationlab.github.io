@@ -23,7 +23,7 @@ _For a step-to-step guide on how to [set-up](https://help.github.com/en/articles
 - On the Two-factor authentication page, either _click on_ **Set up using an app** OR _click on_ **Set up using SMS**.
 - _Download_ & _save_ your recovery codes in a safe place so that you can recover your account if you lose your 2FA credentials.
 - You'll then be re-directed to the next page where depending on the authentication method you have chosen you'll either need to fill in your mobile number (for sms) **OR** needing to scan the QR code (for app). Either way, once you receive the code after following the steps, enter it in the section (as shown below) & _click_ **Enable** when done:![Enable 2FA](/assets/img/screenshot-instructions/enable-2fa.png)
-- _Contact_ one of the `Service Innovation Lab's` repository admins (ie. `Brenda` or `Jacob`) & they will add you to become a member of the repository. You'll be sent an email when approved. _Go to_ your email and accept the invite so that you can add to the repository.
+- _Contact_ one of the `Service Innovation Lab's` repository admins (ie. `Brenda` or `Jacob`) & they will add you to the team on github. You'll receive an invitation by email. _Go to_ your email and accept the invitation.
 
 ---
 
