@@ -10,13 +10,14 @@ header_border: true
   parent_title='Projects'
 %}
 
+{% include base.html %}
 <section class="page-tag-results project">
   <section class="background-medium">
     <div class="nz-grid-full nz-flex banner">
       <div class="nz-grid {% if page.image %}nz-width-one-half{% else %}nz-width-one-whole{% endif %} hero-callout-full hero-callout-no_button">
         {% if page.agency %}
           <h1 class="h3 lead">
-          <span>{{ page.agency }}</span>
+            <span>{{ page.agency }}</span>
           </h1>
         {% endif %}
         <h1 class="page-title">
@@ -25,7 +26,7 @@ header_border: true
       </div>
       {% if page.image %}
         <div class="nz-width-one-half template-banner"
-          style="background-image: url({{ site.baseurl }}{{ page.image }});"
+          style="background-image: url({{ base }}{{ page.image }});"
           role="img"
           title="{{ page.image_accessibility }}">
         </div>
@@ -37,7 +38,6 @@ header_border: true
   </section>
 
   <div class="nz-grid-full nz-grid-reversed">
-
     {% if page.agency or
           page.report or
           page.media or
@@ -122,7 +122,7 @@ header_border: true
         <div class="{% if matching_posts.size > 3 %}nz-flex nz-flex-pull-right nz-flex-baseline nz-spacer{% endif %}">
           <h2>Related blog posts</h2>
           {% if matching_posts.size > 3 %}
-            <a class="link-arrow-right" href="{{ site.baseurl }}/tags/{{ page.tag | slugify }}/">See all posts about this project{% include svg/icons/arrow-right.svg %}</a>
+            <a class="link-arrow-right" href="{{ base }}/tags/{{ page.tag | slugify }}/">See all posts about this project{% include svg/icons/arrow-right.svg %}</a>
           {% endif %}
         </div>
         <ul>

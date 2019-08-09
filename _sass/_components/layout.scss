@@ -280,9 +280,17 @@
 
 // In hww-primary.html & primary.html
 .page-title {
-  color: $color-medium;
+  color: $color-dark;
   font-size: 3.4rem;
   font-weight: 700;
+}
+
+.background-medium {
+  h1,
+  h2,
+  h3 {
+    color: $color-light;
+  }
 }
 
 // In primary.html
