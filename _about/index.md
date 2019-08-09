@@ -47,7 +47,7 @@ All the initiatives we work on are service delivery focused. They either help pe
 
 __Basically it’s about ensuring people’s government experiences are easy, equitable and empathetic. Whether directly or through their own trusted channel or service provider.__
 
-##### [The Service Innovation Lab 2017-18 FY Work Program Report](/2018/07/01/Lab-Report/)
+### [The Service Innovation Lab 2017-18 FY Work Program Report](/2018/07/01/Lab-Report/)
 
 -----
 
@@ -55,7 +55,7 @@ __Basically it’s about ensuring people’s government experiences are easy, eq
 
 We are an interdisciplinary team with backgrounds in agile, design, policy and technology. We use evidence based decision making and design thinking to transform government service experiences.
 
-We work in the open to prevent problem shifting and duplication and increase the sharing, reuse and adaptation of tools and approaches.  
+We work in the open to prevent problem shifting and duplication and increase the sharing, reuse and adaptation of tools and approaches.
 
 By partnering with other agencies, not for profits, private organisations and other governments we can understand the whole service system to identify and test the best ways to create lasting change. While we have a digital focus we ensure people’s needs are considered first as we collaboratively work on creating customer centric services regardless of agency channel preferences.
 
@@ -67,7 +67,7 @@ There are two ways to work with us - in partnership with the lab team to help de
 
 ## History
 
-In 2012 Better Public Services (BPS) initiative was formed with 10 focus areas for government. One of these, known as Result 10, aimed to improve interaction with government. Research uncovered many pain points for people when accessing government services, especially where they needed to interact with multiple government agencies. For example: when applying for financial support related to a significant life event such as having a baby. Poorly integrated digital services were pushing customers back to non-digital channels this became the driver of our approach and work. 
+In 2012 Better Public Services (BPS) initiative was formed with 10 focus areas for government. One of these, known as Result 10, aimed to improve interaction with government. Research uncovered many pain points for people when accessing government services, especially where they needed to interact with multiple government agencies. For example: when applying for financial support related to a significant life event such as having a baby. Poorly integrated digital services were pushing customers back to non-digital channels this became the driver of our approach and work.
 
 In 2013 the Digital Service Council (DSC), comprising eight agencies, was established to provide governance to this programme. In 2014 priority was given to integrated services associated with [life events](https://www.ict.govt.nz/programmes-and-initiatives/government-service-innovation/result-10/research-exec-intro-methodology-concl/frequency-of-use-and-life-events/). To support this strategy a Partnership Framework was established with the ICT Senior Leadership Group (ICT SLG) of agency Chief Executives (CEs) and the Service Innovation Working Group (SIWG) comprising service delivery Deputy Chief Executives (DCE’s). DSC also agreed for agencies to develop a federated model of service delivery to reduce customer effort and deliver efficiencies for agencies.
 

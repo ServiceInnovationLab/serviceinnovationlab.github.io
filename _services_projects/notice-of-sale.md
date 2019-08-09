@@ -13,6 +13,6 @@ expiration_date:
 github_repo:
 project_url: "[]()"
 quote:
-media: 
+media:
 report: "[Notice of Sale](/2018/10/12/Exploring-the-Notice-of-Sale-process/)"
 ---

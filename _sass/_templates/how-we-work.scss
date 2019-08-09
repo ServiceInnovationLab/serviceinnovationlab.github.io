@@ -49,9 +49,7 @@
 }
 
 .expertise-subheading {
-  @include h3;
-  margin-bottom: 3rem;
-  margin-top: 0;
+  line-height: 1.5;
 }
 
 .expertise-main-content {

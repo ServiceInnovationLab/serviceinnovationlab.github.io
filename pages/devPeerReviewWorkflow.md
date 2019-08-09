@@ -4,8 +4,6 @@ permalink: /devPeerReviewWorkflow/
 layout: primary
 ---
 
-# Dev Peer Review Workflow
-
 ## Pull Request Workflow
 
 Our code is written by humans. This will remain true until the robotic apocalypse finally occurs. Humans learn. Humans make mistakes. This peer-review based workflow is used by our team to foster a welcoming environment where we all are lifelong learners, and we support each other as a team to do the best we can, which includes not making mistakes.
@@ -38,6 +36,12 @@ Comments can be "blocking" meaning the author wants a response to their feedback
 
 As a reviewer, you can approve a PR using the "Approve" option on Github. Request changes to a PR using the "Request changes" option.
 
+## Quality
+
+Code needs to pass code linters (we use codeclimate).
+
+Markup generated for webpages must pass accessibility checkers.
+
 ## Merging
 
 PR branches need to be "up to date", and continuous integration via Travis-ci must run and pass before merging. New code must have tests, and minimum code coverage levels need to be met and maintained.
@@ -46,7 +50,7 @@ Merges into the `dev` branch need only one approval to merge but give all active
 
 The dev who proposed the PR presses the merge button on a PR once all the above passes & it is approved. That dev is responsible for merging in a way that does not "break the build" or cause unplanned outages.
 
-Press the "Delete Branch" on Github after merging. This keeps the repo tidy.
+The branch should be deleted automatically (by the **always-be-closing** bot) after merging. This keeps the repo tidy.
 
 ## Commit Messages
 

@@ -15,7 +15,7 @@ The following is content generated in the Transitioning to an Optimistic Future 
 
 ## Overview
 
-The event was designed to build on the concepts and discussions had as part of the Digital Seven Nations and Optimistic Futures Event. In particular we wanted to focus on the human aspect of transition and what would be required of New Zealanders in the future. The topics of discussion were chosen as they we all universally understood human features and common daily activities. This created a level foundation to debate from as opposed to getting caught up in complex technologies and paradigms that could distract and exclude. The role of technology was tightly framed as an enabler and second to behaviour, attributes and activity.  
+The event was designed to build on the concepts and discussions had as part of the Digital Seven Nations and Optimistic Futures Event. In particular we wanted to focus on the human aspect of transition and what would be required of New Zealanders in the future. The topics of discussion were chosen as they we all universally understood human features and common daily activities. This created a level foundation to debate from as opposed to getting caught up in complex technologies and paradigms that could distract and exclude. The role of technology was tightly framed as an enabler and second to behaviour, attributes and activity.
 
 Event Description:
 
@@ -53,7 +53,7 @@ At the end of the day there was a group share and reflection which had the follo
 
 ## Activity One - Qualities to thrive as kiwis in 2070
 
-Participants were asked to brainstorm qualities of an optimistic future in which kiwis could thrive and then chose 5 per group they felt were the most important. 
+Participants were asked to brainstorm qualities of an optimistic future in which kiwis could thrive and then chose 5 per group they felt were the most important.
 
 ![A word cloud of popular terms from the report, details below](/assets/media/2017-18-Lab-Report/Transitioning-to-optimistic-futures.PNG)
 _Word cloud of the key concepts from the workshop content_
@@ -78,13 +78,13 @@ Qualities reflected in two groups:
 * Compassionate - (Love, Mercy)
 * Critically engages/thinking
 * Empowered
-* Environmentally aware/responsive 
+* Environmentally aware/responsive
 * Equitable
 * Open
 * Resilient
 * Trust
 
-Finally, qualities reflected in one group included; Absentable, Abundance, Active, Agile, Ambitious, Appreciative, Audacity, Authenticity, Aware, Big picture thinker, Capability or automation, Capacity, Caring, Challenging, Considerate, Connected (place, people, history, whakapapa, turangawaewae), Courageous, Decisive, Diversity, Ethical, Explorative, Flexible, Generosity, Good natured, Honest, Hopeful, Hypocracy, Imaginative, Inclusive, Initiative, Innovative, Kind, Leadership, Love of learning, Loving, Maker skills, Mobility, Multicultural, Neighbourly, No structural inequality, Patience, Positive, Proactive, Productive, Proud, Reflect, Resourceful, 
+Finally, qualities reflected in one group included; Absentable, Abundance, Active, Agile, Ambitious, Appreciative, Audacity, Authenticity, Aware, Big picture thinker, Capability or automation, Capacity, Caring, Challenging, Considerate, Connected (place, people, history, whakapapa, turangawaewae), Courageous, Decisive, Diversity, Ethical, Explorative, Flexible, Generosity, Good natured, Honest, Hopeful, Hypocracy, Imaginative, Inclusive, Initiative, Innovative, Kind, Leadership, Love of learning, Loving, Maker skills, Mobility, Multicultural, Neighbourly, No structural inequality, Patience, Positive, Proactive, Productive, Proud, Reflect, Resourceful,
 Respectful, Responsible, Risk tolerant, Savvy, Self awareness, Smart, Social, Supportive, Sustainable, Survival Skills, Tolerant, Truthful, Values Driven, Visionary, Work/life Balance (2)
 
 The cumulatirve top 5 prioritised qualities list from each group were (number of groups):
@@ -108,9 +108,9 @@ The cumulatirve top 5 prioritised qualities list from each group were (number of
 * Resourceful
 * Risk tolerant
 
-Full Definitions of prioritised qualities: 
+Full Definitions of prioritised qualities:
 
-__Group 1 Def__
+### Group 1 Def
 
 1. Empathy/sympathy/self awareness - understanding yourself, others and the impacts/consequences of your actions
 
@@ -120,23 +120,23 @@ __Group 1 Def__
     * We want a trust based society, not blockchain one
     * Rehumanise the workforce
 
-2. Creativity - expression, problem solving, making an intuitive leap, to make an idea tangible. 
+2. Creativity - expression, problem solving, making an intuitive leap, to make an idea tangible.
 
     _Important because:_
     * It will enable us to have a viable empowered future
     * Without creativity there is no progress
     * Forward momentum and flow
-    * We can’t understand or express the art of the possible 
-    * Learned helplessness and inability to envisage better systems 
-    * Creativity makes people unique 
+    * We can’t understand or express the art of the possible
+    * Learned helplessness and inability to envisage better systems
+    * Creativity makes people unique
 
 3. Curiosity and love of learning - desire to explore, understand the world around you
 
     _Important because:_
-    * In a changing world, a love of learning will enable us to advance and embrace change with joy. 
+    * In a changing world, a love of learning will enable us to advance and embrace change with joy.
     * Change as an opportunity not a threat
-    * The world will only become more complex 
-    * Love of Learning as a platform for your ability and confidence to respond to complexity 
+    * The world will only become more complex
+    * Love of Learning as a platform for your ability and confidence to respond to complexity
 
 4. Critical thinking - ability to discern truth, deconstruct content to value, truth and facts, ability to contextualise information - natural motivations, values etc
 
@@ -164,8 +164,8 @@ __Group 3 Defs:__
 1. Courageous - Be brave about change, be willing to be the first to act.
 2. Resilient - Internal strength and ability to push through adversity with optimism and adaptability
 3. Kind & Inclusive - With compassion and responsibility actively enable and support participation in society and valuing differences
-4. Sustainable - Consider long term impact and understand we’re living from finite resources 
-5. Decisive - To make decisions and act with confidence, with timeliness and being aware of trade offs. Clarity of thought, long term thinking. Being more comfortable with failure. 
+4. Sustainable - Consider long term impact and understand we’re living from finite resources
+5. Decisive - To make decisions and act with confidence, with timeliness and being aware of trade offs. Clarity of thought, long term thinking. Being more comfortable with failure.
 
 __Group 4 Defs:__
 
@@ -181,18 +181,18 @@ __Group 4 Defs:__
     * Without progress and the confidence to take risks only stagnation results
     * Acceptance of diversity underpins respect
     * Survival!
-    * Empathy - How does it work through technology? It’s a very human characteristic 
+    * Empathy - How does it work through technology? It’s a very human characteristic
 
 ## Activity Two - Performing actions today vs 2070
 
-Participants were asked to choose one of the following activities and explore the process both today and in 2070 and how their qualities from Activity One might impact how they are performed. 
+Participants were asked to choose one of the following activities and explore the process both today and in 2070 and how their qualities from Activity One might impact how they are performed.
 
 __Activities:__
 
 * Start a business
 * Get a health check
 * Grow food - Group 2, Group 3
-* Visit a friend or family member 
+* Visit a friend or family member
 * Campaign for rights/beliefs
 * Prepare a meal
 * Do exercise - Group 4
@@ -308,7 +308,7 @@ __Participants were asked to then reflect on the previous activities and discuss
 2. Should government play a role? if so what?
 3. How could technology enable these?
 
-### Group 1 - have a funeral:
+### Group 1 - have a funeral
 
 1. National and Community level:
     * Pragmatics sorted control
@@ -329,7 +329,7 @@ __Participants were asked to then reflect on the previous activities and discuss
     * Having your own AI avatar as executor
     * Living on virtually after death
 
-### Group 2 - grow food/nurtrition:
+### Group 2 - grow food/nurtrition
 
 1. Effects on Community/Country:
     * Sharing economy
@@ -346,34 +346,34 @@ __Participants were asked to then reflect on the previous activities and discuss
     * Robots
     * Soilchecking
     * Fruit salad trees via grafting
-    * Enable traceability 
+    * Enable traceability
     * Water conservation
     * Meteorological forecasting
     * Nutritional check
     * GMO? More nutritional
     * Harvesting distribution based on need
 
-### Group 3 - grow food/nutrition:
+### Group 3 - grow food/nutrition
 
 1. Effects on Community/Country:
     * Position NZ as quality and food experts
-    * Better use of global resources 
-    * Our small population means being able to test and identify benefits quickly 
-    * Better health through personalised food solutions 
-    * Less ethical dilemma over consuming protein 
-    * More options for learning about alternatives 
+    * Better use of global resources
+    * Our small population means being able to test and identify benefits quickly
+    * Better health through personalised food solutions
+    * Less ethical dilemma over consuming protein
+    * More options for learning about alternatives
     * Equality and no poverty
 
-2. Role of Government:
+1. Role of Government:
     * Education on how it works
     * Regulation of ‘programmable’ food
     * Maintain a group of people who are aware of the tech
     * Incentivise communities for uptake
 
-2. How can technology enable:
+1. How can technology enable:
     * Sharing IP (open source)
 
-    __Benefits: __
+    __Benefits:__
     * History of being a primary provider
     * Decreasing food scarcity
 
