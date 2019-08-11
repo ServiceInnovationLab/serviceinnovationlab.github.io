@@ -1,4 +1,4 @@
-# Tool Kit
+# Toolkit
 
 [![CircleCI](https://circleci.com/gh/ServiceInnovationLab/serviceinnovationlab.github.io/tree/dev.svg?style=svg)](https://circleci.com/gh/ServiceInnovationLab/serviceinnovationlab.github.io/tree/dev)
 [![Maintainability](https://api.codeclimate.com/v1/badges/05a76407322970819c76/maintainability)](https://codeclimate.com/github/ServiceInnovationLab/serviceinnovationlab.github.io/maintainability)
