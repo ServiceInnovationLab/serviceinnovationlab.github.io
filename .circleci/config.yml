@@ -143,7 +143,7 @@ jobs:
             git config --global user.name "Lab Plus"
             export RELEASE_TAG="release-${CIRCLE_BUILD_NUM}"
             export GIT_USER=$(git config user.name)
-            git checkout -b tmp"
+            git checkout -b tmp
             git add --force _site && git commit "${DIST_FOLDER}" -m "Build $CIRCLE_BUILD_NUM of ${DIST_FOLDER} by ${GIT_USER}"
             git tag "${RELEASE_TAG}"
             git push "${REMOTE}" "${RELEASE_TAG}"
@@ -189,3 +189,4 @@ workflows:
             branches:
               only:
                 - dev
+                - deploy
