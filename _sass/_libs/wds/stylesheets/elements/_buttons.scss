@@ -154,7 +154,7 @@ button,
 
 [type="submit"]:disabled,
 .nz-button-disabled {
-  background-color: $color-gray-lighter;
+  background-color: $color-gray-lightest;
   color: $color-gray-dark;
   pointer-events: none;
 
@@ -167,6 +167,10 @@ button,
     border: 0;
     box-shadow: none;
     color: $color-gray-dark;
+  }
+
+  &.nz-button-secondary {
+    background-color: $color-secondary-light;
   }
 }
 
