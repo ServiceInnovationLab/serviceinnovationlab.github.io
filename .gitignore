@@ -7,3 +7,17 @@ _site
 
 # dependencies
 /node_modules
+
+/_site
+*.log
+node_modules/
+/.sass-cache/
+.rvmrc
+_data/private
+.*.sw?
+*.pyc
+.jekyll-metadata
+.floo*
+manifest-*.yml
+/coverage
+tmp
