@@ -159,9 +159,12 @@ jobs:
             git config --global user.name "Deployment step on circle-ci"
             export RELEASE_BRANCH="release-${CIRCLE_BUILD_NUM}"
             git checkout -b "${RELEASE_BRANCH}" --track "${REMOTE}/${PUBLISH_BRANCH}"
-            git add .
-            git commit -m "Build $CIRCLE_BUILD_NUM"
-            git push "${REMOTE}" "${RELEASE_BRANCH}"
+      - run:
+          name: "Add modified files to git"
+          command: git add . && git commit -m "Build $CIRCLE_BUILD_NUM"
+      - run:
+          name: "Push release branch"
+          command: git push "${REMOTE}" "${RELEASE_BRANCH}"
       # - run:
       #     name: Switch to publish branch
       #     command: git checkout "${PUBLISH_BRANCH}"
