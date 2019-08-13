@@ -133,7 +133,9 @@ jobs:
       - run:
           name: Building static site
           command: bundle exec jekyll build
-
+      - run:
+          name: Rsync Install
+          command: sudo apt install rsync
       - run:
           name: Create release branch
           command: |
