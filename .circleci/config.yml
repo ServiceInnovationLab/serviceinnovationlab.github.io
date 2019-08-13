@@ -152,14 +152,15 @@ jobs:
           command: git checkout "${PUBLISH_BRANCH}"
       - run:
           name: "Copy build into our working folder"
-          command: rsync -a ../_site/ .
+          command: |
+            rsync -a ../_site/ .
+            git diff | cat
       - run:
           name: Create release branch
           command: |
             git config --global user.email "labplus@dia.govt.nz"
             git config --global user.name "Lab Plus"
             export RELEASE_BRANCH="release-${CIRCLE_BUILD_NUM}"
-            git diff | cat
             git add .
             # git commit -m "Build $CIRCLE_BUILD_NUM of ${DIST_FOLDER}"
             # git "${REMOTE}" "${PUBLISH_BRANCH}"
