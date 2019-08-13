@@ -158,7 +158,7 @@ jobs:
             git config --global user.email "labplus@dia.govt.nz"
             git config --global user.name "Deployment step on circle-ci"
             export RELEASE_BRANCH="release-${CIRCLE_BUILD_NUM}"
-            git checkout -b "${RELEASE_BRANCH}" --track "${PUBLISH_BRANCH}"
+            git checkout -b "${RELEASE_BRANCH}" --track "${REMOTE}/${PUBLISH_BRANCH}"
             git add .
             git commit -m "Build $CIRCLE_BUILD_NUM"
             git push "${REMOTE}" "${RELEASE_BRANCH}"
