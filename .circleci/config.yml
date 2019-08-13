@@ -148,9 +148,6 @@ jobs:
           name: Rsync Install
           command: sudo apt install rsync
       - run:
-          name: Switch to publish branch
-          command: git checkout "${PUBLISH_BRANCH}"
-      - run:
           name: "Copy build into our working folder"
           command: |
             rsync -a ../_site/ .
@@ -159,11 +156,18 @@ jobs:
           name: Create release branch
           command: |
             git config --global user.email "labplus@dia.govt.nz"
-            git config --global user.name "Lab Plus"
+            git config --global user.name "Deployment step on circle-ci"
             export RELEASE_BRANCH="release-${CIRCLE_BUILD_NUM}"
+            git checkout -b "${RELEASE_BRANCH}" --track "${PUBLISH_BRANCH}"
             git add .
-            # git commit -m "Build $CIRCLE_BUILD_NUM of ${DIST_FOLDER}"
-            # git "${REMOTE}" "${PUBLISH_BRANCH}"
+            git commit -m "Build $CIRCLE_BUILD_NUM"
+            git push "${REMOTE}" "${RELEASE_BRANCH}"
+      # - run:
+      #     name: Switch to publish branch
+      #     command: git checkout "${PUBLISH_BRANCH}"
+      # - run:
+      #     name: Switch to publish branch
+      #     command: git "${REMOTE}" "${PUBLISH_BRANCH}"
 workflows:
   version: 2
   build_and_deploy:
