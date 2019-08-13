@@ -1,8 +1,48 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://serviceinnovationlab.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://serviceinnovationlab.github.io//" rel="alternate" type="text/html" /><updated>2019-01-25T09:29:07+13:00</updated><id>https://serviceinnovationlab.github.io//feed.xml</id><title type="html">Service Innovation Lab</title><subtitle>The Service Innovation Lab is a cross agency collaborative.</subtitle><entry><title type="html">Rates Rebates (Te Whakamāmā i ngā Reiti)</title><link href="https://serviceinnovationlab.github.io//2018/11/30/Rates-Rebate/" rel="alternate" type="text/html" title="Rates Rebates (Te Whakamāmā i ngā Reiti)" /><published>2018-11-30T00:00:00+13:00</published><updated>2018-11-30T00:00:00+13:00</updated><id>https://serviceinnovationlab.github.io//2018/11/30/Rates-Rebate</id><content type="html" xml:base="https://serviceinnovationlab.github.io//2018/11/30/Rates-Rebate/">&lt;p&gt;&lt;img src=&quot;/assets/media/Rates-Rebates/RR1.png&quot; alt=&quot;RR logo&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://serviceinnovationlab.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://serviceinnovationlab.github.io//" rel="alternate" type="text/html" /><updated>2019-08-13T21:50:38+00:00</updated><id>https://serviceinnovationlab.github.io//feed.xml</id><title type="html">Service Innovation Lab</title><subtitle>The Service Innovation Lab is a cross agency collaborative.</subtitle><entry><title type="html">Testing our Toolkit</title><link href="https://serviceinnovationlab.github.io//2019/07/31/Testing-Our-Toolkit/" rel="alternate" type="text/html" title="Testing our Toolkit" /><published>2019-07-31T00:00:00+00:00</published><updated>2019-07-31T00:00:00+00:00</updated><id>https://serviceinnovationlab.github.io//2019/07/31/Testing-Our-Toolkit</id><content type="html" xml:base="https://serviceinnovationlab.github.io//2019/07/31/Testing-Our-Toolkit/">&lt;h2 id=&quot;tests-we-run&quot;&gt;Tests we run&lt;/h2&gt;
+
+&lt;p&gt;This toolkit is built using an open-source tool called Jekyll. We write content in markdown format, which is then parsed by Jekyll which produces a static HTML website that we host on Github pages.&lt;/p&gt;
+
+&lt;p&gt;Content and other changes are proposed by team members using the pull requests on Github. There are a bunch of automated tests the proposed change must satisfy to be accepted (as well as manual testing). The automated tests are fast and means the pull request is in good shape by the time a team member begins their peer review. The tests catch many of our mistakes, as well as being an easy way to learn about content standards.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/testing.png&quot; alt=&quot;Flow diagram of our tests&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;our-tests&quot;&gt;Our Tests&lt;/h3&gt;
+
+&lt;p&gt;We use a continuous integration service called &lt;a href=&quot;https://circleci.com/&quot;&gt;CircleCI&lt;/a&gt; to run our tests. CircleCI is an open-source tool and is available to us for free because our projects are also Open Source (as per &lt;a href=&quot;https://www.data.govt.nz/manage-data/policies/nzgoal/nzgoal-se/&quot;&gt;NZGOAL&lt;/a&gt;).&lt;/p&gt;
+
+&lt;h4 id=&quot;yamllint&quot;&gt;yamllint&lt;/h4&gt;
+
+&lt;p&gt;YAML is a standard format for configuration files (and also the name of Brenda’s cat). Jekyll uses YAML, so we use a linter to inspect our files.
+&lt;a href=&quot;https://yamllint.readthedocs.io/en/stable/&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;yamllint&lt;/code&gt;&lt;/a&gt; is a &lt;a href=&quot;https://pypi.org/project/yamllint/&quot;&gt;python tool available on pip&lt;/a&gt;. It catches any strange/incorrect indenting with better and more helpful errors messages than the tool that reads those YAML.&lt;/p&gt;
+
+&lt;h4 id=&quot;build&quot;&gt;build&lt;/h4&gt;
+
+&lt;p&gt;CI builds the static content on every pull request to ensure that once your change it merged into mainline (the dev branch) it can be successfully built for deployment&lt;/p&gt;
+
+&lt;h3 id=&quot;markdownlint&quot;&gt;markdownlint&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/markdownlint/markdownlint&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;markdownlint&lt;/code&gt;&lt;/a&gt; is a linter that checks you have followed our style guide for markdown files. The linter catches when you’re using &lt;strong&gt;bold&lt;/strong&gt; instead of headers. It fails your pull request if you don’t put descriptions on images if it’s not clear which are the header cells on a table, and if your header nesting doesn’t make sense in a tree structure.&lt;/p&gt;
+
+&lt;h3 id=&quot;percy&quot;&gt;percy&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://percy.io&quot;&gt;Percy&lt;/a&gt; is a service that takes screenshots of every page and compares them to the previous screenshot. If there are differences (i.e. you’ve modified a page on the toolkit) you’ll need to go to Percy and then view and approve the changes. If you’ve broken the display on a page, you’ll see it in the screenshots (and of course if you’ve broken a page, don’t approve it!)&lt;/p&gt;
+
+&lt;h3 id=&quot;accessibility&quot;&gt;accessibility&lt;/h3&gt;
+
+&lt;p&gt;The accessibility check uses a tool called &lt;a href=&quot;https://github.com/pa11y/pa11y-ci&quot;&gt;pa11y-ci&lt;/a&gt; to check we adhere to WCAG21 standard. The &lt;a href=&quot;https://www.digital.govt.nz/standards-and-guidance/nz-government-web-standards/web-accessibility-standard-1-1/&quot;&gt;New Zealand Government - Web Accessibility Standard 1.1&lt;/a&gt; is based on WCAG21. This linter is configured by a file named &lt;code class=&quot;highlighter-rouge&quot;&gt;.pa11yci.json&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
+
+&lt;p&gt;Automated tests catch common mistakes quickly, and more thoroughly than our manual testing. A linter can give quick feedback on proposed changes before the author asks another team member for their peer review. With automated content testing, we can get better quality markup on our toolkit pages, and with a quicker publishing turnaround.&lt;/p&gt;
+
+&lt;p&gt;On a pull request the checks look like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/pull_request.png&quot; alt=&quot;github screen shot, showing passing, failing, and pending checks&quot; /&gt;&lt;/p&gt;</content><author><name>brenda-wallace</name></author><category term="open source" /><category term="tech" /></entry><entry><title type="html">Rates Rebates (Te Whakamāmā i ngā Reiti)</title><link href="https://serviceinnovationlab.github.io//2018/11/30/Rates-Rebate/" rel="alternate" type="text/html" title="Rates Rebates (Te Whakamāmā i ngā Reiti)" /><published>2018-11-30T00:00:00+00:00</published><updated>2018-11-30T00:00:00+00:00</updated><id>https://serviceinnovationlab.github.io//2018/11/30/Rates-Rebate</id><content type="html" xml:base="https://serviceinnovationlab.github.io//2018/11/30/Rates-Rebate/">&lt;p&gt;&lt;img src=&quot;/assets/media/Rates-Rebates/RR1.png&quot; alt=&quot;RR logo&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Authored by:&lt;/strong&gt; Siobhan McCarthy and Glen Thurston&lt;/p&gt;
 
-&lt;h1 id=&quot;contents&quot;&gt;Contents&lt;/h1&gt;
+&lt;h2 id=&quot;contents&quot;&gt;Contents&lt;/h2&gt;
+
 &lt;ol&gt;
   &lt;li&gt;&lt;a href=&quot;#Go-to-Overview&quot;&gt;Overview&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#Go-to-Background&quot;&gt;Background&lt;/a&gt;&lt;/li&gt;
@@ -39,12 +79,14 @@
 
 &lt;h2 id=&quot;background&quot;&gt;Background&lt;a name=&quot;Go-to-Background&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
 
-&lt;h3 id=&quot;why-was-this-brought-to-the-service-innovation-lab&quot;&gt;Why was this brought to the Service Innovation Lab?&lt;/h3&gt;
+&lt;h3 id=&quot;why-was-this-brought-to-the-service-innovation-lab&quot;&gt;Why was this brought to the Service Innovation Lab&lt;/h3&gt;
+
 &lt;p&gt;The Rates Rebates entitlement was identified as a proactive entitlement for the Service Innovation Lab to explore by the Service Innovation Working Group.&lt;/p&gt;
 
 &lt;p&gt;Because of the large number of applicants who are Superannuitants, this is also a service that is considered to play a part in the “Becoming a Senior” life event.&lt;/p&gt;
 
 &lt;h3 id=&quot;who-has-been-involved&quot;&gt;Who has been involved?&lt;a name=&quot;Go-to-Involved&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+
 &lt;p&gt;&lt;strong&gt;Discovery Phase&lt;/strong&gt;
 Department of Internal Affairs, Tauranga City Council, Auckland Council, Wellington City Council, Ministry of Social Development, Inland Revenue, Assurity,  Service Innovation Lab.&lt;/p&gt;
 
@@ -52,6 +94,7 @@ Department of Internal Affairs, Tauranga City Council, Auckland Council, Welling
 Tauranga City Council, Department of Internal Affairs, Auckland Council, Service Innovation Lab,&lt;/p&gt;
 
 &lt;h3 id=&quot;the-entitlement-in-numbers&quot;&gt;The entitlement in numbers&lt;a name=&quot;Go-to-Numbers&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+
 &lt;p&gt;In the 2016/2017 rating year &lt;strong&gt;97,947&lt;/strong&gt; rebates were granted, of those &lt;strong&gt;80,486&lt;/strong&gt; were the full $610.&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;The maximum subsidy amount is reviewed yearly - for 2016/17 the maximum was $610. In 2017/18 the maximum is $620. In 2018/19 its $630.&lt;/p&gt;
@@ -60,6 +103,7 @@ Tauranga City Council, Department of Internal Affairs, Auckland Council, Service
 &lt;p&gt;The trend shows the number of rebates granted each year going down. This is a well known trend and is mostly due to the income threshold not keeping in pace with the rise in superannuation payments year to year, leading to those on the couples super especially, gradually dropping out of eligibility. Other factors include housing affordability and lowering home ownership rates - &lt;a href=&quot;#Go-to-Appendix2&quot;&gt;Appendix Two&lt;/a&gt;&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; contains more information on this trend and causal factors.&lt;/p&gt;
 
 &lt;p&gt;There is not enough data available at this time for us to know:&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;How many apply and are rejected due to inconsistent implementation processes across council&lt;/li&gt;
   &lt;li&gt;How many people are eligible across Aotearoa New Zealand&lt;/li&gt;
@@ -156,6 +200,7 @@ How many choose to apply or not.&lt;/li&gt;
 &lt;/table&gt;
 
 &lt;h3 id=&quot;rebate-amendment&quot;&gt;Rebate amendment&lt;a name=&quot;Go-to-Amendment&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+
 &lt;p&gt;In February 2018 the Rates Rebate Amendment Act 2018 was passed that grants those who live in retirement villages eligibility to receive Rates Rebates, expanding the number of eligible by approximately 25,000.&lt;/p&gt;
 
 &lt;p&gt;Data from last year suggests 36,618 people currently live in retirement villages, these are comprised of 28,168 units. Some of these units were already eligible to apply under the old legislation if they were rated separately and in the name of the resident. We don’t have numbers for this but it’s a minority of units, most units are newly covered by the recent legislation.&lt;/p&gt;
@@ -163,6 +208,7 @@ How many choose to apply or not.&lt;/li&gt;
 &lt;p&gt;High level estimate of units newly eligible to apply is around 25,000. The number actually eligible to receive a rebate will be much lower due to income levels and value of rates. For example, most couples aren’t eligible as the couples superannuation income, together with having relatively low rates precludes a lot of them.&lt;/p&gt;
 
 &lt;h3 id=&quot;our-key-stakeholders&quot;&gt;Our key stakeholders&lt;a name=&quot;Go-to-Stakeholders&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+
 &lt;p&gt;&lt;strong&gt;Ratepayers&lt;/strong&gt;
 Those eligible for a rebate are people who own and live in their home with an income level below a formula determined by their rates.&lt;/p&gt;
 
@@ -173,9 +219,11 @@ Application forms are accepted by Local Government, who do initial processing of
 DIA administer the rebate, are responsible for the paper forms, which they deliver to councils, and are responsible for the payments of rebates to be made to local councils.&lt;/p&gt;
 
 &lt;h3 id=&quot;pain-points-for-applicants-and-system&quot;&gt;Pain points for applicants and system&lt;a name=&quot;Go-to-Painpoints&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+
 &lt;p&gt;During the discovery and the alpha phases we explored all aspects of the rates rebate experience from the perspectives of the users or applicants who apply for their entitlement and the people who are involved in the system of facilitating, checking and approving the applications.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Applicants&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;applicants&quot;&gt;Applicants&lt;/h4&gt;
+
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;The complexity of application&lt;/strong&gt; creates a poor customer experience&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Lack of awareness of rebate entitlement&lt;/strong&gt; for potential applicants and in social security support systems&lt;/li&gt;
@@ -188,22 +236,26 @@ The current system is estimated to cost $1m in citizen time alone&lt;sup id=&quo
 Due to many applicants being over 65 and/or with disabilities, the impact of the requirement of Statutory Declaration in front of a witness impacts accessibility for the core customer group.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;System&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;system&quot;&gt;System&lt;/h4&gt;
+
 &lt;ul&gt;
   &lt;li&gt;The process is very &lt;strong&gt;manual&lt;/strong&gt; and involves &lt;strong&gt;costly double handling&lt;/strong&gt;. Applicants must fill in the same information and apply every year even when their information does not change.&lt;/li&gt;
   &lt;li&gt;Preventable &lt;strong&gt;cost of implementation to councils&lt;/strong&gt; and wait times for payments back to councils from DIA&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Prescriptive legislation&lt;/strong&gt; preventing an end-to-end digital experience&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;the-discovery&quot;&gt;The discovery&lt;a name=&quot;Go-to-Discovery&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;the-discovery&quot;&gt;The discovery&lt;a name=&quot;Go-to-The-Discovery&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;In​ ​September​ 2017 ​the ​team​ ​kicked​ ​off​ ​a​ ​three-week​ ​discovery​ ​sprint,​ ​exploring​ ​how​ ​subsidies​ ​are provided​ ​to​ ​New​ ​Zealanders​ ​and​ ​what​ ​ ​that​ ​could look​ ​like​ ​in​ ​the​ ​future,​ ​with​ ​a​ ​focus​ ​on​ ​Rates Rebates.​ ​Rates​ ​Rebates​ ​are​ ​an​ ​entitlement​ ​that​ ​has​ ​been​ ​identified​ ​as​ ​a​ ​key​ ​pain​ ​point​ ​for​ ​applicants (low-income​ ​property​ ​owners​ ​for​ ​primary​ ​residences),​ ​as​ ​well​ ​as​ ​for​ ​Local​ ​and​ ​Central​ ​Government.&lt;/p&gt;
 
 &lt;p&gt;The discovery sprint included service designers, user researchers and subject matter experts from the Department of Internal Affairs (the Service Innovation team as well as the Rates Rebates team), Auckland Council, Tauranga Council, Wellington Council, the Ministry for Social Development and the Inland Revenue Department with support from Assurity.&lt;/p&gt;
 
 &lt;h2 id=&quot;week-one---kick-off&quot;&gt;Week One - Kick off&lt;/h2&gt;
+
 &lt;h3 id=&quot;focus-points&quot;&gt;Focus points&lt;/h3&gt;
+
 &lt;p&gt;The team identified the following focus points for the three week sprint.&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;Understand​ ​and​ ​Complement​&lt;/strong&gt; - Previous Rates Rebates insights focused on the process from an applicant perspective, our team will collect and analyse insight from multiple perspectives including Central and Local Government agencies. We are also looking for additional applicant types that have not been spoken to before and understand the size and demographics of the eligibility groups.&lt;/p&gt;
@@ -220,49 +272,64 @@ Due to many applicants being over 65 and/or with disabilities, the impact of the
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;week-two---customer-research-and-journey-mapping&quot;&gt;Week Two - Customer research and journey mapping&lt;/h2&gt;
+
 &lt;h3 id=&quot;service-blueprint&quot;&gt;Service blueprint&lt;/h3&gt;
+
 &lt;p&gt;Service Map The Rates Rebates Process touches many agencies. We mapped the journey to see touch points for rebates customers, front stage (agency work visible to the rebate customer), and backstage (agency work not visible to the rebate customer). It showed a very complex picture with a lot of pain across users, Councils and Central government agencies. Considering this entitlement is a maximum of $610 per year, it requires a lot of cost and time from all participants in the process to administer.
 &lt;img src=&quot;/assets/media/Rates-Rebates/RR2.png&quot; alt=&quot;Service Blueprint&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;To view the journey in more detail, please use this link: &lt;a href=&quot;https://docs.google.com/drawings/d/1G3cs66o7u-xwJWr2FT46cd5UivJ-HojpcS3I-Q5bSOY/edit?usp=sharing&quot;&gt;https://docs.google.com/drawings/d/1G3cs66o7u-xwJWr2FT46cd5UivJ-HojpcS3I-Q5bSOY/edit?usp=sharing&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;personas&quot;&gt;Personas&lt;/h2&gt;
+
 &lt;p&gt;We created the following personas based on the customer groups identified to compliment the personas made in the previous discovery work.&lt;/p&gt;
 
 &lt;h3 id=&quot;working-mother&quot;&gt;Working mother&lt;/h3&gt;
+
 &lt;p&gt;Hannah lives in Southland, looking after her three kids and doing some freelance work in her spare time. She is very capable, but going into town can be a bother – she borrows a car from her neighbour and it’s not always available. Because she lives rurally, she likes to do more things online. She’s short on time and money is always tight. She has found out about the Rates Rebates and wants to get it – but she’s also short on time and not sure if the bother is worth it.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/media/Rates-Rebates/RR3.png&quot; alt=&quot;Working Mother&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;superannuant&quot;&gt;Superannuant&lt;/h3&gt;
+
 &lt;p&gt;Jennifer is a retiree living in a block of flats in Wellington city. She doesn’t drive anymore, but manages to get around fine on public transport. She thinks of herself as pretty independent, but sometimes she needs to help with her finances and paperwork – she’s not as good at reading the fine print anymore. She uses an iPad to look at FaceBook and the news – but doesn’t do much else online and doesn’t like the idea of her personal details being somewhere out there. She’s a repeat applicant for the Rates Rebates, and considers it a nice bonus.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/media/Rates-Rebates/RR4.png&quot; alt=&quot;Superannuant&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;supported-living-dependant&quot;&gt;Supported Living dependant&lt;/h3&gt;
+
 &lt;p&gt;George lives in a suburb in Tauranga. He suffers from a physical disability, and depends heavily on his support person for any physical activity. Money is tight and he budgets carefully – allocating all of the money that comes in. When there is a delay, it’s a real issue. He has lots of interaction with government to claim various benefits and he is comfortable with doing things online - but he doesn’t have his own computer.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/media/Rates-Rebates/RR5.png&quot; alt=&quot;Supported Living Dependant&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;week-3---concept-development-and-testing&quot;&gt;Week 3 - Concept development and testing&lt;/h2&gt;
+
 &lt;p&gt;We tested 3 concepts, hypothetical ways the process of rebates might work, based on data sharing between agencies, to help make the process easier and efficient. We tested the concepts with those we interviewed to find out their thoughts and opinions.&lt;/p&gt;
 
 &lt;p&gt;We spoke to 17 ratepayers that covered different demographics to map their experience and pain points. A large portion of them were women and retired, building on previous research from Internal Affairs.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/media/Rates-Rebates/RR6.png&quot; alt=&quot;Assisted automation opt-in&quot; /&gt;&lt;/p&gt;
+
 &lt;h3 id=&quot;option-1---assisted-automation-opt-in&quot;&gt;Option 1 - Assisted automation opt-in&lt;/h3&gt;
+
 &lt;p&gt;There were varied reactions to this option. Some said they saw issues with it being online, mentioning they know a lot of people in their circles who get rebates and do not have computers or feel comfortable using them. Others liked this but often said they preferred option 3 after they had seen all options. Some suggested that they liked the idea of the service being provided by phone, and suggested that there may be a way for them to make a verbal declaration in place of Statutory Declaration.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/media/Rates-Rebates/RR7.png&quot; alt=&quot;Automatically apply rebate&quot; /&gt;&lt;/p&gt;
+
 &lt;h3 id=&quot;option-2---automatically-apply-rebate&quot;&gt;Option 2 - Automatically apply rebate&lt;/h3&gt;
+
 &lt;p&gt;This option was usually popular, until option 3 was shown and then they decided that this was something they did not actually want. As they were unsure what this would mean if the information was wrong or felt uncomfortable for the govt to be talking about them and deciding things without their knowledge. Many felt that this option was a bit “big brother.”&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/media/Rates-Rebates/RR8.png&quot; alt=&quot;Auto populate data&quot; /&gt;&lt;/p&gt;
+
 &lt;h3 id=&quot;option-3---auto-populate-data&quot;&gt;Option 3 - Auto populate data&lt;/h3&gt;
+
 &lt;p&gt;Option 3 was the most popular. People were usually most comfortable with this option as they felt that it still let them be in control, but also made the complex process less work for them. Some felt uncomfortable about their data being shared without their permission and knowledge, and didn’t like the idea of the government ‘talking about me’ as they did not trust the government completely. Many users had the attitude of ‘they already do this/know this information anyway’.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-alpha&quot;&gt;The Alpha&lt;a name=&quot;Go-to-The-Alpha&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+
 &lt;h3 id=&quot;the-future-of-the-rates-rebates-service&quot;&gt;The Future of the Rates Rebates Service&lt;/h3&gt;
+
 &lt;p&gt;In the &lt;a href=&quot;https://www.digital.govt.nz/blog/labplus-rates-rebates-discovery-report/&quot;&gt;Discovery phase&lt;/a&gt; there were a number of opportunities identified for service improvement. We also identified barriers from the prescriptive legislation, an Act written in 1973, that impacts what is possible for digital service delivery in 2018.&lt;/p&gt;
 
 &lt;p&gt;Of the three concepts tested, based on data sharing between agencies to help make the process easier and efficient, option 3 (auto-populate data) was the most popular. People were most comfortable with this option as they felt that it still let them have control, while also making the complex process less work. There are some issues with the legislation around the witnessing of forms, this could prove to be a barrier to this option being easily implemented.&lt;/p&gt;
@@ -276,7 +343,9 @@ Due to many applicants being over 65 and/or with disabilities, the impact of the
 &lt;p&gt;With this knowledge, and knowledge of digital best practice, we were able to set our goals for an MVP.  We assembled a team of subject matter experts from the initial discovery team, and brought on developers to help make this digital service a reality. This includes &lt;a href=&quot;https://www.aucklandcouncil.govt.nz/Pages/default.aspx&quot;&gt;Auckland Council&lt;/a&gt;, &lt;a href=&quot;https://www.tauranga.govt.nz/&quot;&gt;Tauranga City Council&lt;/a&gt;, &lt;a href=&quot;https://www.dia.govt.nz/&quot;&gt;Department of Internal Affairs&lt;/a&gt;, supported by the Service Innovation Lab team.&lt;/p&gt;
 
 &lt;h3 id=&quot;criteria-for-alpha-to-test---our-scope&quot;&gt;Criteria for alpha to test - our scope&lt;/h3&gt;
+
 &lt;p&gt;Both Councils clearly articulated the need to address the signature/witness legislative barrier to enable a fully digital streamlined service and this has been addressed by DIA Legal advice. Through discussion, the Council then outlined the following specific areas where the proposed Alpha could create immediate value which would be used as success criteria for Alpha and beyond:&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;An &lt;strong&gt;increase in uptake&lt;/strong&gt; of the rebate and &lt;strong&gt;decreased time, effort and stress&lt;/strong&gt; for users that use Alpha.&lt;/li&gt;
   &lt;li&gt;A &lt;strong&gt;proportional drop in the refused applications&lt;/strong&gt;, and we can measure web analytics of how many users roughly started the process and how many applications were completed.&lt;/li&gt;
@@ -287,18 +356,21 @@ Due to many applicants being over 65 and/or with disabilities, the impact of the
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;additional-success-criteria-after-alpha-would-require-integration-with-tauranga-city-council-systems-once-alpha-proves-successful&quot;&gt;Additional success criteria after Alpha (would require integration with Tauranga City Council systems once Alpha proves successful)&lt;/h3&gt;
+
 &lt;ul&gt;
   &lt;li&gt;To reduce the manual processes for helpdesk filling in and doing data entry of the application forms should &lt;strong&gt;improve the speed of delivery at help desk&lt;/strong&gt;, creating a small improvement both in the users experience and in help desk productivity.&lt;/li&gt;
   &lt;li&gt;By simplifying and digitising the process, we hope to see an &lt;strong&gt;improvement in the turnaround time of batches sent to DIA and faster payments made to Council&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;other-desirable-components-for-project-to-investigate&quot;&gt;Other desirable components for project to investigate&lt;/h3&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Encourage &lt;strong&gt;consistency of messaging&lt;/strong&gt; across councils and agencies for Rates Rebates.&lt;/li&gt;
   &lt;li&gt;Help &lt;strong&gt;address user perceptions&lt;/strong&gt;, that ‘the entitlement is being made purposely hard to prevent people getting it’, by &lt;strong&gt;making it easier to find, assess and apply for&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;further-research---diving-deeper&quot;&gt;Further research - diving deeper&lt;/h2&gt;
+
 &lt;p&gt;We dived even deeper into understanding the service delivery and what is possible. By examining legislation, technology systems used to run the current service, and modes of delivery we created detailed service blueprints of the current and future states, testing them against each other and our goals for the service improvement.&lt;/p&gt;
 
 &lt;p&gt;We looked into how data was being submitted by ratepayers in their paper applications, and what forms this data took when digitised, transported, and processed. We looked over the form and worked on how the language could be improved for plain English, and how form fields could be made easier to complete. For example, when asking an applicant’s income, we could provide an option to press a button to state that they are receiving NZ Superannuation, rather than asking them what dollar amount that is, as we already know the figure limits for superannuation.&lt;/p&gt;
@@ -306,8 +378,12 @@ Due to many applicants being over 65 and/or with disabilities, the impact of the
 &lt;p&gt;&lt;a href=&quot;#Go-to-Appendix1&quot;&gt;Appendix One&lt;/a&gt; contains service blueprints that describe how the current service works, the alpha used in the Tauranga pilot and a potential future state of a fully automated proactive service future state.&lt;/p&gt;
 
 &lt;h2 id=&quot;how-the-alpha-works---user-interface-design&quot;&gt;How the alpha works - user interface design&lt;/h2&gt;
+
 &lt;h3 id=&quot;making-it-easy&quot;&gt;Making it easy&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/media/Rates-Rebates/RR9.png&quot; width=&quot;425px&quot; align=&quot;right&quot; /&gt;To make it easy we built a web application (web app) for the ratepayer applicants to use as the basis of the alpha. Applicants can learn if they were eligible for a Rates Rebate in the current year by entering their address. We created a widget where the applicant only types their address, which is auto-completed for them, and their Rates appear - it uses publicly available data which we obtained in collaboration with the Tauranga City Council. Once the applicant enters their income and number of dependants, they get an indication of their Rates Rebate. If they provide accurate information, they will get an accurate calculation - it’s all in one place,  the user interface design guides people through the process giving them the information needed to help them make a decision whether its worthwhile for them to apply or not.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/Rates-Rebates/RR9.png&quot; width=&quot;425px&quot; alt=&quot;photo of ipad device with rates rebate software running&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To make it easy we built a web application (web app) for the ratepayer applicants to use as the basis of the alpha. Applicants can learn if they were eligible for a Rates Rebate in the current year by entering their address. We created a widget where the applicant only types their address, which is auto-completed for them, and their Rates appear - it uses publicly available data which we obtained in collaboration with the Tauranga City Council. Once the applicant enters their income and number of dependants, they get an indication of their Rates Rebate. If they provide accurate information, they will get an accurate calculation - it’s all in one place,  the user interface design guides people through the process giving them the information needed to help them make a decision whether its worthwhile for them to apply or not.&lt;/p&gt;
 
 &lt;p&gt;If the applicant calculated they are eligible and chooses to apply, they are then presented with more information to ensure they understand the definitions of income and dependants. We were able to eliminate the need for paper in this process.&lt;/p&gt;
 
@@ -316,6 +392,7 @@ Due to many applicants being over 65 and/or with disabilities, the impact of the
 &lt;p&gt;The web application frontend was built in ReactJS, with a jsonapi.org server created with JSONAPI Suite on Ruby on Rails. Signatures were captured using “signature_pad” npm module. The web app was built in five weeks. All components used were open source, and available on github.com for other agencies to use.&lt;/p&gt;
 
 &lt;h3 id=&quot;eligibility-calculator&quot;&gt;Eligibility calculator&lt;/h3&gt;
+
 &lt;p&gt;Our research told us people applying for the rates rebate often don’t know how much they earn. As many are on Superannuation or Work and Income benefits we can ask if they’re on one of these income sources, as the amounts are known.&lt;/p&gt;
 
 &lt;p&gt;We also found that there was some embarrassment about income and about asking for any form of help which was a barrier to applying, so we designed an anonymous calculation step at the beginning of the service so people don’t have to go through a full application before they find out if they are eligible for anything (which is the current process). We found users that had gone through days of effort to apply, only to discover they were entitled to 30 cents.&lt;/p&gt;
@@ -324,6 +401,7 @@ Due to many applicants being over 65 and/or with disabilities, the impact of the
 (Above: an example of the user journey when using the pilot digital application)&lt;/p&gt;
 
 &lt;h3 id=&quot;user-interfaceuser-experience-development&quot;&gt;User Interface/User Experience development&lt;/h3&gt;
+
 &lt;p&gt;The user interface, online eligibility calculator and web app went through testing with citizens, Tauranga City Council Service and Support Centre staff, as well as with DIA Rates Rebates staff throughout development. Testing with prototypes built in Atomic, a web based mockup tool, meant that we were able to make changes on the fly while testing and getting feedback.&lt;/p&gt;
 
 &lt;p&gt;To read more on this prototyping and see some of the work in progress prototypes go to &lt;a href=&quot;https://www.digital.govt.nz/blog/labplus-rates-rebates-prototyping/&quot;&gt;https://www.digital.govt.nz/blog/labplus-rates-rebates-prototyping/&lt;/a&gt;&lt;/p&gt;
@@ -331,6 +409,7 @@ Due to many applicants being over 65 and/or with disabilities, the impact of the
 &lt;p&gt;Feedback on the prototypes was very positive. There were many iterations of language style used and testing helped us find language that we felt was appropriate, and read as the plainest English.&lt;/p&gt;
 
 &lt;h3 id=&quot;feedback-from-digital-pilot-users-in-tauranga&quot;&gt;Feedback from digital pilot users in Tauranga&lt;/h3&gt;
+
 &lt;blockquote&gt;
   &lt;p&gt;“I didn’t know government things could be like this”&lt;/p&gt;
   &lt;ol&gt;- User testing&lt;/ol&gt;
@@ -357,6 +436,7 @@ Due to many applicants being over 65 and/or with disabilities, the impact of the
 &lt;/blockquote&gt;
 
 &lt;h3 id=&quot;opportunities-for-digitising-the-application&quot;&gt;Opportunities for digitising the application&lt;/h3&gt;
+
 &lt;p&gt;By making the application digital we were able to show where improvements could be made to the system and processes of the service. There are opportunities for integration with Rating Information Databases from local councils, local council information management systems, as well as central government systems.&lt;/p&gt;
 
 &lt;p&gt;Other benefits of a digital service are that changes to the entitlement can be implemented in a shorter period of time, such as the income threshold and maximum entitlement, which are reviewed every year and often changed.&lt;/p&gt;
@@ -367,14 +447,18 @@ Due to many applicants being over 65 and/or with disabilities, the impact of the
 
 &lt;p&gt;&lt;a href=&quot;#Go-to-Appendix3&quot;&gt;Appendix 3&lt;/a&gt; shows a physical comparison of the web app vs the current paper application.&lt;/p&gt;
 
-&lt;h1 id=&quot;insights-from-discovery-and-alpha-&quot;&gt;Insights from discovery and alpha &lt;a name=&quot;Go-to-Insights-Discovery-Alpha&quot;&gt;&lt;/a&gt;&lt;/h1&gt;
-&lt;h2 id=&quot;applicants-insights&quot;&gt;Applicants insights&lt;/h2&gt;
-&lt;h3 id=&quot;customer-segmentation&quot;&gt;Customer segmentation&lt;/h3&gt;
+&lt;h2 id=&quot;insights-from-discovery-and-alpha-&quot;&gt;Insights from discovery and alpha &lt;a name=&quot;Go-to-Insights-Discovery-Alpha&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h3 id=&quot;applicants-insights&quot;&gt;Applicants insights&lt;/h3&gt;
+
+&lt;h4 id=&quot;customer-segmentation&quot;&gt;Customer segmentation&lt;/h4&gt;
+
 &lt;p&gt;The majority of current applicants are retired, around 80% of applicants receive New Zealand Superannuation. There is a misconception that Rates Rebates require you to be on NZ Superannuation to be eligible.&lt;/p&gt;
 
 &lt;p&gt;Supported Living payment recipients and solo parents are another significant demographic of applicants, although more research is needed to confirm demographics due to the lack of information collected on applicants.&lt;/p&gt;
 
-&lt;h3 id=&quot;lack-of-awareness&quot;&gt;Lack of awareness&lt;/h3&gt;
+&lt;h4 id=&quot;lack-of-awareness&quot;&gt;Lack of awareness&lt;/h4&gt;
+
 &lt;p&gt;We believe that there are many ratepayers who are eligible but do not know about the entitlement. Council rebates and contact centre staff are worried that &lt;strong&gt;there are a lot of people out there that need a rebate, but do not know about it&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;Our research showed that many people &lt;strong&gt;find out about the entitlement via word of mouth&lt;/strong&gt;. – almost by accident, rather than from direct messaging from Local or Central Government.
@@ -382,7 +466,8 @@ Examples from our research include one ratepayer who had experienced a change in
 
 &lt;p&gt;When rates are not paid, this is a &lt;strong&gt;trigger for the Council to proactively reach out&lt;/strong&gt; to applicants about applying for a rebate. This can often be the way a ratepayer finds out that Rates Rebates exist and that they are entitled to one.&lt;/p&gt;
 
-&lt;h3 id=&quot;complexity&quot;&gt;Complexity&lt;/h3&gt;
+&lt;h4 id=&quot;complexity&quot;&gt;Complexity&lt;/h4&gt;
+
 &lt;p&gt;Customers do not find completing the application easy or enjoyable. Collating their information and obtaining evidence from other agencies have been identified as a pain point.&lt;/p&gt;
 
 &lt;p&gt;It was often said that &lt;strong&gt;you have to know the system to get the entitlement&lt;/strong&gt;, and the application is quite difficult and complex.&lt;/p&gt;
@@ -400,7 +485,8 @@ Examples from our research include one ratepayer who had experienced a change in
   &lt;p&gt;“People won’t take the money if the value of the trade is too low” [e.g. time, giving up their personal information]&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;accessibility&quot;&gt;Accessibility&lt;/h3&gt;
+&lt;h4 id=&quot;accessibility&quot;&gt;Accessibility&lt;/h4&gt;
+
 &lt;p&gt;Both council staff and ratepayers commented that at peak application time, the service centres become very busy with rebate applicants and described scenes where the lines were long, with many in the lines being elderly and council staff bringing out chairs for those who struggle to stand for too long.&lt;/p&gt;
 
 &lt;p&gt;Some said it &lt;strong&gt;“feels like a hospital waiting room”&lt;/strong&gt; and others worry about how they will complete their Rates Rebates applications when they are older and less able-bodied and/or able-minded.&lt;/p&gt;
@@ -410,7 +496,8 @@ Examples from our research include one ratepayer who had experienced a change in
 &lt;p&gt;There is also a user perception that there needs to be options for service delivery other than Digital - &lt;strong&gt;“What if they don’t have a computer?”&lt;/strong&gt;
 Applicants asked: &lt;strong&gt;“Why can’t you just do it over the phone?”&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;cultural-expectations&quot;&gt;Cultural expectations&lt;/h3&gt;
+&lt;h4 id=&quot;cultural-expectations&quot;&gt;Cultural expectations&lt;/h4&gt;
+
 &lt;p&gt;A common perception from successful applicants was that &lt;strong&gt;there are a lot of people worse off than them&lt;/strong&gt; who are more deserving to get a rebate.&lt;/p&gt;
 
 &lt;p&gt;Some applicants expressed that rebates made them &lt;strong&gt;feel as if they begging for money&lt;/strong&gt; now that their main source of income was NZ Superannuation.&lt;/p&gt;
@@ -436,24 +523,30 @@ Applicants asked: &lt;strong&gt;“Why can’t you just do it over the phone?”
   &lt;p&gt;“It’s embarrassing having to ask [for a rebate] but you are entitled”&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;trust-in-digital-and-government&quot;&gt;Trust in digital and government&lt;/h3&gt;
+&lt;h4 id=&quot;trust-in-digital-and-government&quot;&gt;Trust in digital and government&lt;/h4&gt;
+
 &lt;p&gt;A single poor experience with computers or automated systems can colour how much trust a customer has around automation. Many ratepayers we interviewed mentioned either themselves or someone they know who’d had a bad experience such as either being scammed or having had a poor customer experience with a company with an online component.&lt;/p&gt;
 
 &lt;p&gt;Customers often find &lt;strong&gt;correspondence from government threatening&lt;/strong&gt; when it’s addressed to them as an individual.  This can lead to communications about entitlements either being missed or misunderstood, as citizens feel that they will not be contacted by the government unless there is a problem.&lt;/p&gt;
 
-&lt;h2 id=&quot;system-and-process-insights&quot;&gt;System and process insights&lt;/h2&gt;
-&lt;h3 id=&quot;inefficient-process&quot;&gt;Inefficient process&lt;/h3&gt;
+&lt;h3 id=&quot;system-and-process-insights&quot;&gt;System and process insights&lt;/h3&gt;
+
+&lt;h4 id=&quot;inefficient-process&quot;&gt;Inefficient process&lt;/h4&gt;
+
 &lt;p&gt;The process is very manual and involves &lt;strong&gt;costly double handling&lt;/strong&gt;. Applicants must fill in the same information and apply every year even when their information does not change. Applicants often submit incomplete and incorrect forms which compounds problems further.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Ratepayers find the application confusing&lt;/strong&gt;, leading to forms often completed wrongly , or required fields left blank. If this happens, the applicant must be contacted and then the application re-submitted, &lt;strong&gt;delaying when the rebate can be granted&lt;/strong&gt; which is often at a time when it’s needed most. This results in more double handling.&lt;/p&gt;
 
-&lt;h3 id=&quot;cost-to-council&quot;&gt;Cost to council&lt;/h3&gt;
+&lt;h4 id=&quot;cost-to-council&quot;&gt;Cost to council&lt;/h4&gt;
+
 &lt;p&gt;Councils can be left waiting for DIA payments to come through after they have discounted customers rates. Many councils are also unhappy with the cost of implementing the facilitating and checking of an entitlement application which cost them staff that could be better used in more high value contacts with their ratepayers.&lt;/p&gt;
 
 &lt;h3 id=&quot;peak-times-are-hard-to-staff-and-manage&quot;&gt;Peak times are hard to staff and manage&lt;/h3&gt;
+
 &lt;p&gt;The majority of applications come at the start of the rating year in August. Due to the number of applications, compared to other months of the year, councils often hire temporary staff for a number of months to help process rebate forms, and DIA have similar issues related to staffing  (ie staff are moved from other areas to help out) during this busy period.&lt;/p&gt;
 
 &lt;h3 id=&quot;service-centre-support-and-success-of-applications&quot;&gt;Service centre support and success of applications&lt;/h3&gt;
+
 &lt;p&gt;&lt;strong&gt;Council representatives are an important part of the process&lt;/strong&gt; and are seen as visible evidence that something is being done to progress their application. For some customers, Council representatives make it worry free and take the stress out of it. Councils often receive thank you cards and calls from customers who have gotten a rebate.&lt;/p&gt;
 
 &lt;p&gt;The council representatives &lt;strong&gt;knowledge and willingness to help&lt;/strong&gt; make the difference to the experience and success of applications. If there wasn’t this level of assistance, then it is less likely to be a positive experience. But this great customer experience comes at a cost for work that is considered low value compared to more complex ratepayer queries.&lt;/p&gt;
@@ -462,18 +555,22 @@ Applicants asked: &lt;strong&gt;“Why can’t you just do it over the phone?”
   &lt;p&gt;“Wouldn’t it be great to not need a 50 page handbook” Council staff on understanding Rates Rebate Act (1973) and DIA rules&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;inconsistent-messaging-from-councils&quot;&gt;Inconsistent messaging from councils&lt;/h3&gt;
+&lt;h4 id=&quot;inconsistent-messaging-from-councils&quot;&gt;Inconsistent messaging from councils&lt;/h4&gt;
+
 &lt;p&gt;There are &lt;strong&gt;inconsistencies across councils on implementation&lt;/strong&gt;, e.g. when applicants are asked to provide proof, and what information that they give to customers. We mapped information provided on council websites about Rates Rebates and found a large variation in amount and types of information to inform ratepayers about rebates.&lt;/p&gt;
 
-&lt;h3 id=&quot;prescriptive-legislation&quot;&gt;Prescriptive legislation&lt;/h3&gt;
+&lt;h4 id=&quot;prescriptive-legislation&quot;&gt;Prescriptive legislation&lt;/h4&gt;
+
 &lt;p&gt;The legislation is very prescriptive, making it impossible to create an end-to-end digital service. This is impacting the customer experience. The requirement for a statutory declaration has been identified as a key issue.&lt;/p&gt;
 
 &lt;h2 id=&quot;next-steps&quot;&gt;Next Steps&lt;a name=&quot;Go-to-Next-Steps&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+
 &lt;p&gt;Both the discovery and the alpha identified that there is desirability to progress the alpha service to full production from both an applicant and local councils perspective and the Lab is currently supporting DIA to explore how to transition the alpha to a &lt;a href=&quot;https://www.ict.govt.nz/guidance-and-resources/accelerate/beta/&quot;&gt;Beta&lt;/a&gt;.  A beta is developing a service to meet demands of a live environment, including understanding how to build and scale the service while continuously meeting user needs.&lt;/p&gt;
 
 &lt;p&gt;This transition work involves understanding the viability of the service from a business owner perspective (ie development, implementation and ongoing costs) and the feasibility from a technology perspective of implementing the alpha into production. The goal being to identify a range of options that could be applied to deliver a production version of the service for DIA leadership consideration.&lt;/p&gt;
 
 &lt;p&gt;Next steps will consist of:&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;a workshop to explore the collective goals we have for the service and initial options that could be explored in more detail post workshop&lt;/li&gt;
   &lt;li&gt;Detailed exploration of the initial options and identification of other if appropriate&lt;/li&gt;
@@ -485,7 +582,9 @@ Applicants asked: &lt;strong&gt;“Why can’t you just do it over the phone?”
 &lt;p&gt;The New Zealand Society of Local Government Managers (SOLGM) has made a submission for the Local Government Regulatory Systems Amendment Bill, to better support online applications for rates rebate by removing the requirement for an officer of the council (or anyone) to witness the statutory declaration. This would make the implementation of a truly online application process possible.&lt;/p&gt;
 
 &lt;p&gt;The alpha identified in practice how the statutory declaration is out of step with digital service delivery. This issue is being referred to the required Policy teams to investigate if statutory declarations could be replaced for other services as well as the Rates Rebates.&lt;/p&gt;
+
 &lt;h3 id=&quot;recommendations-if-approved-to-production&quot;&gt;Recommendations if approved to production&lt;/h3&gt;
+
 &lt;p&gt;If the alpha is developed further to production we recommend exploring these areas for service improvements:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -511,6 +610,7 @@ Applicants asked: &lt;strong&gt;“Why can’t you just do it over the phone?”
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;appendix-one---service-blueprints&quot;&gt;Appendix One - Service Blueprints&lt;a name=&quot;Go-to-Appendix1&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+
 &lt;p&gt;&lt;strong&gt;DIA Rates rebates completed forms processing: Current state&lt;/strong&gt;
 This blueprint helped us to see where manual handling was in place once forms were sent to DIA, and where opportunities for cost/time saving through digitisation could be found.
 &lt;img src=&quot;/assets/media/Rates-Rebates/RR11.png&quot; alt=&quot;Current state&quot; /&gt;&lt;/p&gt;
@@ -524,10 +624,12 @@ This blueprint shows a potential future where information sharing between agenci
 &lt;img src=&quot;/assets/media/Rates-Rebates/RR13.png&quot; alt=&quot;Future state blueprint&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;appendix-two---trends-analysis&quot;&gt;Appendix Two - Trends analysis&lt;a name=&quot;Go-to-Appendix2&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+
 &lt;p&gt;The following charts describe the number of claims made for the last three years and the timings of when the applications are made to the Councils. The majority of applications are made in August each year and to mitigate the high workload on existing council staff, temporary staff are brought in to help process these. DIA audit these applications and their busy time falls between Aug and Oct when they verify the claims.
 &lt;img src=&quot;/assets/media/Rates-Rebates/RR14.png&quot; alt=&quot;Volume by claimed, refused, cancelled per year&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Reasons why claims are refused and cancelled include:&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;The applicant earned more income than&lt;/li&gt;
   &lt;li&gt;The application was incorrectly completed&lt;/li&gt;
@@ -541,8 +643,9 @@ This blueprint shows a potential future where information sharing between agenci
 
 &lt;p&gt;&lt;strong&gt;Dropping number of rebates claimed each year&lt;/strong&gt;
 The number of Rates Rebates claimed each year has been dropping. This is a well known trend and is mostly due to the income threshold not keeping in pace with the rise in superannuation payments year to year, leading to those on the couples super especially, gradually dropping out of eligibility. There are some other factors that are potentially affecting this, including rates of homeownership and other factors.&lt;/p&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;&lt;em&gt;Home Ownership rates lowest in 66 years&lt;/em&gt;
+  &lt;li&gt;&lt;strong&gt;Home Ownership rates lowest in 66 years&lt;/strong&gt;
   In 2017 homeownership rates in New Zealand were at the lowest they had been for 66 years at 63.2 percent of people today live in a home they owned, the lowest rate of ownership since the 1951 Census with rates recorded at 61.2 percent&lt;sup id=&quot;fnref:5&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Awareness of Rates Rebates&lt;/strong&gt;
   There is anecdotal evidence that suggests that awareness of the entitlement is low. Due to current measurement practices we don’t know how many people are eligible and what are the reasons that they don’t apply (eg they choose not to, the application process is seen as complicated and confusing). The later point is consistent problem with most government services or any services for that matter - why does someone not use your service? To answer this question for Rates Rebates would require data analysis and user research.&lt;/li&gt;
@@ -555,20 +658,23 @@ The number of Rates Rebates claimed each year has been dropping. This is a well 
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/media/Rates-Rebates/RR17.png&quot; alt=&quot;Average weekly household expenditure&quot; /&gt;&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;New Zealand’s access to the internet&lt;/strong&gt;
   Internet NZ reports that approximately connection&lt;sup id=&quot;fnref:7&quot;&gt;&lt;a href=&quot;#fn:7&quot; class=&quot;footnote&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;. This has an impact on people’s ability to find out about their entitlements with most service providers moving to digital channels. It also put more emphasis on designing for mobile as this will be the preferred channel that people will access internet in the future. Continuing development of the rates rebate alpha will need to keep in mind both of these points.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;appendix-three---comparison-between-the-web-app-and-current-paper-application&quot;&gt;Appendix Three - Comparison between the web app and current paper application&lt;a name=&quot;Go-to-Appendix3&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+
 &lt;p&gt;Here is a physical comparison of the web app vs the current paper application.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;The length of the web app process&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;the-length-of-the-web-app-process&quot;&gt;The length of the web app process&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/media/Rates-Rebates/RR18.png&quot; alt=&quot;The length of the web app process&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;The current 4 page paper form&lt;/strong&gt;
-&lt;img src=&quot;/assets/media/Rates-Rebates/RR19.png&quot; alt=&quot;Page 1&quot; /&gt;
+&lt;h3 id=&quot;the-current-4-page-paper-form&quot;&gt;The current 4 page paper form&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/Rates-Rebates/RR19.png&quot; alt=&quot;Page 1&quot; /&gt;
 &lt;img src=&quot;/assets/media/Rates-Rebates/RR20.png&quot; alt=&quot;Page 2&quot; /&gt;
 &lt;img src=&quot;/assets/media/Rates-Rebates/RR21.png&quot; alt=&quot;Page 3&quot; /&gt;
 &lt;img src=&quot;/assets/media/Rates-Rebates/RR22.png&quot; alt=&quot;Page 4&quot; /&gt;&lt;/p&gt;
@@ -587,18 +693,19 @@ The number of Rates Rebates claimed each year has been dropping. This is a well 
       &lt;p&gt;This does not take into account the time and effort to go into the Council office and sign the digitally Understanding how long that this could take depends on each applicant’s circumstances. &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:5&quot;&gt;
-      &lt;p&gt;Home ownership rates lowest in 66 years according to Statistics NZ - New Zealand Herald https://www.nzherald.co.nz/business/news/article.cfm?c_id=3&amp;amp;objectid=11779664 &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Home ownership rates lowest in 66 years according to Statistics NZ - New Zealand Herald &lt;a href=&quot;https://www.nzherald.co.nz/business/news/article.cfm?c_id=3&amp;amp;objectid=11779664&quot;&gt;https://www.nzherald.co.nz/business/news/article.cfm?c_id=3&amp;amp;objectid=11779664&lt;/a&gt; &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:6&quot;&gt;
-      &lt;p&gt;Household expenditure statistics: Year ended June 2016 – corrected, Stats NZ https://www.stats.govt.nz/information-releases/household-expenditure-statistics-year-ended-june-2016 &lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Household expenditure statistics: Year ended June 2016 – corrected, Stats NZ &lt;a href=&quot;https://www.stats.govt.nz/information-releases/household-expenditure-statistics-year-ended-june-2016&quot;&gt;https://www.stats.govt.nz/information-releases/household-expenditure-statistics-year-ended-june-2016&lt;/a&gt; &lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:7&quot;&gt;
       &lt;p&gt;State of the Internet 2017 Report- Internet NZ &lt;a href=&quot;#fnref:7&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>glen-thurston</name></author><category term="rates rebates" /></entry><entry><title type="html">Exploring the Notice of Sale Process</title><link href="https://serviceinnovationlab.github.io//2018/10/12/Exploring-the-Notice-of-Sale-process/" rel="alternate" type="text/html" title="Exploring the Notice of Sale Process" /><published>2018-10-12T00:00:00+13:00</published><updated>2018-10-12T00:00:00+13:00</updated><id>https://serviceinnovationlab.github.io//2018/10/12/Exploring%20the%20Notice%20of%20Sale%20process</id><content type="html" xml:base="https://serviceinnovationlab.github.io//2018/10/12/Exploring-the-Notice-of-Sale-process/">&lt;p&gt;&lt;strong&gt;Authored by:&lt;/strong&gt; Glen Thurston and Nadia Webster&lt;/p&gt;
+&lt;/div&gt;</content><author><name>glen-thurston</name></author><category term="rates rebates" /></entry><entry><title type="html">Exploring the Notice of Sale Process</title><link href="https://serviceinnovationlab.github.io//2018/10/12/Exploring-the-Notice-of-Sale-process/" rel="alternate" type="text/html" title="Exploring the Notice of Sale Process" /><published>2018-10-12T00:00:00+00:00</published><updated>2018-10-12T00:00:00+00:00</updated><id>https://serviceinnovationlab.github.io//2018/10/12/Exploring-the-Notice-of-Sale-process</id><content type="html" xml:base="https://serviceinnovationlab.github.io//2018/10/12/Exploring-the-Notice-of-Sale-process/">&lt;p&gt;&lt;strong&gt;Authored by:&lt;/strong&gt; Glen Thurston and Nadia Webster&lt;/p&gt;
 
-&lt;h1 id=&quot;contents&quot;&gt;Contents&lt;/h1&gt;
+&lt;h2 id=&quot;contents&quot;&gt;Contents&lt;/h2&gt;
+
 &lt;ol&gt;
   &lt;li&gt;&lt;a href=&quot;#Go-to-InSummary&quot;&gt;In summary&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#Go-to-WhatIsNoticeOfSale&quot;&gt;What is the notice of sale and why is it important?&lt;/a&gt;&lt;/li&gt;
@@ -606,7 +713,7 @@ The number of Rates Rebates claimed each year has been dropping. This is a well 
   &lt;li&gt;&lt;a href=&quot;#Go-to-NextSteps&quot;&gt;Next Steps&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h1 id=&quot;exploring-the-notice-of-sale-process&quot;&gt;Exploring the Notice of Sale process&lt;/h1&gt;
+&lt;h2 id=&quot;exploring-the-notice-of-sale-process&quot;&gt;Exploring the Notice of Sale process&lt;/h2&gt;
 
 &lt;p&gt;Exploring opportunities to improve the notice of sale process as part of the life event of ‘selling and buying a property’&lt;/p&gt;
 
@@ -628,6 +735,7 @@ The number of Rates Rebates claimed each year has been dropping. This is a well 
 &lt;p&gt;This group believe that there are a range of possible solutions to improve the notice; for the benefit of people selling and buying property, their agents (ie real estate agent, solicitors, conveyancers), Councils and government agencies teams.&lt;/p&gt;
 
 &lt;p&gt;During August, the group explored:&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;The role of the notice and its importance,&lt;/li&gt;
   &lt;li&gt;Goals for the future of the notice,&lt;/li&gt;
@@ -640,6 +748,7 @@ The number of Rates Rebates claimed each year has been dropping. This is a well 
 &lt;p&gt;The goal of this work was to help the group of interested parties identify a path forward to improve the notice process. It helps scope up future design work that would be needed to explore the opportunities in more depth to ascertain their desirability from a user perspective, viability from a business sustainability perspective and feasibility from a technical perspective.&lt;/p&gt;
 
 &lt;p&gt;The design intensive identified the following next steps that are needed to continue this work:&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;The need for a sponsor(s) to help drive continuing this work.&lt;/li&gt;
   &lt;li&gt;The Lab could lead a &lt;a href=&quot;https://www.digital.govt.nz/standards-and-guidance/strategy-and-planning/digital-lifecycle/discovery/&quot;&gt;discovery&lt;/a&gt; with the support of this group to investigate the preferred data based possible solution in more detail to test its viability, feasibility and desirability.&lt;/li&gt;
@@ -654,7 +763,7 @@ The number of Rates Rebates claimed each year has been dropping. This is a well 
 
 &lt;p&gt;Rates and valuations are linked together and the notice is one of the key inputs into this process. The notice gives more information and data about the property that helps to give a better indication of valuation and therefore the rates to charge.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;The rating and valuation process&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;the-rating-and-valuation-process&quot;&gt;The rating and valuation process&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS1.png&quot; alt=&quot;Valuation cycle &amp;amp; Local Authority actions feeds into the Setting and billing of rates, then to Property Owner&quot; /&gt;&lt;/p&gt;
 
@@ -662,14 +771,16 @@ The number of Rates Rebates claimed each year has been dropping. This is a well 
 
 &lt;p&gt;In addition to the rating process the notice also acts another way to provide information that the property title has changed too.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;The notice of sale and its relation to rating and valuation&lt;/strong&gt;
-(also see &lt;a href=&quot;#Go-to-Appendix1&quot;&gt;Appendix 1&lt;/a&gt; for the key concepts required under legislation and what triggers a change of ownership, and see &lt;a href=&quot;#Go-to-Appendix2&quot;&gt;Appendix 2 Data Map&lt;/a&gt; for what data is collected at each step in the process)&lt;/p&gt;
+&lt;h3 id=&quot;the-notice-of-sale-and-its-relation-to-rating-and-valuation&quot;&gt;The notice of sale and its relation to rating and valuation&lt;/h3&gt;
+
+&lt;p&gt;(also see &lt;a href=&quot;#Go-to-Appendix1&quot;&gt;Appendix 1&lt;/a&gt; for the key concepts required under legislation and what triggers a change of ownership, and see &lt;a href=&quot;#Go-to-Appendix2&quot;&gt;Appendix 2 Data Map&lt;/a&gt; for what data is collected at each step in the process)&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS2.png&quot; alt=&quot;Notice of Sale decision tree&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;(Notice of Sale decision tree. &lt;strong&gt;Path 1&lt;/strong&gt; - Notice of change of ratepayer and/or their contact details of whole or part of the rating unit; Council finance team accountable fo calculation of rates. This is Audited by DIA; Council valuation team accountable for valuation data being correct. This is audited by LINZ valuer general. They determine structure of data extracts for comparable analysis. &lt;strong&gt;Path 2&lt;/strong&gt; - Notice of change of title (i.e. creation of a new title and cancellation of existing title); Register of Titles; Valuation Service Providers (VSP). They are accountable for the calculation of valuations. Councils are also required to provde the correct data/information to contirbute to the calculation.)&lt;/p&gt;
 
 &lt;p&gt;The notice must contain these points:&lt;/p&gt;
+
 &lt;ol&gt;
   &lt;li&gt;The full name and address of the purchaser or transferee; and&lt;/li&gt;
   &lt;li&gt;in the case of a sale, the sale price.&lt;/li&gt;
@@ -678,6 +789,7 @@ The number of Rates Rebates claimed each year has been dropping. This is a well 
 &lt;p&gt;It has to be supplied to the Council within one month after the sale or transfer of a rating unit by the person selling it.&lt;/p&gt;
 
 &lt;p&gt;Key legislative references are:&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.legislation.govt.nz/act/public/2002/0006/latest/DLM132269.html?search=ts_act%40bill%40regulation%40deemedreg_Local+Government+(Ratings)+Act+2002_resel_25_a&amp;amp;p=1&quot;&gt;Sections 31 - 33 and 36 of the Local Government (Ratings) Act 2002&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.legislation.govt.nz/act/public/1998/0069/latest/DLM427713.html?search=ts_act%40bill%40regulation%40deemedreg_Rating+Valuation+Act+1998_resel_25_a&amp;amp;p=1&quot;&gt;Section 52 of the Rating Valuation Act 1998&lt;/a&gt;&lt;/li&gt;
@@ -691,13 +803,14 @@ The number of Rates Rebates claimed each year has been dropping. This is a well 
 
 &lt;p&gt;From the LINZ Rating Valuation Data set, the following table describes the number of sales between 2014 to 2017.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Number of Sales 2014-2017&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;number-of-sales-2014-2017&quot;&gt;Number of Sales 2014-2017&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS3.png&quot; alt=&quot;Table showing the number of sales between 2014 to 2017 with sales totalling to 229,855&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;(Table showing the number of sales between 2014 to 2017 with sales totalling to 229,855.)&lt;/p&gt;
 
 &lt;p&gt;While the majority of property transfers are residential, there are a range of complex sales that are harder to facilitate and process. These include:&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Farm sales&lt;/li&gt;
   &lt;li&gt;Subdivisions&lt;/li&gt;
@@ -713,6 +826,7 @@ The number of Rates Rebates claimed each year has been dropping. This is a well 
 &lt;h3 id=&quot;the-notice-and-its-importance-to-nz-inc&quot;&gt;The notice and its importance to NZ Inc&lt;/h3&gt;
 
 &lt;p&gt;The notice directly help contribute to understanding New Zealand’s Financial and Physical Capital as defined in &lt;a href=&quot;https://treasury.govt.nz/information-and-services/nz-economy/living-standards&quot;&gt;Treasury’s Living Standards Framework&lt;/a&gt; (LSF). This framework draws on OECD analysis of wider indicators of wellbeing with the starting point is answering three questions:&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;What are current outcomes?&lt;/li&gt;
   &lt;li&gt;Will these outcomes be sustained or improved?&lt;/li&gt;
@@ -743,6 +857,7 @@ The challenge for the Notice of Sale design intensive was to explore what a posi
 
 &lt;p&gt;Representatives from Whangarei District Council, Auckland Council, Tauranga City Council, Wellington City Council, LINZ and the Service Innovation Lab (the lab) were involved as team members involved either before and/or during the three day intensive between 13-15 August.
 During the intensive we wanted to explore in the design sprint:&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;High level understanding of where the notice of sale fits within the life event of selling and buying a property&lt;/li&gt;
   &lt;li&gt;Generate a collective understanding of the goals we seek for notice of sale.&lt;/li&gt;
@@ -767,15 +882,16 @@ During the intensive we wanted to explore in the design sprint:&lt;/p&gt;
 &lt;p&gt;(Logic Mapping Flow diagram. Starts with Complex Problem; Overarching Goal; Audience Types; Motivation(Intrinsic); Motivation (Extrinsic); Problem/Pain Points; Constraints; Emerging Concepts; and lastly IDEATE.)&lt;/p&gt;
 
 &lt;h3 id=&quot;the-complex-problem&quot;&gt;The complex problem&lt;/h3&gt;
+
 &lt;p&gt;&lt;strong&gt;Buying and selling a property is complicated transaction, it requires information to be exchanged between a number of parties and if errors are made it has consequences for property ratings and valuations. This can lead to stress and have financial implications for the parties particularly the property buyer.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;The team considered this complex problem and were asked to consider the life event in the context of the notice of sale. Here are the themes the team identified:&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Target theme - Automation&lt;/em&gt;&lt;/p&gt;
+&lt;h4 id=&quot;target-theme---automation&quot;&gt;Target theme - Automation&lt;/h4&gt;
 
 &lt;p&gt;The theme selected as a focus point was Automation. The team would like to automate as much of the current manual process as possible to improve the quality of submissions. They’d like to get rid of the term “notice of sale” from their vocabulary to allow time to focus on more important or higher value interactions with ratepayers and clients. They’s like to to see data entered once and transmitted electronically to all the stakeholders involved in the process (preferably from a single place). It was noted that automation should not be at the expense of verification, accuracy and completion.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Other themes in order of importance to the team&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&quot;other-themes-in-order-of-importance-to-the-team&quot;&gt;Other themes in order of importance to the team&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;Single source of truth.&lt;/strong&gt; There is no current single source of authoritative data for the notice of sale that anyone can draw from eg no one reference number that follows a ownership transfer for parties to use. Team were quite fixed on this as a solution.&lt;/p&gt;
 
@@ -789,7 +905,7 @@ During the intensive we wanted to explore in the design sprint:&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Data transmission.&lt;/strong&gt; The notice needs to be sent to many parties, how could this be made easier? How do we make it more user friendly for solicitors to provide information?&lt;/p&gt;
 
-&lt;h3 id=&quot;goal-setting----what-are-the-end-goals&quot;&gt;Goal setting  - What are the end goals?&lt;/h3&gt;
+&lt;h3 id=&quot;goal-setting----what-are-the-end-goals&quot;&gt;Goal setting  - What are the end goals&lt;/h3&gt;
 
 &lt;p&gt;The team considered the goals associated with the complex problem statement - why is a goal important for this work? what does it look like?&lt;/p&gt;
 
@@ -806,6 +922,7 @@ During the intensive we wanted to explore in the design sprint:&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;The goal selected for the intensive was &lt;strong&gt;Data Quality&lt;/strong&gt; - this is needed for the rating and valuation tasks. This includes missing sales, accuracy of the data received and needing more information beyond the current notice rules to complete tasks.  It was recognised that to help with the theme of Automation data quality will be a key enabler. From this there were some sub goals:&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Efficiency of process for everyone to free up people up to do higher value things/work&lt;/li&gt;
   &lt;li&gt;Trust in data and process integrity to meet compliance requirements and ensure confidence for property owners.&lt;/li&gt;
@@ -858,6 +975,7 @@ During the intensive we wanted to explore in the design sprint:&lt;/p&gt;
 &lt;p&gt;(Post-it notes for Journey Map. Top votes on Manual processing/checking including multiple handling of the notice.)&lt;/p&gt;
 
 &lt;p&gt;The journey maps revealed a range of pain points. The pain point themes were:&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Education and knowledge at key action points&lt;/li&gt;
   &lt;li&gt;Unreliable data&lt;/li&gt;
@@ -911,6 +1029,7 @@ During the intensive we wanted to explore in the design sprint:&lt;/p&gt;
 &lt;h3 id=&quot;problem-statement-three---triggers-for-notice-of-sale&quot;&gt;Problem statement three - triggers for notice of sale&lt;/h3&gt;
 
 &lt;p&gt;As a Solicitor the problem I have is that I don’t know all the triggers for the Notice of Sale and its importance to rates and valuations. This impacts my ability to:&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;meet my clients needs&lt;/li&gt;
   &lt;li&gt;work with councils and their need for information for rates and valuations, payments and refunds and debt collection.&lt;/li&gt;
@@ -924,7 +1043,7 @@ During the intensive we wanted to explore in the design sprint:&lt;/p&gt;
 
 &lt;h3 id=&quot;scenario-and-storyboard-building---exploring-problems-and-solutions&quot;&gt;Scenario and storyboard building - exploring problems and solutions&lt;/h3&gt;
 
-&lt;p&gt;To explore problems and solutions for these scenario and storyboard techniques were used. The team created a scenario that addresses the audience problem, meets the a clear goal and works within the constraints. A scenario should have an audience, a goal, a set of constraints and a beginning, middle and an end. These were themed and storyboards were created based on the prioritised scenarios.&lt;br /&gt;
+&lt;p&gt;To explore problems and solutions for these scenario and storyboard techniques were used. The team created a scenario that addresses the audience problem, meets the a clear goal and works within the constraints. A scenario should have an audience, a goal, a set of constraints and a beginning, middle and an end. These were themed and storyboards were created based on the prioritised scenarios.
 Each person shared their &lt;a href=&quot;https://drive.google.com/file/d/1n0p7UeOUayG6tX-tSddJavi2JoKMsUql/view&quot;&gt;storyboards&lt;/a&gt; and then team was separated into groups who took the scenarios, identified their common elements and collaborated to create a refined storyboard.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS13.png&quot; alt=&quot;Team collaborated to create a refined storyboard from the common elements of the scenarios&quot; /&gt;
@@ -932,7 +1051,7 @@ Each person shared their &lt;a href=&quot;https://drive.google.com/file/d/1n0p7U
 
 &lt;p&gt;(Team collaborated to create a refined storyboard from the common elements of the scenarios.)&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Problem statement one - accurate and complete information&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;problem-statement-one---accurate-and-complete-information-1&quot;&gt;Problem statement one - accurate and complete information&lt;/h4&gt;
 
 &lt;p&gt;A range of scenarios were created and many had similar themes. Here are the priorised themes las decided by the group:&lt;/p&gt;
 
@@ -951,15 +1070,15 @@ Each person shared their &lt;a href=&quot;https://drive.google.com/file/d/1n0p7U
 
 &lt;p&gt;(Storyboard for the Property Transfer made up of post-it notes.)&lt;/p&gt;
 
-&lt;p&gt;This storyboard was ultimately the one selected to &lt;a href=&quot;#Possible-solution&quot;&gt;explore further&lt;/a&gt; during the rest of the design intensive.&lt;/p&gt;
+&lt;p&gt;This storyboard was ultimately the one selected to &lt;a href=&quot;#Go-to-PossibleSolution&quot;&gt;explore further&lt;/a&gt; during the rest of the design intensive.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Problem statement two - manual processing&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;problem-statement-two---manual-processing-1&quot;&gt;Problem statement two - manual processing&lt;/h4&gt;
 
 &lt;p&gt;A range of scenarios were created but they had a similar theme - property transfer in a single portal.&lt;/p&gt;
 
 &lt;p&gt;Here is the storyboards for the property transfer in a single portal. For the refined storyboard because of the similarity with those created in statement one, they should be combined.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Problem statement three - triggers for notice of sale&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;problem-statement-three---triggers-for-notice-of-sale-1&quot;&gt;Problem statement three - triggers for notice of sale&lt;/h4&gt;
 
 &lt;p&gt;There were two themes that were tied in priority:&lt;/p&gt;
 
@@ -999,6 +1118,7 @@ Each person shared their &lt;a href=&quot;https://drive.google.com/file/d/1n0p7U
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;appendix-1--notice-of-sale-context-diagram&quot;&gt;Appendix 1 &lt;a name=&quot;Go-to-Appendix1&quot;&gt;&lt;/a&gt;: Notice of Sale Context Diagram&lt;/h3&gt;
+
 &lt;p&gt;This diagram maps out the relevant concepts in the legislation relating to Notice of Sale to help with understanding the current legislative requirements.&lt;/p&gt;
 
 &lt;p&gt;To read the diagram follow the arrows, i.e Ratepayer (Owner and/or Lessee) owns or occupies Rating Unit; Rating Unit created, maintained and held in District Valuation Roll.&lt;/p&gt;
@@ -1049,6 +1169,7 @@ Although commonly referred to as a “notice of sale”, that’s actually a bit
 &lt;/ol&gt;
 
 &lt;h3 id=&quot;appendix-2--notice-of-sale-data-map&quot;&gt;Appendix 2 &lt;a name=&quot;Go-to-Appendix2&quot;&gt;&lt;/a&gt;: Notice of Sale Data Map&lt;/h3&gt;
+
 &lt;p&gt;This shows what data points are collected through what mechanism at different points in the sale or change of ownership process, and what the data source is and where it goes.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS21.png&quot; alt=&quot;Notice of Sale Data Map&quot; /&gt;
@@ -1067,7 +1188,7 @@ Although commonly referred to as a “notice of sale”, that’s actually a bit
       &lt;p&gt;Bradshaw, H. (2014). The Structural Playability Process (SPP )-An Effective Design Process for Educational Computer Games. chp 3, p60 &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>glen-thurston</name></author><category term="lessons learned" /></entry><entry><title type="html">Transitioning to an Optimistic Futures Workshop - 18 May 2018</title><link href="https://serviceinnovationlab.github.io//2018/08/01/Exploring-Optimistic-Futures-Workshop/" rel="alternate" type="text/html" title="Transitioning to an Optimistic Futures Workshop - 18 May 2018" /><published>2018-08-01T00:00:00+12:00</published><updated>2018-08-01T00:00:00+12:00</updated><id>https://serviceinnovationlab.github.io//2018/08/01/Exploring-Optimistic-Futures-Workshop</id><content type="html" xml:base="https://serviceinnovationlab.github.io//2018/08/01/Exploring-Optimistic-Futures-Workshop/">&lt;p&gt;&lt;span class=&quot;subtitle&quot;&gt;Led by Matthew MacCallum and Ben Briggs, Service Innovation Lab&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</content><author><name>glen-thurston</name></author><category term="lessons learned" /></entry><entry><title type="html">Transitioning to an Optimistic Futures Workshop - 18 May 2018</title><link href="https://serviceinnovationlab.github.io//2018/08/01/Exploring-Optimistic-Futures-Workshop/" rel="alternate" type="text/html" title="Transitioning to an Optimistic Futures Workshop - 18 May 2018" /><published>2018-08-01T00:00:00+00:00</published><updated>2018-08-01T00:00:00+00:00</updated><id>https://serviceinnovationlab.github.io//2018/08/01/Exploring-Optimistic-Futures-Workshop</id><content type="html" xml:base="https://serviceinnovationlab.github.io//2018/08/01/Exploring-Optimistic-Futures-Workshop/">&lt;p&gt;&lt;span class=&quot;subtitle&quot;&gt;Led by Matthew MacCallum and Ben Briggs, Service Innovation Lab&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;The following is content generated in the Transitioning to an Optimistic Future event held as part of Tech Week 2018. Duration 3 hours.&lt;/p&gt;
 
@@ -1180,7 +1301,7 @@ Respectful, Responsible, Risk tolerant, Savvy, Self awareness, Smart, Social, Su
 
 &lt;p&gt;Full Definitions of prioritised qualities:&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Group 1 Def&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;group-1-def&quot;&gt;Group 1 Def&lt;/h3&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
@@ -1426,7 +1547,7 @@ Respectful, Responsible, Risk tolerant, Savvy, Self awareness, Smart, Social, Su
   &lt;li&gt;How could technology enable these?&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&quot;group-1---have-a-funeral&quot;&gt;Group 1 - have a funeral:&lt;/h3&gt;
+&lt;h3 id=&quot;group-1---have-a-funeral&quot;&gt;Group 1 - have a funeral&lt;/h3&gt;
 
 &lt;ol&gt;
   &lt;li&gt;National and Community level:
@@ -1456,7 +1577,7 @@ Respectful, Responsible, Risk tolerant, Savvy, Self awareness, Smart, Social, Su
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&quot;group-2---grow-foodnurtrition&quot;&gt;Group 2 - grow food/nurtrition:&lt;/h3&gt;
+&lt;h3 id=&quot;group-2---grow-foodnurtrition&quot;&gt;Group 2 - grow food/nurtrition&lt;/h3&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Effects on Community/Country:
@@ -1489,7 +1610,7 @@ Respectful, Responsible, Risk tolerant, Savvy, Self awareness, Smart, Social, Su
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&quot;group-3---grow-foodnutrition&quot;&gt;Group 3 - grow food/nutrition:&lt;/h3&gt;
+&lt;h3 id=&quot;group-3---grow-foodnutrition&quot;&gt;Group 3 - grow food/nutrition&lt;/h3&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Effects on Community/Country:
@@ -1516,7 +1637,7 @@ Respectful, Responsible, Risk tolerant, Savvy, Self awareness, Smart, Social, Su
       &lt;li&gt;Sharing IP (open source)&lt;/li&gt;
     &lt;/ul&gt;
 
-    &lt;p&gt;__Benefits: __&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Benefits:&lt;/strong&gt;&lt;/p&gt;
     &lt;ul&gt;
       &lt;li&gt;History of being a primary provider&lt;/li&gt;
       &lt;li&gt;Decreasing food scarcity&lt;/li&gt;
@@ -1577,11 +1698,11 @@ Respectful, Responsible, Risk tolerant, Savvy, Self awareness, Smart, Social, Su
   &lt;li&gt;Encouragement and incentivisation&lt;/li&gt;
   &lt;li&gt;Measure and evaluate&lt;/li&gt;
   &lt;li&gt;Protect privacy&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>matthew-mccallum</name></author><category term="lessons learned" /><category term="open source" /></entry><entry><title type="html">The Service Innovation Lab 2017-18 FY Work Program Report</title><link href="https://serviceinnovationlab.github.io//2018/07/01/Lab-Report/" rel="alternate" type="text/html" title="The Service Innovation Lab 2017-18 FY Work Program Report" /><published>2018-07-01T00:00:00+12:00</published><updated>2018-07-01T00:00:00+12:00</updated><id>https://serviceinnovationlab.github.io//2018/07/01/Lab-Report</id><content type="html" xml:base="https://serviceinnovationlab.github.io//2018/07/01/Lab-Report/">&lt;p&gt;&lt;span class=&quot;subtitle&quot;&gt;30 June 2018 by Pia Andrews - Service Innovation Lab Lead&lt;/span&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>matthew-mccallum</name></author><category term="lessons learned" /><category term="open source" /></entry><entry><title type="html">The Service Innovation Lab 2017-18 FY Work Program Report</title><link href="https://serviceinnovationlab.github.io//2018/07/01/Lab-Report/" rel="alternate" type="text/html" title="The Service Innovation Lab 2017-18 FY Work Program Report" /><published>2018-07-01T00:00:00+00:00</published><updated>2018-07-01T00:00:00+00:00</updated><id>https://serviceinnovationlab.github.io//2018/07/01/Lab-Report</id><content type="html" xml:base="https://serviceinnovationlab.github.io//2018/07/01/Lab-Report/">&lt;p&gt;&lt;span class=&quot;subtitle&quot;&gt;30 June 2018 by Pia Andrews - Service Innovation Lab Lead&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;The Service Innovation Lab is a venue and capability delivery engine for the &lt;a href=&quot;https://www.digital.govt.nz/digital-government/5-focus-areas-for-digital-change/service-innovation-work-programme/&quot;&gt;Service Innovation Work Programme&lt;/a&gt;. The Lab work is overseen by a cross agendy governance group, the &lt;a href=&quot;https://www.digital.govt.nz/digital-government/leadership-and-governance/digital-government-partnership/service-innovation-group-terms-of-reference/&quot;&gt;Service Innovation Working Group&lt;/a&gt; with support from the Service Innovation Reference Group (which enables operational collaboration and leadership. Please also find &lt;a href=&quot;https://coggle.it/diagram/W1FpoafTAgZC4csx/t/service-innovation-lab&quot;&gt;an accessible mindmap of Lab deliverables&lt;/a&gt; and &lt;a href=&quot;https://docs.google.com/spreadsheets/d/13BI9Z8MwD2w6tZ2GhcA-UXdFDeJmLgOulpl47SCCt00/edit?usp=sharing&quot;&gt;the draft Lab Lean Canvas&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;exec-summary&quot;&gt;Exec Summary&lt;/h1&gt;
+&lt;h2 id=&quot;exec-summary&quot;&gt;Exec Summary&lt;/h2&gt;
 
 &lt;p&gt;This is the final report for the 2017-18 financial year. All deliverables were completed as per the summary in this report. The team also explored the unique value proposition of the Service Innovation Lab which will help inform the cross agency governance bodies on what is best done through the Lab. We also explored emerging technologies and trends and their implications for government, we worked to always collaborate and enable greater innovation throughout the public service in the course of our work, and we explored system barriers and opportunities for genuine digital transformation of the NZ public sector. The Service Innovation Lab, working with agencies and partners across New Zealand, has certainly punched above its weight, and provides a good example of how genuine collaboration around shared goals can drive better outcomes for everyone.&lt;/p&gt;
 
@@ -1591,16 +1712,15 @@ Respectful, Responsible, Risk tolerant, Savvy, Self awareness, Smart, Social, Su
 
 &lt;p&gt;The Service Innovation Lab is a credit to the Service Innovation Reference and Working Groups (our cross agency governance groups), the agency teams &amp;amp; partners who came together with the Lab around life events &amp;amp; proactive entitlements, and the dedicated Service Innovation team who have worked to deliver and support both an environment conducive to genuine collaboration, and a highly skilled workforce to support service innovation.&lt;/p&gt;
 
-&lt;h1 id=&quot;accomplishments&quot;&gt;Accomplishments&lt;/h1&gt;
+&lt;h2 id=&quot;accomplishments&quot;&gt;Accomplishments&lt;/h2&gt;
 
-&lt;h2 id=&quot;the-siwgsirg-endorsed-work-program-deliverables---final-report&quot;&gt;The SIWG/SIRG endorsed work program deliverables - final report&lt;/h2&gt;
+&lt;h3 id=&quot;the-siwgsirg-endorsed-work-program-deliverables---final-report&quot;&gt;The SIWG/SIRG endorsed work program deliverables - final report&lt;/h3&gt;
 
 &lt;p&gt;These were all the SIRG/SIWG agreed deliverables from the 12 months work program with status and links where relevant.&lt;/p&gt;
 
+&lt;h4 id=&quot;deliverables-from-july-2017-to-31-dec-2017&quot;&gt;Deliverables from July 2017 to 31 Dec 2017&lt;/h4&gt;
+
 &lt;table class=&quot;tg&quot;&gt;
-  &lt;tr&gt;
-    &lt;th class=&quot;tg-baqh&quot; colspan=&quot;2&quot;&gt;Deliverables from July 2017 to 31 Dec 2017&lt;/th&gt;
-  &lt;/tr&gt;
   &lt;tr&gt;
     &lt;th class=&quot;tg-baqh&quot;&gt;Initiative&lt;/th&gt;
     &lt;th class=&quot;tg-baqh&quot;&gt;Deliverable&lt;/th&gt;
@@ -1667,10 +1787,9 @@ Links: The &lt;a href=&quot;https://github.com/ServiceInnovationLab/common-data-
   &lt;/tr&gt;
 &lt;/table&gt;
 
+&lt;h4 id=&quot;deliverables-from-january-to-30-june-2018&quot;&gt;Deliverables from January to 30 June 2018&lt;/h4&gt;
+
 &lt;table class=&quot;tg&quot;&gt;
-  &lt;tr&gt;
-    &lt;th class=&quot;tg-baqh&quot; colspan=&quot;2&quot;&gt;Deliverables from January to 30 June 2018&lt;/th&gt;
-  &lt;/tr&gt;
   &lt;tr&gt;
     &lt;th class=&quot;tg-baqh&quot;&gt;Initiative&lt;/th&gt;
     &lt;th class=&quot;tg-baqh&quot;&gt;Deliverable&lt;/th&gt;
@@ -1743,7 +1862,7 @@ Links: The &lt;a href=&quot;https://docs.google.com/document/d/1RIPYdUswh3B2YAMd
   &lt;/tr&gt;
 &lt;/table&gt;
 
-&lt;h2 id=&quot;additional-accomplishments&quot;&gt;Additional accomplishments&lt;/h2&gt;
+&lt;h3 id=&quot;additional-accomplishments&quot;&gt;Additional accomplishments&lt;/h3&gt;
 
 &lt;p&gt;Above and beyond the work delivered above, the Lab has had the following highlights and accomplishments.&lt;/p&gt;
 
@@ -1780,7 +1899,7 @@ Links: The &lt;a href=&quot;https://docs.google.com/document/d/1RIPYdUswh3B2YAMd
   &lt;li&gt;We ran a Rapid Prototyping for Virtual Reality workshop for industry and community, leading to a pipeline of opportunities around applying VR/AR and game design methods to service design and delivery in government.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&quot;report-close&quot;&gt;Report close&lt;/h1&gt;
+&lt;h3 id=&quot;report-close&quot;&gt;Report close&lt;/h3&gt;
 
 &lt;p&gt;The Lab has had a good year moving through startup phase to a small scale operational team that can support agencies in the design and development of better public services. An exceptional and highly skilled team has been established around the key goal of improving government services for New Zealanders, enabling systemic transformation of the public sector through collaboration and the application of design and development best practices with a whole of system, user journey and life event based lens. The team have operated under great uncertainty but have delivered above and beyond expectations to prove the value of such a cross agency function as an enabler of genuine service innovation.&lt;/p&gt;
 
@@ -1792,38 +1911,38 @@ Links: The &lt;a href=&quot;https://docs.google.com/document/d/1RIPYdUswh3B2YAMd
 
 &lt;p&gt;As a final word, I want to thank Karl, Darryl and the SIRG and SIWG participants for all their leadership and support. Thank you to all the agencies and Council staff who have worked so collaboratively with an open heart and mind. Thank you to all the companies, organisations &amp;amp; specialists who have shared in the journey, we look forward to working more with industry and non profit partners! A big thank you to the broader Service Innovation team who have provided support, secretariat, expertise and all the work needed to protect an innovation lab from the machinations of government :)&lt;/p&gt;
 
-&lt;p&gt;Finally, my greatest thanks to all the special, talented, passionate and committed members of the Service Innovation Lab team. You are all exceptional in the work you do and your contributions have made a difference far beyond the scope of what any of us could have imagined. I look forward to seeing our efforts continue to transform, challenge, enable, empower and influence the system around us to truly be what our communities need.&lt;/p&gt;</content><author><name>pia-andrews</name></author><category term="open source" /></entry><entry><title type="html">Aotearoa New Zealand Government Innovation Assets and Risks</title><link href="https://serviceinnovationlab.github.io//2018/06/01/aotearoa-new-zealand-government-innovation-assets-risks-matti-schneider/" rel="alternate" type="text/html" title="Aotearoa New Zealand Government Innovation Assets and Risks" /><published>2018-06-01T00:00:00+12:00</published><updated>2018-06-01T00:00:00+12:00</updated><id>https://serviceinnovationlab.github.io//2018/06/01/aotearoa-new-zealand-government-innovation-assets-risks-matti-schneider</id><content type="html" xml:base="https://serviceinnovationlab.github.io//2018/06/01/aotearoa-new-zealand-government-innovation-assets-risks-matti-schneider/">&lt;p&gt;&lt;span class=&quot;subtitle&quot;&gt;as seen by a nomadic public service innovator in 2018&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Finally, my greatest thanks to all the special, talented, passionate and committed members of the Service Innovation Lab team. You are all exceptional in the work you do and your contributions have made a difference far beyond the scope of what any of us could have imagined. I look forward to seeing our efforts continue to transform, challenge, enable, empower and influence the system around us to truly be what our communities need.&lt;/p&gt;</content><author><name>pia-andrews</name></author><category term="open source" /></entry><entry><title type="html">Aotearoa New Zealand Government Innovation Assets and Risks</title><link href="https://serviceinnovationlab.github.io//2018/06/01/aotearoa-new-zealand-government-innovation-assets-risks-matti-schneider/" rel="alternate" type="text/html" title="Aotearoa New Zealand Government Innovation Assets and Risks" /><published>2018-06-01T00:00:00+00:00</published><updated>2018-06-01T00:00:00+00:00</updated><id>https://serviceinnovationlab.github.io//2018/06/01/aotearoa-new-zealand-government-innovation-assets-risks-matti-schneider</id><content type="html" xml:base="https://serviceinnovationlab.github.io//2018/06/01/aotearoa-new-zealand-government-innovation-assets-risks-matti-schneider/">&lt;p&gt;&lt;span class=&quot;subtitle&quot;&gt;as seen by a nomadic public service innovator in 2018&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;This report can also be downloaded as a &lt;a href=&quot;/assets/Government-innovation-report-Matti-Schneider.pdf&quot;&gt;PDF file&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;the-lab&quot;&gt;The Lab&lt;/h1&gt;
+&lt;h2 id=&quot;the-lab&quot;&gt;The Lab&lt;/h2&gt;
 
 &lt;p&gt;The Government Service Innovation Lab of Aotearoa New Zealand, hosted by the Department of Internal Affairs, is one of these “makers” pockets that found a way in government and bring within it an ability to do disruptive innovation.&lt;/p&gt;
 
 &lt;p&gt;These are not to be confused with other administration modernisation and innovation departments that focus on optimising internal processes. These more recent initiatives indeed leverage one specific way of modernising: they focus on the interactions between citizens and the administration. They aim at delivering high-grade, user-centred public digital services, in the open, within strong resources constraints. While counterintuitive at first, other countries have demonstrated the efficiency of this practice, and now recognise delivering services as the best strategy to improve agencies processes, driven by actual usage. The main similar initiatives around the world&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; are &lt;a href=&quot;https://gds.blog.gov.uk&quot;&gt;gov.uk&lt;/a&gt; (UK, GDS&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;, 2011&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;), &lt;a href=&quot;https://18f.gsa.gov/&quot;&gt;18F&lt;/a&gt; (US, GSA, 2014), &lt;a href=&quot;https://beta.gouv.fr/en&quot;&gt;beta.gouv.fr&lt;/a&gt; (France, DINSIC, 2015) and &lt;a href=&quot;https://teamdigitale.governo.it/en/&quot;&gt;Team Digitale&lt;/a&gt; (Italy, AgiD, 2016).&lt;/p&gt;
 
-&lt;h2 id=&quot;assets&quot;&gt;Assets&lt;/h2&gt;
+&lt;h3 id=&quot;assets&quot;&gt;Assets&lt;/h3&gt;
 
-&lt;h3 id=&quot;team&quot;&gt;Team&lt;/h3&gt;
+&lt;h4 id=&quot;team&quot;&gt;Team&lt;/h4&gt;
 
 &lt;p&gt;As for all of these other international examples, the primary asset of the Lab (if not its entirety) is a very motivated, talented, interdisciplinary and genuine team with a bold and visionary leader. The central role of such servant leaders is to empower their colleagues by acting as a “brick umbrella,” protecting them as much as possible from whatever the layers of bureaucracy above throw at them, allowing the positive and rewarding environment in which resilient and adaptable teams thrive. Such units leverage best engineering practices (continuous integration, continuous delivery, cloud hosting…) to ensure reliability and quality despite very constrained resources.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/media/Government-innovation-report-Matti-Schneider/image2.jpeg&quot; alt=&quot;A gender- and age-diverse group sits in a circle in front of a large screen&quot; /&gt;
 &lt;em&gt;Lab meeting, DIA, Wellington, 2018&lt;/em&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;capability&quot;&gt;Capability&lt;/h3&gt;
+&lt;h4 id=&quot;capability&quot;&gt;Capability&lt;/h4&gt;
 
 &lt;p&gt;The Lab team has secured these elements for a few months and is now equipped with excellent delivery examples such as the &lt;a href=&quot;https://alpha.ratesrebates.services.govt.nz/app/&quot;&gt;Rates Rebate&lt;/a&gt; or &lt;a href=&quot;https://smartstart.services.govt.nz/&quot;&gt;SmartStart&lt;/a&gt; apps. These elements will build the mana of that team across and beyond agencies, giving it more ability to engage partners, in turn offering more delivery opportunities, in a self-reinforcing loop. The primary value proposition of Lab-like initiatives is an ability to deliver, thus demonstrating it is crucial to both growth and sustainability, and this one is well on its way.&lt;/p&gt;
 
-&lt;h2 id=&quot;risks&quot;&gt;Risks&lt;/h2&gt;
+&lt;h3 id=&quot;risks&quot;&gt;Risks&lt;/h3&gt;
 
-&lt;h3 id=&quot;low-leverage&quot;&gt;Low leverage&lt;/h3&gt;
+&lt;h4 id=&quot;low-leverage&quot;&gt;Low leverage&lt;/h4&gt;
 
 &lt;p&gt;Even while demonstrating its value, I believe that the Lab is currently too far away from central power to have a strong impact. All other successful examples I found, including all the ones cited earlier, are at most at tier 3 from Prime Minister or equivalent authority.&lt;/p&gt;
 
 &lt;p&gt;Innovation is about taking risk. By definition of bureaucracy, layers of hierarchy are there to mitigate risk. Even with the best umbrella, it is impossible to do visible, engaging disruptive innovation under mattresses. The first reason is that of the sheer amount of advocacy work that needs to be done by a team with already limited resources. The second is because a successfully delivered digital public service does not have the same inspirational impact on other agencies if it is “that DIA department” that did it or if it is “the GDS Ministerial Lab.” Status is an influential —and sometimes mandatory— element to diffuse innovation in a bureaucracy and engage non-cooperative actors.&lt;/p&gt;
 
-&lt;h3 id=&quot;under-resourcing&quot;&gt;Under-resourcing&lt;/h3&gt;
+&lt;h4 id=&quot;under-resourcing&quot;&gt;Under-resourcing&lt;/h4&gt;
 
 &lt;p&gt;The Lab will be unable to scale as such. It already operates over capacity, and funding uncertainty prevents investment. Since its team is made of people used to work within strong constraints, the risk is not so much of disrupting current operations or of limiting delivery ability; the actual risk is of burning out the team. Beyond the human impact, that would also mean a wasted investment: people who are competent in both their skills and government ways take a long time to grow.&lt;/p&gt;
 
@@ -1834,7 +1953,7 @@ Links: The &lt;a href=&quot;https://docs.google.com/document/d/1RIPYdUswh3B2YAMd
 
 &lt;p&gt;I recommend focusing on delivery as the primary strategy, as funding will either be cut entirely at some point or finally recognised as the necessary fuel for a new way to deliver public digital services, and that second option can only happen by demonstrating how cost-effective that way can be by operating in the current constraints.&lt;/p&gt;
 
-&lt;h3 id=&quot;scope-creep&quot;&gt;Scope creep&lt;/h3&gt;
+&lt;h4 id=&quot;scope-creep&quot;&gt;Scope creep&lt;/h4&gt;
 
 &lt;p&gt;A recurrent temptation for makers who face administrative friction when changing one agency’s processes is to take up another challenge while waiting for the slower-paced political plays to unfold. Avoiding this is not possible nor desirable, as it is a sign of the entrepreneurial mindset that is precisely sought in such initiatives, and often yields unforeseen benefits&lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;. However, the risk is to then expand the team’s responsibility to maintain or keep exploring too far, putting an even stronger strain on limited resources.&lt;/p&gt;
 
@@ -1842,15 +1961,15 @@ Links: The &lt;a href=&quot;https://docs.google.com/document/d/1RIPYdUswh3B2YAMd
 
 &lt;p&gt;Leaders that can engage makers must be visionary, which means that they sometimes can think too far ahead and overlook the burden of maintenance, prioritising investment over working budget. However, switching back to a managerial, accountant mindset is not the appropriate answer as it would very quickly disengage the team. I recommend to raise awareness of available resources, actual political engagements and associated funding streams, and to encourage and empower the team to take responsibility for their load from this information. Such a practice can limit scope creep while yielding the most innovation and fostering productivity.&lt;/p&gt;
 
-&lt;h1 id=&quot;aotearoa-new-zealand-government-innovation-landscape&quot;&gt;Aotearoa New Zealand government innovation landscape&lt;/h1&gt;
+&lt;h2 id=&quot;aotearoa-new-zealand-government-innovation-landscape&quot;&gt;Aotearoa New Zealand government innovation landscape&lt;/h2&gt;
 
 &lt;p&gt;The Lab operates in a broader government innovation ecosystem. Beyond organisations, this section also takes an anthropological lens to characterise the inherent strengths and weaknesses of the cultural environment in which agencies operate.&lt;/p&gt;
 
-&lt;h2 id=&quot;assets-1&quot;&gt;Assets&lt;/h2&gt;
+&lt;h3 id=&quot;principal-assets&quot;&gt;Principal Assets&lt;/h3&gt;
 
 &lt;p&gt;The principal assets I have identified for Aotearoa New Zealand to innovate in government lie in its ability to go beyond silo mentality by sharing vision and resources both across executive-operational layers and across the public, private and community sectors.&lt;/p&gt;
 
-&lt;h3 id=&quot;nimble-government&quot;&gt;Nimble government&lt;/h3&gt;
+&lt;h4 id=&quot;nimble-government&quot;&gt;Nimble government&lt;/h4&gt;
 
 &lt;p&gt;Even though civil servants might not all feel action is fast enough, I have consistently observed a relatively short, 2 to 3 weeks time from first exposure to first action towards implementation of a new idea, practice or tool.&lt;/p&gt;
 
@@ -1858,7 +1977,7 @@ Links: The &lt;a href=&quot;https://docs.google.com/document/d/1RIPYdUswh3B2YAMd
   &lt;p&gt;Delays of two months are common in continental France and can be even longer in overseas territories.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;frictionless-operational-communication&quot;&gt;Frictionless operational communication&lt;/h3&gt;
+&lt;h4 id=&quot;frictionless-operational-communication&quot;&gt;Frictionless operational communication&lt;/h4&gt;
 
 &lt;p&gt;I have observed a distinctive kiwi positive communication style, with people genuinely reinforcing each other’s worth and value brought to a project. This could merely be a different way of expressing judgement&lt;sup id=&quot;fnref:5&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;, but I attribute to this style an ability to engage on an operational level with less effort. With less risk of being shunned, agents from lower tiers feel more confident in joining a conversation. Similarly, Aotearoa New Zealand has the lowest professional gender bias of all countries I have observed. Since diverse operational insights are one of the basic needs for system innovation, this ability to engage is a definite asset.&lt;/p&gt;
 
@@ -1866,7 +1985,7 @@ Links: The &lt;a href=&quot;https://docs.google.com/document/d/1RIPYdUswh3B2YAMd
   &lt;p&gt;Bigger bureaucracies tend to make it mandatory to inaugurate discussions through higher tiers, or even to prevent them until they establish a formal working group. Such a silo and layered mentality prevents serendipity and thus innovation.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;all-of-government&quot;&gt;“All-of-government”&lt;/h3&gt;
+&lt;h4 id=&quot;all-of-government&quot;&gt;“All-of-government”&lt;/h4&gt;
 
 &lt;p&gt;All-of-government gives the conceptual, &lt;a href=&quot;https://www.procurement.govt.nz/procurement/principles-and-rules/government-rules-of-sourcing/other-rules-you-need-to-know/rule-55/&quot;&gt;sourcing&lt;/a&gt; and &lt;a href=&quot;https://www.digital.govt.nz/products-and-services/all-of-government/&quot;&gt;partly practical&lt;/a&gt; basis for collaboration across agencies. Even with no extensive use of all-of-government contracts, the simple use of the term “all-of-government” as a shared notion makes it very simple for agents to state when they are willing to work beyond their agency’s boundaries and to quickly assess if their counterparts are as well.&lt;/p&gt;
 
@@ -1874,7 +1993,7 @@ Links: The &lt;a href=&quot;https://docs.google.com/document/d/1RIPYdUswh3B2YAMd
   &lt;p&gt;In most countries, these practices have to be first established through peer-to-peer agreements, increasing the time to first meaningful collaboration.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;digital-7-operational-relationships&quot;&gt;Digital 7 operational relationships&lt;/h3&gt;
+&lt;h4 id=&quot;digital-7-operational-relationships&quot;&gt;Digital 7 operational relationships&lt;/h4&gt;
 
 &lt;p&gt;The network of (self-proclaimed) “most advanced digital nations” D5, now expanded to &lt;a href=&quot;https://www.digitalnations.co.nz&quot;&gt;D7&lt;/a&gt;, provides an excellent venue for sharing experience. Considering the natural duplicability of software and the commitment of these nations to work open-source, participation yields an extremely cost-effective way to reuse digital components and good practices. Sharing stories of successes and failures also brings new ideas and can prevent mistakes from being repeated.&lt;/p&gt;
 
@@ -1884,7 +2003,7 @@ Links: The &lt;a href=&quot;https://docs.google.com/document/d/1RIPYdUswh3B2YAMd
   &lt;p&gt;The USA in contrast, speaking only English, have access to as much information but have a tendency to dismiss other nations’ experience at the first sign of cultural mismatch rather than listening to the whole story and then extracting the pieces that make sense in their context.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;concerned-network-of-private-actors&quot;&gt;Concerned network of private actors&lt;/h3&gt;
+&lt;h4 id=&quot;concerned-network-of-private-actors&quot;&gt;Concerned network of private actors&lt;/h4&gt;
 
 &lt;p&gt;With an understanding of the reputation of Aotearoa New Zealand as a clean, safe and socially conscious country as a shared asset, most private actors&lt;sup id=&quot;fnref:6&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt; are more aligned with government objectives than in countries where the distribution of responsibilities simplistically opposes a right to regulate against a right to act until regulated. Community-conscious initiatives thrive and can quickly become partners of central and local government. As co-design is a crucial part of user-centred innovation and peer-to-peer diffusion an ingredient of adoption, this ease to work across legal entities is a strong asset.&lt;/p&gt;
 
@@ -1892,7 +2011,7 @@ Links: The &lt;a href=&quot;https://docs.google.com/document/d/1RIPYdUswh3B2YAMd
   &lt;p&gt;Innovation agencies operating in countries where the administration is considered as corrupt or as an enemy spend a significant part of their resources compensating for reputation deficit when engaging with private actors and individuals.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;quest-for-clarity&quot;&gt;Quest for clarity&lt;/h3&gt;
+&lt;h4 id=&quot;quest-for-clarity&quot;&gt;Quest for clarity&lt;/h4&gt;
 
 &lt;p&gt;All stakeholders of an action, be it standard service delivery or significant process change, seem to look for a clear understanding of why they are engaging in an activity. Artefacts (posters, flyers…) stating and reinforcing end goal visions are omnipresent, and ceremonies (team meetings…) are used to that effect as well. Since radical innovation, by profoundly changing processes, can only pay off with alignment across layers, the familiar presence of tools and practices for diffusing vision is a definite asset.&lt;/p&gt;
 
@@ -1903,12 +2022,12 @@ Links: The &lt;a href=&quot;https://docs.google.com/document/d/1RIPYdUswh3B2YAMd
 &lt;p&gt;&lt;img src=&quot;/assets/media/Government-innovation-report-Matti-Schneider/image4.jpeg&quot; alt=&quot;A poster on a wall states principles of collaboration for working at the Service Innovation Lab, surrounded by sticky notes.&quot; /&gt;
 &lt;em&gt;The Lab front door, Wellington, 2018&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;risks-1&quot;&gt;Risks&lt;/h2&gt;
+&lt;h3 id=&quot;main-risks&quot;&gt;Main Risks&lt;/h3&gt;
 
 &lt;p&gt;The main risks I have identified that can hinder government innovation
 lie in missing the tools to challenge the status quo.&lt;/p&gt;
 
-&lt;h3 id=&quot;consensus-over-action&quot;&gt;Consensus over action&lt;/h3&gt;
+&lt;h4 id=&quot;consensus-over-action&quot;&gt;Consensus over action&lt;/h4&gt;
 
 &lt;p&gt;Innovation is all about questioning ingrained habits and processes, and
 while its construction should be collaborative, its impact will by
@@ -1926,7 +2045,7 @@ strategy is only worth as much as the ability to deliver upon it.&lt;/p&gt;
 But only by following “&lt;a href=&quot;https://gds.blog.gov.uk/2013/01/06/digital-transformation-in-2013-the-strategy-is-delivery-again/&quot;&gt;the strategy is delivery&lt;/a&gt;” could these have any actual impact.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;funding-instruments-and-ambition-mismatch&quot;&gt;Funding instruments and ambition mismatch&lt;/h3&gt;
+&lt;h4 id=&quot;funding-instruments-and-ambition-mismatch&quot;&gt;Funding instruments and ambition mismatch&lt;/h4&gt;
 
 &lt;p&gt;If the ambition for innovation in government is to have public digital services delivered in an agile, user-centred and experimentation-based fashion, then competitive funding is counter-productive. Innovative products are best produced within short timeframes by small teams of people who typically don’t have a lot of capacity or interest for long descriptions and plans —which is why they are the best fit for “de-bureaucratising” processes on behalf of end users in the first place. This fact implies that public innovation is best funded by small grants given to agencies with concrete use cases and strong teams. To ensure &lt;em&gt;doing&lt;/em&gt; gets an advantage over &lt;em&gt;planning&lt;/em&gt;, application to these funds should have an aggressive, unusual format that aligns with the expected result.&lt;/p&gt;
 
@@ -1934,7 +2053,7 @@ But only by following “&lt;a href=&quot;https://gds.blog.gov.uk/2013/01/06/dig
   &lt;p&gt;In the USA, 18F &lt;a href=&quot;https://18f.gsa.gov/partnership-principles/#understanding-your-problem-first&quot;&gt;engages very early&lt;/a&gt;, by email, and expects the problem to be defined collaboratively. In France, the State Startups Incubator only works with agencies that have identified a civil servant intrapreneur providing a one-page product description&lt;sup id=&quot;fnref:7&quot;&gt;&lt;a href=&quot;#fn:7&quot; class=&quot;footnote&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;underrating-of-public-digital-infrastructure&quot;&gt;Underrating of public digital infrastructure&lt;/h3&gt;
+&lt;h4 id=&quot;underrating-of-public-digital-infrastructure&quot;&gt;Underrating of public digital infrastructure&lt;/h4&gt;
 
 &lt;p&gt;Offering capability to the economic and community components of society does not mean having an empty government. On the contrary, stable infrastructure yields more benefits to all. If Aotearoa New Zealand is to position itself as an “information society,” it is critical that it recognises the need for the digital infrastructure that will enable this. Just like sewage and roads are critical water and transport systems that allow healthy communities and strong economic actors, a knowledge-work society needs strong, maintained and up-to-date pipes and hygiene.&lt;/p&gt;
 
@@ -1947,15 +2066,15 @@ But only by following “&lt;a href=&quot;https://gds.blog.gov.uk/2013/01/06/dig
 &lt;p&gt;&lt;img src=&quot;/assets/media/Government-innovation-report-Matti-Schneider/image5.jpeg&quot; alt=&quot;Wellington railway station&quot; /&gt;
 &lt;em&gt;A long-standing piece of infrastructure: the railway station, Wellington, 2018&lt;/em&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;ict-strategy-recommendations&quot;&gt;ICT strategy recommendations&lt;/h1&gt;
+&lt;h2 id=&quot;ict-strategy-recommendations&quot;&gt;ICT strategy recommendations&lt;/h2&gt;
 
 &lt;p&gt;This set of recommendations builds upon the previous observations, as well as on my reading of strategy documents, participation in an ICT strategy co-design session, and interviews with participants before and after it. It aims at complementing and influencing the current directions, not replacing them.&lt;/p&gt;
 
-&lt;h2 id=&quot;focus-on-capability&quot;&gt;Focus on capability&lt;/h2&gt;
+&lt;h3 id=&quot;focus-on-capability&quot;&gt;Focus on capability&lt;/h3&gt;
 
 &lt;p&gt;An important area of focus for the current ICT strategy is rephrasing elements that were already discussed under the previous government. While political alignment is a manifest necessity for public action, a strategy that aims at enabling delivery and transformation should affirm focus on impact and capability mapping to embody the priority given to investment and action.&lt;/p&gt;
 
-&lt;h2 id=&quot;the-time-for-government-as-a-platform-is-now&quot;&gt;The time for government as a platform is now&lt;/h2&gt;
+&lt;h3 id=&quot;the-time-for-government-as-a-platform-is-now&quot;&gt;The time for government as a platform is now&lt;/h3&gt;
 
 &lt;p&gt;Actually, it was yesterday. Platform economics are already ruling the world of knowledge work. New relationships have to be built between government, economy, and society. Every day that passes where the government keeps policing through only regulation and strategies rather than building enabling platforms is more power flowing away to the GAFAMs and a lost opportunity to the people of Aotearoa New Zealand.&lt;/p&gt;
 
@@ -1964,13 +2083,13 @@ But only by following “&lt;a href=&quot;https://gds.blog.gov.uk/2013/01/06/dig
 
 &lt;p&gt;Such platforms should provide agencies, companies and individuals alike with APIs to interact with public services, interconnecting society components and providing governments with soft yet immediate and measurable power by regulating these platforms.&lt;/p&gt;
 
-&lt;h2 id=&quot;fund-public-innovation&quot;&gt;Fund public innovation&lt;/h2&gt;
+&lt;h3 id=&quot;fund-public-innovation&quot;&gt;Fund public innovation&lt;/h3&gt;
 
 &lt;p&gt;Create innovation funding instruments that allow other agencies to replicate the Lab’s achievements: small grants, small descriptions, small durations, big ambitions. And then shine the spotlight on these other agencies’ realisations.&lt;/p&gt;
 
 &lt;p&gt;Larger-scale transformation funding would then be most effectively provided to agencies that have already demonstrated an ability to deliver smaller-scale services. Without implying that the exact same practices can be applied on any problem, there is a definite risk limitation in knowing that agents have first-hand experience with lightweight methods and fast delivery when tasked with updating large systems and processes.&lt;/p&gt;
 
-&lt;h2 id=&quot;the-lab-is-one-piece-of-the-puzzle&quot;&gt;The Lab is one piece of the puzzle&lt;/h2&gt;
+&lt;h3 id=&quot;the-lab-is-one-piece-of-the-puzzle&quot;&gt;The Lab is one piece of the puzzle&lt;/h3&gt;
 
 &lt;p&gt;Use it to spearhead, demonstrate, engage, hire. The Lab will never deliver all public digital services, nor should it aim to. But it can be used to show what all agencies should try to emulate. Make it grow and evolve similar initiatives across central and local government, by getting Lab alumni to mentor them. Use the Lab reputation and skills to hire highly skilled digital professionals, and trust the Lab to facilitate their onboarding: it is the only part of government that speaks their language.&lt;/p&gt;
 
