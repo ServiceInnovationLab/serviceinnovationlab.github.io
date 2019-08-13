@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # Find this on Github here: https://gist.github.com/gemfarmer/f3f2e35663b96cd3fa8d90b49e6216a0
 require 'colorator' # Comment this out to run the script without colorator
 
@@ -78,6 +76,7 @@ if remove_all
   # puts "deleting contents of removable_images.yml"
   File.open(removable_images_file, 'w').close
 else
+
   removable_images_file = File.join(full_path, 'removable_images.yml')
   removable_images = if File.exist?(removable_images_file)
                        File.open(removable_images_file, 'r+')
