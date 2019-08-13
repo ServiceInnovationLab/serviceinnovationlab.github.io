@@ -126,9 +126,7 @@ jobs:
       - run:
           name: Install dependencies
           command: bundle check --path vendor/bundle || bundle install --deployment
-      - run:
-          name: Install dependencies
-          command: bundle check --path vendor/bundle || bundle install --deployment
+      - run: npm install
       - add_ssh_keys:
           fingerprints:
             - "eb:35:35:3f:6f:f5:45:2e:e3:16:15:33:02:02:81:ea"
@@ -141,15 +139,14 @@ jobs:
           command: |
             git config --global user.email "labplus@dia.govt.nz"
             git config --global user.name "Lab Plus"
-            export RELEASE_TAG="release-${CIRCLE_BUILD_NUM}"
-            export GIT_USER=$(git config user.name)
-            git checkout -b tmp
-            git add --force _site && git commit "${DIST_FOLDER}" -m "Build $CIRCLE_BUILD_NUM of ${DIST_FOLDER} by ${GIT_USER}"
-            git tag "${RELEASE_TAG}"
-            git push "${REMOTE}" "${RELEASE_TAG}"
-            git push "${REMOTE}" ":${PUBLISH_BRANCH}"
-            git subtree push --prefix "${DIST_FOLDER}" "${REMOTE}" "${PUBLISH_BRANCH}"
-
+            export RELEASE_BRANCH="release-${CIRCLE_BUILD_NUM}"
+            cp -r ./_site ../
+            git checkout "${PUBLISH_BRANCH}"
+            rsync -a ../_site/ .
+            git diff
+            # git add .
+            # git commit -m "Build $CIRCLE_BUILD_NUM of ${DIST_FOLDER}"
+            # git "${REMOTE}" "${PUBLISH_BRANCH}"
 workflows:
   version: 2
   build_and_deploy:
