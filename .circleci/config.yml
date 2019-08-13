@@ -148,17 +148,17 @@ jobs:
           name: Rsync Install
           command: sudo apt install rsync
       - run:
-          name: "Copy build into our working folder"
-          command: |
-            rsync -a ../_site/ .
-            git diff | cat
-      - run:
           name: Create release branch
           command: |
             git config --global user.email "labplus@dia.govt.nz"
             git config --global user.name "Deployment step on circle-ci"
             export RELEASE_BRANCH="release-${CIRCLE_BUILD_NUM}"
             git checkout -b "${RELEASE_BRANCH}" --track "${REMOTE}/${PUBLISH_BRANCH}"
+      - run:
+          name: "Copy build into our working folder"
+          command: |
+            rsync -a ../_site/ .
+            git diff | cat
       - run:
           name: "Add modified files to git"
           command: git add . && git commit -m "Build $CIRCLE_BUILD_NUM"
