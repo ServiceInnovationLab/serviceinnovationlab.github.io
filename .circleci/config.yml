@@ -165,8 +165,7 @@ jobs:
       - run:
           name: "Push release branch"
           command: |
-            echo "${REMOTE}"
-            echo "${RELEASE_BRANCH}"
+            export RELEASE_BRANCH="release-${CIRCLE_BUILD_NUM}"
             git push "${REMOTE}" "${RELEASE_BRANCH}"
       # - run:
       #     name: Switch to publish branch
