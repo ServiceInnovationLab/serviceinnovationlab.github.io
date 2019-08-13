@@ -1,5 +1,0 @@
-current directory: /home/circleci/project/vendor/bundle/ruby/2.6.0/gems/childprocess-1.0.1/ext
-/usr/local/bin/ruby mkrf_conf.rb
-
-current directory: /home/circleci/project/vendor/bundle/ruby/2.6.0/gems/childprocess-1.0.1/ext
-/usr/local/bin/ruby -rrubygems /home/circleci/project/vendor/bundle/ruby/2.6.0/gems/rake-12.3.3/exe/rake RUBYARCHDIR\=/home/circleci/project/vendor/bundle/ruby/2.6.0/extensions/x86_64-linux/2.6.0/childprocess-1.0.1 RUBYLIBDIR\=/home/circleci/project/vendor/bundle/ruby/2.6.0/extensions/x86_64-linux/2.6.0/childprocess-1.0.1

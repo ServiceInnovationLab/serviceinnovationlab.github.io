@@ -4,7 +4,7 @@ $(function() {
     return $('.nav-subnav a[href*=' + $(el).attr('id') + ']');
   }
 
-  var $navItems = $('.nav-subnav a').filter('.nz-sidenav-list > li > a');
+  var $navItems = $('.nav-subnav a').filter('.usa-sidenav-list > li > a');
 
   var $window = $(window);
   var anchors = $.map($navItems, function(item) {
@@ -19,10 +19,10 @@ $(function() {
   $anchors
     .waypoint(
       function(direction) {
-        $navItems.removeClass('nz-current', direction === 'down');
+        $navItems.removeClass('usa-current', direction === 'down');
         if ($window.scrollTop() !== 0) {
           getRelatedNavigation(this).addClass(
-            'nz-current',
+            'usa-current',
             direction === 'down',
           );
         }
@@ -35,10 +35,10 @@ $(function() {
     )
     .waypoint(
       function(direction) {
-        $navItems.removeClass('nz-current', direction === 'up');
+        $navItems.removeClass('usa-current', direction === 'up');
         if ($window.scrollTop() !== 0) {
           getRelatedNavigation(this).addClass(
-            'nz-current',
+            'usa-current',
             direction === 'up',
           );
         }
