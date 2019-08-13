@@ -123,6 +123,7 @@ jobs:
       DIST_FOLDER: '_site'
       PUBLISH_BRANCH: 'master'
       REMOTE: origin
+      RELEASE_BRANCH: "release-${CIRCLE_BUILD_NUM}"
     steps:
       - checkout
       - restore_cache:
