@@ -145,8 +145,8 @@ jobs:
             cp -r ./_site ../
             git checkout "${PUBLISH_BRANCH}"
             rsync -a ../_site/ .
-            git diff
-            # git add .
+            git status
+            git add .
             # git commit -m "Build $CIRCLE_BUILD_NUM of ${DIST_FOLDER}"
             # git "${REMOTE}" "${PUBLISH_BRANCH}"
 workflows:
