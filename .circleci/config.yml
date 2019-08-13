@@ -69,7 +69,9 @@ jobs:
       - image: circleci/ruby:2.6.3-node
     steps:
       - checkout
-      - run: npm install
+      - run:
+          name: "Install javascript dependencies"
+          command: npm install
       - run:
           name: markdown lint
           command: npm run test-markdown
@@ -95,7 +97,9 @@ jobs:
           keys:
             - v1-site-build-{{ .Revision }}
             - v1-nodejs-deps-{{ checksum "package-lock.json" }}
-      - run: npm install
+      - run:
+          name: "Install javascript dependencies"
+          command: npm install
       - run: npm run test-accessibility
   percy:
     docker:
@@ -106,7 +110,9 @@ jobs:
           keys:
             - v1-site-build-{{ .Revision }}
             - v1-nodejs-deps-{{ checksum "package-lock.json" }}
-      - run: npm install
+      - run:
+          name: "Install javascript dependencies"
+          command: npm install
       - run:
           name: Visual Tests
           command: npm run percy
@@ -126,7 +132,9 @@ jobs:
       - run:
           name: Install dependencies
           command: bundle check --path vendor/bundle || bundle install --deployment
-      - run: npm install
+      - run:
+          name: "Install javascript dependencies"
+          command: npm install
       - add_ssh_keys:
           fingerprints:
             - "eb:35:35:3f:6f:f5:45:2e:e3:16:15:33:02:02:81:ea"
