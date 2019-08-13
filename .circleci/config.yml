@@ -142,17 +142,23 @@ jobs:
           name: Building static site
           command: bundle exec jekyll build
       - run:
+          name: Make a copy of the build
+          command: cp -r ./_site ../
+      - run:
           name: Rsync Install
           command: sudo apt install rsync
+      - run:
+          name: Switch to publish branch
+          command: git checkout "${PUBLISH_BRANCH}"
+      - run:
+          name: "Copy build into our working folder"
+          command: rsync -a ../_site/ .
       - run:
           name: Create release branch
           command: |
             git config --global user.email "labplus@dia.govt.nz"
             git config --global user.name "Lab Plus"
             export RELEASE_BRANCH="release-${CIRCLE_BUILD_NUM}"
-            cp -r ./_site ../
-            git checkout "${PUBLISH_BRANCH}"
-            rsync -a ../_site/ .
             git diff | cat
             git add .
             # git commit -m "Build $CIRCLE_BUILD_NUM of ${DIST_FOLDER}"
