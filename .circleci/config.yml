@@ -166,6 +166,7 @@ jobs:
       - run:
           name: "Push release branch"
           command: |
+            set -euv
             export RELEASE_BRANCH="release-${CIRCLE_BUILD_NUM}"
             git push "${REMOTE}" "${RELEASE_BRANCH}"
             git checkout "${PUBLISH_BRANCH}"
