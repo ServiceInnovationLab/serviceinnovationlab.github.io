@@ -142,6 +142,6 @@ Jekyll config (including markdown, and layout html) are in the `dev` branch, whi
 
 The static site is built by circle-ci. The deploy task runs on any change to the dev branch. (see `.circlci/config.yml`).
 
-The status content (html, css, js, images) is then commited to the master branch. Github Pages is configured for this repo to serve from the master branch.
+The status content (html, css, js, images) is then committed to the master branch. Github Pages is configured for this repo to serve from the master branch.
 
 Note: Github Pages for organisations must be served from the `master` branch. At this time the branch name is not configurable.
