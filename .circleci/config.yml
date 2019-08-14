@@ -213,4 +213,3 @@ workflows:
             branches:
               only:
                 - dev
-                - deploy-tags-only
