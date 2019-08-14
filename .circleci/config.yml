@@ -146,7 +146,7 @@ jobs:
           name: Make a copy of the build
           command: cp -r ./_site ../
       - run:
-          name: Rsync Install
+          name: Install rsync from apt
           command: sudo apt install rsync
       - run:
           name: Create release branch
