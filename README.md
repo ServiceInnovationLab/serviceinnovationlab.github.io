@@ -140,7 +140,7 @@ The tests will not catch every accessibility problem.  We still should spend tim
 
 Jekyll config (including markdown, and layout html) are in the `dev` branch, which is also the default branch on github.
 
-The static site is built by circle-ci. The deploy task runs on any change to the dev branch. (see `.circlci/config.yml`).
+The static site is built by circle-ci. The deploy task runs on any change to the dev branch. (see `.circleci/config.yml`).
 
 The status content (html, css, js, images) is then committed to the master branch. Github Pages is configured for this repo to serve from the master branch.
 
