@@ -14,7 +14,7 @@ subnav_items:
 
 ## Purpose
 
-We are an all of government lab focused on cross agency design and development to experiment, drive and enable the systemic change of government to improve people’s experiences when they interact with government.
+We are an all-of0government lab within the Aotearoa New Zealand government focused, on cross agency design and development to experiment, drive and enable the systemic change of government to improve people’s experiences when they interact with government.
 
 ### Goals
 
