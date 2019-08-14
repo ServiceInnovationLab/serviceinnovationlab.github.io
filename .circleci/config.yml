@@ -177,6 +177,7 @@ jobs:
             git merge "${RELEASE_BRANCH}"
       - run:
           name: Push to remote (make live)
+          command:
             set -euv
             git "${REMOTE}" "${PUBLISH_BRANCH}"
 workflows:
