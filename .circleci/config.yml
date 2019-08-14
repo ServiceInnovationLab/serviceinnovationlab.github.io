@@ -180,7 +180,7 @@ jobs:
           name: Push to remote (make live)
           command: |
             set -euv
-            git "${REMOTE}" "${PUBLISH_BRANCH}"
+            git push "${REMOTE}" "${PUBLISH_BRANCH}"
 workflows:
   version: 2
   build_and_deploy:
