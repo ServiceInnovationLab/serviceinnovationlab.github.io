@@ -135,3 +135,13 @@ We must meet the [New Zealand Government - Web Accessibility Standard 1.1](https
 We used automated testing to detect some in-accessible content. These tests are gatekeepers. When the content added doesn't comply, the PR will have a failed test. Receiving automated messages that your work didn't pass can be frustrating at first, but compliance is necessary and becomes easier with practice.
 
 The tests will not catch every accessibility problem.  We still should spend time checking the toolkit, and generally keeping proficient accessibility standards.
+
+## Git Branches
+
+Jekyll config (including markdown, and layout html) are in the `dev` branch, which is also the default branch on github.
+
+The resulting static site is built by circle-ci. The deploy task runs on any change to the dev branch. (see `.circleci/config.yml`).
+
+The static site content (html, css, js, images) is then committed to the master branch. Github Pages is configured for this repo to serve from the master branch.
+
+Note: Github Pages for organisations must be served from the `master` branch. At this time the branch name is not configurable.

@@ -69,7 +69,9 @@ jobs:
       - image: circleci/ruby:2.6.3-node
     steps:
       - checkout
-      - run: npm install
+      - run:
+          name: "Install javascript dependencies"
+          command: npm install
       - run:
           name: markdown lint
           command: npm run test-markdown
@@ -95,7 +97,9 @@ jobs:
           keys:
             - v1-site-build-{{ .Revision }}
             - v1-nodejs-deps-{{ checksum "package-lock.json" }}
-      - run: npm install
+      - run:
+          name: "Install javascript dependencies"
+          command: npm install
       - run: npm run test-accessibility
   percy:
     docker:
@@ -106,7 +110,9 @@ jobs:
           keys:
             - v1-site-build-{{ .Revision }}
             - v1-nodejs-deps-{{ checksum "package-lock.json" }}
-      - run: npm install
+      - run:
+          name: "Install javascript dependencies"
+          command: npm install
       - run:
           name: Visual Tests
           command: npm run percy
@@ -117,6 +123,7 @@ jobs:
       DIST_FOLDER: '_site'
       PUBLISH_BRANCH: 'master'
       REMOTE: origin
+      RELEASE_BRANCH: "release-${CIRCLE_BUILD_NUM}"
     steps:
       - checkout
       - restore_cache:
@@ -127,29 +134,53 @@ jobs:
           name: Install dependencies
           command: bundle check --path vendor/bundle || bundle install --deployment
       - run:
-          name: Install dependencies
-          command: bundle check --path vendor/bundle || bundle install --deployment
+          name: "Install javascript dependencies"
+          command: npm install
       - add_ssh_keys:
           fingerprints:
             - "eb:35:35:3f:6f:f5:45:2e:e3:16:15:33:02:02:81:ea"
       - run:
           name: Building static site
           command: bundle exec jekyll build
-
+      - run:
+          name: Make a copy of the build
+          command: cp -r ./_site ../
+      - run:
+          name: Install rsync from apt
+          command: sudo apt install rsync
       - run:
           name: Create release branch
           command: |
             git config --global user.email "labplus@dia.govt.nz"
-            git config --global user.name "Lab Plus"
-            export RELEASE_TAG="release-${CIRCLE_BUILD_NUM}"
-            export GIT_USER=$(git config user.name)
-            git checkout -b tmp"
-            git add --force _site && git commit "${DIST_FOLDER}" -m "Build $CIRCLE_BUILD_NUM of ${DIST_FOLDER} by ${GIT_USER}"
-            git tag "${RELEASE_TAG}"
-            git push "${REMOTE}" "${RELEASE_TAG}"
-            git push "${REMOTE}" ":${PUBLISH_BRANCH}"
-            git subtree push --prefix "${DIST_FOLDER}" "${REMOTE}" "${PUBLISH_BRANCH}"
-
+            git config --global user.name "Deployment step on circle-ci"
+            export RELEASE_BRANCH="release-${CIRCLE_BUILD_NUM}"
+            git checkout -b "${RELEASE_BRANCH}" --track "${REMOTE}/${PUBLISH_BRANCH}"
+      - run:
+          name: "Copy build into our working folder"
+          command: |
+            rsync -a ../_site/ .
+            git diff | cat
+      - run:
+          name: "Add modified files to git"
+          command: git add . && git commit -m "Build $CIRCLE_BUILD_NUM"
+      - run:
+          name: "Push release branch"
+          command: |
+            set -euv
+            export RELEASE_BRANCH="release-${CIRCLE_BUILD_NUM}"
+            git push "${REMOTE}" "${RELEASE_BRANCH}"
+      - run:
+          name: merge into master
+          command: |
+            set -euv
+            export RELEASE_BRANCH="release-${CIRCLE_BUILD_NUM}"
+            git checkout "${PUBLISH_BRANCH}"
+            git merge "${RELEASE_BRANCH}"
+      - run:
+          name: Push to remote (make live)
+          command: |
+            set -euv
+            git push "${REMOTE}" "${PUBLISH_BRANCH}"
 workflows:
   version: 2
   build_and_deploy:
@@ -165,7 +196,6 @@ workflows:
               ignore:
                 - master
                 - gh-pages
-
       - markdownlint:
           requires:
             - nodejsdeps
