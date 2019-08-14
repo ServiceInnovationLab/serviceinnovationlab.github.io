@@ -123,7 +123,6 @@ jobs:
       DIST_FOLDER: '_site'
       PUBLISH_BRANCH: 'master'
       REMOTE: origin
-      RELEASE_BRANCH: "release-${CIRCLE_BUILD_NUM}"
     steps:
       - checkout
       - restore_cache:
@@ -149,12 +148,14 @@ jobs:
           name: Install rsync from apt
           command: sudo apt install rsync
       - run:
-          name: Create release branch
+          name: Configure git
           command: |
             git config --global user.email "labplus@dia.govt.nz"
             git config --global user.name "Deployment step on circle-ci"
-            export RELEASE_BRANCH="release-${CIRCLE_BUILD_NUM}"
-            git checkout -b "${RELEASE_BRANCH}" --track "${REMOTE}/${PUBLISH_BRANCH}"
+      - run:
+          name: Create release branch
+          command: |
+            git checkout ${PUBLISH_BRANCH}
       - run:
           name: "Copy build into our working folder"
           command: |
@@ -164,22 +165,15 @@ jobs:
           name: "Add modified files to git"
           command: git add . && git commit -m "Build $CIRCLE_BUILD_NUM"
       - run:
-          name: "Push release branch"
+          name: "Push release tag"
           command: |
             set -euv
-            export RELEASE_BRANCH="release-${CIRCLE_BUILD_NUM}"
-            git push "${REMOTE}" "${RELEASE_BRANCH}"
-      - run:
-          name: merge into master
-          command: |
-            set -euv
-            export RELEASE_BRANCH="release-${CIRCLE_BUILD_NUM}"
-            git checkout "${PUBLISH_BRANCH}"
-            git merge "${RELEASE_BRANCH}"
+            export RELEASE_TAG="release-${CIRCLE_BUILD_NUM}"
+            git tag "${RELEASE_TAG}"
+            git push "${REMOTE}" "${RELEASE_TAG}"
       - run:
           name: Push to remote (make live)
           command: |
-            set -euv
             git push "${REMOTE}" "${PUBLISH_BRANCH}"
 workflows:
   version: 2
