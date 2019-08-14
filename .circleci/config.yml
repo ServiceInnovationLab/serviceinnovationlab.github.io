@@ -185,39 +185,37 @@ workflows:
   version: 2
   build_and_deploy:
     jobs:
-      # - nodejsdeps
-      # - rubydeps
-      # - yamllint
-      # - build:
-      #     requires:
-      #       - rubydeps
-      #     filters:
-      #       branches:
-      #         ignore:
-      #           - master
-      #           - gh-pages
-
-      # - markdownlint:
-      #     requires:
-      #       - nodejsdeps
-      # - accessibility:
-      #     requires:
-      #       - build
-      #       - nodejsdeps
-      # - percy:
-      #     requires:
-      #       - build
-      #       - nodejsdeps
-      # - test:
-      #     requires:
-      #       - rubydeps
+      - nodejsdeps
+      - rubydeps
+      - yamllint
+      - build:
+          requires:
+            - rubydeps
+          filters:
+            branches:
+              ignore:
+                - master
+                - gh-pages
+      - markdownlint:
+          requires:
+            - nodejsdeps
+      - accessibility:
+          requires:
+            - build
+            - nodejsdeps
+      - percy:
+          requires:
+            - build
+            - nodejsdeps
+      - test:
+          requires:
+            - rubydeps
       - deploy:
-          # requires:
-          #   - rubydeps
-          #   - build
-          #   - test
+          requires:
+            - rubydeps
+            - build
+            - test
           filters:
             branches:
               only:
                 - dev
-                - deploy
