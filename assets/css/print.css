@@ -2,8 +2,8 @@
   nav,
   input,
   .post-feature_image,
-  .page-projects .usa-section.background-medium,
-  .page-about-SIL .usa-section.background-medium,
+  .page-projects .nz-section.background-medium,
+  .page-about-SIL .nz-section.background-medium,
   .menu-btn,
   .link-arrow-right svg,
   .link-arrow-left svg {
@@ -16,7 +16,7 @@
     font-size: 1rem !important;
     content: " (" attr(href) ") "; }
 
-  .usa-grid.content-focus {
+  .nz-grid.content-focus {
     padding-left: 0 !important;
     padding-right: 0 !important; }
 
@@ -39,7 +39,7 @@
     -o-box-shadow: none !important;
     box-shadow: none !important; }
 
-  .list-columns .usa-width-one-third {
+  .list-columns .nz-width-one-third {
     width: 100% !important; }
 
   .list-images,

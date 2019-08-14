@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <!--[if lt IE 9]><html class="lt-ie9"><![endif]-->
 <!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
-
-
-
-<!-- site.url: https://serviceinnovationlab.github.io/ -->
-<!-- site.baseurl:  -->
-<!-- siteurl: https://serviceinnovationlab.github.io/ -->
+  <head>
+    
+<!-- depth = 2-->
+<!-- base = ../..-->
 
 <!-- Basic Page Needs
 ================================================== -->
@@ -59,7 +57,7 @@
 
 <!-- Date -->
 
-  <meta name="date" content="2019-01-25 09:29:07 +1300"" scheme="YYYY-MM-DD">
+  <meta name="date" content="2019-08-14 01:49:39 +0000" scheme="YYYY-MM-DD">
 
 
 <!-- Tags -->
@@ -67,40 +65,28 @@
   <meta name="keywords" content="">
 
 
-  <link rel="canonical" href="https://serviceinnovationlab.github.io//styleguide/for-developers/" />
+  <link rel="canonical" href="/styleguide/for-developers/" />
 
 <!--[if lt IE 9]>
   <script src="/assets/js/vendor/html5shiv.js"></script>
   <script src="/assets/js/vendor/respond.js"></script>
   <script src="/assets/js/vendor/selectivizr-min.js"></script>
 <![endif]-->
-
-<!-- Favicons TO ADD!
-================================================== -->
-
-  <!--  Touch icon for iOS 2.0+ and Android 2.1+
-  <link rel="apple-touch-icon-precomposed" href="/assets/img/favicons/18F-Logo-152.png">
-  -->
-  <!--  Desktop icon
-  <link rel="icon" href="/assets/img/favicons/18F-Logo-152.png" type="image/png">
-  -->
-  <!--  More info: https://github.com/audreyr/favicon-cheat-sheet -->
-
 <!-- CSS
 =================================================== -->
-  <link rel="stylesheet" href="/assets/css/main.css" media="all" />
-  <link rel="stylesheet" href="/assets/css/print.css" media="print" />
-
+  <link rel="stylesheet" href="../../assets/css/main.css" media="all" />
+  <link rel="stylesheet" href="../../assets/css/print.css" media="print" />
+  </head>
   <body class="page-sil-ui-style-guide
    ">
 
-
+    
 
     <div class="main-content styleguide-main-content" id="main-content">
+      
 
 
-
-<section class="background-gray usa-section styleguide-header-wrapper">
+<section class="background-gray nz-section styleguide-header-wrapper">
   <a href="/styleguide/">
     <img class="styleguide-logo" src="/assets/img/SIL-Logo-Animation.gif" alt="SIL logo" />
     <h1 class="h2" id="sil-ui-style-guide">SIL UI style guide</h1>
@@ -112,8 +98,7 @@
 <div class="styleguide-content-wrapper">
 
   <aside class="nav-subnav styleguide-subnav">
-
-
+    
 
 <nav class="nav-accordion nav-mobile-styleguide" role="navigation">
   <button class="sliding-panel-close-styleguide">
@@ -128,100 +113,100 @@
 
   </button>
 
-  <ul class="usa-sidenav-list">
-
+  <ul class="nz-sidenav-list">
+  
     <li>
+    
 
-
-
+    
 
     <a href="/styleguide/" >Overview</a>
-
+    
     </li>
-
+  
     <li>
+    
 
-
-
+    
 
     <a href="/styleguide/layouts/" >Layouts</a>
-
+    
     </li>
-
+  
     <li>
+    
 
-
-
+    
 
     <a href="/styleguide/typography/" >Typography</a>
-
+    
     </li>
-
+  
     <li>
+    
 
-
-
+    
 
     <a href="/styleguide/colors/" >Colors</a>
-
+    
     </li>
-
+  
     <li>
+    
 
-
-
+    
 
     <a href="/styleguide/images/" >Images</a>
-
+    
     </li>
-
+  
     <li>
+    
 
-
-
+    
 
     <a href="/styleguide/components/" >Components</a>
-
+    
     </li>
-
+  
     <li>
+    
 
-
-
+    
 
     <a href="/styleguide/blog-components/" >Blog components</a>
-
+    
     </li>
-
+  
     <li>
+    
 
+    
 
-
-
-    <a href="/styleguide/for-developers/" class="usa-current">For developers</a>
-
-      <ul class="usa-sidenav-sub_list">
-
+    <a href="/styleguide/for-developers/" class="nz-current">For developers</a>
+    
+      <ul class="nz-sidenav-sub_list">
+      
         <li>
-
+          
           <a href="/styleguide/for-developers/#plugin-gems">Plugin gems</a>
         </li>
-
+      
         <li>
-
+          
           <a href="/styleguide/for-developers/#custom-plugins">Custom plugins</a>
         </li>
-
+      
       </ul>
-
+    
     </li>
-
+  
   </ul>
 </nav>
 
   </aside>
 
-  <section class="styleguide-content usa-content">
+  <section class="styleguide-content nz-content">
     <h2>For developers</h2>
     <p><a href="http://serviceinnovationlab.github.io/">The Service Innovation Lab</a> use <a href="https://jekyllrb.com/">Jekyll</a> to build static, maintainable websites.</p>
 
@@ -230,6 +215,7 @@
 <p>Jekyll and Liquid do quite a bit, but sometimes they aren’t enough for a project’s specific needs. When the built-in functionality that Jekyll provides isn’t enough, it is possible to build or borrow <a href="https://jekyllrb.com/docs/plugins">plugins</a> to extend Jekyll.</p>
 
 <hr />
+
 <h3 id="plugin-gems">Plugin gems</h3>
 
 <p>SIL is using several Ruby gems plugins:</p>
@@ -288,6 +274,7 @@
 <hr />
 
 <h3 id="custom-plugins">Custom plugins</h3>
+
 <p>SIL uses many <a href="/_plugins">custom plugins</a> for more specific site needs:</p>
 
 <table>
@@ -342,13 +329,11 @@
 
     </div>
 
-
+    
 
     <script src="/assets/js/jquery.min.js"></script>
-<script src="/assets/js/jquery.ajaxchimp.min.js"></script>
 <script src="/assets/js/waypoints.min.js" type="text/javascript"></script>
 <script src="/assets/js/index.js"></script>
-<script src="/assets/js/lib/uswds.min.js"></script>
 <script src="/assets/js/waypoints.js"></script>
 <script src="/assets/js/jekyll-pages-api-search.js"></script>
 <script src="/assets/js/sticky.js"></script>
@@ -367,28 +352,30 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 
     <script src="/assets/js/search-constants.js"></script>
 <script async src="/assets/js/search-bundle.js"></script>
-    <section class="blog-footer usa-section background-medium">
-  <div class="usa-grid">
-    <div class="usa-width-one-fourth">
-      <img id="govt_logo" src="/assets/img/footer-logo-govt.png" alt="NZ Government logo">
-      <p class="copyright">Crown Copyright 2019</p>
+    
+<!-- depth = 2-->
+<!-- base = ../..-->
+<section class="blog-footer nz-section background-medium">
+  <div class="nz-grid">
+    <div class="nz-width-one-fourth">
+      <img id="govt_logo" src="../../assets/img/footer-logo-govt.png" alt="NZ Government logo">
+      <p class="copyright">Crown Copyright</p>
     </div>
-
-    <div class="usa-width-three-fourths creative-commons">
-        <a href="https://creativecommons.org/licenses/by/4.0/">
-          <img src="/assets/img/cc_icons.png" alt="Creative Commons 4.0 International Licence" width="85" height="40"></a>
-          <span class="licence">Unless indicated otherwise, all content on
-            <span property="http://purl.org/dc/terms/title">Govt.nz</span> is licensed for re-use under a <a href="https://creativecommons.org/licenses/by/4.0/" rel="external" class="external">Creative
-            Commons 4.0 International Licence.<?xml version="1.0" encoding="UTF-8"?>
+    <div class="nz-width-three-fourths creative-commons">
+      <a href="https://creativecommons.org/licenses/by/4.0/">
+      <img src="../../assets/img/cc_icons.png" alt="Creative Commons 4.0 International Licence" width="85" height="40"></a>
+      <span class="licence">Unless indicated otherwise, all content on
+        <span property="http://purl.org/dc/terms/title">Govt.nz</span> is licensed for re-use under a <a href="https://creativecommons.org/licenses/by/4.0/" rel="external" class="external">Creative
+      Commons 4.0 International Licence.<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16" version="1.1" width="16px" height="16px">
-<g id="surface1">
+<g class="surface1">
 <path style=" " d="M 9 2 L 9 3 L 12.292969 3 L 6.023438 9.273438 L 6.726563 9.976563 L 13 3.707031 L 13 7 L 14 7 L 14 2 Z M 4 4 C 2.894531 4 2 4.894531 2 6 L 2 12 C 2 13.105469 2.894531 14 4 14 L 10 14 C 11.105469 14 12 13.105469 12 12 L 12 7 L 11 8 L 11 12 C 11 12.550781 10.550781 13 10 13 L 4 13 C 3.449219 13 3 12.550781 3 12 L 3 6 C 3 5.449219 3.449219 5 4 5 L 8 5 L 9 4 Z "/>
 </g>
 </svg>
 </a></span>
-        </a>
-    </div>
+    </a>
   </div>
+</div>
 </section>
   </body>
 </html>
