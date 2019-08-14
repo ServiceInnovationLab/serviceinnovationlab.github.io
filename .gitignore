@@ -13,3 +13,4 @@ _data/private
 manifest-*.yml
 /coverage
 tmp
+vendor
