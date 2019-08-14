@@ -170,7 +170,7 @@ jobs:
             git push "${REMOTE}" "${RELEASE_BRANCH}"
             git checkout "${PUBLISH_BRANCH}"
             git merge "${RELEASE_BRANCH}"
-            # git "${REMOTE}" "${PUBLISH_BRANCH}"
+            git "${REMOTE}" "${PUBLISH_BRANCH}"
 workflows:
   version: 2
   build_and_deploy:
