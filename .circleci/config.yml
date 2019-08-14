@@ -171,13 +171,14 @@ jobs:
             git push "${REMOTE}" "${RELEASE_BRANCH}"
       - run:
           name: merge into master
+          command: |
             set -euv
             export RELEASE_BRANCH="release-${CIRCLE_BUILD_NUM}"
             git checkout "${PUBLISH_BRANCH}"
             git merge "${RELEASE_BRANCH}"
       - run:
           name: Push to remote (make live)
-          command:
+          command: |
             set -euv
             git "${REMOTE}" "${PUBLISH_BRANCH}"
 workflows:
