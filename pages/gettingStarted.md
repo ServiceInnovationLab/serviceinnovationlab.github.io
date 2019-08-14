@@ -83,14 +83,14 @@ active: true
 
 ## Creating a Pull Request (PR)<a name="PR"></a>
 
-You've added an image/some content. Now you'll need to create a **PR** to let the reviewers know that your image/content is ready for review.
+_You've added an image/some content. Now you'll need to create a **PR** to let the reviewers know that your image/content is ready for review._
 
 - You should see your **commit message** & **description** carried across & appearing in the text fields.
 - _Click on_ ![Reviewers section](/assets/img/screenshot-instructions/reviewers.png) & _select_ `JacOng17` & `gthurstonnz` from the list. **Note:** It is good practice to have at least 2 people to review your PR. Once done,  _click on_ the **Create pull request** (green button).
 - You will then be redirected to the page showing your PR.
 ![Created PR](/assets/img/screenshot-instructions/created-pr.png)
 
-Your Pull Request (PR) should be "sent" to the reviewers that you have chosen to review. Once it's approved you should see your changes on the [Live](https://serviceinnovationlab.github.io) site.
+Your Pull Request (PR) should be "sent" to the reviewers that you have chosen to review (_once it's approved you should see your changes on the [Live](https://serviceinnovationlab.github.io) site_).
 
 If you navigate away from that page & would later like to track your PR's status, _click on_ the **Pull requests** tab & you can find it there.
 
@@ -114,6 +114,13 @@ When Steps **1** & **2** have passed, you should see something similar to this:
 - Checking/following-up on the status of the review;
 - Fixing any changes to be made before approval;
 - And _clicking on_ ![Merge PR button](/assets/img/screenshot-instructions/merge-pr.png) & ensuring that no errors occur (eg. warning message, etc...)
+
+### Checking if your changes have been deployed
+
+- _Navigate to_ the [Toolkit](https://github.com/ServiceInnovationLab/serviceinnovationlab.github.io)'s repository. (_Open_ the link in a new tab/window)
+- _Scroll down_ to the **README.md** section & _look_ for the **CircleCi** badge.
+- If the build **Passed** ![Passed CircleCi build](/assets/img/screenshot-instructions/passed-logo.png), _navigate_ to the [Live](https://serviceinnovationlab.github.io) site (open link in a new tab/window) & _check_ that your content has been published.
+- If the build **Failed** ![Failed CircleCi build](/assets/img/screenshot-instructions/failed-logo.png), _contact_ either `Brenda` or `Jacob`.
 
 If something does "break"/error occurs & you're unsure of how to fix it, _contact_ either `Brenda` or `Jacob` & they should be able to help you out.
 
