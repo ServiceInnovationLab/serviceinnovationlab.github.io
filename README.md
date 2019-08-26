@@ -1,6 +1,6 @@
-# Tool Kit
+# Toolkit
 
-[![Build Status](https://travis-ci.org/ServiceInnovationLab/serviceinnovationlab.github.io.svg?branch=dev)](https://travis-ci.org/ServiceInnovationLab/serviceinnovationlab.github.io)
+[![CircleCI](https://circleci.com/gh/ServiceInnovationLab/serviceinnovationlab.github.io/tree/dev.svg?style=svg)](https://circleci.com/gh/ServiceInnovationLab/serviceinnovationlab.github.io/tree/dev)
 [![Maintainability](https://api.codeclimate.com/v1/badges/05a76407322970819c76/maintainability)](https://codeclimate.com/github/ServiceInnovationLab/serviceinnovationlab.github.io/maintainability)
 [Project Board](https://github.com/orgs/ServiceInnovationLab/projects/2)
 
@@ -41,7 +41,7 @@ You should be able to see the site at: <http://127.0.0.1:4000/>
 ___
 
 - Once done, _scroll to_ the bottom of the page; _enter_ a **Commit message** & a **Description (optional)** for your changes.
-- _Select_ the **Radio Button** corresponding to the text "Create a new branch for this commit and start a pull request.". You should then see a box appear. **Note:** Your branch name should start with `content/` if you are adding some sort of content. _Type in_ a name for the branch which you are creating, then _click on_ the **Propose file change** button.
+- _Select_ the **Radio Button** corresponding to the text "Create a new branch for this commit and start a pull request.". You should then see a box appear. **Note:** Your branch name should start with `content/` if you are adding some sort of content. _Type in_ a name (in lowercase) for the branch which you are creating, then _click on_ the **Propose file change** button. **Example of how it might look like:** `/content/adding-some-content`.
 - You should then be re-directed to another page entitled **Open a pull request** & the name for the branch that you created should appear in the **Title textfield**. _Enter_ a comment in the **textfield** describing what changes you have made. **Note:** It is good practice to have at least 2 people to review your PR.
 - Your Pull Request (PR) should be "sent" to the reviewer(s) that you have chosen to review & once it's approved you should see your changes on the Live site.
 - On the right-hand side, you should _see_ **Reviewers**. _Click on_ the **cog** & _select_ someone from the list that could approve the changes. Once done, _find_ the **Create pull request button** (green button) & _click it_).
@@ -53,8 +53,8 @@ ___
 - _Click on_ the **Pull requests** tab (located near to the top of the page).
 - _Click on_ the PR that you have been selected to review.
 - To _review_ the changes, _click on_ the **Files changed** tab (located under the title of the PR).
-- Once done, _click on_ the green **Add your review** button (within the yellow banner at the top of the page). You should then be re-directed to a page & a "pop-up" box will appear.
-- _Fill in_ your comments for the PR & _select_ the appropriate **Radio button** (ie. **Comment**; **Approve**; or **Request Changes**). **See:** [Dev Peer Review Workflow](https://serviceinnovationlab.github.io/devPeerReviewWorkflow/) _PR Feedback/Reviews_ & _Commit Messages_ sections for help.
+- Once done, _click on_ the **Conversations** tab, then _click on_ the green **Add your review** button (within the yellow banner at the top of the page). You should then be re-directed to a page & a "pop-up" box will appear.
+- _Fill in_ your comments for the PR & _select_ the appropriate **Radio button** (ie. **Comment**; **Approve**; or **Request Changes**) depending on what actions you see fit. **See:** [Dev Peer Review Workflow](https://serviceinnovationlab.github.io/devPeerReviewWorkflow/) _PR Feedback/Reviews_ & _Commit Messages_ sections for help.
 - Once done, _click on_ the green **Submit review** button. And that's it, you have made your review!
 
 ___
@@ -99,19 +99,17 @@ agency: SIL
 title: New Project
 subtitle: Creating a new project.
 permalink: /projects/new-project/
-redirect_from:
 excerpt: Information for creating a new project.
 image: /assets/img/projects/new-project.png
-image_accessibility: New project skeleton.
-image_icon:
+image_accessibility: New project.
 expiration_date: YYYY-MM-DD
-media:
 redirect_to: https://www.serviceinnovationlab.github.io/
 project_url: "[New Project](https://www.serviceinnovationlab.github.io/projects/new-project/)"
-resources:
-quote:
 external_url: https://github.com/ServiceInnovationLab/
 external_link_title: Github
+media:
+resources:
+quote:
 ---
 ```
 
@@ -137,3 +135,13 @@ We must meet the [New Zealand Government - Web Accessibility Standard 1.1](https
 We used automated testing to detect some in-accessible content. These tests are gatekeepers. When the content added doesn't comply, the PR will have a failed test. Receiving automated messages that your work didn't pass can be frustrating at first, but compliance is necessary and becomes easier with practice.
 
 The tests will not catch every accessibility problem.  We still should spend time checking the toolkit, and generally keeping proficient accessibility standards.
+
+## Git Branches
+
+Jekyll config (including markdown, and layout html) are in the `dev` branch, which is also the default branch on github.
+
+The resulting static site is built by circle-ci. The deploy task runs on any change to the dev branch. (see `.circleci/config.yml`).
+
+The static site content (html, css, js, images) is then committed to the master branch. Github Pages is configured for this repo to serve from the master branch.
+
+Note: Github Pages for organisations must be served from the `master` branch. At this time the branch name is not configurable.

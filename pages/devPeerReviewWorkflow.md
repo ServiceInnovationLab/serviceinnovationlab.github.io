@@ -28,11 +28,15 @@ If there is an associated Trello story, or GitHub issue, provide some details an
 
 ## PR Feedback / Reviews
 
+[Commenting on a pull request](https://help.github.com/en/articles/commenting-on-a-pull-request) (_opens a link to GitHub_)
+
 As a team, we attempt to give at least one comment/feedback on each PR. This normalises asking questions. It should be unusual for a PR to have zero feedback. Feedback should be something that could be better. "I love this" isn't enough.
 
 Feedback is given in a form of "Have you considered…" or otherwise doesn’t assume the author didn’t already attempt your alternative approach. "Do it this other way" is not feedback.
 
 Comments can be "blocking" meaning the author wants a response to their feedback, or they can be a suggestion only, leaving the decision to the PR author. Indicate this using emoji. Elephant `:elephant` = suggestion only.
+
+[Adding line comments to a pull request](https://help.github.com/en/articles/commenting-on-a-pull-request#adding-line-comments-to-a-pull-request) (_opens a link to GitHub_)
 
 As a reviewer, you can approve a PR using the "Approve" option on Github. Request changes to a PR using the "Request changes" option.
 
