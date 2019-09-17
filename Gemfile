@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.6.3'
 
 gem 'accesslint-ci', '0.3.6'
-gem 'html-proofer', '~> 3.12.0'
+gem 'html-proofer', '~> 3.12.2'
 gem 'jekyll', '>= 3.6.3'
 gem 'jekyll-watch', '~>2.2.0'
 gem 'jemoji'
