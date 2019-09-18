@@ -75,4 +75,4 @@ The team recognised that it was unrealistic to complete this blueprint for all e
 
 #### **NOTE**
 
-The full report about this discovery is available as a PDF however we are currently an accessable version of this for future release. As always we would like to know your thoughts and comments about the Better Rules work so please make contact with us.
+The full report about this discovery is [available as a PDF](/assets/Exploring_Machine_Consumable_Code_With_ACC.pdf); however we are currently working on an accessible version of this for future release. As always we would like to know your thoughts and comments about the Better Rules work so please [make contact with us](/contact).
