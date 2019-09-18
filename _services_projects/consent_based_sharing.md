@@ -11,7 +11,7 @@ project_weight: 10
 tag: Sharing
 expiration_date:
 github_repo:
-    - "[](https://github.com/ServiceInnovationLab/feijoa)"
+    - "[Feijoa (consent-based data sharing prototype)](https://github.com/ServiceInnovationLab/feijoa)"
 project_url: "[Feijoa staging](https://feijoa-staging.herokuapp.com/)"
 quote:
 media:
