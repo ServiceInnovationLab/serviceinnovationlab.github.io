@@ -15,5 +15,5 @@ github_repo:
 project_url: "[Feijoa staging](https://feijoa-staging.herokuapp.com/)"
 quote:
 media:
-report: "[Feijoa](/2019/09/01/Feijoa/)"
+report:
 ---
