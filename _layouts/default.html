@@ -2,22 +2,19 @@
 <!--[if lt IE 9]><html class="lt-ie9"><![endif]-->
 <!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
   <head>
+    <title>Service Innovation Lab</title>
     {% include head.html %}
   </head>
   <body class="{% if page.type == "tag"%}tag-{% endif %}page-{{ page.title | slugify }}
   {% if page.header_border == true or layout.header_border == true %}header_border{% endif %} {% if page.path contains '_posts' %}single-post{% endif %}">
 
-    {% unless layout.title == 'SIL UI Styleguide' %}
-      {% include header.html %}
-    {% endunless %}
+    {% include header.html %}
 
-    <div class="main-content {% if layout.title == 'SIL UI Styleguide' %}styleguide-main-content{% endif %}" id="main-content">
+    <div class="main-content" id="main-content">
       {{ content }}
     </div>
 
-    {% unless layout.title == 'SIL UI Styleguide' %}
-      {% include navigation.html drawer=true %}
-    {% endunless %}
+    {% include navigation.html drawer=true %}
 
     {% include javascript.html %}
     {% jekyll_pages_api_search_load %}
