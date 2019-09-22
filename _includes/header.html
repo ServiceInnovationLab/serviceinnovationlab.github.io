@@ -1,18 +1,18 @@
 {% include base.html %}
 <a class="skipnav" href="#main-content">Skip to main content</a>
 <header role="banner">
-  <div class="site-navbar nz-grid" role="banner">
+  <div class="site-navbar nz-grid" role="navigation">
     <button class="menu-btn">Menu</button>
     <a class="site-logo media_link" href="{{ base }}/">
       <img src="{{ base }}/assets/img/SIL-Logo-Animation.gif" alt="SIL logo" style = "height: 55px; width: 217px;"
       {% if page.url == '/' %}
         aria-hidden="true"
       {% endif %}
-    ></a><span class="beta" role="banner">Beta</span>
+    ></a><span class="beta" role="navigation">Beta</span>
       {% if page.url == '/' %}
         <h1 class="nz-sr-only">Service Innovation Lab</h1>
       {% else %}
-        <span class="nz-sr-only" role="banner">Service Innovation Lab</span>
+        <span class="nz-sr-only" role="navigation">Service Innovation Lab</span>
       {% endif %}
     <nav role="navigation">
       {% include navigation.html navbar=true %}

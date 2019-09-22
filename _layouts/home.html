@@ -15,26 +15,26 @@
   <body class="{% if page.type == "tag"%}tag-{% endif %}page-{{ page.title | slugify }}
   {% if page.header_border == true or layout.header_border == true %}header_border{% endif %} {% if page.path contains '_posts' %}single-post{% endif %}">
     <a class="skipnav" href="#main-content">Skip to main content</a>
-    <header role="banner"> <!--#425eb2-->
-      <div class="site-navbar nz-grid" role="banner">
-          <button class="menu-btn">Menu</button>
-          <a class="site-logo media_link" href="{{ base }}/">
-            <img src="{{ base }}/assets/img/SIL-Logo-Animation.gif" alt="SIL logo" style="height: 55px; width:217px";
-              {% if page.url == '/' %}
-                aria-hidden="true"
-              {% endif %}
-            ></a>
-          <span class="beta" role="banner">Beta</span>
+    <header role="navigation"> <!--#425eb2-->
+      <div class="site-navbar nz-grid" role="navigation">
+        <button class="menu-btn">Menu</button>
+        <a class="site-logo media_link" href="{{ base }}/">
+          <img src="{{ base }}/assets/img/SIL-Logo-Animation.gif" alt="SIL logo" style="height: 55px; width:217px";
             {% if page.url == '/' %}
-              <h1 class="nz-sr-only">SIL</h1>
-            {% else %}
-              <span class="nz-sr-only" role="banner">SIL</span>
+              aria-hidden="true"
             {% endif %}
-          <nav role="navigation">
-            {% include navigation.html navbar=true %}
-          </nav>
-        </div>
-      </header>
+          ></a>
+        <span class="beta" role="navigation">Beta</span>
+          {% if page.url == '/' %}
+            <h1 class="nz-sr-only">SIL</h1>
+          {% else %}
+            <span class="nz-sr-only" role="navigation">SIL</span>
+          {% endif %}
+        <nav role="navigation">
+          {% include navigation.html navbar=true %}
+        </nav>
+      </div>
+    </header>
 
     <div class="background-image-homepage" role="img" aria-label="background-image-homepage" id="main-content">
       {{ content }}
