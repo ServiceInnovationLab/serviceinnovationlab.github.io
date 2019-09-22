@@ -96,8 +96,6 @@ frontmatter_tests:
 footer:
   image: /assets/media/AoG_logo_footer.png
   email:
-  twitter:
-    - SIL
   text: This site was built using .  # Change to a tag line for your agency
 
 # Build settings
