@@ -19,7 +19,7 @@
       <button class="nz-accordion-button" aria-controls="{{ include.title | slugify }}">
         {{ include.text | default: 'Code' }}
       </button>
-      <div id="{{ include.title | slugify }}" class="nz-accordion-content styleguide-border">
+      <div id="{{ include.title | slugify }}" class="nz-accordion-content styleguide-border" role="listitem" aria-label="accordion">
         {{ code | markdownify }}
       </div>
     </li>
@@ -30,7 +30,7 @@
         aria-expanded="true" aria-controls="{{ include.title | slugify | append: '-details' }}">
         Documentation
       </button>
-      <div id="{{ include.title | slugify  | append: '-details' }}" class="nz-accordion-content styleguide-border">
+      <div id="{{ include.title | slugify  | append: '-details' }}" class="nz-accordion-content styleguide-border" role="listitem" aria-label="accordion">
         {% if include.description %}
           <p>{{ include.description | markdownify }}</p>
         {% endif %}
