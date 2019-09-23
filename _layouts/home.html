@@ -21,11 +21,11 @@
               aria-hidden="true"
             {% endif %}
           ></a>
-        <span class="beta">Beta</span>
+        <span class="beta" role="navigation">Beta</span>
           {% if page.url == '/' %}
             <h1 class="nz-sr-only">SIL</h1>
           {% else %}
-            <span class="nz-sr-only">SIL</span>
+            <span class="nz-sr-only" role="navigation">SIL</span>
           {% endif %}
         <nav role="navigation">
           {% include navigation.html navbar=true %}
@@ -33,7 +33,7 @@
       </div>
     </header>
 
-    <div class="background-image-homepage" id="main-content">
+    <div class="background-image-homepage"  role="img" aria-label="background-image-homepage" id="main-content">
       {{ content }}
     </div>
 
