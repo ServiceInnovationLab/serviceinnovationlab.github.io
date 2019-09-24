@@ -96,7 +96,7 @@ We facilitate workshops, partnerships and hands on training to grow your capabil
     <ul class="graphic-list">
       <ol>
         <div class="graphic-list-img">
-          <img src="{{ site.baseurl }}/assets/img/expertise/innovation.png" alt="Lightbulb">
+          <img src="{{ site.baseurl }}/assets/img/expertise/innovation.png" alt="Lightbulb icon">
         </div>
         <!-- <span>4-6 person team</span> -->
       </ol>
