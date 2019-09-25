@@ -52,7 +52,7 @@ Based on these insights two key issues stood out that are occurring before peopl
 
 We identified segments of people that are struggling to acquire a rental property. This could be for a variety of reasons but we think would be an ideal cohort to work with as there is a good opportunity to achieve collective impact by applying a cross agency approach with these groups.
 
-## What informed these outcomes?
+## What informed these outcomes
 
 - Defining and mapping the 31 unique tenancy relationships
 - Barriers to good relationships definitions and mapping
