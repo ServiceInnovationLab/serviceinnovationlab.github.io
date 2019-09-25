@@ -63,6 +63,7 @@ We identified segments of people that are struggling to acquire a rental propert
 - Māori concept of [Kāinga](https://www.digital.govt.nz/blog/kainga-and-renting-a-property/)
 
 ## What's next
+
 The report that covers both phases of the discovery will be posted on our toolkit soon. MBIE is investigating how evidence collected during this discovery can be used to inform existing and future tenancy related services.
 Again, thank you to all who participated, especially those who were interviewed, came into the lab to help us on our journey, or took the time to give feedback on what we found and our ideas for the future.
 If you'd like to stay across any of the work coming out of the Lab, please join our [mailing list](https://confirmsubscription.com/h/j/7AA94B673345A7D5) .
