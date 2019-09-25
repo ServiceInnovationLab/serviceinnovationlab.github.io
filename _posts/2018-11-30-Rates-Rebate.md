@@ -254,7 +254,7 @@ We looked into how data was being submitted by ratepayers in their paper applica
 
 ### Making it easy
 
-<img src="/assets/media/Rates-Rebates/RR9.png" width="425px" alt="photo of ipad device with rates rebate software running">
+<img src="/assets/media/Rates-Rebates/RR9.png" width="425px" alt="ipad device running the rates rebate application">
 
 To make it easy we built a web application (web app) for the ratepayer applicants to use as the basis of the alpha. Applicants can learn if they were eligible for a Rates Rebate in the current year by entering their address. We created a widget where the applicant only types their address, which is auto-completed for them, and their Rates appear - it uses publicly available data which we obtained in collaboration with the Tauranga City Council. Once the applicant enters their income and number of dependants, they get an indication of their Rates Rebate. If they provide accurate information, they will get an accurate calculation - it’s all in one place,  the user interface design guides people through the process giving them the information needed to help them make a decision whether its worthwhile for them to apply or not.
 
