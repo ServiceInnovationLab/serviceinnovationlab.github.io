@@ -29,7 +29,7 @@ permalink: /team/
               <div class="card-banner">
                   <div class="team-list-img" role="group">
                     {% if teamMember.image != nil %}
-                      <img src="{{ teamMember.image }}" alt="Photo of {{ teamMember.full_name }}">
+                      <img src="{{ teamMember.image }}" alt="Team member named {{ teamMember.full_name }}">
                     {% endif %}
                   </div>
                 <h3 class="member-tag"><b><a href="/author/{{ teamMember.name }}">{{ teamMember.full_name }}</a></b></h3>
