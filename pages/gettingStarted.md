@@ -113,6 +113,10 @@ When Steps **1** & **2** have passed, you should see something similar to this:
 
 - Checking/following-up on the status of the review;
 - Fixing any changes to be made before approval;
+
+**Note:** If you have any changes that you need to fix, you'll need to *Re-request* a review from the reviewers (by _clicking on_ the icon highlighted in the **red square** below) after you have made the changes requested.
+
+![re-request review](/assets/img/screenshot-instructions/re-request-review.png)
 - And _clicking on_ ![Merge PR button](/assets/img/screenshot-instructions/merge-pr.png) & ensuring that no errors occur (eg. warning message, etc...)
 
 ### Checking if your changes have been deployed
