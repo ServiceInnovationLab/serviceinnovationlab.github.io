@@ -56,7 +56,7 @@ Parental Leave and Employment Protection Act 1987
 
 ### Citizenship by Grant
 
-A complex formula from within the Citizenship Act, used to calculate if an applicant has been in the country enough days to satisfy a clause. This was encoded into OpenFisca, along with some related sections of Immigration Act.
+A complex formula from within the Citizenship Act, used to calculate if an applicant has been in the country enough days to satisfy a clause. This was encoded into a rules engine called OpenFisca, along with some related sections of Immigration Act.
 
 ### Accident Compensation
 
