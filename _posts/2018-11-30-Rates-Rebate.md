@@ -5,7 +5,7 @@ authors:
 - glen-thurston
 - siobhan-mccarthy
 tags:
-- rates rebates
+- rates rebate
 excerpt: ""
 ---
 ![RR logo](/assets/media/Rates-Rebates/RR1.png)
