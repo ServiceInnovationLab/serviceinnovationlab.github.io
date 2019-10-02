@@ -7,9 +7,6 @@ tags:
 - better rules
 excerpt: ""
 ---
-
-## **Report summary of the ACC Better Rules Collaboration**
-
 [Exploring Machine Consumable Code - ACC](/assets/Exploring_Machine_Consumable_Code_With_ACC.pdf)
 
 ### **Introduction**
