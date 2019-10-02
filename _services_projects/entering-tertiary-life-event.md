@@ -1,5 +1,5 @@
 ---
-agency: TEC
+agency: Tertiary Education Commission
 title: Entering Tertiary Life Event
 subtitle: Understanding the many paths into tertiary education and the needs of prospective students to better navigate them.
 permalink: /projects/entering-tertiary-life-event/
