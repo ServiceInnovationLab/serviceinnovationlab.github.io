@@ -62,7 +62,9 @@ A complex formula from within the Citizenship Act, used to calculate if an appli
 
 With ACC and MBIE we explored the entitlement clauses in the Accident Compensation Act to see where descretion is applied, then looked to see how these could be encoded. The sections related to Loss of Potential Earnings, and Rehabilitation were encoded into Open Fisca.
 
-## Conference talk at Pycon 2019 in Sydney Australia
+## Media
+
+### Conference talk at Pycon 2019 in Sydney Australia
 
 Brenda Wallace describes Legislation as code.
 
