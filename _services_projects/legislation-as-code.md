@@ -60,7 +60,7 @@ A complex formula from within the Citizenship Act, used to calculate if an appli
 
 ### Accident Compensation
 
-Experiment understanding clauses of the Accident Compensation Act, where descretion is applied, and if these can be encoded. The sections related to Loss of Potential Earnings, and Rehabilitation were encoded into Open Fisca.
+With ACC and MBIE we explored the entitlement clauses in the Accident Compensation Act to see where descretion is applied, then looked to see how these could be encoded. The sections related to Loss of Potential Earnings, and Rehabilitation were encoded into Open Fisca.
 
 ## Conference talk at Pycon 2019 in Sydney Australia
 
