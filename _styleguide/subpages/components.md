@@ -39,12 +39,6 @@ subnav_items:
 <a class="nz-button nz-button-secondary" href="{{ dead_end_link }}">Normal</a>
 {% endcapture %}
 
-{% include details-code.html
-   title='buttons styles'
-   description='Our button styles are.'
-   content=styleguide_buttons
-%}
-
 ---
 
 ### Breadcrumbs
@@ -86,13 +80,6 @@ The breadcrumb is included automatically on `project-tag-results` layout.
 For more on includes, check out the [Jekyll documentation](https://jekyllrb.com/docs/includes/).
 {% endcapture %}
 
-{% include details-code.html
-   title='breadcrumb'
-   lang='markdown'
-   description=breadcrumb_description
-   content=styleguide_breadcrumb
-%}
-
 ---
 
 ### Project cards
@@ -120,11 +107,6 @@ Each project card has a number of properties. The only required properties are:
 * `link`: the project `permalink`. This is where clicking on the card will take you
 * `columns`: How many columns the cards should occupy. The only valid options are `2` and `3`. If nothing is specified, the cards will default to `3` columns
 {% endcapture %}
-{% include details-code.html
-   title='cards'
-   description=card_description
-   content=styleguide_card
-%}
 
 ---
 
@@ -184,13 +166,6 @@ To add items to the subnavigation define the subnavigation items directly within
 
 {% endcapture %}
 
-{% include details-code.html
-   title='sticky'
-   content=sticky_codeblock
-   lang="html"
-   description=sticky_description
-%}
-
 ---
 
 ### Testimonials and fun facts
@@ -218,10 +193,3 @@ Testimonials and fun facts are used throughout the site to highlight the impact 
 * For a fun fact: Add the class `funfact-blockquote` to the element (ex. `div`) that holds the information. This has similar styling to a testimonial but adjusted for just text.
 
 {% endcapture %}
-
-{% include details-code.html
-   title='testimonial'
-   content=testimonial_codeblock
-   lang="html"
-   description=testimonial_description
-%}

@@ -30,6 +30,6 @@ gridless: true
     <h3>Let’s work together to improve the user experience of government.</h3>
     <p>To find out more information about our work you can contact us at ServiceInnovationLab@dia.govt.nz.</p>
     <a class="btn btn-secondary" role="button" href="mailto:ServiceInnovationLab@dia.govt.nz?">Email Us</a> <!--subject=Partnering with The Service Innovation Lab-->
-    <img src="/assets/img/191ThorndonQuay.png" alt="Image of the entrance to the SIL building">
+    <img src="/assets/img/191ThorndonQuay.png" alt="Entrance to 191 Thorndon Quay">
   </div>
 </div>

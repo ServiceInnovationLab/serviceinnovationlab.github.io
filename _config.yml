@@ -1,7 +1,12 @@
 ---
 # Site settings
 title: "Service Innovation Lab"
-description: "The Service Innovation Lab is a cross agency collaborative."
+description: >
+  The Service Innovation Lab is an All-of-Government lab in Aotearoa New Zealand,
+  hosting and enabling collaboration across agencies.
+  We research, design, and develop ways to
+  improve people’s experiences
+  when they interact with government.
 baseurl: ""  # the subpath of your site, e.g. /blog
 permalink: pretty
 url: "https://serviceinnovationlab.github.io/"  # the base hostname & protocol for your sites
@@ -96,8 +101,6 @@ frontmatter_tests:
 footer:
   image: /assets/media/AoG_logo_footer.png
   email:
-  twitter:
-    - SIL
   text: This site was built using .  # Change to a tag line for your agency
 
 # Build settings
