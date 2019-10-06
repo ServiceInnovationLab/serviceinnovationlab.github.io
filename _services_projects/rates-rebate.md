@@ -16,5 +16,5 @@ github_repo:
 project_url: "[Rates Rebate]()"
 quote:
 media:
-report: "[Rates Rebate](/2018/11/30/Rates-Rebate/)"
+report: "[Rates Rebate - The story from discovery to alpha](/2018/11/30/Rates-Rebate/)"
 ---
