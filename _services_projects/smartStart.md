@@ -17,4 +17,4 @@ project_url: "[SmartStart](https://smartstart.services.govt.nz/)"
 quote:
 media:
 ---
-Smart Start ...
+The Lab helped the [SmartStart](https://smartstart.services.govt.nz/) team with the incorporation of new features such as 'Services Near Me' and 'Financial Help'
