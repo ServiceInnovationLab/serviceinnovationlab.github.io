@@ -27,7 +27,7 @@ During the prediscovery exercise we focused on the needs of the consumer and the
 We focused on four areas specific to the needs of someone wanting to enter tertiary education. We looked at what might add value for both students and their supporters and influencers. We have an opportunity to learn from and design for what are typical changes during our lives.
 
 1. “What do I need to know and understand to help me make the best choice for now and for my future?”
-Students and their supporters (family, peers, teachers etc) need to plan and decide their pathway into tertiary education. Not only what suits their present life but also their future aspirations. Information relevant to the students’ life, aspirations, personalities, and how different study options effect life outcomes will aid this process.
+Students and their supporters (family, peers, teachers etc) need to plan and decide their pathway into tertiary education. Not only what suits their present life but also their future aspirations. Information relevant to the students’ life, aspirations, personalities, and how different study options affect life outcomes will aid this process.
 
 2. “What and when do I need to share information about myself, and what I want to do, with others?”
 Students need to provide the right information, from the right place at the right time. To increase efficiency and lessen unnecessary effort we can remove duplicate requests for existing information. Providing timely and actionable information about key choices and events will also help create certainty for students and their supporters so they don’t miss opportunities.
