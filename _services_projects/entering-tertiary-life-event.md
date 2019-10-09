@@ -16,7 +16,7 @@ media:
 ---
 To better understand the tertiary education landscape, the Tertiary Education Commission (TEC) and the Lab completed a research discovery to identify two things: what people found challenging, and what opportunities lay in the experience of entering or re-entering the tertiary education system.
 
-The tertiary education system assumes that learning is a linear path when in fact change and interruption is natural and will occur particularly for the youngest demographic. Together with TEC we found a number of challenges people face who want to enter tertiary education. These include the quality and relevance of the information, the process they follow, and where they are in their life.   
+The tertiary education system assumes that learning is a linear path when in fact change and interruption are natural and will occur, especially for the youngest students. Together with TEC, we found several challenges people face who when entering tertiary education These include the quality and relevance of the information, the process they follow, and where they are in their life.
 
 The final output of the discovery was a [research report](https://www.tec.govt.nz/assets/Publications-and-others/67c259b154/Transition-to-Tertiary-Life-Event-Final.pdf) and it recommends a number of opportunities for the education sector to explore further. 
 
