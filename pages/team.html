@@ -8,7 +8,7 @@ permalink: /team/
   <div class="nz-grid">
     <div class="nz-width-two-thirds">
       <h2> Team Members</h2>
-      <p><a href="{{site.baseurl}}/gettingStarted/"><b>Getting Started</a></b></p>
+      <p><a href="{{site.baseurl}}/gettingStarted/"><strong>Getting Started</a></strong></p>
     </div>
   </div>
   <div class="nz-grid">
@@ -32,16 +32,49 @@ permalink: /team/
                       <img src="{{ teamMember.image }}" alt="Team member named {{ teamMember.full_name }}">
                     {% endif %}
                   </div>
-                <h3 class="member-tag"><b><a href="/author/{{ teamMember.name }}">{{ teamMember.full_name }}</a></b></h3>
+                <h3 class="member-tag">{{ teamMember.full_name }}</h3>
                 {% if teamMember.role != nil %}
-                  <p class="member-description"><b>Role:</b> {{ teamMember.role }}</p>
+                  <p class="member-description"> My role is <strong>{{ teamMember.role }}.</strong> </p>
                 {% endif %}
+                {% if teamMember.thinking != nil %}
+                  <p> 🤔 I am thinking about: <strong>{{ teamMember.thinking }}</strong> </p>
+                {% endif %}
+                {% if teamMember.doing != nil %}
+                  <p> Things I know & do: <strong>{{ teamMember.doing }}</strong> </p>
+                {% endif %}
+                {% if teamMember.github != nil %}
+                  <small><a href="https://github.com/{{ teamMember.github }}">👤github</a></small>
+                {% endif %}
+                </p>
               </div>
             </div>
           </article>
           {% endif %}
         {% endfor %}
       </div>
+    </section>
+
+    <section>
+      <h2>Alumni</h2>
+      {% for teamMember in site.authors %}
+        {% if teamMember.active !=  true %}
+          <article class="card {{ wds_grid_class }} nz-width-tablet">
+            <div class="card-link" data-href="{{ card_link }}" tabindex="0">
+              <div class="card-banner">
+                  <div class="team-list-img" role="group">
+                    {% if teamMember.image != nil %}
+                      <img src="{{ teamMember.image }}" alt="Team member named {{ teamMember.full_name }}">
+                    {% endif %}
+                  </div>
+                <h3 class="member-tag">{{ teamMember.full_name }}</h3>
+                {% if teamMember.github != nil %}
+                  <small><a href="https://github.com/{{ teamMember.github }}">👤github</a></small>
+                {% endif %}
+              </div>
+            </div>
+          </article>
+        {% endif %}
+      {% endfor %}
     </section>
   </div>
 </section>
