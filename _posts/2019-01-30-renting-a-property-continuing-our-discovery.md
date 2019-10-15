@@ -50,7 +50,7 @@ Based on these insights two key issues stood out that are occurring before peopl
 - Securing a property to rent
 - Forming a tenancy agreement.
 
-We identified segments of people that are struggling to acquire a rental property. This could be for a variety of reasons but we think would be an ideal cohort to work with as there is a good opportunity to achieve collective impact by applying a cross agency approach with these groups.
+We identified segments of people that are struggling to acquire a rental property. This could be for a variety of reasons, but we think it would be an ideal cohort to work with as there is an excellent opportunity to achieve collective impact by applying a cross-agency approach with these groups.
 
 ## What informed these outcomes
 
