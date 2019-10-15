@@ -64,7 +64,7 @@ We identified segments of people that are struggling to acquire a rental propert
 
 ## What was the research used for? 
 
-MBIE Tenancy Services have used this work for: 
+MBIE Tenancy Services have used this work for:
 - Design and development of a possible Tenancy Agreement Builder – direct outcome/concept from the discovery, supported by the evidence gathered.
 - Tenancy Bond Strategy – informing further research into the strategic role and direction of Tenancy Bond
 - Healthy Homes Standards campaign strategy – feeding into research for the strategic direction of public engagement with the Healthy Homes Standards
