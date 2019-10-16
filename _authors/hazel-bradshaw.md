@@ -3,7 +3,7 @@ name: hazel-bradshaw
 first_name: Hazel
 last_name: Bradshaw
 full_name: Hazel Bradshaw
-role: Principal Advisor Emerging Technologies
+role: Emerging Technologies Lead
 image: "/assets/img/team/hazel.jpg"
 active: true
 github: Driedfrog
