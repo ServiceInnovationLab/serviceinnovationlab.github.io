@@ -73,8 +73,8 @@ In 2013 the Digital Service Council (DSC), comprising eight agencies, was establ
 
 November 2015 a Service Innovation Reference Group (SIRG) was established to provide support to SIWG by detailing of the work programme and initiatives.
 
-February 2016 The Service Innovation Lab (the Lab) was founded with support from the Service Innovation Work Programme Team from Internal Affairs, Assurity Consulting Ltd and direction from the SIRG. Secretariat and management overview is provided by Internal Affairs, which is the Government’s functional lead agency for digital development. Internal Affairs’ chief Executive is the Government Chief Digital Officer and the agency is one of several belonging to the Government Digital Partnership group.
+February 2016 The Service Innovation Lab (the Lab) was founded with support from the Service Innovation Work Programme Team from Internal Affairs, Assurity Consulting Ltd and direction from the SIRG. Secretariat and management overview is provided by Internal Affairs, which is the Government’s functional lead agency for digital development. Internal Affairs’ chief Executive is the Government Chief Digital Officer (GCDO) and the agency is one of several belonging to the Government Digital Partnership group.
 
-Today the lab is working with multiple agencies on delivering the work programme and commitments to initiatives such as the Digital Nations with funding till June 2020.
+Today the lab is working with multiple agencies on delivering initatives associated with the Service Innovation work programme and GCDO work programme.
 
 -----
