@@ -8,4 +8,5 @@ image: "/assets/img/team/jacob-square.jpg"
 active: true
 thinking: Personal growth
 doing: Gym, soccer, computers
+github: JacOng17
 ---
