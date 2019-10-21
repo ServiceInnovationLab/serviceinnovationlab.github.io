@@ -12,7 +12,7 @@ excerpt: "Phase two of the discovery took place over four weeks in July and Augu
 
 In July and August 2018, a small team from the [Ministry of Business, Innovation and Employment (MBIE)](https://www.mbie.govt.nz/business-and-employment/business/support-for-business/better-for-business/about-better-for-business/), [Ministry of Social Development  (MSD)](http://msd.govt.nz/) and the Service Innovation Lab from the [Department of Internal Affairs  (DIA)](https://www.dia.govt.nz/), continued our discovery into [Renting a Property](https://www.digital.govt.nz/blog/renting-a-property-understanding-how-better-relationships-support-better-rentals/).
 
-Phase two of the discovery took place over four weeks and like the first one the core team were supported by a number of subject matter experts (SME) across government agencies. The team did a detailed analysis of the findings from the first discovery as well as getting new information from SMEs to validate the problems and next steps.
+Phase two of the discovery took place over four weeks. The core team received support from subject matter experts (SME) across government agencies. The team did a detailed analysis of the findings from the first discovery and collected new information from SMEs to validate the problems and next steps.
 
 ## Validation
 
