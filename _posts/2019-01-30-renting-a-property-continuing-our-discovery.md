@@ -22,7 +22,7 @@ In order to be able to enter the design phase where we can design, build, test a
 - Who is it a problem for?
 - When is it happening?
 
-Without knowing these there could be a missed opportunity to meet the right set of needs. There is an increased risk of failure to create impact without the who, what and when being evidenced prior to ideation of concepts.
+We would likely fail to have any impact unless we identify the "who, what and when" before we start.
 
 Through the research in phase one it was clear there were complex relationship dynamics associated with renting. Not only were they person to person they were also between people and property. In order to better understand the impact of relationships it was crucial to define how each one worked and what good looked like. A good relationship can include the following:
 
