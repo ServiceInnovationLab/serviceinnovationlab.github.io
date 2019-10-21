@@ -28,10 +28,14 @@ permalink: /team/
             <div class="card-link" data-href="{{ card_link }}" tabindex="0">
               <div class="card-banner">
                   <div class="team-list-img" role="group">
-                    <img src="{{ teamMember.image }}" alt="Photo of {{ teamMember.full_name }}">
+                    {% if teamMember.image != nil %}
+                      <img src="{{ teamMember.image }}" alt="Team member named {{ teamMember.full_name }}">
+                    {% endif %}
                   </div>
                 <h3 class="member-tag"><b><a href="/author/{{ teamMember.name }}">{{ teamMember.full_name }}</a></b></h3>
-                <p class="member-description"><b>Role:</b> {{ teamMember.role }}</p>
+                {% if teamMember.role != nil %}
+                  <p class="member-description"><b>Role:</b> {{ teamMember.role }}</p>
+                {% endif %}
               </div>
             </div>
           </article>

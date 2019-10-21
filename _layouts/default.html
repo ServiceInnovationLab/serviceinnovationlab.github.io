@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<!--[if lt IE 9]><html class="lt-ie9"><![endif]-->
+<!--[if lt IE 9]><html class="lt-ie9" lang="en"><![endif]-->
 <!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
   <head>
+      <title>Service Innovation Lab</title>
     {% include head.html %}
   </head>
   <body class="{% if page.type == "tag"%}tag-{% endif %}page-{{ page.title | slugify }}
@@ -11,13 +12,11 @@
       {% include header.html %}
     {% endunless %}
 
-    <div class="main-content {% if layout.title == 'SIL UI Styleguide' %}styleguide-main-content{% endif %}" id="main-content">
+    <div class="main-content" id="main-content" role="main">
       {{ content }}
     </div>
 
-    {% unless layout.title == 'SIL UI Styleguide' %}
-      {% include navigation.html drawer=true %}
-    {% endunless %}
+    {% include navigation.html drawer=true %}
 
     {% include javascript.html %}
     {% jekyll_pages_api_search_load %}

@@ -65,7 +65,11 @@ header_border: true
         {% if page.report %}
         <li class="section-info-list-item">
           <div class="section-info-header">Reports</div>
-          <div>{{ page.report | markdownify }}</div>
+            <ul class="{% unless page.report.size > 1 %}nz-unstyled-list{% endunless %}">
+              {% for report in page.report %}
+                <li>{{ report | markdownify }}</a></li>
+              {% endfor %}
+              </ul>
         </li>
         {% endif %}
 
