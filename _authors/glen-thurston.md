@@ -8,6 +8,6 @@ image: "/assets/img/team/glen-square.jpg"
 active: true
 github: gthurstonnz
 published: true
-thinking: Developing out team for this year.
+thinking: Developing our team for this year.
 doing: Responsible for the design team plus the process we use here.
 ---
