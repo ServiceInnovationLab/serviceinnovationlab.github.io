@@ -45,7 +45,7 @@ Through the analysis and validation we identified these key insights:
 2. There is an opportunity to be pre-emptive as it is the time before a tenancy starts in which the relationship between landlords and tenant is most critical. The events of this time have a long term impact throughout renting life journey.
 3. There is strong evidence that removing known barriers at the beginning of the renting relationship can reduce the likelihood of issues and conflict arising during a tenancy and increases a quick resolution.  
 
-Based on these insights two key issues stood out that are occurring before people start renting a property.
+Based on these insights, two key issues stand out. Both these issues occur before people start renting a property.
 
 - Securing a property to rent
 - Forming a tenancy agreement.
