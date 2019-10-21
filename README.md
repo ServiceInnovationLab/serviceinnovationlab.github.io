@@ -27,11 +27,11 @@ You should be able to see the site at: <http://127.0.0.1:4000/>
 
 ### Adding content
 
-1. **To Add Media:** Ensure that you are on the **dev** branch, then _navigate to_ **assets/media**.
+1. **To Add Media:** Ensure that you are on the **dev** branch, then _navigate to_ **assets/media** (**OR** if its a **Blog** post, _navigate to_ **assets/media/img/report-images**  ).
 
-- _Click on_ the **Upload files** button & choose your preferred method (eg. Dragging the file OR _clicking on_ the **choose your files** link). **Note:** Your image should be saved & named in an easily identifiable way.
+- _Click on_ the **Upload files** button & choose your preferred method (eg. Dragging the file OR _clicking on_ the **choose your files** link). **Note:** Your image should be saved & named (in lowercase & use a hyphen instead of spaces) in an easily identifiable way.
 
-    **OR**
+  **OR**
 
 1. **To Add content:** Ensure that you are on the **dev** branch, then _navigate to_ the appropriate part of the site that you want to add your content to. (ie. **_products_projects** for _Reusable Components_; **_services_projects** for _Stuff that we've done_; **pages** for _New pages_; & **_posts** for _Blog posts_)
 
@@ -39,14 +39,16 @@ You should be able to see the site at: <http://127.0.0.1:4000/>
 **Note:** Refer to an existing file to see the how the format should be.
 
 [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet)
-___
 
-- Once done, _scroll to_ the bottom of the page; _enter_ a **Commit message** & a **Description (optional)** for your changes.
-- _Select_ the **Radio Button** corresponding to the text "Create a new branch for this commit and start a pull request.". You should then see a box appear. **Note:** Your branch name should start with `content/` if you are adding some sort of content. _Type in_ a name (in lowercase) for the branch which you are creating, then _click on_ the **Propose file change** button. **Example of how it might look like:** `/content/adding-some-content`.
-- You should then be re-directed to another page entitled **Open a pull request** & the name for the branch that you created should appear in the **Title textfield**. _Enter_ a comment in the **textfield** describing what changes you have made. **Note:** It is good practice to have at least 2 people to review your PR.
-- Your Pull Request (PR) should be "sent" to the reviewer(s) that you have chosen to review & once it's approved you should see your changes on the Live site.
-- On the right-hand side, you should _see_ **Reviewers**. _Click on_ the **cog** & _select_ someone from the list that could approve the changes. Once done, _find_ the **Create pull request button** (green button) & _click it_).
+- _Scroll to_ the bottom of the page.
+- _Enter_ a **Commit message** (compulsory) saying what you did (eg. Added some new content).![Commit message](/assets/img/screenshot-instructions/commit-message.png)
+- _Enter_ a further extended **Description** (optional) for your changes. ![Description message](/assets/img/screenshot-instructions/description-message.png)
+- _Select_ the **Radio Button** corresponding to the text "Create a new branch for this commit and start a pull request.".
+- In this box, ![Branch name](/assets/img/screenshot-instructions/branch-name.png) _type in_ a meaningful name (eg. `adding-some-content`) for the branch which you are creating. **Note:** Your branch name should be in lowercase, use a hyphen instead of spaces, & start with `content/` if you are adding some sort of content then _click on_ the **Propose file change** button. **Example of how it might look like:** `content/adding-some-content`.
+- _Click on_ ![Commit new file button](/assets/img/screenshot-instructions/commit-new-file.png)
+- You should then be re-directed to another page entitled **Open a pull request**.
 
+See [Creating a Pull Request](https://github.com/ServiceInnovationLab/serviceinnovationlab.github.io/blob/dev/pages/gettingStarted.md#creating-a-pull-request-pr)
 ___
 
 ## Approving Content
