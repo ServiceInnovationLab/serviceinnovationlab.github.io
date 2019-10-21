@@ -7,5 +7,5 @@ role: Scrum Master
 image: "/assets/img/team/felipe-square.jpg"
 active: true
 thinking: Where is everything?
-doing: AGILE. Design thinking. Working with devs. Scrum, Film, VFX, software, learning.
+doing: Agile, Scrum, pragmatism, value with values, better ways of working, new tools, old tools, human behaviours, incentivizing our best impulses, Music, VFX, films and how it all connects.
 ---
