@@ -35,7 +35,7 @@ Through the research in phase one it was clear there were complex relationship d
 - Autonomy
 - Maintain the mana and integrity of the other person or persons in the relationship
 
-We noted that defined responsibilities and expectations are important to reducing conflict or managing it when it arises through accountability. Similarly, transparency encourages fairness and equality as well as manages expectations of both parties.
+We noted that defined responsibilities and expectations are important to reducing conflict or managing it when it arises through accountability. Similarly, transparency encourages fairness and equality, and manages the expectations of both parties.
 
 ## The outcomes
 
