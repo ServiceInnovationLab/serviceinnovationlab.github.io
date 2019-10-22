@@ -53,7 +53,8 @@ From here we identified several high level ideas to show what future interventio
 
 ## Using our research
 
-Our partners, MBIE Tenancy Services, have used this work for: 
+Our partners, MBIE Tenancy Services, have used this work for:
+
 - Design and development of a possible Tenancy Agreement Builder – direct outcome/concept from the discovery, supported by the evidence gathered.
 - Tenancy Bond Strategy – informing further research into the strategic role and direction of Tenancy Bond
 - Healthy Homes Standards campaign strategy – feeding into research for the strategic direction of public engagement with the Healthy Homes Standards
