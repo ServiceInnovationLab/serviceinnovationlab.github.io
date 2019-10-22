@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://serviceinnovationlab.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://serviceinnovationlab.github.io//" rel="alternate" type="text/html" /><updated>2019-10-21T23:37:47+00:00</updated><id>https://serviceinnovationlab.github.io//feed.xml</id><title type="html">Service Innovation Lab</title><subtitle>The Service Innovation Lab is an All-of-Government lab in Aotearoa New Zealand, hosting and enabling collaboration across agencies. We research, design, and develop ways to improve people’s experiences when they interact with government.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://serviceinnovationlab.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://serviceinnovationlab.github.io//" rel="alternate" type="text/html" /><updated>2019-10-22T01:05:37+00:00</updated><id>https://serviceinnovationlab.github.io//feed.xml</id><title type="html">Service Innovation Lab</title><subtitle>The Service Innovation Lab is an All-of-Government lab in Aotearoa New Zealand, hosting and enabling collaboration across agencies. We research, design, and develop ways to improve people’s experiences when they interact with government.
 </subtitle><entry><title type="html">Testing our Toolkit</title><link href="https://serviceinnovationlab.github.io//2019/07/31/Testing-Our-Toolkit/" rel="alternate" type="text/html" title="Testing our Toolkit" /><published>2019-07-31T00:00:00+00:00</published><updated>2019-07-31T00:00:00+00:00</updated><id>https://serviceinnovationlab.github.io//2019/07/31/Testing-Our-Toolkit</id><content type="html" xml:base="https://serviceinnovationlab.github.io//2019/07/31/Testing-Our-Toolkit/">&lt;h2 id=&quot;tests-we-run&quot;&gt;Tests we run&lt;/h2&gt;
 
 &lt;p&gt;This toolkit is built using an open-source tool called Jekyll. We write content in markdown format, which is then parsed by Jekyll which produces a static HTML website that we host on Github pages.&lt;/p&gt;
@@ -113,7 +113,86 @@
 
 &lt;h3 id=&quot;note&quot;&gt;&lt;strong&gt;NOTE&lt;/strong&gt;&lt;/h3&gt;
 
-&lt;p&gt;The full report about this discovery is &lt;a href=&quot;/assets/Exploring_Machine_Consumable_Code_With_ACC.pdf&quot;&gt;available as a PDF&lt;/a&gt;; however we are currently working on an accessible version of this for future release. As always we would like to know your thoughts and comments about the Better Rules work so please &lt;a href=&quot;/contact&quot;&gt;make contact with us&lt;/a&gt;.&lt;/p&gt;</content><author><name>glen-thurston</name></author><category term="better rules" /></entry><entry><title type="html">Rates Rebates (Te Whakamāmā i ngā Reiti)</title><link href="https://serviceinnovationlab.github.io//2018/11/30/Rates-Rebate/" rel="alternate" type="text/html" title="Rates Rebates (Te Whakamāmā i ngā Reiti)" /><published>2018-11-30T00:00:00+00:00</published><updated>2018-11-30T00:00:00+00:00</updated><id>https://serviceinnovationlab.github.io//2018/11/30/Rates-Rebate</id><content type="html" xml:base="https://serviceinnovationlab.github.io//2018/11/30/Rates-Rebate/">&lt;p&gt;&lt;img src=&quot;/assets/media/Rates-Rebates/RR1.png&quot; alt=&quot;RR logo&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The full report about this discovery is &lt;a href=&quot;/assets/Exploring_Machine_Consumable_Code_With_ACC.pdf&quot;&gt;available as a PDF&lt;/a&gt;; however we are currently working on an accessible version of this for future release. As always we would like to know your thoughts and comments about the Better Rules work so please &lt;a href=&quot;/contact&quot;&gt;make contact with us&lt;/a&gt;.&lt;/p&gt;</content><author><name>glen-thurston</name></author><category term="better rules" /></entry><entry><title type="html">Renting a Property - Continuing our discovery</title><link href="https://serviceinnovationlab.github.io//2019/01/30/renting-a-property-continuing-our-discovery/" rel="alternate" type="text/html" title="Renting a Property - Continuing our discovery" /><published>2019-01-30T00:00:00+00:00</published><updated>2019-01-30T00:00:00+00:00</updated><id>https://serviceinnovationlab.github.io//2019/01/30/renting-a-property-continuing-our-discovery</id><content type="html" xml:base="https://serviceinnovationlab.github.io//2019/01/30/renting-a-property-continuing-our-discovery/">&lt;p&gt;In July and August 2018, a small team from the &lt;a href=&quot;https://www.mbie.govt.nz/business-and-employment/business/support-for-business/better-for-business/about-better-for-business/&quot;&gt;Ministry of Business, Innovation and Employment (MBIE)&lt;/a&gt;, &lt;a href=&quot;http://msd.govt.nz/&quot;&gt;Ministry of Social Development  (MSD)&lt;/a&gt; and the Service Innovation Lab from the &lt;a href=&quot;https://www.dia.govt.nz/&quot;&gt;Department of Internal Affairs  (DIA)&lt;/a&gt;, continued our discovery into &lt;a href=&quot;https://www.digital.govt.nz/blog/renting-a-property-understanding-how-better-relationships-support-better-rentals/&quot;&gt;Renting a Property&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Phase two of the discovery took place over four weeks. The core team received support from subject matter experts (SME) across government agencies. The team did a detailed analysis of the findings from the first discovery and collected new information from SMEs to validate the problems and next steps.&lt;/p&gt;
+
+&lt;h2 id=&quot;validation&quot;&gt;Validation&lt;/h2&gt;
+
+&lt;p&gt;In order to be able to enter the design phase where we can design, build, test and learn, we needed to understand the following from discovery research:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What is the problem?&lt;/li&gt;
+  &lt;li&gt;Who is it a problem for?&lt;/li&gt;
+  &lt;li&gt;When is it happening?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We would likely fail to have any impact unless we identify the “who, what and when” before we start.&lt;/p&gt;
+
+&lt;p&gt;We discovered in phase one of our research that there are complex relationship dynamics associated with renting. The relationships are person to person, and also between people and property. Next, we defined each type of relationship, how it works, and what makes a relationship good.&lt;/p&gt;
+
+&lt;p&gt;A good relationship can include the following:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Issues are raised without fear&lt;/li&gt;
+  &lt;li&gt;Issues are resolved in a timely manner&lt;/li&gt;
+  &lt;li&gt;Rapport - (know names, situation etc)&lt;/li&gt;
+  &lt;li&gt;Consideration of actions&lt;/li&gt;
+  &lt;li&gt;Going above and beyond requirements&lt;/li&gt;
+  &lt;li&gt;Taking pride in their house and responsibilities&lt;/li&gt;
+  &lt;li&gt;Autonomy&lt;/li&gt;
+  &lt;li&gt;Maintain the mana and integrity of the other person or persons in the relationship&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We noted that defined responsibilities and expectations are important to reducing conflict or managing it when it arises through accountability. Similarly, transparency encourages fairness and equality, and manages the expectations of both parties.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-outcomes&quot;&gt;The outcomes&lt;/h2&gt;
+
+&lt;p&gt;Through the analysis and validation we identified these key insights:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;There is strong evidence that the barriers to a ‘quality relationship’ between the parties to a tenancy start before the actual tenancy commences.&lt;/li&gt;
+  &lt;li&gt;There is an opportunity to be pre-emptive as it is the time before a tenancy starts in which the relationship between landlords and tenant is most critical. The events of this time have a long term impact throughout renting life journey.&lt;/li&gt;
+  &lt;li&gt;There is strong evidence that removing known barriers at the beginning of the renting relationship can reduce the likelihood of issues and conflict arising during a tenancy and increases a quick resolution.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Based on these insights, two key issues stand out. Both these issues occur before people start renting a property.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Securing a property to rent&lt;/li&gt;
+  &lt;li&gt;Forming a tenancy agreement.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We identified segments of people that are struggling to acquire a rental property. This could be for a variety of reasons, but we think it would be an ideal cohort to work with as there is an excellent opportunity to achieve collective impact by applying a cross-agency approach with these groups.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-informed-these-outcomes&quot;&gt;What informed these outcomes&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Defining and mapping the 31 unique tenancy relationships&lt;/li&gt;
+  &lt;li&gt;Barriers to good relationships definitions and mapping&lt;/li&gt;
+  &lt;li&gt;Landlord and Tenant Audiences - Segmentation, Archetypes, Personas&lt;/li&gt;
+  &lt;li&gt;Landlord and Tenant journey and barriers maps&lt;/li&gt;
+  &lt;li&gt;Quantitative data analysis of discovery phase relationship findings&lt;/li&gt;
+  &lt;li&gt;Logic mapping of the seven concepts from Phase One for validation against project goals&lt;/li&gt;
+  &lt;li&gt;Māori concept of &lt;a href=&quot;https://www.digital.govt.nz/blog/kainga-and-renting-a-property/&quot;&gt;Kāinga&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;how-we-used-the-research&quot;&gt;How we used the research&lt;/h2&gt;
+
+&lt;p&gt;MBIE Tenancy Services have used this work for:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Design and development of a possible Tenancy Agreement Builder – direct outcome/concept from the discovery, supported by the evidence gathered.&lt;/li&gt;
+  &lt;li&gt;Tenancy Bond Strategy – informing further research into the strategic role and direction of Tenancy Bond&lt;/li&gt;
+  &lt;li&gt;Healthy Homes Standards campaign strategy – feeding into research for the strategic direction of public engagement with the Healthy Homes Standards&lt;/li&gt;
+  &lt;li&gt;Multiple stakeholder engagement strategies with various audiences (e.g. Property Managers; Māori; etc.)&lt;/li&gt;
+  &lt;li&gt;Looking into the viability of setting up online training modules that support Tenants, Landlords and Property Managers&lt;/li&gt;
+  &lt;li&gt;A primer for new staff, and to raise awareness of the importance of relationships, behaviour change, tenant fear and other problems in the market.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thanks to all who participated, especially those who were interviewed, came into the lab to help us on our journey, or took the time to give feedback on what we found and our ideas for the future.&lt;/p&gt;
+
+&lt;p&gt;Due to the size of the report, a full copy of the report is available upon request. If you’d like to stay across any of the work coming out of the Lab, please join our &lt;a href=&quot;https://confirmsubscription.com/h/j/7AA94B673345A7D5&quot;&gt;mailing list&lt;/a&gt; .&lt;/p&gt;</content><author><name>glen-thurston</name></author><category term="discovery" /><category term="renting a property" /><category term="collaboration" /><summary type="html">Phase two of the discovery took place over four weeks in July and August 2018 and like the first one the core team were supported by a number of subject matter experts (SME) across government agencies.</summary></entry><entry><title type="html">Rates Rebates (Te Whakamāmā i ngā Reiti)</title><link href="https://serviceinnovationlab.github.io//2018/11/30/Rates-Rebate/" rel="alternate" type="text/html" title="Rates Rebates (Te Whakamāmā i ngā Reiti)" /><published>2018-11-30T00:00:00+00:00</published><updated>2018-11-30T00:00:00+00:00</updated><id>https://serviceinnovationlab.github.io//2018/11/30/Rates-Rebate</id><content type="html" xml:base="https://serviceinnovationlab.github.io//2018/11/30/Rates-Rebate/">&lt;p&gt;&lt;img src=&quot;/assets/media/Rates-Rebates/RR1.png&quot; alt=&quot;RR logo&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Authored by:&lt;/strong&gt; Siobhan McCarthy and Glen Thurston&lt;/p&gt;
 
