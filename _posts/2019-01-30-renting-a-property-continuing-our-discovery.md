@@ -24,7 +24,9 @@ In order to be able to enter the design phase where we can design, build, test a
 
 We would likely fail to have any impact unless we identify the "who, what and when" before we start.
 
-Through the research in phase one it was clear there were complex relationship dynamics associated with renting. Not only were they person to person they were also between people and property. In order to better understand the impact of relationships it was crucial to define how each one worked and what good looked like. A good relationship can include the following:
+We discovered in phase one of our research that there are complex relationship dynamics associated with renting. The relationships are person to person, and also between people and property. Next, we defined each type of relationship, how it works, and what makes a relationship good.
+
+A good relationship can include the following:
 
 - Issues are raised without fear
 - Issues are resolved in a timely manner
@@ -62,9 +64,10 @@ We identified segments of people that are struggling to acquire a rental propert
 - Logic mapping of the seven concepts from Phase One for validation against project goals
 - Māori concept of [Kāinga](https://www.digital.govt.nz/blog/kainga-and-renting-a-property/)
 
-## What was the research used for? 
+## How we used the research
 
 MBIE Tenancy Services have used this work for:
+
 - Design and development of a possible Tenancy Agreement Builder – direct outcome/concept from the discovery, supported by the evidence gathered.
 - Tenancy Bond Strategy – informing further research into the strategic role and direction of Tenancy Bond
 - Healthy Homes Standards campaign strategy – feeding into research for the strategic direction of public engagement with the Healthy Homes Standards
