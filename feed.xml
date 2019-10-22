@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://serviceinnovationlab.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://serviceinnovationlab.github.io//" rel="alternate" type="text/html" /><updated>2019-10-22T01:11:09+00:00</updated><id>https://serviceinnovationlab.github.io//feed.xml</id><title type="html">Service Innovation Lab</title><subtitle>The Service Innovation Lab is an All-of-Government lab in Aotearoa New Zealand, hosting and enabling collaboration across agencies. We research, design, and develop ways to improve people’s experiences when they interact with government.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://serviceinnovationlab.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://serviceinnovationlab.github.io//" rel="alternate" type="text/html" /><updated>2019-10-22T01:22:20+00:00</updated><id>https://serviceinnovationlab.github.io//feed.xml</id><title type="html">Service Innovation Lab</title><subtitle>The Service Innovation Lab is an All-of-Government lab in Aotearoa New Zealand, hosting and enabling collaboration across agencies. We research, design, and develop ways to improve people’s experiences when they interact with government.
 </subtitle><entry><title type="html">Testing our Toolkit</title><link href="https://serviceinnovationlab.github.io//2019/07/31/Testing-Our-Toolkit/" rel="alternate" type="text/html" title="Testing our Toolkit" /><published>2019-07-31T00:00:00+00:00</published><updated>2019-07-31T00:00:00+00:00</updated><id>https://serviceinnovationlab.github.io//2019/07/31/Testing-Our-Toolkit</id><content type="html" xml:base="https://serviceinnovationlab.github.io//2019/07/31/Testing-Our-Toolkit/">&lt;h2 id=&quot;tests-we-run&quot;&gt;Tests we run&lt;/h2&gt;
 
 &lt;p&gt;This toolkit is built using an open-source tool called Jekyll. We write content in markdown format, which is then parsed by Jekyll which produces a static HTML website that we host on Github pages.&lt;/p&gt;
@@ -192,7 +192,82 @@
 
 &lt;p&gt;Thanks to all who participated, especially those who were interviewed, came into the lab to help us on our journey, or took the time to give feedback on what we found and our ideas for the future.&lt;/p&gt;
 
-&lt;p&gt;Due to the size of the report, a full copy of the report is available upon request. If you’d like to stay across any of the work coming out of the Lab, please join our &lt;a href=&quot;https://confirmsubscription.com/h/j/7AA94B673345A7D5&quot;&gt;mailing list&lt;/a&gt; .&lt;/p&gt;</content><author><name>glen-thurston</name></author><category term="discovery" /><category term="renting a property" /><category term="collaboration" /><summary type="html">Phase two of the discovery took place over four weeks in July and August 2018 and like the first one the core team were supported by a number of subject matter experts (SME) across government agencies.</summary></entry><entry><title type="html">Rates Rebates (Te Whakamāmā i ngā Reiti)</title><link href="https://serviceinnovationlab.github.io//2018/11/30/Rates-Rebate/" rel="alternate" type="text/html" title="Rates Rebates (Te Whakamāmā i ngā Reiti)" /><published>2018-11-30T00:00:00+00:00</published><updated>2018-11-30T00:00:00+00:00</updated><id>https://serviceinnovationlab.github.io//2018/11/30/Rates-Rebate</id><content type="html" xml:base="https://serviceinnovationlab.github.io//2018/11/30/Rates-Rebate/">&lt;p&gt;&lt;img src=&quot;/assets/media/Rates-Rebates/RR1.png&quot; alt=&quot;RR logo&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Due to the size of the report, a full copy of the report is available upon request. If you’d like to stay across any of the work coming out of the Lab, please join our &lt;a href=&quot;https://confirmsubscription.com/h/j/7AA94B673345A7D5&quot;&gt;mailing list&lt;/a&gt; .&lt;/p&gt;</content><author><name>glen-thurston</name></author><category term="discovery" /><category term="renting a property" /><category term="collaboration" /><summary type="html">Phase two of the discovery took place over four weeks in July and August 2018 and like the first one the core team were supported by a number of subject matter experts (SME) across government agencies.</summary></entry><entry><title type="html">Renting a Property - Understanding how better relationships support better rentals</title><link href="https://serviceinnovationlab.github.io//2019/01/28/renting-a-property-understanding-how-better-relationships-support-better-rentals/" rel="alternate" type="text/html" title="Renting a Property - Understanding how better relationships support better rentals" /><published>2019-01-28T00:00:00+00:00</published><updated>2019-01-28T00:00:00+00:00</updated><id>https://serviceinnovationlab.github.io//2019/01/28/renting-a-property-understanding-how-better-relationships-support-better-rentals</id><content type="html" xml:base="https://serviceinnovationlab.github.io//2019/01/28/renting-a-property-understanding-how-better-relationships-support-better-rentals/">&lt;h2 id=&quot;summary-of-the-research-report&quot;&gt;Summary of the research report&lt;/h2&gt;
+
+&lt;p&gt;In May 2018, a small team from the &lt;a href=&quot;https://www.mbie.govt.nz/business-and-employment/business/support-for-business/better-for-business/about-better-for-business/&quot;&gt;Ministry of Business, Innovation and Employment (MBIE)&lt;/a&gt;, &lt;a href=&quot;https://www.hnzc.co.nz/&quot;&gt;Housing New Zealand  (HNZ)&lt;/a&gt; and the Service Innovation Lab from the &lt;a href=&quot;https://www.dia.govt.nz/&quot;&gt;Department of Internal Affairs  (DIA)&lt;/a&gt;, ran a five week discovery that explored landlord-tenant relationships.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-this-topic&quot;&gt;Why this topic&lt;/h2&gt;
+
+&lt;p&gt;At December 2017 there were 1.9 million private dwellings for 4.9 million New Zealanders. Of these, 588,700 (37% of total dwellings) were private rental households, and made up the majority of rental houses.
+The proportion of New Zealanders renting increased from 23% in 1991 to 33% in 2016. In addition, people are renting for more of their lives, or permanently. Māori, Pacific peoples, and families with children are over-represented in renting statistics, while people are increasingly renting in retirement.
+Housing not only fulfils the basic human need for shelter but also satisfies social requirements. A house provides a centre for an individual and the basis for family life, emerging as an important symbol of social standing and aspiration. Meeting housing needs is therefore complex.
+Many rentals don’t support their occupants well when compared with owner-occupied houses:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;31% of rental houses feel damp, compared to 11% of owner- occupied houses&lt;/li&gt;
+  &lt;li&gt;22% of rental homes have no fixed heating sources&lt;/li&gt;
+  &lt;li&gt;56% of rental homes had visible mould, compared to 44% of owner-occupied houses&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The importance of rental accomodation led the Service Innovation governance group, which MBIE belongs to, to prioritise ‘Renting a Property’as a life event to explore from a holistic, all-of-government perspective.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-did-we-do-it&quot;&gt;How did we do it&lt;/h2&gt;
+
+&lt;p&gt;Our initial design statement was based on a hypothesis that a better rental house will result in a better relationship between tenant and landlord. The aim was to find out more about these relationships and the house itself. We essentially began with a fact finding mission as a foundation for future work.
+Significant research had already been undertaken. We built on this, reviewing over 48 documents that provided insights into renting from landlord, property manager and tenant perspectives and conducted in-depth interviews with 60 stakeholders. We also explored wellbeing frameworks relevant to renting, including the Māori concept of &lt;a href=&quot;https://www.digital.govt.nz/blog/kainga-and-renting-a-property/&quot;&gt;Kāinga&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-did-we-learn&quot;&gt;What did we learn&lt;/h2&gt;
+
+&lt;p&gt;We validated our original design statement by the end of week three, but with a twist. It was actually better relationships that influence the quality of the homes. Tenants who had good relationships were less likely to go into dispute with their landlords, more likely to raise issues, and see improvements, thus increasing house quality. As a result we revised our design statement:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;For tenants and landlords renting a property, create ways to raise recognition that better relationships between them aid in quality rental homes which will help lead to better outcomes for both.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Key themes and patterns of behaviour to explore further:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Relationships and communication&lt;/strong&gt; - Good relationships are essential to trust and transparency. This enables all parties to better understand each other, and make it more likely to facilitate ways to help each other. As a result, all parties had higher chances of securing tenure, trusting one another in the longer-term and improving rental stock.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Rental culture&lt;/strong&gt; - Tenants, landlords and property managers said increased challenges in the rental market has caused a dysfunctional culture. Tenants worried about being “kicked out”. Some landlords and tenants faced discrimination and public stigma, which in turn led to shame for owning a rental property, or decrease their chances of finding somewhere to live.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Housing is a human right&lt;/strong&gt; - Tenants frequently experience difficulty in finding a home, with some sacrificing their resources, and some families in desperate need; many face the challenge of proving their worth as a “good” tenant and although some were determined, others felt vulnerable, judged, and unheard. Housing is a human right that some New Zealanders are excluded from.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Poor and learnt behaviour&lt;/strong&gt; - There were enough stories to indicate a lack of rental knowledge, training and experience in renting was low or immature for many of the players. Poor and learnt behaviour has damaged public perceptions of these groups.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The basics are essential to living&lt;/strong&gt; - Tenants, landlords and property managers expressed the importance of having the essentials (including social and community networks) close by rentals to meet basic daily needs of tenants. Many tenants were either unable to access or were unaware of tenancy support services.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;With a short term discovery, it wasn’t possible to tackle all the themes and problems, so two were selected to investigate further by looking at the causes and coming up with ideas to mitigate them:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Security of tenure of a home for a period of time&lt;/li&gt;
+  &lt;li&gt;Many landlords and property managers have a lack of experience around tenancy&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;From here we identified several high level ideas to show what future interventions might be. Due to limited time, each of these ideas and the evidence that supports them, will need to be validated in more detail to ascertain the true value of progressing this work further.&lt;/p&gt;
+
+&lt;h2 id=&quot;using-our-research&quot;&gt;Using our research&lt;/h2&gt;
+
+&lt;p&gt;Our partners, MBIE Tenancy Services, have used this work for:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Design and development of a possible Tenancy Agreement Builder – direct outcome/concept from the discovery, supported by the evidence gathered.&lt;/li&gt;
+  &lt;li&gt;Tenancy Bond Strategy – informing further research into the strategic role and direction of Tenancy Bond&lt;/li&gt;
+  &lt;li&gt;Healthy Homes Standards campaign strategy – feeding into research for the strategic direction of public engagement with the Healthy Homes Standards&lt;/li&gt;
+  &lt;li&gt;Multiple stakeholder engagement strategies with various audiences (e.g. Property Managers; Māori; etc.)&lt;/li&gt;
+  &lt;li&gt;Looking into the viability of setting up online training modules that support Tenants, Landlords and Property Managers&lt;/li&gt;
+  &lt;li&gt;A primer for new staff, and to raise awareness of the importance of relationships, behaviour change, tenant fear and other problems in the market.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thanks to all who participated, especially those who were interviewed, came into the lab to help us on our journey, or took the time to give feedback on what we found and our ideas for the future.&lt;/p&gt;
+
+&lt;p&gt;Due to the size of the report, a full copy of the report is available upon request. If you’d like to stay across any of the work coming out of the Service Innovation Lab, please join our &lt;a href=&quot;https://confirmsubscription.com/h/j/7AA94B673345A7D5&quot;&gt;mailing list&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;White, V. &amp;amp; Jones, M (2017). &lt;a href=&quot;https://www.digital.govt.nz/assets/Uploads/SR372-Warm-dry-healthy2.pdf&quot;&gt;&lt;em&gt;Warm, dry, healthy? Insights from the 2015 House Condition Survey on insulation, ventilation, heating and mould in New Zealand houses (PDF 3.90MB)&lt;/em&gt;&lt;/a&gt;. BRANZ Study Report SR372. Judgeford, New Zelaand: BRANZ Ltd. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>glen-thurston</name></author><category term="engagement" /><category term="collaboration" /><category term="renting a property" /></entry><entry><title type="html">Rates Rebates (Te Whakamāmā i ngā Reiti)</title><link href="https://serviceinnovationlab.github.io//2018/11/30/Rates-Rebate/" rel="alternate" type="text/html" title="Rates Rebates (Te Whakamāmā i ngā Reiti)" /><published>2018-11-30T00:00:00+00:00</published><updated>2018-11-30T00:00:00+00:00</updated><id>https://serviceinnovationlab.github.io//2018/11/30/Rates-Rebate</id><content type="html" xml:base="https://serviceinnovationlab.github.io//2018/11/30/Rates-Rebate/">&lt;p&gt;&lt;img src=&quot;/assets/media/Rates-Rebates/RR1.png&quot; alt=&quot;RR logo&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Authored by:&lt;/strong&gt; Siobhan McCarthy and Glen Thurston&lt;/p&gt;
 
