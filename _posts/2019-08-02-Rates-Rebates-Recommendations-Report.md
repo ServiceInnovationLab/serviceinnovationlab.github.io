@@ -1,5 +1,5 @@
 ---
-title:Recommendations Report
+title: Recommendations Report
 date: 2019-08-02
 authors:
   - glen-thurston
