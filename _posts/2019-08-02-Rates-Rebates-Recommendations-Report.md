@@ -30,7 +30,7 @@ Together with the [Rates Rebate Beta Research Report](https://docs.google.com/do
 
 A set of recommendations beyond beta are also included later in the document.
 
-**Run a second trial with the existing three councils during a high application volume period and implement data export solutions**
+### Run a second trial with the existing three councils during a high application volume period and implement data export solutions
 
 1. A second trial should be run during a high volume period (e.g. August and September) to fully inform DIA and Council decisions about next steps. While running the beta in June meant that council staff were available to collaborate and co-design improvements to the application and process, it also meant that application volumes were lower for councils than they would have been in July and August.
 Evidence gathered during the Alpha (which ran through the busy period) suggests that uptake of the online option is high when it is promoted by councils (20% of the 800 recipients of a letter sent by Tauranga City Council promoting the online option opted to use it in 2018).
@@ -153,6 +153,7 @@ In particular, the beta was designed to:
 - There is still plenty of room for improvement however. The ability to move applications into a “Declined” state (and state a reason) was added based on feedback from councils. A much higher number of applications were moved into this declined state than expected. The most common reasons for declining applications were “applicant had already applied that year” and “applicants income was too high”. This suggests that there is confusion about when to apply. It also suggests (and this was supported by feedback from Tauranga City Council in particular) that there wasn’t enough done in the application process to warn applicants that they may not be eligible based on the information they have supplied before they make the trip to sign their application at a council office. There is more about this in “Recommendations beyond beta” later in this document.
 
 ### 3. Decrease the cost of processing applications for councils
+
 - Bigger councils currently spend hundreds of thousands of dollars on serving and administering the rebate for rate payers (e.g. Tauranga City Council estimate it costs them $200,000 annually to process 4,500 applications).
 - Even smaller councils like Carterton District Council process 2,000-3,000 applications each year. Councils in the Wairarapa told us they work nights and weekends during the busy period to meet demand - and they believe they currently have very low uptake. They said that “anything to make the experience better” would be a massive help.
 - The Beta has dramatically reduced the cost per transaction costs by:
@@ -202,6 +203,7 @@ Cost to process:
 - This number would be expected to increase as the proportion of applicants applying online increases.
 
 ### 4. Improve the ability to digitally deliver this and other services to councils
+
 - One of the most important questions that the Beta phase set out to answer was “will councils even agree to participate in a beta trial”, given their participation involved a significant amount of time and effort on their part. The response we received from the councils we invited/pitched to participate was overwhelmingly positive. In fact, demand to participate in the Beta trial far exceeded expectations, and some councils were informed that they would need to wait to see if there was a subsequent Beta phase.
 - Representatives from all three councils are so enthusiastic about the results of the trial that they are keen to get an opportunity to personally (face to face) provide their feedback on the trial to Rates Rebate decision makers.
 - A high trust relationship has been built with the councils involved in the trial, with really positive feedback from all three councils (see #3 above).
@@ -210,6 +212,7 @@ Cost to process:
 - The virtual team model where a team was formed from SDO, GIS, and the Service Innovation Lab proved to be a highly effective mechanism to rapidly improve a service. The combination of subject (service) matter expertise, digital channel expertise (and access + control of the channel/platform), and service design meant implementation was extremely efficient.
 
 ### 5. Support the case to remove the statutory declaration (witnessed signature requirement)
+
 - A paper was written to support the case for this change during the beta phase. A summary of the key points is included here.
 - Applying for a rates rebate currently involves making a statutory declaration. The requirement to have applicants have their signature witnessed to complete a rates rebate application means that they are unable to submit an application without travelling either to a council office, or organising an alternative witness, such as a JP.
 - The need to travel necessitated by the statutory declaration has been identified as the biggest single barrier preventing large scale adoption of an online application process. It is also considered the biggest hurdle for those submitting paper based applications.
@@ -222,6 +225,7 @@ Cost to process:
 - support improvements to privacy within the application process. It is not practical to control or record who views information provided on paper. When applications are made online, there are opportunities to remove and/or audit council staff access to private information supplied in the application.
 
 ### 6. Produce insights informing other use cases with a similar customer profile
+
 - The Beta phase was focused on further refining the Alpha service based on further user research and feedback from ratepayers and three councils. The Rates Rebate Research Report documents insights from research based on a combination of customer interviews, council and stakeholder observations and conversations, online surveys and analytics analysis.
 - The key insights from this report are:
   1. The system is too complex and multiple errors are occuring
@@ -236,12 +240,13 @@ Cost to process:
   1. Newly bereaved need additional help with the application process
   1. Leverage the best channels for awareness and support
 - Many of these insights inform other use cases with a similar customer profiles. Rates Rebate is just one example of a service used by seniors. Two examples of insights which inform services beyond Rates Rebate are:
-   - **Seniors are more digitally capable than many assume**
+  - **Seniors are more digitally capable than many assume**
 Many superannuitants are using websites and apps to achieve a wide range of tasks. Three quarters of the superannuitants interviewed are interacting online and are digitally savvy. Facebook, Skype and emails are commonly used to connect friends and family. A large proportion use these applications for video calling, sharing photos, and sending messages.
   - **The current process is not accessible to people with disabilities**
 The applicants interviewed all used reading glasses and struggled to read the smaller text on the paper application form. If the application form is accessed as a downloadable pdf, it’s possible to enlarge the text, but the content doesn’t reflow into the screen, therefore comprehension is compromised. The downloadable pdf hasn’t been tagged with appropriate markup labels, therefore is not accessible to those using screen reader technology.
 
 ## Recommendations beyond beta
+
 Based on what was learned during the beta trial, we recommend the following areas be explored further:
 
 1. **Consider a substantial redesign of the paper application form and/or alternative ways to apply.** Ratepayers find the current paper application form confusing. This leads to forms often being completed incorrectly, or required fields left blank. Applicants often perceive the ‘rates’ and ‘income’ step as easy, yet will frequently get this information wrong. Accessibility is also a real problem. All of the applicants interviewed during or research used reading glasses and struggled to read the smaller text on the paper application form.
