@@ -199,7 +199,7 @@ Cost to process:
   - we can shift 20% of all applications online
   - save $30 in processing cost per application completed online
   - there were many more applications submitted and processed in some way than the 97,510 that were successful in 2017/2018 (as shown in the trial many applications are declined, are duplicates etc)
-- ..then we can conclude that the total savings for all councils nationwide in the first year would be substantially greater than $35 * 97,510 * 20% = **$682,570**.
+- ..then we can conclude that the total savings for all councils nationwide in the first year would be substantially greater than $35 × 97,510 × 20% = **$682,570**.
 - This number would be expected to increase as the proportion of applicants applying online increases.
 
 ### 4. Improve the ability to digitally deliver this and other services to councils
