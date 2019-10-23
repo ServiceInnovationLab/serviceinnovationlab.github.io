@@ -10,14 +10,15 @@ tags:
   - Te Whakamāmā i ngā Reiti
 excerpt: "Following a successful Alpha phase in May and September 2018, the Rates Rebate beta trial was run in June and July 2019 by a team with members from Service Delivery and Operations team within DIA, Government Information Services, and the Service Innovation Lab. This was in collaboration with Tauranga City Council, Hutt City Council, and Kāpiti Coast District Council"
 ---
-# Executive Summary
+## Executive Summary
+
 A Rates Rebate is a subsidy (currently up to $640) for low-income homeowners on the cost of their residential rates. The subsidy is delivered by Local Councils and is administered by Central Government (currently the Department of Internal Affairs (DIA)). The entitlement value is calculated by the cost of the rates, applicants income, and number of dependants. The maximum subsidy amount is reviewed yearly.
 
-Following a successful (and [award winning](https://nzosa.org.nz/finalists2018/)) [Alpha](https://www.digital.govt.nz/blog/making-it-easier-the-rates-rebates-story-so-far/) phase in May and September 2018, the Rates Rebate beta trial was run in June and July 2019 by a team with members from Service Delivery and Operations team within DIA, Government Information Services, and the Service Innovation Lab. 
+Following a successful (and [award winning](https://nzosa.org.nz/finalists2018/)) [Alpha](https://www.digital.govt.nz/blog/making-it-easier-the-rates-rebates-story-so-far/) phase in May and September 2018, the Rates Rebate beta trial was run in June and July 2019 by a team with members from Service Delivery and Operations team within DIA, Government Information Services, and the Service Innovation Lab.
 
 Three councils (Tauranga City Council, Hutt City Council, and Kāpiti Coast District Council) were invited to participate from a larger group that expressed interest. These councils each run a different IT system for processing applications, providing a good test of any proposed process changes, and a good indication of the challenges of rolling out the solution more widely.
 
-Evidence gathered during the beta trial supported the observation during the Alpha phase that an optimised online application form takes just 4 minutes to complete on average, compared to 25 minutes for the paper form. Feedback from councils supported evidence gathered via observation that the online application was considered much easier for applicants to complete. 
+Evidence gathered during the beta trial supported the observation during the Alpha phase that an optimised online application form takes just 4 minutes to complete on average, compared to 25 minutes for the paper form. Feedback from councils supported evidence gathered via observation that the online application was considered much easier for applicants to complete.
 
 The beta dramatically reduced per transaction costs for councils, completely eliminating the need to courier paper applications between councils and the DIA. Councils have communicated their intention to actively promote the online option (if it proceeds beyond beta) based on the improved experience for applicants (and lower processing costs).
 
@@ -25,32 +26,37 @@ The statutory declaration remains the single biggest barrier preventing large sc
 
 Together with the [Rates Rebate Beta Research Report](https://docs.google.com/document/d/1zDiJs8x2r9ABKa0hqCHkDZnK1B5iy-JlNSbtCZUoDuo/edit?usp=sharing), this report documents the key results of the trial, presents options for next steps, and makes a set of recommendations.
 
-# High level recommendations 
+## High-level recommendations
+
 A set of recommendations beyond beta are also included later in the document.
 
 **Run a second trial with the existing three councils during a high application volume period and implement data export solutions**
-1. A second trial should be run during a high volume period (e.g. August and September) to fully inform DIA and Council decisions about next steps. While running the beta in June meant that council staff were available to collaborate and co-design improvements to the application and process, it also meant that application volumes were lower for councils than they would have been in July and August. 
-Evidence gathered during the Alpha (which ran through the busy period) suggests that uptake of the online option is high when it is promoted by councils (20% of the 800 recipients of a letter sent by Tauranga City Council promoting the online option opted to use it in 2018). 
-The councils involved in the trial have enthusiastically requested that the trial be extended through a high volume period. 
+
+1. A second trial should be run during a high volume period (e.g. August and September) to fully inform DIA and Council decisions about next steps. While running the beta in June meant that council staff were available to collaborate and co-design improvements to the application and process, it also meant that application volumes were lower for councils than they would have been in July and August.
+Evidence gathered during the Alpha (which ran through the busy period) suggests that uptake of the online option is high when it is promoted by councils (20% of the 800 recipients of a letter sent by Tauranga City Council promoting the online option opted to use it in 2018).
+The councils involved in the trial have enthusiastically requested that the trial be extended through a high volume period.
 1. The second trial should be limited to the same three councils who participated in June/July. This will enable valuable data to be gathered while keeping the cost of the extension minimal.
-1. Delay the decision about whether to proceed beyond this extension until the end of this second trial. This will allow time for results from the first round to be validated against higher application volumes. 
+1. Delay the decision about whether to proceed beyond this extension until the end of this second trial. This will allow time for results from the first round to be validated against higher application volumes.
 1. Improvements should be made to how data is transferred between the online application solution and council core systems, and options explored to improve data transfer between council systems and eRMS. The high trust relationship built with the councils involved in the trial should be leveraged to (co)design and implement simple, low cost (but high value) solutions during the trial extension period
 
-# Options to consider
+## Options to consider
+
 - Option 1 - **Close down the initiative**: inform Councils there will be no change to the current paper-based service from DIA. Decommission the service.
 - Option 2 - **Run a second trial with the existing three councils**. Continue to provide support, but limit other activity to keep costs minimal.
 - Option 3 - **Run a second trial with the existing three councils through a high application volume period and implement data export solutions (recommended)**: proceed as for option two, but also implement data export solution for councils (for import into their core systems). Investigate (and document a recommendation for) the best solution to improve data submission (reduce cost and reduce/eliminate data entry errors) from council core systems to eRMS.
 - Option 4 - **Extend the trial with the existing three councils until the end of June 2020**: continue to gradually evolve the service with these councils throughout this period. Use the high quality relationship built with councils to co-design the optimal online (and paper) application process ready for when the statutory declaration requirement is removed.
 - Option 5 - **Extend the trial until the end of June 2020 and allow another three councils to join**: continue to run the trial with Tauranga City Council, Kāpiti District Council, and Hutt City Council through to June 2020 and trial the service with an additional three councils. Aim to sign up councils that will best test whether the service is ready to be rolled out nationally.
 
-# Background
-The Rates Rebates Online Beta was designed to meet the needs of ratepayers, Councils, and the DIA Rates Rebates team. It was built based on the findings of a Discovery and Alpha phase. 
+## Background
 
-In the Discovery phase the Rates Rebates service was mapped and reviewed, internal and external stakeholders were interviewed, and potential methods of service delivery were explored. The discovery revealed many opportunities at the system level to improve the experience for both the people applying for their entitlement and people delivering the service. 
+The Rates Rebates Online Beta was designed to meet the needs of ratepayers, Councils, and the DIA Rates Rebates team. It was built based on the findings of a Discovery and Alpha phase.
+
+In the Discovery phase the Rates Rebates service was mapped and reviewed, internal and external stakeholders were interviewed, and potential methods of service delivery were explored. The discovery revealed many opportunities at the system level to improve the experience for both the people applying for their entitlement and people delivering the service.
 
 In the Alpha phase, a minimum viable product (MVP) was designed and developed, and trialled in Tauranga from 21 May—30 September 2018 with Tauranga City Council. The alpha was focused on testing system changes. Tauranga City Council, Auckland Council were involved with assisting with the design and test of the alpha and numerous other councils watched progress closely. The Alpha proved to be of high value to ratepayers and Councils, and successfully tested a fully digital and user centred end to end rates rebate process. The solution was developed using open source software, and the project won the Award for Open Source Use in Government for 2018.
 
 The Beta phase was focused on further refining the service based on further user research and feedback from ratepayers and councils. An emphasis in this phase was on ensuring it is was set up to be a live, fully functional, and sustainable system. This included:
+
 - Learning how the service can scale to more than one council
 - Moving the alpha solution to sustainable production infrastructure and technology
 - Ensuring accessibility, privacy, security issue standards for public services are fully adhered to
@@ -62,22 +68,25 @@ Following research into current user behaviour, the online rates rebate applicat
 
 User acceptance testing (UAT) for the Rates Rebate Beta began on Tuesday 21 May. The Beta trial with ratepayers started on Wednesday 5 June and ended on Monday 1 July. Councils continued to process online applications up to 1 August 2019.
 
-Funding for the Beta was approved by the Service Innovation Working Group (SIWG) within the Digital Government Partnership supported by the Government Chief Digital Officer (GCDO). To deliver the Beta, a virtual team was created with support and participation from the Service Delivery and Operations (SDO) team (who continue to provide advice and subject matter expertise), and the Government Information Services (GIS) team (who made a significant contribution to the initiative by contributing two developers at high capacity for an extended period). At this stage there has been no funding approved to proceed beyond Beta. 
+Funding for the Beta was approved by the Service Innovation Working Group (SIWG) within the Digital Government Partnership supported by the Government Chief Digital Officer (GCDO). To deliver the Beta, a virtual team was created with support and participation from the Service Delivery and Operations (SDO) team (who continue to provide advice and subject matter expertise), and the Government Information Services (GIS) team (who made a significant contribution to the initiative by contributing two developers at high capacity for an extended period). At this stage there has been no funding approved to proceed beyond Beta.
 
-## Current factors impacting customers using the service
+### Current factors impacting customers using the service
+
 - **Low income, and time poor**
 The current application process is complex, takes a long time, and places an unjustified burden on many people by asking for more information than is necessary.
 - **Issues affecting mobility and access**
-The lack of an alternative, accessible way to make an application means many people who have a disability e.g. a vision impairment ([over 11% of those over 65](http://archive.stats.govt.nz/browse_for_stats/health/disabilities/DisabilitySurvey_HOTP2013/Commentary.aspx)) or a physical disability ([49% of those over 65](http://archive.stats.govt.nz/browse_for_stats/health/disabilities/DisabilitySurvey_HOTP2013/Commentary.aspx#impairtype) struggle to apply for help they are eligible to receive. 
+The lack of an alternative, accessible way to make an application means many people who have a disability e.g. a vision impairment ([over 11% of those over 65](http://archive.stats.govt.nz/browse_for_stats/health/disabilities/DisabilitySurvey_HOTP2013/Commentary.aspx)) or a physical disability ([49% of those over 65](http://archive.stats.govt.nz/browse_for_stats/health/disabilities/DisabilitySurvey_HOTP2013/Commentary.aspx#impairtype) struggle to apply for help they are eligible to receive.
 
-Due to many (in the 2017/18 rating year 79% of all applicants were receiving New Zealand Superannuation) applicants being over 65 and/or living with a disability, the requirement to sign a Statutory Declaration in front of a witness impacts accessibility for the core customer group. 
+Due to many (in the 2017/18 rating year 79% of all applicants were receiving New Zealand Superannuation) applicants being over 65 and/or living with a disability, the requirement to sign a Statutory Declaration in front of a witness impacts accessibility for the core customer group.
 
 **Note**: During the Beta trial, a separate paper Why remove the statutory declaration was written to support the case for its removal. This paper details the substantial benefits associated with removing the statutory declaration, when this is supported with adoption of an online application process.
 
-# How many applications were submitted during the trial?
-The beta was run during the quiet June period directly following the normal “reminder” sent out by councils before the end of the financial year. Council’s indicated that this timing would work well because staff would be available to collaborate, co-design, and test improvements to the application and process. This worked well, with the design team able to work closely with both frontline and back office staff to observe processes and current practice. Council staff were also available during a two week period of user acceptance testing, which was important (we had received feedback from Tauranga that insufficient time had been allowed for user acceptance testing in the Alpha). 
+## Applications submitted during the trial
+
+The beta was run during the quiet June period directly following the normal “reminder” sent out by councils before the end of the financial year. Council’s indicated that this timing would work well because staff would be available to collaborate, co-design, and test improvements to the application and process. This worked well, with the design team able to work closely with both frontline and back office staff to observe processes and current practice. Council staff were also available during a two week period of user acceptance testing, which was important (we had received feedback from Tauranga that insufficient time had been allowed for user acceptance testing in the Alpha).
 
 Running the trial in the June period also meant that only a low number of applications were expected to be received and processed (this turned out to be the case).
+
 - A total of 101 applications were submitted.
 - 46 of the 101 applications were signed and fully processed.
   - 12 were processed by Tauranga City Council
@@ -85,17 +94,19 @@ Running the trial in the June period also meant that only a low number of applic
   - 26 were processed by Kāpiti District Council
 - 5 of the 101 were submitted, but never signed.
 - 50 of the 101 applications were declined.
-  - The most common reason supplied by councils for declining applications was “income too high”. However, there were also a significant number of applications from ratepayers who had already applied in the 18/19 year. 
+  - The most common reason supplied by councils for declining applications was “income too high”. However, there were also a significant number of applications from ratepayers who had already applied in the 18/19 year.
   - The ability to “decline” an application (and supply a reason) was added to the beta, and we believe this feature could provide useful data for analysis (see “Recommendations beyond beta” section later in the document for more about this).
   
-# Expected benefits
-The Rates Rebate Beta was designed to help people to identify their eligibility and then apply for the rebate with less effort and stress. It was also designed to simplify service delivery for the council from [the current very manual and paper heavy process](https://www.digital.govt.nz/blog/rates-rebates-discovery-week-2-mapping-pain-points/) to a significantly simpler, faster (and digital) service. 
+## Expected benefits
+
+The Rates Rebate Beta was designed to help people to identify their eligibility and then apply for the rebate with less effort and stress. It was also designed to simplify service delivery for the council from [the current very manual and paper heavy process](https://www.digital.govt.nz/blog/rates-rebates-discovery-week-2-mapping-pain-points/) to a significantly simpler, faster (and digital) service.
 
 The trial also further explored how uptake of the scheme could increased. The need to raise awareness of the scheme was identified in the Discovery and Alpha phase, and had recently prompted the DIA to write to the Royal New Zealand Returned and Services Association, Grey Power and the Citizens Advice Bureau in about eligibility and how to apply.
 
 While integration between council and DIA systems was known to be a pain point, it was agreed with Service Delivery and Operations that this was not in scope for the trial.
 
 In particular, the beta was designed to:
+
 1. Increase the uptake of the Rates Rebate
 1. Improve customer experience and satisfaction levels
 1. Decrease the cost of processing applications for councils
@@ -103,10 +114,10 @@ In particular, the beta was designed to:
 1. Support the case to remove the statutory declaration (witnessed signature requirement)
 1. Produce insights informing other use cases with a similar customer profile
 
-
-# Evidence supporting expected benefits
+## Evidence supporting expected benefits
 
 ### 1. Increase the uptake of the Rates Rebate**
+
 - The removal of the statutory declaration requirement for an online application has been clearly identified as the key change needed to increase application volume. Removing the statutory declaration removes the barrier of having to visit a council to submit an application. A paper was written to support the case for this change during the beta phase. If successful, this requirement could be removed by June 2020. All three councils involved in the trial are convinced enabling applications to be completed online will result in a major increase in applications both received and processed.
 - [Improvements were made to Rates Rebate content on govt.nz and the calculator](https://www.digital.govt.nz/blog/rates-rebate-content-changes-lead-to-better-experience-more-users/) based on the analysis of analytics data. These improvements resulted in a significant increase in the number of application form (PDF) downloads. The improvements also resulted in an increase in the number of people receiving an estimate when visiting the calculator (from 47% to 58%).
 - The online application form was optimised to work on mobiles, tablets, and other common devices. The low volume of applications submitted during the trial meant that no meaningful conclusions can be drawn from analysis of analytics data (e.g. percentage of applicants using mobile devices - or, for example, when during the day these applications were filled in). A second trial during a high volume period is recommended to gather more data.
@@ -119,18 +130,18 @@ In particular, the beta was designed to:
 - Councils are aware that an online application is much faster to complete than a paper application (and much faster for them to process) and they intend to promote this option as a result (if the trial proceeds beyond beta).
 - A great deal of care was taken to ensure the application form is accessible for those with disabilities. This work has been completed with GIS accessibility expert Jason Kiss. With approximately 11% of the target audience vision impaired, and 59% with a disability of some kind, this should not be considered an optional extra (as highlighted in the recently published [Digital Inclusion Blueprint](https://www.digital.govt.nz/digital-government/digital-transformation/digital-inclusion/digital-inclusion-blueprint/)).
 
-*“I’m partially blind, so if things are on a computer I can zoom in and read them”*
+> “I’m partially blind, so if things are on a computer I can zoom in and read them”
 
-*“Sorry, my fingers don’t work very well”* 
+> “Sorry, my fingers don’t work very well”
 
-*“Trouble is I can’t walk very far now. My knees and my ankles have packed up. I can’t drive ...because my shoulder’s packed”* 
+> “Trouble is I can’t walk very far now. My knees and my ankles have packed up. I can’t drive ...because my shoulder’s packed”
 
 - There was evidence gathered during the trial that even when applicants need to switch channels to apply online, they will do so. Tauranga sent out 800 final reminder letters and had 20% online. 
 - As part of the beta trial, email addresses were requested from applicants so that a confirmation email could be sent to confirm their application had been received. These email addresses provide an opportunity to remind applicants to apply in subsequent years.
 
 ### 2. Improve customer experience and satisfaction levels - decrease time, effort and stress**
-- The online application form takes on average **4 minutes to complete, versus 25 minutes for the paper form.** This improvement was observed during the Alpha, and supported by observations and analytics during the beta trial. This is a huge improvement which we believe had a huge influence on the overwhelming positive customer feedback gathered by councils (who set up surveys in their offices using existing kiosks, and interviewed applicants).
 
+- The online application form takes on average **4 minutes to complete, versus 25 minutes for the paper form.** This improvement was observed during the Alpha, and supported by observations and analytics during the beta trial. This is a huge improvement which we believe had a huge influence on the overwhelming positive customer feedback gathered by councils (who set up surveys in their offices using existing kiosks, and interviewed applicants).
 
 *“The people that came in to complete the online process thought it was really good. Clearly an easier process for them”*
 **Moira Aplin (Rates Officer, Hutt City Council)**
