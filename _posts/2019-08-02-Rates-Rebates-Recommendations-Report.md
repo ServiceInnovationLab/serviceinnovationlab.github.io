@@ -1,5 +1,5 @@
 ---
-title:Recommendations Report 
+title:Recommendations Report
 date: 2019-08-02
 authors:
   - Service Innovation Lab
@@ -96,7 +96,7 @@ Running the trial in the June period also meant that only a low number of applic
 - 50 of the 101 applications were declined.
   - The most common reason supplied by councils for declining applications was “income too high”. However, there were also a significant number of applications from ratepayers who had already applied in the 18/19 year.
   - The ability to “decline” an application (and supply a reason) was added to the beta, and we believe this feature could provide useful data for analysis (see “Recommendations beyond beta” section later in the document for more about this).
-  
+
 ## Expected benefits
 
 The Rates Rebate Beta was designed to help people to identify their eligibility and then apply for the rebate with less effort and stress. It was also designed to simplify service delivery for the council from [the current very manual and paper heavy process](https://www.digital.govt.nz/blog/rates-rebates-discovery-week-2-mapping-pain-points/) to a significantly simpler, faster (and digital) service.
@@ -136,7 +136,7 @@ In particular, the beta was designed to:
 
 > “Trouble is I can’t walk very far now. My knees and my ankles have packed up. I can’t drive ...because my shoulder’s packed”
 
-- There was evidence gathered during the trial that even when applicants need to switch channels to apply online, they will do so. Tauranga sent out 800 final reminder letters and had 20% online. 
+- There was evidence gathered during the trial that even when applicants need to switch channels to apply online, they will do so. Tauranga sent out 800 final reminder letters and had 20% online.
 - As part of the beta trial, email addresses were requested from applicants so that a confirmation email could be sent to confirm their application had been received. These email addresses provide an opportunity to remind applicants to apply in subsequent years.
 
 ### 2. Improve customer experience and satisfaction levels - decrease time, effort and stress**
@@ -146,14 +146,14 @@ In particular, the beta was designed to:
 *“The people that came in to complete the online process thought it was really good. Clearly an easier process for them”*
 **Moira Aplin (Rates Officer, Hutt City Council)**
 
-- While there may be no accepted way of calculating the dollar value of saving 19 minutes for every application filled out, this is a significant time saving for people who we know (from our user research) are time poor - especially if/when it can be realised for a large proportion of the over 95,000 applications submitted annually. 
+- While there may be no accepted way of calculating the dollar value of saving 19 minutes for every application filled out, this is a significant time saving for people who we know (from our user research) are time poor - especially if/when it can be realised for a large proportion of the over 95,000 applications submitted annually.
 - We know from user research that ratepayers find the current paper application form confusing. This leads to forms often being completed incorrectly, or required fields left blank.
-- We also know that when this happens, and the problems aren’t picked up at the counter, the applicant must be contacted and the application re-submitted. 
-- This delays when the rebate is granted at a time when it’s needed most. Feedback from councils indicated that they experienced fewer of these problems with the application forms they received online. 
-- There is still plenty of room for improvement however. The ability to move applications into a “Declined” state (and state a reason) was added based on feedback from councils. A much higher number of applications were moved into this declined state than expected. The most common reasons for declining applications were “applicant had already applied that year” and “applicants income was too high”. This suggests that there is confusion about when to apply. It also suggests (and this was supported by feedback from Tauranga City Council in particular) that there wasn’t enough done in the application process to warn applicants that they may not be eligible based on the information they have supplied before they make the trip to sign their application at a council office. There is more about this in “Recommendations beyond beta” later in this document. 
+- We also know that when this happens, and the problems aren’t picked up at the counter, the applicant must be contacted and the application re-submitted.
+- This delays when the rebate is granted at a time when it’s needed most. Feedback from councils indicated that they experienced fewer of these problems with the application forms they received online.
+- There is still plenty of room for improvement however. The ability to move applications into a “Declined” state (and state a reason) was added based on feedback from councils. A much higher number of applications were moved into this declined state than expected. The most common reasons for declining applications were “applicant had already applied that year” and “applicants income was too high”. This suggests that there is confusion about when to apply. It also suggests (and this was supported by feedback from Tauranga City Council in particular) that there wasn’t enough done in the application process to warn applicants that they may not be eligible based on the information they have supplied before they make the trip to sign their application at a council office. There is more about this in “Recommendations beyond beta” later in this document.
 
 ### 3. Decrease the cost of processing applications for councils
-- Bigger councils currently spend hundreds of thousands of dollars on serving and administering the rebate for rate payers (e.g. Tauranga City Council estimate it costs them $200,000 annually to process 4,500 applications). 
+- Bigger councils currently spend hundreds of thousands of dollars on serving and administering the rebate for rate payers (e.g. Tauranga City Council estimate it costs them $200,000 annually to process 4,500 applications).
 - Even smaller councils like Carterton District Council process 2,000-3,000 applications each year. Councils in the Wairarapa told us they work nights and weekends during the busy period to meet demand - and they believe they currently have very low uptake. They said that “anything to make the experience better” would be a massive help.
 - The Beta has dramatically reduced the cost per transaction costs by:
   - Validating all required fields are filled in
@@ -165,14 +165,14 @@ In particular, the beta was designed to:
   - Removing the need to key in applications from hand-written paper application forms
   - Reducing the time that the double signature step takes by automatically filling in the council staff name, date, and the applicant's occupation - and capturing signatures digitally
   - Improving the back-office workflow by supporting the ability to easily mark applications as “Processed” and “Batched”
-  - Completely removing the need to collate and courier paper applications to DIA  
+  - Completely removing the need to collate and courier paper applications to DIA
 - Feedback from councils on the improvements made during the beta include:
 
 *"I can't emphasise how much better the experience is … the experience is smooth and the QR code is a bit special."*
-**Jeremy Glass (Team Leader: Service Centre, Tauranga City Council)** 
+**Jeremy Glass (Team Leader: Service Centre, Tauranga City Council)**
 
 *"The speed of the transaction is really noticeable. For example, removing the need for ratepayers to provide evidence of income has made a huge difference."*
-**Jeremy Glass (Team Leader: Service Centre, Tauranga City Council)** 
+**Jeremy Glass (Team Leader: Service Centre, Tauranga City Council)**
 
 *"Signing of the applications and the processing has all gone smoothly... I’ve really enjoyed not having lots of paperwork on my desk - not having to work out which bits of paper go with which bits of paper… I would love to see this system go ahead."*
 **Moira Aplin (Rates Officer, Hutt City Council)**
@@ -192,44 +192,44 @@ Cost to process:
   - **Approx 45% online**: 2,500 paper + 2,000 online applications = $125,000
   - **All online**: 4,500 online applications = $75,000
 - If we assume that the cost per application reduces as the number of applications increases for a given council, then taking Tauranga’s cost per paper application (one of the larger councils) is likely to be conservative = 200,000/4,500 = **$44**
-- In Tauranga’s scenario where 45% of applications are completed online, they estimate savings of over $35 per application. 
-- Tauranga have also reported that when they sent out 800 reminder letters, they had 20% of applications completed online. 
+- In Tauranga’s scenario where 45% of applications are completed online, they estimate savings of over $35 per application.
+- Tauranga have also reported that when they sent out 800 reminder letters, they had 20% of applications completed online.
 - If we assume...
   - we can shift 20% of all applications online
   - save $30 in processing cost per application completed online
   - there were many more applications submitted and processed in some way than the 97,510 that were successful in 2017/2018 (as shown in the trial many applications are declined, are duplicates etc)
-- ..then we can conclude that the total savings for all councils nationwide in the first year would be substantially greater than $35 * 97,510 * 20% = **$682,570**. 
+- ..then we can conclude that the total savings for all councils nationwide in the first year would be substantially greater than $35 * 97,510 * 20% = **$682,570**.
 - This number would be expected to increase as the proportion of applicants applying online increases.
 
 ### 4. Improve the ability to digitally deliver this and other services to councils
-- One of the most important questions that the Beta phase set out to answer was “will councils even agree to participate in a beta trial”, given their participation involved a significant amount of time and effort on their part. The response we received from the councils we invited/pitched to participate was overwhelmingly positive. In fact, demand to participate in the Beta trial far exceeded expectations, and some councils were informed that they would need to wait to see if there was a subsequent Beta phase. 
+- One of the most important questions that the Beta phase set out to answer was “will councils even agree to participate in a beta trial”, given their participation involved a significant amount of time and effort on their part. The response we received from the councils we invited/pitched to participate was overwhelmingly positive. In fact, demand to participate in the Beta trial far exceeded expectations, and some councils were informed that they would need to wait to see if there was a subsequent Beta phase.
 - Representatives from all three councils are so enthusiastic about the results of the trial that they are keen to get an opportunity to personally (face to face) provide their feedback on the trial to Rates Rebate decision makers.
-- A high trust relationship has been built with the councils involved in the trial, with really positive feedback from all three councils (see #3 above). 
+- A high trust relationship has been built with the councils involved in the trial, with really positive feedback from all three councils (see #3 above).
 - As part of the trial, digital tools such as Trello and Slack were introduced to council staff. These tools enabled transparent and swift communication throughout the trial, and also encouraged communication between councils.
-- The trial involved the council experiencing rapid cycles of development and feedback which could from the basis for other similar engagements with those councils. 
+- The trial involved the council experiencing rapid cycles of development and feedback which could from the basis for other similar engagements with those councils.
 - The virtual team model where a team was formed from SDO, GIS, and the Service Innovation Lab proved to be a highly effective mechanism to rapidly improve a service. The combination of subject (service) matter expertise, digital channel expertise (and access + control of the channel/platform), and service design meant implementation was extremely efficient.
 
 ### 5. Support the case to remove the statutory declaration (witnessed signature requirement)
 - A paper was written to support the case for this change during the beta phase. A summary of the key points is included here.
-- Applying for a rates rebate currently involves making a statutory declaration. The requirement to have applicants have their signature witnessed to complete a rates rebate application means that they are unable to submit an application without travelling either to a council office, or organising an alternative witness, such as a JP. 
-- The need to travel necessitated by the statutory declaration has been identified as the biggest single barrier preventing large scale adoption of an online application process. It is also considered the biggest hurdle for those submitting paper based applications. 
+- Applying for a rates rebate currently involves making a statutory declaration. The requirement to have applicants have their signature witnessed to complete a rates rebate application means that they are unable to submit an application without travelling either to a council office, or organising an alternative witness, such as a JP.
+- The need to travel necessitated by the statutory declaration has been identified as the biggest single barrier preventing large scale adoption of an online application process. It is also considered the biggest hurdle for those submitting paper based applications.
 - While this step may seem a minor inconvenience for those who live or work close to a council office, and who are mobile, it is a major barrier for those in more remote locations, or those who are less mobile, such as the disabled and the elderly. It is likely that these are some of the most disadvantaged in our communities.
-- Removal of the statutory declaration, and adoption of the online application process will… 
+- Removal of the statutory declaration, and adoption of the online application process will…
   - remove a substantial cost and inconvenience barrier for those who don’t live near a council office
   - enable people who are actually unable to travel to council offices to still apply for a rebate
   - allow the process to scale beyond the availability and capacity of council staff to witness signatures and support paper based applications
-- significantly reduce the costs of administering the scheme through the removal of manual tasks  
+- significantly reduce the costs of administering the scheme through the removal of manual tasks
 - support improvements to privacy within the application process. It is not practical to control or record who views information provided on paper. When applications are made online, there are opportunities to remove and/or audit council staff access to private information supplied in the application.
 
 ### 6. Produce insights informing other use cases with a similar customer profile
-- The Beta phase was focused on further refining the Alpha service based on further user research and feedback from ratepayers and three councils. The Rates Rebate Research Report documents insights from research based on a combination of customer interviews, council and stakeholder observations and conversations, online surveys and analytics analysis. 
+- The Beta phase was focused on further refining the Alpha service based on further user research and feedback from ratepayers and three councils. The Rates Rebate Research Report documents insights from research based on a combination of customer interviews, council and stakeholder observations and conversations, online surveys and analytics analysis.
 - The key insights from this report are:
   1. The system is too complex and multiple errors are occuring
   1. Seniors are more digitally capable than many assume
   1. Applicants are relinquishing control over to the council and authorities
   1. The current process is not accessible to people with disabilities
   1. Retirement village residents were well supported and have wrap around services
-  1. There is a significant appetite for various forms of automation 
+  1. There is a significant appetite for various forms of automation
   1. Eligible applicants are not applying because their personal data is not private
   1. The statutory declaration is a significant barrier to the completion of the process
   1. There is a need for human contact and support
@@ -237,16 +237,16 @@ Cost to process:
   1. Leverage the best channels for awareness and support
 - Many of these insights inform other use cases with a similar customer profiles. Rates Rebate is just one example of a service used by seniors. Two examples of insights which inform services beyond Rates Rebate are:
    - **Seniors are more digitally capable than many assume**
-Many superannuitants are using websites and apps to achieve a wide range of tasks. Three quarters of the superannuitants interviewed are interacting online and are digitally savvy. Facebook, Skype and emails are commonly used to connect friends and family. A large proportion use these applications for video calling, sharing photos, and sending messages. 
+Many superannuitants are using websites and apps to achieve a wide range of tasks. Three quarters of the superannuitants interviewed are interacting online and are digitally savvy. Facebook, Skype and emails are commonly used to connect friends and family. A large proportion use these applications for video calling, sharing photos, and sending messages.
   - **The current process is not accessible to people with disabilities**
 The applicants interviewed all used reading glasses and struggled to read the smaller text on the paper application form. If the application form is accessed as a downloadable pdf, it’s possible to enlarge the text, but the content doesn’t reflow into the screen, therefore comprehension is compromised. The downloadable pdf hasn’t been tagged with appropriate markup labels, therefore is not accessible to those using screen reader technology.
 
 ## Recommendations beyond beta
 Based on what was learned during the beta trial, we recommend the following areas be explored further:
 
-1. **Consider a substantial redesign of the paper application form and/or alternative ways to apply.** Ratepayers find the current paper application form confusing. This leads to forms often being completed incorrectly, or required fields left blank. Applicants often perceive the ‘rates’ and ‘income’ step as easy, yet will frequently get this information wrong. Accessibility is also a real problem. All of the applicants interviewed during or research used reading glasses and struggled to read the smaller text on the paper application form. 
+1. **Consider a substantial redesign of the paper application form and/or alternative ways to apply.** Ratepayers find the current paper application form confusing. This leads to forms often being completed incorrectly, or required fields left blank. Applicants often perceive the ‘rates’ and ‘income’ step as easy, yet will frequently get this information wrong. Accessibility is also a real problem. All of the applicants interviewed during or research used reading glasses and struggled to read the smaller text on the paper application form.
 There is more information about this in the Rates Rebate Beta Research Report (key insight #1 and #4 - with detail in Appendix 2).
-1. **Ensure councils understand their role in the application process, in particular with respect to the declaration and income.** Research conducted during the beta trial found there is a lack of clarity around the role council staff have in authenticating the proof of income. This can mean that the responsibility of verification frequently falls to the council staff member, rather than the ownership of the declaration staying with the applicant. 
+1. **Ensure councils understand their role in the application process, in particular with respect to the declaration and income.** Research conducted during the beta trial found there is a lack of clarity around the role council staff have in authenticating the proof of income. This can mean that the responsibility of verification frequently falls to the council staff member, rather than the ownership of the declaration staying with the applicant.
 The beta trial tested the removal of the need to supply evidence of income. This reduced the level of effort required by councils to process some applications. It also made it very clear whose responsibility it was to ensure the declaration of income was correct. We saw evidence during the trial which suggested that application details (including) were regularly being updated after declarations were being signed. This is clearly not good practice.
 There is more information about this in the Rates Rebate Beta Research Report (key insight #3).
 1. **Explore how the application forms might be pre-filled based on previous applications.** Results from surveys (29 of 33 respondents) and interviews indicate that the majority of applicants would prefer to have the form prefilled based on their previous application. Eligible ratepayers are surprised that they are required to fill in the form manually every year. This perplexes a lot of people as they find repeating the process of getting the information from separate government authorities inefficient and a waste of time. People’s circumstances don’t generally change each year, yet the same information is required every rating year.
@@ -254,7 +254,7 @@ There is more information about this in the Rates Rebate Beta Research Report (k
 1. **Conduct further research during the 19/20 rating year into how well the application process is working for retirement village residents.** Our research found that the experience of village residents who had applied in 18/19 was very positive, but we believe this is because local councils provided a high level of support in the first year, which is unlikely to be the case from the second year onwards.
 There is more information about this in the Rates Rebate Beta Research Report (key insight #5).
 1. **Leverage the high trust relationship built with the three councils involved in the trial to (co)design and implement simple, low cost (but high value) solutions.** These include:
- a. **Providing data exports for online applications which can be imported into council systems.** During the trial a basic example was implemented to solicit feedback from councils, but there wasn’t sufficient time to refine the solution. 
+ a. **Providing data exports for online applications which can be imported into council systems.** During the trial a basic example was implemented to solicit feedback from councils, but there wasn’t sufficient time to refine the solution.
  b. **Explore how to best extend the solution to support applicants who live in retirement villages.** A decision was made during the beta to focus on optimising the process for the majority of applicants, and not attempt to support retirement villages. A solution for retirement village residents (and in particular providing a solution to allow village administrators to submit the additional supplementary information) was explored during the trial, and is not expected to be particularly hard to fully design and implement.
  c. **Design a solution which provides guidance about the rebate the applicant can expect as part of the application process (rather than requiring applicants to use the calculator first).** An estimated value of the rebate likely to be received was removed from the alpha after feedback from councils suggested that the majority of applicants entered either their rates or their income values incorrectly, and may be put off completing their application if they saw an incorrect estimate displayed. Tauranga believe that this led to a number of unnecessary visits by applicants who were not eligible. We believe it is possible to design a solution which carefully communicates the rebate is an estimate - not putting off those struggling to get the figures correct from seeking help, but also preventing unnecessary trips by those clearly not eligible.
  d. Explore other small changes which will reduce back office processing effort for councils. Kāpiti were unable to process online applications together with paper applications during the trial which required additional management effort.
@@ -263,9 +263,9 @@ There is more information about this in the Rates Rebate Beta Research Report (k
 1. **Explore the value that could be provided by implementing a simple dashboard that gives senior council staff an overview of how many applications are at which stage of the workflow. Also explore whether providing this information to DIA, and an additional view across all councils would be valuable.** During the beta there was evidence to suggest that many problems occured in the paper process when applications were not processed in a timely fashion. The ability to monitor the workflow was highlighted by both councils and SDO as a desirable feature.
 1. **Implement improvements to the layout of the application batch files provided for DIA by the beta application.** While there were a number of refinements made to the batch file format based on feedback from the Service Delivery and Operations team, there are a simple improvements (such as better support for double sided printing) which could be easily implemented and make a big difference.
 1. **Replace the need to print and file paper copies of applications for 7 years with a digital alternative.** In the beta trial a solution was implemented which created application batch files which could be printed by Service Delivery and Operations direct from the secure application. This achieved the goal of avoiding the need for councils to print and then courier these batch files, while minimising any impact on the SDO team. There is an opportunity to explore existing digital solutions within DIA/government which meet the 7 year requirement for storage.
-1. **Implement a solution that supports the rejection of applications which have already been lodged in eRMS.** The process for paper applications currently involves rejecting a claim in eRMS, and then returning the form to the council to have the application amended, resigned, and submitted in a new batch. The equivalent process has not yet been implemented in the beta. 
+1. **Implement a solution that supports the rejection of applications which have already been lodged in eRMS.** The process for paper applications currently involves rejecting a claim in eRMS, and then returning the form to the council to have the application amended, resigned, and submitted in a new batch. The equivalent process has not yet been implemented in the beta.
 1. **Explore whether introducing rules-based auditing (in addition to the current audit process) would make the process more robust.** In the beta applicants weren’t required to supply evidence of income. If they declared income under $5,000 they were asked to supply a reason. Rules/triggers (e.g. declared less than $5,000 income) which prompt further information to be requested in certain cases may be an opportunity to make the process more robust while keeping most applications lean.
-1. **Measure the improvements to the DIA part of the process as a result of a move from paper on online applications. Explore further opportunities to reduce costs.** Improvements to data quality through the elimination of errors when interpreting handwriting, and during keying in applications, will reduce issues for DIA as well as councils. Reducing the number of applications couriered should also reduce effort. Greater visibility of council workflows is likely to increase the ability to capacity plan, and reduce peaks and troughs. This value should be measured, and optimised.   
+1. **Measure the improvements to the DIA part of the process as a result of a move from paper on online applications. Explore further opportunities to reduce costs.** Improvements to data quality through the elimination of errors when interpreting handwriting, and during keying in applications, will reduce issues for DIA as well as councils. Reducing the number of applications couriered should also reduce effort. Greater visibility of council workflows is likely to increase the ability to capacity plan, and reduce peaks and troughs. This value should be measured, and optimised.
 1. **Work with Inland Revenue and Ministry of Social Development to allow for consented income testing to make it easier for applicants to prove their income.** Despite applicants often perceiving the ‘rates’ and ‘income’ step as easy, it is known that they frequently get this information wrong. The beta used rates information supplied by councils to remove errors with rates information, this left income as the major pain point.
 1. **Work with other agencies such as Ministry of Social Development to integrate the rates rebate application into applications for other services.** The product owner of MyMSD was engaged during the beta trial and there was interest in working together to paper prototype potential solutions.
-1. **Translate the online application form into other languages, and provide the option online to choose a language.** Councils identified that they had applicants who had low levels of fluency in English and found applying difficult. It was common for the council teams to find a workmate who spoke the language and could deal with these applications, and also for these staff to move on leaving the teams unable to deal with applicants with low English fluency. 
+1. **Translate the online application form into other languages, and provide the option online to choose a language.** Councils identified that they had applicants who had low levels of fluency in English and found applying difficult. It was common for the council teams to find a workmate who spoke the language and could deal with these applications, and also for these staff to move on leaving the teams unable to deal with applicants with low English fluency.
