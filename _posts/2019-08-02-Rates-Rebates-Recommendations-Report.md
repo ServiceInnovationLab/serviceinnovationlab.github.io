@@ -2,7 +2,7 @@
 title:Recommendations Report
 date: 2019-08-02
 authors:
-  - Service Innovation Lab
+  - glen-thurston
 tags:
   - blog post
   - open source
