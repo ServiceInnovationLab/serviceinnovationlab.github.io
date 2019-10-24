@@ -1,8 +1,8 @@
 ---
-title: Service Innovation Lab - shaping government services around entry to adulthood 
+title: Service Innovation Lab - Shaping government services around entry to adulthood 
 date: 2019-06-12
 authors:
-  - Matt-McCallum
+  - matthew-mccallum
 tags:
   - blog post
   - life events
@@ -29,6 +29,7 @@ Part of this was to test our new measurement framework to better understand what
 
 The project team comprises a product owner, 4 service designers and a scrum master, and the work was undertaken over 12 weeks.
 With a limited timeframe to complete the research the team used the following approach:
+
 - Semi-structured interviews 1.5 hours long with tailored activities around control and independence, identity and online behaviour.
 - Desk research on emerging trends, literature review and analysis, and testing of existing services.
 - Connected with identity experts and projects across government.
