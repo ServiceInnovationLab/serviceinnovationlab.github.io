@@ -130,7 +130,7 @@ Once we had gathered all the data, we went through multiple steps of analysis an
 5. Support the case to remove the statutory declaration (witnessed signature) requirement
 6. Reuse these insights for other use cases that have similar customer profiles
 
-This report was produced in parallel with the [Rates Rebates Beta Recommendations Report](2019/08/02/Rates-Rebates-Recommendations-Report/) which documents the key results of the trial, presents options for next steps, and makes a set of recommendations.
+This report was produced in parallel with the [Rates Rebates Beta Recommendations Report](/2019/08/02/Rates-Rebates-Recommendations-Report/) which documents the key results of the trial, presents options for next steps, and makes a set of recommendations.
 
 ---
 
