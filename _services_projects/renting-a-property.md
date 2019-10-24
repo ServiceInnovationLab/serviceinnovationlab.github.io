@@ -14,4 +14,7 @@ github_repo:
 project_url: "[]()"
 quote:
 media:
+report:
+  - "[Understanding how better relationships support better rentals](/2019/01/28/renting-a-property-understanding-how-better-relationships-support-better-rentals)"
+  - "[Renting a property continuing our-discovery](/2019/01/30/renting-a-property-continuing-our-discovery)"
 ---
