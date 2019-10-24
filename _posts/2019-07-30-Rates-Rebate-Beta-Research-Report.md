@@ -178,7 +178,7 @@ Applicants are passing over control of their application to council and authorit
 
 > Councils inform us that applicants often leave required fields or entire application form empty, and trust that council staff will enter or edit details correctly on their behalf. Although the applicants are signing the statutory declaration, they are doing so because they have a high level of trust in the decisions made by their local council staff.
 
-The application process is often seen as being complicated, so applicants often allow council to guide them through the application, and make suggested inputs and changes. There is a lack of clarity around the role council staff have in authenticating the proof of income. This can mean that the responsibility of verification frequently falls to the council staff member, rather than the ownership of the declaration staying with the applicant. There are some applicants who will leave a large folder with documentation, expecting the council to check complex account details. 
+The application process is often seen as being complicated, so applicants often allow council to guide them through the application, and make suggested inputs and changes. There is a lack of clarity around the role council staff have in authenticating the proof of income. This can mean that the responsibility of verification frequently falls to the council staff member, rather than the ownership of the declaration staying with the applicant. There are some applicants who will leave a large folder with documentation, expecting the council to check complex account details.
 
 We have heard from these customers that they need financial security, freedom, and to be in control of decision making. They like to track what has been done and when, and keep a paper trail of the process. This contrasts with the ease in which they are handing control over to other entities and authorities.
 
@@ -204,7 +204,7 @@ The process of Rates Rebate is complex and the wording confusing, and full of go
 
 Dexterity is impacted and a large proportion of applicants have difficulty writing their details on the form, and the process of signing their signature can be challenging and demeaning. The paper form requires the applicant to repeat a lot of the same information.
 
-> “Sorry, my fingers don’t work very well” 
+> “Sorry, my fingers don’t work very well”
 
 The requirement to physically present to council to sign the declaration can be impossible for people with mobility challenges without getting help from others. This is acknowledged as the most significant barrier to completion. At busy times in the rating year, the applicant will need to stand in a queue while waiting to have their application processed.
 
@@ -236,7 +236,7 @@ There is a significant appetite for automation.
 
 Eligible ratepayers are surprised that they are required to fill in the form manually every year. This perplexes a lot of people as they find repeating the process of getting the information from separate government authorities inefficient and a waste of time. People’s circumstances don’t generally change each year, yet the same information is required every rating year. 
 
-While some people kept documents in a folder for easy reference, other applicants lost documentation altogether. This meant that applicants would need to contact Work and Income, Inland Revenue and banking institutions to get documentation for proof of income. There were instances of applicants receiving the wrong information or advice at this step, and either giving up or missing the application date altogether. 
+While some people kept documents in a folder for easy reference, other applicants lost documentation altogether. This meant that applicants would need to contact Work and Income, Inland Revenue and banking institutions to get documentation for proof of income. There were instances of applicants receiving the wrong information or advice at this step, and either giving up or missing the application date altogether.
 
 Dates are difficult to understand and people struggle to remember how they did the process previously. Applicants frequently reapply within the same rating year, not realising they have already applied, and turn up unnecessarily to the council. Some applicants don’t remember to apply from year to year and need to be reminded by their council.
 
@@ -270,7 +270,7 @@ The statutory declaration is a significant barrier to the completion of the proc
 
 > The current statutory declaration requires the applicant to be physically present at the council office or other stated authority to sign and witness their application. This adds financial cost of travel, stress for those with declining mobility or those who are embarrassed to apply for a benefit style payment in a smaller community.
 
-Older customers are more likely to have age onset disabilities that make it difficult for them to get out and about to be able to sign for the Rates Rebate. For those able to drive, finding parking close to council offices can be challenging, as can getting to the council during business hours. There are applicants who are unable to drive and rely on others, or incur the cost of a taxi. Some applicants need a support person with them, and need help with interpreting and understanding the process. Some are unable to walk or stand for long periods of time, housebound or hospitalised. Some applicants are the caregiver for their partner, and they need to arrange additional care for their partner, while they visit the council to sign the form. 
+Older customers are more likely to have age onset disabilities that make it difficult for them to get out and about to be able to sign for the Rates Rebate. For those able to drive, finding parking close to council offices can be challenging, as can getting to the council during business hours. There are applicants who are unable to drive and rely on others, or incur the cost of a taxi. Some applicants need a support person with them, and need help with interpreting and understanding the process. Some are unable to walk or stand for long periods of time, housebound or hospitalised. Some applicants are the caregiver for their partner, and they need to arrange additional care for their partner, while they visit the council to sign the form.
 
 Some applicants have mental health issues and can only come into Council on a ‘good day’. The good days can take some work, and add to the overall stress for applicants. Some can react and become volatile, and can put the council staff at risk. Some applicants can have high anxiety and can be too scared to leave the house.
 
@@ -302,9 +302,9 @@ There is a need for human contact and support.
 
 Customers often call Council or Citizens Advice Bureau to ask ‘How do I start?’. They want to talk to someone to understand clearly and easily what they need to do. People who are really marginalised and needing help often just need to talk to someone in person.
 
-A complex system can be better delivered as an automated process, however automation can also bring gaps and oversights in the system. This can lead to individuals dropping out of the system. Our research surfaced an example of an individual who missed getting a Community Service Card because of an error made through the IRD system miscalculating income. This meant eligibility for other services and support was denied. 
+A complex system can be better delivered as an automated process, however automation can also bring gaps and oversights in the system. This can lead to individuals dropping out of the system. Our research surfaced an example of an individual who missed getting a Community Service Card because of an error made through the IRD system miscalculating income. This meant eligibility for other services and support was denied.
 
-While the bulk of Rates Rebate applications can be processed with an automated approach, there is still a need for the system to build in human effort for the edge cases or enquiries. The skills of the service centres can adequately provide customers with the support they need. In this way the process can prioritise meaningful human interactions. 
+While the bulk of Rates Rebate applications can be processed with an automated approach, there is still a need for the system to build in human effort for the edge cases or enquiries. The skills of the service centres can adequately provide customers with the support they need. In this way the process can prioritise meaningful human interactions.
 
 One of the council service centres is in the process of installing kiosks to support those customers wishing to self serve a transaction. A concierge service directs people to the service they require, and can answer their questions. If they are there for an enquiry they can go talk to one of the staff. If they really want a human to do their transaction for them that’s ok too, they may just need to stand in a queue.
 
@@ -334,7 +334,7 @@ Leverage the best channels for awareness and support.
 
 > One of the biggest barriers to applying is that ratepayers don’t know about Rates Rebates and that they may be eligible. Various channels used by this audience can be leveraged to raise awareness and support the application process.
 
-The research identified common groups, organisations and entities that could be used to support information, communication and other assistance for these customers. 
+The research identified common groups, organisations and entities that could be used to support information, communication and other assistance for these customers.
 
 Spending time with friends and family rated highly, and we also learned that social groups are already are the most common way that people hear about Rates Rebate. Council and Libraries were also identified as effective channels for reaching the target audience.
 
@@ -378,7 +378,7 @@ The following questions about automation were asked via two online surveys, and 
 
 There was less interest in sharing information from government agencies, than having the form automatically prefilled based on the previous years application. Some of the reasons why applicants chose ‘No’ to this option were:
 
-- Previous system errors with agencies had impacted their eligibility for other entitlements 
+- Previous system errors with agencies had impacted their eligibility for other entitlements
 - Didn’t understand how Ministry Social Development were relevant to them
 - Couldn’t understand how this could be automated
 - Didn’t think Inland Revenue was relevant because they didn’t earn any income
