@@ -20,7 +20,7 @@ The Service Innovation Lab invited three councils (Tauranga City Council, Hutt C
 
 Evidence gathered during the beta trial supported the observation during the Alpha phase that an optimised online application form takes just 4 minutes to complete on average, compared to 25 minutes for the paper form. Feedback from councils supported evidence gathered via observation that the online application was considered much easier for applicants to complete.
 
-The beta dramatically reduced per transaction costs for councils, completely eliminating the need to courier paper applications between councils and the DIA. Councils have communicated their intention to actively promote the online option (if it proceeds beyond beta) based on the improved experience for applicants (and lower processing costs).
+The beta dramatically reduced per-transaction costs for councils, eliminating the need to courier paper applications between councils and the DIA. Councils have communicated their intention to actively promote the online option (if it proceeds beyond beta) based on the improved experience for applicants (and lower processing costs).
 
 The statutory declaration remains the single biggest barrier preventing large scale adoption of an online application process (as well as a significant barrier to those applying on paper). Removing the statutory declaration removes the requirement to visit a council to submit an application. A [paper](https://docs.google.com/document/d/11gccvNrVD4PnfvMZwgwHEO4M5UQmRvjbpTZjBVA1lD8/edit?usp=sharing) was written to support the case for this change during the beta phase. If the case for change is supported, this requirement could be removed by June 2020.
 
