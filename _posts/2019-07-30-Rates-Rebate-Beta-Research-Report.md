@@ -20,12 +20,12 @@ The research was conducted throughout the Beta project from February to June 201
 
 ### Key insights
 
-1. [The system is too complex and multiple errors are occuring](#Go-to-KeyInsight-1)
+1. [The system is too complex and multiple errors are occuring](#Go-to-KeyInsight-1)<a name="Go-to-KeyInsight-2"></a>
 2. [Seniors are more digitally capable than many assume](#Go-to-KeyInsight-2)
 3. [Applicants are relinquishing control over to the council and authorities](#Go-to-KeyInsight-3)
 4. [The current process is not accessible to people with disabilities](#Go-to-KeyInsight-4)
 5. [Retirement village residents were well supported and have wrap around services](#Go-to-KeyInsight-5)
-6. [There is a significant appetite for various forms of automation](#Go-to-KeyInsighs-6)
+6. [There is a significant appetite for various forms of automation](#Go-to-KeyInsight-6)
 7. [Eligible applicants are not applying because their personal data is not private](#Go-to-KeyInsight-7)
 8. [The statutory declaration is a significant barrier to the completion of the process](#Go-to-KeyInsight-8)
 9. [There is a need for human contact and support](#Go-to-KeyInsight-9)
@@ -56,7 +56,7 @@ The research has helped us understand this audience segment and their trust and 
 
 We’ve identified the friction with processing retirement village applications through the councils, and the current work arounds, and foresee a reduction in uptake across retirement villages in the next rating year. This is something that can be integrated and improved with future iterations of Rates Rebate online.
 
-## Background
+## Background<a name="Go-to-Background"></a>
 
 ### What is Rates Rebate
 
@@ -78,7 +78,7 @@ The Lab produced and tested an Alpha prototype with Tauranga City Council betwee
 
 The Beta phase focused on further refining the service based on further user research and feedback from ratepayers and three councils. This report is a summary of the research findings with applicants and council staff.
 
-## Methods
+## Methods<a name="Go-to-MethodsandOutputs"></a>
 
 ### Research Questions
 
@@ -158,7 +158,7 @@ Seniors are more digitally capable than many assume.
 
 > Superannuitants are using websites and apps to achieve a wide range of tasks. There is high use of PCs, laptops, tablets and mobile phones in this demographic. Interaction online allows the applicants to apply in their own time and at their own pace. The barrier identified is access to the hardware and internet services rather than the ability to use digital systems.
 
-Three quarters of the superannuitants interviewed are interacting online and are digitally savvy. Facebook, Skype and emails are commonly used to connect friends and family. A large proportion use these applications for video calling, sharing photos, and sending messages. 
+Three quarters of the superannuitants interviewed are interacting online and are digitally savvy. Facebook, Skype and emails are commonly used to connect friends and family. A large proportion use these applications for video calling, sharing photos, and sending messages.
 
 Google is used for searching and map locations. Appointments, sports games and holiday accommodation were booked online. Tracking apps were used to measure fitness and performance in walking and golf. Purchases were made through Trademe and Amazon. Ancestry was also used to explore and track genealogy. Various surveys, competitions and special offers were completed online.
 
@@ -170,7 +170,7 @@ Google is used for searching and map locations. Appointments, sports games and h
 
 Online banking is popular, but this demographic were also very wary of sharing their bank details online due to a lot of publicity about scamming. Retirement village residents have no problem writing their bank account details on the paper declaration form for the application process. This is because there is a high level of trust that authorities will keep their information safe. Further testing will be needed to investigate comfort levels if bank account details are required for the online process, when village residents are applying for a refund.
 
-Financial constraints were stated as a barrier to either replacing technology that had stopped working, or buying a new mobile phone or tablet. The main requirements of using digital devices and systems is that it needs to be easy, and the users need to be in control. 
+Financial constraints were stated as a barrier to either replacing technology that had stopped working, or buying a new mobile phone or tablet. The main requirements of using digital devices and systems is that it needs to be easy, and the users need to be in control.
 
 ## Key insight #3<a name="Go-to-KeyInsight-3"></a>
 
@@ -388,7 +388,7 @@ There was less interest in sharing information from government agencies, than ha
 
 ## Appendix #2
 
-### Completing the paper application form
+### Completing the paper application form<a name="Go-to-CompletingPaperForm"></a>
 
 As part of the interview process we observed the nine applicants filling in the 2018/2019 Rates Rebate paper application form. We asked them to talk about what they found challenging as they were going through the process. Overall, applicants found the size of the text too small and difficult to read. A lot of information and instruction was skim read but not absorbed.
 
@@ -443,11 +443,11 @@ As part of the interview process we observed the nine applicants filling in the 
 
 ## Appendix #3
 
-### Frequently used channels
+### Frequently used channels<a name="Go-to-FrequentlyUsedChannels"></a>
 
 One of the biggest barriers to applying is that ratepayers don’t know about Rates Rebates and that they may be eligible. As part of our research we asked questions to inform how we might better raise awareness.
 
-Some of the research surfaced common groups, organisations and entities that could be used to support information, communication and other assistance for these customers. 
+Some of the research surfaced common groups, organisations and entities that could be used to support information, communication and other assistance for these customers.
 
 ### What keeps you busy
 
