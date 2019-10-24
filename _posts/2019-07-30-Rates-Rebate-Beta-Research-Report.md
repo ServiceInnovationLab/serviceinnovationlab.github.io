@@ -234,7 +234,7 @@ There is a significant appetite for automation.
 
 > Results from surveys and interviews indicate that the majority of applicants would prefer to have the form prefilled based on their previous application. There was a significant appetite for allowing government departments to share their data and assumed this is already happening.
 
-Eligible ratepayers are surprised that they are required to fill in the form manually every year. This perplexes a lot of people as they find repeating the process of getting the information from separate government authorities inefficient and a waste of time. People’s circumstances don’t generally change each year, yet the same information is required every rating year. 
+Eligible ratepayers are surprised that they are required to fill in the form manually every year. This perplexes a lot of people as they find repeating the process of getting the information from separate government authorities inefficient and a waste of time. People’s circumstances don’t generally change each year, yet the same information is required every rating year.
 
 While some people kept documents in a folder for easy reference, other applicants lost documentation altogether. This meant that applicants would need to contact Work and Income, Inland Revenue and banking institutions to get documentation for proof of income. There were instances of applicants receiving the wrong information or advice at this step, and either giving up or missing the application date altogether.
 
