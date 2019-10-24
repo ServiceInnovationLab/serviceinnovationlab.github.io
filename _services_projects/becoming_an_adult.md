@@ -7,7 +7,6 @@ excerpt: Becoming an adult in New Zealand looks very different for each person a
 image: /assets/img/projects/becoming-an-adult.png
 image_accessibility: Becoming an adult.
 expiration_date: 2019-06-01
-external_url: https://github.com/ServiceInnovationLab/
 external_link_title: Github
 media:
 resources:
