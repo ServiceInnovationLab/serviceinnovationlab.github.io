@@ -1,4 +1,4 @@
-.scrollToTopBtn {
+#scrollToTopBtn {
   display: none;
   position: fixed;
   bottom: 20px;
@@ -22,7 +22,7 @@
   }
 }
 
-.scrollToTopBtn:hover {
+#scrollToTopBtn:hover {
   background-color: $color-inverse;
   color: $color-bright;
   border: 2px solid $color-bright;
