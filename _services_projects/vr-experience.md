@@ -1,9 +1,9 @@
 ---
 agency: Service Innovation Lab
 title: VR Tools - Exploring Online Social Norms
-subtitle: Using VR to explore ...
+subtitle: Using VR to explore the topic of current digital social norms using online hate speech as a focus.
 permalink: /projects/vr-experience/
-excerpt: Using VR to explore ...
+excerpt: Using VR to explore the topic of current digital social norms using online hate speech as a focus.
 image: /assets/img/projects/vr-tools.png
 image_accessibility: The computer screen content of a person engaged in online hate speech.
 media: "[YouTube - Online Social Norms VR](https://www.youtube.com/watch?v=pUIPbUMwqHg)"
