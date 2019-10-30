@@ -51,7 +51,7 @@ The councils involved in the trial have enthusiastically requested that the tria
 
 The Rates Rebates Online Beta was designed to meet the needs of ratepayers, councils, and the DIA Rates Rebates team. It was built based on the findings of a Discovery and Alpha phase.
 
-In the Discovery phase the Rates Rebates service was mapped and reviewed, internal and external stakeholders were interviewed, and potential methods of service delivery were explored. The discovery revealed many opportunities at the system level to improve the experience for both the people applying for their entitlement and people delivering the service.
+In the Discovery phase we mapped and reviewed the existing Rates Rebates delivery system. We interviewed internal and external stakeholders, and explored potential methods of service delivery. The discovery revealed many opportunities at the system level to improve the experience for both the people applying for their entitlement and people delivering the service.
 
 In the Alpha phase, a minimum viable product (MVP) was designed and developed, and trialled in Tauranga from 21 May—30 September 2018 with Tauranga City Council. The alpha was focused on testing system changes. Tauranga City Council, Auckland Council were involved with assisting with the design and test of the alpha and numerous other councils watched progress closely. The Alpha proved to be of high value to ratepayers and Councils, and successfully tested a fully digital and user centred end to end rates rebate process. The solution was developed using open source software, and the project won the Award for Open Source Use in Government for 2018.
 
