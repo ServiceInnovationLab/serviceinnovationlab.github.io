@@ -49,7 +49,7 @@ The councils involved in the trial have enthusiastically requested that the tria
 
 ## Background
 
-The Rates Rebates Online Beta was designed to meet the needs of ratepayers, Councils, and the DIA Rates Rebates team. It was built based on the findings of a Discovery and Alpha phase.
+The Rates Rebates Online Beta was designed to meet the needs of ratepayers, councils, and the DIA Rates Rebates team. It was built based on the findings of a Discovery and Alpha phase.
 
 In the Discovery phase the Rates Rebates service was mapped and reviewed, internal and external stakeholders were interviewed, and potential methods of service delivery were explored. The discovery revealed many opportunities at the system level to improve the experience for both the people applying for their entitlement and people delivering the service.
 
