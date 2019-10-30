@@ -67,6 +67,5 @@ A primer template has been created and an example AI Primer can be found in the 
 **Disruption**
 Work into understanding how disruptive the technology listed in the landscape is to the current environment should be investigated. This should be visualised on the landscape itself, and integrating disruption into the Primer.
 
-
 *Author
 Deshan Gamage, GovTech Talent Graduate - Service Innovation*
