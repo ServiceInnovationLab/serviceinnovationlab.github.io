@@ -13,7 +13,6 @@ excerpt: ""
 
 ## Overview
 
-
 Emerging technologies are set to disrupt a number of government processes and services, alongside citizens engagement with government and the services they offer. The EmTech 20-year landscape is a piece of ongoing research, that’s intended to help people working in government understand the types, forms, connections and impacts of these different technologies and the challenges and opportunities posed by developments in the EmTech space. The outcome of having this consistently evolving landscape is that people working in these spaces can better understand how emerging technologies are relevant to their work, and use this to inform their decisions.
 
 The diagram displays a time scale of “Current”, “0 to 5 years”, “5 to 10 years” and “10 to 20 years” on the vertical axis and 13 categories of emerging technology along the horizontal access. The 13 categories of emerging technology are: cloud computing, big data/analytics, encryption/privacy, internet of things, spatial computing, artificial intelligence tools, artificial intelligence applications, robotics/production, autonomous agents, symbiotic application, bio-tech and quantum computing. Categories are laid out from left to right, with cloud computing being furthest left, and quantum computing being furthest right. The cards underneath each category display the specific technology which falls under the category listed in one of the 13 columns.
