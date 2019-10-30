@@ -4,11 +4,11 @@ date: 2019-06-12
 authors:
   - matthew-mccallum
 tags:
-  - blog post
-  - life events
-  - government services
   - agency engagement
+  - blog post
   - digital identity
+  - government services
+  - life events
 ---
 
 Becoming an adult is a key time when people begin to interact with government in new ways as they make significant decisions about their lives. During this period, young adults are not only defining who they are and what they care about, but they may also be entering tertiary study or further training, becoming a parent, getting a job, leaving home, moving to another region or going overseas.

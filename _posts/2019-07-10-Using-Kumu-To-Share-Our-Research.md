@@ -5,6 +5,7 @@ authors:
   - matthew-mccallum
 tags:
   - better public services
+excerpt: ""
 ---
 The Service Innovation Lab  often undertakes design research into topics that impact multiple agencies and the teams within them. That means it’s important to share our learnings in a way that supports a number of work streams and potentially reduces the need for repeat user research.
 
