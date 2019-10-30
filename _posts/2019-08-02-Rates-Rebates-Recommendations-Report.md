@@ -83,7 +83,7 @@ The majority of customers are over 65 and/or living with a disability. In the 20
 
 ## Applications submitted during the trial
 
-The beta was run during the quiet June period directly following the normal “reminder” sent out by councils before the end of the financial year. Council’s indicated that this timing would work well because staff would be available to collaborate, co-design, and test improvements to the application and process. This worked well, with the design team able to work closely with both frontline and back office staff to observe processes and current practice. Council staff were also available during a two week period of user acceptance testing, which was important (we had received feedback from Tauranga that insufficient time had been allowed for user acceptance testing in the Alpha).
+We choose to run the beta during the quiet June period directly following the normal “reminder” sent out by councils before the end of the financial year. Councils indicated that this timing would work well because staff would be available to collaborate, co-design, and test improvements to the application and process. This worked well, with the design team able to work closely with both frontline and back office staff to observe processes and current practice. Council staff were also available during a two week period of user acceptance testing, which was important (we had received feedback from Tauranga that insufficient time had been allowed for user acceptance testing in the Alpha).
 
 Running the trial in the June period also meant that only a low number of applications were expected to be received and processed (this turned out to be the case).
 
