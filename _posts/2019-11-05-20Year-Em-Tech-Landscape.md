@@ -13,7 +13,6 @@ excerpt: ""
 
 ## Overview
 
-*Led by Hazel Bradshaw, Emerging Tech Lead - Service Innovation Lab*
 
 Emerging technologies are set to disrupt a number of government processes and services, alongside citizens engagement with government and the services they offer. The EmTech 20-year landscape is a piece of ongoing research, that’s intended to help people working in government understand the types, forms, connections and impacts of these different technologies and the challenges and opportunities posed by developments in the EmTech space. The outcome of having this consistently evolving landscape is that people working in these spaces can better understand how emerging technologies are relevant to their work, and use this to inform their decisions.
 
