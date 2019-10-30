@@ -7,7 +7,7 @@ tags:
   - blog post
   - open source
   - rates rebate
-  - Te Whakamāmā i ngā Reiti
+  - te whakamāmā i ngā reiti
 excerpt: "Following a successful Alpha phase in May and September 2018, the Rates Rebate beta trial was run in June and July 2019 by a team with members from Service Delivery and Operations team within DIA, Government Information Services, and the Service Innovation Lab. This was in collaboration with Tauranga City Council, Hutt City Council, and Kāpiti Coast District Council"
 ---
 ## Executive Summary
