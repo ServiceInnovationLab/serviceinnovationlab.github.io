@@ -10,6 +10,8 @@ navbar:
       - /projects/:path/
   - text: Tools
     permalink: /tools/
+  - text: Reports
+    permalink: /blog/
   - text: Team
     permalink: /team/
   - text: Contact
@@ -26,6 +28,8 @@ drawer:
       - /projects/:path/
   - text: Tools
     permalink: /tools/
+  - text: Reports
+    permalink: /blog/
   - text: Team
     permalink: /team/
   - text: Contact
