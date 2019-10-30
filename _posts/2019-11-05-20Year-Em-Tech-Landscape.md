@@ -23,6 +23,7 @@ The landscape can be found here.
 A detailed description of the Emerging Technology Landscape can be found here.
 
 ### How the Landscape was constructed
+
 The selected technologies and their positioning on the landscape has been informed by research and shaped by consultation with other emerging tech leaders engaged through participation in forums.  The landscape was constructed by applying a governmental lens which enables a better digital public service.
 These sources include:
 
