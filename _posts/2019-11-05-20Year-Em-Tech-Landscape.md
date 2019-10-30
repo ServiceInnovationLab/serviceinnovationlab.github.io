@@ -19,7 +19,7 @@ The diagram displays a time scale of “Current”, “0 to 5 years”, “5 to 
 
 It is worth noting that this landscape projects details up to the use and release of Quantum Computing as the possibilities of the technology being ubiquitously used, will more than likely change the entire landscape.
 
-The landscape can be found here. 
+The landscape can be found here.
 A detailed description of the Emerging Technology Landscape can be found here.
 
 ### How the Landscape was constructed
