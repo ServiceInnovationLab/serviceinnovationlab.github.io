@@ -1,7 +1,7 @@
 ---
 agency: Service Innovation Lab
 title: VR Tools - Exploring Online Social Norms
-subtitle:
+subtitle: Our Virtual Reality tool explores the topic of current digital social norms using online hate speech as a focus.
 permalink: /projects/vr-experience/
 excerpt: Using VR to explore the topic of current digital social norms using online hate speech as a focus.
 image: /assets/img/projects/vr-tools.png
@@ -10,9 +10,8 @@ media: "[YouTube - Online Social Norms VR](https://www.youtube.com/watch?v=pUIPb
 resources:
 github_repo: "[VR-Digital-social-norms-wiki](https://github.com/ServiceInnovationLab/VR-Digital-social-norms/wiki)"
 ---
+<br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pUIPbUMwqHg" title="Online Social Norms VR" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-Our Virtual Reality tool explores the topic of current digital social norms using online hate speech as a focus.
 
 We wanted to understand how technology (in this case, VR) might be used to explore factors that drive disruptive digital behaviours, the social impacts of these behaviours, and how to ensure safe environments so that all New Zealanders are able to participate in, contribute to and benefit from the digital world.
 
