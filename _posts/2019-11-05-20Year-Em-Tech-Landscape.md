@@ -37,6 +37,7 @@ These sources include:
 ### Technology to focus on
 
 With such a vast array of technology in the landscape the lab has seven key areas of technology that should have a high priority focus.
+
 - Artificial Intelligence
 - Spatial Computing
 - Encryption
