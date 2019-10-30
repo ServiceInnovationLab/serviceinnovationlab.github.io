@@ -17,7 +17,7 @@ Emerging technologies are set to disrupt a number of government processes and se
 
 The diagram displays a time scale of “Current”, “0 to 5 years”, “5 to 10 years” and “10 to 20 years” on the vertical axis and 13 categories of emerging technology along the horizontal access. The 13 categories of emerging technology are: cloud computing, big data/analytics, encryption/privacy, internet of things, spatial computing, artificial intelligence tools, artificial intelligence applications, robotics/production, autonomous agents, symbiotic application, bio-tech and quantum computing. Categories are laid out from left to right, with cloud computing being furthest left, and quantum computing being furthest right. The cards underneath each category display the specific technology which falls under the category listed in one of the 13 columns. 
 
-It is worth noting that this landscape projects details up to the use and release of Quantum Computing as the possibilities of the technology being ubiquitously used, will more than likely change the entire landscape. 
+It is worth noting that this landscape projects details up to the use and release of Quantum Computing as the possibilities of the technology being ubiquitously used, will more than likely change the entire landscape.
 
 The landscape can be found here. 
 A detailed description of the Emerging Technology Landscape can be found here.
