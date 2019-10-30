@@ -39,7 +39,8 @@ When we shared this, there was excitement at seeing this type of data presented 
 
 ## Becoming an Adult data in Kumu demo
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nG3EQd686Pc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nG3EQd686Pc" title=
+"Becoming an adult data in Kumu demo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <figcaption>This video shows how Kumu was used to visualise the qualitative data collected as part of the Becoming an Adult research discovery. This was an experiment in sharing research across teams designing and developing identity services in government.</figcaption>
 If you have questions or would like to know more about Kumu or insights from the Becoming an Adult project, please contact the Service Innovation Lab
 
