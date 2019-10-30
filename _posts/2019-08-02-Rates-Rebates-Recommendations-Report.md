@@ -103,7 +103,7 @@ The Rates Rebate Beta was designed to help people to identify their eligibility 
 
 The trial also further explored how uptake of the scheme could increased. The need to raise awareness of the scheme was identified in the Discovery and Alpha phase, and had recently prompted the DIA to write to the Royal New Zealand Returned and Services Association, Grey Power and the Citizens Advice Bureau in about eligibility and how to apply.
 
-While integration between council and DIA systems was known to be a pain point, it was agreed with Service Delivery and Operations that this was not in scope for the trial.
+Integration between council and DIA systems was a pain point. We agreed with Service Delivery and Operations that this was not in scope for the trial.
 
 In particular, the beta was designed to:
 
