@@ -52,7 +52,7 @@ This is a piece of work that has the potential to expand and develop.
 Possible future work could be:
 
 **Application of different lenses**
-Applying different lenses onto this landscape will most likely see the landscape change. An example of another lens would be that of digital inclusion, which would identify technology that could ensure a more equitable digital environment for all. 
+Applying different lenses onto this landscape will most likely see the landscape change. An example of another lens would be that of digital inclusion, which would identify technology that could ensure a more equitable digital environment for all.
 
 **Workshops with external partners** 
 To help broaden the technologies represented in the landscape engaging with both other government agencies and various private sector organisations would she light into what developing trends there are within New Zealand.
