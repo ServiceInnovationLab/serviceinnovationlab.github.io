@@ -61,7 +61,7 @@ To help broaden the technologies represented in the landscape engaging with both
 The landscape can be developed to be more interactive and more interconnected. Development of interactive cards of the landscape which display definitions of the technology could be developed.
 Furthermore development of visualisation connections to show dependencies of technology to other technology could be introduced. 
 
-**Primer per category** 
+**Primer per category**
 A primer template has been created and an example AI Primer can be found in the resources. A primer can be utilised to further explain the categories at the top of the landscape in relation to what it is, examples of it and other details listed in the template.
 
 **Disruption**
