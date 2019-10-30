@@ -55,7 +55,7 @@ Possible future work could be:
 Applying different lenses onto this landscape will most likely see the landscape change. An example of another lens would be that of digital inclusion, which would identify technology that could ensure a more equitable digital environment for all. 
 
 **Workshops with external partners** 
-To help broaden the technologies represented in the landscape engaging with both other government agencies and various private sector organisations would she light into what developing trends there are within New Zealand. 
+To help broaden the technologies represented in the landscape engaging with both other government agencies and various private sector organisations would she light into what developing trends there are within New Zealand.
 
 **Landscape visualisation development** 
 The landscape can be developed to be more interactive and more interconnected. Development of interactive cards of the landscape which display definitions of the technology could be developed. 
