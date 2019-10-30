@@ -99,7 +99,7 @@ Running the trial in the June period also meant that only a low number of applic
 
 ## Expected benefits
 
-The Rates Rebate Beta was designed to help people to identify their eligibility and then apply for the rebate with less effort and stress. It was also designed to simplify service delivery for the council from [the current very manual and paper heavy process](https://www.digital.govt.nz/blog/rates-rebates-discovery-week-2-mapping-pain-points/) to a significantly simpler, faster (and digital) service.
+We expected the Rates Rebate Beta beta app to help people identify their eligibility and then apply for the rebate with less effort and stress. It was also designed to simplify service delivery for the council from [the current very manual and paper-heavy process](https://www.digital.govt.nz/blog/rates-rebates-discovery-week-2-mapping-pain-points/) to a significantly simpler, faster (and digital) service.
 
 The trial also further explored how uptake of the scheme could increased. The need to raise awareness of the scheme was identified in the Discovery and Alpha phase, and had recently prompted the DIA to write to the Royal New Zealand Returned and Services Association, Grey Power and the Citizens Advice Bureau in about eligibility and how to apply.
 
