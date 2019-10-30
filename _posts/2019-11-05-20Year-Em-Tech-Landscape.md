@@ -48,7 +48,7 @@ With such a vast array of technology in the landscape the lab has seven key area
 
 ## Opportunities for Further Work
 
-This is a piece of work that has the potential to expand and develop. 
+This is a piece of work that has the potential to expand and develop.
 Possible future work could be:
 
 **Application of different lenses**
