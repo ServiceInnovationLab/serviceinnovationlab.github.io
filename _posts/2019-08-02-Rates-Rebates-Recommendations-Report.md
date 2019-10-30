@@ -55,7 +55,7 @@ In the Discovery phase we mapped and reviewed the existing Rates Rebates deliver
 
 In the Alpha phase, a minimum viable product (MVP) was designed and developed, and trialled in Tauranga from 21 May—30 September 2018 with Tauranga City Council. The alpha was focused on testing system changes. Tauranga City Council, Auckland Council were involved with assisting with the design and test of the alpha and numerous other councils watched progress closely. The Alpha proved to be of high value to ratepayers and Councils, and successfully tested a fully digital and user centred end to end rates rebate process. The solution was developed using open source software, and the project won the Award for Open Source Use in Government for 2018.
 
-The Beta phase was focused on further refining the service based on further user research and feedback from ratepayers and councils. An emphasis in this phase was on ensuring it is was set up to be a live, fully functional, and sustainable system. This included:
+In the Beta phase, we focused on further refining the service based on further user research and feedback from ratepayers and councils. We emphasised on ensuring it is was set up to be a live, fully functional, and sustainable system. This included:
 
 - Learning how the service can scale to more than one council
 - Moving the alpha solution to sustainable production infrastructure and technology
