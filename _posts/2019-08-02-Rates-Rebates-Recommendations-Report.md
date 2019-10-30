@@ -77,7 +77,7 @@ The current application process is complex, takes a long time, and places an unj
 - **Issues affecting mobility and access**
 The lack of an alternative, accessible way to make an application means many people who have a disability e.g. a vision impairment ([over 11% of those over 65](http://archive.stats.govt.nz/browse_for_stats/health/disabilities/DisabilitySurvey_HOTP2013/Commentary.aspx)) or a physical disability ([49% of those over 65](http://archive.stats.govt.nz/browse_for_stats/health/disabilities/DisabilitySurvey_HOTP2013/Commentary.aspx#impairtype) struggle to apply for help they are eligible to receive.
 
-Due to many (in the 2017/18 rating year 79% of all applicants were receiving New Zealand Superannuation) applicants being over 65 and/or living with a disability, the requirement to sign a Statutory Declaration in front of a witness impacts accessibility for the core customer group.
+The majority of customers are over 65 and/or living with a disability. In the 2017/18 rating year 79% of all applicants were receiving New Zealand Superannuation. The requirement to sign a Statutory Declaration in front of a witness is a barrier for this group.
 
 **Note**: During the Beta trial, a separate paper Why remove the statutory declaration was written to support the case for its removal. This paper details the substantial benefits associated with removing the statutory declaration, when this is supported with adoption of an online application process.
 
