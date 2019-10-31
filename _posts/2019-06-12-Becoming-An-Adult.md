@@ -67,13 +67,13 @@ We were very surprised at their attitude toward technology. Most said they used 
 
 The following diagrams visualise when young adults are creating new IDs and which IDs are most used.  
 
-![ID timeline: creation by age](/assets/media/Becoming-An-adult/idcreation2.jpg)
+[![ID timeline: creation by age](/assets/media/Becoming-An-Adult/idcreation2.jpg)](/assets/media/Becoming-An-Adult/idcreation2.jpg)
 <figcaption>The diagram is a horizontal line with birth at the left end and turning 21 at the right end. The line is punctuated by dots indicating when IDs are acquired and the size of the dot grows based on how many of our cohort were included. The diagram reveals that all had birth certificates and only a few acquired IDs between their childhood and the age of 13 where the majority of ID activity occurs until about 17 years old followed by a minor amount into early 20s.
 </figcaption>
 
 This diagram shows our 10 young adults all had birth certificates and later between 13 and 17 years old acquired many other IDs, such as driver’s licences and online accounts, such as Google and Facebook. The diagram below shows the strong use of online IDs and large ownership of government issued IDs. Note that we included a wide range of items that might not technically be considered forms of identity but this was to understand young adults perception and awareness of government issued documents.
 
-![ID ownership vs usage](/assets/media/Becoming-An-adult/idownership2.jpg)
+[![ID ownership vs usage](/assets/media/Becoming-An-Adult/idownership2.jpg)](/assets/media/Becoming-An-Adult/idownership2.jpg)
 <figcaption>This diagram uses 2 axes, ownership and usage, to plot various types of identity documents and cards young adults had in their wallet or at home. We used this diagram to understand what was the most commonly owned and most used forms of ID. The key insights from this graph is that bank cards, student IDs, Facebook and Google accounts made up the most owned and used followed closely by drivers licence. The least used and owned IDs were Kiwi Access card and firearms licence. There was a cluster of IDs that many people owned but didn’t frequently use which was made up of many government issued IDs such as birth certificate, passport, IRD number and national student number.
 </figcaption>
 
