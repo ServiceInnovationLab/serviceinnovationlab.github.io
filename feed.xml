@@ -1,187 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://serviceinnovationlab.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://serviceinnovationlab.github.io//" rel="alternate" type="text/html" /><updated>2019-10-31T02:47:16+00:00</updated><id>https://serviceinnovationlab.github.io//feed.xml</id><title type="html">Service Innovation Lab</title><subtitle>The Service Innovation Lab is an All-of-Government lab in Aotearoa New Zealand, hosting and enabling collaboration across agencies. We research, design, and develop ways to improve people’s experiences when they interact with government.
-</subtitle><entry><title type="html">20 Year Emerging Technology Landscape</title><link href="https://serviceinnovationlab.github.io//2019/09/27/20Year-Em-Tech-Landscape/" rel="alternate" type="text/html" title="20 Year Emerging Technology Landscape" /><published>2019-09-27T00:00:00+00:00</published><updated>2019-09-27T00:00:00+00:00</updated><id>https://serviceinnovationlab.github.io//2019/09/27/20Year-Em-Tech-Landscape</id><content type="html" xml:base="https://serviceinnovationlab.github.io//2019/09/27/20Year-Em-Tech-Landscape/">&lt;p&gt;&lt;span class=&quot;subtitle&quot;&gt;Led by Hazel Bradshaw, Emerging Tech Lead - Service Innovation Lab&lt;/span&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
-
-&lt;p&gt;Emerging technologies are set to disrupt a number of government processes and services, alongside citizens engagement with government and the services they offer. The EmTech 20-year landscape is a piece of ongoing research, that’s intended to help people working in government understand the types, forms, connections and impacts of these different technologies and the challenges and opportunities posed by developments in the EmTech space. The outcome of having this consistently evolving landscape is that people working in these spaces can better understand how emerging technologies are relevant to their work, and use this to inform their decisions.&lt;/p&gt;
-
-&lt;p&gt;The diagram displays a time scale of “Current”, “0 to 5 years”, “5 to 10 years” and “10 to 20 years” on the vertical axis and 13 categories of emerging technology along the horizontal access. The 13 categories of emerging technology are: cloud computing, big data/analytics, encryption/privacy, internet of things, spatial computing, artificial intelligence tools, artificial intelligence applications, robotics/production, autonomous agents, symbiotic application, bio-tech and quantum computing. Categories are laid out from left to right, with cloud computing being furthest left, and quantum computing being furthest right. The cards underneath each category display the specific technology which falls under the category listed in one of the 13 columns.&lt;/p&gt;
-
-&lt;p&gt;It is worth noting that this landscape projects details up to the use and release of Quantum Computing as the possibilities of the technology being ubiquitously used, will more than likely change the entire landscape.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/assets/media/20-Year-Emtech-Landscape/20yr-emtech-landscape.png&quot;&gt;&lt;img src=&quot;/assets/media/20-Year-Emtech-Landscape/20yr-emtech-landscape.png&quot; alt=&quot;20 Year Emerging Technology Landscape&quot; /&gt;&lt;/a&gt;
-&lt;a href=&quot;#Go-to-DetailedDescription&quot;&gt;Detailed description of the 20 Year Emerging Technology Landscape&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;how-the-landscape-was-constructed&quot;&gt;How the Landscape was constructed&lt;/h3&gt;
-
-&lt;p&gt;The selected technologies and their positioning on the landscape has been informed by research and shaped by consultation with other emerging tech leaders engaged through participation in forums.  The landscape was constructed by applying a governmental lens which enables a better digital public service.
-These sources include:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.oecd.org/sti/emerging-tech/&quot;&gt;OECD&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.weforum.org/agenda/2019/07/these-are-the-top-10-emerging-technologies-of-2019/&quot;&gt;World Economic Forum&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/disruptive-technologies&quot;&gt;McKinsey Institute&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.gartner.com/en/documents/3887767&quot;&gt;Gartner - Hype Cycle&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.sap.com/australia/trends.html&quot;&gt;SAP&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://aiforum.org.nz/&quot;&gt;AIForum New Zealand&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;technology-to-focus-on&quot;&gt;Technology to focus on&lt;/h3&gt;
-
-&lt;p&gt;With such a vast array of technology in the landscape the lab has seven key areas of technology that should have a high priority focus.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Artificial Intelligence&lt;/li&gt;
-  &lt;li&gt;Spatial Computing&lt;/li&gt;
-  &lt;li&gt;Encryption&lt;/li&gt;
-  &lt;li&gt;Internet of Things&lt;/li&gt;
-  &lt;li&gt;Big Data&lt;/li&gt;
-  &lt;li&gt;Robotics and Autonomous Systems&lt;/li&gt;
-  &lt;li&gt;Quantum Computing&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;opportunities-for-further-work&quot;&gt;Opportunities for Further Work&lt;/h2&gt;
-
-&lt;p&gt;This is a piece of work that has the potential to expand and develop.
-Possible future work could be:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Application of different lenses&lt;/strong&gt;&lt;br /&gt;
-Applying different lenses onto this landscape will most likely see the landscape change. An example of another lens would be that of digital inclusion, which would identify technology that could ensure a more equitable digital environment for all.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Workshops with external partners&lt;/strong&gt;&lt;br /&gt;
-To help broaden the technologies represented in the landscape engaging with both other government agencies and various private sector organisations would she light into what developing trends there are within New Zealand.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Landscape visualisation development&lt;/strong&gt;&lt;br /&gt;
-The landscape can be developed to be more interactive and more interconnected. Development of interactive cards of the landscape which display definitions of the technology could be developed.
-Furthermore development of visualisation connections to show dependencies of technology to other technology could be introduced.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Primer per category&lt;/strong&gt;&lt;br /&gt;
-A primer template has been created and an example AI Primer can be found in the resources. A primer can be utilised to further explain the categories at the top of the landscape in relation to what it is, examples of it and other details listed in the template.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Disruption&lt;/strong&gt;&lt;br /&gt;
-Work into understanding how disruptive the technology listed in the landscape is to the current environment should be investigated. This should be visualised on the landscape itself, and integrating disruption into the Primer.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;&lt;a name=&quot;Go-to-DetailedDescription&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;detailed-description-of-the-20-year-emerging-technology-landscape&quot;&gt;Detailed description of the 20 Year Emerging Technology Landscape&lt;/h3&gt;
-
-&lt;h4 id=&quot;overview-1&quot;&gt;Overview&lt;/h4&gt;
-
-&lt;p&gt;The main table displays the 20-year emerging technology landscape.
-There are 4 rows representing periods of time, from top to bottom:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Current&lt;/li&gt;
-  &lt;li&gt;0 to 5 years from now&lt;/li&gt;
-  &lt;li&gt;5 to 10 years from now&lt;/li&gt;
-  &lt;li&gt;10 to 20 years from now&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Each row illustrates how far in the future the technology is expected to become commonly used.
-There are 13 columns labelled with categories of emergent technology, from left to right:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Cloud Computing&lt;/li&gt;
-  &lt;li&gt;Big Data/Analytics&lt;/li&gt;
-  &lt;li&gt;Encryption/Privacy&lt;/li&gt;
-  &lt;li&gt;Internet of Things&lt;/li&gt;
-  &lt;li&gt;Spatial Computing&lt;/li&gt;
-  &lt;li&gt;Artificial Intelligence Tools&lt;/li&gt;
-  &lt;li&gt;Artificial Intelligence Applications&lt;/li&gt;
-  &lt;li&gt;Robotics, Production&lt;/li&gt;
-  &lt;li&gt;Autonomous Agents&lt;/li&gt;
-  &lt;li&gt;Symbiotic Application&lt;/li&gt;
-  &lt;li&gt;Bio-Tech&lt;/li&gt;
-  &lt;li&gt;Quantum Computing&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Columns for technology categories which are in common use now are on the left.
-As you read each column from left to right, the technology categories are increasingly experimental, still in research and development, or limited to academic of private institutions.
-53 technologies are represented in the diagram, each one placed in its respective column (for its category) and row (for when it will be in use, for example in 10 to 20 years).&lt;/p&gt;
-
-&lt;h4 id=&quot;values&quot;&gt;Values&lt;/h4&gt;
-
-&lt;p&gt;This section describes the categories of emergent technology, the technology itself, and where they fit in the timeline.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Technologies with Cloud Computing&lt;/strong&gt;&lt;br /&gt;
-Storage (AWS, AZURE, etc) - Current&lt;br /&gt;
-Applications as a Service - Current&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Technologies with Big Data&lt;/strong&gt;&lt;br /&gt;
-Big data / data analytics&lt;br /&gt;
-Hadoop Ecosystem, Spark, R - Now&lt;br /&gt;
-Data Lakes, NoSQL Databases - Now&lt;br /&gt;
-Big Data Governance Solutions - 0 to 5 years&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Technologies with Encryption/Privacy&lt;/strong&gt;&lt;br /&gt;
-Digital Ledgers - Current&lt;br /&gt;
-Blockchain - Current&lt;br /&gt;
-Distributed Ledgers - Current&lt;br /&gt;
-Homomorphic encryption - 0 to 5 years&lt;br /&gt;
-Wearable two-factor authentication - 0 to 5 years&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Technologies with Internet of Things&lt;/strong&gt;&lt;br /&gt;
-Digital Twins - 0 to 5 years&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Technologies with Spatial Computing&lt;/strong&gt;&lt;br /&gt;
-Augmented Reality - Current&lt;br /&gt;
-Virtual Reality - Current / 0 to 5 years&lt;br /&gt;
-Mixed Reality - 0 to 5 years&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Technologies with Artificial Intelligence Tools&lt;/strong&gt;&lt;br /&gt;
-Facial Recognition - Current&lt;br /&gt;
-Machine Learning - Current&lt;br /&gt;
-Cognitive Computing - Current / 0 to 5 years&lt;br /&gt;
-Computer Vision - 0 to 5 years&lt;br /&gt;
-Generative Adversarial Networks - 0 to 5 years&lt;br /&gt;
-Natural Language Processing - 0 to 5 years&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Technologies with Artificial Intelligence Applications&lt;/strong&gt;&lt;br /&gt;
-Identification(Facial Recognition, fingerprints, voice, gait) - Current&lt;br /&gt;
-Process analysis/optimisation - Current&lt;br /&gt;
-Monitoring, Surveillance - Current&lt;br /&gt;
-Deep Fakes - 0 to 5 years&lt;br /&gt;
-Natural Language Generation - 0 to 5 years&lt;br /&gt;
-Digital/Intelligence Systems - 0 to 5 years&lt;br /&gt;
-Conversational Interfaces - 0 to 5 years&lt;br /&gt;
-Digital Twins - 5 to 10 years&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Technologies with Robotics&lt;/strong&gt;&lt;br /&gt;
-Robotic Process Automation - 0 to 5 years&lt;br /&gt;
-Advanced Robotics - 5 to 10 years&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Technologies with Production&lt;/strong&gt;&lt;br /&gt;
-3D Printing - 0 to 5 years&lt;br /&gt;
-4D Printing - 0 to 5 years&lt;br /&gt;
-Bio Manufacturing - 0 to 5 years/ 5 to 10 years&lt;br /&gt;
-Self Assembling Components - 5 to 10 years&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Technologies with Autonomous Agents&lt;/strong&gt;&lt;br /&gt;
-Vehicles - 0 to 5 years&lt;br /&gt;
-Drones - 0 to 5 years&lt;br /&gt;
-Weapons - 0 to 5 years / 5 to 10 years&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Technologies with Symbiotic Applications&lt;/strong&gt;&lt;br /&gt;
-CoBot Robots - Current&lt;br /&gt;
-Wearables - Current / 0 to 5 years&lt;br /&gt;
-Brain Computer Interfaces - 0 to 5 years&lt;br /&gt;
-Smart Prosthetics - 0 to 5 years&lt;br /&gt;
-Human Machine Convergence - 5- 10 years/ 10 to 20 years&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Technologies with Bio Tech&lt;/strong&gt;&lt;br /&gt;
-Genetics - Current&lt;br /&gt;
-Proteomics - Current&lt;br /&gt;
-Nano Bio-tech - 0 to 5 years&lt;br /&gt;
-Bio Computing - 5 to 10 years&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Technologies with Quantum Computing&lt;/strong&gt;&lt;br /&gt;
-Artificial Intelligence - 0 to 5 years&lt;br /&gt;
-Financial Modelling - 0 to 5 years / 5 to 10 years&lt;br /&gt;
-Cryptography - 5 to 10 years&lt;br /&gt;
-Weather Forecasting - 5 to 10 years&lt;br /&gt;
-Molecular Modelling - 5 to 10 years&lt;br /&gt;
-Particle Physics - 10 to 20 years&lt;/p&gt;</content><author><name>deshan-gamage</name></author><category term="blog post" /><category term="open source" /><category term="emerging technology" /></entry><entry><title type="html">Recommendations Report</title><link href="https://serviceinnovationlab.github.io//2019/08/02/Rates-Rebates-Recommendations-Report/" rel="alternate" type="text/html" title="Recommendations Report" /><published>2019-08-02T00:00:00+00:00</published><updated>2019-08-02T00:00:00+00:00</updated><id>https://serviceinnovationlab.github.io//2019/08/02/Rates-Rebates-Recommendations-Report</id><content type="html" xml:base="https://serviceinnovationlab.github.io//2019/08/02/Rates-Rebates-Recommendations-Report/">&lt;h2 id=&quot;executive-summary&quot;&gt;Executive Summary&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://serviceinnovationlab.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://serviceinnovationlab.github.io//" rel="alternate" type="text/html" /><updated>2019-10-31T02:57:21+00:00</updated><id>https://serviceinnovationlab.github.io//feed.xml</id><title type="html">Service Innovation Lab</title><subtitle>The Service Innovation Lab is an All-of-Government lab in Aotearoa New Zealand, hosting and enabling collaboration across agencies. We research, design, and develop ways to improve people’s experiences when they interact with government.
+</subtitle><entry><title type="html">Recommendations Report</title><link href="https://serviceinnovationlab.github.io//2019/08/02/Rates-Rebates-Recommendations-Report/" rel="alternate" type="text/html" title="Recommendations Report" /><published>2019-08-02T00:00:00+00:00</published><updated>2019-08-02T00:00:00+00:00</updated><id>https://serviceinnovationlab.github.io//2019/08/02/Rates-Rebates-Recommendations-Report</id><content type="html" xml:base="https://serviceinnovationlab.github.io//2019/08/02/Rates-Rebates-Recommendations-Report/">&lt;h2 id=&quot;executive-summary&quot;&gt;Executive Summary&lt;/h2&gt;
 
 &lt;p&gt;A Rates Rebate is a subsidy (currently up to $640) for low-income homeowners on the cost of their residential rates. The subsidy is delivered by Local Councils and is administered by Central Government (currently the Department of Internal Affairs (DIA)). The entitlement value is calculated by the cost of the rates, applicants income, and number of dependants. The maximum subsidy amount is reviewed yearly.&lt;/p&gt;
 
@@ -2104,4 +1922,490 @@ The number of Rates Rebates claimed each year has been dropping. This is a well 
       &lt;p&gt;State of the Internet 2017 Report- Internet NZ &lt;a href=&quot;#fnref:7&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>glen-thurston</name></author><category term="rates rebate" /></entry></feed>
+&lt;/div&gt;</content><author><name>glen-thurston</name></author><category term="rates rebate" /></entry><entry><title type="html">Exploring the Notice of Sale Process</title><link href="https://serviceinnovationlab.github.io//2018/10/12/Exploring-the-Notice-of-Sale-process/" rel="alternate" type="text/html" title="Exploring the Notice of Sale Process" /><published>2018-10-12T00:00:00+00:00</published><updated>2018-10-12T00:00:00+00:00</updated><id>https://serviceinnovationlab.github.io//2018/10/12/Exploring-the-Notice-of-Sale-process</id><content type="html" xml:base="https://serviceinnovationlab.github.io//2018/10/12/Exploring-the-Notice-of-Sale-process/">&lt;p&gt;&lt;strong&gt;Authored by:&lt;/strong&gt; Glen Thurston and Nadia Webster&lt;/p&gt;
+
+&lt;h2 id=&quot;contents&quot;&gt;Contents&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#Go-to-InSummary&quot;&gt;In summary&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#Go-to-WhatIsNoticeOfSale&quot;&gt;What is the notice of sale and why is it important?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#Go-to-PossibleSolution&quot;&gt;Possible solution&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#Go-to-NextSteps&quot;&gt;Next Steps&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;exploring-the-notice-of-sale-process&quot;&gt;Exploring the Notice of Sale process&lt;/h2&gt;
+
+&lt;p&gt;Exploring opportunities to improve the notice of sale process as part of the life event of ‘selling and buying a property’&lt;/p&gt;
+
+&lt;p&gt;A collaboration between:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The All of Government Service Innovation Lab&lt;/li&gt;
+  &lt;li&gt;Auckland Council&lt;/li&gt;
+  &lt;li&gt;Land Information New Zealand&lt;/li&gt;
+  &lt;li&gt;Tauranga City Council&lt;/li&gt;
+  &lt;li&gt;Wellington City Council&lt;/li&gt;
+  &lt;li&gt;Whangarei District Council&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;in-summary&quot;&gt;In summary&lt;a name=&quot;Go-to-InSummary&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;In August 2018, a collaboration led by the all of government Service Innovation Lab with Auckland Council, Land Information New Zealand (Valuer General), Tauranga City Council, Wellington City Council and Whangarei District Council explored the Notice of Sale (the notice) process as part of the ‘selling and buying a property’ life event.&lt;/p&gt;
+
+&lt;p&gt;This group believe that there are a range of possible solutions to improve the notice; for the benefit of people selling and buying property, their agents (ie real estate agent, solicitors, conveyancers), Councils and government agencies teams.&lt;/p&gt;
+
+&lt;p&gt;During August, the group explored:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The role of the notice and its importance,&lt;/li&gt;
+  &lt;li&gt;Goals for the future of the notice,&lt;/li&gt;
+  &lt;li&gt;Pain points and experiences that people and organisations involved with the notice are having,&lt;/li&gt;
+  &lt;li&gt;Potential opportunities/solutions for improving the process.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The work was completed in three parts, a current state review with the Wellington based group members, a design intensive in Auckland (13-16 August) followed by the write up of the findings of both the review and the design intensive.&lt;/p&gt;
+
+&lt;p&gt;The goal of this work was to help the group of interested parties identify a path forward to improve the notice process. It helps scope up future design work that would be needed to explore the opportunities in more depth to ascertain their desirability from a user perspective, viability from a business sustainability perspective and feasibility from a technical perspective.&lt;/p&gt;
+
+&lt;p&gt;The design intensive identified the following next steps that are needed to continue this work:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The need for a sponsor(s) to help drive continuing this work.&lt;/li&gt;
+  &lt;li&gt;The Lab could lead a &lt;a href=&quot;https://www.digital.govt.nz/standards-and-guidance/strategy-and-planning/digital-lifecycle/discovery/&quot;&gt;discovery&lt;/a&gt; with the support of this group to investigate the preferred data based possible solution in more detail to test its viability, feasibility and desirability.&lt;/li&gt;
+  &lt;li&gt;The Councils collectively or individually could investigate the other two solutions identified; in the intensive; Improve communication between Councils and Solicitors and data validation flags to help select the correct process to use.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;what-is-the-notice-of-sale-and-why-is-it-important&quot;&gt;What is the notice of sale and why is it important?&lt;a name=&quot;Go-to-WhatIsNoticeOfSale&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;The Notice of Sale (the notice) acts a conduit of sales and/or property owner information in the property transfer process and its a legal requirement that it must be supplied to a Local Authority&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; (ie Councils) as part of the Local Government (Rating) Act 2002.&lt;/p&gt;
+
+&lt;p&gt;For a Council the notice is typically the first contact they have about the transfer and importantly the new owner of the property. This allows them to update the rating information to send out the rates notice to them. The notice includes valuable sale information where a sale is involved (eg tells them how much the property sold) for which is important for the valuation purposes as it helps give an indication on the valuations for an area.&lt;/p&gt;
+
+&lt;p&gt;Rates and valuations are linked together and the notice is one of the key inputs into this process. The notice gives more information and data about the property that helps to give a better indication of valuation and therefore the rates to charge.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-rating-and-valuation-process&quot;&gt;The rating and valuation process&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS1.png&quot; alt=&quot;Valuation cycle &amp;amp; Local Authority actions feeds into the Setting and billing of rates, then to Property Owner&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(Flow chart showing that Valuation cycle &amp;amp; Local Authority actions feeds into the Setting and billing of rates, then to Property Owner.)&lt;/p&gt;
+
+&lt;p&gt;In addition to the rating process the notice also acts another way to provide information that the property title has changed too.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-notice-of-sale-and-its-relation-to-rating-and-valuation&quot;&gt;The notice of sale and its relation to rating and valuation&lt;/h3&gt;
+
+&lt;p&gt;(also see &lt;a href=&quot;#Go-to-Appendix1&quot;&gt;Appendix 1&lt;/a&gt; for the key concepts required under legislation and what triggers a change of ownership, and see &lt;a href=&quot;#Go-to-Appendix2&quot;&gt;Appendix 2 Data Map&lt;/a&gt; for what data is collected at each step in the process)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS2.png&quot; alt=&quot;Notice of Sale decision tree&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(Notice of Sale decision tree. &lt;strong&gt;Path 1&lt;/strong&gt; - Notice of change of ratepayer and/or their contact details of whole or part of the rating unit; Council finance team accountable fo calculation of rates. This is Audited by DIA; Council valuation team accountable for valuation data being correct. This is audited by LINZ valuer general. They determine structure of data extracts for comparable analysis. &lt;strong&gt;Path 2&lt;/strong&gt; - Notice of change of title (i.e. creation of a new title and cancellation of existing title); Register of Titles; Valuation Service Providers (VSP). They are accountable for the calculation of valuations. Councils are also required to provde the correct data/information to contirbute to the calculation.)&lt;/p&gt;
+
+&lt;p&gt;The notice must contain these points:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The full name and address of the purchaser or transferee; and&lt;/li&gt;
+  &lt;li&gt;in the case of a sale, the sale price.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;It has to be supplied to the Council within one month after the sale or transfer of a rating unit by the person selling it.&lt;/p&gt;
+
+&lt;p&gt;Key legislative references are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.legislation.govt.nz/act/public/2002/0006/latest/DLM132269.html?search=ts_act%40bill%40regulation%40deemedreg_Local+Government+(Ratings)+Act+2002_resel_25_a&amp;amp;p=1&quot;&gt;Sections 31 - 33 and 36 of the Local Government (Ratings) Act 2002&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.legislation.govt.nz/act/public/1998/0069/latest/DLM427713.html?search=ts_act%40bill%40regulation%40deemedreg_Rating+Valuation+Act+1998_resel_25_a&amp;amp;p=1&quot;&gt;Section 52 of the Rating Valuation Act 1998&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There is no prescribed form for the notice or methods to transmit the information to Councils. The notices vary depending on the other information requirements that Councils request or what solicitors typically want to send to support the sale. The QV sales direct online form was originally built around what is mandatory but has been amended over time based on solicitor and council requirements; most notably contact details for new owner.&lt;/p&gt;
+
+&lt;p&gt;There is also no definition for the term ‘property’ as it’s not a clear concept. From a rating perspective at Councils it’s the &lt;em&gt;title and rating unit&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;statistics&quot;&gt;Statistics&lt;/h3&gt;
+
+&lt;p&gt;From the LINZ Rating Valuation Data set, the following table describes the number of sales between 2014 to 2017.&lt;/p&gt;
+
+&lt;h3 id=&quot;number-of-sales-2014-2017&quot;&gt;Number of Sales 2014-2017&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS3.png&quot; alt=&quot;Table showing the number of sales between 2014 to 2017 with sales totalling to 229,855&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(Table showing the number of sales between 2014 to 2017 with sales totalling to 229,855.)&lt;/p&gt;
+
+&lt;p&gt;While the majority of property transfers are residential, there are a range of complex sales that are harder to facilitate and process. These include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Farm sales&lt;/li&gt;
+  &lt;li&gt;Subdivisions&lt;/li&gt;
+  &lt;li&gt;Apartments and unit titles&lt;/li&gt;
+  &lt;li&gt;Commercial buildings&lt;/li&gt;
+  &lt;li&gt;Earthquake prone buildings&lt;/li&gt;
+  &lt;li&gt;Maori leasehold land&lt;/li&gt;
+  &lt;li&gt;Leasehold titles&lt;/li&gt;
+  &lt;li&gt;Trust and trustee changes&lt;/li&gt;
+  &lt;li&gt;Result of river changing boundaries&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;the-notice-and-its-importance-to-nz-inc&quot;&gt;The notice and its importance to NZ Inc&lt;/h3&gt;
+
+&lt;p&gt;The notice directly help contribute to understanding New Zealand’s Financial and Physical Capital as defined in &lt;a href=&quot;https://treasury.govt.nz/information-and-services/nz-economy/living-standards&quot;&gt;Treasury’s Living Standards Framework&lt;/a&gt; (LSF). This framework draws on OECD analysis of wider indicators of wellbeing with the starting point is answering three questions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What are current outcomes?&lt;/li&gt;
+  &lt;li&gt;Will these outcomes be sustained or improved?&lt;/li&gt;
+  &lt;li&gt;How resilient is the system?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The LSF is based on four capitals that organise indicators of sustainable intergenerational
+Wellbeing and for the notice Financial and Physical Capital is most applicable. This includes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Financial and physical capital includes the buildings, machines and equipment and other
+conventional investment, including capital spending by government.&lt;/li&gt;
+  &lt;li&gt;The financial assets of households provide resilience to unexpected life events and retirement.
+&lt;strong&gt;Housing&lt;/strong&gt; is a major contributor to current wellbeing and is the highest-valued household asset.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;How do we link the information contained in the notice and use this with other data sources and use this for measuring the health and resilience of New Zealand properties and therefore contribute to Financial and Physical Capital wellbeing?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;There is an opportunity to use the notice of sale data linked with the core rating valuation data to provide profiles of the housing stock of New Zealand ie that is we know the owner/occupier vs rentals, type of housing, construction, age, spacial (ie where they are located). What else could the data be mashed up with? What stories could this tell and what it could inform?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;open-data&quot;&gt;Open data&lt;/h3&gt;
+
+&lt;p&gt;The notice of sale information is deemed to be ‘&lt;a href=&quot;https://www.data.govt.nz/open-data/what-is-open-data/&quot;&gt;open data&lt;/a&gt;’ ie it’s data anyone can use and share. It has an open licence, is openly accessible and is both human-readable and machine-readable.
+To protect the integrity of the property sector the data needs to be made available to aid with transparency and avoid corruption.&lt;/p&gt;
+
+&lt;p&gt;The Design Intensive
+The challenge for the Notice of Sale design intensive was to explore what a positive, effective customer experience looks like when based on a real-world &lt;a href=&quot;https://www.digital.govt.nz/showcase/integrated-services-service-innovation-working-group/&quot;&gt;life event&lt;/a&gt; (&lt;a href=&quot;https://www.digital.govt.nz/blog/labplus-the-value-of-a-life-events-lens-a-vehicle-for-creating-long-term-strategic-value/&quot;&gt;see this blog post about the value of life events&lt;/a&gt;). The design team sought to understanding the big picture associated with notice of sale and where it fits within the life event of selling and buying a home and together seek to understand the desired outcome from different perspectives and identify indicative opportunities to achieve these outcomes.&lt;/p&gt;
+
+&lt;p&gt;Representatives from Whangarei District Council, Auckland Council, Tauranga City Council, Wellington City Council, LINZ and the Service Innovation Lab (the lab) were involved as team members involved either before and/or during the three day intensive between 13-15 August.
+During the intensive we wanted to explore in the design sprint:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;High level understanding of where the notice of sale fits within the life event of selling and buying a property&lt;/li&gt;
+  &lt;li&gt;Generate a collective understanding of the goals we seek for notice of sale.&lt;/li&gt;
+  &lt;li&gt;Reveal the pain-points, opportunities and constraints for the customer, agents, third parties and government agencies teams and understand what their motivations are.&lt;/li&gt;
+  &lt;li&gt;Reveal service bottlenecks, dead ends and successful interactions&lt;/li&gt;
+  &lt;li&gt;Explore any possible outcomes that could be developed that ease the pain-points&lt;/li&gt;
+  &lt;li&gt;Explore if there is an opportunity for reusable components to be created&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;During the three days of the intensive we covered:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Day 1: Gather&lt;/strong&gt; – Outline the complex problem, goals sought, audiences involved and their motivations&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Day 2: Define&lt;/strong&gt; – Assess problems, opportunities and constraints, themes&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Day 3: Ideate&lt;/strong&gt; / Visualize – Scenarios for our audiences and how we might make change&lt;/p&gt;
+
+&lt;p&gt;This is based on the following logic mapping flow model&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;(as shown below) developed by Dr Hazel Bradshaw from the Service Innovation Lab:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS4.png&quot; alt=&quot;Complex Problem;Overarching Goal;Audience Types;Motivation(Intrinsic &amp;amp; Extrinsic);Problem/Pain Points;Constraints;Emerging Concepts;IDEATE.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(Logic Mapping Flow diagram. Starts with Complex Problem; Overarching Goal; Audience Types; Motivation(Intrinsic); Motivation (Extrinsic); Problem/Pain Points; Constraints; Emerging Concepts; and lastly IDEATE.)&lt;/p&gt;
+
+&lt;h3 id=&quot;the-complex-problem&quot;&gt;The complex problem&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Buying and selling a property is complicated transaction, it requires information to be exchanged between a number of parties and if errors are made it has consequences for property ratings and valuations. This can lead to stress and have financial implications for the parties particularly the property buyer.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The team considered this complex problem and were asked to consider the life event in the context of the notice of sale. Here are the themes the team identified:&lt;/p&gt;
+
+&lt;h4 id=&quot;target-theme---automation&quot;&gt;Target theme - Automation&lt;/h4&gt;
+
+&lt;p&gt;The theme selected as a focus point was Automation. The team would like to automate as much of the current manual process as possible to improve the quality of submissions. They’d like to get rid of the term “notice of sale” from their vocabulary to allow time to focus on more important or higher value interactions with ratepayers and clients. They’s like to to see data entered once and transmitted electronically to all the stakeholders involved in the process (preferably from a single place). It was noted that automation should not be at the expense of verification, accuracy and completion.&lt;/p&gt;
+
+&lt;h3 id=&quot;other-themes-in-order-of-importance-to-the-team&quot;&gt;Other themes in order of importance to the team&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Single source of truth.&lt;/strong&gt; There is no current single source of authoritative data for the notice of sale that anyone can draw from eg no one reference number that follows a ownership transfer for parties to use. Team were quite fixed on this as a solution.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Data quality.&lt;/strong&gt; This includes accuracy and completeness. This involves changes in ownership that were not notified to the council or were lost somehow plus the accuracy of the received notices and its input into multiple systems. The discussion also revealed that there is also a need for more information that is needed to complete tasks that is not in the mandated information that must be sent. Eg contact details, postal addresses. The consequences of data quality include the number of manual checks and validation points throughout the process. Most systems also cater for happy day scenarios too.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Timeliness.&lt;/strong&gt; The team advised they need the notice information to be supplied as soon as possible to allow more value add tasks to be completed eg audit.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Improving council experience.&lt;/strong&gt; Because the notice is a a major part of the councils rates and valuation teams business, it takes up a large chunk of their time and they’d love to streamline the work for the sake of accuracy, auditing and sanity.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Improved customer experience.&lt;/strong&gt; The team are passionate about making life better and easier for our customers. From a solicitor perspective it’s about the desire to improve the process for the profession and their clients. Hopefully improvements will lead to an increase in trust between all parties.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Data transmission.&lt;/strong&gt; The notice needs to be sent to many parties, how could this be made easier? How do we make it more user friendly for solicitors to provide information?&lt;/p&gt;
+
+&lt;h3 id=&quot;goal-setting----what-are-the-end-goals&quot;&gt;Goal setting  - What are the end goals&lt;/h3&gt;
+
+&lt;p&gt;The team considered the goals associated with the complex problem statement - why is a goal important for this work? what does it look like?&lt;/p&gt;
+
+&lt;p&gt;These end goals were identified for the notice both from a higher level and a specific goal to focus on for this design intensive.&lt;/p&gt;
+
+&lt;p&gt;The higher level goals were:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Will improve the accuracy of sales and owner information that will ultimately result in better rating valuations and revaluations.&lt;/li&gt;
+  &lt;li&gt;Consistent, complete information that drives decision making and innovation - one source of truth for all market participants eg buyers and sellers, real estate agents, councils, central government.&lt;/li&gt;
+  &lt;li&gt;Better data helps contribute to better economic outcomes especially considering how property is a big driver in NZ economic success.&lt;/li&gt;
+  &lt;li&gt;Helps improve the quality of house  and property owners interactions with Council - often their first contact is a compliant due to an error with the rates and valuations.&lt;/li&gt;
+  &lt;li&gt;Improved service for people involved in sales and transfers.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The goal selected for the intensive was &lt;strong&gt;Data Quality&lt;/strong&gt; - this is needed for the rating and valuation tasks. This includes missing sales, accuracy of the data received and needing more information beyond the current notice rules to complete tasks.  It was recognised that to help with the theme of Automation data quality will be a key enabler. From this there were some sub goals:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Efficiency of process for everyone to free up people up to do higher value things/work&lt;/li&gt;
+  &lt;li&gt;Trust in data and process integrity to meet compliance requirements and ensure confidence for property owners.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Related themes to data quality (in order of importance) were accuracy and completeness of the notice, verified data within the notice and  ability for data sources to be linked. Other themes were improving the process within Councils, efficiency of process for all parties by creating less touch points and making compliance with the process easier.&lt;/p&gt;
+
+&lt;p&gt;It was noted that data quality would help mitigate the problems people encounter that are represented in the other themes.&lt;/p&gt;
+
+&lt;h3 id=&quot;audience-mapping&quot;&gt;Audience Mapping&lt;/h3&gt;
+
+&lt;p&gt;The &lt;strong&gt;primary audience&lt;/strong&gt; for the goals and theme is Council teams plus the agents (solicitor / conveyancer) who facilitates the notice for property buyers and sellers. Their relationship is key to the notice process being completed and sent to Council but also how issues are identified and resolved together. There is also a difference in expectations between the two regarding the amount of data that needs to be supplied to ensure that the new owner of property is correctly identified and billed the right amount of rates.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Council teams&lt;/strong&gt; included: customer data coordinators, customer services staff, digital capture, revenue, mailroom, credit control.&lt;/p&gt;
+
+&lt;p&gt;For the &lt;strong&gt;agents&lt;/strong&gt; this also extends to their professional bodies, individual practices, legal executives and secretaries, juniors.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;secondary audience&lt;/strong&gt; is LINZ most notably the OVR, Valuation Service Providers and third party utilities that directly need the NoS eg Watercare. These groups are essential for the valuation of properties and the notice is seen as the “&lt;em&gt;life blood&lt;/em&gt;” of rating valuation and “&lt;em&gt;without it we have nothing&lt;/em&gt;”.&lt;/p&gt;
+
+&lt;p&gt;Customers were considered to be the the old and new owners of the property, third parties who consume the data, ratepayers, real estate agents, government agencies who consume the data, software developers, office of auditor general. These groups of customers are impacted by the notice especially if there is issues with the data quality for a property but for the most part they will not be directly affected.&lt;/p&gt;
+
+&lt;h3 id=&quot;motivation-mapping---intrinsic-and-extrinsic&quot;&gt;Motivation Mapping - Intrinsic and extrinsic&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS5.png&quot; alt=&quot;Table showing the Intrinsic &amp;amp; Extrinsic motivations for Primary audiences (Councils &amp;amp; Solicitors) and secondary audiences&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(Table showing the Intrinsic &amp;amp; Extrinsic motivations for Primary audiences (Councils &amp;amp; Solicitors) and Secondary audiences.)&lt;/p&gt;
+
+&lt;h3 id=&quot;problems-the-audiences-are-having&quot;&gt;Problems the audiences are having&lt;/h3&gt;
+
+&lt;p&gt;To consider the problems the various audiences are having the team were asked to map out the journeys for the solicitors and council teams. Prior to the intensive, a &lt;a href=&quot;https://docs.google.com/drawings/d/1_V6L9ibgHlJ8Fyc0Id6uJQlFdc0_XDsV1R5yDxxP81o/edit?usp=sharing&quot;&gt;service blueprint&lt;/a&gt; describing the journey from presale triggers to post-sale settlement was created and this was used by the team as a reference for their maps.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS6.jpg&quot; alt=&quot;Flow diagram of Process. Pre-Sale; Sale &amp;amp; Purchase agreement signed; Unconditional; Settlement; &amp;amp; Post-settlement&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(Flow diagram of the Notice of Sale Process. Pre-Sale; Sale &amp;amp; Purchase agreement signed; Unconditional; Settlement (can be up to 6 months before Settlement); &amp;amp; Post-settlement.)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://drive.google.com/file/d/14wHVvtWVUsMaPOQZZ6hXXLu37Yir56DT/view&quot;&gt;Solicitor journey map&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS7.png&quot; alt=&quot;Post-it notes for Journey Map. Votes on Education/Action Points; &amp;amp; Unreliable Data&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(Post-it notes for Journey Map. Votes on Education/Action Points; &amp;amp; Unreliable Data.)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS8.png&quot; alt=&quot;Post-it notes for Journey Map. Votes on Incorrect or Missing Data; Human Error; &amp;amp; Duplicating Information&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(Post-it notes for Journey Map. Votes on Incorrect or Missing Data; Human Error; &amp;amp; Duplicating Information.)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://drive.google.com/file/d/14wHVvtWVUsMaPOQZZ6hXXLu37Yir56DT/view&quot;&gt;Council journey map&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS9.png&quot; alt=&quot;Post-it notes for Journey Map. Top votes on Manual processing/checking including multiple handling of the notice&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(Post-it notes for Journey Map. Top votes on Manual processing/checking including multiple handling of the notice.)&lt;/p&gt;
+
+&lt;p&gt;The journey maps revealed a range of pain points. The pain point themes were:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Education and knowledge at key action points&lt;/li&gt;
+  &lt;li&gt;Unreliable data&lt;/li&gt;
+  &lt;li&gt;Problem themes&lt;/li&gt;
+  &lt;li&gt;Duplication of information&lt;/li&gt;
+  &lt;li&gt;Human error&lt;/li&gt;
+  &lt;li&gt;Incorrect or missing data&lt;/li&gt;
+  &lt;li&gt;The notice is not received&lt;/li&gt;
+  &lt;li&gt;Manual processing/checking including multiple handling of the notice&lt;/li&gt;
+  &lt;li&gt;Difficult to find and match data&lt;/li&gt;
+  &lt;li&gt;Churn - checking, comms, rework&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These selected themes were turned into &lt;strong&gt;problem statements&lt;/strong&gt; using the following format:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;As a [audience type] the problem I (or we) have is [pain point]. This impacts my ability to [task or outcome the audience is trying to solve].&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The problem statements were consider and themed to identify common elements with the top three themes consolidated into these problem statements:&lt;/p&gt;
+
+&lt;h3 id=&quot;problem-statement-one---accurate-and-complete-information&quot;&gt;Problem statement one - accurate and complete information&lt;/h3&gt;
+
+&lt;p&gt;As a solicitor, I have a problem with providing accurate and complete information to councils about the property being sold, transferred or changed eg its location address and the Council or Territorial Local Authority and about the property owner (eg their name and contact details incl their postal address, email, mobile number). This impacts:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;my ability to meet my client needs, to do a good job and ensure my compliance with the rules.&lt;/li&gt;
+  &lt;li&gt;Council’s ability to efficiently process changes to property data, rating database and comply with rules&lt;/li&gt;
+  &lt;li&gt;Council’s ability to contact property owners&lt;/li&gt;
+  &lt;li&gt;Council workers ability to do a good job, deliver a good service to ratepayers and improve the Council’s reputation.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For each problem statement the team considered if there are any constraints associated with it and how hard it might be to resolve them:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS10.png&quot; alt=&quot;Table matching Ability to resolve a constraint (Easy; Medium; Hard) with Constraints&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(Table matching Ability to resolve a constraint (Easy; Medium; Hard) with Constraints.)&lt;/p&gt;
+
+&lt;h3 id=&quot;problem-statement-two---manual-processing&quot;&gt;Problem statement two - manual processing&lt;/h3&gt;
+
+&lt;p&gt;As a Council administrator, me and my team leaders have a problem with the large amount of manual processing to complete the input of the notice of sale. This impacts our ability to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;approach this task with enthusiasm and makes my job boring&lt;/li&gt;
+  &lt;li&gt;save money for ratepayers that could be better spent on things in my community&lt;/li&gt;
+  &lt;li&gt;work well with solicitors, who through our processing errors will have difficulties with their clients&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS11.png&quot; alt=&quot;Table matching Ability to resolve a constraint (Easy; Medium; Hard) with Constraints&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(Table matching Ability to resolve a constraint (Easy; Medium; Hard) with Constraints.)&lt;/p&gt;
+
+&lt;h3 id=&quot;problem-statement-three---triggers-for-notice-of-sale&quot;&gt;Problem statement three - triggers for notice of sale&lt;/h3&gt;
+
+&lt;p&gt;As a Solicitor the problem I have is that I don’t know all the triggers for the Notice of Sale and its importance to rates and valuations. This impacts my ability to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;meet my clients needs&lt;/li&gt;
+  &lt;li&gt;work with councils and their need for information for rates and valuations, payments and refunds and debt collection.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS12.png&quot; alt=&quot;Table matching Ability to resolve a constraint (Easy; Medium; Hard) with Constraints&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(Table matching Ability to resolve a constraint (Easy; Medium; Hard) with Constraints.)&lt;/p&gt;
+
+&lt;p&gt;The team believe that if these problems were fixed then it could resolve many of the problems described in the other themes. These other themes that resulted from the creation of the problem statements were data input and matching, manual processing and validation, not sending or receiving the notice, the impacts of errors and the impacts to the value of the team and individuals within it.&lt;/p&gt;
+
+&lt;h3 id=&quot;scenario-and-storyboard-building---exploring-problems-and-solutions&quot;&gt;Scenario and storyboard building - exploring problems and solutions&lt;/h3&gt;
+
+&lt;p&gt;To explore problems and solutions for these scenario and storyboard techniques were used. The team created a scenario that addresses the audience problem, meets the a clear goal and works within the constraints. A scenario should have an audience, a goal, a set of constraints and a beginning, middle and an end. These were themed and storyboards were created based on the prioritised scenarios.
+Each person shared their &lt;a href=&quot;https://drive.google.com/file/d/1n0p7UeOUayG6tX-tSddJavi2JoKMsUql/view&quot;&gt;storyboards&lt;/a&gt; and then team was separated into groups who took the scenarios, identified their common elements and collaborated to create a refined storyboard.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS13.png&quot; alt=&quot;Team collaborated to create a refined storyboard from the common elements of the scenarios&quot; /&gt;
+&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS14.png&quot; alt=&quot;Team collaborated to create a refined storyboard from the common elements of the scenarios&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(Team collaborated to create a refined storyboard from the common elements of the scenarios.)&lt;/p&gt;
+
+&lt;h4 id=&quot;problem-statement-one---accurate-and-complete-information-1&quot;&gt;Problem statement one - accurate and complete information&lt;/h4&gt;
+
+&lt;p&gt;A range of scenarios were created and many had similar themes. Here are the priorised themes las decided by the group:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Property transfer in a single portal - data validated against authoritative datasets.&lt;/li&gt;
+  &lt;li&gt;Accurate ratepayer contact information - education of ratepayers&lt;/li&gt;
+  &lt;li&gt;Correct Correct or territorial local authority selected  - against an authoritative dataset&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Tied with no votes: Councils validate their databases against authoritative datasets, solicitors validates data against authoritative sources, accurate ratepayer contact information - verified against authoritative datasets.&lt;/p&gt;
+
+&lt;p&gt;Here is the &lt;a href=&quot;https://drive.google.com/file/d/1wHK0CyhgpjKDqbMnyVFmCID0NsYliwyd/view&quot;&gt;storyboards&lt;/a&gt; for the property transfer in a single portal.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS15.png&quot; alt=&quot;Storyboard for the Property Transfer made up of post-it notes&quot; /&gt;
+&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS16.png&quot; alt=&quot;Storyboard for the Property Transfer made up of post-it notes&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(Storyboard for the Property Transfer made up of post-it notes.)&lt;/p&gt;
+
+&lt;p&gt;This storyboard was ultimately the one selected to &lt;a href=&quot;#Go-to-PossibleSolution&quot;&gt;explore further&lt;/a&gt; during the rest of the design intensive.&lt;/p&gt;
+
+&lt;h4 id=&quot;problem-statement-two---manual-processing-1&quot;&gt;Problem statement two - manual processing&lt;/h4&gt;
+
+&lt;p&gt;A range of scenarios were created but they had a similar theme - property transfer in a single portal.&lt;/p&gt;
+
+&lt;p&gt;Here is the storyboards for the property transfer in a single portal. For the refined storyboard because of the similarity with those created in statement one, they should be combined.&lt;/p&gt;
+
+&lt;h4 id=&quot;problem-statement-three---triggers-for-notice-of-sale-1&quot;&gt;Problem statement three - triggers for notice of sale&lt;/h4&gt;
+
+&lt;p&gt;There were two themes that were tied in priority:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Improve communication between Councils and Solicitors - spending time together&lt;/li&gt;
+  &lt;li&gt;Rules and data validation flags to help select the correct process to use.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here are the &lt;a href=&quot;https://drive.google.com/file/d/1wHK0CyhgpjKDqbMnyVFmCID0NsYliwyd/view&quot;&gt;refined storyboards&lt;/a&gt;. The team believed that these ideas could be something that could be done within each Council and trialling the approach with local law firms and conveyancers.&lt;/p&gt;
+
+&lt;p&gt;Improve communication between Council and Solicitors - ‘spending time together’
+ &lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS17.png&quot; alt=&quot;Storyboard - Improve communication between Council and Solicitors - ‘spending time together’&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Rules and data validation flags to help select the correct process to use.
+&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS18.png&quot; alt=&quot;Rules and data validation flags to help select the correct process to use&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;possible-solution&quot;&gt;Possible solution&lt;a name=&quot;Go-to-PossibleSolution&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;The idea behind this possible future state is that much of the data required to action what is currently called the ‘Notice of Sale’ process is captured within the Sales and Purchase Agreement or through the Transfer Instrument (see &lt;a href=&quot;#Go-to-Appendix2&quot;&gt;Appendix 2 Data Map&lt;/a&gt; for what data is collected at each step in the process). There are different triggers for this process (see the &lt;a href=&quot;#Go-to-Appendix1&quot;&gt;triggers in Appendix 1&lt;/a&gt;), which is actually the process of changing the ownership of a rating unit.&lt;/p&gt;
+
+&lt;p&gt;Rather than expecting each person in the process chain to perform manual data entry then we could imagine a process where the data is kept as electronic data and systematically pushed through the required states of a workflow. Ideally this would satisfy the legislative requirements (see &lt;a href=&quot;#Go-to-Appendix1&quot;&gt;Appendix 1 for the key concepts required under legislation&lt;/a&gt;) while achieving the goal of improved data quality and improved trust in the process.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS19.png&quot; alt=&quot;Flow diagram describing the Change of Ownership of a Rating Unit - Future State version 0.2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(Flow diagram describing the Change of Ownership of a Rating Unit - Future State version 0.2)&lt;/p&gt;
+
+&lt;p&gt;This future state needs deeper investigation to determine its desirability, viability and feasibility, and would necessarily involve a slow transition, including improving data quality within the various databases over time.&lt;/p&gt;
+
+&lt;p&gt;A &lt;a href=&quot;https://www.agilealliance.org/glossary/mvp/#q=~(filters~(tags~(~'mvp))~searchTerm~'~sort~false~sortDirection~'asc~page~1)&quot;&gt;Minimum Viable Product&lt;/a&gt; might involve manual data entry from the Sales and Purchase Agreement into a data integration tool, or an upload of a data extract from a smart form version of the agreement.&lt;/p&gt;
+
+&lt;h2 id=&quot;next-steps&quot;&gt;Next Steps&lt;a name=&quot;Go-to-NextSteps&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The group discussed the need for a sponsor(s) to help drive continuing this work. It was agreed that the sponsor could be a person or group of people but they should be at be at an executive leadership level eg a CFO. The group of councils involved with this exploration will need to work together to identify a sponsor(s) and brief them on this work and its importance.&lt;/li&gt;
+  &lt;li&gt;Depending on the priorities for the 2018/19 Service Innovation Lab work programme, the Lab could lead a &lt;a href=&quot;https://www.digital.govt.nz/standards-and-guidance/strategy-and-planning/digital-lifecycle/discovery/&quot;&gt;discovery&lt;/a&gt; with the support of this group to investigate the possible solution in more detail to test its viability, feasibility and desirability.&lt;/li&gt;
+  &lt;li&gt;The Councils collectively or individually could investigate the other two opportunities identified in the intensive; Improve communication between Councils and Solicitors - spending time together and Rules and data validation flags to help select the correct process to use. The team believed that these ideas could be something that could be done within each Council and trialling the approach with local law firms and conveyancers. This is being currently being explored further collective team.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;appendix-1--notice-of-sale-context-diagram&quot;&gt;Appendix 1 &lt;a name=&quot;Go-to-Appendix1&quot;&gt;&lt;/a&gt;: Notice of Sale Context Diagram&lt;/h3&gt;
+
+&lt;p&gt;This diagram maps out the relevant concepts in the legislation relating to Notice of Sale to help with understanding the current legislative requirements.&lt;/p&gt;
+
+&lt;p&gt;To read the diagram follow the arrows, i.e Ratepayer (Owner and/or Lessee) owns or occupies Rating Unit; Rating Unit created, maintained and held in District Valuation Roll.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS20.png&quot; alt=&quot;Diagram of concepts in leglislation relating to the Notice of Sale process&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(Diagram of concepts in leglislation relating to the Notice of Sale process.)&lt;/p&gt;
+
+&lt;p&gt;Triggers for notice of change of ownership of a rating unit
+Although commonly referred to as a “notice of sale”, that’s actually a bit of a misnomer as it not just sales that trigger the need for a notice.  Broadly speaking, there are four triggers:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;If an owner sells or otherwise transfers a rating unit or any part of a rating unit (section 31(1) Local Government (Rating) Act 2002);&lt;/li&gt;
+  &lt;li&gt;If a person becomes the owner of a rating unit by operation of law (section 31(3) Local Government (Rating) Act 2002);&lt;/li&gt;
+  &lt;li&gt;Registration of a change of name of a rating unit (section 36 Local Government (Rating) Act 2002); and&lt;/li&gt;
+  &lt;li&gt;Transfer, assignment, surrender or termination of lease (sections 32 and 33 of the Local Government (Rating) Act 2002).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In the case of a sale of a rating unit, Section 31 of the Local Government (Rating) Act 2002 provides that a vendor or, if the vendor has an agent, the vendor’s agent must, within one month of the effective date of sale or transfer, provide the relevant local authority with:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;the full name and address of the purchaser; and&lt;/li&gt;
+  &lt;li&gt;in the case of a sale, the sale price.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The legislation does not mandate the form in which the notice is provided.  Additionally, there is no definition of “sale price”.&lt;/p&gt;
+
+&lt;p&gt;In all other cases, the transferor (former owner) must notify Council of the change in owner of the rating unit.  Again, the legislation does not mandate the form in which the notice is provided.&lt;/p&gt;
+
+&lt;p&gt;So which instruments trigger the need for a Notice?&lt;/p&gt;
+
+&lt;p&gt;The sale of a property which results in the registration of a transfer instrument is the most obvious trigger for a Notice, but it’s far from the only one.  Other common transactions which trigger need for a Notice include:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Dealing with an estate resulting in registration of a Transmission (instrument quick code TSM)&lt;/li&gt;
+  &lt;li&gt;A mortgagee sale resulting in registration of a Transfer in exercise of Power of Sale (instrument quick code TPS);&lt;/li&gt;
+  &lt;li&gt;Registration of a Joint Family Home application (instrument quick code JFH); and&lt;/li&gt;
+  &lt;li&gt;A change of name of an owner (due to marriage or a company changing its name) (instrument quick code CN).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Additionally, there are a number of less common transactions that could trigger need for a Notice – some of which are incredibly rear.  For example:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Transferring assets on the winding up of an Incorporated Society resulting in registration of an application under section 27 of the Incorporated Societies Act 1908 (instrument quick code A27);&lt;/li&gt;
+  &lt;li&gt;An application for accretion as a result of changing river boundaries (instrument quick code ACC);&lt;/li&gt;
+  &lt;li&gt;An application under section 99A of the Land Transfer Act 1952 to record a statutory vesting (instrument quick code A99A); and&lt;/li&gt;
+  &lt;li&gt;An application to transfer land as a result of the Health Sector (Transfers) Act 1993 (instrument quick code A9).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;appendix-2--notice-of-sale-data-map&quot;&gt;Appendix 2 &lt;a name=&quot;Go-to-Appendix2&quot;&gt;&lt;/a&gt;: Notice of Sale Data Map&lt;/h3&gt;
+
+&lt;p&gt;This shows what data points are collected through what mechanism at different points in the sale or change of ownership process, and what the data source is and where it goes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS21.png&quot; alt=&quot;Notice of Sale Data Map&quot; /&gt;
+&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS22.png&quot; alt=&quot;Notice of Sale Data Map&quot; /&gt;
+&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS23.png&quot; alt=&quot;Notice of Sale Data Map&quot; /&gt;
+&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS24.png&quot; alt=&quot;Notice of Sale Data Map&quot; /&gt;
+&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS25.png&quot; alt=&quot;Notice of Sale Data Map&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(Notice of Sale Data Map.)&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;For the purposes of this report, Local Authorities will be referred to as Councils. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Bradshaw, H. (2014). The Structural Playability Process (SPP )-An Effective Design Process for Educational Computer Games. chp 3, p60 &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>glen-thurston</name></author><category term="lessons learned" /></entry></feed>
