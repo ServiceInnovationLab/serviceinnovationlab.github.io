@@ -1,5 +1,5 @@
 ---
 no-dash:
-  exceptions:
-    - user-centered design
-    - micro-purchase platforms
+  exceptions: []
+lowercase:
+  exceptions: []
