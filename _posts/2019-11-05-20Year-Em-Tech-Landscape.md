@@ -27,7 +27,7 @@ A detailed description of the Emerging Technology Landscape can be found here.
 The selected technologies and their positioning on the landscape has been informed by research and shaped by consultation with other emerging tech leaders engaged through participation in forums.  The landscape was constructed by applying a governmental lens which enables a better digital public service.
 These sources include:
 
-- [OECD](https://www.oecd.org/sti/emerging-tech/) 
+- [OECD](https://www.oecd.org/sti/emerging-tech/)
 - [World Economic Forum](https://www.weforum.org/agenda/2019/07/these-are-the-top-10-emerging-technologies-of-2019/)
 - [McKinsey Institute](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/disruptive-technologies)
 - [Gartner - Hype Cycle](https://www.gartner.com/en/documents/3887767)
