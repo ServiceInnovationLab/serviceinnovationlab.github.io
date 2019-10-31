@@ -79,7 +79,7 @@ The lack of an alternative, accessible way to make an application means many peo
 
 The majority of customers are over 65 and/or living with a disability. In the 2017/18 rating year 79% of all applicants were receiving New Zealand Superannuation. The requirement to sign a Statutory Declaration in front of a witness is a barrier for this group.
 
-**Note**: During the Beta trial, a separate paper "Why remove the statutory declaration" was written to support the case for its removal. This paper details the substantial benefits associated with removing the statutory declaration, when this is supported with adoption of an online application process.
+**Note**: During the Beta trial, a separate paper *["Why remove the statutory declaration"](https://docs.google.com/document/d/11gccvNrVD4PnfvMZwgwHEO4M5UQmRvjbpTZjBVA1lD8/edit?usp=sharing)* was written to support the case for its removal. This paper details the substantial benefits associated with removing the statutory declaration, when this is supported with adoption of an online application process.
 
 ## Applications submitted during the trial
 
