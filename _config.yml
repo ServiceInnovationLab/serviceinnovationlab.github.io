@@ -45,9 +45,6 @@ collections:
   contact:
     output: false
     permalink: /contact/:path/
-  styleguide:
-    output: true
-    permalink: /styleguide/:path/
   devPeerReviewWorkflow:
     output: true
     permalink: /devPeerReviewWorkflow/:path/
@@ -85,11 +82,6 @@ defaults:
       path: "_services_projects"
     values:
       layout: project-page
-  - scope:
-      path: "_styleguide"
-    values:
-      layout: styleguide
-      include_subnav: true
   - scope:
       path: "devPeerReviewWorkflow"
     values:
