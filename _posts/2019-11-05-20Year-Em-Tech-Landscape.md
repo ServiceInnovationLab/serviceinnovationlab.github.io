@@ -19,40 +19,8 @@ The diagram displays a time scale of “Current”, “0 to 5 years”, “5 to 
 
 It is worth noting that this landscape projects details up to the use and release of Quantum Computing as the possibilities of the technology being ubiquitously used, will more than likely change the entire landscape.
 
-![20 Year Emerging Technology Landscape](/assets/media/20-Year-Emtech-Landscape/20yr-emtech-landscape.png)
-A detailed description of the Emerging Technology Landscape can be found here.
-<figcaption>
-<div class="details-content">
-<h3>Overview</h3>
-<p>The main table displays the 20-year emerging technology landscape.</p>
-<p>There are 4 rows representing periods of time, from top to bottom:</p>
-<ul>
-<li>Current</li>
-<li>0 to 5 years from now</li>
-<li>5 to 10 years from now</li>
-<li>10 to 20 years from now.</li>
-</ul>
-<p>Each row illustrates how far in the future the technology is expected to become commonly used.</p>
-<p>There are 13 columns labelled with categories of emergent technology, from left to right:</p>
-<ul>
-<li>Cloud Computing</li>
-<li>Big Data/Analytics</li>
-<li>Encryption/Privacy</li>
-<li>Internet of Things</li>
-<li>Spatial Computing</li>
-<li>Artificial Intelligence Tools</li>
-<li>Artificial Intelligence Applications</li>
-<li>Robotics, Production</li>
-<li>Autonomous Agents</li>
-<li>Symbiotic Application</li>
-<li>Bio-Tech</li>
-<li>Quantum Computing.</li>
-</ul>
-<p>Columns for technology categories which are in common use now are on the left.</p>
-<p>As you read each column from left to right, the technology categories are increasingly experimental, still in research and development, or limited to academic of private institutions.</p>
-<p>53 technologies are represented in the diagram, each one placed in its respective column (for its category) and row (for when it will be in use, for example in 10 to 20 years.)</p>
-
-</figcaption>
+[![20 Year Emerging Technology Landscape](/assets/media/20-Year-Emtech-Landscape/20yr-emtech-landscape.png)](/assets/media/20-Year-Emtech-Landscape/20yr-emtech-landscape.png)
+[Detailed description of the 20 Year Emerging Technology Landscape](#Go-to-DetailedDescription)
 
 ### How the Landscape was constructed
 
@@ -98,3 +66,35 @@ A primer template has been created and an example AI Primer can be found in the 
 
 **Disruption**
 Work into understanding how disruptive the technology listed in the landscape is to the current environment should be investigated. This should be visualised on the landscape itself, and integrating disruption into the Primer.
+
+---
+
+### Detailed description of the 20 Year Emerging Technology Landscape<a name="Go-to-DetailedDescription"></a>
+
+The main table displays the 20-year emerging technology landscape.
+There are 4 rows representing periods of time, from top to bottom:
+
+- Current
+- 0 to 5 years from now
+- 5 to 10 years from now
+- 10 to 20 years from now
+
+Each row illustrates how far in the future the technology is expected to become commonly used.
+There are 13 columns labelled with categories of emergent technology, from left to right:
+
+- Cloud Computing
+- Big Data/Analytics
+- Encryption/Privacy
+- Internet of Things
+- Spatial Computing
+- Artificial Intelligence Tools
+- Artificial Intelligence Applications
+- Robotics, Production
+- Autonomous Agents
+- Symbiotic Application
+- Bio-Tech
+- Quantum Computing
+
+Columns for technology categories which are in common use now are on the left.
+As you read each column from left to right, the technology categories are increasingly experimental, still in research and development, or limited to academic of private institutions.
+53 technologies are represented in the diagram, each one placed in its respective column (for its category) and row (for when it will be in use, for example in 10 to 20 years).
