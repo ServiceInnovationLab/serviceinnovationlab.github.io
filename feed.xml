@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://serviceinnovationlab.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://serviceinnovationlab.github.io//" rel="alternate" type="text/html" /><updated>2019-10-31T02:01:08+00:00</updated><id>https://serviceinnovationlab.github.io//feed.xml</id><title type="html">Service Innovation Lab</title><subtitle>The Service Innovation Lab is an All-of-Government lab in Aotearoa New Zealand, hosting and enabling collaboration across agencies. We research, design, and develop ways to improve people’s experiences when they interact with government.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://serviceinnovationlab.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://serviceinnovationlab.github.io//" rel="alternate" type="text/html" /><updated>2019-10-31T02:28:10+00:00</updated><id>https://serviceinnovationlab.github.io//feed.xml</id><title type="html">Service Innovation Lab</title><subtitle>The Service Innovation Lab is an All-of-Government lab in Aotearoa New Zealand, hosting and enabling collaboration across agencies. We research, design, and develop ways to improve people’s experiences when they interact with government.
 </subtitle><entry><title type="html">20 Year Emerging Technology Landscape</title><link href="https://serviceinnovationlab.github.io//2019/09/27/20Year-Em-Tech-Landscape/" rel="alternate" type="text/html" title="20 Year Emerging Technology Landscape" /><published>2019-09-27T00:00:00+00:00</published><updated>2019-09-27T00:00:00+00:00</updated><id>https://serviceinnovationlab.github.io//2019/09/27/20Year-Em-Tech-Landscape</id><content type="html" xml:base="https://serviceinnovationlab.github.io//2019/09/27/20Year-Em-Tech-Landscape/">&lt;p&gt;&lt;span class=&quot;subtitle&quot;&gt;Led by Hazel Bradshaw, Emerging Tech Lead - Service Innovation Lab&lt;/span&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
@@ -181,7 +181,336 @@ Financial Modelling - 0 to 5 years / 5 to 10 years&lt;br /&gt;
 Cryptography - 5 to 10 years&lt;br /&gt;
 Weather Forecasting - 5 to 10 years&lt;br /&gt;
 Molecular Modelling - 5 to 10 years&lt;br /&gt;
-Particle Physics - 10 to 20 years&lt;/p&gt;</content><author><name>deshan-gamage</name></author><category term="blog post" /><category term="open source" /><category term="emerging technology" /></entry><entry><title type="html">Testing our Toolkit</title><link href="https://serviceinnovationlab.github.io//2019/07/31/Testing-Our-Toolkit/" rel="alternate" type="text/html" title="Testing our Toolkit" /><published>2019-07-31T00:00:00+00:00</published><updated>2019-07-31T00:00:00+00:00</updated><id>https://serviceinnovationlab.github.io//2019/07/31/Testing-Our-Toolkit</id><content type="html" xml:base="https://serviceinnovationlab.github.io//2019/07/31/Testing-Our-Toolkit/">&lt;h2 id=&quot;tests-we-run&quot;&gt;Tests we run&lt;/h2&gt;
+Particle Physics - 10 to 20 years&lt;/p&gt;</content><author><name>deshan-gamage</name></author><category term="blog post" /><category term="open source" /><category term="emerging technology" /></entry><entry><title type="html">Recommendations Report</title><link href="https://serviceinnovationlab.github.io//2019/08/02/Rates-Rebates-Recommendations-Report/" rel="alternate" type="text/html" title="Recommendations Report" /><published>2019-08-02T00:00:00+00:00</published><updated>2019-08-02T00:00:00+00:00</updated><id>https://serviceinnovationlab.github.io//2019/08/02/Rates-Rebates-Recommendations-Report</id><content type="html" xml:base="https://serviceinnovationlab.github.io//2019/08/02/Rates-Rebates-Recommendations-Report/">&lt;h2 id=&quot;executive-summary&quot;&gt;Executive Summary&lt;/h2&gt;
+
+&lt;p&gt;A Rates Rebate is a subsidy (currently up to $640) for low-income homeowners on the cost of their residential rates. The subsidy is delivered by Local Councils and is administered by Central Government (currently the Department of Internal Affairs (DIA)). The entitlement value is calculated by the cost of the rates, applicants income, and number of dependants. The maximum subsidy amount is reviewed yearly.&lt;/p&gt;
+
+&lt;p&gt;Following a successful (and &lt;a href=&quot;https://nzosa.org.nz/finalists2018/&quot;&gt;award winning&lt;/a&gt;) &lt;a href=&quot;https://www.digital.govt.nz/blog/making-it-easier-the-rates-rebates-story-so-far/&quot;&gt;Alpha&lt;/a&gt; phase in May and September 2018, the Rates Rebate beta trial was run in June and July 2019 by a team with members from Service Delivery and Operations team within DIA, Government Information Services, and the Service Innovation Lab.&lt;/p&gt;
+
+&lt;p&gt;The Service Innovation Lab invited three councils (Tauranga City Council, Hutt City Council, and Kāpiti Coast District Council) to participate from a larger group that expressed interest. The three councils each run a different IT system for processing applications, providing a good test of any proposed process changes, and a good indication of the challenges of rolling out the solution more widely.&lt;/p&gt;
+
+&lt;p&gt;Evidence gathered during the beta trial supported the observation during the Alpha phase that an optimised online application form takes just 4 minutes to complete on average, compared to 25 minutes for the paper form. Feedback from councils supported evidence gathered via observation that the online application was considered much easier for applicants to complete.&lt;/p&gt;
+
+&lt;p&gt;The beta dramatically reduced per-transaction costs for councils, eliminating the need to courier paper applications between councils and the DIA. Councils have communicated their intention to actively promote the online option (if it proceeds beyond beta) based on the improved experience for applicants (and lower processing costs).&lt;/p&gt;
+
+&lt;p&gt;The statutory declaration remains the single biggest barrier preventing large scale adoption of an online application process (as well as a significant barrier to those applying on paper). Removing the statutory declaration removes the requirement to visit a council to submit an application. A &lt;a href=&quot;https://docs.google.com/document/d/11gccvNrVD4PnfvMZwgwHEO4M5UQmRvjbpTZjBVA1lD8/edit?usp=sharing&quot;&gt;paper&lt;/a&gt; was written to support the case for this change during the beta phase. If the case for change is supported, this requirement could be removed by June 2020.&lt;/p&gt;
+
+&lt;p&gt;Together with the &lt;a href=&quot;https://docs.google.com/document/d/1zDiJs8x2r9ABKa0hqCHkDZnK1B5iy-JlNSbtCZUoDuo/edit?usp=sharing&quot;&gt;Rates Rebate Beta Research Report&lt;/a&gt;, this report documents the key results of the trial, presents options for next steps, and makes a set of recommendations.&lt;/p&gt;
+
+&lt;h2 id=&quot;high-level-recommendations&quot;&gt;High-level recommendations&lt;/h2&gt;
+
+&lt;p&gt;A set of recommendations beyond beta are also included later in the document.&lt;/p&gt;
+
+&lt;h3 id=&quot;run-a-second-trial-with-the-existing-three-councils-during-a-high-application-volume-period-and-implement-data-export-solutions&quot;&gt;Run a second trial with the existing three councils during a high application volume period and implement data export solutions&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;A second trial should be run during a high volume period (e.g. August and September) to fully inform DIA and Council decisions about next steps. While running the beta in June meant that council staff were available to collaborate and co-design improvements to the application and process, it also meant that application volumes were lower for councils than they would have been in July and August.
+Evidence gathered during the Alpha (which ran through the busy period) suggests that uptake of the online option is high when it is promoted by councils (20% of the 800 recipients of a letter sent by Tauranga City Council promoting the online option opted to use it in 2018).
+The councils involved in the trial have enthusiastically requested that the trial be extended through a high volume period.&lt;/li&gt;
+  &lt;li&gt;The second trial should be limited to the same three councils who participated in June/July. This will enable valuable data to be gathered while keeping the cost of the extension minimal.&lt;/li&gt;
+  &lt;li&gt;Delay the decision about whether to proceed beyond this extension until the end of this second trial. This will allow time for results from the first round to be validated against higher application volumes.&lt;/li&gt;
+  &lt;li&gt;Improvements should be made to how data is transferred between the online application solution and council core systems, and options explored to improve data transfer between council systems and eRMS. The high trust relationship built with the councils involved in the trial should be leveraged to (co)design and implement simple, low cost (but high value) solutions during the trial extension period&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;options-to-consider&quot;&gt;Options to consider&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Option 1 - &lt;strong&gt;Close down the initiative&lt;/strong&gt;: inform Councils there will be no change to the current paper-based service from DIA. Decommission the service.&lt;/li&gt;
+  &lt;li&gt;Option 2 - &lt;strong&gt;Run a second trial with the existing three councils&lt;/strong&gt;. Continue to provide support, but limit other activity to keep costs minimal.&lt;/li&gt;
+  &lt;li&gt;Option 3 - &lt;strong&gt;Run a second trial with the existing three councils through a high application volume period and implement data export solutions (recommended)&lt;/strong&gt;: proceed as for option two, but also implement data export solution for councils (for import into their core systems). Investigate (and document a recommendation for) the best solution to improve data submission (reduce cost and reduce/eliminate data entry errors) from council core systems to eRMS.&lt;/li&gt;
+  &lt;li&gt;Option 4 - &lt;strong&gt;Extend the trial with the existing three councils until the end of June 2020&lt;/strong&gt;: continue to gradually evolve the service with these councils throughout this period. Use the high quality relationship built with councils to co-design the optimal online (and paper) application process ready for when the statutory declaration requirement is removed.&lt;/li&gt;
+  &lt;li&gt;Option 5 - &lt;strong&gt;Extend the trial until the end of June 2020 and allow another three councils to join&lt;/strong&gt;: continue to run the trial with Tauranga City Council, Kāpiti District Council, and Hutt City Council through to June 2020 and trial the service with an additional three councils. Aim to sign up councils that will best test whether the service is ready to be rolled out nationally.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;The Rates Rebates Online Beta was designed to meet the needs of ratepayers, councils, and the DIA Rates Rebates team. It was built based on the findings of a Discovery and Alpha phase.&lt;/p&gt;
+
+&lt;p&gt;In the Discovery phase we mapped and reviewed the existing Rates Rebates delivery system. We interviewed internal and external stakeholders, and explored potential methods of service delivery. The discovery revealed many opportunities at the system level to improve the experience for both the people applying for their entitlement and people delivering the service.&lt;/p&gt;
+
+&lt;p&gt;In the Alpha phase, we designed and developed a minimum viable product (MVP), and trialled the product in Tauranga from 21 May—30 September 2018 with Tauranga City Council. The alpha focused on testing system changes. Tauranga City Council, Auckland Council assisted with the design and test of the alpha and numerous other councils watched progress closely. The Alpha proved to be of high value to ratepayers and Councils, and successfully tested a fully digital and user-centred end to end rates rebate process. The source code was released under an Open Source licence (MIT), and the project won the Award for Open Source Use in Government for 2018.&lt;/p&gt;
+
+&lt;p&gt;In the Beta phase, we focused on further refining the service based on further user research and feedback from ratepayers and councils. We emphasised on ensuring it is was set up to be a live, fully functional, and sustainable system. This included:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Learning how the service can scale to more than one council&lt;/li&gt;
+  &lt;li&gt;Moving the alpha solution to sustainable production infrastructure and technology&lt;/li&gt;
+  &lt;li&gt;Ensuring accessibility, privacy, security issue standards for public services are fully adhered to&lt;/li&gt;
+  &lt;li&gt;Gathering feedback from beyond a wider range of councils, beyond just the single council involved in the alpha&lt;/li&gt;
+  &lt;li&gt;Building a case for further investment and rule changes&lt;/li&gt;
+  &lt;li&gt;Exploring options for future ownership of the service to ensure it will be well managed and continue to evolve if it progresses beyond beta&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Following research into current user behaviour, the online rates rebate application form was implemented within govt.nz (which is recognised as the authority on rates rebates by major search engines, and referenced by council websites).&lt;/p&gt;
+
+&lt;p&gt;User acceptance testing (UAT) for the Rates Rebate Beta began on Tuesday 21 May. The Beta trial with ratepayers started on Wednesday 5 June and ended on Monday 1 July. Councils continued to process online applications up to 1 August 2019.&lt;/p&gt;
+
+&lt;p&gt;Funding for the Beta was approved by the Service Innovation Working Group (SIWG) within the Digital Government Partnership supported by the Government Chief Digital Officer (GCDO). To deliver the Beta, a virtual team was created with support and participation from the Service Delivery and Operations (SDO) team (who continue to provide advice and subject matter expertise), and the Government Information Services (GIS) team (who made a significant contribution to the initiative by contributing two developers at high capacity for an extended period). At this stage there has been no funding approved to proceed beyond Beta.&lt;/p&gt;
+
+&lt;h3 id=&quot;current-factors-impacting-customers-using-the-service&quot;&gt;Current factors impacting customers using the service&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Low income, and time poor&lt;/strong&gt;
+The current application process is complex, takes a long time, and places an unjustified burden on many people by asking for more information than is necessary.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Issues affecting mobility and access&lt;/strong&gt;
+The lack of an alternative, accessible way to make an application means many people who have a disability e.g. a vision impairment (&lt;a href=&quot;http://archive.stats.govt.nz/browse_for_stats/health/disabilities/DisabilitySurvey_HOTP2013/Commentary.aspx&quot;&gt;over 11% of those over 65&lt;/a&gt;) or a physical disability (&lt;a href=&quot;http://archive.stats.govt.nz/browse_for_stats/health/disabilities/DisabilitySurvey_HOTP2013/Commentary.aspx#impairtype&quot;&gt;49% of those over 65&lt;/a&gt; struggle to apply for help they are eligible to receive.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The majority of customers are over 65 and/or living with a disability. In the 2017/18 rating year 79% of all applicants were receiving New Zealand Superannuation. The requirement to sign a Statutory Declaration in front of a witness is a barrier for this group.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: During the Beta trial, a separate paper &lt;em&gt;&lt;a href=&quot;https://docs.google.com/document/d/11gccvNrVD4PnfvMZwgwHEO4M5UQmRvjbpTZjBVA1lD8/edit?usp=sharing&quot;&gt;“Why remove the statutory declaration”&lt;/a&gt;&lt;/em&gt; was written to support the case for its removal. This paper details the substantial benefits associated with removing the statutory declaration, when this is supported with adoption of an online application process.&lt;/p&gt;
+
+&lt;h2 id=&quot;applications-submitted-during-the-trial&quot;&gt;Applications submitted during the trial&lt;/h2&gt;
+
+&lt;p&gt;We choose to run the beta during the quiet June period directly following the normal “reminder” sent out by councils before the end of the financial year. Councils indicated that this timing would work well because staff would be available to collaborate, co-design, and test improvements to the application and process. This worked well, with the design team able to work closely with both frontline and back office staff to observe processes and current practice. Council staff were also available during a two week period of user acceptance testing, which was important (we had received feedback from Tauranga that insufficient time had been allowed for user acceptance testing in the Alpha).&lt;/p&gt;
+
+&lt;p&gt;Running the trial in the June period also meant that only a low number of applications were expected to be received and processed (this turned out to be the case).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A total of 101 applications were submitted.&lt;/li&gt;
+  &lt;li&gt;46 of the 101 applications were signed and fully processed.
+    &lt;ul&gt;
+      &lt;li&gt;12 were processed by Tauranga City Council&lt;/li&gt;
+      &lt;li&gt;8 were processed by Hutt City Council&lt;/li&gt;
+      &lt;li&gt;26 were processed by Kāpiti District Council&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;5 of the 101 were submitted, but never signed.&lt;/li&gt;
+  &lt;li&gt;50 of the 101 applications were declined.
+    &lt;ul&gt;
+      &lt;li&gt;The most common reason supplied by councils for declining applications was “income too high”. However, there were also a significant number of applications from ratepayers who had already applied in the 18/19 year.&lt;/li&gt;
+      &lt;li&gt;The ability to “decline” an application (and supply a reason) was added to the beta, and we believe this feature could provide useful data for analysis (see “Recommendations beyond beta” section later in the document for more about this).&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;expected-benefits&quot;&gt;Expected benefits&lt;/h2&gt;
+
+&lt;p&gt;We expected the Rates Rebate Beta beta app to help people identify their eligibility and then apply for the rebate with less effort and stress. It was also designed to simplify service delivery for the council from &lt;a href=&quot;https://www.digital.govt.nz/blog/rates-rebates-discovery-week-2-mapping-pain-points/&quot;&gt;the current very manual and paper-heavy process&lt;/a&gt; to a significantly simpler, faster (and digital) service.&lt;/p&gt;
+
+&lt;p&gt;The trial also further explored how uptake of the scheme could increased. The need to raise awareness of the scheme was identified in the Discovery and Alpha phase, and had recently prompted the DIA to write to the Royal New Zealand Returned and Services Association, Grey Power and the Citizens Advice Bureau in about eligibility and how to apply.&lt;/p&gt;
+
+&lt;p&gt;Integration between council and DIA systems was a pain point. We agreed with Service Delivery and Operations that this was not in scope for the trial.&lt;/p&gt;
+
+&lt;p&gt;In particular, the beta was designed to:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Increase the uptake of the Rates Rebate&lt;/li&gt;
+  &lt;li&gt;Improve customer experience and satisfaction levels&lt;/li&gt;
+  &lt;li&gt;Decrease the cost of processing applications for councils&lt;/li&gt;
+  &lt;li&gt;Improve the ability to digitally deliver this and other services to councils&lt;/li&gt;
+  &lt;li&gt;Support the case to remove the statutory declaration (witnessed signature requirement)&lt;/li&gt;
+  &lt;li&gt;Produce insights informing other use cases with a similar customer profile&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;evidence-supporting-expected-benefits&quot;&gt;Evidence supporting expected benefits&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-increase-the-uptake-of-the-rates-rebate&quot;&gt;1. Increase the uptake of the Rates Rebate**&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The removal of the statutory declaration requirement for an online application has been clearly identified as the key change needed to increase application volume. Removing the statutory declaration removes the barrier of having to visit a council to submit an application. A paper was written to support the case for this change during the beta phase. If successful, this requirement could be removed by June 2020. All three councils involved in the trial are convinced enabling applications to be completed online will result in a major increase in applications both received and processed.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.digital.govt.nz/blog/rates-rebate-content-changes-lead-to-better-experience-more-users/&quot;&gt;Improvements were made to Rates Rebate content on govt.nz and the calculator&lt;/a&gt; based on the analysis of analytics data. These improvements resulted in a significant increase in the number of application form (PDF) downloads. The improvements also resulted in an increase in the number of people receiving an estimate when visiting the calculator (from 47% to 58%).&lt;/li&gt;
+  &lt;li&gt;The online application form was optimised to work on mobiles, tablets, and other common devices. The low volume of applications submitted during the trial meant that no meaningful conclusions can be drawn from analysis of analytics data (e.g. percentage of applicants using mobile devices - or, for example, when during the day these applications were filled in). A second trial during a high volume period is recommended to gather more data.&lt;/li&gt;
+  &lt;li&gt;The online application form was designed to be a lot simpler than the paper version, which (based on observations by the team and councils) substantially reduced the effort required to complete an application. There is no baseline to compare this to because this isn’t tracked for paper applications (they may be simply discarded). At this stage analytics data measuring conversion hasn’t been processed given the low volumes of applications received during the trial. This will be completed if a further trial is run during a higher volume period. Improvements to the form included:
+    &lt;ul&gt;
+      &lt;li&gt;questions reworded&lt;/li&gt;
+      &lt;li&gt;questions reordered&lt;/li&gt;
+      &lt;li&gt;unnecessary questions and repetition removed&lt;/li&gt;
+      &lt;li&gt;in-context help content provided&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The online application form is much faster to complete, it took on average 4 minutes for customers to complete, versus 25 minutes for the paper form. Again, &lt;a href=&quot;https://docs.google.com/document/d/1zDiJs8x2r9ABKa0hqCHkDZnK1B5iy-JlNSbtCZUoDuo/edit?usp=sharing&quot;&gt;research indicated&lt;/a&gt; this resulted in greater completion rates, but there is no baseline established for paper application forms.&lt;/li&gt;
+  &lt;li&gt;Councils are aware that an online application is much faster to complete than a paper application (and much faster for them to process) and they intend to promote this option as a result (if the trial proceeds beyond beta).&lt;/li&gt;
+  &lt;li&gt;A great deal of care was taken to ensure the application form is accessible for those with disabilities. This work has been completed with GIS accessibility expert Jason Kiss. With approximately 11% of the target audience vision impaired, and 59% with a disability of some kind, this should not be considered an optional extra (as highlighted in the recently published &lt;a href=&quot;https://www.digital.govt.nz/digital-government/digital-transformation/digital-inclusion/digital-inclusion-blueprint/&quot;&gt;Digital Inclusion Blueprint&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I’m partially blind, so if things are on a computer I can zoom in and read them”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Sorry, my fingers don’t work very well”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Trouble is I can’t walk very far now. My knees and my ankles have packed up. I can’t drive …because my shoulder’s packed”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;There was evidence gathered during the trial that even when applicants need to switch channels to apply online, they will do so. Tauranga sent out 800 final reminder letters and had 20% online.&lt;/li&gt;
+  &lt;li&gt;As part of the beta trial, email addresses were requested from applicants so that a confirmation email could be sent to confirm their application had been received. These email addresses provide an opportunity to remind applicants to apply in subsequent years.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;2-improve-customer-experience-and-satisfaction-levels---decrease-time-effort-and-stress&quot;&gt;2. Improve customer experience and satisfaction levels - decrease time, effort and stress**&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The online application form takes on average &lt;strong&gt;4 minutes to complete, versus 25 minutes for the paper form.&lt;/strong&gt; This improvement was observed during the Alpha, and supported by observations and analytics during the beta trial. This is a huge improvement which we believe had a huge influence on the overwhelming positive customer feedback gathered by councils (who set up surveys in their offices using existing kiosks, and interviewed applicants).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;“The people that came in to complete the online process thought it was really good. Clearly an easier process for them”&lt;/em&gt;
+&lt;strong&gt;Moira Aplin (Rates Officer, Hutt City Council)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;While there may be no accepted way of calculating the dollar value of saving 19 minutes for every application filled out, this is a significant time saving for people who we know (from our user research) are time poor - especially if/when it can be realised for a large proportion of the over 95,000 applications submitted annually.&lt;/li&gt;
+  &lt;li&gt;We know from user research that ratepayers find the current paper application form confusing. This leads to forms often being completed incorrectly, or required fields left blank.&lt;/li&gt;
+  &lt;li&gt;We also know that when this happens, and the problems aren’t picked up at the counter, the applicant must be contacted and the application re-submitted.&lt;/li&gt;
+  &lt;li&gt;This delays when the rebate is granted at a time when it’s needed most. Feedback from councils indicated that they experienced fewer of these problems with the application forms they received online.&lt;/li&gt;
+  &lt;li&gt;There is still plenty of room for improvement however. The ability to move applications into a “Declined” state (and state a reason) was added based on feedback from councils. A much higher number of applications were moved into this declined state than expected. The most common reasons for declining applications were “applicant had already applied that year” and “applicants income was too high”. This suggests that there is confusion about when to apply. It also suggests (and this was supported by feedback from Tauranga City Council in particular) that there wasn’t enough done in the application process to warn applicants that they may not be eligible based on the information they have supplied before they make the trip to sign their application at a council office. There is more about this in “Recommendations beyond beta” later in this document.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;3-decrease-the-cost-of-processing-applications-for-councils&quot;&gt;3. Decrease the cost of processing applications for councils&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bigger councils currently spend hundreds of thousands of dollars on serving and administering the rebate for rate payers (e.g. Tauranga City Council estimate it costs them $200,000 annually to process 4,500 applications).&lt;/li&gt;
+  &lt;li&gt;Even smaller councils like Carterton District Council process 2,000-3,000 applications each year. Councils in the Wairarapa told us they work nights and weekends during the busy period to meet demand - and they believe they currently have very low uptake. They said that “anything to make the experience better” would be a massive help.&lt;/li&gt;
+  &lt;li&gt;The Beta has dramatically reduced the cost per transaction costs by:
+    &lt;ul&gt;
+      &lt;li&gt;Validating all required fields are filled in&lt;/li&gt;
+      &lt;li&gt;Providing guidance and validation messages to ensure the fields are filled in correctly&lt;/li&gt;
+      &lt;li&gt;Improving the quality of addresses by suggesting addresses from council rates data&lt;/li&gt;
+      &lt;li&gt;Removing the need to manage and review evidence of income documentation&lt;/li&gt;
+      &lt;li&gt;Removing the need to review dependant details&lt;/li&gt;
+      &lt;li&gt;Automatically filling in rates values and valuation IDs based on council data&lt;/li&gt;
+      &lt;li&gt;Removing the need to key in applications from hand-written paper application forms&lt;/li&gt;
+      &lt;li&gt;Reducing the time that the double signature step takes by automatically filling in the council staff name, date, and the applicant’s occupation - and capturing signatures digitally&lt;/li&gt;
+      &lt;li&gt;Improving the back-office workflow by supporting the ability to easily mark applications as “Processed” and “Batched”&lt;/li&gt;
+      &lt;li&gt;Completely removing the need to collate and courier paper applications to DIA&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Feedback from councils on the improvements made during the beta include:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;“I can’t emphasise how much better the experience is … the experience is smooth and the QR code is a bit special.”&lt;/em&gt;
+&lt;strong&gt;Jeremy Glass (Team Leader: Service Centre, Tauranga City Council)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“The speed of the transaction is really noticeable. For example, removing the need for ratepayers to provide evidence of income has made a huge difference.”&lt;/em&gt;
+&lt;strong&gt;Jeremy Glass (Team Leader: Service Centre, Tauranga City Council)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“Signing of the applications and the processing has all gone smoothly… I’ve really enjoyed not having lots of paperwork on my desk - not having to work out which bits of paper go with which bits of paper… I would love to see this system go ahead.”&lt;/em&gt;
+&lt;strong&gt;Moira Aplin (Rates Officer, Hutt City Council)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“The look up fields for address worked well and the annual rates amount pulled through to the Council view, so that’s great!”&lt;/em&gt;
+&lt;strong&gt;Council back office team&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“I was buzzing after yesterday’s conference call… [you] have achieved big wins in this phase… Awesome. You have taken the administration of the act back as was originally intended. Not needing proof or collecting unnecessary information is huge for us, and presumably the back office in the rebate team.”&lt;/em&gt;
+&lt;strong&gt;Jim Taylor (Manager Transactional Services, Tauranga City Council)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“R% said even the signature part is great. She has had applications returned that she signed but had not printed her name, valueless bureaucracy. I love that you are implementing transformational change rather than plastering over the cracks”&lt;/em&gt;
+&lt;strong&gt;Jim Taylor (Manager Transactional Services, Tauranga City Council)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Based on their experience to date in the Beta trial, Tauranga City Council provided scenarios for the cost savings associated with moving applications online. These scenarios &lt;strong&gt;do not&lt;/strong&gt; include the savings they believe will be realised if/when the statutory declaration requirement is removed.
+Cost to process:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Current state&lt;/strong&gt;: 4,500 paper applications = $200,000&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Approx 45% online&lt;/strong&gt;: 2,500 paper + 2,000 online applications = $125,000&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;All online&lt;/strong&gt;: 4,500 online applications = $75,000&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;If we assume that the cost per application reduces as the number of applications increases for a given council, then taking Tauranga’s cost per paper application (one of the larger councils) is likely to be conservative = 200,000/4,500 = &lt;strong&gt;$44&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;In Tauranga’s scenario where 45% of applications are completed online, they estimate savings of over $35 per application.&lt;/li&gt;
+  &lt;li&gt;Tauranga have also reported that when they sent out 800 reminder letters, they had 20% of applications completed online.&lt;/li&gt;
+  &lt;li&gt;If we assume…
+    &lt;ul&gt;
+      &lt;li&gt;we can shift 20% of all applications online&lt;/li&gt;
+      &lt;li&gt;save $30 in processing cost per application completed online&lt;/li&gt;
+      &lt;li&gt;there were many more applications submitted and processed in some way than the 97,510 that were successful in 2017/2018 (as shown in the trial many applications are declined, are duplicates etc)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;..then we can conclude that the total savings for all councils nationwide in the first year would be substantially greater than $35 × 97,510 × 20% = &lt;strong&gt;$682,570&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;This number would be expected to increase as the proportion of applicants applying online increases.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;4-improve-the-ability-to-digitally-deliver-this-and-other-services-to-councils&quot;&gt;4. Improve the ability to digitally deliver this and other services to councils&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;One of the most important questions that the Beta phase set out to answer was “will councils even agree to participate in a beta trial”, given their participation involved a significant amount of time and effort on their part. The response we received from the councils we invited/pitched to participate was overwhelmingly positive. In fact, demand to participate in the Beta trial far exceeded expectations, and some councils were informed that they would need to wait to see if there was a subsequent Beta phase.&lt;/li&gt;
+  &lt;li&gt;Representatives from all three councils are so enthusiastic about the results of the trial that they are keen to get an opportunity to personally (face to face) provide their feedback on the trial to Rates Rebate decision makers.&lt;/li&gt;
+  &lt;li&gt;A high trust relationship has been built with the councils involved in the trial, with really positive feedback from all three councils (see #3 above).&lt;/li&gt;
+  &lt;li&gt;As part of the trial, digital tools such as Trello and Slack were introduced to council staff. These tools enabled transparent and swift communication throughout the trial, and also encouraged communication between councils.&lt;/li&gt;
+  &lt;li&gt;The trial involved the council experiencing rapid cycles of development and feedback which could from the basis for other similar engagements with those councils.&lt;/li&gt;
+  &lt;li&gt;The virtual team model where a team was formed from SDO, GIS, and the Service Innovation Lab proved to be a highly effective mechanism to rapidly improve a service. The combination of subject (service) matter expertise, digital channel expertise (and access + control of the channel/platform), and service design meant implementation was extremely efficient.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;5-support-the-case-to-remove-the-statutory-declaration-witnessed-signature-requirement&quot;&gt;5. Support the case to remove the statutory declaration (witnessed signature requirement)&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A paper was written to support the case for this change during the beta phase. A summary of the key points is included here.&lt;/li&gt;
+  &lt;li&gt;Applying for a rates rebate currently involves making a statutory declaration. The requirement to have applicants have their signature witnessed to complete a rates rebate application means that they are unable to submit an application without travelling either to a council office, or organising an alternative witness, such as a JP.&lt;/li&gt;
+  &lt;li&gt;The need to travel necessitated by the statutory declaration has been identified as the biggest single barrier preventing large scale adoption of an online application process. It is also considered the biggest hurdle for those submitting paper based applications.&lt;/li&gt;
+  &lt;li&gt;While this step may seem a minor inconvenience for those who live or work close to a council office, and who are mobile, it is a major barrier for those in more remote locations, or those who are less mobile, such as the disabled and the elderly. It is likely that these are some of the most disadvantaged in our communities.&lt;/li&gt;
+  &lt;li&gt;Removal of the statutory declaration, and adoption of the online application process will…
+    &lt;ul&gt;
+      &lt;li&gt;remove a substantial cost and inconvenience barrier for those who don’t live near a council office&lt;/li&gt;
+      &lt;li&gt;enable people who are actually unable to travel to council offices to still apply for a rebate&lt;/li&gt;
+      &lt;li&gt;allow the process to scale beyond the availability and capacity of council staff to witness signatures and support paper based applications&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;significantly reduce the costs of administering the scheme through the removal of manual tasks&lt;/li&gt;
+  &lt;li&gt;support improvements to privacy within the application process. It is not practical to control or record who views information provided on paper. When applications are made online, there are opportunities to remove and/or audit council staff access to private information supplied in the application.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;6-produce-insights-informing-other-use-cases-with-a-similar-customer-profile&quot;&gt;6. Produce insights informing other use cases with a similar customer profile&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The Beta phase was focused on further refining the Alpha service based on further user research and feedback from ratepayers and three councils. The Rates Rebate Research Report documents insights from research based on a combination of customer interviews, council and stakeholder observations and conversations, online surveys and analytics analysis.&lt;/li&gt;
+  &lt;li&gt;The key insights from this report are:
+    &lt;ol&gt;
+      &lt;li&gt;The system is too complex and multiple errors are occuring&lt;/li&gt;
+      &lt;li&gt;Seniors are more digitally capable than many assume&lt;/li&gt;
+      &lt;li&gt;Applicants are relinquishing control over to the council and authorities&lt;/li&gt;
+      &lt;li&gt;The current process is not accessible to people with disabilities&lt;/li&gt;
+      &lt;li&gt;Retirement village residents were well supported and have wrap around services&lt;/li&gt;
+      &lt;li&gt;There is a significant appetite for various forms of automation&lt;/li&gt;
+      &lt;li&gt;Eligible applicants are not applying because their personal data is not private&lt;/li&gt;
+      &lt;li&gt;The statutory declaration is a significant barrier to the completion of the process&lt;/li&gt;
+      &lt;li&gt;There is a need for human contact and support&lt;/li&gt;
+      &lt;li&gt;Newly bereaved need additional help with the application process&lt;/li&gt;
+      &lt;li&gt;Leverage the best channels for awareness and support&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Many of these insights inform other use cases with a similar customer profiles. Rates Rebate is just one example of a service used by seniors. Two examples of insights which inform services beyond Rates Rebate are:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Seniors are more digitally capable than many assume&lt;/strong&gt;
+Many superannuitants are using websites and apps to achieve a wide range of tasks. Three quarters of the superannuitants interviewed are interacting online and are digitally savvy. Facebook, Skype and emails are commonly used to connect friends and family. A large proportion use these applications for video calling, sharing photos, and sending messages.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;The current process is not accessible to people with disabilities&lt;/strong&gt;
+The applicants interviewed all used reading glasses and struggled to read the smaller text on the paper application form. If the application form is accessed as a downloadable pdf, it’s possible to enlarge the text, but the content doesn’t reflow into the screen, therefore comprehension is compromised. The downloadable pdf hasn’t been tagged with appropriate markup labels, therefore is not accessible to those using screen reader technology.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;recommendations-beyond-beta&quot;&gt;Recommendations beyond beta&lt;/h2&gt;
+
+&lt;p&gt;Based on what was learned during the beta trial, we recommend the following areas be explored further:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Consider a substantial redesign of the paper application form and/or alternative ways to apply.&lt;/strong&gt; Ratepayers find the current paper application form confusing. This leads to forms often being completed incorrectly, or required fields left blank. Applicants often perceive the ‘rates’ and ‘income’ step as easy, yet will frequently get this information wrong. Accessibility is also a real problem. All of the applicants interviewed during or research used reading glasses and struggled to read the smaller text on the paper application form.
+There is more information about this in the Rates Rebate Beta Research Report (key insight #1 and #4 - with detail in Appendix 2).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ensure councils understand their role in the application process, in particular with respect to the declaration and income.&lt;/strong&gt; Research conducted during the beta trial found there is a lack of clarity around the role council staff have in authenticating the proof of income. This can mean that the responsibility of verification frequently falls to the council staff member, rather than the ownership of the declaration staying with the applicant.
+The beta trial tested the removal of the need to supply evidence of income. This reduced the level of effort required by councils to process some applications. It also made it very clear whose responsibility it was to ensure the declaration of income was correct. We saw evidence during the trial which suggested that application details (including) were regularly being updated after declarations were being signed. This is clearly not good practice.
+There is more information about this in the Rates Rebate Beta Research Report (key insight #3).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Explore how the application forms might be pre-filled based on previous applications.&lt;/strong&gt; Results from surveys (29 of 33 respondents) and interviews indicate that the majority of applicants would prefer to have the form prefilled based on their previous application. Eligible ratepayers are surprised that they are required to fill in the form manually every year. This perplexes a lot of people as they find repeating the process of getting the information from separate government authorities inefficient and a waste of time. People’s circumstances don’t generally change each year, yet the same information is required every rating year.
+There is more information about this in the Rates Rebate Beta Research Report (key insight #6).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Conduct further research during the 19/20 rating year into how well the application process is working for retirement village residents.&lt;/strong&gt; Our research found that the experience of village residents who had applied in 18/19 was very positive, but we believe this is because local councils provided a high level of support in the first year, which is unlikely to be the case from the second year onwards.
+There is more information about this in the Rates Rebate Beta Research Report (key insight #5).&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Leverage the high trust relationship built with the three councils involved in the trial to (co)design and implement simple, low cost (but high value) solutions.&lt;/strong&gt; These include:
+ a. &lt;strong&gt;Providing data exports for online applications which can be imported into council systems.&lt;/strong&gt; During the trial a basic example was implemented to solicit feedback from councils, but there wasn’t sufficient time to refine the solution.
+ b. &lt;strong&gt;Explore how to best extend the solution to support applicants who live in retirement villages.&lt;/strong&gt; A decision was made during the beta to focus on optimising the process for the majority of applicants, and not attempt to support retirement villages. A solution for retirement village residents (and in particular providing a solution to allow village administrators to submit the additional supplementary information) was explored during the trial, and is not expected to be particularly hard to fully design and implement.
+ c. &lt;strong&gt;Design a solution which provides guidance about the rebate the applicant can expect as part of the application process (rather than requiring applicants to use the calculator first).&lt;/strong&gt; An estimated value of the rebate likely to be received was removed from the alpha after feedback from councils suggested that the majority of applicants entered either their rates or their income values incorrectly, and may be put off completing their application if they saw an incorrect estimate displayed. Tauranga believe that this led to a number of unnecessary visits by applicants who were not eligible. We believe it is possible to design a solution which carefully communicates the rebate is an estimate - not putting off those struggling to get the figures correct from seeking help, but also preventing unnecessary trips by those clearly not eligible.
+ d. Explore other small changes which will reduce back office processing effort for councils. Kāpiti were unable to process online applications together with paper applications during the trial which required additional management effort.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Improve the “Decline” feature in the application which allows applications to be put in “declined” state (and stores a reason why the application was declined).&lt;/strong&gt; This simple feature could be easily enhanced to suggest a list of common reasons applications are rejected when councils reject applications. This would then facilitate easy analysis of this data by SDO.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Explore the value that could be provided by implementing a simple dashboard that gives senior council staff an overview of how many applications are at which stage of the workflow. Also explore whether providing this information to DIA, and an additional view across all councils would be valuable.&lt;/strong&gt; During the beta there was evidence to suggest that many problems occured in the paper process when applications were not processed in a timely fashion. The ability to monitor the workflow was highlighted by both councils and SDO as a desirable feature.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Implement improvements to the layout of the application batch files provided for DIA by the beta application.&lt;/strong&gt; While there were a number of refinements made to the batch file format based on feedback from the Service Delivery and Operations team, there are a simple improvements (such as better support for double sided printing) which could be easily implemented and make a big difference.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Replace the need to print and file paper copies of applications for 7 years with a digital alternative.&lt;/strong&gt; In the beta trial a solution was implemented which created application batch files which could be printed by Service Delivery and Operations direct from the secure application. This achieved the goal of avoiding the need for councils to print and then courier these batch files, while minimising any impact on the SDO team. There is an opportunity to explore existing digital solutions within DIA/government which meet the 7 year requirement for storage.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Implement a solution that supports the rejection of applications which have already been lodged in eRMS.&lt;/strong&gt; The process for paper applications currently involves rejecting a claim in eRMS, and then returning the form to the council to have the application amended, resigned, and submitted in a new batch. The equivalent process has not yet been implemented in the beta.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Explore whether introducing rules-based auditing (in addition to the current audit process) would make the process more robust.&lt;/strong&gt; In the beta applicants weren’t required to supply evidence of income. If they declared income under $5,000 they were asked to supply a reason. Rules/triggers (e.g. declared less than $5,000 income) which prompt further information to be requested in certain cases may be an opportunity to make the process more robust while keeping most applications lean.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Measure the improvements to the DIA part of the process as a result of a move from paper on online applications. Explore further opportunities to reduce costs.&lt;/strong&gt; Improvements to data quality through the elimination of errors when interpreting handwriting, and during keying in applications, will reduce issues for DIA as well as councils. Reducing the number of applications couriered should also reduce effort. Greater visibility of council workflows is likely to increase the ability to capacity plan, and reduce peaks and troughs. This value should be measured, and optimised.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Work with Inland Revenue and Ministry of Social Development to allow for consented income testing to make it easier for applicants to prove their income.&lt;/strong&gt; Despite applicants often perceiving the ‘rates’ and ‘income’ step as easy, it is known that they frequently get this information wrong. The beta used rates information supplied by councils to remove errors with rates information, this left income as the major pain point.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Work with other agencies such as Ministry of Social Development to integrate the rates rebate application into applications for other services.&lt;/strong&gt; The product owner of MyMSD was engaged during the beta trial and there was interest in working together to paper prototype potential solutions.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Translate the online application form into other languages, and provide the option online to choose a language.&lt;/strong&gt; Councils identified that they had applicants who had low levels of fluency in English and found applying difficult. It was common for the council teams to find a workmate who spoke the language and could deal with these applications, and also for these staff to move on leaving the teams unable to deal with applicants with low English fluency.&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>glen-thurston</name></author><category term="blog post" /><category term="open source" /><category term="rates rebate" /><category term="te whakamāmā i ngā reiti" /><summary type="html">Following a successful Alpha phase in May and September 2018, the Rates Rebate beta trial was run in June and July 2019 by a team with members from Service Delivery and Operations team within DIA, Government Information Services, and the Service Innovation Lab. This was in collaboration with Tauranga City Council, Hutt City Council, and Kāpiti Coast District Council</summary></entry><entry><title type="html">Testing our Toolkit</title><link href="https://serviceinnovationlab.github.io//2019/07/31/Testing-Our-Toolkit/" rel="alternate" type="text/html" title="Testing our Toolkit" /><published>2019-07-31T00:00:00+00:00</published><updated>2019-07-31T00:00:00+00:00</updated><id>https://serviceinnovationlab.github.io//2019/07/31/Testing-Our-Toolkit</id><content type="html" xml:base="https://serviceinnovationlab.github.io//2019/07/31/Testing-Our-Toolkit/">&lt;h2 id=&quot;tests-we-run&quot;&gt;Tests we run&lt;/h2&gt;
 
 &lt;p&gt;This toolkit is built using an open-source tool called Jekyll. We write content in markdown format, which is then parsed by Jekyll which produces a static HTML website that we host on Github pages.&lt;/p&gt;
 
@@ -1775,490 +2104,4 @@ The number of Rates Rebates claimed each year has been dropping. This is a well 
       &lt;p&gt;State of the Internet 2017 Report- Internet NZ &lt;a href=&quot;#fnref:7&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>glen-thurston</name></author><category term="rates rebate" /></entry><entry><title type="html">Exploring the Notice of Sale Process</title><link href="https://serviceinnovationlab.github.io//2018/10/12/Exploring-the-Notice-of-Sale-process/" rel="alternate" type="text/html" title="Exploring the Notice of Sale Process" /><published>2018-10-12T00:00:00+00:00</published><updated>2018-10-12T00:00:00+00:00</updated><id>https://serviceinnovationlab.github.io//2018/10/12/Exploring-the-Notice-of-Sale-process</id><content type="html" xml:base="https://serviceinnovationlab.github.io//2018/10/12/Exploring-the-Notice-of-Sale-process/">&lt;p&gt;&lt;strong&gt;Authored by:&lt;/strong&gt; Glen Thurston and Nadia Webster&lt;/p&gt;
-
-&lt;h2 id=&quot;contents&quot;&gt;Contents&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;#Go-to-InSummary&quot;&gt;In summary&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#Go-to-WhatIsNoticeOfSale&quot;&gt;What is the notice of sale and why is it important?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#Go-to-PossibleSolution&quot;&gt;Possible solution&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#Go-to-NextSteps&quot;&gt;Next Steps&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;exploring-the-notice-of-sale-process&quot;&gt;Exploring the Notice of Sale process&lt;/h2&gt;
-
-&lt;p&gt;Exploring opportunities to improve the notice of sale process as part of the life event of ‘selling and buying a property’&lt;/p&gt;
-
-&lt;p&gt;A collaboration between:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The All of Government Service Innovation Lab&lt;/li&gt;
-  &lt;li&gt;Auckland Council&lt;/li&gt;
-  &lt;li&gt;Land Information New Zealand&lt;/li&gt;
-  &lt;li&gt;Tauranga City Council&lt;/li&gt;
-  &lt;li&gt;Wellington City Council&lt;/li&gt;
-  &lt;li&gt;Whangarei District Council&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;in-summary&quot;&gt;In summary&lt;a name=&quot;Go-to-InSummary&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;In August 2018, a collaboration led by the all of government Service Innovation Lab with Auckland Council, Land Information New Zealand (Valuer General), Tauranga City Council, Wellington City Council and Whangarei District Council explored the Notice of Sale (the notice) process as part of the ‘selling and buying a property’ life event.&lt;/p&gt;
-
-&lt;p&gt;This group believe that there are a range of possible solutions to improve the notice; for the benefit of people selling and buying property, their agents (ie real estate agent, solicitors, conveyancers), Councils and government agencies teams.&lt;/p&gt;
-
-&lt;p&gt;During August, the group explored:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The role of the notice and its importance,&lt;/li&gt;
-  &lt;li&gt;Goals for the future of the notice,&lt;/li&gt;
-  &lt;li&gt;Pain points and experiences that people and organisations involved with the notice are having,&lt;/li&gt;
-  &lt;li&gt;Potential opportunities/solutions for improving the process.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The work was completed in three parts, a current state review with the Wellington based group members, a design intensive in Auckland (13-16 August) followed by the write up of the findings of both the review and the design intensive.&lt;/p&gt;
-
-&lt;p&gt;The goal of this work was to help the group of interested parties identify a path forward to improve the notice process. It helps scope up future design work that would be needed to explore the opportunities in more depth to ascertain their desirability from a user perspective, viability from a business sustainability perspective and feasibility from a technical perspective.&lt;/p&gt;
-
-&lt;p&gt;The design intensive identified the following next steps that are needed to continue this work:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The need for a sponsor(s) to help drive continuing this work.&lt;/li&gt;
-  &lt;li&gt;The Lab could lead a &lt;a href=&quot;https://www.digital.govt.nz/standards-and-guidance/strategy-and-planning/digital-lifecycle/discovery/&quot;&gt;discovery&lt;/a&gt; with the support of this group to investigate the preferred data based possible solution in more detail to test its viability, feasibility and desirability.&lt;/li&gt;
-  &lt;li&gt;The Councils collectively or individually could investigate the other two solutions identified; in the intensive; Improve communication between Councils and Solicitors and data validation flags to help select the correct process to use.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;what-is-the-notice-of-sale-and-why-is-it-important&quot;&gt;What is the notice of sale and why is it important?&lt;a name=&quot;Go-to-WhatIsNoticeOfSale&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;The Notice of Sale (the notice) acts a conduit of sales and/or property owner information in the property transfer process and its a legal requirement that it must be supplied to a Local Authority&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; (ie Councils) as part of the Local Government (Rating) Act 2002.&lt;/p&gt;
-
-&lt;p&gt;For a Council the notice is typically the first contact they have about the transfer and importantly the new owner of the property. This allows them to update the rating information to send out the rates notice to them. The notice includes valuable sale information where a sale is involved (eg tells them how much the property sold) for which is important for the valuation purposes as it helps give an indication on the valuations for an area.&lt;/p&gt;
-
-&lt;p&gt;Rates and valuations are linked together and the notice is one of the key inputs into this process. The notice gives more information and data about the property that helps to give a better indication of valuation and therefore the rates to charge.&lt;/p&gt;
-
-&lt;h3 id=&quot;the-rating-and-valuation-process&quot;&gt;The rating and valuation process&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS1.png&quot; alt=&quot;Valuation cycle &amp;amp; Local Authority actions feeds into the Setting and billing of rates, then to Property Owner&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;(Flow chart showing that Valuation cycle &amp;amp; Local Authority actions feeds into the Setting and billing of rates, then to Property Owner.)&lt;/p&gt;
-
-&lt;p&gt;In addition to the rating process the notice also acts another way to provide information that the property title has changed too.&lt;/p&gt;
-
-&lt;h3 id=&quot;the-notice-of-sale-and-its-relation-to-rating-and-valuation&quot;&gt;The notice of sale and its relation to rating and valuation&lt;/h3&gt;
-
-&lt;p&gt;(also see &lt;a href=&quot;#Go-to-Appendix1&quot;&gt;Appendix 1&lt;/a&gt; for the key concepts required under legislation and what triggers a change of ownership, and see &lt;a href=&quot;#Go-to-Appendix2&quot;&gt;Appendix 2 Data Map&lt;/a&gt; for what data is collected at each step in the process)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS2.png&quot; alt=&quot;Notice of Sale decision tree&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;(Notice of Sale decision tree. &lt;strong&gt;Path 1&lt;/strong&gt; - Notice of change of ratepayer and/or their contact details of whole or part of the rating unit; Council finance team accountable fo calculation of rates. This is Audited by DIA; Council valuation team accountable for valuation data being correct. This is audited by LINZ valuer general. They determine structure of data extracts for comparable analysis. &lt;strong&gt;Path 2&lt;/strong&gt; - Notice of change of title (i.e. creation of a new title and cancellation of existing title); Register of Titles; Valuation Service Providers (VSP). They are accountable for the calculation of valuations. Councils are also required to provde the correct data/information to contirbute to the calculation.)&lt;/p&gt;
-
-&lt;p&gt;The notice must contain these points:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;The full name and address of the purchaser or transferee; and&lt;/li&gt;
-  &lt;li&gt;in the case of a sale, the sale price.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;It has to be supplied to the Council within one month after the sale or transfer of a rating unit by the person selling it.&lt;/p&gt;
-
-&lt;p&gt;Key legislative references are:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.legislation.govt.nz/act/public/2002/0006/latest/DLM132269.html?search=ts_act%40bill%40regulation%40deemedreg_Local+Government+(Ratings)+Act+2002_resel_25_a&amp;amp;p=1&quot;&gt;Sections 31 - 33 and 36 of the Local Government (Ratings) Act 2002&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.legislation.govt.nz/act/public/1998/0069/latest/DLM427713.html?search=ts_act%40bill%40regulation%40deemedreg_Rating+Valuation+Act+1998_resel_25_a&amp;amp;p=1&quot;&gt;Section 52 of the Rating Valuation Act 1998&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;There is no prescribed form for the notice or methods to transmit the information to Councils. The notices vary depending on the other information requirements that Councils request or what solicitors typically want to send to support the sale. The QV sales direct online form was originally built around what is mandatory but has been amended over time based on solicitor and council requirements; most notably contact details for new owner.&lt;/p&gt;
-
-&lt;p&gt;There is also no definition for the term ‘property’ as it’s not a clear concept. From a rating perspective at Councils it’s the &lt;em&gt;title and rating unit&lt;/em&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;statistics&quot;&gt;Statistics&lt;/h3&gt;
-
-&lt;p&gt;From the LINZ Rating Valuation Data set, the following table describes the number of sales between 2014 to 2017.&lt;/p&gt;
-
-&lt;h3 id=&quot;number-of-sales-2014-2017&quot;&gt;Number of Sales 2014-2017&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS3.png&quot; alt=&quot;Table showing the number of sales between 2014 to 2017 with sales totalling to 229,855&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;(Table showing the number of sales between 2014 to 2017 with sales totalling to 229,855.)&lt;/p&gt;
-
-&lt;p&gt;While the majority of property transfers are residential, there are a range of complex sales that are harder to facilitate and process. These include:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Farm sales&lt;/li&gt;
-  &lt;li&gt;Subdivisions&lt;/li&gt;
-  &lt;li&gt;Apartments and unit titles&lt;/li&gt;
-  &lt;li&gt;Commercial buildings&lt;/li&gt;
-  &lt;li&gt;Earthquake prone buildings&lt;/li&gt;
-  &lt;li&gt;Maori leasehold land&lt;/li&gt;
-  &lt;li&gt;Leasehold titles&lt;/li&gt;
-  &lt;li&gt;Trust and trustee changes&lt;/li&gt;
-  &lt;li&gt;Result of river changing boundaries&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;the-notice-and-its-importance-to-nz-inc&quot;&gt;The notice and its importance to NZ Inc&lt;/h3&gt;
-
-&lt;p&gt;The notice directly help contribute to understanding New Zealand’s Financial and Physical Capital as defined in &lt;a href=&quot;https://treasury.govt.nz/information-and-services/nz-economy/living-standards&quot;&gt;Treasury’s Living Standards Framework&lt;/a&gt; (LSF). This framework draws on OECD analysis of wider indicators of wellbeing with the starting point is answering three questions:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;What are current outcomes?&lt;/li&gt;
-  &lt;li&gt;Will these outcomes be sustained or improved?&lt;/li&gt;
-  &lt;li&gt;How resilient is the system?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The LSF is based on four capitals that organise indicators of sustainable intergenerational
-Wellbeing and for the notice Financial and Physical Capital is most applicable. This includes:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Financial and physical capital includes the buildings, machines and equipment and other
-conventional investment, including capital spending by government.&lt;/li&gt;
-  &lt;li&gt;The financial assets of households provide resilience to unexpected life events and retirement.
-&lt;strong&gt;Housing&lt;/strong&gt; is a major contributor to current wellbeing and is the highest-valued household asset.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;How do we link the information contained in the notice and use this with other data sources and use this for measuring the health and resilience of New Zealand properties and therefore contribute to Financial and Physical Capital wellbeing?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;There is an opportunity to use the notice of sale data linked with the core rating valuation data to provide profiles of the housing stock of New Zealand ie that is we know the owner/occupier vs rentals, type of housing, construction, age, spacial (ie where they are located). What else could the data be mashed up with? What stories could this tell and what it could inform?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;open-data&quot;&gt;Open data&lt;/h3&gt;
-
-&lt;p&gt;The notice of sale information is deemed to be ‘&lt;a href=&quot;https://www.data.govt.nz/open-data/what-is-open-data/&quot;&gt;open data&lt;/a&gt;’ ie it’s data anyone can use and share. It has an open licence, is openly accessible and is both human-readable and machine-readable.
-To protect the integrity of the property sector the data needs to be made available to aid with transparency and avoid corruption.&lt;/p&gt;
-
-&lt;p&gt;The Design Intensive
-The challenge for the Notice of Sale design intensive was to explore what a positive, effective customer experience looks like when based on a real-world &lt;a href=&quot;https://www.digital.govt.nz/showcase/integrated-services-service-innovation-working-group/&quot;&gt;life event&lt;/a&gt; (&lt;a href=&quot;https://www.digital.govt.nz/blog/labplus-the-value-of-a-life-events-lens-a-vehicle-for-creating-long-term-strategic-value/&quot;&gt;see this blog post about the value of life events&lt;/a&gt;). The design team sought to understanding the big picture associated with notice of sale and where it fits within the life event of selling and buying a home and together seek to understand the desired outcome from different perspectives and identify indicative opportunities to achieve these outcomes.&lt;/p&gt;
-
-&lt;p&gt;Representatives from Whangarei District Council, Auckland Council, Tauranga City Council, Wellington City Council, LINZ and the Service Innovation Lab (the lab) were involved as team members involved either before and/or during the three day intensive between 13-15 August.
-During the intensive we wanted to explore in the design sprint:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;High level understanding of where the notice of sale fits within the life event of selling and buying a property&lt;/li&gt;
-  &lt;li&gt;Generate a collective understanding of the goals we seek for notice of sale.&lt;/li&gt;
-  &lt;li&gt;Reveal the pain-points, opportunities and constraints for the customer, agents, third parties and government agencies teams and understand what their motivations are.&lt;/li&gt;
-  &lt;li&gt;Reveal service bottlenecks, dead ends and successful interactions&lt;/li&gt;
-  &lt;li&gt;Explore any possible outcomes that could be developed that ease the pain-points&lt;/li&gt;
-  &lt;li&gt;Explore if there is an opportunity for reusable components to be created&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;During the three days of the intensive we covered:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Day 1: Gather&lt;/strong&gt; – Outline the complex problem, goals sought, audiences involved and their motivations&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Day 2: Define&lt;/strong&gt; – Assess problems, opportunities and constraints, themes&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Day 3: Ideate&lt;/strong&gt; / Visualize – Scenarios for our audiences and how we might make change&lt;/p&gt;
-
-&lt;p&gt;This is based on the following logic mapping flow model&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;(as shown below) developed by Dr Hazel Bradshaw from the Service Innovation Lab:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS4.png&quot; alt=&quot;Complex Problem;Overarching Goal;Audience Types;Motivation(Intrinsic &amp;amp; Extrinsic);Problem/Pain Points;Constraints;Emerging Concepts;IDEATE.&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;(Logic Mapping Flow diagram. Starts with Complex Problem; Overarching Goal; Audience Types; Motivation(Intrinsic); Motivation (Extrinsic); Problem/Pain Points; Constraints; Emerging Concepts; and lastly IDEATE.)&lt;/p&gt;
-
-&lt;h3 id=&quot;the-complex-problem&quot;&gt;The complex problem&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Buying and selling a property is complicated transaction, it requires information to be exchanged between a number of parties and if errors are made it has consequences for property ratings and valuations. This can lead to stress and have financial implications for the parties particularly the property buyer.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The team considered this complex problem and were asked to consider the life event in the context of the notice of sale. Here are the themes the team identified:&lt;/p&gt;
-
-&lt;h4 id=&quot;target-theme---automation&quot;&gt;Target theme - Automation&lt;/h4&gt;
-
-&lt;p&gt;The theme selected as a focus point was Automation. The team would like to automate as much of the current manual process as possible to improve the quality of submissions. They’d like to get rid of the term “notice of sale” from their vocabulary to allow time to focus on more important or higher value interactions with ratepayers and clients. They’s like to to see data entered once and transmitted electronically to all the stakeholders involved in the process (preferably from a single place). It was noted that automation should not be at the expense of verification, accuracy and completion.&lt;/p&gt;
-
-&lt;h3 id=&quot;other-themes-in-order-of-importance-to-the-team&quot;&gt;Other themes in order of importance to the team&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Single source of truth.&lt;/strong&gt; There is no current single source of authoritative data for the notice of sale that anyone can draw from eg no one reference number that follows a ownership transfer for parties to use. Team were quite fixed on this as a solution.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Data quality.&lt;/strong&gt; This includes accuracy and completeness. This involves changes in ownership that were not notified to the council or were lost somehow plus the accuracy of the received notices and its input into multiple systems. The discussion also revealed that there is also a need for more information that is needed to complete tasks that is not in the mandated information that must be sent. Eg contact details, postal addresses. The consequences of data quality include the number of manual checks and validation points throughout the process. Most systems also cater for happy day scenarios too.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Timeliness.&lt;/strong&gt; The team advised they need the notice information to be supplied as soon as possible to allow more value add tasks to be completed eg audit.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Improving council experience.&lt;/strong&gt; Because the notice is a a major part of the councils rates and valuation teams business, it takes up a large chunk of their time and they’d love to streamline the work for the sake of accuracy, auditing and sanity.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Improved customer experience.&lt;/strong&gt; The team are passionate about making life better and easier for our customers. From a solicitor perspective it’s about the desire to improve the process for the profession and their clients. Hopefully improvements will lead to an increase in trust between all parties.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Data transmission.&lt;/strong&gt; The notice needs to be sent to many parties, how could this be made easier? How do we make it more user friendly for solicitors to provide information?&lt;/p&gt;
-
-&lt;h3 id=&quot;goal-setting----what-are-the-end-goals&quot;&gt;Goal setting  - What are the end goals&lt;/h3&gt;
-
-&lt;p&gt;The team considered the goals associated with the complex problem statement - why is a goal important for this work? what does it look like?&lt;/p&gt;
-
-&lt;p&gt;These end goals were identified for the notice both from a higher level and a specific goal to focus on for this design intensive.&lt;/p&gt;
-
-&lt;p&gt;The higher level goals were:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Will improve the accuracy of sales and owner information that will ultimately result in better rating valuations and revaluations.&lt;/li&gt;
-  &lt;li&gt;Consistent, complete information that drives decision making and innovation - one source of truth for all market participants eg buyers and sellers, real estate agents, councils, central government.&lt;/li&gt;
-  &lt;li&gt;Better data helps contribute to better economic outcomes especially considering how property is a big driver in NZ economic success.&lt;/li&gt;
-  &lt;li&gt;Helps improve the quality of house  and property owners interactions with Council - often their first contact is a compliant due to an error with the rates and valuations.&lt;/li&gt;
-  &lt;li&gt;Improved service for people involved in sales and transfers.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The goal selected for the intensive was &lt;strong&gt;Data Quality&lt;/strong&gt; - this is needed for the rating and valuation tasks. This includes missing sales, accuracy of the data received and needing more information beyond the current notice rules to complete tasks.  It was recognised that to help with the theme of Automation data quality will be a key enabler. From this there were some sub goals:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Efficiency of process for everyone to free up people up to do higher value things/work&lt;/li&gt;
-  &lt;li&gt;Trust in data and process integrity to meet compliance requirements and ensure confidence for property owners.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Related themes to data quality (in order of importance) were accuracy and completeness of the notice, verified data within the notice and  ability for data sources to be linked. Other themes were improving the process within Councils, efficiency of process for all parties by creating less touch points and making compliance with the process easier.&lt;/p&gt;
-
-&lt;p&gt;It was noted that data quality would help mitigate the problems people encounter that are represented in the other themes.&lt;/p&gt;
-
-&lt;h3 id=&quot;audience-mapping&quot;&gt;Audience Mapping&lt;/h3&gt;
-
-&lt;p&gt;The &lt;strong&gt;primary audience&lt;/strong&gt; for the goals and theme is Council teams plus the agents (solicitor / conveyancer) who facilitates the notice for property buyers and sellers. Their relationship is key to the notice process being completed and sent to Council but also how issues are identified and resolved together. There is also a difference in expectations between the two regarding the amount of data that needs to be supplied to ensure that the new owner of property is correctly identified and billed the right amount of rates.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Council teams&lt;/strong&gt; included: customer data coordinators, customer services staff, digital capture, revenue, mailroom, credit control.&lt;/p&gt;
-
-&lt;p&gt;For the &lt;strong&gt;agents&lt;/strong&gt; this also extends to their professional bodies, individual practices, legal executives and secretaries, juniors.&lt;/p&gt;
-
-&lt;p&gt;The &lt;strong&gt;secondary audience&lt;/strong&gt; is LINZ most notably the OVR, Valuation Service Providers and third party utilities that directly need the NoS eg Watercare. These groups are essential for the valuation of properties and the notice is seen as the “&lt;em&gt;life blood&lt;/em&gt;” of rating valuation and “&lt;em&gt;without it we have nothing&lt;/em&gt;”.&lt;/p&gt;
-
-&lt;p&gt;Customers were considered to be the the old and new owners of the property, third parties who consume the data, ratepayers, real estate agents, government agencies who consume the data, software developers, office of auditor general. These groups of customers are impacted by the notice especially if there is issues with the data quality for a property but for the most part they will not be directly affected.&lt;/p&gt;
-
-&lt;h3 id=&quot;motivation-mapping---intrinsic-and-extrinsic&quot;&gt;Motivation Mapping - Intrinsic and extrinsic&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS5.png&quot; alt=&quot;Table showing the Intrinsic &amp;amp; Extrinsic motivations for Primary audiences (Councils &amp;amp; Solicitors) and secondary audiences&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;(Table showing the Intrinsic &amp;amp; Extrinsic motivations for Primary audiences (Councils &amp;amp; Solicitors) and Secondary audiences.)&lt;/p&gt;
-
-&lt;h3 id=&quot;problems-the-audiences-are-having&quot;&gt;Problems the audiences are having&lt;/h3&gt;
-
-&lt;p&gt;To consider the problems the various audiences are having the team were asked to map out the journeys for the solicitors and council teams. Prior to the intensive, a &lt;a href=&quot;https://docs.google.com/drawings/d/1_V6L9ibgHlJ8Fyc0Id6uJQlFdc0_XDsV1R5yDxxP81o/edit?usp=sharing&quot;&gt;service blueprint&lt;/a&gt; describing the journey from presale triggers to post-sale settlement was created and this was used by the team as a reference for their maps.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS6.jpg&quot; alt=&quot;Flow diagram of Process. Pre-Sale; Sale &amp;amp; Purchase agreement signed; Unconditional; Settlement; &amp;amp; Post-settlement&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;(Flow diagram of the Notice of Sale Process. Pre-Sale; Sale &amp;amp; Purchase agreement signed; Unconditional; Settlement (can be up to 6 months before Settlement); &amp;amp; Post-settlement.)&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://drive.google.com/file/d/14wHVvtWVUsMaPOQZZ6hXXLu37Yir56DT/view&quot;&gt;Solicitor journey map&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS7.png&quot; alt=&quot;Post-it notes for Journey Map. Votes on Education/Action Points; &amp;amp; Unreliable Data&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;(Post-it notes for Journey Map. Votes on Education/Action Points; &amp;amp; Unreliable Data.)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS8.png&quot; alt=&quot;Post-it notes for Journey Map. Votes on Incorrect or Missing Data; Human Error; &amp;amp; Duplicating Information&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;(Post-it notes for Journey Map. Votes on Incorrect or Missing Data; Human Error; &amp;amp; Duplicating Information.)&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://drive.google.com/file/d/14wHVvtWVUsMaPOQZZ6hXXLu37Yir56DT/view&quot;&gt;Council journey map&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS9.png&quot; alt=&quot;Post-it notes for Journey Map. Top votes on Manual processing/checking including multiple handling of the notice&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;(Post-it notes for Journey Map. Top votes on Manual processing/checking including multiple handling of the notice.)&lt;/p&gt;
-
-&lt;p&gt;The journey maps revealed a range of pain points. The pain point themes were:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Education and knowledge at key action points&lt;/li&gt;
-  &lt;li&gt;Unreliable data&lt;/li&gt;
-  &lt;li&gt;Problem themes&lt;/li&gt;
-  &lt;li&gt;Duplication of information&lt;/li&gt;
-  &lt;li&gt;Human error&lt;/li&gt;
-  &lt;li&gt;Incorrect or missing data&lt;/li&gt;
-  &lt;li&gt;The notice is not received&lt;/li&gt;
-  &lt;li&gt;Manual processing/checking including multiple handling of the notice&lt;/li&gt;
-  &lt;li&gt;Difficult to find and match data&lt;/li&gt;
-  &lt;li&gt;Churn - checking, comms, rework&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;These selected themes were turned into &lt;strong&gt;problem statements&lt;/strong&gt; using the following format:&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;As a [audience type] the problem I (or we) have is [pain point]. This impacts my ability to [task or outcome the audience is trying to solve].&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The problem statements were consider and themed to identify common elements with the top three themes consolidated into these problem statements:&lt;/p&gt;
-
-&lt;h3 id=&quot;problem-statement-one---accurate-and-complete-information&quot;&gt;Problem statement one - accurate and complete information&lt;/h3&gt;
-
-&lt;p&gt;As a solicitor, I have a problem with providing accurate and complete information to councils about the property being sold, transferred or changed eg its location address and the Council or Territorial Local Authority and about the property owner (eg their name and contact details incl their postal address, email, mobile number). This impacts:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;my ability to meet my client needs, to do a good job and ensure my compliance with the rules.&lt;/li&gt;
-  &lt;li&gt;Council’s ability to efficiently process changes to property data, rating database and comply with rules&lt;/li&gt;
-  &lt;li&gt;Council’s ability to contact property owners&lt;/li&gt;
-  &lt;li&gt;Council workers ability to do a good job, deliver a good service to ratepayers and improve the Council’s reputation.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;For each problem statement the team considered if there are any constraints associated with it and how hard it might be to resolve them:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS10.png&quot; alt=&quot;Table matching Ability to resolve a constraint (Easy; Medium; Hard) with Constraints&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;(Table matching Ability to resolve a constraint (Easy; Medium; Hard) with Constraints.)&lt;/p&gt;
-
-&lt;h3 id=&quot;problem-statement-two---manual-processing&quot;&gt;Problem statement two - manual processing&lt;/h3&gt;
-
-&lt;p&gt;As a Council administrator, me and my team leaders have a problem with the large amount of manual processing to complete the input of the notice of sale. This impacts our ability to:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;approach this task with enthusiasm and makes my job boring&lt;/li&gt;
-  &lt;li&gt;save money for ratepayers that could be better spent on things in my community&lt;/li&gt;
-  &lt;li&gt;work well with solicitors, who through our processing errors will have difficulties with their clients&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS11.png&quot; alt=&quot;Table matching Ability to resolve a constraint (Easy; Medium; Hard) with Constraints&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;(Table matching Ability to resolve a constraint (Easy; Medium; Hard) with Constraints.)&lt;/p&gt;
-
-&lt;h3 id=&quot;problem-statement-three---triggers-for-notice-of-sale&quot;&gt;Problem statement three - triggers for notice of sale&lt;/h3&gt;
-
-&lt;p&gt;As a Solicitor the problem I have is that I don’t know all the triggers for the Notice of Sale and its importance to rates and valuations. This impacts my ability to:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;meet my clients needs&lt;/li&gt;
-  &lt;li&gt;work with councils and their need for information for rates and valuations, payments and refunds and debt collection.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS12.png&quot; alt=&quot;Table matching Ability to resolve a constraint (Easy; Medium; Hard) with Constraints&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;(Table matching Ability to resolve a constraint (Easy; Medium; Hard) with Constraints.)&lt;/p&gt;
-
-&lt;p&gt;The team believe that if these problems were fixed then it could resolve many of the problems described in the other themes. These other themes that resulted from the creation of the problem statements were data input and matching, manual processing and validation, not sending or receiving the notice, the impacts of errors and the impacts to the value of the team and individuals within it.&lt;/p&gt;
-
-&lt;h3 id=&quot;scenario-and-storyboard-building---exploring-problems-and-solutions&quot;&gt;Scenario and storyboard building - exploring problems and solutions&lt;/h3&gt;
-
-&lt;p&gt;To explore problems and solutions for these scenario and storyboard techniques were used. The team created a scenario that addresses the audience problem, meets the a clear goal and works within the constraints. A scenario should have an audience, a goal, a set of constraints and a beginning, middle and an end. These were themed and storyboards were created based on the prioritised scenarios.
-Each person shared their &lt;a href=&quot;https://drive.google.com/file/d/1n0p7UeOUayG6tX-tSddJavi2JoKMsUql/view&quot;&gt;storyboards&lt;/a&gt; and then team was separated into groups who took the scenarios, identified their common elements and collaborated to create a refined storyboard.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS13.png&quot; alt=&quot;Team collaborated to create a refined storyboard from the common elements of the scenarios&quot; /&gt;
-&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS14.png&quot; alt=&quot;Team collaborated to create a refined storyboard from the common elements of the scenarios&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;(Team collaborated to create a refined storyboard from the common elements of the scenarios.)&lt;/p&gt;
-
-&lt;h4 id=&quot;problem-statement-one---accurate-and-complete-information-1&quot;&gt;Problem statement one - accurate and complete information&lt;/h4&gt;
-
-&lt;p&gt;A range of scenarios were created and many had similar themes. Here are the priorised themes las decided by the group:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Property transfer in a single portal - data validated against authoritative datasets.&lt;/li&gt;
-  &lt;li&gt;Accurate ratepayer contact information - education of ratepayers&lt;/li&gt;
-  &lt;li&gt;Correct Correct or territorial local authority selected  - against an authoritative dataset&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Tied with no votes: Councils validate their databases against authoritative datasets, solicitors validates data against authoritative sources, accurate ratepayer contact information - verified against authoritative datasets.&lt;/p&gt;
-
-&lt;p&gt;Here is the &lt;a href=&quot;https://drive.google.com/file/d/1wHK0CyhgpjKDqbMnyVFmCID0NsYliwyd/view&quot;&gt;storyboards&lt;/a&gt; for the property transfer in a single portal.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS15.png&quot; alt=&quot;Storyboard for the Property Transfer made up of post-it notes&quot; /&gt;
-&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS16.png&quot; alt=&quot;Storyboard for the Property Transfer made up of post-it notes&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;(Storyboard for the Property Transfer made up of post-it notes.)&lt;/p&gt;
-
-&lt;p&gt;This storyboard was ultimately the one selected to &lt;a href=&quot;#Go-to-PossibleSolution&quot;&gt;explore further&lt;/a&gt; during the rest of the design intensive.&lt;/p&gt;
-
-&lt;h4 id=&quot;problem-statement-two---manual-processing-1&quot;&gt;Problem statement two - manual processing&lt;/h4&gt;
-
-&lt;p&gt;A range of scenarios were created but they had a similar theme - property transfer in a single portal.&lt;/p&gt;
-
-&lt;p&gt;Here is the storyboards for the property transfer in a single portal. For the refined storyboard because of the similarity with those created in statement one, they should be combined.&lt;/p&gt;
-
-&lt;h4 id=&quot;problem-statement-three---triggers-for-notice-of-sale-1&quot;&gt;Problem statement three - triggers for notice of sale&lt;/h4&gt;
-
-&lt;p&gt;There were two themes that were tied in priority:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Improve communication between Councils and Solicitors - spending time together&lt;/li&gt;
-  &lt;li&gt;Rules and data validation flags to help select the correct process to use.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Here are the &lt;a href=&quot;https://drive.google.com/file/d/1wHK0CyhgpjKDqbMnyVFmCID0NsYliwyd/view&quot;&gt;refined storyboards&lt;/a&gt;. The team believed that these ideas could be something that could be done within each Council and trialling the approach with local law firms and conveyancers.&lt;/p&gt;
-
-&lt;p&gt;Improve communication between Council and Solicitors - ‘spending time together’
- &lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS17.png&quot; alt=&quot;Storyboard - Improve communication between Council and Solicitors - ‘spending time together’&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Rules and data validation flags to help select the correct process to use.
-&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS18.png&quot; alt=&quot;Rules and data validation flags to help select the correct process to use&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;possible-solution&quot;&gt;Possible solution&lt;a name=&quot;Go-to-PossibleSolution&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;The idea behind this possible future state is that much of the data required to action what is currently called the ‘Notice of Sale’ process is captured within the Sales and Purchase Agreement or through the Transfer Instrument (see &lt;a href=&quot;#Go-to-Appendix2&quot;&gt;Appendix 2 Data Map&lt;/a&gt; for what data is collected at each step in the process). There are different triggers for this process (see the &lt;a href=&quot;#Go-to-Appendix1&quot;&gt;triggers in Appendix 1&lt;/a&gt;), which is actually the process of changing the ownership of a rating unit.&lt;/p&gt;
-
-&lt;p&gt;Rather than expecting each person in the process chain to perform manual data entry then we could imagine a process where the data is kept as electronic data and systematically pushed through the required states of a workflow. Ideally this would satisfy the legislative requirements (see &lt;a href=&quot;#Go-to-Appendix1&quot;&gt;Appendix 1 for the key concepts required under legislation&lt;/a&gt;) while achieving the goal of improved data quality and improved trust in the process.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS19.png&quot; alt=&quot;Flow diagram describing the Change of Ownership of a Rating Unit - Future State version 0.2&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;(Flow diagram describing the Change of Ownership of a Rating Unit - Future State version 0.2)&lt;/p&gt;
-
-&lt;p&gt;This future state needs deeper investigation to determine its desirability, viability and feasibility, and would necessarily involve a slow transition, including improving data quality within the various databases over time.&lt;/p&gt;
-
-&lt;p&gt;A &lt;a href=&quot;https://www.agilealliance.org/glossary/mvp/#q=~(filters~(tags~(~'mvp))~searchTerm~'~sort~false~sortDirection~'asc~page~1)&quot;&gt;Minimum Viable Product&lt;/a&gt; might involve manual data entry from the Sales and Purchase Agreement into a data integration tool, or an upload of a data extract from a smart form version of the agreement.&lt;/p&gt;
-
-&lt;h2 id=&quot;next-steps&quot;&gt;Next Steps&lt;a name=&quot;Go-to-NextSteps&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The group discussed the need for a sponsor(s) to help drive continuing this work. It was agreed that the sponsor could be a person or group of people but they should be at be at an executive leadership level eg a CFO. The group of councils involved with this exploration will need to work together to identify a sponsor(s) and brief them on this work and its importance.&lt;/li&gt;
-  &lt;li&gt;Depending on the priorities for the 2018/19 Service Innovation Lab work programme, the Lab could lead a &lt;a href=&quot;https://www.digital.govt.nz/standards-and-guidance/strategy-and-planning/digital-lifecycle/discovery/&quot;&gt;discovery&lt;/a&gt; with the support of this group to investigate the possible solution in more detail to test its viability, feasibility and desirability.&lt;/li&gt;
-  &lt;li&gt;The Councils collectively or individually could investigate the other two opportunities identified in the intensive; Improve communication between Councils and Solicitors - spending time together and Rules and data validation flags to help select the correct process to use. The team believed that these ideas could be something that could be done within each Council and trialling the approach with local law firms and conveyancers. This is being currently being explored further collective team.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;appendix-1--notice-of-sale-context-diagram&quot;&gt;Appendix 1 &lt;a name=&quot;Go-to-Appendix1&quot;&gt;&lt;/a&gt;: Notice of Sale Context Diagram&lt;/h3&gt;
-
-&lt;p&gt;This diagram maps out the relevant concepts in the legislation relating to Notice of Sale to help with understanding the current legislative requirements.&lt;/p&gt;
-
-&lt;p&gt;To read the diagram follow the arrows, i.e Ratepayer (Owner and/or Lessee) owns or occupies Rating Unit; Rating Unit created, maintained and held in District Valuation Roll.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS20.png&quot; alt=&quot;Diagram of concepts in leglislation relating to the Notice of Sale process&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;(Diagram of concepts in leglislation relating to the Notice of Sale process.)&lt;/p&gt;
-
-&lt;p&gt;Triggers for notice of change of ownership of a rating unit
-Although commonly referred to as a “notice of sale”, that’s actually a bit of a misnomer as it not just sales that trigger the need for a notice.  Broadly speaking, there are four triggers:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;If an owner sells or otherwise transfers a rating unit or any part of a rating unit (section 31(1) Local Government (Rating) Act 2002);&lt;/li&gt;
-  &lt;li&gt;If a person becomes the owner of a rating unit by operation of law (section 31(3) Local Government (Rating) Act 2002);&lt;/li&gt;
-  &lt;li&gt;Registration of a change of name of a rating unit (section 36 Local Government (Rating) Act 2002); and&lt;/li&gt;
-  &lt;li&gt;Transfer, assignment, surrender or termination of lease (sections 32 and 33 of the Local Government (Rating) Act 2002).&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;In the case of a sale of a rating unit, Section 31 of the Local Government (Rating) Act 2002 provides that a vendor or, if the vendor has an agent, the vendor’s agent must, within one month of the effective date of sale or transfer, provide the relevant local authority with:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;the full name and address of the purchaser; and&lt;/li&gt;
-  &lt;li&gt;in the case of a sale, the sale price.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;The legislation does not mandate the form in which the notice is provided.  Additionally, there is no definition of “sale price”.&lt;/p&gt;
-
-&lt;p&gt;In all other cases, the transferor (former owner) must notify Council of the change in owner of the rating unit.  Again, the legislation does not mandate the form in which the notice is provided.&lt;/p&gt;
-
-&lt;p&gt;So which instruments trigger the need for a Notice?&lt;/p&gt;
-
-&lt;p&gt;The sale of a property which results in the registration of a transfer instrument is the most obvious trigger for a Notice, but it’s far from the only one.  Other common transactions which trigger need for a Notice include:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Dealing with an estate resulting in registration of a Transmission (instrument quick code TSM)&lt;/li&gt;
-  &lt;li&gt;A mortgagee sale resulting in registration of a Transfer in exercise of Power of Sale (instrument quick code TPS);&lt;/li&gt;
-  &lt;li&gt;Registration of a Joint Family Home application (instrument quick code JFH); and&lt;/li&gt;
-  &lt;li&gt;A change of name of an owner (due to marriage or a company changing its name) (instrument quick code CN).&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Additionally, there are a number of less common transactions that could trigger need for a Notice – some of which are incredibly rear.  For example:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Transferring assets on the winding up of an Incorporated Society resulting in registration of an application under section 27 of the Incorporated Societies Act 1908 (instrument quick code A27);&lt;/li&gt;
-  &lt;li&gt;An application for accretion as a result of changing river boundaries (instrument quick code ACC);&lt;/li&gt;
-  &lt;li&gt;An application under section 99A of the Land Transfer Act 1952 to record a statutory vesting (instrument quick code A99A); and&lt;/li&gt;
-  &lt;li&gt;An application to transfer land as a result of the Health Sector (Transfers) Act 1993 (instrument quick code A9).&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;appendix-2--notice-of-sale-data-map&quot;&gt;Appendix 2 &lt;a name=&quot;Go-to-Appendix2&quot;&gt;&lt;/a&gt;: Notice of Sale Data Map&lt;/h3&gt;
-
-&lt;p&gt;This shows what data points are collected through what mechanism at different points in the sale or change of ownership process, and what the data source is and where it goes.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS21.png&quot; alt=&quot;Notice of Sale Data Map&quot; /&gt;
-&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS22.png&quot; alt=&quot;Notice of Sale Data Map&quot; /&gt;
-&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS23.png&quot; alt=&quot;Notice of Sale Data Map&quot; /&gt;
-&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS24.png&quot; alt=&quot;Notice of Sale Data Map&quot; /&gt;
-&lt;img src=&quot;/assets/media/Exploring-the-Notice-of-Sale-Process/ETNS25.png&quot; alt=&quot;Notice of Sale Data Map&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;(Notice of Sale Data Map.)&lt;/p&gt;
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;For the purposes of this report, Local Authorities will be referred to as Councils. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;Bradshaw, H. (2014). The Structural Playability Process (SPP )-An Effective Design Process for Educational Computer Games. chp 3, p60 &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>glen-thurston</name></author><category term="lessons learned" /></entry></feed>
+&lt;/div&gt;</content><author><name>glen-thurston</name></author><category term="rates rebate" /></entry></feed>
