@@ -68,10 +68,11 @@ A primer template has been created and an example AI Primer can be found in the 
 Work into understanding how disruptive the technology listed in the landscape is to the current environment should be investigated. This should be visualised on the landscape itself, and integrating disruption into the Primer.
 
 ---
+<a name="Go-to-DetailedDescription"></a>
 
-## Detailed description of the 20 Year Emerging Technology Landscape<a name="Go-to-DetailedDescription"></a>
+### Detailed description of the 20 Year Emerging Technology Landscape
 
-### Overview
+#### Overview
 
 The main table displays the 20-year emerging technology landscape.
 There are 4 rows representing periods of time, from top to bottom:
@@ -101,25 +102,26 @@ Columns for technology categories which are in common use now are on the left.
 As you read each column from left to right, the technology categories are increasingly experimental, still in research and development, or limited to academic of private institutions.
 53 technologies are represented in the diagram, each one placed in its respective column (for its category) and row (for when it will be in use, for example in 10 to 20 years).
 
-### Values
+#### Values
 
 This section describes the categories of emergent technology, the technology itself, and where they fit in the timeline.
 
 **Technologies with Cloud Computing**<br/>
-Storage (AWS, AZURE, etc) - Current<br/>  Applications as a Service - Current
+Storage (AWS, AZURE, etc) - Current<br/>
+Applications as a Service - Current
 
 **Technologies with Big Data**<br/>
 Big data / data analytics<br/>
 Hadoop Ecosystem, Spark, R - Now<br/>
 Data Lakes, NoSQL Databases - Now<br/>
-Big Data Governance Solutions - 0 to 5 years<br/>
+Big Data Governance Solutions - 0 to 5 years
 
 **Technologies with Encryption/Privacy**<br/>
 Digital Ledgers - Current<br/>
 Blockchain - Current<br/>
 Distributed Ledgers - Current<br/>
 Homomorphic encryption - 0 to 5 years<br/>
-Wearable two-factor authentication - 0 to 5 years<br/>
+Wearable two-factor authentication - 0 to 5 years
 
 **Technologies with Internet of Things**<br/>
 Digital Twins - 0 to 5 years
@@ -127,7 +129,7 @@ Digital Twins - 0 to 5 years
 **Technologies with Spatial Computing**<br/>
 Augmented Reality - Current<br/>
 Virtual Reality - Current / 0 to 5 years<br/>
-Mixed Reality - 0 to 5 years<br/>
+Mixed Reality - 0 to 5 years
 
 **Technologies with Artificial Intelligence Tools**<br/>
 Facial Recognition - Current<br/>
@@ -135,7 +137,7 @@ Machine Learning - Current<br/>
 Cognitive Computing - Current / 0 to 5 years<br/>
 Computer Vision - 0 to 5 years<br/>
 Generative Adversarial Networks - 0 to 5 years<br/>
-Natural Language Processing - 0 to 5 years<br/>
+Natural Language Processing - 0 to 5 years
 
 **Technologies with Artificial Intelligence Applications**<br/>
 Identification(Facial Recognition, fingerprints, voice, gait) - Current<br/>
@@ -145,35 +147,35 @@ Deep Fakes - 0 to 5 years<br/>
 Natural Language Generation - 0 to 5 years<br/>
 Digital/Intelligence Systems - 0 to 5 years<br/>
 Conversational Interfaces - 0 to 5 years<br/>
-Digital Twins - 5 to 10 years<br/>
+Digital Twins - 5 to 10 years
 
 **Technologies with Robotics**<br/>
 Robotic Process Automation - 0 to 5 years<br/>
-Advanced Robotics - 5 to 10 years<br/>
+Advanced Robotics - 5 to 10 years
 
 **Technologies with Production**<br/>
 3D Printing - 0 to 5 years<br/>
 4D Printing - 0 to 5 years<br/>
 Bio Manufacturing - 0 to 5 years/ 5 to 10 years<br/>
-Self Assembling Components - 5 to 10 years<br/>
+Self Assembling Components - 5 to 10 years
 
 **Technologies with Autonomous Agents**<br/>
 Vehicles - 0 to 5 years<br/>
 Drones - 0 to 5 years<br/>
-Weapons - 0 to 5 years / 5 to 10 years<br/>
+Weapons - 0 to 5 years / 5 to 10 years
 
 **Technologies with Symbiotic Applications**<br/>
 CoBot Robots - Current<br/>
 Wearables - Current / 0 to 5 years<br/>
 Brain Computer Interfaces - 0 to 5 years<br/>
 Smart Prosthetics - 0 to 5 years<br/>
-Human Machine Convergence - 5- 10 years/ 10 to 20 years<br/>
+Human Machine Convergence - 5- 10 years/ 10 to 20 years
 
 **Technologies with Bio Tech**<br/>
 Genetics - Current<br/>
 Proteomics - Current<br/>
 Nano Bio-tech - 0 to 5 years<br/>
-Bio Computing - 5 to 10 years<br/>
+Bio Computing - 5 to 10 years
 
 **Technologies with Quantum Computing**<br/>
 Artificial Intelligence - 0 to 5 years<br/>
@@ -181,4 +183,4 @@ Financial Modelling - 0 to 5 years / 5 to 10 years<br/>
 Cryptography - 5 to 10 years<br/>
 Weather Forecasting - 5 to 10 years<br/>
 Molecular Modelling - 5 to 10 years<br/>
-Particle Physics - 10 to 20 years.<br/>
+Particle Physics - 10 to 20 years
