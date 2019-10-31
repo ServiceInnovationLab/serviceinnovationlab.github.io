@@ -88,6 +88,16 @@ jobs:
           name: Yaml linter
           command: yamllint .
 
+  htmlproofer:
+    docker:
+      - image: circleci/ruby:2.6.3-node-browsers
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - v1-site-build-{{ .Revision }}
+      - run: bundle exec htmlproofer _site
+
   accessibility:
     docker:
       - image: circleci/ruby:2.6.3-node-browsers
@@ -193,6 +203,9 @@ workflows:
       - markdownlint:
           requires:
             - nodejsdeps
+      - htmlproofer:
+          requires:
+            - build
       - accessibility:
           requires:
             - build
