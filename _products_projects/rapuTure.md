@@ -7,7 +7,6 @@ excerpt: Explore how coded rules from our legislation as code work connect with 
 image: /assets/img/projects/
 image_accessibility:
 image_icon:
-tag: RapuTure
 expiration_date:
 redirect_to:
   - https://github.com/ServiceInnovationLab/RapuTure

@@ -7,7 +7,6 @@ excerpt: Making Family Services Directory provider and service data publicly ava
 image: /assets/img/projects/
 image_accessibility:
 image_icon:
-tag: Family Services Directory API
 expiration_date:
 github_repo: https://github.com/ServiceInnovationLab/FamilyServiceDirectorySearchinator
 project_url: "[]()"

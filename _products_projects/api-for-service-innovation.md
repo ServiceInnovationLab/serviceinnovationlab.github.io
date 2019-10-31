@@ -7,7 +7,6 @@ excerpt: We maintain a list at Data.govt.nz of APIs we’ve found useful to our 
 image: /assets/img/projects/
 image_accessibility:
 image_icon:
-tag: API
 expiration_date:
 redirect_to: https://www.data.govt.nz/
 project_url: "[]()"
