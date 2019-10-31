@@ -1,5 +1,187 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://serviceinnovationlab.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://serviceinnovationlab.github.io//" rel="alternate" type="text/html" /><updated>2019-10-31T01:47:48+00:00</updated><id>https://serviceinnovationlab.github.io//feed.xml</id><title type="html">Service Innovation Lab</title><subtitle>The Service Innovation Lab is an All-of-Government lab in Aotearoa New Zealand, hosting and enabling collaboration across agencies. We research, design, and develop ways to improve people’s experiences when they interact with government.
-</subtitle><entry><title type="html">Testing our Toolkit</title><link href="https://serviceinnovationlab.github.io//2019/07/31/Testing-Our-Toolkit/" rel="alternate" type="text/html" title="Testing our Toolkit" /><published>2019-07-31T00:00:00+00:00</published><updated>2019-07-31T00:00:00+00:00</updated><id>https://serviceinnovationlab.github.io//2019/07/31/Testing-Our-Toolkit</id><content type="html" xml:base="https://serviceinnovationlab.github.io//2019/07/31/Testing-Our-Toolkit/">&lt;h2 id=&quot;tests-we-run&quot;&gt;Tests we run&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://serviceinnovationlab.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://serviceinnovationlab.github.io//" rel="alternate" type="text/html" /><updated>2019-10-31T02:01:08+00:00</updated><id>https://serviceinnovationlab.github.io//feed.xml</id><title type="html">Service Innovation Lab</title><subtitle>The Service Innovation Lab is an All-of-Government lab in Aotearoa New Zealand, hosting and enabling collaboration across agencies. We research, design, and develop ways to improve people’s experiences when they interact with government.
+</subtitle><entry><title type="html">20 Year Emerging Technology Landscape</title><link href="https://serviceinnovationlab.github.io//2019/09/27/20Year-Em-Tech-Landscape/" rel="alternate" type="text/html" title="20 Year Emerging Technology Landscape" /><published>2019-09-27T00:00:00+00:00</published><updated>2019-09-27T00:00:00+00:00</updated><id>https://serviceinnovationlab.github.io//2019/09/27/20Year-Em-Tech-Landscape</id><content type="html" xml:base="https://serviceinnovationlab.github.io//2019/09/27/20Year-Em-Tech-Landscape/">&lt;p&gt;&lt;span class=&quot;subtitle&quot;&gt;Led by Hazel Bradshaw, Emerging Tech Lead - Service Innovation Lab&lt;/span&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;Emerging technologies are set to disrupt a number of government processes and services, alongside citizens engagement with government and the services they offer. The EmTech 20-year landscape is a piece of ongoing research, that’s intended to help people working in government understand the types, forms, connections and impacts of these different technologies and the challenges and opportunities posed by developments in the EmTech space. The outcome of having this consistently evolving landscape is that people working in these spaces can better understand how emerging technologies are relevant to their work, and use this to inform their decisions.&lt;/p&gt;
+
+&lt;p&gt;The diagram displays a time scale of “Current”, “0 to 5 years”, “5 to 10 years” and “10 to 20 years” on the vertical axis and 13 categories of emerging technology along the horizontal access. The 13 categories of emerging technology are: cloud computing, big data/analytics, encryption/privacy, internet of things, spatial computing, artificial intelligence tools, artificial intelligence applications, robotics/production, autonomous agents, symbiotic application, bio-tech and quantum computing. Categories are laid out from left to right, with cloud computing being furthest left, and quantum computing being furthest right. The cards underneath each category display the specific technology which falls under the category listed in one of the 13 columns.&lt;/p&gt;
+
+&lt;p&gt;It is worth noting that this landscape projects details up to the use and release of Quantum Computing as the possibilities of the technology being ubiquitously used, will more than likely change the entire landscape.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/media/20-Year-Emtech-Landscape/20yr-emtech-landscape.png&quot;&gt;&lt;img src=&quot;/assets/media/20-Year-Emtech-Landscape/20yr-emtech-landscape.png&quot; alt=&quot;20 Year Emerging Technology Landscape&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;#Go-to-DetailedDescription&quot;&gt;Detailed description of the 20 Year Emerging Technology Landscape&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;how-the-landscape-was-constructed&quot;&gt;How the Landscape was constructed&lt;/h3&gt;
+
+&lt;p&gt;The selected technologies and their positioning on the landscape has been informed by research and shaped by consultation with other emerging tech leaders engaged through participation in forums.  The landscape was constructed by applying a governmental lens which enables a better digital public service.
+These sources include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.oecd.org/sti/emerging-tech/&quot;&gt;OECD&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.weforum.org/agenda/2019/07/these-are-the-top-10-emerging-technologies-of-2019/&quot;&gt;World Economic Forum&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/disruptive-technologies&quot;&gt;McKinsey Institute&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.gartner.com/en/documents/3887767&quot;&gt;Gartner - Hype Cycle&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sap.com/australia/trends.html&quot;&gt;SAP&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://aiforum.org.nz/&quot;&gt;AIForum New Zealand&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;technology-to-focus-on&quot;&gt;Technology to focus on&lt;/h3&gt;
+
+&lt;p&gt;With such a vast array of technology in the landscape the lab has seven key areas of technology that should have a high priority focus.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Artificial Intelligence&lt;/li&gt;
+  &lt;li&gt;Spatial Computing&lt;/li&gt;
+  &lt;li&gt;Encryption&lt;/li&gt;
+  &lt;li&gt;Internet of Things&lt;/li&gt;
+  &lt;li&gt;Big Data&lt;/li&gt;
+  &lt;li&gt;Robotics and Autonomous Systems&lt;/li&gt;
+  &lt;li&gt;Quantum Computing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;opportunities-for-further-work&quot;&gt;Opportunities for Further Work&lt;/h2&gt;
+
+&lt;p&gt;This is a piece of work that has the potential to expand and develop.
+Possible future work could be:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Application of different lenses&lt;/strong&gt;&lt;br /&gt;
+Applying different lenses onto this landscape will most likely see the landscape change. An example of another lens would be that of digital inclusion, which would identify technology that could ensure a more equitable digital environment for all.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Workshops with external partners&lt;/strong&gt;&lt;br /&gt;
+To help broaden the technologies represented in the landscape engaging with both other government agencies and various private sector organisations would she light into what developing trends there are within New Zealand.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Landscape visualisation development&lt;/strong&gt;&lt;br /&gt;
+The landscape can be developed to be more interactive and more interconnected. Development of interactive cards of the landscape which display definitions of the technology could be developed.
+Furthermore development of visualisation connections to show dependencies of technology to other technology could be introduced.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Primer per category&lt;/strong&gt;&lt;br /&gt;
+A primer template has been created and an example AI Primer can be found in the resources. A primer can be utilised to further explain the categories at the top of the landscape in relation to what it is, examples of it and other details listed in the template.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Disruption&lt;/strong&gt;&lt;br /&gt;
+Work into understanding how disruptive the technology listed in the landscape is to the current environment should be investigated. This should be visualised on the landscape itself, and integrating disruption into the Primer.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;a name=&quot;Go-to-DetailedDescription&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;detailed-description-of-the-20-year-emerging-technology-landscape&quot;&gt;Detailed description of the 20 Year Emerging Technology Landscape&lt;/h3&gt;
+
+&lt;h4 id=&quot;overview-1&quot;&gt;Overview&lt;/h4&gt;
+
+&lt;p&gt;The main table displays the 20-year emerging technology landscape.
+There are 4 rows representing periods of time, from top to bottom:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Current&lt;/li&gt;
+  &lt;li&gt;0 to 5 years from now&lt;/li&gt;
+  &lt;li&gt;5 to 10 years from now&lt;/li&gt;
+  &lt;li&gt;10 to 20 years from now&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Each row illustrates how far in the future the technology is expected to become commonly used.
+There are 13 columns labelled with categories of emergent technology, from left to right:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Cloud Computing&lt;/li&gt;
+  &lt;li&gt;Big Data/Analytics&lt;/li&gt;
+  &lt;li&gt;Encryption/Privacy&lt;/li&gt;
+  &lt;li&gt;Internet of Things&lt;/li&gt;
+  &lt;li&gt;Spatial Computing&lt;/li&gt;
+  &lt;li&gt;Artificial Intelligence Tools&lt;/li&gt;
+  &lt;li&gt;Artificial Intelligence Applications&lt;/li&gt;
+  &lt;li&gt;Robotics, Production&lt;/li&gt;
+  &lt;li&gt;Autonomous Agents&lt;/li&gt;
+  &lt;li&gt;Symbiotic Application&lt;/li&gt;
+  &lt;li&gt;Bio-Tech&lt;/li&gt;
+  &lt;li&gt;Quantum Computing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Columns for technology categories which are in common use now are on the left.
+As you read each column from left to right, the technology categories are increasingly experimental, still in research and development, or limited to academic of private institutions.
+53 technologies are represented in the diagram, each one placed in its respective column (for its category) and row (for when it will be in use, for example in 10 to 20 years).&lt;/p&gt;
+
+&lt;h4 id=&quot;values&quot;&gt;Values&lt;/h4&gt;
+
+&lt;p&gt;This section describes the categories of emergent technology, the technology itself, and where they fit in the timeline.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technologies with Cloud Computing&lt;/strong&gt;&lt;br /&gt;
+Storage (AWS, AZURE, etc) - Current&lt;br /&gt;
+Applications as a Service - Current&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technologies with Big Data&lt;/strong&gt;&lt;br /&gt;
+Big data / data analytics&lt;br /&gt;
+Hadoop Ecosystem, Spark, R - Now&lt;br /&gt;
+Data Lakes, NoSQL Databases - Now&lt;br /&gt;
+Big Data Governance Solutions - 0 to 5 years&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technologies with Encryption/Privacy&lt;/strong&gt;&lt;br /&gt;
+Digital Ledgers - Current&lt;br /&gt;
+Blockchain - Current&lt;br /&gt;
+Distributed Ledgers - Current&lt;br /&gt;
+Homomorphic encryption - 0 to 5 years&lt;br /&gt;
+Wearable two-factor authentication - 0 to 5 years&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technologies with Internet of Things&lt;/strong&gt;&lt;br /&gt;
+Digital Twins - 0 to 5 years&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technologies with Spatial Computing&lt;/strong&gt;&lt;br /&gt;
+Augmented Reality - Current&lt;br /&gt;
+Virtual Reality - Current / 0 to 5 years&lt;br /&gt;
+Mixed Reality - 0 to 5 years&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technologies with Artificial Intelligence Tools&lt;/strong&gt;&lt;br /&gt;
+Facial Recognition - Current&lt;br /&gt;
+Machine Learning - Current&lt;br /&gt;
+Cognitive Computing - Current / 0 to 5 years&lt;br /&gt;
+Computer Vision - 0 to 5 years&lt;br /&gt;
+Generative Adversarial Networks - 0 to 5 years&lt;br /&gt;
+Natural Language Processing - 0 to 5 years&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technologies with Artificial Intelligence Applications&lt;/strong&gt;&lt;br /&gt;
+Identification(Facial Recognition, fingerprints, voice, gait) - Current&lt;br /&gt;
+Process analysis/optimisation - Current&lt;br /&gt;
+Monitoring, Surveillance - Current&lt;br /&gt;
+Deep Fakes - 0 to 5 years&lt;br /&gt;
+Natural Language Generation - 0 to 5 years&lt;br /&gt;
+Digital/Intelligence Systems - 0 to 5 years&lt;br /&gt;
+Conversational Interfaces - 0 to 5 years&lt;br /&gt;
+Digital Twins - 5 to 10 years&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technologies with Robotics&lt;/strong&gt;&lt;br /&gt;
+Robotic Process Automation - 0 to 5 years&lt;br /&gt;
+Advanced Robotics - 5 to 10 years&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technologies with Production&lt;/strong&gt;&lt;br /&gt;
+3D Printing - 0 to 5 years&lt;br /&gt;
+4D Printing - 0 to 5 years&lt;br /&gt;
+Bio Manufacturing - 0 to 5 years/ 5 to 10 years&lt;br /&gt;
+Self Assembling Components - 5 to 10 years&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technologies with Autonomous Agents&lt;/strong&gt;&lt;br /&gt;
+Vehicles - 0 to 5 years&lt;br /&gt;
+Drones - 0 to 5 years&lt;br /&gt;
+Weapons - 0 to 5 years / 5 to 10 years&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technologies with Symbiotic Applications&lt;/strong&gt;&lt;br /&gt;
+CoBot Robots - Current&lt;br /&gt;
+Wearables - Current / 0 to 5 years&lt;br /&gt;
+Brain Computer Interfaces - 0 to 5 years&lt;br /&gt;
+Smart Prosthetics - 0 to 5 years&lt;br /&gt;
+Human Machine Convergence - 5- 10 years/ 10 to 20 years&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technologies with Bio Tech&lt;/strong&gt;&lt;br /&gt;
+Genetics - Current&lt;br /&gt;
+Proteomics - Current&lt;br /&gt;
+Nano Bio-tech - 0 to 5 years&lt;br /&gt;
+Bio Computing - 5 to 10 years&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Technologies with Quantum Computing&lt;/strong&gt;&lt;br /&gt;
+Artificial Intelligence - 0 to 5 years&lt;br /&gt;
+Financial Modelling - 0 to 5 years / 5 to 10 years&lt;br /&gt;
+Cryptography - 5 to 10 years&lt;br /&gt;
+Weather Forecasting - 5 to 10 years&lt;br /&gt;
+Molecular Modelling - 5 to 10 years&lt;br /&gt;
+Particle Physics - 10 to 20 years&lt;/p&gt;</content><author><name>deshan-gamage</name></author><category term="blog post" /><category term="open source" /><category term="emerging technology" /></entry><entry><title type="html">Testing our Toolkit</title><link href="https://serviceinnovationlab.github.io//2019/07/31/Testing-Our-Toolkit/" rel="alternate" type="text/html" title="Testing our Toolkit" /><published>2019-07-31T00:00:00+00:00</published><updated>2019-07-31T00:00:00+00:00</updated><id>https://serviceinnovationlab.github.io//2019/07/31/Testing-Our-Toolkit</id><content type="html" xml:base="https://serviceinnovationlab.github.io//2019/07/31/Testing-Our-Toolkit/">&lt;h2 id=&quot;tests-we-run&quot;&gt;Tests we run&lt;/h2&gt;
 
 &lt;p&gt;This toolkit is built using an open-source tool called Jekyll. We write content in markdown format, which is then parsed by Jekyll which produces a static HTML website that we host on Github pages.&lt;/p&gt;
 
@@ -2079,514 +2261,4 @@ Although commonly referred to as a “notice of sale”, that’s actually a bit
       &lt;p&gt;Bradshaw, H. (2014). The Structural Playability Process (SPP )-An Effective Design Process for Educational Computer Games. chp 3, p60 &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>glen-thurston</name></author><category term="lessons learned" /></entry><entry><title type="html">Transitioning to an Optimistic Futures Workshop - 18 May 2018</title><link href="https://serviceinnovationlab.github.io//2018/08/01/Exploring-Optimistic-Futures-Workshop/" rel="alternate" type="text/html" title="Transitioning to an Optimistic Futures Workshop - 18 May 2018" /><published>2018-08-01T00:00:00+00:00</published><updated>2018-08-01T00:00:00+00:00</updated><id>https://serviceinnovationlab.github.io//2018/08/01/Exploring-Optimistic-Futures-Workshop</id><content type="html" xml:base="https://serviceinnovationlab.github.io//2018/08/01/Exploring-Optimistic-Futures-Workshop/">&lt;p&gt;&lt;span class=&quot;subtitle&quot;&gt;Led by Matthew MacCallum and Ben Briggs, Service Innovation Lab&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;The following is content generated in the Transitioning to an Optimistic Future event held as part of Tech Week 2018. Duration 3 hours.&lt;/p&gt;
-
-&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
-
-&lt;p&gt;The event was designed to build on the concepts and discussions had as part of the Digital Seven Nations and Optimistic Futures Event. In particular we wanted to focus on the human aspect of transition and what would be required of New Zealanders in the future. The topics of discussion were chosen as they we all universally understood human features and common daily activities. This created a level foundation to debate from as opposed to getting caught up in complex technologies and paradigms that could distract and exclude. The role of technology was tightly framed as an enabler and second to behaviour, attributes and activity.&lt;/p&gt;
-
-&lt;p&gt;Event Description:&lt;/p&gt;
-
-&lt;p&gt;Building on the &lt;a href=&quot;https://www.optimisticfutures.nz/&quot;&gt;Optimistic Futures&lt;/a&gt; event held earlier in the year, in this workshop we will explore what’s required for New Zealand/Aotearoa to transition to a better future, moving from an 18th century to a 21st century society.&lt;/p&gt;
-
-&lt;p&gt;This includes considering:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;the role of government&lt;/li&gt;
-  &lt;li&gt;the role of technology&lt;/li&gt;
-  &lt;li&gt;what foundations are needed to support society&lt;/li&gt;
-  &lt;li&gt;what role everyone would play in an optimistic future&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Brought to you by &lt;a href=&quot;https://www.victoria.ac.nz/&quot;&gt;Victoria University of Wellington&lt;/a&gt;, &lt;a href=&quot;https://internetnz.nz/&quot;&gt;InternetNZ&lt;/a&gt; and the &lt;a href=&quot;http://serviceinnovationtoolkit.wikidot.com/main:about&quot;&gt;Service Innovation Lab&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;This event is part of the Techweek series on Building Government’s Digital Service Innovation Capability. The room was divided into 4 large groups for discussion and exploration.&lt;/p&gt;
-
-&lt;h2 id=&quot;group-share-and-reflection&quot;&gt;Group share and reflection&lt;/h2&gt;
-
-&lt;p&gt;At the end of the day there was a group share and reflection which had the following insights.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The initial discussion was not about the tech, it was about the people&lt;/li&gt;
-  &lt;li&gt;Of interest – dealing with someone’s intellect after death…and how this could benefit society&lt;/li&gt;
-  &lt;li&gt;Huge number of changes noticed with the activity – progressing from person’s exercise to societal benefits&lt;/li&gt;
-  &lt;li&gt;How will government incentivise the changes we’ve identified (that need to happen for optimistic future)?
-** More intuitive change, tapping into the psyche of the people&lt;/li&gt;
-  &lt;li&gt;Noted we will share outputs from session plus what is happening at MBIE (digital strategy “speed dating” sessions)&lt;/li&gt;
-  &lt;li&gt;Starting off with the values was the right type of exercise J
-** Had people think about what we’re trying to achieve/the end goal in mind&lt;/li&gt;
-  &lt;li&gt;Next conversations we need to have:
-** Some kind of personal commitment – make it concrete
-** Co-build a public facing repository of the information&lt;/li&gt;
-  &lt;li&gt;What caused most discussion:
-** The ethical considerations + having a broader community discussion (beyond government)
-** Where will the conversation take place + how do we bring other voices in?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;activity-one---qualities-to-thrive-as-kiwis-in-2070&quot;&gt;Activity One - Qualities to thrive as kiwis in 2070&lt;/h2&gt;
-
-&lt;p&gt;Participants were asked to brainstorm qualities of an optimistic future in which kiwis could thrive and then chose 5 per group they felt were the most important.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/2017-18-Lab-Report/Transitioning-to-optimistic-futures.PNG&quot; alt=&quot;A word cloud of popular terms from the report, details below&quot; /&gt;
-&lt;em&gt;Word cloud of the key concepts from the workshop content&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The qualities identified (to reflect the word cloud above) are below.&lt;/p&gt;
-
-&lt;p&gt;Qualities reflected in all four groups:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Curiosity - (learn improve collaborate)&lt;/li&gt;
-  &lt;li&gt;Empathetic&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Qualities reflected in three groups:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Adaptive&lt;/li&gt;
-  &lt;li&gt;Collaborative&lt;/li&gt;
-  &lt;li&gt;Confident&lt;/li&gt;
-  &lt;li&gt;Creative&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Qualities reflected in two groups:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Bi-Cultural&lt;/li&gt;
-  &lt;li&gt;Compassionate - (Love, Mercy)&lt;/li&gt;
-  &lt;li&gt;Critically engages/thinking&lt;/li&gt;
-  &lt;li&gt;Empowered&lt;/li&gt;
-  &lt;li&gt;Environmentally aware/responsive&lt;/li&gt;
-  &lt;li&gt;Equitable&lt;/li&gt;
-  &lt;li&gt;Open&lt;/li&gt;
-  &lt;li&gt;Resilient&lt;/li&gt;
-  &lt;li&gt;Trust&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Finally, qualities reflected in one group included; Absentable, Abundance, Active, Agile, Ambitious, Appreciative, Audacity, Authenticity, Aware, Big picture thinker, Capability or automation, Capacity, Caring, Challenging, Considerate, Connected (place, people, history, whakapapa, turangawaewae), Courageous, Decisive, Diversity, Ethical, Explorative, Flexible, Generosity, Good natured, Honest, Hopeful, Hypocracy, Imaginative, Inclusive, Initiative, Innovative, Kind, Leadership, Love of learning, Loving, Maker skills, Mobility, Multicultural, Neighbourly, No structural inequality, Patience, Positive, Proactive, Productive, Proud, Reflect, Resourceful,
-Respectful, Responsible, Risk tolerant, Savvy, Self awareness, Smart, Social, Supportive, Sustainable, Survival Skills, Tolerant, Truthful, Values Driven, Visionary, Work/life Balance (2)&lt;/p&gt;
-
-&lt;p&gt;The cumulatirve top 5 prioritised qualities list from each group were (number of groups):&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Empathy/sympathy/self awareness (3)&lt;/li&gt;
-  &lt;li&gt;Diversity (2)&lt;/li&gt;
-  &lt;li&gt;Creativity&lt;/li&gt;
-  &lt;li&gt;Critical Thinking&lt;/li&gt;
-  &lt;li&gt;Love of Learning/Curiosity&lt;/li&gt;
-  &lt;li&gt;Maker Skills&lt;/li&gt;
-  &lt;li&gt;Curiosity&lt;/li&gt;
-  &lt;li&gt;Trust&lt;/li&gt;
-  &lt;li&gt;Reflection&lt;/li&gt;
-  &lt;li&gt;Decisive&lt;/li&gt;
-  &lt;li&gt;Courageous&lt;/li&gt;
-  &lt;li&gt;Resilient&lt;/li&gt;
-  &lt;li&gt;Sustainable&lt;/li&gt;
-  &lt;li&gt;Kind &amp;amp; Inclusive&lt;/li&gt;
-  &lt;li&gt;Environmentally Responsible&lt;/li&gt;
-  &lt;li&gt;Ethical&lt;/li&gt;
-  &lt;li&gt;Resourceful&lt;/li&gt;
-  &lt;li&gt;Risk tolerant&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Full Definitions of prioritised qualities:&lt;/p&gt;
-
-&lt;h3 id=&quot;group-1-def&quot;&gt;Group 1 Def&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Empathy/sympathy/self awareness - understanding yourself, others and the impacts/consequences of your actions&lt;/p&gt;
-
-    &lt;p&gt;&lt;em&gt;Important because:&lt;/em&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;We are seeing the dehumanisation of people in our current systems. Our optimistic future is truly human centred&lt;/li&gt;
-      &lt;li&gt;Mātauranga Māori instead of economic outcomes, we measure social and environmental ones&lt;/li&gt;
-      &lt;li&gt;We want a trust based society, not blockchain one&lt;/li&gt;
-      &lt;li&gt;Rehumanise the workforce&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Creativity - expression, problem solving, making an intuitive leap, to make an idea tangible.&lt;/p&gt;
-
-    &lt;p&gt;&lt;em&gt;Important because:&lt;/em&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;It will enable us to have a viable empowered future&lt;/li&gt;
-      &lt;li&gt;Without creativity there is no progress&lt;/li&gt;
-      &lt;li&gt;Forward momentum and flow&lt;/li&gt;
-      &lt;li&gt;We can’t understand or express the art of the possible&lt;/li&gt;
-      &lt;li&gt;Learned helplessness and inability to envisage better systems&lt;/li&gt;
-      &lt;li&gt;Creativity makes people unique&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Curiosity and love of learning - desire to explore, understand the world around you&lt;/p&gt;
-
-    &lt;p&gt;&lt;em&gt;Important because:&lt;/em&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;In a changing world, a love of learning will enable us to advance and embrace change with joy.&lt;/li&gt;
-      &lt;li&gt;Change as an opportunity not a threat&lt;/li&gt;
-      &lt;li&gt;The world will only become more complex&lt;/li&gt;
-      &lt;li&gt;Love of Learning as a platform for your ability and confidence to respond to complexity&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Critical thinking - ability to discern truth, deconstruct content to value, truth and facts, ability to contextualise information - natural motivations, values etc&lt;/p&gt;
-
-    &lt;p&gt;&lt;em&gt;Important because:&lt;/em&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Deception will become grander and more complex (especially technological ability to fabricate falsehood)&lt;/li&gt;
-      &lt;li&gt;Value truth over a good story&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Maker Skills - the skills and perspective that assumes you can form the world around you, you are not bound by the tools you have, you build what you need and are empowered to do so&lt;/p&gt;
-
-    &lt;p&gt;&lt;em&gt;Important because:&lt;/em&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;We have the tech to create anything - enables us to build bespoke solutions for what we need&lt;/li&gt;
-      &lt;li&gt;Don’t have to be passive consumers&lt;/li&gt;
-      &lt;li&gt;Empowered to be critical creative and make things&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;Group 2 Defs:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Trust - don’t fear interactions, know/respect boundaries and rules, vulnerability, it’s reflective/2-way, honesty, accountability - implied or explicit, foundation of the relationship, being treated as a human being&lt;/li&gt;
-  &lt;li&gt;Diversity - wanting to scan all options and ways of doing things, sense of self is valued, open ears, allowance for differences, ability to express views, how to channel power through process, inclusion, learning from others, rights, “recognising the power of paradigm”, respect for people, ability to participate, social norms&lt;/li&gt;
-  &lt;li&gt;Empathy - do things with people not to people, understanding without appropriation, try to feel what other people feel, empathetic &amp;gt; Sympathetic (empowering &amp;gt; Patronising)&lt;/li&gt;
-  &lt;li&gt;Curiosity - opportunity to learn, improve, contribute, at the top of the hierarchy of needs, in the boundaries of what’s acceptable, ethics, different power structures, may be self-disruptive, it’s good but can be dangerous.&lt;/li&gt;
-  &lt;li&gt;Reflection - share failures, transparency, look in the mirror, meditative, requires space and time, truth - don’t erase the facts, fits with work/life balance, understanding our past and learning from it, take pause and reflect integrate inputs&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;Group 3 Defs:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Courageous - Be brave about change, be willing to be the first to act.&lt;/li&gt;
-  &lt;li&gt;Resilient - Internal strength and ability to push through adversity with optimism and adaptability&lt;/li&gt;
-  &lt;li&gt;Kind &amp;amp; Inclusive - With compassion and responsibility actively enable and support participation in society and valuing differences&lt;/li&gt;
-  &lt;li&gt;Sustainable - Consider long term impact and understand we’re living from finite resources&lt;/li&gt;
-  &lt;li&gt;Decisive - To make decisions and act with confidence, with timeliness and being aware of trade offs. Clarity of thought, long term thinking. Being more comfortable with failure.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;Group 4 Defs:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Resourceful - Curiosity, innovative adaptive and critically engaged&lt;/li&gt;
-  &lt;li&gt;Ethical - Empathetic, considerate, equitable&lt;/li&gt;
-  &lt;li&gt;Risk Tolerant - Confident, positive and patient in response to changing environment&lt;/li&gt;
-  &lt;li&gt;Diverse - Open, tolerant, values driven, respectful of difference&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Environmentally Responsive - Improvement driven, technologically fluent, climate disruption, responsive&lt;/p&gt;
-
-    &lt;p&gt;&lt;em&gt;Important because:&lt;/em&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Innovate or Die&lt;/li&gt;
-      &lt;li&gt;Subjugation aint cool&lt;/li&gt;
-      &lt;li&gt;Without progress and the confidence to take risks only stagnation results&lt;/li&gt;
-      &lt;li&gt;Acceptance of diversity underpins respect&lt;/li&gt;
-      &lt;li&gt;Survival!&lt;/li&gt;
-      &lt;li&gt;Empathy - How does it work through technology? It’s a very human characteristic&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;activity-two---performing-actions-today-vs-2070&quot;&gt;Activity Two - Performing actions today vs 2070&lt;/h2&gt;
-
-&lt;p&gt;Participants were asked to choose one of the following activities and explore the process both today and in 2070 and how their qualities from Activity One might impact how they are performed.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Activities:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Start a business&lt;/li&gt;
-  &lt;li&gt;Get a health check&lt;/li&gt;
-  &lt;li&gt;Grow food - Group 2, Group 3&lt;/li&gt;
-  &lt;li&gt;Visit a friend or family member&lt;/li&gt;
-  &lt;li&gt;Campaign for rights/beliefs&lt;/li&gt;
-  &lt;li&gt;Prepare a meal&lt;/li&gt;
-  &lt;li&gt;Do exercise - Group 4&lt;/li&gt;
-  &lt;li&gt;Shop for a gift&lt;/li&gt;
-  &lt;li&gt;A day of high school&lt;/li&gt;
-  &lt;li&gt;Have a funeral - Group 1&lt;/li&gt;
-  &lt;li&gt;Travel on holiday&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Below are the present and future states each group brainstormed. We intentionally looks 50 years out to think about new horizons rather than iterations on the status quo.&lt;/p&gt;
-
-&lt;h3 id=&quot;have-a-funeral---group-1&quot;&gt;Have a funeral - Group 1&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Now:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;person dies of incurable disease, old age, car accident&lt;/li&gt;
-  &lt;li&gt;their passwords and access dies with them&lt;/li&gt;
-  &lt;li&gt;paperwork to formalise death - probate, govt processes&lt;/li&gt;
-  &lt;li&gt;obiturary in the newspaper&lt;/li&gt;
-  &lt;li&gt;funeral happens, people travel to it&lt;/li&gt;
-  &lt;li&gt;body is buried or cremated&lt;/li&gt;
-  &lt;li&gt;mind is gone&lt;/li&gt;
-  &lt;li&gt;mourning - family remembers them through photos, videos, letters, social media?&lt;/li&gt;
-  &lt;li&gt;religious and cultural components&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;2070:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;less unexpected deaths, so person has time to manage affairs, more euthanasia, plenned funerals&lt;/li&gt;
-  &lt;li&gt;bio tracking knows you’ve died, user-authorised services are notified and person’s wishes enacted - still human gatekeeper&lt;/li&gt;
-  &lt;li&gt;funeral - laws prohibiting satellite corpses, energy considered in body removal, homogenised religious/cultural approach?&lt;/li&gt;
-  &lt;li&gt;relationship to physical body changes as consciousness is able to be uploaded&lt;/li&gt;
-  &lt;li&gt;therapy for mourning&lt;/li&gt;
-  &lt;li&gt;An AI likeness lives on&lt;/li&gt;
-  &lt;li&gt;The life long learning of the person lives on in IP commons. Can someone else download a consciousness or ideas/knowledge from that person?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;grow-food---nutrition---group-2&quot;&gt;Grow food - nutrition - Group 2&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Now:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Plan (space, season, crops, compliance)&lt;/li&gt;
-  &lt;li&gt;Prepare (dig, single vs family vs commercial consumption, water requirements, pest control, fencing, composting/supplements)&lt;/li&gt;
-  &lt;li&gt;Plants, maintain, harvest and back to planning with some automation employed for larger operations.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;2070:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Vertical, shared and more diversity in crops and methods&lt;/li&gt;
-  &lt;li&gt;Disruption to supply chain&lt;/li&gt;
-  &lt;li&gt;Tracability of crop lineage and social responsibility&lt;/li&gt;
-  &lt;li&gt;Better ways to measure the value of growing food&lt;/li&gt;
-  &lt;li&gt;Reflection, measurements and iteration on resource usage&lt;/li&gt;
-  &lt;li&gt;Empathy on food security and sharing&lt;/li&gt;
-  &lt;li&gt;Curiosity on food as medicine and eHealth&lt;/li&gt;
-  &lt;li&gt;Understanding how our past shapes our food&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;grow-food---nutrition---group-3&quot;&gt;Grow food - nutrition - Group 3&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Now:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Mix of mass and individual production&lt;/li&gt;
-  &lt;li&gt;Organics are popular&lt;/li&gt;
-  &lt;li&gt;Community gardens and distribution&lt;/li&gt;
-  &lt;li&gt;Highly seasonal - problematic&lt;/li&gt;
-  &lt;li&gt;Labour intensive - problematic&lt;/li&gt;
-  &lt;li&gt;New plant varieties not keeping up with climate change&lt;/li&gt;
-  &lt;li&gt;Inefficiencies - waste distribution&lt;/li&gt;
-  &lt;li&gt;Competitive global market&lt;/li&gt;
-  &lt;li&gt;R&amp;amp;D is great&lt;/li&gt;
-  &lt;li&gt;Environmental threats - pesticides, biodiversity, etc&lt;/li&gt;
-  &lt;li&gt;Farming is in our kiwi DNA&lt;/li&gt;
-  &lt;li&gt;Site prearation and decision making&lt;/li&gt;
-  &lt;li&gt;Resourcing - equipment and people&lt;/li&gt;
-  &lt;li&gt;Know your market and integrate with environmental factors&lt;/li&gt;
-  &lt;li&gt;Supermarkets dominate&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;2070 (with qualities):&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;NZ developes best protein DNA&lt;/li&gt;
-  &lt;li&gt;DNA of cow - headless carcass with no pain (ethics)&lt;/li&gt;
-  &lt;li&gt;grow at home - 3D printing, predictive &amp;amp; inspiring, based on individual needs, land gets back to early state and rich biodiversity&lt;/li&gt;
-  &lt;li&gt;open sourcing of food production - sharing DNA code, incentivised social schemes &amp;amp; govt policy with different motives and measurements from today&lt;/li&gt;
-  &lt;li&gt;All supported by: decisive, courageous, resilient, sustainable, and kind/inclusive values.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;exercise-and-healthy-living---group-4&quot;&gt;Exercise and healthy living - Group 4&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Now:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;decide on exercise&lt;/li&gt;
-  &lt;li&gt;find and wear appropriate exercise clothes&lt;/li&gt;
-  &lt;li&gt;choose venue&lt;/li&gt;
-  &lt;li&gt;plan time&lt;/li&gt;
-  &lt;li&gt;find appropriate companions&lt;/li&gt;
-  &lt;li&gt;double check motivation&lt;/li&gt;
-  &lt;li&gt;book/schedule events&lt;/li&gt;
-  &lt;li&gt;transport to and from&lt;/li&gt;
-  &lt;li&gt;stretching and exercise&lt;/li&gt;
-  &lt;li&gt;review performance&lt;/li&gt;
-  &lt;li&gt;procrastinate at any stage&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;2070:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;greater access to diverse, affordable and open access options&lt;/li&gt;
-  &lt;li&gt;built into daily routine (treadmill desks?), big analytics focus&lt;/li&gt;
-  &lt;li&gt;Companions less necessary due to a) corporeal and b) human options&lt;/li&gt;
-  &lt;li&gt;Mental health reflection built in (mindfullness)&lt;/li&gt;
-  &lt;li&gt;Diary optimisation and automation&lt;/li&gt;
-  &lt;li&gt;More bio monitoring to optimise exercise plan according to need&lt;/li&gt;
-  &lt;li&gt;Generate power or credits from tasks&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;activity-three---roles--requirements&quot;&gt;Activity Three - Roles &amp;amp; Requirements&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Participants were asked to then reflect on the previous activities and discuss and answer the following questions:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;What effects could this have at a community or national level e.g. benefits and challenges?&lt;/li&gt;
-  &lt;li&gt;Should government play a role? if so what?&lt;/li&gt;
-  &lt;li&gt;How could technology enable these?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;group-1---have-a-funeral&quot;&gt;Group 1 - have a funeral&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;National and Community level:
-    &lt;ul&gt;
-      &lt;li&gt;Pragmatics sorted control&lt;/li&gt;
-      &lt;li&gt;Will of how your ‘mind’ can be used after your death&lt;/li&gt;
-      &lt;li&gt;How can you participate in society after you die?  E.g. can you vote, give testimony etc.&lt;/li&gt;
-      &lt;li&gt;What are your rights&lt;/li&gt;
-      &lt;li&gt;How does this effect whakapapa? Does your mind get passed down - whole new oral tradition&lt;/li&gt;
-      &lt;li&gt;Can virtual minds aggregate knowledge/take action? E.g. indigenous minds protect against colonialism&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Role of Government:
-    &lt;ul&gt;
-      &lt;li&gt;Does government ‘own’ its citizens minds after death?&lt;/li&gt;
-      &lt;li&gt;Can a person choose a different nationality after they die?&lt;/li&gt;
-      &lt;li&gt;Protecting a persons rights/privacy after they die&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;How can technology enable:
-    &lt;ul&gt;
-      &lt;li&gt;Safeguards - controlling/choosing how your mind can be used/altered - git control not blockchain&lt;/li&gt;
-      &lt;li&gt;Death bureaucracy automated&lt;/li&gt;
-      &lt;li&gt;Having your own AI avatar as executor&lt;/li&gt;
-      &lt;li&gt;Living on virtually after death&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;group-2---grow-foodnurtrition&quot;&gt;Group 2 - grow food/nurtrition&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Effects on Community/Country:
-    &lt;ul&gt;
-      &lt;li&gt;Sharing economy&lt;/li&gt;
-      &lt;li&gt;Will we be able to “grow” meat?&lt;/li&gt;
-      &lt;li&gt;Nutritional Value&lt;/li&gt;
-      &lt;li&gt;Based on values = optimistic future = no gap&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Role of Government:
-    &lt;ul&gt;
-      &lt;li&gt;Regulations/framework across/ standards&lt;/li&gt;
-      &lt;li&gt;Research - promote/encourage = partnership with academia&lt;/li&gt;
-      &lt;li&gt;Local government - info on soil, percentage of public land available to grow food?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;How can technology enable:
-    &lt;ul&gt;
-      &lt;li&gt;Robots&lt;/li&gt;
-      &lt;li&gt;Soilchecking&lt;/li&gt;
-      &lt;li&gt;Fruit salad trees via grafting&lt;/li&gt;
-      &lt;li&gt;Enable traceability&lt;/li&gt;
-      &lt;li&gt;Water conservation&lt;/li&gt;
-      &lt;li&gt;Meteorological forecasting&lt;/li&gt;
-      &lt;li&gt;Nutritional check&lt;/li&gt;
-      &lt;li&gt;GMO? More nutritional&lt;/li&gt;
-      &lt;li&gt;Harvesting distribution based on need&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;group-3---grow-foodnutrition&quot;&gt;Group 3 - grow food/nutrition&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Effects on Community/Country:
-    &lt;ul&gt;
-      &lt;li&gt;Position NZ as quality and food experts&lt;/li&gt;
-      &lt;li&gt;Better use of global resources&lt;/li&gt;
-      &lt;li&gt;Our small population means being able to test and identify benefits quickly&lt;/li&gt;
-      &lt;li&gt;Better health through personalised food solutions&lt;/li&gt;
-      &lt;li&gt;Less ethical dilemma over consuming protein&lt;/li&gt;
-      &lt;li&gt;More options for learning about alternatives&lt;/li&gt;
-      &lt;li&gt;Equality and no poverty&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Role of Government:
-    &lt;ul&gt;
-      &lt;li&gt;Education on how it works&lt;/li&gt;
-      &lt;li&gt;Regulation of ‘programmable’ food&lt;/li&gt;
-      &lt;li&gt;Maintain a group of people who are aware of the tech&lt;/li&gt;
-      &lt;li&gt;Incentivise communities for uptake&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;How can technology enable:
-    &lt;ul&gt;
-      &lt;li&gt;Sharing IP (open source)&lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;p&gt;&lt;strong&gt;Benefits:&lt;/strong&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;History of being a primary provider&lt;/li&gt;
-      &lt;li&gt;Decreasing food scarcity&lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;p&gt;&lt;strong&gt;Challenges:&lt;/strong&gt;&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Identity crisis&lt;/li&gt;
-      &lt;li&gt;Changing mindsets may take a while to get there&lt;/li&gt;
-      &lt;li&gt;Socialising change in food production&lt;/li&gt;
-      &lt;li&gt;Isolation is possible - too much time with nothing meaningful to do&lt;/li&gt;
-      &lt;li&gt;Reliance on technology&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;group-4---do-exercise&quot;&gt;Group 4 - do exercise&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Effects on Community/Country:
-    &lt;ul&gt;
-      &lt;li&gt;More likely to try different things as potential lower risk&lt;/li&gt;
-      &lt;li&gt;Specialisation in work/activities&lt;/li&gt;
-      &lt;li&gt;Who will be motivated to fund? Medical insurance, government…&lt;/li&gt;
-      &lt;li&gt;Medical /physical/mental health measurement, monitoring and development - more efficiency and comparatives&lt;/li&gt;
-      &lt;li&gt;Community contribution = credit generation (?)&lt;/li&gt;
-      &lt;li&gt;Early diagnosis&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Role of Government:
-    &lt;ul&gt;
-      &lt;li&gt;Funding&lt;/li&gt;
-      &lt;li&gt;Enabling and encouraging activities&lt;/li&gt;
-      &lt;li&gt;Exposure to different roles and activities&lt;/li&gt;
-      &lt;li&gt;Provides right guidelines to encourage healthier choices + private sector innovation in this area&lt;/li&gt;
-      &lt;li&gt;Regulation for ethical implications of data use&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;How can technology enable:
-    &lt;ul&gt;
-      &lt;li&gt;Regular open and VR access&lt;/li&gt;
-      &lt;li&gt;Regulate or schedule daily routines&lt;/li&gt;
-      &lt;li&gt;Monitors detect physical level and give optimal preparations&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;key-themes-of-the-effects-on-society&quot;&gt;Key themes of the effects on Society&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Participation in society before and after death&lt;/li&gt;
-  &lt;li&gt;Sharing of knowledge and passing down generations&lt;/li&gt;
-  &lt;li&gt;Specialised in what we do and offer&lt;/li&gt;
-  &lt;li&gt;Key themes Tech:&lt;/li&gt;
-  &lt;li&gt;Traceability and control&lt;/li&gt;
-  &lt;li&gt;Knowledge sharing&lt;/li&gt;
-  &lt;li&gt;Key themes Role of Govt:&lt;/li&gt;
-  &lt;li&gt;Encouragement and incentivisation&lt;/li&gt;
-  &lt;li&gt;Measure and evaluate&lt;/li&gt;
-  &lt;li&gt;Protect privacy&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>matthew-mccallum</name></author><category term="lessons learned" /><category term="open source" /></entry></feed>
+&lt;/div&gt;</content><author><name>glen-thurston</name></author><category term="lessons learned" /></entry></feed>
