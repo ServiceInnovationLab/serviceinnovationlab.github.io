@@ -6,7 +6,7 @@ authors:
 tags:
   type: Array
   one_of: tags.yml
-  rules: [lowercase]
+  rules: [no-dash, lowercase]
 excerpt: "String"
 config:
   path: _posts
