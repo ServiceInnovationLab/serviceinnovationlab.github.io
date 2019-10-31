@@ -8,7 +8,6 @@ excerpt: Research into the relationship dynamics of renting a property and ways 
 image: /assets/img/projects/renting-a-property.png
 image_accessibility: A row of houses.
 project_weight: 12
-tag: Renting a Property
 expiration_date:
 github_repo:
 project_url: "[]()"

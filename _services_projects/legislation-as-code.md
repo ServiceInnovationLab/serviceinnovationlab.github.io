@@ -8,7 +8,6 @@ excerpt: Exploring the benefits of legislation that is both human and machine re
 image: /assets/img/projects/legislation-as-code.png
 image_accessibility: OpenFisca helps combine legislation with formulas and transforms rules into code.
 project_weight: 12
-tag: Legislation as Code
 expiration_date:
 github_repo:
     - "[Legislation as Code](https://github.com/ServiceInnovationLab/Piccolo)"

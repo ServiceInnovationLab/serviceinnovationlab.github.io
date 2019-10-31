@@ -2,7 +2,6 @@
 title: String
 subtitle: String
 excerpt: String
-tag: String
 permalink: String
 config:
   path: _services_projects
