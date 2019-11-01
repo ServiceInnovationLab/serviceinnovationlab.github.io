@@ -8,7 +8,6 @@ image: /assets/img/projects/20yr-emtech-landscape-image.png
 image_accessibility: Image showing the 20 year landscape. Click on this to view the blogpost and a detailed view of the landscape.
 media: "[20 Year EmTech Landscape](/assets/media/20-Year-Emtech-Landscape/20yr-emtech-landscape.png)"
 resources:
-quote:
 ---
 <br/>
 <span class="subtitle">Led by Hazel Bradshaw, Emerging Tech Lead - Service Innovation Lab</span>
