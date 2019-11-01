@@ -8,7 +8,6 @@ excerpt: Speculating how government, public institutions and society could be re
 image: /assets/img/projects/optimistic-futures.png
 image_accessibility: Image of Lego figures.
 project_weight: 12
-tag: Optimistic Futures
 expiration_date:
 github_repo:
 project_url: "[]()"

@@ -8,7 +8,6 @@ excerpt: Testing ways to better inform and support victims of crime using digita
 image: /assets/img/projects/victim-of-crime-life-event.png
 image_accessibility: A policewoman at someone's front door.
 project_weight: 12
-tag: Victim of Crime
 expiration_date:
 github_repo:
 project_url: "[]()"

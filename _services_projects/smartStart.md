@@ -8,7 +8,6 @@ excerpt: SmartStart provides step-by-step information and support to help you ac
 image: /assets/img/projects/smartStart.png
 image_accessibility: Two images of an iPhone displaying different views of SmartStart's website.
 project_weight: 12
-tag: SmartStart
 expiration_date:
 github_repo:
     - "[SmartStart-frontend](https://github.com/ServiceInnovationLab/smartstart-frontend)"

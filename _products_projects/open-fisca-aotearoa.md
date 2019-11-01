@@ -7,7 +7,6 @@ excerpt: Resource of machine readable New Zealand legislation coded by the lab a
 image: /assets/img/projects/
 image_accessibility:
 image_icon:
-tag: Open Fisca
 expiration_date:
 redirect_to: https://github.com/ServiceInnovationLab/openfisca-aotearoa
 project_url: "[]()"

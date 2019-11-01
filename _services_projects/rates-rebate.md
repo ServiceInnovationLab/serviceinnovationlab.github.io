@@ -8,7 +8,6 @@ excerpt: Exploring ways to improve the current Rates Rebate Service provided by 
 image: /assets/img/projects/rates-rebate.png
 image_accessibility: iPad showing a screen of the Rates Rebate form.
 project_weight: 12
-tag: Rates Rebate
 expiration_date:
 github_repo:
     - "[Rates Rebate-frontend](https://github.com/ServiceInnovationLab/pancake-frontend)"
