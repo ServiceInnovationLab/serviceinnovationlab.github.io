@@ -6,7 +6,7 @@ permalink: /projects/20-year-emtech-landscape/
 excerpt: The next 20 years of emerging tech is vast, this landscape provides you with a visualisation of what to expect in the future.
 image: /assets/img/projects/20yr-emtech-landscape-image.png
 image_accessibility: Image showing the 20 year landscape. Click on this to view the blogpost and a detailed view of the landscape.
-media: "[20 Year EmTech Landscape](/assets/media/20-Year-Emtech-Landscape/20yr-emtech-landscape.png)"
+media: "[20 Year EmTech Landscape](/assets/media/20-Year-Emtech-Landscape/Emerging-Technology-20Year-Landscape.pdf)"
 resources:
 ---
 <br/>
