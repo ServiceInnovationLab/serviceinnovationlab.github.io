@@ -2,7 +2,7 @@
 title: Rates Rebate Beta - Research Report
 date: 2019-07-30
 authors:
-- glen-thurston
+- karyn-brice
 tags:
 - rates rebate
 excerpt: "This report presents the findings of a rapid research project which was part of the Beta phase of the Rates Rebate project."
