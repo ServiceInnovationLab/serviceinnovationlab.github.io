@@ -67,7 +67,7 @@ header_border: true
           <div class="section-info-header">Reports</div>
             <ul class="{% unless page.report.size > 1 %}nz-unstyled-list{% endunless %}">
               {% for report in page.report %}
-                <li>{{ report | markdownify }}</a></li>
+                <li>{{ report | markdownify }}</li>
               {% endfor %}
               </ul>
         </li>
@@ -76,7 +76,11 @@ header_border: true
         {% if page.media %}
         <li class="section-info-list-item">
           <div class="section-info-header">Media</div>
-          <div>{{ page.media | markdownify }}</div>
+          <ul class="{% unless page.media.size > 1 %}nz-unstyled-list{% endunless %}">
+            {% for media in page.media %}
+              <li>{{ media | markdownify }}</li>
+            {% endfor %}
+          </ul>
         </li>
         {% endif %}
 
@@ -85,7 +89,7 @@ header_border: true
           <div class="section-info-header">GitHub</div>
             <ul class="{% unless page.github_repo.size > 1 %}nz-unstyled-list{% endunless %}">
             {% for repo in page.github_repo %}
-              <li>{{ repo | markdownify }}</a></li>
+              <li>{{ repo | markdownify }}</li>
             {% endfor %}
             </ul>
         </li>
