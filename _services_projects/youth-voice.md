@@ -1,6 +1,6 @@
 ---
 agency: Ministry for Youth Development
-title: Youth Voice (Bagel)
+title: Youth Voice
 subtitle:
 permalink: /projects/youth-voice/
 redirect_from: /projects/youth-voice/
