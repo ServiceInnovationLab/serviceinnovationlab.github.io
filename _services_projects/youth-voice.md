@@ -19,4 +19,4 @@ media:
 
 Exploring how machine learning can help assist policy analysts in their decision making.
 
-MYD have been working on a new online submission tool for youth called [The Hive](https://www.the-hive.nz/). The Hive has proved to be a good tool to potentially receive large amounts of submissions from youth. MYDs policy team were concerned about their ability to process large amounts of submission data. There was an opportunity to explore how data is received and analysed and how the analysis process could be improved through the use of data analysis tools.
+The Ministry of Youth Development have been working on a new online submission tool for youth called [The Hive](https://www.the-hive.nz/). The Hive has proven to be a great tool for young people to give feedback on issues across government, but policy teams aren't always equipped to process large amounts of submission data. There was an opportunity to explore how data is received and analysed and how the process could be improved through the use of data analysis tools.
