@@ -4,7 +4,7 @@ title: Youth Voice
 subtitle:
 permalink: /projects/youth-voice/
 redirect_from: /projects/youth-voice/
-excerpt: Exploring how machine learning can help assist policy analysts in their decision making.
+excerpt: Exploring how machine learning can help policy analysts make sense of public feedback.
 image: ""
 image_accessibility: ""
 github_repo:
