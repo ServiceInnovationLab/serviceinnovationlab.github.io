@@ -1,0 +1,8 @@
+Word or term,Short Definition,Long Definition,Example,Reference
+Kubernetes,"A standardised, open-source container-orchestration system for automating deployment, scaling and management of containerized applications. It was originally designed by Google and is now maintained by the Cloud Native Computing Foundation. Kubernetes can be run on a public cloud service or on-premises, is highly modular, open source, and has a vibrant community.
+
+","Kubernetes aims to provide a ""platform for automating deployment, scaling, and operations of application containers across clusters of hosts"". It works with a range of container tools, including Docker.
+
+Companies of all sizes are investing in Kubernetes. Many cloud providers offer Kubernetes as a service (including Amazon, Azure, and Catalyst Cloud). Applications deployed on Kubernetes can be easily moved from one cloud provider to another because Kubernetes provides a consistent ""layer"" which avoids the danger of getting locked in to one cloud provider by relying on their particular set of services. As of 5 November 2018, Kurbernetes is the market leader in this space.","""Docker is a platform and tool for building, distributing, and running Docker containers. It offers its own native clustering tool that can be used to orchestrate and schedule containers on machine clusters. Kubernetes is a container orchestration system for Docker containers that is more extensive than Docker Swarm and is meant to coordinate clusters of nodes at scale in production in an efficient manner.""","https://www.sumologic.com/blog/devops/kubernetes-vs-docker/
+
+Wikipedia"
