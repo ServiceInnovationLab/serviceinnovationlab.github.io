@@ -1,0 +1,24 @@
+.glossary {
+  padding: 0 20px;
+  font-family: "Noto Sans";
+   
+  .glossary-table {
+    overflow-x: auto;
+    display: block;
+    max-width: 100%;
+
+    td {
+      word-wrap: break-word;
+      min-width: 10rem;
+      max-width: 50rem;
+    }
+  }
+}
+
+.glossary-buttons {
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 1rem;
+  justify-content: center;
+}

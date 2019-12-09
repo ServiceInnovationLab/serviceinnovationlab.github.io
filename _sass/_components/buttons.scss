@@ -22,6 +22,12 @@
     }
   }
 
+  &-sm {
+    color: inherit;
+    font-size: 2rem;
+    flex: 1 1 auto;
+  }
+
   &-primary {
     border: 1px solid $color-inverse;
     color: $color-inverse;
