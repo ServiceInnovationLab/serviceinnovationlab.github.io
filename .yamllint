@@ -6,6 +6,7 @@ ignore: |
   _data/digital-wallet.yml
   _data/general-glossary.yml
   _data/techy-terms.yml
+  .circleci/make-yaml.py
 
 rules:
   # 80 chars should be enough, but don't fail if a line is longer
