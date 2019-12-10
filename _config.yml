@@ -140,10 +140,7 @@ exclude:
   - tests/schema/tags.yml
   - tmp/
   - vendor
-  - _data/digital-identity.yml
-  - _data/digital-wallet.yml
-  - _data/general-glossary.yml
-  - _data/techy-terms.yml
+  - _data/glossary/*.yml
   - .circleci/make-yaml.py
   - .circleci/pull-sheet.sh
 

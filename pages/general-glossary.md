@@ -7,7 +7,7 @@ content_focus: false
 {% include glossary-nav.html %}
 
 <!-- Pulls from _data links -->
-{% assign glossary = site.data.general-glossary.data %}
+{% assign glossary = site.data.glossary.general-glossary.data %}
 
 <h2>General Glossary</h2>
 <table class="glossary-table">

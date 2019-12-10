@@ -7,7 +7,7 @@ content_focus: false
 {% include glossary-nav.html %}
 
 <!-- Pulls from _data links -->
-{% assign glossary = site.data.digital-identity.data %}
+{% assign glossary = site.data.glossary.digital-identity.data %}
 
 <h2>Digital Identity Glossary</h2>
 <table class="glossary-table">

@@ -7,7 +7,7 @@ content_focus: false
 {% include glossary-nav.html %}
 
 <!-- Pulls from _data links -->
-{% assign glossary = site.data.digital-wallet.data %}
+{% assign glossary = site.data.glossary.digital-wallet.data %}
 
 <h2>Digital Wallet Glossary</h2>
 <table class="glossary-table">
