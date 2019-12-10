@@ -2,6 +2,10 @@ extends: default
 
 ignore: |
   vendor/bundle
+  _data/digital-identity.yml
+  _data/digital-wallet.yml
+  _data/general-glossary.yml
+  _data/techy-terms.yml
 
 rules:
   # 80 chars should be enough, but don't fail if a line is longer
