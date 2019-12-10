@@ -1,54 +1,7 @@
-<!DOCTYPE html>
-{% include base.html %}
-<!--[if lt IE 9]><html class="lt-ie9"><![endif]-->
-<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
-<!-- home template -->
-  <head>
-    {% include head.html %}
-    <meta name="viewport" content="width=device-width, initial-scale=1", user-scalable=yes">
-  </head>
+---
+layout: default
+---
 
-  <body class="{% if page.type == "tag"%}tag-{% endif %}page-{{ page.title | slugify }}
-  {% if page.header_border == true or layout.header_border == true %}header_border{% endif %} {% if page.path contains '_posts' %}single-post{% endif %}">
-    <a class="skipnav" href="#main-content">Skip to main content</a>
-    <header role="banner">
-      <div class="site-navbar nz-grid" role="navigation">
-        <button class="menu-btn">Menu</button>
-        <a class="site-logo media_link" href="{{ base }}/">
-          <img src="{{ base }}/assets/img/SIL-Logo-Animation.gif" alt="Service Innovation Lab logo" style="height: 55px; width:217px";
-            {% if page.url == '/' %}
-              aria-hidden="true"
-            {% endif %}
-          ></a>
-        <span class="beta" role="navigation">Beta</span>
-          {% if page.url == '/' %}
-            <h1 class="nz-sr-only">SIL</h1>
-          {% else %}
-            <span class="nz-sr-only" role="navigation">SIL</span>
-          {% endif %}
-        <nav role="navigation">
-          {% include navigation.html navbar=true %}
-        </nav>
-      </div>
-    </header>
-
-    <div class="nz-grid nz-section"></div>
-    <div class="glossary" id="main-content">
-      {{ content }}
-    </div>
-
-    {% include navigation.html drawer=true %}
-
-    {% include javascript.html %}
-    <script type="text/javascript">
-      // We listen to the resize event
-      window.addEventListener('resize', () => {
-        // We execute the same script as before
-        let vh = window.innerHeight * 0.01;
-        document.documentElement.style.setProperty('--vh', `${vh}px`);
-      });
-    </script>
-    {% jekyll_pages_api_search_load %}
-    {% include page-footer.html %}
-  </body>
-</html>
+<div class="glossary" id="main-content">
+  {{ content }}
+</div>

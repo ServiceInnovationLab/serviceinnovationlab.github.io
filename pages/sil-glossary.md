@@ -1,19 +1,10 @@
 ---
 title: Service Innovation Lab - Glossary
 permalink: /sil-glossary/
-layout: primary
+layout: no-wrapper
 content_focus: false
 ---
-<div class="glossary-buttons">
-  <a class="btn btn-secondary btn-sm" role="button" href="/general-glossary">General Glossary</a>
-  <a class="btn btn-secondary btn-sm" role="button" href="/techy-terms-glossary">Techy Terms Glossary</a>
-  <a class="btn btn-secondary btn-sm" role="button" href="/digital-identity-glossary">Digital Identity</a>
-  <a class="btn btn-secondary btn-sm" role="button" href="/digital-wallet-glossary">Digital Wallet</a>
-</div>
-<!-- [General Glossary](/general-glossary)
-[Techy Terms Glossary](/techy-terms-glossary)
-[Digital Identity](/digital-identity-glossary)
-[Digital Wallet](/digital-wallet-glossary) -->
+{% include glossary-nav.html %}
 
 ## About this document
 

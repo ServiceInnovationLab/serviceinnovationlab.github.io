@@ -4,16 +4,10 @@ permalink: /general-glossary/
 layout: no-wrapper
 content_focus: false
 ---
-<div class="glossary-buttons">
-  <a class="btn btn-secondary btn-sm" role="button" href="/general-glossary">General Glossary</a>
-  <a class="btn btn-secondary btn-sm" role="button" href="/techy-terms-glossary">Techy Terms Glossary</a>
-  <a class="btn btn-secondary btn-sm" role="button" href="/digital-identity-glossary">Digital Identity</a>
-  <a class="btn btn-secondary btn-sm" role="button" href="/digital-wallet-glossary">Digital Wallet</a>
-</div>
+{% include glossary-nav.html %}
 
 <!-- Pulls from _data links -->
 {% assign glossary = site.data.general-glossary.data %}
-<!-- {% assign glossary = glossary | sort:"Name" %} -->
 
 <h2>General Glossary</h2>
 <table class="glossary-table">
