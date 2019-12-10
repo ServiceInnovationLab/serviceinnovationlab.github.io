@@ -144,8 +144,6 @@ exclude:
   - _data/digital-wallet.yml
   - _data/general-glossary.yml
   - _data/techy-terms.yml
-  - .circleci/make-yaml.py
-  - .circleci/pull-sheet.sh
 
 # jekyll plugins
 plugins:
