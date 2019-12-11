@@ -270,7 +270,7 @@ data:
     \ product or service currently."
   example: ''
   reference: ''
-- word_or_term: s
+- word_or_term: Backlog
   short_definition: 'The backlog, also known as  product backlog is a prioritised
     list of everything that is known to be needed in the product. It is the single
     source of requirements for any changes to be made to the product and is referenced
