@@ -18,6 +18,7 @@ h2 {
 <div class="nz-grid">
     <div class="nz-width-two-thirds">
       <h2 tabindex="0"> Projects </h2>
+      <a href="/sil-glossary">Glossary of Terms</a>
     </div>
 </div>
 
