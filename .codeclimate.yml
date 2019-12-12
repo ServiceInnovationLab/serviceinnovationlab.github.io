@@ -38,3 +38,5 @@ exclude_patterns:
   - "assets/js/jekyll-pages-api-search.js"
   - "assets/js/jquery.min.js"
   - "assets/js/sticky.js"
+  - ".circleci/make-yaml.py"
+  - ".circleci/pull-sheet.sh"
