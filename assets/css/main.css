@@ -1455,7 +1455,9 @@ p + ol {
 table {
   border-spacing: 0;
   margin: 2em 0;
-  min-width: 100%; }
+  overflow-x: auto;
+  display: block;
+  max-width: 100%; }
   table thead th {
     background-color: #f1f1f1; }
   table th {
@@ -2757,6 +2759,11 @@ details summary {
     @media (min-width: 1024px) {
       .btn-lg {
         font-size: 5rem; } }
+  .btn-sm {
+    color: inherit;
+    font-size: 2rem;
+    flex: 1 1 auto;
+    padding: 1.5rem; }
   .btn-primary {
     border: 1px solid #ffffff;
     color: #ffffff; }
@@ -4445,6 +4452,27 @@ time {
   background-color: #ffffff;
   color: #223cc6;
   border: 2px solid #223cc6; }
+
+.glossary {
+  padding: 0 2rem; }
+
+.glossary-nav {
+  padding: 5rem 0 0; }
+  .glossary-nav .glossary-buttons {
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 1rem;
+    justify-content: center; }
+
+.glossary-table {
+  overflow-x: auto;
+  display: block;
+  max-width: 100%; }
+  .glossary-table td {
+    word-wrap: break-word;
+    min-width: 10rem;
+    max-width: 50rem; }
 
 .section-projects a {
   display: inline-block;
