@@ -17,7 +17,8 @@ h2 {
 <section class="nz-section background-gray">
   <div class="nz-grid">
       <div class="nz-width-two-thirds">
-      <h2> Tools </h2>
+        <h2> Tools </h2>
+        <a href="/sil-glossary">Glossary of Terms</a>
     </div>
   </div>
 
