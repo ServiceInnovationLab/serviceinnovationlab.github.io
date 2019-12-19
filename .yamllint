@@ -2,6 +2,8 @@ extends: default
 
 ignore: |
   vendor/bundle
+  _data/glossary/*.yml
+  .circleci/make-yaml.py
 
 rules:
   # 80 chars should be enough, but don't fail if a line is longer

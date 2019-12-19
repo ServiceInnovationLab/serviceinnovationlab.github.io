@@ -46,3 +46,6 @@ exclude:
   - tmp/
   - vendor
   - _posts/
+  - _data/glossary/*.yml
+  - .circleci/make-yaml.py
+  - .circleci/pull-sheet.sh

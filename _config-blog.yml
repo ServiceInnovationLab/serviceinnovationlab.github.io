@@ -33,4 +33,7 @@ exclude:
   - tests/schema/tags.yml
   - tmp/
   - vendor
+  - _data/glossary/*.yml
+  - .circleci/make-yaml.py
+  - .circleci/pull-sheet.sh
 ---
