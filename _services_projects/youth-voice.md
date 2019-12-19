@@ -5,8 +5,8 @@ subtitle:
 permalink: /projects/youth-voice/
 redirect_from: /projects/youth-voice/
 excerpt: Exploring how machine learning can help assist policy analysts in their decision making.
-image: ""
-image_accessibility: ""
+image: /assets/img/projects/bagel-box.png
+image_accessibility: Website
 github_repo:
     - "[bagel-box](https://github.com/ServiceInnovationLab/bagel-box)"
     - "[bagel-eater](https://github.com/ServiceInnovationLab/bagel-eater)"
