@@ -4,15 +4,9 @@ title: Youth Voice
 subtitle:
 permalink: /projects/youth-voice/
 redirect_from: /projects/youth-voice/
-<<<<<<< HEAD
 excerpt: Exploring how machine learning can help assist policy analysts in their decision making.
 image: /assets/img/projects/bagel-box.png
 image_accessibility: Website
-=======
-excerpt: Exploring how machine learning can help policy analysts make sense of public feedback.
-image: ""
-image_accessibility: ""
->>>>>>> fc1b4dbc0ef8cecd67eadae4326bc21d2e123d52
 github_repo:
     - "[bagel-box](https://github.com/ServiceInnovationLab/bagel-box)"
     - "[bagel-eater](https://github.com/ServiceInnovationLab/bagel-eater)"
