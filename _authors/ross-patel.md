@@ -4,7 +4,7 @@ first_name: Ross
 last_name: Patel
 full_name: Ross Patel
 image: "/assets/img/team/ross-square.jpg"
-active: true
+active: false
 published: true
 github: rosspatel01
 role: Designer

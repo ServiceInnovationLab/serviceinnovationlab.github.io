@@ -5,7 +5,7 @@ last_name: Thurston
 full_name: Glen Thurston
 role: Design Lead
 image: "/assets/img/team/glen-square.jpg"
-active: true
+active: false
 github: gthurstonnz
 published: true
 thinking: Developing our team for this year.
