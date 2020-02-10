@@ -4,7 +4,7 @@ first_name: Tim
 last_name: Kong
 full_name: Tim Kong
 image: "/assets/img/team/tim.jpg"
-active: true
+active: false
 published: true
 github: timoslimo
 thinking: How to bake bread
