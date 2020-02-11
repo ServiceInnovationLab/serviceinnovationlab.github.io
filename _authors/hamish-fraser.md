@@ -8,6 +8,6 @@ github: verbman
 image: "/assets/img/team/hamish-square.png"
 thinking: "Breaking Rules"
 doing: "Better Rules"
-active: true
+active: false
 github: verbman
 ---
