@@ -164,12 +164,12 @@
           if (!!min) {
             min =
               parseFloat(min) *
-              (min.indexOf(em) > -1 ? eminpx || getEmValue() : 1);
+              (min.includes(em) ? eminpx || getEmValue() : 1);
           }
           if (!!max) {
             max =
               parseFloat(max) *
-              (max.indexOf(em) > -1 ? eminpx || getEmValue() : 1);
+              (max.includes(em) ? eminpx || getEmValue() : 1);
           }
 
           // if there's no media query at all (the () part), or min or max is not null, and if either is present, they're true
@@ -273,7 +273,7 @@
               (thisq.split('(')[0].match(respond.regex.only) && RegExp.$2) ||
               'all',
             rules: rules.length - 1,
-            hasquery: thisq.indexOf('(') > -1,
+            hasquery: thisq.includes('('),
             minw:
               thisq.match(respond.regex.minw) &&
               parseFloat(RegExp.$1) + (RegExp.$2 || ''),
