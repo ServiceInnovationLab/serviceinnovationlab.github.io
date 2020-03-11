@@ -1,4 +1,4 @@
-$(function(){
+$(function() {
   window.sr = ScrollReveal();
   if ($(window).width() < 768) {
   	if ($('.timeline-content').hasClass('js--fadeInLeft')) {
@@ -11,8 +11,7 @@ $(function(){
 	    duration: 800,
 	  });
 
-  } 
-  else {
+  } else {
    	sr.reveal('.js--fadeInLeft', {
 	    origin: 'left',
 	    distance: '300px',
