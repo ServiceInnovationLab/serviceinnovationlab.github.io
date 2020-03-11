@@ -10,8 +10,7 @@ $(function() {
 			easing: 'ease-in-out',
 			duration: 800,
 		});
-	} 
-  else {
+	} else {
 		sr.reveal('.js--fadeInLeft', {
 			origin: 'left',
 			distance: '300px',
