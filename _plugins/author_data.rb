@@ -14,13 +14,15 @@ module SiteData
       cwd = File.dirname(__FILE__)
       pwd = cwd.split('/')[0...-1].join('/')
 
-      @site_post_paths = Dir.entries(File.join(pwd, '_posts')).select do |f|
-        !File.directory? f and f != '.DS_Store'
-      end
+      @site_post_paths =
+        Dir.entries(File.join(pwd, '_posts')).select do |f|
+          !File.directory? f and f != '.DS_Store'
+        end
 
-      @all_authors = Dir.entries(File.join(pwd, '_authors')).select do |f|
-        !File.directory? f and f != '.DS_Store'
-      end.flatten.uniq
+      @all_authors =
+        Dir.entries(File.join(pwd, '_authors')).select do |f|
+          !File.directory? f and f != '.DS_Store'
+        end.flatten.uniq
 
       @published_authors = find_published_authors
 
@@ -29,6 +31,7 @@ module SiteData
 
     def update(author_file, key, value)
       author_path = create_file_path(author_file)
+
       if File.exist? author_path
         updated_file = update_file(author_path, key, value)
         write_update(author_path, updated_file[:file], key, value) if updated_file[:changed]
@@ -55,12 +58,12 @@ module SiteData
     def update_file(author_path, key, value)
       frontmatter = File.read(author_path)[frontmatter_regex]
       frontmatter_yml = YAML.safe_load(frontmatter)
+
       if frontmatter_yml[key] != value
         frontmatter_yml[key] = value
         frontmatter_yml = delete_value(frontmatter_yml, key) if value == 'delete'
         frontmatter_new = YAML.dump(frontmatter_yml) << "---\n\n"
-        { file: File.read(author_path).gsub(frontmatter, frontmatter_new),
-          changed: true }
+        { file: File.read(author_path).gsub(frontmatter, frontmatter_new), changed: true }
       else
         { file: frontmatter, changed: false }
       end

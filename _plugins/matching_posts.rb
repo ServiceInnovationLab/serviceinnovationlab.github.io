@@ -5,10 +5,7 @@ module Jekyll
     # Helper method to match apost property with its equivalent
     # page property
     def map_post_to_page(property)
-      post_map = {
-        authors: 'name',
-        tags: 'tags'
-      }
+      post_map = { authors: 'name', tags: 'tags' }
       post_map[property.to_sym]
     end
 

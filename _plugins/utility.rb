@@ -6,11 +6,12 @@ module Jekyll
 
     def clip_char(str, char = '-')
       str = str.to_s
-      str = if str[0] == char
-              str[1...str.length]
-            else
-              str
-            end
+      str =
+        if str[0] == char
+          str[1...str.length]
+        else
+          str
+        end
       if str[-1] == char
         str[0...-1]
       else
@@ -28,14 +29,15 @@ module Jekyll
 
     def matches_url(page_url, url)
       if url.is_a? Array
-        urls = url.map do |u|
-          page_url = clip_char(page_url.to_s.downcase, '/').split('/')[0]
-          u = clip_char(u.to_s.downcase, '/').split('/')[0]
-          # if the url group is 'blog', match date strings
-          is_blog_post = (u == 'blog') && page_url.to_i.positive?
-          matching_url = (page_url == u) || is_blog_post
-          matching_url || nil
-        end
+        urls =
+          url.map do |u|
+            page_url = clip_char(page_url.to_s.downcase, '/').split('/')[0]
+            u = clip_char(u.to_s.downcase, '/').split('/')[0]
+            # if the url group is 'blog', match date strings
+            is_blog_post = (u == 'blog') && page_url.to_i.positive?
+            matching_url = (page_url == u) || is_blog_post
+            matching_url || nil
+          end
         urls.compact.any? || nil
       else
         page_url = clip_char(page_url.to_s.downcase, '/')
@@ -61,11 +63,12 @@ module Jekyll
     end
 
     def where_obj(array, filter)
-      array = array.map do |object|
-        next unless !object[filter].nil? && !object[filter].empty?
+      array =
+        array.map do |object|
+          next unless !object[filter].nil? && !object[filter].empty?
 
-        object
-      end.compact.uniq
+          object
+        end.compact.uniq
       array
     end
 
@@ -84,17 +87,20 @@ module Jekyll
         end
       end
 
-      az_group = az_group.sort_by do |key, _value|
-        key[sort_name].downcase
-      end
+      az_group =
+        az_group.sort_by do |key, _value|
+          key[sort_name].downcase
+        end
 
-      weighted_group = weighted_group.sort_by do |key, _value|
-        key[sort_name].downcase
-      end.reverse
+      weighted_group =
+        weighted_group.sort_by do |key, _value|
+          key[sort_name].downcase
+        end.reverse
 
-      weighted_group = weighted_group.sort_by do |key, _value|
-        key[weight_name].to_f
-      end.reverse
+      weighted_group =
+        weighted_group.sort_by do |key, _value|
+          key[weight_name].to_f
+        end.reverse
 
       weighted_group + az_group
     end
@@ -118,8 +124,7 @@ class Array
     number.times do |index|
       length = division + (modulo.positive? && modulo > index ? 1 : 0)
       groups << last_group = slice(start, length)
-      last_group << fill_with if fill_with != false &&
-                                 modulo.positive? && length == division
+      last_group << fill_with if fill_with != false && modulo.positive? && length == division
       start += length
     end
 

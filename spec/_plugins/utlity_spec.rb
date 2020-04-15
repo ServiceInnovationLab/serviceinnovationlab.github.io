@@ -3,8 +3,7 @@
 require_relative '../../_plugins/utility'
 
 RSpec.describe Jekyll::Utility do
-  class UtilityClass
-  end
+  class UtilityClass; end
 
   before do
     @utility_class = UtilityClass.new

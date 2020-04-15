@@ -5,9 +5,10 @@ require 'yaml'
 
 posts = './_posts'
 post_directory = Dir[File.join(posts, '**', '*')]
-stripped_post_directory = post_directory.map do |post|
-  post.slice(2, post.size)
-end
+stripped_post_directory =
+  post_directory.map do |post|
+    post.slice(2, post.size)
+  end
 
 post_count = stripped_post_directory.count
 config_paths = ['./_config-blog.yml', './_config-accesslint.yml']

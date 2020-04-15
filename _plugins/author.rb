@@ -22,13 +22,14 @@ module Jekyll
     #
     # Returns a string containing the requested value
     def lookup(input, args)
-      args = args.split(',')  # turns the comma separated args string into an array
+      args = args.split(',') # turns the comma separated args string into an array
       dataset = args[0].strip # strips whitespace for the requested data file
-      key = args[1].strip     # strips whitespace for the requested key
+      key = args[1].strip # strips whitespace for the requested key
       data = Jekyll.sites[0].data[dataset] # returns the full data file
       if data[input] # if there's an entry for input, return the value
         data[input][key]
-      else # if not, exit with a "no such author error"
+      else
+        # if not, exit with a "no such author error"
         puts "author.rb#lookup: No such author: #{input} in #{@page_path}".red
         False
       end
@@ -60,13 +61,14 @@ module Jekyll
     # Content is boone's name
     def team_link(input)
       authors = Jekyll.sites[0].collections['authors'].docs
-      index = authors.find_index do |x|
-        if x.data['name'].nil?
-          puts "No such author: #{input} in #{x}"
-        else
-          x.data['name'].casecmp(input.downcase).zero?
+      index =
+        authors.find_index do |x|
+          if x.data['name'].nil?
+            puts "No such author: #{input} in #{x}"
+          else
+            x.data['name'].casecmp(input.downcase).zero?
+          end
         end
-      end
       site_url = set_site_url
 
       if index.nil?

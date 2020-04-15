@@ -33,9 +33,9 @@ if ARGV.include?('-h') || ARGV.include?('--help')
 end
 
 ARGV.map.with_index do |a, index|
-  # Flags:
-  # The image flag allows you to name the image path directory
-  if a == '-i' || a == '-I' || a == '--image'
+  if # Flags:
+     # The image flag allows you to name the image path directory
+     a == '-i' || a == '-I' || a == '--image'
     image_path = ARGV[index + 1] ? ARGV[index + 1] : image_path
   end
 
@@ -64,32 +64,38 @@ full_path = File.join(directory_name, unique_path, image_path)
 
 image_directory = Dir[File.join(image_path, '**', '*')]
 
+# No colorator: comment this out and use the following line instead.
+
+# puts "deleting contents of removable_images.yml"
+
 if remove_all
   removable_images_file = File.join(full_path, 'removable_images.yml')
   lines = File.readlines(removable_images_file)
   lines.each do |line|
-    # No colorator: comment this out and use the following line instead.
-    puts "deleting #{line.sub("\n", '')}".red
+    puts # No colorator: comment this out and use the following line instead.
+         "deleting #{line.sub("\n", '')}".red
     # puts "deleting #{line.sub("\n", "")}"
     `rm -rf #{line.sub("\n", '')}`
   end
-  # No colorator: comment this out and use the following line instead.
+
   puts 'deleting contents of removable_images.yml'.red
-  # puts "deleting contents of removable_images.yml"
+
   File.open(removable_images_file, 'w').close
 else
   removable_images_file = File.join(full_path, 'removable_images.yml')
-  removable_images = if File.exist?(removable_images_file)
-                       File.open(removable_images_file, 'r+')
-                     else
-                       File.open(removable_images_file, 'w')
-                     end
+  removable_images =
+    if File.exist?(removable_images_file)
+      File.open(removable_images_file, 'r+')
+    else
+      File.open(removable_images_file, 'w')
+    end
   skipped_images_file = File.join(full_path, 'skipped_images.yml')
-  skipped_images = if File.exist?(skipped_images_file)
-                     File.open(skipped_images_file, 'r+')
-                   else
-                     File.open(skipped_images_file, 'w')
-                   end
+  skipped_images =
+    if File.exist?(skipped_images_file)
+      File.open(skipped_images_file, 'r+')
+    else
+      File.open(skipped_images_file, 'w')
+    end
 
   image_directory.map do |image|
     img_array = image.split('/')
@@ -97,15 +103,17 @@ else
 
     ignored_items = [] || File.readlines(skipped_images_file)
     ignored_items += File.readlines(removable_images_file) if ignore_removable
-    ignored_items = if ignored_items.any?
-                      ignored_items
-                    else
-                      File.readlines(skipped_images_file)
-                    end
+    ignored_items =
+      if ignored_items.any?
+        ignored_items
+      else
+        File.readlines(skipped_images_file)
+      end
 
-    ignore = ignored_items.map do |m|
-      image.include?(m.strip)
-    end.include? true
+    ignore =
+      ignored_items.map do |m|
+        image.include?(m.strip)
+      end.include? true
     if !ignore
       # No colorator: comment this out and use the following line instead.
       if use_relative
