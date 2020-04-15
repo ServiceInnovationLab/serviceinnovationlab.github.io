@@ -36,17 +36,17 @@ ARGV.map.with_index do |a, index|
   # Flags:
   # The image flag allows you to name the image path directory
   if a == '-i' || a == '-I' || a == '--image'
-    image_path = ARGV[index + 1] ? ARGV[index + 1] : image_path
+    image_path = ARGV[index + 1] || image_path
   end
 
   # Set reference for built project
   if a == '-b' || a == '-B' || a == '--built'
-    built_path = ARGV[index + 1] ? ARGV[index + 1] : built_path
+    built_path = ARGV[index + 1] || built_path
   end
 
   # Set folder where images are stored
   if a == '-d' || a == '-D' || a == '--dir_temp'
-    directory_name = ARGV[index + 1] ? ARGV[index + 1] : directory_name
+    directory_name = ARGV[index + 1] || directory_name
   end
 
   # Use relative file path to scan

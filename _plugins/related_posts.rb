@@ -82,7 +82,7 @@ module Jekyll
     end
 
     def in_threads(site)
-      site.config['n_cores'] ? site.config['n_cores'] : 1
+      site.config['n_cores'] || 1
     end
 
     def generate(site)
