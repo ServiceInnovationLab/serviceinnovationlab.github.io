@@ -78,9 +78,9 @@
     appendedEls = [],
     parsedSheets = {},
     resizeThrottle = 30,
-    head = doc.getElementsByTagName('head')[0] || docElem,
-    base = doc.getElementsByTagName('base')[0],
-    links = head.getElementsByTagName('link'),
+    head = doc.querySelectorAll('head')[0] || docElem,
+    base = doc.querySelectorAll('base')[0],
+    links = head.querySelectorAll('link'),
     lastCall,
     resizeDefer,
     // cached container for 1em value, populated the first time it's needed
