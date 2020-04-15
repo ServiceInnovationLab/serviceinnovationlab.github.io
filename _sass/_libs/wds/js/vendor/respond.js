@@ -115,9 +115,9 @@
       ret = div.offsetWidth;
 
       if (fakeUsed) {
-        docElem.removeChild(body);
+        body.remove();
       } else {
-        body.removeChild(div);
+        div.remove();
       }
 
       // restore the original values
