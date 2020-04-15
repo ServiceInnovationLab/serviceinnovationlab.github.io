@@ -5,11 +5,7 @@
   $new-props: ();
 
   @each $prop in $props {
-    $new-props: append(
-      $new-props,
-      transition-property-name($prop, $vendor),
-      comma
-    );
+    $new-props: append($new-props, transition-property-name($prop, $vendor), comma);
   }
 
   @return $new-props;
@@ -18,7 +14,7 @@
 @function transition-property-name($prop, $vendor: false) {
   // put other properties that need to be prefixed here aswell
   @if $vendor and $prop == transform {
-    @return unquote("-" + $vendor + "-" + $prop);
+    @return unquote('-' + $vendor + '-' + $prop);
   } @else {
     @return $prop;
   }

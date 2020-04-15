@@ -5,8 +5,8 @@ form {
     border-bottom: 0;
   }
 
-  [type="submit"],
-  [type="submit"] {
+  [type='submit'],
+  [type='submit'] {
     display: block;
     margin-bottom: 1.5em;
     margin-top: 2.5rem;
@@ -18,8 +18,8 @@ form {
     }
   }
 
-  [name="password"],
-  [name="confirmPassword"] {
+  [name='password'],
+  [name='confirmPassword'] {
     margin-bottom: 1.1rem;
   }
 }
@@ -146,7 +146,7 @@ input {
     text-indent: -2em;
 
     &::before {
-      content: " ";
+      content: ' ';
       display: inline-block;
       height: 0.8em;
       margin-right: 0.2em;

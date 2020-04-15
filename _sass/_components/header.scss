@@ -8,7 +8,7 @@
   display: block;
 }
 
-header[role="banner"] {
+header[role='banner'] {
   ul {
     @include unstyled-list;
 
@@ -54,7 +54,7 @@ header[role="banner"] {
     }
   }
 
-  nav[role="navigation"] {
+  nav[role='navigation'] {
     @include margin(2.15rem null);
     display: none;
     float: right;
@@ -82,7 +82,7 @@ header[role="banner"] {
     padding-top: 42px;
     position: absolute;
     font-weight: bold;
-    font-family: "Noto Sans";
+    font-family: 'Noto Sans';
 
     @media (min-width: 320px) and (max-width: 374px) {
       right: 85px;

@@ -175,25 +175,25 @@
     }
   }
 
-  .nz-search.nz-search-small [type="submit"] {
-    background-image: url("../img/global/search-dark.png");
-    background-image: url("../img/global/search-dark.svg");
+  .nz-search.nz-search-small [type='submit'] {
+    background-image: url('../img/global/search-dark.png');
+    background-image: url('../img/global/search-dark.svg');
   }
 
   input,
-  input[type="text"],
-  input[type="email"],
-  input[type="password"],
-  input[type="url"],
-  input[type="tel"],
-  input[type="number"],
-  input[type="search"],
-  input[type="file"],
-  input[type="date"],
-  input[type="datetime-local"],
-  input[type="month"],
-  input[type="time"],
-  input[type="week"],
+  input[type='text'],
+  input[type='email'],
+  input[type='password'],
+  input[type='url'],
+  input[type='tel'],
+  input[type='number'],
+  input[type='search'],
+  input[type='file'],
+  input[type='date'],
+  input[type='datetime-local'],
+  input[type='month'],
+  input[type='time'],
+  input[type='week'],
   textarea,
   select {
     border-color: $color-white;
@@ -209,7 +209,7 @@
 
 .header_border,
 .single-post {
-  header[role="banner"] {
+  header[role='banner'] {
     border-bottom: 1px solid $color-gray-lighter;
   }
 }

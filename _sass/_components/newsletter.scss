@@ -13,7 +13,7 @@
     height: 3.3rem;
   }
 
-  [type="submit"] {
+  [type='submit'] {
     @include margin(null 0 null 1rem);
     display: inline;
     padding: 0;

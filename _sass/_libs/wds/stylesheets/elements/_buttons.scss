@@ -10,10 +10,10 @@ $button-stroke: inset 0 0 0 2px;
 .nz-button:visited,
 .nz-button-primary:visited,
 button,
-[type="button"],
-[type="submit"],
-[type="reset"],
-[type="image"] {
+[type='button'],
+[type='submit'],
+[type='reset'],
+[type='image'] {
   @include margin(0.5em 0.5em 0.5em null);
   appearance: none;
   background-color: $color-primary;
@@ -152,7 +152,7 @@ button,
 }
 // scss-lint:enable PropertyCount
 
-[type="submit"]:disabled,
+[type='submit']:disabled,
 .nz-button-disabled {
   background-color: $color-gray-lightest;
   color: $color-gray-dark;

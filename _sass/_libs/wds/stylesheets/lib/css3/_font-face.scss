@@ -13,12 +13,6 @@
     font-style: $style;
     font-weight: $weight;
 
-    src: font-source-declaration(
-      $font-family,
-      $file-path,
-      $asset-pipeline,
-      $file-formats,
-      $font-url-prefix
-    );
+    src: font-source-declaration($font-family, $file-path, $asset-pipeline, $file-formats, $font-url-prefix);
   }
 }

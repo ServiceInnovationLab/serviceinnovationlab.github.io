@@ -1,11 +1,6 @@
 // User for linear and radial gradients within background-image or border-image properties
 
-@function _render-gradients(
-  $gradient-positions,
-  $gradients,
-  $gradient-type,
-  $vendor: false
-) {
+@function _render-gradients($gradient-positions, $gradients, $gradient-type, $vendor: false) {
   $pre-spec: null;
   $spec: null;
   $vendor-gradients: null;
@@ -20,11 +15,9 @@
   }
 
   @if $vendor {
-    $vendor-gradients: -#{$vendor}-#{$gradient-type}-gradient(
-        #{$pre-spec} $gradients
-      );
+    $vendor-gradients: -#{$vendor}-#{$gradient-type}-gradient(#{$pre-spec} $gradients);
   } @else if $vendor == false {
-    $vendor-gradients: "#{$gradient-type}-gradient(#{$spec} #{$gradients})";
+    $vendor-gradients: '#{$gradient-type}-gradient(#{$spec} #{$gradients})';
     $vendor-gradients: unquote($vendor-gradients);
   }
   @return $vendor-gradients;

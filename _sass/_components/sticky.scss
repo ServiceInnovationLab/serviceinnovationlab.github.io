@@ -16,7 +16,7 @@
 
 .sticky::before,
 .sticky::after {
-  content: "";
+  content: '';
   display: table;
 }
 
@@ -24,13 +24,13 @@
   ul {
     background: $color-white;
 
-    &[aria-hidden="true"] {
+    &[aria-hidden='true'] {
       display: none;
     }
   }
 
   @include media($medium-screen) {
-    ul[aria-hidden="true"] {
+    ul[aria-hidden='true'] {
       display: inline-block;
     }
 

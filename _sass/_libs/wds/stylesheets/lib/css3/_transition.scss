@@ -12,7 +12,7 @@
 
   // Create lists for vendor-prefixed transform
   @each $list in $properties {
-    @if nth($list, 1) == "transform" {
+    @if nth($list, 1) == 'transform' {
       $needs-prefixes: true;
       $list1: -webkit-transform;
       $list2: -moz-transform;
@@ -21,7 +21,7 @@
       @each $var in $list {
         $list3: join($list3, $var);
 
-        @if $var != "transform" {
+        @if $var != 'transform' {
           $list1: join($list1, $var);
           $list2: join($list2, $var);
         }
@@ -52,8 +52,8 @@
 }
 
 @mixin transition-property($properties...) {
-  -webkit-transition-property: transition-property-names($properties, "webkit");
-  -moz-transition-property: transition-property-names($properties, "moz");
+  -webkit-transition-property: transition-property-names($properties, 'webkit');
+  -moz-transition-property: transition-property-names($properties, 'moz');
   transition-property: transition-property-names($properties, false);
 }
 

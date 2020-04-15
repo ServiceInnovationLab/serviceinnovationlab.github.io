@@ -26,13 +26,13 @@
 
     // If not spec calculate correct values
     @else {
-      @if ($pos-type != color) or ($first-val != "transparent") {
+      @if ($pos-type != color) or ($first-val != 'transparent') {
         @if ($pos-type == number) or
-          ($first-val == "center") or
-          ($first-val == "top") or
-          ($first-val == "right") or
-          ($first-val == "bottom") or
-          ($first-val == "left")
+          ($first-val == 'center') or
+          ($first-val == 'top') or
+          ($first-val == 'right') or
+          ($first-val == 'bottom') or
+          ($first-val == 'left')
         {
           $pos: $value;
 
@@ -40,14 +40,14 @@
             $g1: null;
           }
         } @else if
-          ($first-val == "ellipse") or
-          ($first-val == "circle") or
-          ($first-val == "closest-side") or
-          ($first-val == "closest-corner") or
-          ($first-val == "farthest-side") or
-          ($first-val == "farthest-corner") or
-          ($first-val == "contain") or
-          ($first-val == "cover")
+          ($first-val == 'ellipse') or
+          ($first-val == 'circle') or
+          ($first-val == 'closest-side') or
+          ($first-val == 'closest-corner') or
+          ($first-val == 'farthest-side') or
+          ($first-val == 'farthest-corner') or
+          ($first-val == 'contain') or
+          ($first-val == 'cover')
         {
           $shape-size: $value;
 

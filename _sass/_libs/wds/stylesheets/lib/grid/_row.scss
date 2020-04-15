@@ -31,7 +31,7 @@
 @mixin row($display: default, $direction: $default-layout-direction) {
   @if $direction != $default-layout-direction {
     @include -neat-warn(
-      "The $direction argument will be deprecated in future versions in favor of the direction(){...} mixin."
+      'The $direction argument will be deprecated in future versions in favor of the direction(){...} mixin.'
     );
   }
 
@@ -39,7 +39,7 @@
 
   @if $display != default {
     @include -neat-warn(
-      "The $display argument will be deprecated in future versions in favor of the display(){...} mixin."
+      'The $display argument will be deprecated in future versions in favor of the display(){...} mixin.'
     );
   }
 

@@ -76,11 +76,11 @@
 
 @mixin directional-property($pre, $suf, $vals) {
   // Property Names
-  $top: $pre + "-top" + if($suf, "-#{$suf}", "");
-  $bottom: $pre + "-bottom" + if($suf, "-#{$suf}", "");
-  $left: $pre + "-left" + if($suf, "-#{$suf}", "");
-  $right: $pre + "-right" + if($suf, "-#{$suf}", "");
-  $all: $pre + if($suf, "-#{$suf}", "");
+  $top: $pre + '-top' + if($suf, '-#{$suf}', '');
+  $bottom: $pre + '-bottom' + if($suf, '-#{$suf}', '');
+  $left: $pre + '-left' + if($suf, '-#{$suf}', '');
+  $right: $pre + '-right' + if($suf, '-#{$suf}', '');
+  $all: $pre + if($suf, '-#{$suf}', '');
 
   $vals: collapse-directionals($vals);
 
