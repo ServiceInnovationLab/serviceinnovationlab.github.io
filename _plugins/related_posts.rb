@@ -4,7 +4,7 @@ require 'parallel'
 
 module Jekyll
   class RelatedPostsGenerator < Generator
-    safe :true
+    safe true
     priority :lower
 
     # Calculate related posts.
