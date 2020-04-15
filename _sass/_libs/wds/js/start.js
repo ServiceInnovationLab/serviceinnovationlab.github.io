@@ -8,38 +8,33 @@ var toggleFormInput = require('./components/toggle-form-input');
 // README: This is necessary because politespace doesn't properly export anything
 // in its package.json. TODO: Let's open a PR related to this so we can fix it in Politespace.js
 //
-var Politespace = require('../../node_modules/politespace/src/politespace')
-  .Politespace;
+var Politespace = require('../../node_modules/politespace/src/politespace').Politespace;
 
-$(function() {
+$(function () {
   // jQuery Plugin
 
   var componentName = 'politespace',
     enhancedAttr = 'data-enhanced',
     initSelector = '[data-" + componentName + "]:not([" + enhancedAttr + "])';
 
-  $.fn[componentName] = function() {
-    return this.each(function() {
+  $.fn[componentName] = function () {
+    return this.each(function () {
       var polite = new Politespace(this);
       if (polite.type === 'number') {
         polite.createProxy();
       }
 
       $(this)
-        .bind('input keydown', function() {
+        .bind('input keydown', function () {
           polite.updateProxy();
         })
-        .bind('blur', function() {
-          $(this)
-            .closest('.politespace-proxy')
-            .addClass('active');
+        .bind('blur', function () {
+          $(this).closest('.politespace-proxy').addClass('active');
           polite.update();
           polite.updateProxy();
         })
-        .bind('focus', function() {
-          $(this)
-            .closest('.politespace-proxy')
-            .removeClass('active');
+        .bind('focus', function () {
+          $(this).closest('.politespace-proxy').removeClass('active');
           polite.reset();
         })
         .data(componentName, polite);
@@ -49,30 +44,23 @@ $(function() {
   };
 
   // auto-init on enhance (which is called on domready)
-  $(document).ready(function() {
+  $(document).ready(function () {
     $('[data-' + componentName + ']').politespace();
   });
 
-  $('.nz-accordion,.nz-accordion-bordered').each(function() {
+  $('.nz-accordion,.nz-accordion-bordered').each(function () {
     new Accordion($(this));
   });
 
-  var footerAccordion = function() {
+  var footerAccordion = function () {
     if (window.innerWidth < 600) {
       $('.nz-footer-big nav ul').addClass('hidden');
 
       $('.nz-footer-big nav .nz-footer-primary-link').unbind('click');
 
-      $('.nz-footer-big nav .nz-footer-primary-link').bind(
-        'click',
-        function() {
-          $(this)
-            .parent()
-            .removeClass('hidden')
-            .siblings()
-            .addClass('hidden');
-        },
-      );
+      $('.nz-footer-big nav .nz-footer-primary-link').bind('click', function () {
+        $(this).parent().removeClass('hidden').siblings().addClass('hidden');
+      });
     } else {
       $('.nz-footer-big nav ul').removeClass('hidden');
 
@@ -85,11 +73,11 @@ $(function() {
   $(window).resize(footerAccordion);
 
   // Fixing skip nav focus behavior in chrome
-  $('.skipnav').click(function() {
+  $('.skipnav').click(function () {
     $('#main-content').attr('tabindex', '0');
   });
 
-  $('#main-content').blur(function() {
+  $('#main-content').blur(function () {
     $(this).attr('tabindex', '-1');
   });
 
@@ -97,9 +85,7 @@ $(function() {
   var $formInput = $('.nz-show_multipassword');
   var $validator = $('.js-validate_password');
 
-  $showPassword.length &&
-    toggleFormInput($showPassword, 'Show Password', 'Hide Password');
-  $formInput.length &&
-    toggleFormInput($formInput, 'Show my typing', 'Hide my typing');
+  $showPassword.length && toggleFormInput($showPassword, 'Show Password', 'Hide Password');
+  $formInput.length && toggleFormInput($formInput, 'Show my typing', 'Hide my typing');
   $validator.length && validator($validator);
 });

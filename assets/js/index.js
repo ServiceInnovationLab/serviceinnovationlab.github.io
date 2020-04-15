@@ -1,7 +1,7 @@
 /* eslint-env jquery */
-$(function() {
+$(function () {
   // Onclick window location handler
-  $('.card-link').on('click', function(e) {
+  $('.card-link').on('click', function (e) {
     var url = $(this).data().href;
     if (e.shiftKey || e.ctrlKey || e.metaKey) {
       window.open(url, '_blank');
@@ -11,22 +11,16 @@ $(function() {
   });
 
   // Drawer
-  $('.menu-btn, .overlay, .sliding-panel-close').on(
-    'click touchstart',
-    function(e) {
-      $('.nav-mobile, .overlay').toggleClass('is-visible');
-      e.preventDefault();
-    },
-  );
+  $('.menu-btn, .overlay, .sliding-panel-close').on('click touchstart', function (e) {
+    $('.nav-mobile, .overlay').toggleClass('is-visible');
+    e.preventDefault();
+  });
 
   // Styleguide drawer
-  $('.menu-btn-styleguide, .sliding-panel-close-styleguide').on(
-    'click touchstart',
-    function(e) {
-      $('.nav-mobile-styleguide').toggleClass('is-visible');
-      e.preventDefault();
-    },
-  );
+  $('.menu-btn-styleguide, .sliding-panel-close-styleguide').on('click touchstart', function (e) {
+    $('.nav-mobile-styleguide').toggleClass('is-visible');
+    e.preventDefault();
+  });
 
   // Mailchimp
   var $form = $('#contact-form'),
@@ -37,19 +31,19 @@ $(function() {
   var defaultNewsletterText = $newsletter.text();
 
   var newsletterForm = {
-    response: function() {
+    response: function () {
       var email = $newsletterEmail.val();
       $('#newsletter-response').text(email);
       $form.hide();
       $newsletterSuccess.show();
     },
-    reset: function(argument) {
+    reset: function (argument) {
       $newsletter.text(defaultNewsletterText);
       $newsletterEmail.val('');
       $form.show();
       $newsletterSuccess.hide();
       $newsletterEmail.focus();
-    },
+    }
   };
 
   function callbackFunction(resp) {
@@ -58,11 +52,11 @@ $(function() {
     }
   }
 
-  $('#button-reset').on('click', function() {
+  $('#button-reset').on('click', function () {
     newsletterForm.reset();
   });
 
-  $('.search-interface').on('submit', function() {
+  $('.search-interface').on('submit', function () {
     $('#search-loading').show();
   });
 });

@@ -1,7 +1,7 @@
 /**
  * @preserve HTML5 Shiv prev3.7.1 | @afarkas @jdalton @jon_neal @rem | MIT/GPL2 Licensed
  */
-(function(window, document) {
+(function (window, document) {
   /* jshint evil:true */
   /** version */
   var version = '3.7.0';
@@ -30,7 +30,7 @@
   /** Detect whether the browser supports unknown elements */
   var supportsUnknownElements;
 
-  (function() {
+  (function () {
     try {
       var a = document.createElement('a');
       a.innerHTML = '<xyz></xyz>';
@@ -39,7 +39,7 @@
 
       supportsUnknownElements =
         a.childNodes.length == 1 ||
-        (function() {
+        (function () {
           // assign a false positive if unable to shiv
           document.createElement('a');
           var frag = document.createDocumentFragment();
@@ -67,9 +67,7 @@
    */
   function addStyleSheet(ownerDocument, cssText) {
     var p = ownerDocument.createElement('p'),
-      parent =
-        ownerDocument.getElementsByTagName('head')[0] ||
-        ownerDocument.documentElement;
+      parent = ownerDocument.getElementsByTagName('head')[0] || ownerDocument.documentElement;
 
     p.innerHTML = 'x<style>' + cssText + '</style>';
     return parent.insertBefore(p.lastChild, parent.firstChild);
@@ -136,9 +134,7 @@
     //   a 403 response, will cause the tab/window to crash
     // * Script elements appended to fragments will execute when their `src`
     //   or `text` property is set
-    return node.canHaveChildren && !reSkip.test(nodeName) && !node.tagUrn
-      ? data.frag.appendChild(node)
-      : node;
+    return node.canHaveChildren && !reSkip.test(nodeName) && !node.tagUrn ? data.frag.appendChild(node) : node;
   }
 
   /**
@@ -179,7 +175,7 @@
       data.frag = data.createFrag();
     }
 
-    ownerDocument.createElement = function(nodeName) {
+    ownerDocument.createElement = function (nodeName) {
       // abort shiv
       if (!html5.shivMethods) {
         return data.createElem(nodeName);
@@ -195,12 +191,12 @@
         // unroll the `createElement` calls
         getElements()
           .join()
-          .replace(/[\w\-:]+/g, function(nodeName) {
+          .replace(/[\w\-:]+/g, function (nodeName) {
             data.createElem(nodeName);
             data.frag.createElement(nodeName);
             return 'c("' + nodeName + '")';
           }) +
-        ');return n}',
+        ');return n}'
     )(html5, data.frag);
   }
 
@@ -226,7 +222,7 @@
           // adds styling not present in IE6/7/8/9
           'mark{background:#FF0;color:#000}' +
           // hides non-rendered elements
-          'template{display:none}',
+          'template{display:none}'
       );
     }
     if (!supportsUnknownElements) {
@@ -297,7 +293,7 @@
     createElement: createElement,
 
     // creates a shived documentFragment
-    createDocumentFragment: createDocumentFragment,
+    createDocumentFragment: createDocumentFragment
   };
 
   /*--------------------------------------------------------------------------*/

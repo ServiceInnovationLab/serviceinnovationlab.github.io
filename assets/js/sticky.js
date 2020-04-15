@@ -1,4 +1,4 @@
-(function() {
+(function () {
   /* eslint-disable */
 
   /*
@@ -8,7 +8,7 @@
    *
    * MIT License
    */
-  var Stickyfill = function(doc, win) {
+  var Stickyfill = function (doc, win) {
     if (!doc) {
       doc = document;
     }
@@ -21,7 +21,7 @@
       scroll,
       initialized = false,
       html = doc.documentElement,
-      noop = function() {},
+      noop = function () {},
       checkTimer,
       //visibility API strings
       hiddenPropertyName = 'hidden',
@@ -73,7 +73,7 @@
     function updateScrollPos() {
       scroll = {
         top: win.pageYOffset,
-        left: win.pageXOffset,
+        left: win.pageXOffset
       };
     }
 
@@ -92,7 +92,7 @@
 
     //fixes flickering
     function onWheel(event) {
-      setTimeout(function() {
+      setTimeout(function () {
         if (win.pageYOffset != scroll.top) {
           scroll.top = win.pageYOffset;
           recalcAllPos();
@@ -109,8 +109,7 @@
     function recalcElementPos(el) {
       if (!el.inited) return;
 
-      var currentMode =
-        scroll.top <= el.limit.start ? 0 : scroll.top >= el.limit.end ? 2 : 1;
+      var currentMode = scroll.top <= el.limit.start ? 0 : scroll.top >= el.limit.end ? 2 : 1;
 
       if (el.mode != currentMode) {
         switchElementMode(el, currentMode);
@@ -122,13 +121,8 @@
       for (var i = watchArray.length - 1; i >= 0; i--) {
         if (!watchArray[i].inited) continue;
 
-        var deltaTop = Math.abs(
-            getDocOffsetTop(watchArray[i].clone) - watchArray[i].docOffsetTop,
-          ),
-          deltaHeight = Math.abs(
-            watchArray[i].parent.node.offsetHeight -
-              watchArray[i].parent.height,
-          );
+        var deltaTop = Math.abs(getDocOffsetTop(watchArray[i].clone) - watchArray[i].docOffsetTop),
+          deltaHeight = Math.abs(watchArray[i].parent.node.offsetHeight - watchArray[i].parent.height);
 
         if (deltaTop >= 2 || deltaHeight >= 2) return false;
       }
@@ -136,20 +130,12 @@
     }
 
     function initElement(el) {
-      if (
-        isNaN(parseFloat(el.computed.top)) ||
-        el.isCell ||
-        el.computed.display == 'none'
-      )
-        return;
+      if (isNaN(parseFloat(el.computed.top)) || el.isCell || el.computed.display == 'none') return;
 
       el.inited = true;
 
       if (!el.clone) clone(el);
-      if (
-        el.parent.computed.position != 'absolute' &&
-        el.parent.computed.position != 'relative'
-      )
+      if (el.parent.computed.position != 'absolute' && el.parent.computed.position != 'relative')
         el.parent.node.style.position = 'relative';
 
       recalcElementPos(el);
@@ -166,10 +152,7 @@
 
       //check whether element's parent is used by other stickies
       for (var i = watchArray.length - 1; i >= 0; i--) {
-        if (
-          watchArray[i].node !== el.node &&
-          watchArray[i].parent.node === el.parent.node
-        ) {
+        if (watchArray[i].node !== el.node && watchArray[i].parent.node === el.parent.node) {
           deinitParent = false;
           break;
         }
@@ -274,7 +257,7 @@
           marginLeft: computedStyle.marginLeft,
           marginRight: computedStyle.marginRight,
           cssFloat: computedStyle.cssFloat,
-          display: computedStyle.display,
+          display: computedStyle.display
         },
         numeric = {
           top: parseNumeric(computedStyle.top),
@@ -282,7 +265,7 @@
           paddingLeft: parseNumeric(computedStyle.paddingLeft),
           paddingRight: parseNumeric(computedStyle.paddingRight),
           borderLeftWidth: parseNumeric(computedStyle.borderLeftWidth),
-          borderRightWidth: parseNumeric(computedStyle.borderRightWidth),
+          borderRightWidth: parseNumeric(computedStyle.borderRightWidth)
         };
 
       node.style.position = cachedPosition;
@@ -296,48 +279,35 @@
           width: node.style.width,
           marginTop: node.style.marginTop,
           marginLeft: node.style.marginLeft,
-          marginRight: node.style.marginRight,
+          marginRight: node.style.marginRight
         },
         nodeOffset = getElementOffset(node),
         parentOffset = getElementOffset(parentNode),
         parent = {
           node: parentNode,
           css: {
-            position: parentNode.style.position,
+            position: parentNode.style.position
           },
           computed: {
-            position: parentComputedStyle.position,
+            position: parentComputedStyle.position
           },
           numeric: {
             borderLeftWidth: parseNumeric(parentComputedStyle.borderLeftWidth),
-            borderRightWidth: parseNumeric(
-              parentComputedStyle.borderRightWidth,
-            ),
+            borderRightWidth: parseNumeric(parentComputedStyle.borderRightWidth),
             borderTopWidth: parseNumeric(parentComputedStyle.borderTopWidth),
-            borderBottomWidth: parseNumeric(
-              parentComputedStyle.borderBottomWidth,
-            ),
-          },
+            borderBottomWidth: parseNumeric(parentComputedStyle.borderBottomWidth)
+          }
         },
         el = {
           node: node,
           box: {
             left: nodeOffset.win.left,
-            right: html.clientWidth - nodeOffset.win.right,
+            right: html.clientWidth - nodeOffset.win.right
           },
           offset: {
-            top:
-              nodeOffset.win.top -
-              parentOffset.win.top -
-              parent.numeric.borderTopWidth,
-            left:
-              nodeOffset.win.left -
-              parentOffset.win.left -
-              parent.numeric.borderLeftWidth,
-            right:
-              -nodeOffset.win.right +
-              parentOffset.win.right -
-              parent.numeric.borderRightWidth,
+            top: nodeOffset.win.top - parentOffset.win.top - parent.numeric.borderTopWidth,
+            left: nodeOffset.win.left - parentOffset.win.left - parent.numeric.borderLeftWidth,
+            right: -nodeOffset.win.right + parentOffset.win.right - parent.numeric.borderRightWidth
           },
           css: css,
           isCell: computedStyle.display == 'table-cell',
@@ -356,8 +326,8 @@
               parent.numeric.borderBottomWidth -
               node.offsetHeight -
               numeric.top -
-              numeric.marginBottom,
-          },
+              numeric.marginBottom
+          }
         };
 
       return el;
@@ -380,14 +350,14 @@
       return {
         doc: {
           top: box.top + win.pageYOffset,
-          left: box.left + win.pageXOffset,
+          left: box.left + win.pageXOffset
         },
-        win: box,
+        win: box
       };
     }
 
     function startFastCheckTimer() {
-      checkTimer = setInterval(function() {
+      checkTimer = setInterval(function () {
         !fastCheck() && rebuild();
       }, 500);
     }
@@ -420,10 +390,7 @@
       win.addEventListener('orientationchange', rebuild);
 
       //watch for page visibility
-      doc.addEventListener(
-        visibilityChangeEventName,
-        handlePageVisibilityChange,
-      );
+      doc.addEventListener(visibilityChangeEventName, handlePageVisibilityChange);
 
       startFastCheckTimer();
 
@@ -447,10 +414,7 @@
       win.removeEventListener('wheel', onWheel);
       win.removeEventListener('resize', rebuild);
       win.removeEventListener('orientationchange', rebuild);
-      doc.removeEventListener(
-        visibilityChangeEventName,
-        handlePageVisibilityChange,
-      );
+      doc.removeEventListener(visibilityChangeEventName, handlePageVisibilityChange);
 
       stopFastCheckTimer();
 
@@ -507,7 +471,7 @@
       rebuild: rebuild,
       pause: pause,
       stop: stop,
-      kill: kill,
+      kill: kill
     };
   };
 
@@ -517,13 +481,13 @@
   var $window = $(window);
 
   // Initialize page stickies
-  document.querySelectorAll('.sticky').forEach(function(el) {
+  document.querySelectorAll('.sticky').forEach(function (el) {
     stickyfill.add(el);
     stickies.push(el);
   });
 
-  var watch = function() {
-    stickies.forEach(function(sticky) {
+  var watch = function () {
+    stickies.forEach(function (sticky) {
       $sticky = $(sticky);
       var atTop = $sticky.css('position') == 'fixed';
       var isStuck = $sticky.hasClass('stuck');

@@ -1,4 +1,4 @@
-$(function() {
+$(function () {
   // Get link by section or article id
   function getRelatedNavigation(el) {
     return $('.nav-subnav a[href*=' + $(el).attr('id') + ']');
@@ -7,51 +7,45 @@ $(function() {
   var $navItems = $('.nav-subnav a').filter('.nz-sidenav-list > li > a');
 
   var $window = $(window);
-  var anchors = $.map($navItems, function(item) {
+  var anchors = $.map($navItems, function (item) {
     return item.getAttribute('href').replace(window.location.pathname, '');
   });
 
-  anchors = anchors.filter(function(anchor) {
+  anchors = anchors.filter(function (anchor) {
     return anchor[0] === '#';
   });
 
   var $anchors = $(anchors.join(','));
   $anchors
     .waypoint(
-      function(direction) {
+      function (direction) {
         $navItems.removeClass('nz-current', direction === 'down');
         if ($window.scrollTop() !== 0) {
-          getRelatedNavigation(this).addClass(
-            'nz-current',
-            direction === 'down',
-          );
+          getRelatedNavigation(this).addClass('nz-current', direction === 'down');
         }
       },
       {
-        offset: function() {
+        offset: function () {
           return $(this).height();
-        },
-      },
+        }
+      }
     )
     .waypoint(
-      function(direction) {
+      function (direction) {
         $navItems.removeClass('nz-current', direction === 'up');
         if ($window.scrollTop() !== 0) {
-          getRelatedNavigation(this).addClass(
-            'nz-current',
-            direction === 'up',
-          );
+          getRelatedNavigation(this).addClass('nz-current', direction === 'up');
         }
       },
       {
-        offset: function() {
+        offset: function () {
           return -$(this).height();
-        },
-      },
+        }
+      }
     );
 
   // Subnav click to top
-  $('.nav-accordion-button-desktop').on('click', function() {
+  $('.nav-accordion-button-desktop').on('click', function () {
     $window.scrollTop(0, 0);
   });
 });

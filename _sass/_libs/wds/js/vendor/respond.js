@@ -1,5 +1,5 @@
 /*! Respond.js v1.4.0: min/max-width media query polyfill. (c) Scott Jehl. MIT Lic. j.mp/respondjs  */
-(function(w) {
+(function (w) {
   'use strict';
 
   // exposed namespace
@@ -7,33 +7,30 @@
   w.respond = respond;
 
   // define update even in native-mq-supporting browsers, to avoid errors
-  respond.update = function() {};
+  respond.update = function () {};
 
   // define ajax obj
   var requestQueue = [],
-    xmlHttp = (function() {
+    xmlHttp = (function () {
       var xmlhttpmethod = false;
       try {
         xmlhttpmethod = new w.XMLHttpRequest();
       } catch (e) {
         xmlhttpmethod = new w.ActiveXObject('Microsoft.XMLHTTP');
       }
-      return function() {
+      return function () {
         return xmlhttpmethod;
       };
     })(),
     // tweaked Ajax functions from Quirksmode
-    ajax = function(url, callback) {
+    ajax = function (url, callback) {
       var req = xmlHttp();
       if (!req) {
         return;
       }
       req.open('GET', url, true);
-      req.onreadystatechange = function() {
-        if (
-          req.readyState !== 4 ||
-          (req.status !== 200 && req.status !== 304)
-        ) {
+      req.onreadystatechange = function () {
+        if (req.readyState !== 4 || (req.status !== 200 && req.status !== 304)) {
           return;
         }
         callback(req.responseText);
@@ -56,14 +53,11 @@
     findStyles: /@media *([^\{]+)\{([\S\s]+?)$/,
     only: /(only\s+)?([a-zA-Z]+)\s?/,
     minw: /\([\s]*min\-width\s*:[\s]*([\s]*[0-9\.]+)(px|em)[\s]*\)/,
-    maxw: /\([\s]*max\-width\s*:[\s]*([\s]*[0-9\.]+)(px|em)[\s]*\)/,
+    maxw: /\([\s]*max\-width\s*:[\s]*([\s]*[0-9\.]+)(px|em)[\s]*\)/
   };
 
   // expose media query support flag for external use
-  respond.mediaQueriesSupported =
-    w.matchMedia &&
-    w.matchMedia('only all') !== null &&
-    w.matchMedia('only all').matches;
+  respond.mediaQueriesSupported = w.matchMedia && w.matchMedia('only all') !== null && w.matchMedia('only all').matches;
 
   // if media queries are supported, exit here
   if (respond.mediaQueriesSupported) {
@@ -86,7 +80,7 @@
     // cached container for 1em value, populated the first time it's needed
     eminpx,
     // returns the value of 1em in pixels
-    getEmValue = function() {
+    getEmValue = function () {
       var ret,
         div = doc.createElement('div'),
         body = doc.body,
@@ -132,13 +126,10 @@
       return ret;
     },
     // enable/disable styles
-    applyMedia = function(fromResize) {
+    applyMedia = function (fromResize) {
       var name = 'clientWidth',
         docElemProp = docElem[name],
-        currWidth =
-          (doc.compatMode === 'CSS1Compat' && docElemProp) ||
-          doc.body[name] ||
-          docElemProp,
+        currWidth = (doc.compatMode === 'CSS1Compat' && docElemProp) || doc.body[name] || docElemProp,
         styleBlocks = {},
         lastLink = links[links.length - 1],
         now = new Date().getTime();
@@ -162,22 +153,16 @@
             em = 'em';
 
           if (!!min) {
-            min =
-              parseFloat(min) *
-              (min.includes(em) ? eminpx || getEmValue() : 1);
+            min = parseFloat(min) * (min.includes(em) ? eminpx || getEmValue() : 1);
           }
           if (!!max) {
-            max =
-              parseFloat(max) *
-              (max.includes(em) ? eminpx || getEmValue() : 1);
+            max = parseFloat(max) * (max.includes(em) ? eminpx || getEmValue() : 1);
           }
 
           // if there's no media query at all (the () part), or min or max is not null, and if either is present, they're true
           if (
             !thisstyle.hasquery ||
-            ((!minnull || !maxnull) &&
-              (minnull || currWidth >= min) &&
-              (maxnull || currWidth <= max))
+            ((!minnull || !maxnull) && (minnull || currWidth >= min) && (maxnull || currWidth <= max))
           ) {
             if (!styleBlocks[thisstyle.media]) {
               styleBlocks[thisstyle.media] = [];
@@ -222,16 +207,14 @@
       }
     },
     // find media blocks in css text, convert to style blocks
-    translate = function(styles, href, media) {
-      var qs = styles
-          .replace(respond.regex.keyframes, '')
-          .match(respond.regex.media),
+    translate = function (styles, href, media) {
+      var qs = styles.replace(respond.regex.keyframes, '').match(respond.regex.media),
         ql = (qs && qs.length) || 0;
 
       // try to get CSS path
       href = href.substring(0, href.lastIndexOf('/'));
 
-      var repUrls = function(css) {
+      var repUrls = function (css) {
           return css.replace(respond.regex.urls, '$1' + href + '$2$3');
         },
         useMedia = !ql && media;
@@ -269,17 +252,11 @@
         for (var j = 0; j < eql; j++) {
           thisq = eachq[j];
           mediastyles.push({
-            media:
-              (thisq.split('(')[0].match(respond.regex.only) && RegExp.$2) ||
-              'all',
+            media: (thisq.split('(')[0].match(respond.regex.only) && RegExp.$2) || 'all',
             rules: rules.length - 1,
             hasquery: thisq.includes('('),
-            minw:
-              thisq.match(respond.regex.minw) &&
-              parseFloat(RegExp.$1) + (RegExp.$2 || ''),
-            maxw:
-              thisq.match(respond.regex.maxw) &&
-              parseFloat(RegExp.$1) + (RegExp.$2 || ''),
+            minw: thisq.match(respond.regex.minw) && parseFloat(RegExp.$1) + (RegExp.$2 || ''),
+            maxw: thisq.match(respond.regex.maxw) && parseFloat(RegExp.$1) + (RegExp.$2 || '')
           });
         }
       }
@@ -287,24 +264,24 @@
       applyMedia();
     },
     // recurse through request queue, get css text
-    makeRequests = function() {
+    makeRequests = function () {
       if (requestQueue.length) {
         var thisRequest = requestQueue.shift();
 
-        ajax(thisRequest.href, function(styles) {
+        ajax(thisRequest.href, function (styles) {
           translate(styles, thisRequest.href, thisRequest.media);
           parsedSheets[thisRequest.href] = true;
 
           // by wrapping recursive function call in setTimeout
           // we prevent "Stack overflow" error in IE7
-          w.setTimeout(function() {
+          w.setTimeout(function () {
             makeRequests();
           }, 0);
         });
       }
     },
     // loop stylesheets, send text content to translate
-    ripCSS = function() {
+    ripCSS = function () {
       for (var i = 0; i < links.length; i++) {
         var sheet = links[i],
           href = sheet.href,
@@ -329,7 +306,7 @@
               }
               requestQueue.push({
                 href: href,
-                media: media,
+                media: media
               });
             }
           }

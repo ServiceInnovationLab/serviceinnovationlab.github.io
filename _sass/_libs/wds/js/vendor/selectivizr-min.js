@@ -4,7 +4,7 @@ of the MIT license.
 
 selectivizr.com
 */
-(function(M) {
+(function (M) {
   var N = navigator.userAgent.match(/MSIE (\d+)/);
   if (!N) {
     return false;
@@ -24,7 +24,7 @@ selectivizr.com
     YAHOO: '*.util.Selector.query',
     Sizzle: '*',
     jQuery: '*',
-    dojo: '*.query',
+    dojo: '*.query'
   };
   var w;
   var X = [];
@@ -52,12 +52,12 @@ selectivizr.com
   var o = ' ';
   var Z = '$1';
   function W(ab) {
-    return ab.replace(V, Z).replace(G, function(ad, ai, ah) {
+    return ab.replace(V, Z).replace(G, function (ad, ai, ah) {
       var ae = ah.split(',');
       for (var aj = 0, ag = ae.length; aj < ag; aj++) {
         var ac = i(ae[aj]) + o;
         var af = [];
-        ae[aj] = ac.replace(D, function(al, an, ao, am, ak) {
+        ae[aj] = ac.replace(D, function (al, an, ao, am, ak) {
           if (an) {
             if (af.length > 0) {
               z.push({ selector: ac.substring(0, ak), patches: af });
@@ -96,19 +96,19 @@ selectivizr.com
     if (ag.charAt(0) == ':') {
       switch (ag.slice(1)) {
         case 'root':
-          af = function(ai) {
+          af = function (ai) {
             return ad ? ai != y : ai == y;
           };
           break;
         case 'target':
           if (x == 8) {
-            af = function(aj) {
-              var ai = function() {
+            af = function (aj) {
+              var ai = function () {
                 var al = location.hash;
                 var ak = al.slice(1);
                 return ad ? al == u || aj.id != ak : al != u && aj.id == ak;
               };
-              n(M, 'hashchange', function() {
+              n(M, 'hashchange', function () {
                 I(aj, ae, ai());
               });
               return ai();
@@ -117,9 +117,9 @@ selectivizr.com
           }
           return false;
         case 'checked':
-          af = function(ai) {
+          af = function (ai) {
             if (p.test(ai.type)) {
-              n(ai, 'propertychange', function() {
+              n(ai, 'propertychange', function () {
                 if (event.propertyName == 'checked') {
                   I(ai, ae, ai.checked !== ad);
                 }
@@ -131,9 +131,9 @@ selectivizr.com
         case 'disabled':
           ad = !ad;
         case 'enabled':
-          af = function(ai) {
+          af = function (ai) {
             if (r.test(ai.tagName)) {
-              n(ai, 'propertychange', function() {
+              n(ai, 'propertychange', function () {
                 if (event.propertyName == '$disabled') {
                   I(ai, ae, ai.$disabled === ad);
                 }
@@ -153,11 +153,11 @@ selectivizr.com
             ac = 'mouseenter';
             ah = 'mouseleave';
           }
-          af = function(ai) {
-            n(ai, ad ? ah : ac, function() {
+          af = function (ai) {
+            n(ai, ad ? ah : ac, function () {
               I(ai, ae, true);
             });
-            n(ai, ad ? ac : ah, function() {
+            n(ai, ad ? ac : ah, function () {
               I(ai, ae, false);
             });
             return ad;
@@ -191,10 +191,7 @@ selectivizr.com
           for (var ag = 0, an = ac.length; ag < an; ag++) {
             var ad = ac[ag];
             if (!P(ai, ad)) {
-              if (
-                ad.applyClass &&
-                (ad.applyClass === true || ad.applyClass(ai) === true)
-              ) {
+              if (ad.applyClass && (ad.applyClass === true || ad.applyClass(ai) === true)) {
                 ah = g(ah, ad.className, true);
               }
             }
@@ -213,7 +210,7 @@ selectivizr.com
       '-' +
       (x == 6 && d
         ? C++
-        : ab.replace(aa, function(ac) {
+        : ab.replace(aa, function (ac) {
             return ac.charCodeAt(0);
           }))
     );
@@ -291,11 +288,11 @@ selectivizr.com
     if (ab) {
       return k(ab)
         .replace(b, u)
-        .replace(q, function(af, ag, ac, ae, ad, ai) {
+        .replace(q, function (af, ag, ac, ae, ad, ai) {
           var ah = Q(J(ac || ad, ab));
           return ai ? '@media ' + ai + ' {' + ah + '}' : ah;
         })
-        .replace(E, function(ad, af, ae, ac) {
+        .replace(E, function (ad, af, ae, ac) {
           ae = ae || u;
           return af ? ad : ' url(' + ae + J(ac, ab, true) + ae + ') ';
         });
@@ -317,7 +314,7 @@ selectivizr.com
   function S() {
     R();
     if (X.length > 0) {
-      setInterval(function() {
+      setInterval(function () {
         for (var ad = 0, ab = X.length; ad < ab; ad++) {
           var ac = X[ad];
           if (ac.disabled !== ac.$disabled) {
@@ -336,7 +333,7 @@ selectivizr.com
   var f = m.getElementsByTagName('BASE');
   var j = f.length > 0 ? f[0].href : m.location.href;
   h();
-  T(M, function() {
+  T(M, function () {
     for (var ad in B) {
       var ab,
         ae,
@@ -369,7 +366,7 @@ selectivizr.com
   function T(af, ac) {
     var ab = false,
       ae = true,
-      ah = function(ai) {
+      ah = function (ai) {
         if (ai.type == 'readystatechange' && m.readyState != 'complete') {
           return;
         }
@@ -378,7 +375,7 @@ selectivizr.com
           ac.call(af, ai.type || ai);
         }
       },
-      ag = function() {
+      ag = function () {
         try {
           y.doScroll('left');
         } catch (ai) {
