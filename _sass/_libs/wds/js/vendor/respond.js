@@ -127,7 +127,7 @@
       }
 
       // also update eminpx before returning
-      ret = eminpx = parseFloat(ret);
+      ret = eminpx = Number.parseFloat(ret);
 
       return ret;
     },
@@ -163,12 +163,12 @@
 
           if (!!min) {
             min =
-              parseFloat(min) *
+              Number.parseFloat(min) *
               (min.includes(em) ? eminpx || getEmValue() : 1);
           }
           if (!!max) {
             max =
-              parseFloat(max) *
+              Number.parseFloat(max) *
               (max.includes(em) ? eminpx || getEmValue() : 1);
           }
 
@@ -276,10 +276,10 @@
             hasquery: thisq.includes('('),
             minw:
               thisq.match(respond.regex.minw) &&
-              parseFloat(RegExp.$1) + (RegExp.$2 || ''),
+              Number.parseFloat(RegExp.$1) + (RegExp.$2 || ''),
             maxw:
               thisq.match(respond.regex.maxw) &&
-              parseFloat(RegExp.$1) + (RegExp.$2 || ''),
+              Number.parseFloat(RegExp.$1) + (RegExp.$2 || ''),
           });
         }
       }
