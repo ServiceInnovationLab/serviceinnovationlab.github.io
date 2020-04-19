@@ -161,12 +161,12 @@
             maxnull = max === null,
             em = 'em';
 
-          if (!!min) {
+          if (min) {
             min =
               parseFloat(min) *
               (min.includes(em) ? eminpx || getEmValue() : 1);
           }
-          if (!!max) {
+          if (max) {
             max =
               parseFloat(max) *
               (max.includes(em) ? eminpx || getEmValue() : 1);
