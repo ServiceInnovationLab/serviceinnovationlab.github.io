@@ -229,7 +229,7 @@
         ql = (qs && qs.length) || 0;
 
       // try to get CSS path
-      href = href.substring(0, href.lastIndexOf('/'));
+      href = href.slice(0, Math.max(0, href.lastIndexOf('/')));
 
       var repUrls = function(css) {
           return css.replace(respond.regex.urls, '$1' + href + '$2$3');
@@ -323,7 +323,7 @@
             ) {
               // IE7 doesn't handle urls that start with '//' for ajax request
               // manually add in the protocol
-              if (href.substring(0, 2) === '//') {
+              if (href.slice(0, 2) === '//') {
                 href = w.location.protocol + href;
               }
               requestQueue.push({
