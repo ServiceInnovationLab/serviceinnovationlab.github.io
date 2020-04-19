@@ -50,13 +50,13 @@
 
   // expose for testing
   respond.regex = {
-    media: /@media[^\{]+\{([^\{\}]*\{[^\}\{]*\})+/gi,
-    keyframes: /@(?:\-(?:o|moz|webkit)\-)?keyframes[^\{]+\{(?:[^\{\}]*\{[^\}\{]*\})+[^\}]*\}/gi,
-    urls: /(url\()['"]?([^\/\)'"][^:\)'"]+)['"]?(\))/g,
-    findStyles: /@media *([^\{]+)\{([\S\s]+?)$/,
-    only: /(only\s+)?([a-zA-Z]+)\s?/,
-    minw: /\([\s]*min\-width\s*:[\s]*([\s]*[0-9\.]+)(px|em)[\s]*\)/,
-    maxw: /\([\s]*max\-width\s*:[\s]*([\s]*[0-9\.]+)(px|em)[\s]*\)/,
+    media: /@media[^{]+{([^{}]*{[^{}]*})+/gi,
+    keyframes: /@(?:-(?:o|moz|webkit)-)?keyframes[^{]+{(?:[^{}]*{[^{}]*})+[^}]*}/gi,
+    urls: /(url\()["']?([^"')/][^"'):]+)["']?(\))/g,
+    findStyles: /@media *([^{]+){([\S\s]+?)$/,
+    only: /(only\s+)?([A-Za-z]+)\s?/,
+    minw: /\(\s*min-width\s*:\s*(\s*[\d.]+)(px|em)\s*\)/,
+    maxw: /\(\s*max-width\s*:\s*(\s*[\d.]+)(px|em)\s*\)/,
   };
 
   // expose media query support flag for external use
@@ -106,7 +106,7 @@
       docElem.style.fontSize = '100%';
       body.style.fontSize = '100%';
 
-      body.appendChild(div);
+      body.append(div);
 
       if (fakeUsed) {
         docElem.insertBefore(body, docElem.firstChild);
@@ -161,12 +161,12 @@
             maxnull = max === null,
             em = 'em';
 
-          if (!!min) {
+          if (min) {
             min =
               parseFloat(min) *
               (min.includes(em) ? eminpx || getEmValue() : 1);
           }
-          if (!!max) {
+          if (max) {
             max =
               parseFloat(max) *
               (max.includes(em) ? eminpx || getEmValue() : 1);
@@ -213,7 +213,7 @@
           if (ss.styleSheet) {
             ss.styleSheet.cssText = css;
           } else {
-            ss.appendChild(doc.createTextNode(css));
+            ss.append(doc.createTextNode(css));
           }
 
           // push to appendedEls to track for later removal
@@ -305,9 +305,8 @@
     },
     // loop stylesheets, send text content to translate
     ripCSS = function() {
-      for (var i = 0; i < links.length; i++) {
-        var sheet = links[i],
-          href = sheet.href,
+      for (const sheet of links) {
+        var href = sheet.href,
           media = sheet.media,
           isCSS = sheet.rel && sheet.rel.toLowerCase() === 'stylesheet';
 
@@ -319,7 +318,7 @@
             parsedSheets[href] = true;
           } else {
             if (
-              (!/^([a-zA-Z:]*\/\/)/.test(href) && !base) ||
+              (!/^([:A-Za-z]*\/\/)/.test(href) && !base) ||
               href.replace(RegExp.$1, '').split('/')[0] === w.location.host
             ) {
               // IE7 doesn't handle urls that start with '//' for ajax request
