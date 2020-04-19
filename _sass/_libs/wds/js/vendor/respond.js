@@ -50,13 +50,13 @@
 
   // expose for testing
   respond.regex = {
-    media: /@media[^\{]+\{([^\{\}]*\{[^\}\{]*\})+/gi,
-    keyframes: /@(?:\-(?:o|moz|webkit)\-)?keyframes[^\{]+\{(?:[^\{\}]*\{[^\}\{]*\})+[^\}]*\}/gi,
-    urls: /(url\()['"]?([^\/\)'"][^:\)'"]+)['"]?(\))/g,
-    findStyles: /@media *([^\{]+)\{([\S\s]+?)$/,
-    only: /(only\s+)?([a-zA-Z]+)\s?/,
-    minw: /\([\s]*min\-width\s*:[\s]*([\s]*[0-9\.]+)(px|em)[\s]*\)/,
-    maxw: /\([\s]*max\-width\s*:[\s]*([\s]*[0-9\.]+)(px|em)[\s]*\)/,
+    media: /@media[^{]+{([^{}]*{[^{}]*})+/gi,
+    keyframes: /@(?:-(?:o|moz|webkit)-)?keyframes[^{]+{(?:[^{}]*{[^{}]*})+[^}]*}/gi,
+    urls: /(url\()["']?([^"')/][^"'):]+)["']?(\))/g,
+    findStyles: /@media *([^{]+){([\S\s]+?)$/,
+    only: /(only\s+)?([A-Za-z]+)\s?/,
+    minw: /\(\s*min-width\s*:\s*(\s*[\d.]+)(px|em)\s*\)/,
+    maxw: /\(\s*max-width\s*:\s*(\s*[\d.]+)(px|em)\s*\)/,
   };
 
   // expose media query support flag for external use
@@ -78,9 +78,9 @@
     appendedEls = [],
     parsedSheets = {},
     resizeThrottle = 30,
-    head = doc.getElementsByTagName('head')[0] || docElem,
-    base = doc.getElementsByTagName('base')[0],
-    links = head.getElementsByTagName('link'),
+    head = doc.querySelectorAll('head')[0] || docElem,
+    base = doc.querySelectorAll('base')[0],
+    links = head.querySelectorAll('link'),
     lastCall,
     resizeDefer,
     // cached container for 1em value, populated the first time it's needed
@@ -106,7 +106,7 @@
       docElem.style.fontSize = '100%';
       body.style.fontSize = '100%';
 
-      body.appendChild(div);
+      body.append(div);
 
       if (fakeUsed) {
         docElem.insertBefore(body, docElem.firstChild);
@@ -115,9 +115,9 @@
       ret = div.offsetWidth;
 
       if (fakeUsed) {
-        docElem.removeChild(body);
+        body.remove();
       } else {
-        body.removeChild(div);
+        div.remove();
       }
 
       // restore the original values
@@ -127,7 +127,7 @@
       }
 
       // also update eminpx before returning
-      ret = eminpx = parseFloat(ret);
+      ret = eminpx = Number.parseFloat(ret);
 
       return ret;
     },
@@ -161,14 +161,14 @@
             maxnull = max === null,
             em = 'em';
 
-          if (!!min) {
+          if (min) {
             min =
-              parseFloat(min) *
+              Number.parseFloat(min) *
               (min.includes(em) ? eminpx || getEmValue() : 1);
           }
-          if (!!max) {
+          if (max) {
             max =
-              parseFloat(max) *
+              Number.parseFloat(max) *
               (max.includes(em) ? eminpx || getEmValue() : 1);
           }
 
@@ -213,7 +213,7 @@
           if (ss.styleSheet) {
             ss.styleSheet.cssText = css;
           } else {
-            ss.appendChild(doc.createTextNode(css));
+            ss.append(doc.createTextNode(css));
           }
 
           // push to appendedEls to track for later removal
@@ -276,10 +276,10 @@
             hasquery: thisq.includes('('),
             minw:
               thisq.match(respond.regex.minw) &&
-              parseFloat(RegExp.$1) + (RegExp.$2 || ''),
+              Number.parseFloat(RegExp.$1) + (RegExp.$2 || ''),
             maxw:
               thisq.match(respond.regex.maxw) &&
-              parseFloat(RegExp.$1) + (RegExp.$2 || ''),
+              Number.parseFloat(RegExp.$1) + (RegExp.$2 || ''),
           });
         }
       }
@@ -305,9 +305,8 @@
     },
     // loop stylesheets, send text content to translate
     ripCSS = function() {
-      for (var i = 0; i < links.length; i++) {
-        var sheet = links[i],
-          href = sheet.href,
+      for (const sheet of links) {
+        var href = sheet.href,
           media = sheet.media,
           isCSS = sheet.rel && sheet.rel.toLowerCase() === 'stylesheet';
 
@@ -319,7 +318,7 @@
             parsedSheets[href] = true;
           } else {
             if (
-              (!/^([a-zA-Z:]*\/\/)/.test(href) && !base) ||
+              (!/^([:A-Za-z]*\/\/)/.test(href) && !base) ||
               href.replace(RegExp.$1, '').split('/')[0] === w.location.host
             ) {
               // IE7 doesn't handle urls that start with '//' for ajax request
