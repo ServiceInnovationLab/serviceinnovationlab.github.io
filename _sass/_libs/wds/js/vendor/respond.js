@@ -106,7 +106,7 @@
       docElem.style.fontSize = '100%';
       body.style.fontSize = '100%';
 
-      body.appendChild(div);
+      body.append(div);
 
       if (fakeUsed) {
         docElem.insertBefore(body, docElem.firstChild);
@@ -213,7 +213,7 @@
           if (ss.styleSheet) {
             ss.styleSheet.cssText = css;
           } else {
-            ss.appendChild(doc.createTextNode(css));
+            ss.append(doc.createTextNode(css));
           }
 
           // push to appendedEls to track for later removal
