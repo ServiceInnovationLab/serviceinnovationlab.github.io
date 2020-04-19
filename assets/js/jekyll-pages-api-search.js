@@ -19,12 +19,12 @@ function renderJekyllPagesApiSearchResults(query, results, doc, resultsElem) {
         link = doc.createElement('a'),
         text = doc.createTextNode(resultTitle);
 
-      link.appendChild(text);
+      link.append(text);
       link.title = result.title;
       link.href = result.url;
 
-      item.appendChild(link);
-      resultsElem.appendChild(item);
+      item.append(link);
+      resultsElem.append(item);
 
       link.tabindex = index;
       if (index === 0) {
