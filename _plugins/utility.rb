@@ -62,7 +62,7 @@ module Jekyll
 
     def where_obj(array, filter)
       array = array.map do |object|
-        next unless !object[filter].nil? && !object[filter].empty?
+        next unless object[filter].present?
 
         object
       end.compact.uniq
