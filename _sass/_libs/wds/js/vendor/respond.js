@@ -50,13 +50,13 @@
 
   // expose for testing
   respond.regex = {
-    media: /@media[^\{]+\{([^\{\}]*\{[^\}\{]*\})+/gi,
-    keyframes: /@(?:\-(?:o|moz|webkit)\-)?keyframes[^\{]+\{(?:[^\{\}]*\{[^\}\{]*\})+[^\}]*\}/gi,
-    urls: /(url\()['"]?([^\/\)'"][^:\)'"]+)['"]?(\))/g,
-    findStyles: /@media *([^\{]+)\{([\S\s]+?)$/,
-    only: /(only\s+)?([a-zA-Z]+)\s?/,
-    minw: /\([\s]*min\-width\s*:[\s]*([\s]*[0-9\.]+)(px|em)[\s]*\)/,
-    maxw: /\([\s]*max\-width\s*:[\s]*([\s]*[0-9\.]+)(px|em)[\s]*\)/,
+    media: /@media[^{]+{([^{}]*{[^{}]*})+/gi,
+    keyframes: /@(?:-(?:o|moz|webkit)-)?keyframes[^{]+{(?:[^{}]*{[^{}]*})+[^}]*}/gi,
+    urls: /(url\()["']?([^"')/][^"'):]+)["']?(\))/g,
+    findStyles: /@media *([^{]+){([\S\s]+?)$/,
+    only: /(only\s+)?([A-Za-z]+)\s?/,
+    minw: /\(\s*min-width\s*:\s*(\s*[\d.]+)(px|em)\s*\)/,
+    maxw: /\(\s*max-width\s*:\s*(\s*[\d.]+)(px|em)\s*\)/,
   };
 
   // expose media query support flag for external use
@@ -319,7 +319,7 @@
             parsedSheets[href] = true;
           } else {
             if (
-              (!/^([a-zA-Z:]*\/\/)/.test(href) && !base) ||
+              (!/^([:A-Za-z]*\/\/)/.test(href) && !base) ||
               href.replace(RegExp.$1, '').split('/')[0] === w.location.host
             ) {
               // IE7 doesn't handle urls that start with '//' for ajax request
