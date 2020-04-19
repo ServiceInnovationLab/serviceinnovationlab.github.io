@@ -33,7 +33,7 @@ RSpec.describe SiteData::AuthorData do
       expect(author_name).not_to eq 'aaron'
     end
 
-    it 'it cannot fetch a file that does not exist' do
+    it 'cannot fetch a file that does not exist' do
       bogus_file_name = 'authored'
       exists = @author_data.exists? bogus_file_name
       expect(exists).to eq false
