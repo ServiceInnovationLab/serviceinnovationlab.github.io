@@ -7,7 +7,7 @@ description: >
   We research, design, and develop ways to
   improve people’s experiences
   when they interact with government.
-baseurl: ""  # the subpath of your site, e.g. /blog
+baseurl: "/staging-site "  # the subpath of your site, e.g. /blog
 permalink: pretty
 url: "https://serviceinnovationlab.github.io/"  # the base hostname & protocol for your sites
 localhost: "localhost:4000"
