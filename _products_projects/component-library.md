@@ -4,5 +4,6 @@ title: Component Library
 excerpt: Resource of common application components for developers
 redirect_to:
   - https://github.com/ServiceInnovationLab/component-library
+external_url: https://github.com/ServiceInnovationLab/component-library
 external_link_title: GitHub
 ---
