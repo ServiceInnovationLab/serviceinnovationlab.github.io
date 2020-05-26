@@ -105,14 +105,11 @@ permalink: /projects/new-project/
 excerpt: Information for creating a new project.
 image: /assets/img/projects/new-project.png
 image_accessibility: New project.
-expiration_date: YYYY-MM-DD
-redirect_to: https://www.serviceinnovationlab.github.io/
 project_url: "[New Project](https://www.serviceinnovationlab.github.io/projects/new-project/)"
-external_url: https://github.com/ServiceInnovationLab/
-external_link_title: Github
-media:
-resources:
-quote:
+github_repo: "[New Project](https://github.com/ServiceInnovationLab/New-Project)"
+report: "[Project's Report](/YYYY/MM/DD/New-Project/)"
+media: "[Project's Media/Link](https://www.serviceinnovationlab.github.io/)"
+resources: "[Project's Resources/Templates](/templates/new-project)"
 ---
 ```
 
