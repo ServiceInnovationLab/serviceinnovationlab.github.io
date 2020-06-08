@@ -2,7 +2,7 @@
   "standard": "WCAG21",
   "level": "error",
   "defaults": {
-    "timeout": 20000,
+    "timeout": 30000,
     "wait": 2000,
     "ignore": []
   }
