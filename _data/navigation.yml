@@ -6,14 +6,10 @@ navbar:
     permalink: /expertise/
   - text: Projects
     permalink: /projects/
-    multiple_permalinks:
-      - /projects/:path/
   - text: Tools
     permalink: /tools/
   - text: Reports
     permalink: /blog/
-  - text: Team
-    permalink: /team/
   - text: Contact
     permalink: /contact/
 
@@ -24,13 +20,9 @@ drawer:
     permalink: /expertise/
   - text: Projects
     permalink: /projects/
-    multiple_permalinks:
-      - /projects/:path/
   - text: Tools
     permalink: /tools/
   - text: Reports
     permalink: /blog/
-  - text: Team
-    permalink: /team/
   - text: Contact
     permalink: /contact/
