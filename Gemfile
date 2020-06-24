@@ -10,6 +10,7 @@ gem 'jekyll', '>= 3.6.3'
 gem 'jekyll-watch', '~>2.2.0'
 gem 'jemoji'
 gem 'parallel'
+gem 'rack', '>= 2.1.4'
 
 group :jekyll_plugins do
   gem 'jekyll-archives'
