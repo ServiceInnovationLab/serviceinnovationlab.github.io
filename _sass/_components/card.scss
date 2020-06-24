@@ -19,12 +19,6 @@ $card-image-height: 200px;
   }
 
   @include media($tablet-screen) {
-    &:nth-last-of-type(1),
-    &:nth-last-of-type(2),
-    &:nth-last-of-type(3) {
-      margin-bottom: 0;
-    }
-
     &:nth-of-type(1),
     &:nth-of-type(2),
     &:nth-of-type(3) {
@@ -132,5 +126,21 @@ $card-image-height: 200px;
     polyline {
       stroke: $color-medium;
     }
+  }
+}
+
+.card-image-bg-process {
+  background-color: $color-gray-lightest;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: $card-image-height;
+  display: block;
+  margin: auto;
+  padding: 0;
+  width: 70%;
+
+  @media only screen and (max-width: $medium-screen) {
+    width: 50%;
   }
 }

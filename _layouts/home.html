@@ -8,38 +8,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1", user-scalable=yes">
   </head>
 
+  <div class="navbar-header">
+    {% include header.html %}
+  </div>
+  
   <body class="{% if page.type == "tag"%}tag-{% endif %}page-{{ page.title | slugify }}
   {% if page.header_border == true or layout.header_border == true %}header_border{% endif %} {% if page.path contains '_posts' %}single-post{% endif %}">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KHXPF5R"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-      <!-- End Google Tag Manager (noscript) -->
-    <a class="skipnav" href="#main-content">Skip to main content</a>
-    <header role="banner"><!--#425eb2-->
-      <div class="site-navbar nz-grid" role="navigation">
-        <button class="menu-btn">Menu</button>
-        <a class="site-logo media_link" href="{{ base }}/">
-          <img src="{{ base }}/assets/img/SIL-Logo-Animation.gif" alt="Service Innovation Lab logo" style="height: 55px; width:217px";
-            {% if page.url == '/' %}
-              aria-hidden="true"
-            {% endif %}
-          ></a>
-        <span class="beta" role="navigation">Beta</span>
-          {% if page.url == '/' %}
-            <h1 class="nz-sr-only">SIL</h1>
-          {% else %}
-            <span class="nz-sr-only" role="navigation">SIL</span>
-          {% endif %}
-        <nav role="navigation">
-          {% include navigation.html navbar=true %}
-        </nav>
-      </div>
-    </header>
-
-    <div class="background-image-homepage"  role="img" aria-label="beehive" id="main-content">
-      {{ content }}
+    <div class="background-image-homepage" aria-label="beehive" id="main-content">
+      <section class="nz-grid-full nz-flex">
+        <div class="hero" role="main">
+          <div class="vertical" role="main">
+            <h1 class="heading">Welcome to<br />The Service Innovation Lab</h1>
+          </div>
+        </div>
+      </section>
     </div>
 
+    <div>
+      {% include image-grid.html %}
+    </div>
     {% include navigation.html drawer=true %}
 
     {% include javascript.html %}

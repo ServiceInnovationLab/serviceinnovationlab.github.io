@@ -1,4 +1,4 @@
-{% assign card_link = include.link | prepend: site.baseurl %}
+{% assign card_link = include.link | relative_url %}
 
 {% assign columns = include.columns | default: 3 %}
 
@@ -8,7 +8,7 @@
   {% assign wds_grid_class = 'nz-width-one-third' %}
 {% endif %}
 
-<article class="card {{ wds_grid_class }} nz-width-tablet">
+<article class="card {{ wds_grid_class }} {{ include.categories | join:' ' | downcase }} nz-width-tablet js-projects-card">
   <div class="card-link" data-href="{{ card_link }}">
     <div role="img"
         tabindex="0"
@@ -16,7 +16,7 @@
         title="{{ include.image_alt }}"
         class="card-image-bg {% unless include.image_src %} card-image-svg {% endunless %}"
         {% if include.image_src %}
-        style="background-image: url({{ site.baseurl }}{{ include.image_src }});"{% endif %}>
+        style="background-image: url('{{ site.baseurl }}{{ include.image_src }}');"{% endif %}>
          {% unless include.image_src %}
         {% if include.image_icon %}
           {% include svg/icons/{{ include.image_icon }} %}
@@ -27,7 +27,7 @@
     </div>
     <div class="card-banner">
       {% if include.agency %}
-        <p class="card-tag">{{ include.agency }}</p>
+        <p class="card-tag">{{ include.agency | join: ' & ' }}</p>
       {% endif %}
       {% if card_link and include.tagline %}
         <a href="{{ card_link }}" tabindex="-1" class="card-link-tagline"><h3 class="h4">{{ include.tagline }}</h3></a>
@@ -43,4 +43,3 @@
     </a>
   </div>
 </article>
-

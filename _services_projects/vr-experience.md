@@ -9,6 +9,9 @@ image_accessibility: The computer screen content of a person engaged in online h
 media: "[YouTube - Online Social Norms VR](https://www.youtube.com/watch?v=pUIPbUMwqHg)"
 resources:
 github_repo: "[VR-Digital-social-norms-wiki](https://github.com/ServiceInnovationLab/VR-Digital-social-norms/wiki)"
+categories:
+  - Tech
+  - Partnerships
 ---
 <br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pUIPbUMwqHg" title="Online Social Norms VR" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

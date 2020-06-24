@@ -9,6 +9,11 @@
 }
 
 header[role="banner"] {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 2;
+
   ul {
     @include unstyled-list;
 
@@ -19,7 +24,7 @@ header[role="banner"] {
       width: auto;
 
       a {
-        @include padding(2.3rem 2rem);
+        @include padding(2.3rem 1.5rem);
 
         color: $color-black;
         font-weight: $font-bold;
@@ -77,7 +82,7 @@ header[role="banner"] {
 }
 
 .site-navbar {
-  .beta {
+  .toolkit {
     float: left;
     padding-top: 42px;
     position: absolute;
@@ -90,7 +95,6 @@ header[role="banner"] {
     }
 
     @media (min-width: 1024px) {
-      padding-left: 2rem;
       padding-top: 42px;
     }
   }

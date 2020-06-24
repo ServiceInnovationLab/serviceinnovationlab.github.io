@@ -8,5 +8,6 @@ excerpt: Supporting the network of the world’s most advanced digital nations w
 image: 
 image_accessibility: 
 github_repo:
-media: 
+media:
+categories: Partnerships
 ---
