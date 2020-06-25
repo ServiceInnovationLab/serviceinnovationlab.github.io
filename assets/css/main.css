@@ -3584,6 +3584,13 @@ figcaption {
   background-size: cover;
   background-position: center; }
 
+.landing-page-subtitle {
+  color: white;
+  text-align: center; }
+
+.landing-page-anchor {
+  color: white; }
+
 .govt-logo {
   height: 55px;
   width: 200px; }
