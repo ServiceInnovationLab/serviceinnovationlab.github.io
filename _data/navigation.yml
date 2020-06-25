@@ -2,27 +2,35 @@
 navbar:
   - text: About
     permalink: /about/
-  - text: Expertise
-    permalink: /expertise/
+  - text: Approach
+    permalink: /approach/
+  - text: Insights
+    permalink: /insights/
   - text: Projects
     permalink: /projects/
-  - text: Tools
-    permalink: /tools/
-  - text: Reports
-    permalink: /blog/
+    multiple_permalinks:
+      - /projects/:path/
+  - text: Process and Tools
+    permalink: /process/
   - text: Contact
     permalink: /contact/
+  - text: Search
+    permalink: /search/
 
 drawer:
   - text: About
     permalink: /about/
-  - text: Expertise
-    permalink: /expertise/
+  - text: Approach
+    permalink: /approach/
+  - text: Insights
+    permalink: /insights/
   - text: Projects
     permalink: /projects/
-  - text: Tools
-    permalink: /tools/
-  - text: Reports
-    permalink: /blog/
+    multiple_permalinks:
+      - /projects/:path/
+  - text: Process and Tools
+    permalink: /process/
   - text: Contact
     permalink: /contact/
+  - text: Search
+    permalink: /search/

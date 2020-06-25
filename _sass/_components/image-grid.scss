@@ -1,0 +1,156 @@
+.child-page-listing {
+  padding: 20px;
+  width: 100%;
+  margin: auto;
+  font-family: sans-serif;
+  background: #f2f2f2;
+}
+
+.child-page-listing-projects {
+  padding: 20px;
+  width: 100%;
+  margin: auto;
+  font-family: sans-serif;
+  // background: #f2f2f2;
+}
+
+.grid-img {
+  width: 100%; /* need to overwrite inline dimensions */
+  height: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(2, 50%));
+  grid-gap: 1em;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem;
+}
+
+.item--1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.item--2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.item--3 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.item--4 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.item--5 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.item--6 {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+/* hover styles */
+.location-listing {
+  position: relative;
+}
+
+.location-image {
+  line-height: 0;
+  overflow: hidden;
+}
+
+.location-image .grid-image {
+  // filter: blur(0px);
+  transition: filter 0.3s ease-in;
+  transform: scale(1.1);
+}
+
+.location-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .5s;
+  background: rgba(90,0,10,0.4);
+  color: white;
+  text-align: center;
+  
+  /* position the text in t’ middle*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location-subtitle {
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .5s;
+  background: rgba(90,0,10,0.4);
+  color: white;
+  
+  /* position the text in t’ middle*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location-listing:hover .location-title {
+  opacity: 1;
+}
+
+.location-listing:hover .location-image .grid-image {
+  filter: blur(2px);
+}
+
+/* for touch screen devices */
+@media (hover: none) {
+  .location-title {
+    opacity: 1;
+  }
+  .location-image .grid-image {
+    filter: blur(2px);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .location-title {
+    font-size: 1em;
+  }
+  .location-subtitle {
+    font-size: .3em;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .location-title {
+    font-size: 1em;
+  }
+  
+  .location-subtitle {
+    font-size: .75em;
+  }
+}

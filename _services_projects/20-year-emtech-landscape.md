@@ -1,32 +1,35 @@
 ---
 agency: Service Innovation Lab
 title: 20 Year Emerging Technology Landscape
-subtitle:
+subtitle: The next 20 years of emerging tech is vast, this landscape provides you with a visualisation of what to expect in the future.
 permalink: /projects/20-year-emtech-landscape/
-excerpt: The next 20 years of emerging tech is vast, this landscape provides you with a visualisation of what to expect in the future.
+excerpt: Creating a 20 Year Emerging Technology Landscape to share across agencies indicating new technologies the public sector is likely to experience or need to embrace over the next 20 years.
 image: /assets/img/projects/20yr-emtech-landscape-image.png
 image_accessibility: Image showing the 20 year landscape. Click on this to view the blogpost and a detailed view of the landscape.
 media: "[20 Year EmTech Landscape](/assets/media/20-Year-Emtech-Landscape/Emerging-Technology-20Year-Landscape.pdf)"
 resources:
+categories:
+  - Tech
 ---
+
 <br/>
-<span class="subtitle">Led by Hazel Bradshaw, Emerging Tech Lead - Service Innovation Lab</span>
+<span class="subtitle">Led by Dr Hazel Bradshaw, Emerging Tech Lead - Service Innovation Lab</span>
 
 ## Overview
 
-Emerging technologies are set to disrupt a number of government processes and services, alongside citizens engagement with government and the services they offer. The EmTech 20-year landscape is a piece of ongoing research, that’s intended to help people working in government understand the types, forms, connections and impacts of these different technologies and the challenges and opportunities posed by developments in the EmTech space. The outcome of having this consistently evolving landscape is that people working in these spaces can better understand how emerging technologies are relevant to their work, and use this to inform their decisions.
+Emerging technologies are set to disrupt a number of government processes and services, alongside citizens engagement with government and the services they offer. The EmTech 20-year landscape was intended to be  a piece of ongoing research intended to help people working in government understand the types, forms, connections and impacts of these different technologies and the challenges and opportunities they pose.
 
-The diagram displays a time scale of “Current”, “0 to 5 years”, “5 to 10 years” and “10 to 20 years” on the vertical axis and 13 categories of emerging technology along the horizontal access. The 13 categories of emerging technology are: cloud computing, big data/analytics, encryption/privacy, internet of things, spatial computing, artificial intelligence tools, artificial intelligence applications, robotics/production, autonomous agents, symbiotic application, bio-tech and quantum computing. Categories are laid out from left to right, with cloud computing being furthest left, and quantum computing being furthest right. The cards underneath each category display the specific technology which falls under the category listed in one of the 13 columns.
+Creating and offering people this constantly evolving landscape  equips them with a better understanding of how emerging technologies might impact their work, and to use this to inform their decision-making.
 
-It is worth noting that this landscape projects details up to the use and release of Quantum Computing as the possibilities of the technology being ubiquitously used, will more than likely change the entire landscape.
+The diagram displays a time scale of “current”, “0 to 5 years”, “5 to 10 years” and “10 to 20 years” on the vertical axis and 13 categories of emerging technology along the horizontal access. The 13 categories of emerging technology are: cloud computing, big data/analytics, encryption/privacy, internet of things, spatial computing, artificial intelligence tools, artificial intelligence applications, robotics/production, autonomous agents, symbiotic application, bio-tech and quantum computing. Categories are laid out from left to right, with cloud computing being furthest left, and quantum computing being furthest right. The cards underneath each category display the specific technology which falls under the category listed in one of the 13 columns.
+
+It is worth noting this landscape projects details up to the use and release of Quantum Computing, as the possibilities of this technology being ubiquitously used will more than likely change the entire landscape.
 
 [![20 Year Emerging Technology Landscape](/assets/media/20-Year-Emtech-Landscape/20yr-emtech-landscape.png)](/assets/media/20-Year-Emtech-Landscape/20yr-emtech-landscape.png)
-[Detailed description of the 20 Year Emerging Technology Landscape](#Go-to-DetailedDescription)
 
 ### How the Landscape was constructed
 
-The selected technologies and their positioning on the landscape has been informed by research and shaped by consultation with other emerging tech leaders engaged through participation in forums.  The landscape was constructed by applying a governmental lens which enables a better digital public service.
-These sources include:
+The selected technologies and their positioning on the landscape was informed by research, and shaped by consultation with other emerging tech leaders. It was constructed by applying a governmental lens which aimed to enable a better digital public service. These sources include:
 
 - [OECD](https://www.oecd.org/sti/emerging-tech/)
 - [World Economic Forum](https://www.weforum.org/agenda/2019/07/these-are-the-top-10-emerging-technologies-of-2019/)
@@ -37,7 +40,7 @@ These sources include:
 
 ### Technology to focus on
 
-With such a vast array of technology in the landscape the lab has seven key areas of technology that should have a high priority focus.
+With such a vast array of technology in the landscape, the lab identified seven key areas of technology that should be given a high priority focus.
 
 - Artificial Intelligence
 - Spatial Computing
@@ -49,42 +52,37 @@ With such a vast array of technology in the landscape the lab has seven key area
 
 ## Opportunities for Further Work
 
-This is a piece of work that has the potential to expand and develop.
-Possible future work could be:
+This work has the potential to be expanded and developed. Possible future work could be:
 
 **Application of different lenses**<br/>
-Applying different lenses onto this landscape will most likely see the landscape change. An example of another lens would be that of digital inclusion, which would identify technology that could ensure a more equitable digital environment for all.
+Applying different lenses onto this landscape will most likely see the landscape change. An example of another lens would be that of digital inclusion, which would identify technology that could ensure a more equitable digital environment.
 
 **Workshops with external partners**<br/>
-To help broaden the technologies represented in the landscape engaging with both other government agencies and various private sector organisations would she light into what developing trends there are within New Zealand.
+To help broaden the technologies represented in the landscape, engaging with other government agencies and various private sector organisations to shed light on the developing trends within New Zealand.
 
 **Landscape visualisation development**<br/>
-The landscape can be developed to be more interactive and more interconnected. Development of interactive cards of the landscape which display definitions of the technology could be developed.
-Furthermore development of visualisation connections to show dependencies of technology to other technology could be introduced.
+The landscape could be made interactive and more interconnected. The landscape cards  could be made interactive so they display definitions of the technology when clicked on.. More work could also be undertaken to develop a visualisation of the connections to show dependencies between the different technologies.
 
 **Primer per category**<br/>
 A primer template has been created and an example AI Primer can be found in the resources. A primer can be utilised to further explain the categories at the top of the landscape in relation to what it is, examples of it and other details listed in the template.
 
 **Disruption**<br/>
-Work into understanding how disruptive the technology listed in the landscape is to the current environment should be investigated. This should be visualised on the landscape itself, and integrating disruption into the Primer.
+Further work could be done to investigate and therefore understand how disruptive the emerging technologies listed in the landscape are likely to be to the current environment. This should be visualised on the landscape itself, integrating disruption into the Primer.
 
 ---
-<a name="Go-to-DetailedDescription"></a>
 
 ### Detailed description of the 20 Year Emerging Technology Landscape
 
 #### Overview
 
-The main table displays the 20-year emerging technology landscape.
-There are 4 rows representing periods of time, from top to bottom:
+The main table displays the 20-year emerging technology landscape. There are 4 rows representing periods of time, from top to bottom:
 
 - Current
 - 0 to 5 years from now
 - 5 to 10 years from now
 - 10 to 20 years from now
 
-Each row illustrates how far in the future the technology is expected to become commonly used.
-There are 13 columns labelled with categories of emergent technology, from left to right:
+Each row illustrates how far in the future the technology is expected to become commonly used. There are 13 columns labelled with categories of emergent technology, from left to right:
 
 - Cloud Computing
 - Big Data/Analytics
@@ -99,9 +97,7 @@ There are 13 columns labelled with categories of emergent technology, from left 
 - Bio-Tech
 - Quantum Computing
 
-Columns for technology categories which are in common use now are on the left.
-As you read each column from left to right, the technology categories are increasingly experimental, still in research and development, or limited to academic of private institutions.
-53 technologies are represented in the diagram, each one placed in its respective column (for its category) and row (for when it will be in use, for example in 10 to 20 years).
+Columns for technology categories which are in common use now are on the left. As you read each column from left to right, the technology categories are increasingly experimental, still in research and development, or limited to academic or private institutions. 53 technologies are represented in the diagram, each one placed in its respective column (for its category) and row (for when it will be in use, for example in 10 to 20 years).
 
 #### Values
 

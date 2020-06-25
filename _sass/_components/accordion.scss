@@ -9,3 +9,43 @@
     background-image: url("../img/arrow-up.svg");
   }
 }
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #eee;
+  color: blue;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: blue;
+  color: white;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+/* The actual content */
+.accordion-content {
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+
+  h2,h3,h4,p {
+    padding: 1rem 0;
+    margin: 0;
+    text-align: center;
+  }
+}

@@ -8,8 +8,6 @@
 {% assign background_class = include.background_class %}
 <section {% if background_class %}class="background-gray"{% endif %}>
   <div class="breadcrumb nz-grid" role="directory">
-    <a class="link-arrow-right" href="{{ site.baseurl }}/">Home</a>
-    {% include svg/icons/arrow-right.svg %}
     <a class="link-arrow-right" href="{{ site.baseurl }}{{ parent_permalink }}">{{ parent_title }}</a>
     {% include svg/icons/arrow-right.svg %}
     {% if sub_parent_title and sub_parent_permalink %}
@@ -18,6 +16,6 @@
       </a>
       {% include svg/icons/arrow-right.svg %}
     {% endif %}
-    <span class="link-arrow-right">{{ page_agency }}</span>
+    <span class="link-arrow-right">{{ page.agency | join: ' & ' }}</span>
   </div>
 </section>

@@ -36,21 +36,24 @@ collections:
   authors:
     output: true
     permalink: /author/:name/
+  insights:
+    output: true
+    permalink: /insights/:path/
   products_projects:
     output: true
     permalink: /projects/:path/
   services_projects:
     output: true
     permalink: /projects/:path/
-  contact:
-    output: false
-    permalink: /contact/:path/
-  styleguide:
+  approach:
     output: true
-    permalink: /styleguide/:path/
+    permalink: /approach/:path/
   devPeerReviewWorkflow:
     output: true
     permalink: /devPeerReviewWorkflow/:path/
+  process:
+    output: true
+    permalink: /process/:path/
 
 defaults:
   - scope:
@@ -66,17 +69,17 @@ defaults:
     values:
       layout: default-profile
   - scope:
-      path: "_contact"
-    values:
-      layout: primary
-      # include_subnav: true
-      subnav_anchor: /contact/
-  - scope:
       path: "_about"
     values:
-      layout: primary
-      include_subnav: true
-      subnav_anchor: /about/
+      layout: about-page
+  - scope:
+      path: "_approach"
+    values:
+      layout: approach-page
+  - scope:
+      path: "_insights"
+    values:
+      layout: insights-page
   - scope:
       path: "_products_projects"
     values:
@@ -86,14 +89,13 @@ defaults:
     values:
       layout: project-page
   - scope:
-      path: "_styleguide"
-    values:
-      layout: styleguide
-      include_subnav: true
-  - scope:
       path: "devPeerReviewWorkflow"
     values:
       layout: primary
+  - scope:
+      path: "_process"
+    values:
+      layout: process-page
 
 frontmatter_tests:
   path: "tests/schema"

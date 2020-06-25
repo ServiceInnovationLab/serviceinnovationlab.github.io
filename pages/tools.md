@@ -8,17 +8,23 @@ content_focus: false
 gridless: true
 ---
 
-<style>
-h2 {
-  color:#2337CE;
-}
-</style>
+<section class="background-medium project">
+  <div class="nz-grid-full nz-flex banner">
+    <div class="nz-grid nz-width-one-whole hero-callout-full hero-callout-no_button">
+      <h1 class="page-title" style="padding-top: 3rem">
+        {{ page.title }}
+      </h1>
+    </div>
+  </div>
+</section>
 
-<section class="nz-section background-gray">
+<section class="nz-section">
+  {% include tools-process-nav.html %}
+
   <div class="nz-grid">
-      <div class="nz-width-two-thirds">
-        <h2> Tools </h2>
-        <a href="/sil-glossary">Glossary of Terms</a>
+    <div class="nz-width-two-thirds">
+      <h2>Tools</h2>
+      <a href="/sil-glossary">Glossary of Terms</a>
     </div>
   </div>
 
@@ -40,6 +46,7 @@ h2 {
             external_link_title=project.external_link_title
             %}
           {% endfor %}
+          <button id="scrollToTopBtn" title="Go to top">Back to Top</button>
         </div>
       </div>
     </section>

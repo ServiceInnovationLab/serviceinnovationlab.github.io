@@ -9,4 +9,7 @@ image: /assets/img/projects/victim-of-crime-life-event.png
 image_accessibility: A policewoman at someone's front door.
 github_repo:
 media:
+categories:
+  - Integrated-Services
+  - Ways-of-working
 ---

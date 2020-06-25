@@ -1,0 +1,148 @@
+---
+layout: default
+header_border: true
+---
+
+{% assign matching_posts = page | match_posts | sort:'date' | reverse %}
+
+{% include breadcrumb.html
+  parent_permalink='/process/'
+  parent_title='Process'
+%}
+
+{% include base.html %}
+<section class="page-tag-results project">
+  <section class="background-medium">
+    <div class="nz-grid-full nz-flex banner">
+      <div class="nz-grid {% if page.image %}nz-width-one-half{% else %}nz-width-one-whole{% endif %} hero-callout-full hero-callout-no_button">
+        {% if page.agency %}
+          <h1 class="h3 lead">
+            <span>{{ page.agency }}</span>
+          </h1>
+        {% endif %}
+        <h1 class="page-title">
+          {{ page.title }}
+        </h1>
+      </div>
+      {% if page.image %}
+        <div class="nz-width-one-half template-banner"
+          style="background-image: url('{{ base }}{{ page.image }}'); background-repeat: no-repeat; background-position: center"
+          role="img"
+          title="{{ page.image_accessibility }}">
+        </div>
+      {% else %}
+        <div class="hero hero-img-collapsed" style="background-image: none">
+        </div>
+      {% endif %}
+    </div>
+  </section>
+
+  <div class="nz-grid-full nz-grid-reversed">
+    {% if page.agency or
+          page.report or
+          page.media or
+          page.github_repo or
+          page.resources or
+          page.other_process_phases or
+          page.resources_research or
+          page.resources_design
+    %}
+    <aside class="nz-grid nz-section nz-grid-reversed-right nz-width-one-third section-info section-info-gray">
+      <ul>
+        {% if page.agency %}
+        <li class="section-info-list-item">
+          <div class="section-info-header">Agency partner</div>
+          <div>{{ page.agency }}</div>
+        </li>
+        {% endif %}
+
+        {% if page.report %}
+        <li class="section-info-list-item">
+          <div class="section-info-header">Reports</div>
+            <ul class="{% unless page.report.size > 1 %}nz-unstyled-list{% endunless %}">
+              {% for report in page.report %}
+                <li>{{ report | markdownify }}</li>
+              {% endfor %}
+            </ul>
+        </li>
+        {% endif %}
+
+        {% if page.media %}
+        <li class="section-info-list-item">
+          <div class="section-info-header">Media</div>
+          <ul class="{% unless page.media.size > 1 %}nz-unstyled-list{% endunless %}">
+            {% for media in page.media %}
+              <li>{{ media | markdownify }}</li>
+            {% endfor %}
+          </ul>
+        </li>
+        {% endif %}
+
+        {% if page.github_repo %}
+        <li class="section-info-list-item">
+          <div class="section-info-header">GitHub</div>
+            <ul class="{% unless page.github_repo.size > 1 %}nz-unstyled-list{% endunless %}">
+            {% for repo in page.github_repo %}
+              <li>{{ repo | markdownify }}</li>
+            {% endfor %}
+            </ul>
+        </li>
+        {% endif %}
+
+        {% if page.resources.size > 0 %}
+        <li class="section-info-list-item">
+          <div class="section-info-header">Resources</div>
+          <ul class="{% unless page.resources.size > 1 %}nz-unstyled-list{% endunless %}">
+            {% for resource in page.resources %}
+              <li>{{ resource | markdownify }}</li>
+            {% endfor %}
+          </ul>
+        </li>
+        {% endif %}
+
+        {% if page.resources_research.size > 0 %}
+        <li class="section-info-list-item">
+          <div class="section-info-header">Resources - Research discovery</div>
+          <ul class="{% unless page.resources_research.size > 1 %}nz-unstyled-list{% endunless %}">
+            {% for research in page.resources_research %}
+              <li>{{ research | markdownify }}</li>
+            {% endfor %}
+          </ul>
+        </li>
+        {% endif %}
+
+        {% if page.resources_design.size > 0 %}
+          <li class="section-info-list-item">
+            <div class="section-info-header">Resources - Design discovery</div>
+            <ul class="{% unless page.resources_design.size > 1 %}nz-unstyled-list{% endunless %}">
+              {% for design in page.resources_design %}
+                <li>{{ design | markdownify }}</li>
+              {% endfor %}
+            </ul>
+          </li>
+        {% endif %}
+
+        {% if page.other_process_phases.size > 0 %}
+          <li class="section-info-list-item">
+            <div class="section-info-header">Other process phases</div>
+            <ul class="{% unless page.other_process_phases.size > 1 %}nz-unstyled-list{% endunless %}">
+              {% for other_p in page.other_process_phases %}
+                <li>{{ other_p | markdownify }}</li>
+              {% endfor %}
+            </ul>
+          </li>
+        {% endif %}
+      </ul>
+    </aside>
+    {% endif %}
+
+    <div class="nz-grid nz-width-two-thirds">
+      <section class="nz-section page-tag-results-content">
+        <div class="small-caps small-caps-no-margin">Background</div>
+        <p>{{ page.subtitle }}</p>
+        {{ content }}
+        <button id="scrollToTopBtn" title="Go to top">Back to Top</button>
+      </section>
+    </div>
+  </div>
+</section>

@@ -17,7 +17,7 @@ header_border: true
       <div class="nz-grid {% if page.image %}nz-width-one-half{% else %}nz-width-one-whole{% endif %} hero-callout-full hero-callout-no_button">
         {% if page.agency %}
           <h1 class="h3 lead">
-            <span>{{ page.agency }}</span>
+            <span>{{ page.agency | join: ' & ' }}</span>
           </h1>
         {% endif %}
         <h1 class="page-title">
@@ -26,7 +26,7 @@ header_border: true
       </div>
       {% if page.image %}
         <div class="nz-width-one-half template-banner"
-          style="background-image: url({{ base }}{{ page.image }});"
+          style="background-image: url('{{ base }}{{ page.image }}');"
           role="img"
           title="{{ page.image_accessibility }}">
         </div>
@@ -57,8 +57,12 @@ header_border: true
 
         {% if page.agency %}
         <li class="section-info-list-item">
-          <div class="section-info-header">Agency partner</div>
-          <div>{{ page.agency }}</div>
+          <div class="section-info-header">Agency partner(s)</div>
+          <ul class="{% unless page.agency.size > 1 %}nz-unstyled-list{% endunless %}">
+            {% for agency in page.agency %}
+              <li>{{ agency | markdownify }}</li>
+            {% endfor %}
+          </ul>
         </li>
         {% endif %}
 
@@ -104,26 +108,21 @@ header_border: true
             {% endfor %}
           </ul>
         {% endif %}
-
-        {% if page.learn_more %}
-          <li class="section-info-list-item">
-            <a class="nz-button" href="{{ page.learn_more }}">Learn more</a>
-          </li>
-        {% endif %}
       </ul>
     </aside>
     {% endif %}
 
     <div class="nz-grid nz-width-two-thirds">
       <section class="nz-section page-tag-results-content">
-        <div class="small-caps small-caps-no-margin">Background</div>
+        <div class="small-caps small-caps-no-margin">Summary</div>
         <p>{{ page.subtitle }}</p>
         {{ content }}
+        <button id="scrollToTopBtn" title="Go to top">Back to Top</button>
       </section>
     </div>
   </div>
   {% if matching_posts.size > 0 %}
-  <div class="background-gray">
+  <div>
     <div class="nz-section post-border">
       <section class="nz-grid posts_feature">
         <div class="{% if matching_posts.size > 3 %}nz-flex nz-flex-pull-right nz-flex-baseline nz-spacer{% endif %}">
