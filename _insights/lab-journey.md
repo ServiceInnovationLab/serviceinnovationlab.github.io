@@ -5,8 +5,6 @@ permalink: /insights/lab-journey/
 excerpt: How the lab adapted and evolved its approach over three years
 image: /assets/img/insights/insights-jounrey-bg.png
 image_accessibility:  icon representing a journey
-external_url: "[Project repo](url)"
-external_link_title: External link name
 process_weight: 1
 media:
 resources:

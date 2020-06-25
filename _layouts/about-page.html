@@ -3,13 +3,6 @@ layout: default
 header_border: true
 ---
 
-<section {% if background_class %}class="background-gray"{% endif %}>
-  <div class="breadcrumb nz-grid" role="directory">
-    <a class="link-arrow-right" href="{{ site.baseurl }}/">Home</a>
-    {% include svg/icons/arrow-right.svg %}
-  </div>
-</section>
-
 {% include base.html %}
 <section class="page-tag-results project">
   <section class="background-medium">
@@ -20,7 +13,7 @@ header_border: true
             <span>{{ page.agency }}</span>
           </h1>
         {% endif %}
-        <h1 class="page-title">
+        <h1 class="page-title" style="padding-top: 3rem">
           {{ page.title }}
         </h1>
       </div>
@@ -112,8 +105,6 @@ header_border: true
 
     <div class="nz-grid nz-width-two-thirds">
       <section class="nz-section page-tag-results-content">
-        <!-- <div class="small-caps small-caps-no-margin">Background</div>
-        <p>{{ page.subtitle }}</p> -->
         {{ content }}
         <button id="scrollToTopBtn" title="Go to top">Back to Top</button>
       </section>

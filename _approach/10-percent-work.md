@@ -1,9 +1,17 @@
 ---
-layout: default
-permalink: /10-percent-work/
+title: 10% work
+subtitle:
+permalink: /approach/10-percent-work/
+excerpt: 10 percent work.
+image:
+image_accessibility:
+approach_weight: 2
+media:
+resources:
+other_process_phases:
 ---
 
-# Rubber-bands, post-it notes and a bit of glue - the ‘10 percent’ work
+## Rubber-bands, post-it notes and a bit of glue - the ‘10 percent’ work
 
 Because the ways of working within the Lab were innovative, iterative and rather unfamiliar to outsiders - some believed Lab staff were “doing their own random stuff”. There was criticism.
 

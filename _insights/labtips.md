@@ -5,8 +5,6 @@ permalink: /insights/lab-tips/
 excerpt: Reflections from the lab team about key areas to think about when developing and running a lab
 image: /assets/img/insight/insight-bg.png
 image_accessibility: incon for offering advice
-external_url: "[Project repo](url)"
-external_link_title: External link name
 process_weight: 4
 media:
 resources:

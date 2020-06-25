@@ -145,28 +145,4 @@ header_border: true
       </section>
     </div>
   </div>
-  <!-- {% if matching_posts.size > 0 %}
-  <div class="background-gray">
-    <div class="nz-section post-border">
-      <section class="nz-grid posts_feature">
-        <div class="{% if matching_posts.size > 3 %}nz-flex nz-flex-pull-right nz-flex-baseline nz-spacer{% endif %}">
-          <h2>Related blog posts</h2>
-          {% if matching_posts.size > 3 %}
-            <a class="link-arrow-right" href="{{ base }}/tags/{{ page.tag | slugify }}/">See all posts about this project{% include svg/icons/arrow-right.svg %}</a>
-          {% endif %}
-        </div>
-        <ul>
-        {% for post in matching_posts limit:3 %}
-          {% include post.html
-             post_date=post.date
-             post_title=post.title
-             post_excerpt=post.excerpt
-             post_url=post.url
-          %}
-        {% endfor %}
-      </ul>
-      </section>
-    </div>
-  </div>
-  {% endif %} -->
 </section>

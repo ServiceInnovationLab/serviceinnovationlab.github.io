@@ -8,7 +8,17 @@ content_focus: false
 gridless: true
 ---
 
-<section class="nz-section background-gray">
+<section class="background-medium project">
+  <div class="nz-grid-full nz-flex banner">
+    <div class="nz-grid nz-width-one-whole hero-callout-full hero-callout-no_button">
+      <h1 class="page-title" style="padding-top: 3rem">
+        {{ page.title }}
+      </h1>
+    </div>
+  </div>
+</section>
+
+<section class="nz-section">
   {% include tools-process-nav.html %}
 
   <div class="nz-grid">

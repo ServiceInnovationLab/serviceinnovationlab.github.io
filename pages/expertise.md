@@ -73,7 +73,6 @@ Strategies for adopting and leveraging the best of technologies including insigh
         <div class="graphic-list-img">
           <img src="{{ site.baseurl }}/assets/img/expertise/emergingTech.png" alt="Emerging Technology">
         </div>
-        <!-- <span>2-3 person team</span> -->
       </ol>
     </ul>
   </div>
@@ -98,7 +97,6 @@ We facilitate workshops, partnerships and hands on training to grow your capabil
         <div class="graphic-list-img">
           <img src="{{ site.baseurl }}/assets/img/expertise/innovation.png" alt="Lightbulb icon">
         </div>
-        <!-- <span>4-6 person team</span> -->
       </ol>
     </ul>
   </div>

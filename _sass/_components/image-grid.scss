@@ -6,6 +6,14 @@
   background: #f2f2f2;
 }
 
+.child-page-listing-projects {
+  padding: 20px;
+  width: 100%;
+  margin: auto;
+  font-family: sans-serif;
+  // background: #f2f2f2;
+}
+
 .grid-img {
   width: 100%; /* need to overwrite inline dimensions */
   height: auto;
@@ -15,7 +23,6 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(2, 50%));
   grid-gap: 1em;
-  padding-right: 1em;
 }
 
 .projects-grid {
@@ -64,7 +71,7 @@
 }
 
 .location-image .grid-image {
-  // filter: blur(0px);
+  filter: blur(0px);
   transition: filter 0.3s ease-in;
   transform: scale(1.1);
 }
@@ -121,7 +128,7 @@
 }
 
 /* for touch screen devices */
-@media (hover: none) {
+@media (hover: none) { 
   .location-title {
     opacity: 1;
   }

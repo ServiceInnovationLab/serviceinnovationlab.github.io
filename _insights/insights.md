@@ -78,5 +78,3 @@ But short term funding cycles often leads to time and effort being diverted towa
 
 - Develop approaches to funding and resourcing labs and innovation teams that incentivise long term thinking and outcomes?
 - Better demonstrate value and impact in the short term that supports a long term approach?
-
-(NOTE - here's a couple more to added here too)
