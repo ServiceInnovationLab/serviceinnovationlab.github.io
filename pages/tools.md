@@ -23,7 +23,7 @@ gridless: true
 
   <div class="nz-grid">
     <div class="nz-width-two-thirds">
-      <h2>Tools</h2>
+      <h1>Tools</h1>
       <a href="/sil-glossary">Glossary of Terms</a>
     </div>
   </div>
