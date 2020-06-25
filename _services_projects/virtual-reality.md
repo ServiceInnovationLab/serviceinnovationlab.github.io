@@ -15,8 +15,11 @@ media:
 resources:
   - "[leading digital governments](https://leadingdigitalgovs.org/)"
   - "[VR Tools - Exploring Online Social Norms](https://serviceinnovationlab.github.io/projects/vr-experience/)"
-Github_repo:
+github_repo:
  - "[VR-Digital-social-norms-wiki](https://github.com/ServiceInnovationLab/VR-Digital-social-norms/wiki)"
+categories:
+  - Tech
+  - Partnerships
 ---
 
 This blog post by Karyn Brice is connected to the VR Tool work: [VR: The challenge of creating a story arc in immersive experiences](https://www.digital.govt.nz/blog/vr-the-challenge-of-creating-a-story-arc-in-immersive-experiences/)
