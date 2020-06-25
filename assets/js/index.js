@@ -65,4 +65,20 @@ $(function() {
   $('.search-interface').on('submit', function() {
     $('#search-loading').show();
   });
+
+  $(".categories-button").click(function(e){
+    var target = $(e.target)
+    var category = target.data("category")
+    $(".categories-button").removeClass("active-filter")
+    $(".categories-button-clear").removeClass("active-filter")
+    target.addClass("active-filter")
+    $(".js-projects-card").show()
+    $(".js-projects-card").hide()
+    $("." + category).show()
+  });
+  $(".categories-button-clear").click(function(){
+    $(".categories-button").removeClass("active-filter")
+    $(".categories-button-clear").addClass("active-filter")
+    $(".js-projects-card").show()
+  });
 });
