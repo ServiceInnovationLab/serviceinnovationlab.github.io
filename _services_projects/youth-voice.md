@@ -19,6 +19,7 @@ categories:
   - Integrated-Services
   - Tech
   - Partnerships
+project_weight: 8
 ---
 
 Project Bagel was a project a Department of Internal Affairs team undertook in collaboration with the Ministry of Youth Development (MYD) late in 2019. Its aim was to help government listen to what young people wanted.

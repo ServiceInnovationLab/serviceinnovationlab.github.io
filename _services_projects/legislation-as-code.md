@@ -16,6 +16,7 @@ resources:
 github_repo:
   - "[Legislation as Code](https://github.com/ServiceInnovationLab/Piccolo)"
 categories: Tech
+project_weight: 10
 ---
 
 [![Better Rules and the joint Better for Business (MBIE) and Service Innovation 2018-19 work programme](/assets/img/projects/project-rule2.png)](/assets/img/projects/project-rule2.png)
