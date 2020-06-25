@@ -22,6 +22,7 @@ categories:
   - Tech
   - Ways-of-working
   - Partnerships
+project_weight: 9
 ---
 
 ### What is the Rates Rebate Scheme

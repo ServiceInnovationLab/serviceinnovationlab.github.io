@@ -10,6 +10,7 @@ media: "[20 Year EmTech Landscape](/assets/media/20-Year-Emtech-Landscape/Emergi
 resources:
 categories:
   - Tech
+project_weight: 4
 ---
 
 <br/>

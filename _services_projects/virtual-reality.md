@@ -20,6 +20,7 @@ github_repo:
 categories:
   - Tech
   - Partnerships
+project_weight: 5
 ---
 
 This blog post by Karyn Brice is connected to the VR Tool work: [VR: The challenge of creating a story arc in immersive experiences](https://www.digital.govt.nz/blog/vr-the-challenge-of-creating-a-story-arc-in-immersive-experiences/)

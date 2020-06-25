@@ -21,6 +21,7 @@ resources: "[Project's Resources/Templates](/templates/new-project)"
 categories:
   - Ways-of-working
   - Partnerships
+project_weight: 6
 ---
 
 ### What happened  
