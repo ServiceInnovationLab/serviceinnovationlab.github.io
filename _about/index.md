@@ -44,7 +44,7 @@ The Team sought to honour *Te Tiriti o Waitangi*. Many took weekly *te reo* less
 
 One Discovery that explored renting a property spun into a second - examining the concept of *kainga*: ‘property’ for Māori is a significantly different cultural concept. While *whānau pani*, integral to the Māori approach to death and grief, laid a powerful foundation for the Whetūrangitia infant death support service to build upon.
 
-The work was innovative and experimental. That meant sometimes it went up blind alleys and other times discovered precious nuggets it wasn’t even searching for.
+<a name="closing-lab"></a>The work was innovative and experimental. That meant sometimes it went up blind alleys and other times discovered precious nuggets it wasn’t even searching for.
 
 When the physical facility closed, some work ended and others transitioned to lead agencies to progress. The team packaged up its body of work into this Toolkit. Guides and templates were created, along with an attempt to articulate the valuable ‘Lab Approach’ that had developed over time.
 
