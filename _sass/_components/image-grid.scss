@@ -64,7 +64,7 @@
 }
 
 .location-image .grid-image {
-  filter: blur(0px);
+  // filter: blur(0px);
   transition: filter 0.3s ease-in;
   transform: scale(1.1);
 }
@@ -121,7 +121,7 @@
 }
 
 /* for touch screen devices */
-@media (hover: none) { 
+@media (hover: none) {
   .location-title {
     opacity: 1;
   }
