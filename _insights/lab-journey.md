@@ -5,7 +5,7 @@ permalink: /insights/lab-journey/
 excerpt: How the Lab adapted and evolved its approach over three years
 image: /assets/img/insights/insights-journey.png
 image_accessibility:  icon representing a journey
-process_weight: 1
+process_weight: 3
 media:
 resources:
 other_process_phases:

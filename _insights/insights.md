@@ -7,7 +7,7 @@ image: /assets/img/approach/insights-insights.png
 image_accessibility:  icon representing patterns and insights
 external_url: "[Project repo](url)"
 external_link_title: External link name
-process_weight: 1
+process_weight: 2
 media:
 resources:
 - "[Mapping Public Sector Innovation Units in Australia and New Zealand - ANZSOG](https://www.anzsog.edu.au/resource-library/research/mapping-psi-units-aus-nz)"
