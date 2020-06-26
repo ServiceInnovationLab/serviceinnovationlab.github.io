@@ -1,5 +1,5 @@
 ---
-Title: Creating the conditions for joined-up working
+title: Creating the conditions for joined-up working
 subtitle: Accelerating joined-up services delivery through collaboration
 permalink: /approach/joined-up/
 excerpt: A focus on the authorising environment, a culture of collaboration and delivery, having guided the lab's approach. 
