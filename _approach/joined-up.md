@@ -5,7 +5,7 @@ permalink: /approach/joined-up/
 excerpt: Authorising environment, culture of collaboration, delivery - three guiding elements. 
 image: /assets/img/approach/approach-joinedup-bg.png
 image_accessibility: network icon
-approach_weight: 3
+approach_weight: 4
 media:
 - "[OCC - Complexity to collaboration](https://www.occ.org.nz/assets/Uploads/Complexity-to-collaboration-revised-final.pdf)"
 resources:

@@ -5,7 +5,7 @@ permalink: /approach/elements/
 excerpt: A helpful way to understand the Lab is by exploring the elements that shaped it and guided its work.
 image: /assets/img/approach/appproach-elements-bg.png
 image_accessibility: icon for discovery process
-approach_weight: 2
+approach_weight: 6
 media:
 resources:
 other_process_phases:
