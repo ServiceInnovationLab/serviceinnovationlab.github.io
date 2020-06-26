@@ -1,8 +1,8 @@
 ---
 title: Service Innovation Lab journey
-subtitle: How the lab adapted and evolved its approach over three years
+subtitle: How the Lab adapted and evolved its approach over three years
 permalink: /insights/lab-journey/
-excerpt: How the lab adapted and evolved its approach over three years
+excerpt: How the Lab adapted and evolved its approach over three years
 image: /assets/img/insights/insights-journey.png
 image_accessibility:  icon representing a journey
 process_weight: 1
@@ -11,15 +11,15 @@ resources:
 other_process_phases:
 ---
 
-[![Mapping the lab's journey and story](/assets/img/insights/lab-miro-timeline.jpg)](/assets/img/insights/lab-miro-timeline.jpg)
+[![Mapping the Lab's journey and story](/assets/img/insights/lab-miro-timeline.jpg)](/assets/img/insights/lab-miro-timeline.jpg)
 
 ## Lab Journey - snapshot
 
-While the lab's principles stayed consistent how it operated and where it focused evolved. Some of this was guided by the team adapting and iterating based on hands on experience and learning. Other times it was shaped by the wider environment including changes to the authorising environoment, funding, a change of government and practical challenges like the need to move offices three times.
+While the Lab's principles stayed consistent how it operated and where it focused evolved. Some of this was guided by the team adapting and iterating based on hands on experience and learning. Other times it was shaped by the wider environment including changes to the authorising environoment, funding, a change of government and practical challenges like the need to move offices three times.
 
 A important reflection is the importance of the ability change, adapt and anticipate is key to the sustainability of labs.
 
-We have loosely framed this around four key phases below. This includes the final period of transistion and closure of the lab.
+We have loosely framed this around four key phases below. This includes the final period of transistion and closure of the Lab.
 
 ### Phase 1 - Lab as a space (Feb - Jun 2017)
 
@@ -45,15 +45,15 @@ It provided a place where teams  from different agencies, NGOs, private sector a
 
 ### Phase 2 - Lab as a service (July 2017 to Jun 2018)
 
-Building on the lab as a space concept, Lab Plus extended the offer beyond a space to include an in house service  to agencies.
+Building on the Lab as a space concept, Lab Plus extended the offer beyond a space to include an in house service  to agencies.
 
-It focused on life-events and integrated services with a digital focus. A work programme and further funding was approved by the lab’s cross-government governance group. This iteration brought together staff from across government to work on a new way of delivering government services.
+It focused on life-events and integrated services with a digital focus. A work programme and further funding was approved by the Lab’s cross-government governance group. This iteration brought together staff from across government to work on a new way of delivering government services.
 
 A number of key projects  progressed to implementation. Other pieces laid foundations and secured buy-in for further work. Several barriers also began to emerge which were presented to sponsors.
 
 #### Features
 
-- Increased internal capability and expertise within the lab team (reduced reliance on external expertise)
+- Increased internal capability and expertise within the Lab team (reduced reliance on external expertise)
 - 12-month work programme
 - Focus on life events and integrated services as catalyst for cross-government working
 - Senior support and resources committed
@@ -69,9 +69,9 @@ A number of key projects  progressed to implementation. Other pieces laid founda
 
 This phase sought to embed work to make it easier for people to access / use government services. The lab offered both a physical space and a multi-disciplinary team building onthe previous18 months experience innovating inside government.
 
-For those teams working closely with the lab team, the relationship became increasingly valued for the capability uplift opportunity it offered plus ad-hoc connections with other government teams.
+For those teams working closely with the Lab team, the relationship became increasingly valued for the capability uplift opportunity it offered plus ad-hoc connections with other government teams.
 
-It was also a period of uncertainty. With resources, work programme alignment and an uncertain authorising environment leading to flux in the lab’s role and higher turnover in staff.
+It was also a period of uncertainty. With resources, work programme alignment and an uncertain authorising environment leading to flux in the Lab’s role and higher turnover in staff.
 
 Work on integrated services continued but some of the barriers to collaboration identified in phase 2 persisted.
 
@@ -91,9 +91,9 @@ Work on integrated services continued but some of the barriers to collaboration 
 
 ### Phase 4 - Lab close and transition (Oct 19 -  Jun 20)
 
-In late 2019, DIA announced it was closing closethe lab and this would happen  by 30 June, 2020. The decision was part of the move to explore system-wide delivery of integrated services, addressing  significant barriers the lab had faced in terms of funding structures and the single-agency approach.. Much of the work programme transitioned to the relevant lead agencies and DIA’sDigital Public Service branch aimed to continue a level of support to agencies that did not have  in-house service designers. It also started exploring, with other agencies, a better approach to delivering integrated services at a system level..
+In late 2019, DIA announced it was closing closethe Lab and this would happen  by 30 June, 2020. The decision was part of the move to explore system-wide delivery of integrated services, addressing  significant barriers the Lab had faced in terms of funding structures and the single-agency approach.. Much of the work programme transitioned to the relevant lead agencies and DIA’sDigital Public Service branch aimed to continue a level of support to agencies that did not have  in-house service designers. It also started exploring, with other agencies, a better approach to delivering integrated services at a system level..
 
-The transition period coincided with the arrival of Covid-19 in early 2020. The wider government response and need to work remotely under Alert Level 3 and 4 enabled the lab to help other teams by sharing its experience of agile and digital collaborative practice, while also  continuing to deliver itswork programme.
+The transition period coincided with the arrival of Covid-19 in early 2020. The wider government response and need to work remotely under Alert Level 3 and 4 enabled the Lab to help other teams by sharing its experience of agile and digital collaborative practice, while also  continuing to deliver itswork programme.
 
 #### Features
 
