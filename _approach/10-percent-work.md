@@ -5,7 +5,7 @@ permalink: /approach/10-percent-work/
 excerpt: Innovative, iterative, unfamiliar and sometimes criticised.
 image:
 image_accessibility:
-approach_weight: 2
+approach_weight: 1
 media:
 resources:
 other_process_phases:
