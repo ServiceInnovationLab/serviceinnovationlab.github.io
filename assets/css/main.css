@@ -3007,12 +3007,18 @@ header[role="banner"] {
   position: relative;
   width: 100%;
   height: 40rem; }
+  @media (max-width: 481px) {
+    .hero {
+      height: 50rem; } }
   .hero .vertical {
     position: absolute;
     top: 30%;
     bottom: 0;
     left: 0;
     right: 0; }
+    @media (max-width: 481px) {
+      .hero .vertical {
+        top: 15%; } }
   .hero .heading {
     margin-top: 2.5rem;
     font-size: 3.75rem;
