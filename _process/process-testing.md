@@ -10,8 +10,8 @@ external_link_title: External link name
 process_weight: 1
 media:
 resources:
-  - "[Lab workflow model](/process-tools/Workflow model v2.pdf)"
-  - "[Project diary](/process-tools/Project diary - Template.docx)"
+  - "[Alpha testing guide](/process-tools/Testing - Alpha guide.docx)"
+  - "[Beta testing guide](/process-tools/Testing - Beta guide.docx)"
   - "[Quality Assurance Pathway](/process-tools/Quality Assurance Pathway.xlsx)"
 other_process_phases:
   - "[Engagement](/_process/process-engagement.md)"
