@@ -91,9 +91,9 @@ Work on integrated services continued but some of the barriers to collaboration 
 
 ### Phase 4 - Lab close and transition (Oct 19 -  Jun 20)
 
-In late 2019, DIA announced it was closing closethe Lab and this would happen  by 30 June, 2020. The decision was part of the move to explore system-wide delivery of integrated services, addressing  significant barriers the Lab had faced in terms of funding structures and the single-agency approach.. Much of the work programme transitioned to the relevant lead agencies and DIA’sDigital Public Service branch aimed to continue a level of support to agencies that did not have  in-house service designers. It also started exploring, with other agencies, a better approach to delivering integrated services at a system level..
+In late 2019, DIA announced it was closing the Lab and this would happen by 30 June, 2020. The decision was part of the move to explore system-wide delivery of integrated services, addressing significant barriers the Lab had faced in terms of funding structures and the single-agency approach. Much of the work programme transitioned to the relevant lead agencies and DIA’s Digital Public Service branch aimed to continue a level of support to agencies that did not have in-house service designers. It also started exploring, with other agencies, a better approach to delivering integrated services at a system level.
 
-The transition period coincided with the arrival of Covid-19 in early 2020. The wider government response and need to work remotely under Alert Level 3 and 4 enabled the Lab to help other teams by sharing its experience of agile and digital collaborative practice, while also  continuing to deliver itswork programme.
+The transition period coincided with the arrival of Covid-19 in early 2020. The wider government response and need to work remotely under Alert Level 3 and 4 enabled the Lab to help other teams by sharing its experience of agile and digital collaborative practice, while also continuing to deliver its work programme.
 
 #### Features
 
@@ -107,4 +107,4 @@ The transition period coincided with the arrival of Covid-19 in early 2020. The 
 - Restructure and changes in home agency
 - Managing transition of lab work programme to new host teams
 - Early stages of COVID-19 and preparation for Level 3 and 4
-- Shift to remote working with focus on online collaborative working
+- Shift to remote working with focus on online collaborative approaches
