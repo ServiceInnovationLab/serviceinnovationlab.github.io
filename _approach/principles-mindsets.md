@@ -13,9 +13,7 @@ other_process_phases:
 
 ### Principles to guide the work
 
-
 [![Lab principles](/assets/img/approach/Lab-approach.png)](/assets/assets/img/approach/Lab-approach.png)
-
 
 Eight principles have guided the Lab’s cross agency work since 2017. They are reflected throughout the Lab’s work and across the project stories.
 
