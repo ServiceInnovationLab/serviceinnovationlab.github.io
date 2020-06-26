@@ -13,6 +13,8 @@ other_process_phases:
 
 ### Principles to guide the work
 
+[![Lab principles](/assets/img/approach/Lab-approach.png)](/assets/assets/img/approach/Lab-approach.png)
+
 Eight principles have guided the Lab’s cross agency work since 2017. They are reflected throughout the Lab’s work and across the project stories.
 
 1. Uniting to meet user needs
@@ -26,9 +28,7 @@ Eight principles have guided the Lab’s cross agency work since 2017. They are 
 
 ## Mindsets for joined up working
 
-[INSERT VISUAL FROM REPORT?]
-
-One of the Lab's key roles was to 'enable a culture of experimentation and adaptiveness'. Often this meant encouraging and modelling different ways to think about and approach the work. Below are some of the mindsets that can both help and get in the way of working differently.
+One of the lab's key roles was to 'enable a culture of experimentation and adaptiveness'. Often this meant encouraging and modelling different ways to think about and approach the work. Below are some of the mindsets that can both help and get in the way of working differently.
 
 ### Mindsets that support the work
 
