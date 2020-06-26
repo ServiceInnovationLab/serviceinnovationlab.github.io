@@ -3,8 +3,8 @@ title: About the Service Innovation Lab
 permalink: /about/
 subtitle: Our story and purpose
 excerpt: 
-image: /assets/img/about/about-story-bg.png
-image_accessibility: icon for a book
+image:
+image_accessibility:
 github_repo:
 report:
 - "[Designing for Digital - reflections from the first year of the Lab](https://www.digital.govt.nz/blog/designing-for-digital-reflections-from-the-first-year-of-the-lab/)"
