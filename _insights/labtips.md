@@ -17,7 +17,7 @@ other_process_phases:
 
 ### Overview
 
-Over past three and half years the team has gained hands on experience starting, developing, running and closing a lab.
+Over the past three and half years the team has gained hands-on experience starting, developing, running and closing a lab.
 
 Below are eight practical areas and questions to explore that the team has identified. They are not intended to cover every aspect of running a lab and we have highlighted other useful lab resources too.
 

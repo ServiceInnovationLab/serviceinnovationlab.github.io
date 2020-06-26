@@ -20,8 +20,8 @@ gridless: true
 <section class="nz-section">
    <div class="nz-grid">
     <h1 tabindex="0">Overview</h1>
-      <p>Since early 2017 the team have gained experience and insight into developing an innonvation lab inside government. In this section we have set out some key points around system level pattern the team observed plus some practical tips on running a lab.</p>
-      <p>A key part of the Lab's story has been it's evolution over time. The principles have remained the same but how the Lab operated evolved based on learning and contenxt. What's shared here reflects a snapshot of the team's experience and where relevant we've pointed to the learning and insights from other innovation labs and teams.</p>
+      <p>Since early 2017 the team gained experience and insight into developing an innovation lab inside government. In this section are some key points around system level pattern the team observed plus some practical tips on running a Lab.</p>
+      <p>A key part of the Lab's story has been its evolution over time. The principles have remained the same but how the Lab operated evolved based on learning and context. What's shared here reflects a snapshot of the team's experience and where relevant points to learning and insights from other innovation labs and teams.</p>
   </div>
 
   <div class="nz-grid">
