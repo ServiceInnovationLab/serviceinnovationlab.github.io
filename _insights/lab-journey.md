@@ -3,7 +3,7 @@ title: Service Innovation Lab journey
 subtitle: How the lab adapted and evolved its approach over three years
 permalink: /insights/lab-journey/
 excerpt: How the lab adapted and evolved its approach over three years
-image: /assets/img/insights/insights-jounrey-bg.png
+image: /assets/img/insights/insights-journey.png
 image_accessibility:  icon representing a journey
 process_weight: 1
 media:
