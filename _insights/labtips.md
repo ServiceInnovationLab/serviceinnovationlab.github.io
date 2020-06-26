@@ -5,7 +5,7 @@ permalink: /insights/lab-tips/
 excerpt: Reflections from the Lab team about key areas to think about when developing and running a lab
 image: /assets/img/insights/insights-tips.png
 image_accessibility: incon for offering advice
-process_weight: 4
+process_weight: 1
 media:
 resources:
   - "[Growing government innovation labs: an insider’s guide](https://oecd-opsi.org/toolkits/growing-government-innovation-labs-an-insiders-guide/)"

@@ -5,8 +5,9 @@ subtitle: Tikanga Māori connected people through shared experiences and was par
 permalink: /projects/visitors/
 redirect_from: /projects/visitors/
 excerpt: Everyone benefited from the cultural richness - the work, the team and relationships formed with ‘visitors’ or manuhiri.
-image: /assets/img/projects/visitors.png
+image: /assets/img/projects/visitors.jpg
 image_accessibility: Image of the Lab team hosting visitors.
+approach_weight: 3
 github_repo:
 report:
 ---

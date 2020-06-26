@@ -5,7 +5,7 @@ permalink: /approach/principles-mindsets/
 excerpt: Tools and processes are valuable, but fundamental to the Lab’s approach has been the principles and mindsets that underpinned its work.
 image: /assets/img/approach/approach-mindset-bg.png
 image_accessibility: brain icon for mindsets
-approach_weight: 1
+approach_weight: 5
 media:
 resources:
 other_process_phases:
