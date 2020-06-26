@@ -1,12 +1,12 @@
 ---
 agency: Service Innovation Lab
 title: Sharing work across the public sector
-subtitle: A key element of the lab’s work has been modelling new ways of working.
+subtitle: A key element of the Lab’s work has been modelling new ways of working.
 permalink: /projects/sharing/
 redirect_from: /projects/sharing/
-excerpt: A key element of the lab’s work has been modelling new ways of working.
+excerpt: A key element of the Lab’s work has been modelling new ways of working.
 image: /assets/img/projects/AoGshowcase2.png
-Image_accessibility: People talking about the lab’s work
+Image_accessibility: People talking about the Lab’s work
 github_repo:
 report:
 media: "[All of Government Innovation Showcase](https://www.digital.govt.nz/showcase/all-of-government-innovation-showcase-december-2019/)"

@@ -26,8 +26,8 @@ In 2013 the Digital Service Council (DSC), comprising eight agencies, was establ
 
 November 2015 a Service Innovation Reference Group (SIRG) was established to provide support to SIWG by detailing of the work programme and initiatives.
 
-[![Workshop hosted by the lab team](/assets/img/about/lab workshop.png)](/assets/img/about/lab workshop.png)
-Hosting a cross-agency workshop at the lab's offices
+[![Workshop hosted by the Lab team](/assets/img/about/lab workshop.png)](/assets/img/about/lab workshop.png)
+Hosting a cross-agency workshop at the Lab's offices
 
 February 2017, the Service Innovation Lab (the Lab) was founded with support from the Service Innovation Work Programme Team from Internal Affairs, Assurity Consulting Ltd and direction from the SIRG. Secretariat and management overview is provided by Internal Affairs, which is the Government’s functional lead agency for digital development.
 

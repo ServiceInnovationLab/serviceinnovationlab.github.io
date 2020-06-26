@@ -2,7 +2,7 @@
 title: 10% work
 subtitle:
 permalink: /approach/10-percent-work/
-excerpt: 10 percent work.
+excerpt: Innovative, iterative, unfamiliar and sometimes criticised.
 image:
 image_accessibility:
 approach_weight: 2

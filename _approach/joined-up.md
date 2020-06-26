@@ -2,7 +2,7 @@
 title: Creating the conditions for joined-up working
 subtitle: Accelerating joined-up services delivery through collaboration
 permalink: /approach/joined-up/
-excerpt: A focus on the authorising environment, a culture of collaboration and delivery, having guided the lab's approach. 
+excerpt: Authorising environment, culture of collaboration, delivery - three guiding elements. 
 image: /assets/img/approach/approach-joinedup-bg.png
 image_accessibility: network icon
 approach_weight: 3

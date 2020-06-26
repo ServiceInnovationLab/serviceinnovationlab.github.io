@@ -4,7 +4,7 @@ subtitle: Focuses on building relationships and the conditions for joined-up wor
 permalink: /process/process-engagement/
 excerpt: Establishing the conditions for joined-up working
 image: /assets/img/process/process-engagement-bg.png
-image_accessibility: Visual illustration of the lab’s process
+image_accessibility: Visual illustration of the Lab’s process
 external_url: "[Project repo](url)"
 external_link_title: External link name
 process_weight: 4
@@ -27,7 +27,7 @@ other_process_phases:
 
 * Surfacing and identifying opportunities
 * Building partnerships and coalitions
-* Focusing on specific opportunities aligned to the lab’s work programme
+* Focusing on specific opportunities aligned to the Lab’s work programme
 * Gauging appetite for cross-agency approach
 * Sense checking the likely authorising environment
 
@@ -58,7 +58,7 @@ other_process_phases:
 
 * Not all opportunities are equal - where does the work fit?
 * How might new opportunities align and connect with existing work?
-* Is there anyone on in the lab’s governance environment who might champion/support the work?
+* Is there anyone on in the Lab’s governance environment who might champion/support the work?
 * Seek to hold more opportunities that work capacity
 
 ##### Lean against the problem

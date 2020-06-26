@@ -6,7 +6,7 @@ permalink: /projects/visitors/
 redirect_from: /projects/visitors/
 excerpt: Everyone benefited from the cultural richness - the work, the team and relationships formed with ‘visitors’ or manuhiri.
 image: /assets/img/projects/visitors.png
-image_accessibility: Image of the lab team hosting visitors.
+image_accessibility: Image of the Lab team hosting visitors.
 github_repo:
 report:
 ---
