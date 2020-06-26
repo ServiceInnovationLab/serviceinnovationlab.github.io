@@ -145,7 +145,7 @@ To protect the integrity of the property sector the data needs to be made availa
 The Design Intensive
 The challenge for the Notice of Sale design intensive was to explore what a positive, effective customer experience looks like when based on a real-world [life event](https://www.digital.govt.nz/showcase/integrated-services-service-innovation-working-group/) ([see this blog post about the value of life events](https://www.digital.govt.nz/blog/labplus-the-value-of-a-life-events-lens-a-vehicle-for-creating-long-term-strategic-value/)). The design team sought to understanding the big picture associated with notice of sale and where it fits within the life event of selling and buying a home and together seek to understand the desired outcome from different perspectives and identify indicative opportunities to achieve these outcomes.
 
-Representatives from Whangarei District Council, Auckland Council, Tauranga City Council, Wellington City Council, LINZ and the Service Innovation Lab (the lab) were involved as team members involved either before and/or during the three day intensive between 13-15 August.
+Representatives from Whangarei District Council, Auckland Council, Tauranga City Council, Wellington City Council, LINZ and the Service Innovation Lab (the Lab) were involved as team members involved either before and/or during the three day intensive between 13-15 August.
 During the intensive we wanted to explore in the design sprint:
 
 - High level understanding of where the notice of sale fits within the life event of selling and buying a property

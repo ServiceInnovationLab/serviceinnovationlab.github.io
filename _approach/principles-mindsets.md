@@ -2,7 +2,7 @@
 title: Our principles and mindsets
 subtitle: Staying tight on principles and holding process more lightly helped the team stay true to its purpose and enabled the team to adapt and iterate its approach.
 permalink: /approach/principles-mindsets/
-excerpt: Tools and process are helpful but the foundations of the lab's apporach have been the principles and mindsets that underpin its work.
+excerpt: Tools and processes are valuable, but fundamental to the Lab’s approach has been the principles and mindsets that underpinned its work.
 image: /assets/img/approach/approach-mindset-bg.png
 image_accessibility: brain icon for mindsets
 approach_weight: 1

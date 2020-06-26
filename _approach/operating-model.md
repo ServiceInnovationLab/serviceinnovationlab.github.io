@@ -1,8 +1,8 @@
 ---
-title: How we worked - operating model
-subtitle: Providing advice, hosting and wrap-around support to teams was a key feature of the lab’s operating model. It enabled the team to provide a flexible and tailored service.
+title: Our operating model
+subtitle: Providing advice, hosting and wrap-around support to teams was a key feature of the Lab’s operating model. It enabled the team to provide a flexible and tailored service.
 permalink: /approach/operating-model/
-excerpt: Providing advice, hosting and wrap-around support to teams was a key feature of the lab’s operating model. It enabled the team to provide a flexible and tailored service.
+excerpt: Providing advice, hosting, and providing wrap-around support were key features that enabled the team to offer a flexible, tailored service.
 image: /assets/img/approach/approach-operating-bg.png
 image_accessibility: brain icon for mindsets
 external_url: "[Project repo](url)"
@@ -16,7 +16,7 @@ report:
 other_process_phases:
 ---
 
-### How the lab team worked
+### How the Lab team worked
 
 The lab was an interdisciplinary team with backgrounds in agile, design, policy and technology. It used evidence-based decision making and design thinking to transform government service experiences.
 
@@ -24,18 +24,18 @@ We worked in the open to prevent problem shifting and duplication and increase t
 
 By partnering with other agencies, not for profits, private organisations and other governments we sought to understand, identify and test the best ways to create lasting change. While we had a digital focus we ensured people’s needs are considered first by collaboratively working on creating customer-centric services.
 
-There were two ways teams worked with the lab:
+There were two ways teams worked with the Lab:
 
-- Wrap-around support - partnering with the lab team to help deliver live projects
-- Accessing the lab space - Using the workshop spaces and access to a collaborative environment and the lab’s networks
+- Wrap-around support - partnering with the Lab team to help deliver live projects
+- Accessing the Lab space - Using the workshop spaces and access to a collaborative environment and the Lab’s networks
 
-In addition people and teams connected with the lab through its governance structures and wider national and international networks.
+In addition people and teams connected with the Lab through its governance structures and wider national and international networks.
 
-[![How the lab worked with different teams](/assets/img/approach/approach-model.png)](/assets/img/approach/approach-model.png)
+[![How the Lab worked with different teams](/assets/img/approach/approach-model.png)](/assets/img/approach/approach-model.png)
 
 #### Wrap around support
 
-This would primarily happen for activity or projects aligned to the lab’s work programme. It would involve teams embedding/seconding staff to the lab. The lab team would provide dedicated innovation support and access to a cross-government pool of knowledge and expertise including development, design, engagement and facilitation support.
+This would primarily happen for activity or projects aligned to the Lab’s work programme. It would involve teams embedding/seconding staff to the Lab. The lab team would provide dedicated innovation support and access to a cross-government pool of knowledge and expertise including development, design, engagement and facilitation support.
 
 ##### Project examples
 
@@ -60,7 +60,7 @@ The Lab had both a cross-agency governance and reference group.
 - The cross-agency governance group consisted of senior decision-makers from a range of agencies. The Lab was part of a wider remit focused on service innovation and the group made decisions about resource allocation and work programming.
 - A cross-agency reference group enabled the Lab team to access a cross-section of managers and advisors to help oversee and facilitate the delivery of the work programme.
 
-For both these groups the lab team, its space and work programme offered a live experiment that was generating learning about working in different ways and across agencies even if their agencies wasn’t directly involved.
+For both these groups the Lab team, its space and work programme offered a live experiment that was generating learning about working in different ways and across agencies even if their agencies wasn’t directly involved.
 
 #### Visitors and wider networks
 

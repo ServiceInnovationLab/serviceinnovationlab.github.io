@@ -87,7 +87,7 @@ Strategies for adopting and leveraging the best of technologies including insigh
 
 {: .expertise-subheading}
 
-We facilitate workshops, partnerships and hands on training to grow your capability to innovate using the design and development approaches we use at the lab.
+We facilitate workshops, partnerships and hands on training to grow your capability to innovate using the design and development approaches we use at the Lab.
 {% endcapture %}
 
 <div class="nz-grid-full">
