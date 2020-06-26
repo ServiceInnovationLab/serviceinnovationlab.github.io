@@ -1,8 +1,8 @@
 ---
-title: How we worked
+title: What made this Lab different?
 subtitle:
 permalink: /approach/elements/
-excerpt: A helpful way to understand the lab is by exploring the elements that shaped it and guided its work.
+excerpt: A helpful way to understand the Lab is by exploring the elements that shaped it and guided its work.
 image: /assets/img/approach/appproach-elements-bg.png
 image_accessibility: icon for discovery process
 approach_weight: 2
@@ -13,11 +13,11 @@ other_process_phases:
 
 ### Lab elements
 
-[![Elements of the lab's approach](/assets/img/approach/approach-elements-icons.png)](/assets/img/approach/approach-elements-icons.png)
+[![Elements of the Lab's approach](/assets/img/approach/approach-elements-icons.png)](/assets/img/approach/approach-elements-icons.png)
 
 A helpful way to understand the Service Innovation Lab is to think about the elements that made up its purpose, how it works and what it focused on.
 
-These elements help to frame how the lab is both similar and different to other labs and innovation teams.
+These elements help to frame how the Lab is both similar and different to other labs and innovation teams.
 
 <!-- <video width="320" height="240" controls class="embeded-video">
   <source src="{{ site.baseurl }}/assets/vids/Grant 1 - Approach How We Worked (Collaboration).mp4" type="video/mp4">

@@ -1,8 +1,8 @@
 ---
 title: Practical tips on running a lab
-subtitle: Reflections from the lab team about key areas to think about when developing and running a lab
+subtitle: Reflections from the Lab team about key areas to think about when developing and running a lab
 permalink: /insights/lab-tips/
-excerpt: Reflections from the lab team about key areas to think about when developing and running a lab
+excerpt: Reflections from the Lab team about key areas to think about when developing and running a lab
 image: /assets/img/insights/insights-tips.png
 image_accessibility: incon for offering advice
 process_weight: 4
@@ -64,8 +64,8 @@ Below are eight practical areas and questions to explore that the team has ident
 
 #### Questions to explore
 
-1. How easy is it for people to access and make use of the lab space?
-2. How effectively are you using the lab space to tell the story of your work?
+1. How easy is it for people to access and make use of the Lab space?
+2. How effectively are you using the Lab space to tell the story of your work?
 3. What would a virtual lab offer? How would you make it work?
 
 ### 4. Relationship & engagement require dedicated focus - they are not an add on
@@ -93,7 +93,7 @@ Below are eight practical areas and questions to explore that the team has ident
 
 #### Questions to explore
 
-1. Are the tools used in the labs accessible to other government teams?
+1. Are the tools used in the Labs accessible to other government teams?
 2. When using cloud-based tools how confident are you that personal data is protected?
 3. Who is responsible for building relationships with key corporate teams like procurement and finance?
 
@@ -124,7 +124,7 @@ Below are eight practical areas and questions to explore that the team has ident
 #### Questions to explore
 
 1. How will you help Knowledge sharing opportunities across a team with diverse skills?
-2. What capability building offer is of most use to people outside the lab?
+2. What capability building offer is of most use to people outside the Lab?
 3. How does a focus on capability building align with the purpose of the team?
 
 ### 8. Funding and resourcing
@@ -139,4 +139,4 @@ Below are eight practical areas and questions to explore that the team has ident
 
 1. What would it look like to start small and work differently with the resources you already have?
 2. What does a long term approach look like when short-term funding is the norm?
-3. How will you build trust and demonstrate to sponsors that the lab's work is delivering value?
+3. How will you build trust and demonstrate to sponsors that the Lab's work is delivering value?

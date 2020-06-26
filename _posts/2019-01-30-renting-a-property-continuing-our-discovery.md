@@ -75,6 +75,6 @@ MBIE Tenancy Services have used this work for:
 - Looking into the viability of setting up online training modules that support Tenants, Landlords and Property Managers
 - A primer for new staff, and to raise awareness of the importance of relationships, behaviour change, tenant fear and other problems in the market.
 
-Thanks to all who participated, especially those who were interviewed, came into the lab to help us on our journey, or took the time to give feedback on what we found and our ideas for the future.
+Thanks to all who participated, especially those who were interviewed, came into the Lab to help us on our journey, or took the time to give feedback on what we found and our ideas for the future.
 
 Due to the size of the report, a full copy of the report is available upon request. If you'd like to stay across any of the work coming out of the Lab, please join our [mailing list](https://confirmsubscription.com/h/j/7AA94B673345A7D5) .

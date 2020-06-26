@@ -2,7 +2,7 @@
 title: Our principles and mindsets
 subtitle: Staying tight on principles and holding process more lightly helped the team stay true to its purpose and enabled the team to adapt and iterate its approach.
 permalink: /approach/principles-mindsets/
-excerpt: Tools and process are helpful but the foundations of the lab's apporach have been the principles and mindsets that underpin its work.
+excerpt: Tools and processes are valuable, but fundamental to the Lab’s approach has been the principles and mindsets that underpinned its work.
 image: /assets/img/approach/approach-mindset-bg.png
 image_accessibility: brain icon for mindsets
 approach_weight: 1
@@ -28,7 +28,7 @@ Eight principles have guided the Lab’s cross agency work since 2017. They are 
 
 [INSERT VISUAL FROM REPORT?]
 
-One of the lab's key roles was to 'enable a culture of experimentation and adaptiveness'. Often this meant encouraging and modelling different ways to think about and approach the work. Below are some of the mindsets that can both help and get in the way of working differently.
+One of the Lab's key roles was to 'enable a culture of experimentation and adaptiveness'. Often this meant encouraging and modelling different ways to think about and approach the work. Below are some of the mindsets that can both help and get in the way of working differently.
 
 ### Mindsets that support the work
 

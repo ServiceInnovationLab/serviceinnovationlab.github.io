@@ -23,8 +23,8 @@ gridless: true
 
   <div class="nz-grid">
     <h1 tabindex="0">Process</h1>
-    <p>As a design and development lab working across government agencies, the lab developed a process for its work to follow. Similar to other innovation processes, it creates space and time to better understand the issues before moving to ideation, development and testing.</p>
-    <p>For each phase we have summarised its key features, reflections and tips from the lab team - and links to ourtools and templates.</p>
+    <p>As a design and development lab working across government agencies, the Lab developed a process for its work to follow. Similar to other innovation processes, it creates space and time to better understand the issues before moving to ideation, development and testing.</p>
+    <p>For each phase we have summarised its key features, reflections and tips from the Lab team - and links to ourtools and templates.</p>
   </div>
 
   <div class="nz-grid">

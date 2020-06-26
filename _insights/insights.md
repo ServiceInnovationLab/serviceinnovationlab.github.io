@@ -18,7 +18,7 @@ resources:
 other_process_phases:
 ---
 
-The following insights are a summary of reflections from the lab team based on workshops and previous reports. Project-specific insights are also available in the project summaries shared in the [projects section](/projects/).
+The following insights are a summary of reflections from the Lab team based on workshops and previous reports. Project-specific insights are also available in the project summaries shared in the [projects section](/projects/).
 
 ### 1. The importance of innovation leadership and governance to sustaining delivering and implementation
 
@@ -46,9 +46,9 @@ But this catalytic role is crucial to fostering cross-agency working but often d
 
 [![System barriers poster](/assets/img/insights/lab-barriers.png)](/assets/img/insights/lab-barriers.png)
 
-### 3. It’s not about the lab space, but everyone seems to value the space
+### 3. It’s not about the Lab space, but everyone seems to value the space
 
-For people who worked with the Lab the concept of a dedicated (neutral) space was regularly cited as important - offering a physical space in which to collaborate, engage and work in an agile and adaptive way. Working remotely during the COVID-19 lockdown, highlighting that creative and participative approaches are possible digitally.  Despite this, the lab space played an important role in the Lab’s work and identity and was different from a typical office.
+For people who worked with the Lab the concept of a dedicated (neutral) space was regularly cited as important - offering a physical space in which to collaborate, engage and work in an agile and adaptive way. Working remotely during the COVID-19 lockdown, highlighting that creative and participative approaches are possible digitally.  Despite this, the Lab space played an important role in the Lab’s work and identity and was different from a typical office.
 
 But rather than focus on labs, the more pertinent question may be why aren’t the characteristics of lab spaces, not the norm and where they do exist, why are they so scarce? Teams are increasingly being asked to work more collaboratively, creatively and to adopt agile practices but current workspaces don’t mirror the qualities people say they valued in the Service Innovation Lab or similar spaces.
 

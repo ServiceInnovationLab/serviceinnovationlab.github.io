@@ -55,7 +55,7 @@ Features
 
 #### Purpose
 
-On conclusion of product validation handover begins. Both the project and products are handed back to the relevant agency and /or partners.  A receiving devOps team is key so the product can be scaled and deployed outside of the lab environment.
+On conclusion of product validation handover begins. Both the project and products are handed back to the relevant agency and /or partners.  A receiving devOps team is key so the product can be scaled and deployed outside of the Lab environment.
 
 A new product/service will most likely be built ground-up, based on the Alpha. Alternatively the Alpha may be enhanced and hardened by adding features and other changes to ensure it is fit for production. This will be done in partnership with the agencies and their technology partners.
 

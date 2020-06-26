@@ -28,7 +28,7 @@ other_process_phases:
 
 #### Purpose
 
-This phase seeks to gather just enough information to describe in a concise way a potential initiative, for the purpose of making a decision to commit (ie funding, sponsorship, resources). AS part of the lab’s operating model, this pre-discovery work was often resourced by the lab prior to seeking project funding from comissionsers.
+This phase seeks to gather just enough information to describe in a concise way a potential initiative, for the purpose of making a decision to commit (ie funding, sponsorship, resources). AS part of the Lab’s operating model, this pre-discovery work was often resourced by the Lab prior to seeking project funding from comissionsers.
 
 This time and focus helped make an informed decision about the nature of the opportunity, the readiness of the agencies and to better understand the resources requirements that may be required. Our experience highlighted all this information is key when seeking support from commissioners and sponsors.
 
@@ -36,7 +36,7 @@ This time and focus helped make an informed decision about the nature of the opp
 * Gathering just enough information to frame in a concise way a potential initiative,
 * Will inform funding, sponsorship and resource requirements.
 
-As part of the lab’s operating model, this pre-discovery work was often resourced by the lab prior to seeking project funding from comissionsers.
+As part of the Lab’s operating model, this pre-discovery work was often resourced by the Lab prior to seeking project funding from comissionsers.
 
 #### Features
 
@@ -65,7 +65,7 @@ As part of the lab’s operating model, this pre-discovery work was often resour
 ##### Starting thinking about value and resources
 
 * Sizing - what resources will be needed and what's available?
-* What's the opportunity cost (for the lab) supporting this work? What other work will you need to say no too?
+* What's the opportunity cost (for the Lab) supporting this work? What other work will you need to say no too?
 * What's the reciprocal value for everyone involved?
 
 ##### Ensure clarity around the authorising environment

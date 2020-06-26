@@ -41,7 +41,7 @@ The selected technologies and their positioning on the landscape was informed by
 
 ### Technology to focus on
 
-With such a vast array of technology in the landscape, the lab identified seven key areas of technology that should be given a high priority focus.
+With such a vast array of technology in the landscape, the Lab identified seven key areas of technology that should be given a high priority focus.
 
 - Artificial Intelligence
 - Spatial Computing
