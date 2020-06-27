@@ -20,7 +20,7 @@ media:
 
 ## Purpose
 
-__We were  setup to:__
+__The Lab was setup to:__
 
 - Grow the ecosystem of services built with government components
 - Reduce barriers to building better digital services
