@@ -19,6 +19,11 @@ gridless: true
 </section>
 
 <section class="nz-section">
+  <div class="nz-grid">
+    <h1 tabindex="0">Overview</h1>
+    <p>This section shares the lab's process and tools (or reusuable code). The 'process' pages share the steps many of the Lab's projects followed through their development. The 'tools' section includes reusable code from several projects (hosted on GitHub) for people to access and reuse.</p>
+    <br />
+  </div>
   {% include tools-process-nav.html %}
 
   <div class="nz-grid">
