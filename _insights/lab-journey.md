@@ -1,5 +1,5 @@
 ---
-title: Service Innovation Lab journey
+title: Service Innovation Lab - history
 subtitle: How the Lab adapted and evolved its approach over three years
 permalink: /insights/lab-journey/
 excerpt: How the Lab adapted and evolved its approach over three years
@@ -11,9 +11,9 @@ resources:
 other_process_phases:
 ---
 
-[![Mapping the Lab's journey and story](/assets/img/insights/lab-miro-timeline.jpg)](/assets/img/insights/lab-miro-timeline.jpg)
+[![Mapping the Lab's journey and history](/assets/img/insights/lab-miro-timeline.jpg)](/assets/img/insights/lab-miro-timeline.jpg)
 
-## Lab Journey - snapshot
+## Lab history - snapshot
 
 While the Lab's principles stayed consistent how it operated and where it focused evolved. Some of this was guided by the team adapting and iterating based on hands on experience and learning. Other times it was shaped by the wider environment including changes to the authorising environoment, funding, a change of government and practical challenges like the need to move offices three times.
 
