@@ -7,7 +7,7 @@ header_border: true
 <section class="page-tag-results project">
   <section class="background-medium">
     <div class="nz-grid-full nz-flex banner">
-      <div class="nz-grid {% if page.image %}nz-width-one-half{% else %}nz-width-one-whole{% endif %} hero-callout-full hero-callout-no_button">
+      <div class="nz-grid nz-width-one-whole hero-callout-full hero-callout-no_button">
         {% if page.agency %}
           <h1 class="h3 lead">
             <span>{{ page.agency }}</span>
@@ -17,16 +17,6 @@ header_border: true
           {{ page.title }}
         </h1>
       </div>
-      {% if page.image %}
-        <div class="nz-width-one-half template-banner"
-          style="background-image: url('{{ base }}{{ page.image }}'); background-repeat: no-repeat; background-position: center"
-          role="img"
-          title="{{ page.image_accessibility }}">
-        </div>
-      {% else %}
-        <div class="hero hero-img-collapsed" style="background-image: none">
-        </div>
-      {% endif %}
     </div>
   </section>
 
