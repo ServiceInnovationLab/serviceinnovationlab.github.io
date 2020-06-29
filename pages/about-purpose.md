@@ -18,6 +18,8 @@ report:
 media:
 ---
 
+<a name="heading-purpose"></a>
+
 ## Purpose
 
 __The Lab was setup to:__

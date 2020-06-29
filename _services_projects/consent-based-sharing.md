@@ -3,7 +3,6 @@ agency: Department of Internal Affairs
 title: Consent Based Data Sharing
 subtitle: Prototyping ways for people to share, with other agencies and organisations, government information or data that relates to them.
 permalink: /projects/consent-based-sharing/
-redirect_from: /projects/consent-based-sharing/
 excerpt: Giving people visibility and control over the data the government has about them.
 image: /assets/img/projects/consent-based-data-sharing.png
 image_accessibility: The Feijoa application on an iPad, showing a 'share' button for a birth record.
