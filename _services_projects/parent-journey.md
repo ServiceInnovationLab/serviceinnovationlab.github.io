@@ -4,10 +4,8 @@ title: Mapping the parent journey – Lab ‘synergy’ takes it further
 subtitle: Tracking the experience of parents as their child moves through the education system
 permalink: /projects/parent-journey/
 excerpt: Tracking the experience of parents as their child moves through the education system
-image: /assets/img/projects/project.png
-image_accessibility: Alt text for image.
-external_url: "[Project repo](url)"
-external_link_title: External link name
+image: /assets/img/projects/parent-journey2.png
+image_accessibility: Room dedicated to Parent Journey discovery, with post-its and diagrams.
 media:
 resources:
 ---
