@@ -26,7 +26,7 @@ Government agencies working together and really *listening* to people – from t
 
 A pipedream?
 
-From 2016 to mid-2020, the Service Innovation Team had a crack at something quite unique: it explored working *across* Government agencies, setting out to discover what it would take to get agencies to work more collaboratively.
+From 2017 to mid-2020, the Service Innovation Team had a crack at something quite unique: it explored working *across* Government agencies, setting out to discover what it would take to get agencies to work more collaboratively.
 
 Digital change was presenting more efficient ways of working - both challenging and providing opportunities - to Government agencies to deliver more joined-up services.
 The Team comprised service designers, software developers and skilled support staff, whose diverse work was overseen by senior officials across Government. It collaborated with other agencies, private partners and community groups. Together they made a point of listening to citizens to understand their ‘pain points’ when using, or trying to use, government’s often overly-complex services.
