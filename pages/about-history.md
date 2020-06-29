@@ -13,7 +13,7 @@ report:
 - "[Service Innovation Lab – 18 months of amazing work](https://www.digital.govt.nz/blog/service-innovation-lab-18-months-of-amazing-work/)"
 - "[2017-18 Progress Report for the Service Innovation Lab](https://www.digital.govt.nz/blog/2017-18-progress-report-for-the-service-innovation-lab/)"
 - "[2017-18 Progress Report for the Service Innovation Lab](https://serviceinnovationlab.github.io/2018/07/01/Lab-Report.html)"
-- "[Embracing Innovation in Government - Global Trends 2019](https://trends.oecd-opsi.org/)"
+- "[Embracing Innovation in Government - Global Trends 2019](https://trends.oecd-opsi.org/#global-trends)"
 - "[Open Source Award wins for Service Innovation Lab](https://www.digital.govt.nz/blog/open-source-award-wins-for-service-innovation-lab/)"
 media:
 ---

@@ -9,7 +9,7 @@ image_accessibility: Visuals explain Better Rules and the joint Better for Busin
 external_url: "[Project repo](url)"
 external_link_title: Rules as Code
 media:
-  - "[Embracing Innovation in Government - Global Trends 2019](https://trends.oecd-opsi.org/)"
+  - "[Embracing Innovation in Government - Global Trends 2019](https://trends.oecd-opsi.org/#global-trends)"
 resources:
   - "[Exploring Machine Consumable Code - ACC](/2019/07/01/ACC-Better-Rules-Collaboration/)"
   - "[ACC Discovery Report](https://serviceinnovationlab.github.io/2019/07/01/ACC-Better-Rules-Collaboration/)"
