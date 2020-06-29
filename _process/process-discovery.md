@@ -12,9 +12,10 @@ media:
 resources:
   - "[Discovery phase guide](/process-tools/Discovery phase - Guide.docx)"
 other_process_phases:
-  - "[Pre-discovery and commissioning](/process-tools/Workflow model v2.pdf)"
-  - "[Discovery](/process-tools/Workflow model v2.pdf)"
-  - "[Alpha and Beta testing](/process-tools/Workflow model v2.pdf)"
+  - "[Engagement](/process/process-engagement)"
+  - "[Pre-discovery and commissioning](/process/process-prediscovery)"
+  - "[Discovery](/process/process-discovery)"
+  - "[Alpha and Beta testing](/process/process-testing)"
 resources_research:
   - "[Key questions before you start](/process-tools/Design discovery - Key questions.docx)"
   - "[Research report template](/process-tools/Discovery Report - Template.docx)"
