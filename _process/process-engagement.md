@@ -14,9 +14,10 @@ resources:
   - "[Project diary](/process-tools/Project diary - Template.docx)"
   - "[Quality Assurance Pathway](/process-tools/Quality Assurance Pathway.xlsx)"
 other_process_phases:
-  - "[Pre-discovery and commissioning](/process-tools/Workflow model v2.pdf)"
-  - "[Discovery](/process-tools/Workflow model v2.pdf)"
-  - "[Alpha and Beta testing](/process-tools/Workflow model v2.pdf)"
+  - "[Engagement](/process/process-engagement)"
+  - "[Pre-discovery and commissioning](/process/process-prediscovery)"
+  - "[Discovery](/process/process-discovery)"
+  - "[Alpha and Beta testing](/process/process-testing)"
 ---
 
 [![A shared focus on better services](/assets/img/process/Building-better-services.png)](/assets/img/process/Building-better-services.png)
