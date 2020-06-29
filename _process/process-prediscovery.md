@@ -17,9 +17,10 @@ resources:
   - "[Commissioning - lean canvas template](/process-tools/Lean Canvas - Template.docx)"
   - "[Project diary](/process-tools/Project diary - Template.docx)"
 other_process_phases:
-  - "[Engagement](/_process/process_engagement.md)"
-  - "[Discovery](/process-tools/Workflow model v2.pdf)"
-  - "[Alpha and Beta testing](/process-tools/Workflow model v2.pdf)"
+  - "[Engagement](/process/process-engagement)"
+  - "[Pre-discovery and commissioning](/process/process-prediscovery)"
+  - "[Discovery](/process/process-discovery)"
+  - "[Alpha and Beta testing](/process/process-testing)"
 ---
 
 ### 2. Pre-discovery phase
