@@ -18,8 +18,8 @@ gridless: true
 </section>
 
 <div class="nz-grid nz-grid-reversed" style="padding-top: 1.5rem">
-  <div class="nz-section nz-width-two-thirds contact-section">
-    <h3>Let’s work together to improve the user experience of government.</h3>
+  <div class="nz-section contact-section">
+    <h3>Let’s work together to improve the user experience of government - the following email addresses remain live. The NZ one takes you to the Digital Public Service in the NZ Dept. of Internal Affairs.</h3>
     <p><b>International</b> – If you are from outside New Zealand and looking to grow your capability in this field then get in contact with New Zealand Government Partnerships Office (G2G Know-How) by clicking the <b>'Email us'</b> button below.</p>
     <a class="btn btn-secondary" role="button" href="mailto:G2GTeam@nzte.govt.nz?subject=International Enquiries - Service Innovation Lab">Email Us</a>
     <p><b>New Zealand</b> - If you are from New Zealand and looking to grow your capability in this field then get in contact by clicking the <b>'Email us'</b> button below.</p>

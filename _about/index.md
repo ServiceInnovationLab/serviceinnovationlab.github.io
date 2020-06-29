@@ -16,7 +16,9 @@ report:
 media:
 ---
 
-## Our Story
+<a name="heading"></a>
+
+## Our Story<a name="heading"></a>
 
 ### People at the heart of innovation
 
