@@ -25,17 +25,17 @@ This was the innovator’s version of a Business Case; where the ‘business cas
 
 “It was a way to pitch to people so they can quickly say ‘Yes, we want to commission the work’ or ‘No – not interested’ or ‘Not interested just now…’
 
-This led to several pilots, prototypes and further repurposing of reusable components. An MVP was built to [demonstrate the value of the consent-based data sharing](../projects/consent-based-sharing/) concept (‘Feijoa’) and shown to the Service Innovation Reference Group to trigger a conversation about what was possible. Feijoa started with a discussion on what it would take to hold shareable information, grew into an MVP and was picked up and is now being progressed as part of the SmartStart integrated service - the Early Years project.
+This led to several pilots, prototypes and further repurposing of reusable components. An MVP was built to [demonstrate the value of the consent-based data sharing](/projects/consent-based-sharing/) concept (‘Feijoa’) and shown to the Service Innovation Reference Group to trigger a conversation about what was possible. Feijoa started with a discussion on what it would take to hold shareable information, grew into an MVP and was picked up and is now being progressed as part of the SmartStart integrated service - the Early Years project.
 
 ## Other initiatives that were the focus of ‘10 percent’ time included:
 
-- **[Better Rules](../projects/legislation-as-code/)** - This was a little serendipitous as the lead for a French team working on the same concept for their government was in NZ at the time we began the work. Matti (French visitor) was able to help kick off some of the original code thinking and support the coding of specific rule sets for a calculator. Brenda Wallace and Rachel Prosser worked on this and the work was later picked up by Nadia Webster.
+- **[Better Rules](/projects/legislation-as-code/)** - This was a little serendipitous as the lead for a French team working on the same concept for their government was in NZ at the time we began the work. Matti (French visitor) was able to help kick off some of the original code thinking and support the coding of specific rule sets for a calculator. Brenda Wallace and Rachel Prosser worked on this and the work was later picked up by Nadia Webster.
 
 - The **[Family Services Directory](/tools/)** kicked off in a similar way when the team was looking at location data and services, this grew into an additional MSD service.
 
-- **[Korerorero and the COVID calculator](../projects/covid/)**
+- **[Korerorero and the COVID calculator](/projects/covid/)**
 
-- **[Croissant](../projects/youth-voice/)**, to a degree, started from discussions around AI and natural language processing and its uses.
+- **[Croissant](/projects/youth-voice/)**, to a degree, started from discussions around AI and natural language processing and its uses.
 
 There was also some work undertaken on voice interaction with services as opposed to text.
 There were some ideas that did not fly.These included looking at bitcoin concepts to hold personal identity data, trying to expand Openfisca to other work, and some of the exploration of virtual reality.

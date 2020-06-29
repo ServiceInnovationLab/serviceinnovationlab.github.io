@@ -14,10 +14,10 @@ resources:
   - "[Beta testing guide](/process-tools/Testing - Beta guide.docx)"
   - "[Quality Assurance Pathway](/process-tools/Quality Assurance Pathway.xlsx)"
 other_process_phases:
-  - "[Engagement](/_process/process-engagement.md)"
-  - "[Pre-discovery and commissioning](/_process/process-prediscovery.md)"
-  - "[Discovery](/process-tools/_process/process-discovery.md))"
-  - "[Alpha and Beta testing](/_process/process-testing.md)"
+  - "[Engagement](/process/process-engagement)"
+  - "[Pre-discovery and commissioning](/process/process-prediscovery)"
+  - "[Discovery](/process/process-discovery)"
+  - "[Alpha and Beta testing](/process/process-testing)"
 ---
 
 ### Alpha and Beta testing

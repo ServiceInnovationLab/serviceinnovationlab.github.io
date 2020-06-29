@@ -18,13 +18,15 @@ report:
 media:
 ---
 
+<a name="heading-history"></a>
+
 ## History
 
 In 2012, the Better Public Services (BPS) initiative was formed with 10 focus areas for government. One of these, Result 10, aimed to improve interaction with government. Research uncovered many pain points for people when accessing government services, especially where they needed to interact with multiple government agencies. For example: when applying for financial support related to a significant life event such as having a baby. Poorly integrated digital services were pushing customers back to non-digital channels and this became the driver of our approach and work.
 
 In 2013 the Digital Service Council (DSC), comprising eight agencies, was established to provide governance to this programme. In 2014 priority was given to integrated services associated with [life events](https://www.ict.govt.nz/programmes-and-initiatives/government-service-innovation/result-10/research-exec-intro-methodology-concl/frequency-of-use-and-life-events/). DSC also agreed for agencies to develop a federated model of service delivery to reduce customer effort and deliver efficiencies for agencies.
 
-November 2015 a Service Innovation Reference Group (SIRG) was established to provide support to SIWG by detailing of the work programme and initiatives.
+November 2015 a Service Innovation Reference Group (SIRG) was established to provide support to SIWG – the new cross-agency DCE-level oversight Service Innovation Working Group – by detailing of the work programme and initiatives.
 
 [![Workshop hosted by the Lab team](/assets/img/about/lab workshop.png)](/assets/img/about/lab workshop.png)
 Hosting a cross-agency workshop at the Lab's offices
