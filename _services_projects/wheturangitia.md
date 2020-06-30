@@ -11,13 +11,12 @@ github_repo:
 report:
 media:
   - "[Bereaved parents get new info site but support remains inconsistent](https://www.stuff.co.nz/national/health/115880944/bereaved-parents-get-new-info-site-but-support-remains-inconsistent)"
-  - “[Awards Internal Affairs’ He Iti Kahurangi 2019 Spirit of Service Supreme Award]()”
   - "[A service design success story: Whetūrangitia](https://www.digital.govt.nz/blog/a-service-design-success-story-wheturangitia/)"
   - "[A brave conversation on the death of babies](https://www.digital.govt.nz/blog/a-brave-conversation-on-the-death-of-babies/)"
   - "[SmartStart](https://smartstart.services.govt.nz/)"
   - "[Te Hokinga ā Wairua](https://endoflife.services.govt.nz/welcome/)"
   - "[Whetūrangitia](https://wheturangitia.services.govt.nz/)"
-resources: "[Project's Resources/Templates](/templates/new-project)"
+resources:
 categories:
   - Ways-of-working
   - Partnerships
