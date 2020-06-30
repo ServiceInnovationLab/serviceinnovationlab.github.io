@@ -21,8 +21,6 @@ The Lab team became involved in ‘educational’ activities, as the idea of a G
 
 The day-long, twice-yearly Showcase is co-hosted by the Ministry for Business, Innovation and Employment and the Department of Internal Affairs. Venues have ranged from the Beehive, MBIE and Te Papa, the national museum. Its aim is to get public sector staff who are working on innovative projects, to talk and share ideas - and hopefully explore opportunities for agencies to collaborate.
 
-[Insert fish image]
-
 #### Videos from Showcase
 
 {{ "https://www.youtube.com/embed/jJBhzJ_Xf3s" | embed: "On December 3, 2019, Better for Business and the Office of the GCDO proudly presented the All-of-Government innovation showcase at Te Papa" }}

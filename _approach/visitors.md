@@ -12,7 +12,7 @@ github_repo:
 report:
 ---
 
-[![Visitors to the Service Innovation Lab](/assets/img/projects/lab-visitors.png)](/assets/img/projects/lab-visitors.png)
+[![Visitors to the Service Innovation Lab](/assets/img/projects/lab_visitors2.png)](/assets/img/projects/lab_visitors2.png)
 
 ### Weaving Māori principles into the Lab
 

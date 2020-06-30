@@ -41,7 +41,7 @@ Within five days they had a calculator that employers, employees and the self-em
 
 ### Responding with technology for a ‘touchless’ future - Korerorero
 
-As with the calculator, other work that began in anticipation of future need was the quick-build of the Korerorero framework. This runs a chatbot called Quinn, using what was learnt from [Police](/projects/virtual_reality/) with their hand-drawn animation in place of a live and costly 3D prototype.
+As with the calculator, other work that began in anticipation of future need was the quick-build of the Korerorero framework. This runs a chatbot called Quinn, using what was learnt from [Police](/projects/virtual-reality/) with their hand-drawn animation in place of a live and costly 3D prototype.
 
 Korerorero offers flexible integrations with existing services and enables a contactless user interface  - no touchscreen or keyboard is required, so it has the potential to replace touch screen kiosks for check-ins and information searches. Because it’s backed by IBM Watson there are options to integrate with knowledge bases. It could be run as a text-only interface in chat providers such as Whatsapp or as a voice online in a call centre.
 
@@ -56,7 +56,7 @@ COVID strengthens need to improve Community Services Card
 
 The impact of COVID meant many more people will face financial hardship and require a Community Services Card. The card enables automatic discounts on health care costs.
 
-For non-beneficiaries, applying for a card is a complex process that - [like a Rates Rebate](/projects/rate_rebate/) - has low uptake. The Government advises about 90,000 people each year by letter that they are eligible for the card, but only around 20,000 apply.
+For non-beneficiaries, applying for a card is a complex process that - [like a Rates Rebate](/projects/rate-rebate/) - has low uptake. The Government advises about 90,000 people each year by letter that they are eligible for the card, but only around 20,000 apply.
 
 Fortunately, the Ministry of Health had already commissioned a piece of work that had DIA’s Life Events team working with Lab support on improving uptake.
 

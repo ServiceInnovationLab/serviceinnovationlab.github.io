@@ -31,7 +31,7 @@ This led to several pilots, prototypes and further repurposing of reusable compo
 
 - **[Better Rules](/projects/legislation-as-code/)** - This was a little serendipitous as the lead for a French team working on the same concept for their government was in NZ at the time we began the work. Matti (French visitor) was able to help kick off some of the original code thinking and support the coding of specific rule sets for a calculator. Brenda Wallace and Rachel Prosser worked on this and the work was later picked up by Nadia Webster.
 
-- The **[Family Services Directory](/tools/)** kicked off in a similar way when the team was looking at location data and services, this grew into an additional MSD service.
+- The **[Family Services Directory](https://github.com/ServiceInnovationLab/FamilyServiceDirectorySearchinator-archived)** kicked off in a similar way when the team was looking at location data and services, this grew into an additional MSD service.
 
 - **[Korerorero and the COVID calculator](/projects/covid/)**
 
