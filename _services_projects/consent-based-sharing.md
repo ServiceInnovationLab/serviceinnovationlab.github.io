@@ -16,7 +16,7 @@ categories: Integrated-Services
 
 ## Why building a tool to explain a concept is better than just talking or writing about it
 
-*The Lab’s Stakeholder Relationship Manager Grant Carpenter describes the Feijoa Project and how an MVP tool helped the team explain the concept.*
+*The Lab’s Manager Grant Carpenter describes the Feijoa Project and how an MVP tool helped the team explain the concept.*
 
 Often when developing integrated services and supporting agencies that are working together, there’s a problem or issue that has been looked at many times but not progressed to any action.
 
