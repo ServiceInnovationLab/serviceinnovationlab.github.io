@@ -21,7 +21,7 @@ gridless: true
 <section class="nz-section">
   <div class="nz-grid">
     <h1>Overview</h1>
-    <p>TThis section includes a cross-section of different projects that tell the story of the Lab's work. The Lab played various roles including providing wrap-around support, working in partnership or bringing expert input. Each project includes a short case study and where available links to reports, resources, blogs and media.</p>
+    <p>This section includes a cross-section of different projects that tell the story of the Lab's work. The Lab played various roles including providing wrap-around support, working in partnership or bringing expert input. Each project includes a short case study and where available links to reports, resources, blogs and media.</p>
     <br />
   </div>
   
