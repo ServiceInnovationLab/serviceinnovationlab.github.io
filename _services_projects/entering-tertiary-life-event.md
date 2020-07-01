@@ -16,7 +16,7 @@ categories: Integrated-Services
 
 The tertiary education system assumes that learning is a linear path when in fact change and interruption are natural and will occur, especially for the youngest students. Together with TEC, we found several challenges people faced when entering tertiary education These include the quality and relevance of the information, the process they follow, and what stage they are at in their life.
 
-The final output of the discovery was a [research report](https://www.tec.govt.nz/assets/Publications-and-others/67c259b154/Transition-to-Tertiary-Life-Event-Final.pdf) and it recommends a number of opportunities for the education sector to explore further.
+The final output of the discovery was a [research report](https://www.tec.govt.nz/assets/Publications-and-others/Transition-to-Tertiary-Life-Event-Final.pdf) and it recommends a number of opportunities for the education sector to explore further.
 
 ## Approach and findings
 
