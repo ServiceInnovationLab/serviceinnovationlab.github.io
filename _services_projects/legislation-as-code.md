@@ -119,7 +119,7 @@ MPI is exploring the Better Rules approach for new legislation around food safet
 
 ## Work completed using Legislation as Code
 
-Our rules can be viewed at [https://rules.nz](https://rules.nz)
+Our rules can be viewed at [https://www.rules.nz/](https://www.rules.nz/)
 
 Birth of a Child (or welcoming a child into your whanau). Encoding entitlements related to the birth of a child (or welcoming a child into your whanau) into re-usable open legislation as code. This component was then used within [Smart Start - financial help](https://smartstart.services.govt.nz/financial-help). Child related entitlements encoded
 
